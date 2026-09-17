@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-09-17T16:58:05.514835+00:00",
+  "scope": "R03-R04 matched group sizes and finite-corpus selection stability",
+  "seed": 2026091704,
+  "sizes": [
+    128,
+    256,
+    512
+  ],
+  "primary_size": 256,
+  "recipes": [
+    "mean",
+    "cls",
+    "sep"
+  ],
+  "repeats": 20,
+  "stability_small_cap": 256,
+  "stability_large_cap": 512,
+  "screen_max_median_change": 0.02,
+  "screen_max_central_width": 0.04,
+  "sample_order": "SHA256(seed:level:group:work_id), nested prefixes; no outcome-based selection",
+  "stability_sampling": "paired nested random draws from complete group; no replacement; same IDs for all models",
+  "period_selection": "observed pooled distribution for primary size control; separate 128-per-period Subfield control requires all five cells >=128",
+  "minimum_stability_rows": 8,
+  "output": "data/robustness_v2/subfield_controls"
+}

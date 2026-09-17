@@ -1,0 +1,513 @@
+{
+  "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:!null",
+  "corpus": "core",
+  "calls": [
+    {
+      "label": "fields",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:!null",
+        "group_by": "primary_topic.field.id",
+        "per_page": 100
+      },
+      "seconds": 0.6972329589989386,
+      "bytes": 4020,
+      "count": 67202824,
+      "retrieved_at_utc": "2026-09-14T16:18:26.235730+00:00"
+    },
+    {
+      "label": "years_27",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:27",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.30638741700386163,
+      "bytes": 2815,
+      "count": 12865233,
+      "retrieved_at_utc": "2026-09-14T16:18:26.748200+00:00"
+    },
+    {
+      "label": "years_22",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:22",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.2296327080039191,
+      "bytes": 2815,
+      "count": 11030620,
+      "retrieved_at_utc": "2026-09-14T16:18:27.182053+00:00"
+    },
+    {
+      "label": "years_33",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:33",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.5840461249972577,
+      "bytes": 2812,
+      "count": 6765301,
+      "retrieved_at_utc": "2026-09-14T16:18:27.970212+00:00"
+    },
+    {
+      "label": "years_17",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:17",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.19284862500353483,
+      "bytes": 2812,
+      "count": 5463685,
+      "retrieved_at_utc": "2026-09-14T16:18:28.364249+00:00"
+    },
+    {
+      "label": "years_13",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:13",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.22951883300265763,
+      "bytes": 2810,
+      "count": 3874642,
+      "retrieved_at_utc": "2026-09-14T16:18:28.795004+00:00"
+    },
+    {
+      "label": "years_11",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:11",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.2079637080023531,
+      "bytes": 2805,
+      "count": 3126450,
+      "retrieved_at_utc": "2026-09-14T16:18:29.203958+00:00"
+    },
+    {
+      "label": "years_23",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:23",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.26842575000046054,
+      "bytes": 2806,
+      "count": 3048248,
+      "retrieved_at_utc": "2026-09-14T16:18:29.674363+00:00"
+    },
+    {
+      "label": "years_31",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:31",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.180216125001607,
+      "bytes": 2803,
+      "count": 2390795,
+      "retrieved_at_utc": "2026-09-14T16:18:30.055655+00:00"
+    },
+    {
+      "label": "years_25",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:25",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.2837263749970589,
+      "bytes": 2803,
+      "count": 2261374,
+      "retrieved_at_utc": "2026-09-14T16:18:30.542984+00:00"
+    },
+    {
+      "label": "years_12",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:12",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.21303987500141375,
+      "bytes": 2798,
+      "count": 2050317,
+      "retrieved_at_utc": "2026-09-14T16:18:30.958247+00:00"
+    },
+    {
+      "label": "years_14",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:14",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.20085170800302876,
+      "bytes": 2795,
+      "count": 1914983,
+      "retrieved_at_utc": "2026-09-14T16:18:31.361606+00:00"
+    },
+    {
+      "label": "years_32",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:32",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.18560799999977462,
+      "bytes": 2794,
+      "count": 1794221,
+      "retrieved_at_utc": "2026-09-14T16:18:31.752464+00:00"
+    },
+    {
+      "label": "years_20",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:20",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.1981989580017398,
+      "bytes": 2789,
+      "count": 1552690,
+      "retrieved_at_utc": "2026-09-14T16:18:32.151234+00:00"
+    },
+    {
+      "label": "years_16",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:16",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.19762004099902697,
+      "bytes": 2789,
+      "count": 1435329,
+      "retrieved_at_utc": "2026-09-14T16:18:32.552461+00:00"
+    },
+    {
+      "label": "years_36",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:36",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.174285333006992,
+      "bytes": 2790,
+      "count": 1401323,
+      "retrieved_at_utc": "2026-09-14T16:18:32.931877+00:00"
+    },
+    {
+      "label": "years_19",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:19",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.23866937500133645,
+      "bytes": 2789,
+      "count": 1173629,
+      "retrieved_at_utc": "2026-09-14T16:18:33.372168+00:00"
+    },
+    {
+      "label": "years_28",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:28",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.187034542002948,
+      "bytes": 2789,
+      "count": 1096607,
+      "retrieved_at_utc": "2026-09-14T16:18:33.761021+00:00"
+    },
+    {
+      "label": "years_26",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:26",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.3609494580014143,
+      "bytes": 2788,
+      "count": 861652,
+      "retrieved_at_utc": "2026-09-14T16:18:34.325454+00:00"
+    },
+    {
+      "label": "years_24",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:24",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.16964274999918416,
+      "bytes": 2788,
+      "count": 711237,
+      "retrieved_at_utc": "2026-09-14T16:18:34.700241+00:00"
+    },
+    {
+      "label": "years_18",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:18",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.17153791600139812,
+      "bytes": 2786,
+      "count": 655430,
+      "retrieved_at_utc": "2026-09-14T16:18:35.073110+00:00"
+    },
+    {
+      "label": "years_21",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:21",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.27495441600331105,
+      "bytes": 2780,
+      "count": 446274,
+      "retrieved_at_utc": "2026-09-14T16:18:35.553278+00:00"
+    },
+    {
+      "label": "years_29",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:29",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.20814045899896882,
+      "bytes": 2780,
+      "count": 342955,
+      "retrieved_at_utc": "2026-09-14T16:18:35.962956+00:00"
+    },
+    {
+      "label": "years_35",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:35",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.30041883300145855,
+      "bytes": 2778,
+      "count": 330695,
+      "retrieved_at_utc": "2026-09-14T16:18:36.468525+00:00"
+    },
+    {
+      "label": "years_30",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:30",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.20061945800262038,
+      "bytes": 2780,
+      "count": 295633,
+      "retrieved_at_utc": "2026-09-14T16:18:36.870763+00:00"
+    },
+    {
+      "label": "years_15",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:15",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.23522679100278765,
+      "bytes": 2767,
+      "count": 209271,
+      "retrieved_at_utc": "2026-09-14T16:18:37.309042+00:00"
+    },
+    {
+      "label": "years_34",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:34",
+        "group_by": "publication_year",
+        "per_page": 100
+      },
+      "seconds": 0.29403770799399354,
+      "bytes": 2763,
+      "count": 104230,
+      "retrieved_at_utc": "2026-09-14T16:18:37.805910+00:00"
+    },
+    {
+      "label": "global_1",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:!null",
+        "sample": 400,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 0.8155784999980824,
+      "bytes": 266440,
+      "count": 400,
+      "retrieved_at_utc": "2026-09-14T16:18:38.829777+00:00"
+    },
+    {
+      "label": "global_2",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:!null",
+        "sample": 400,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 2,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 1.2505305829981808,
+      "bytes": 284022,
+      "count": 400,
+      "retrieved_at_utc": "2026-09-14T16:18:40.286221+00:00"
+    },
+    {
+      "label": "global_3",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:!null",
+        "sample": 400,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 3,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 0.9396760000017821,
+      "bytes": 305718,
+      "count": 400,
+      "retrieved_at_utc": "2026-09-14T16:18:41.435789+00:00"
+    },
+    {
+      "label": "global_4",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:!null",
+        "sample": 400,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 4,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 0.8634602499951143,
+      "bytes": 295985,
+      "count": 400,
+      "retrieved_at_utc": "2026-09-14T16:18:42.508796+00:00"
+    },
+    {
+      "label": "veterinary",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:34",
+        "sample": 100,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 0.7554573749948759,
+      "bytes": 316443,
+      "count": 100,
+      "retrieved_at_utc": "2026-09-14T16:18:43.474650+00:00"
+    },
+    {
+      "label": "arts",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:12",
+        "sample": 100,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 0.716450125000847,
+      "bytes": 282207,
+      "count": 100,
+      "retrieved_at_utc": "2026-09-14T16:18:44.395900+00:00"
+    },
+    {
+      "label": "computer_science",
+      "parameters": {
+        "corpus": "core",
+        "filter": "publication_year:2000-2024,type:article|review|conference-paper,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:17",
+        "sample": 100,
+        "seed": 20260914,
+        "per_page": 100,
+        "page": 1,
+        "select": "id,doi,title,abstract_inverted_index,publication_year,type,language,primary_topic,is_retracted,is_paratext"
+      },
+      "seconds": 0.6771112499991432,
+      "bytes": 264684,
+      "count": 100,
+      "retrieved_at_utc": "2026-09-14T16:18:45.280985+00:00"
+    }
+  ],
+  "quality": {
+    "global": {
+      "total": 400,
+      "abstract_reconstructable": 395,
+      "nonempty_title_abstract": 393,
+      "title_ge1_abstract_ge50": 357,
+      "title_ge1_abstract_ge80": 315,
+      "old_title_ge5_abstract_ge80": 310,
+      "existing_local_id": 4
+    },
+    "veterinary": {
+      "total": 100,
+      "abstract_reconstructable": 100,
+      "nonempty_title_abstract": 100,
+      "title_ge1_abstract_ge50": 91,
+      "title_ge1_abstract_ge80": 90,
+      "old_title_ge5_abstract_ge80": 90,
+      "existing_local_id": 25
+    },
+    "arts": {
+      "total": 100,
+      "abstract_reconstructable": 98,
+      "nonempty_title_abstract": 98,
+      "title_ge1_abstract_ge50": 82,
+      "title_ge1_abstract_ge80": 69,
+      "old_title_ge5_abstract_ge80": 69,
+      "existing_local_id": 6
+    },
+    "computer_science": {
+      "total": 100,
+      "abstract_reconstructable": 98,
+      "nonempty_title_abstract": 98,
+      "title_ge1_abstract_ge50": 90,
+      "title_ge1_abstract_ge80": 78,
+      "old_title_ge5_abstract_ge80": 78,
+      "existing_local_id": 2
+    }
+  },
+  "pages_median_seconds": 0.8155784999980824,
+  "pages_range_seconds": [
+    0.6771112499991432,
+    1.2505305829981808
+  ],
+  "note": "400 global random candidates plus 100 in each of three areas; exploratory acceptance rates, not population guarantees"
+}

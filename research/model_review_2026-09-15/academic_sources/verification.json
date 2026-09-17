@@ -1,0 +1,18 @@
+{
+  "study_count": 10,
+  "frequency_table_matches_records": true,
+  "all_local_markdown_links_exist": true,
+  "documents_checked": [
+    "ACADEMIC_MODEL_USAGE.md",
+    "MODEL_SELECTION.md",
+    "research/MODEL_SELECTION_diversity_proposal.md",
+    "AGENTS.md",
+    "DECISIONS.md",
+    "progress.md",
+    "findings.md",
+    "task_plan.md",
+    "NEXT_STEPS.md",
+    "03_bibliography_related_work-2.md"
+  ],
+  "scope": "descriptive literature review; no corpus or model computation"
+}

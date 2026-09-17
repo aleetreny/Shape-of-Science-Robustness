@@ -1,0 +1,18 @@
+{
+  "language_rows_aligned_to_corpus": 500000,
+  "id_order_text_hash_mismatches": 0,
+  "by_cohort": [
+    {
+      "cohort": "base",
+      "n": 400000,
+      "non_en": 7218,
+      "non_en_score_ge_09": 4328
+    },
+    {
+      "cohort": "extra",
+      "n": 100000,
+      "non_en": 1326,
+      "non_en_score_ge_09": 794
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "identifier": "doi:10.18653/v1/2020.acl-main.207",
+    "field": "title",
+    "api": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+    "editorial": "{SPECTER}: Document-level Representation Learning using Citation-informed Transformers",
+    "source": "https://aclanthology.org/2020.acl-main.207.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2021.emnlp-main.552",
+    "field": "title",
+    "api": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+    "editorial": "{S}im{CSE}: Simple Contrastive Learning of Sentence Embeddings",
+    "source": "https://aclanthology.org/2021.emnlp-main.552.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2023.emnlp-main.338",
+    "field": "title",
+    "api": "SciRepEval: A Multi-Format Benchmark for Scientific Document Representations",
+    "editorial": "{S}ci{R}ep{E}val: A Multi-Format Benchmark for Scientific Document Representations",
+    "source": "https://aclanthology.org/2023.emnlp-main.338.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2023.emnlp-main.338",
+    "field": "author",
+    "api": "Singh, Amanpreet and D’Arcy, Mike and Cohan, Arman and Downey, Doug and Feldman, Sergey",
+    "editorial": "Singh, Amanpreet  and\n      D{'}Arcy, Mike  and\n      Cohan, Arman  and\n      Downey, Doug  and\n      Feldman, Sergey",
+    "source": "https://aclanthology.org/2023.emnlp-main.338.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2024.sdp-1.27",
+    "field": "title",
+    "api": "CoSAEmb: Contrastive Section-aware Aspect Embeddings for Scientific Articles",
+    "editorial": "{C}o{SAE}mb: Contrastive Section-aware Aspect Embeddings for Scientific Articles",
+    "source": "https://aclanthology.org/2024.sdp-1.27.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2025.emnlp-main.1662",
+    "field": "pages",
+    "api": "32692--32707",
+    "editorial": "32704--32719",
+    "source": "https://aclanthology.org/2025.emnlp-main.1662.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2025.emnlp-main.1662",
+    "field": "title",
+    "api": "SemCSE: Semantic Contrastive Sentence Embeddings Using LLM-Generated Summaries For Scientific Abstracts",
+    "editorial": "{S}em{CSE}: Semantic Contrastive Sentence Embeddings Using {LLM}-Generated Summaries For Scientific Abstracts",
+    "source": "https://aclanthology.org/2025.emnlp-main.1662.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2025.emnlp-main.1662",
+    "field": "author",
+    "api": "Brinner, Marc Felix and Zarrieß, Sina",
+    "editorial": "Brinner, Marc Felix  and\n      Zarrie{\\ss}, Sina",
+    "source": "https://aclanthology.org/2025.emnlp-main.1662.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2026.acl-long.1884",
+    "field": "title",
+    "api": "SemCSE-Multi: Multifaceted and Decodable Embeddings for Aspect-Specific and Interpretable Scientific Domain Mapping",
+    "editorial": "{S}em{CSE}-Multi: Multifaceted and Decodable Embeddings for Aspect-Specific and Interpretable Scientific Domain Mapping",
+    "source": "https://aclanthology.org/2026.acl-long.1884.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2026.acl-long.1884",
+    "field": "author",
+    "api": "Brinner, Marc and Zarrieß, Sina",
+    "editorial": "Brinner, Marc  and\n      Zarrie{\\ss}, Sina",
+    "source": "https://aclanthology.org/2026.acl-long.1884.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/D19-1371",
+    "field": "pages",
+    "api": "3613--3618",
+    "editorial": "3615--3620",
+    "source": "https://aclanthology.org/D19-1371.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/D19-1371",
+    "field": "title",
+    "api": "SciBERT: A Pretrained Language Model for Scientific Text",
+    "editorial": "{S}ci{BERT}: A Pretrained Language Model for Scientific Text",
+    "source": "https://aclanthology.org/D19-1371.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/N19-1423",
+    "field": "title",
+    "api": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "editorial": "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "source": "https://aclanthology.org/N19-1423.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/D19-1410",
+    "field": "pages",
+    "api": "3980--3990",
+    "editorial": "3982--3992",
+    "source": "https://aclanthology.org/D19-1410.bib"
+  },
+  {
+    "identifier": "doi:10.18653/v1/D19-1410",
+    "field": "title",
+    "api": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "editorial": "Sentence-{BERT}: Sentence Embeddings using {S}iamese {BERT}-Networks",
+    "source": "https://aclanthology.org/D19-1410.bib"
+  }
+]

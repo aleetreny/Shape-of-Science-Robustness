@@ -1,0 +1,2101 @@
+model,field_id,field,period_start,cohort,rows,truncated,truncated_percent
+specter,11,Agricultural and Biological Sciences,2000,base,1663,100,6.013229104028864
+specter,11,Agricultural and Biological Sciences,2000,extra,503,26,5.168986083499006
+specter,11,Agricultural and Biological Sciences,2005,base,2528,172,6.80379746835443
+specter,11,Agricultural and Biological Sciences,2010,base,3940,252,6.395939086294416
+specter,11,Agricultural and Biological Sciences,2015,base,4298,319,7.422056770590973
+specter,11,Agricultural and Biological Sciences,2020,base,6491,529,8.149745801879526
+specter,12,Arts and Humanities,2000,base,847,96,11.334120425029516
+specter,12,Arts and Humanities,2000,extra,1319,141,10.689916603487491
+specter,12,Arts and Humanities,2005,base,1551,180,11.60541586073501
+specter,12,Arts and Humanities,2005,extra,615,83,13.495934959349594
+specter,12,Arts and Humanities,2010,base,2186,250,11.436413540713632
+specter,12,Arts and Humanities,2015,base,2732,288,10.541727672035138
+specter,12,Arts and Humanities,2020,base,3380,462,13.668639053254438
+specter,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,166,6.0606060606060606
+specter,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,246,6.04274134119381
+specter,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,324,6.170253285088554
+specter,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,464,8.291636883488206
+specter,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,487,7.119883040935672
+specter,14,"Business, Management and Accounting",2000,base,762,28,3.674540682414698
+specter,14,"Business, Management and Accounting",2000,extra,1404,35,2.492877492877493
+specter,14,"Business, Management and Accounting",2005,base,1489,50,3.3579583613163195
+specter,14,"Business, Management and Accounting",2005,extra,677,18,2.658788774002954
+specter,14,"Business, Management and Accounting",2010,base,2186,61,2.7904849039341264
+specter,14,"Business, Management and Accounting",2015,base,2660,111,4.172932330827067
+specter,14,"Business, Management and Accounting",2020,base,4040,142,3.514851485148515
+specter,15,Chemical Engineering,2000,base,161,3,1.8633540372670807
+specter,15,Chemical Engineering,2000,extra,2005,43,2.144638403990025
+specter,15,Chemical Engineering,2005,base,214,3,1.4018691588785046
+specter,15,Chemical Engineering,2005,extra,1952,48,2.459016393442623
+specter,15,Chemical Engineering,2010,base,246,7,2.845528455284553
+specter,15,Chemical Engineering,2010,extra,1920,59,3.0729166666666665
+specter,15,Chemical Engineering,2015,base,255,4,1.5686274509803921
+specter,15,Chemical Engineering,2015,extra,1911,45,2.3547880690737832
+specter,15,Chemical Engineering,2020,base,319,7,2.19435736677116
+specter,15,Chemical Engineering,2020,extra,1847,55,2.977801840822956
+specter,16,Chemistry,2000,base,931,36,3.866809881847476
+specter,16,Chemistry,2000,extra,1235,52,4.2105263157894735
+specter,16,Chemistry,2005,base,1358,37,2.72459499263623
+specter,16,Chemistry,2005,extra,808,36,4.455445544554456
+specter,16,Chemistry,2010,base,1686,64,3.795966785290629
+specter,16,Chemistry,2010,extra,480,18,3.75
+specter,16,Chemistry,2015,base,1555,49,3.1511254019292605
+specter,16,Chemistry,2015,extra,611,24,3.927986906710311
+specter,16,Chemistry,2020,base,1760,61,3.465909090909091
+specter,16,Chemistry,2020,extra,406,21,5.172413793103448
+specter,17,Computer Science,2000,base,3310,37,1.1178247734138973
+specter,17,Computer Science,2005,base,5594,62,1.1083303539506615
+specter,17,Computer Science,2010,base,7094,73,1.0290386241894558
+specter,17,Computer Science,2015,base,6858,123,1.7935258092738409
+specter,17,Computer Science,2020,base,9972,210,2.10589651022864
+specter,18,Decision Sciences,2000,base,290,8,2.7586206896551726
+specter,18,Decision Sciences,2000,extra,1876,51,2.718550106609808
+specter,18,Decision Sciences,2005,base,567,24,4.232804232804233
+specter,18,Decision Sciences,2005,extra,1599,36,2.25140712945591
+specter,18,Decision Sciences,2010,base,883,28,3.1710079275198186
+specter,18,Decision Sciences,2010,extra,1283,36,2.8059236165237724
+specter,18,Decision Sciences,2015,base,921,29,3.1487513572204127
+specter,18,Decision Sciences,2015,extra,1245,35,2.8112449799196786
+specter,18,Decision Sciences,2020,base,1156,36,3.114186851211073
+specter,18,Decision Sciences,2020,extra,1010,31,3.0693069306930694
+specter,19,Earth and Planetary Sciences,2000,base,851,64,7.520564042303173
+specter,19,Earth and Planetary Sciences,2000,extra,1315,106,8.060836501901141
+specter,19,Earth and Planetary Sciences,2005,base,1203,92,7.647547797173733
+specter,19,Earth and Planetary Sciences,2005,extra,963,62,6.438213914849429
+specter,19,Earth and Planetary Sciences,2010,base,1604,108,6.733167082294265
+specter,19,Earth and Planetary Sciences,2010,extra,562,42,7.473309608540926
+specter,19,Earth and Planetary Sciences,2015,base,1716,137,7.983682983682984
+specter,19,Earth and Planetary Sciences,2015,extra,450,43,9.555555555555555
+specter,19,Earth and Planetary Sciences,2020,base,1882,163,8.660998937300745
+specter,19,Earth and Planetary Sciences,2020,extra,284,23,8.098591549295774
+specter,20,"Economics, Econometrics and Finance",2000,base,773,36,4.657179818887451
+specter,20,"Economics, Econometrics and Finance",2000,extra,1393,61,4.379038047379756
+specter,20,"Economics, Econometrics and Finance",2005,base,1236,55,4.449838187702265
+specter,20,"Economics, Econometrics and Finance",2005,extra,930,35,3.763440860215054
+specter,20,"Economics, Econometrics and Finance",2010,base,1849,99,5.354245538128718
+specter,20,"Economics, Econometrics and Finance",2010,extra,317,12,3.7854889589905363
+specter,20,"Economics, Econometrics and Finance",2015,base,1917,91,4.747000521648409
+specter,20,"Economics, Econometrics and Finance",2015,extra,249,9,3.6144578313253013
+specter,20,"Economics, Econometrics and Finance",2020,base,2845,164,5.764499121265378
+specter,21,Energy,2000,base,116,2,1.7241379310344827
+specter,21,Energy,2000,extra,2050,66,3.2195121951219514
+specter,21,Energy,2005,base,240,8,3.3333333333333335
+specter,21,Energy,2005,extra,1926,47,2.4402907580477673
+specter,21,Energy,2010,base,591,13,2.1996615905245345
+specter,21,Energy,2010,extra,1575,24,1.5238095238095237
+specter,21,Energy,2015,base,680,20,2.9411764705882355
+specter,21,Energy,2015,extra,1486,32,2.1534320323014806
+specter,21,Energy,2020,base,990,16,1.6161616161616161
+specter,21,Energy,2020,extra,1176,25,2.1258503401360542
+specter,22,Engineering,2000,base,6990,93,1.3304721030042919
+specter,22,Engineering,2005,base,11310,159,1.4058355437665782
+specter,22,Engineering,2010,base,15203,216,1.420772216009998
+specter,22,Engineering,2015,base,14738,310,2.1034061609444974
+specter,22,Engineering,2020,base,18907,391,2.0680171365102873
+specter,23,Environmental Science,2000,base,1751,85,4.854368932038835
+specter,23,Environmental Science,2000,extra,415,22,5.301204819277109
+specter,23,Environmental Science,2005,base,2876,135,4.694019471488178
+specter,23,Environmental Science,2010,base,4005,189,4.719101123595506
+specter,23,Environmental Science,2015,base,4018,254,6.321553011448482
+specter,23,Environmental Science,2020,base,5919,347,5.862476769724616
+specter,24,Immunology and Microbiology,2000,base,534,25,4.681647940074907
+specter,24,Immunology and Microbiology,2000,extra,1632,105,6.4338235294117645
+specter,24,Immunology and Microbiology,2005,base,764,60,7.853403141361256
+specter,24,Immunology and Microbiology,2005,extra,1402,98,6.990014265335235
+specter,24,Immunology and Microbiology,2010,base,924,71,7.683982683982684
+specter,24,Immunology and Microbiology,2010,extra,1242,96,7.729468599033816
+specter,24,Immunology and Microbiology,2015,base,1028,95,9.24124513618677
+specter,24,Immunology and Microbiology,2015,extra,1138,108,9.490333919156415
+specter,24,Immunology and Microbiology,2020,base,1206,121,10.033167495854062
+specter,24,Immunology and Microbiology,2020,extra,960,104,10.833333333333334
+specter,25,Materials Science,2000,base,1292,28,2.1671826625387
+specter,25,Materials Science,2000,extra,874,12,1.3729977116704806
+specter,25,Materials Science,2005,base,2142,46,2.1475256769374416
+specter,25,Materials Science,2005,extra,24,1,4.166666666666667
+specter,25,Materials Science,2010,base,2962,49,1.6542876434841323
+specter,25,Materials Science,2015,base,3152,75,2.3794416243654823
+specter,25,Materials Science,2020,base,3787,134,3.5384209136519673
+specter,26,Mathematics,2000,base,386,8,2.0725388601036268
+specter,26,Mathematics,2000,extra,1780,29,1.6292134831460674
+specter,26,Mathematics,2005,base,639,7,1.0954616588419406
+specter,26,Mathematics,2005,extra,1527,14,0.91683038637852
+specter,26,Mathematics,2010,base,893,12,1.343784994400896
+specter,26,Mathematics,2010,extra,1273,21,1.6496465043205029
+specter,26,Mathematics,2015,base,1108,23,2.0758122743682312
+specter,26,Mathematics,2015,extra,1058,15,1.4177693761814745
+specter,26,Mathematics,2020,base,1555,41,2.6366559485530545
+specter,26,Mathematics,2020,extra,611,21,3.436988543371522
+specter,27,Medicine,2000,base,7128,577,8.094837261503928
+specter,27,Medicine,2005,base,10946,929,8.487118582130458
+specter,27,Medicine,2010,base,15771,1528,9.688669076152431
+specter,27,Medicine,2015,base,18629,2191,11.761232486982662
+specter,27,Medicine,2020,base,26195,3384,12.91849589616339
+specter,28,Neuroscience,2000,base,718,29,4.03899721448468
+specter,28,Neuroscience,2000,extra,1448,76,5.248618784530387
+specter,28,Neuroscience,2005,base,1005,48,4.776119402985074
+specter,28,Neuroscience,2005,extra,1161,46,3.962101636520241
+specter,28,Neuroscience,2010,base,1408,69,4.900568181818182
+specter,28,Neuroscience,2010,extra,758,35,4.617414248021108
+specter,28,Neuroscience,2015,base,1640,83,5.060975609756097
+specter,28,Neuroscience,2015,extra,526,30,5.7034220532319395
+specter,28,Neuroscience,2020,base,2053,119,5.7963955187530445
+specter,28,Neuroscience,2020,extra,113,11,9.734513274336283
+specter,29,Nursing,2000,base,182,13,7.142857142857143
+specter,29,Nursing,2000,extra,1984,141,7.106854838709677
+specter,29,Nursing,2005,base,285,22,7.719298245614035
+specter,29,Nursing,2005,extra,1881,116,6.166932482721957
+specter,29,Nursing,2010,base,453,25,5.518763796909492
+specter,29,Nursing,2010,extra,1713,111,6.479859894921191
+specter,29,Nursing,2015,base,497,46,9.25553319919517
+specter,29,Nursing,2015,extra,1669,148,8.867585380467347
+specter,29,Nursing,2020,base,660,65,9.848484848484848
+specter,29,Nursing,2020,extra,1506,141,9.362549800796813
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,8,5.194805194805195
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,141,7.007952286282306
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,15,5.514705882352941
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,88,4.646251319957761
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,26,5.882352941176471
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,58,3.3642691415313224
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,26,6.914893617021277
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,150,8.379888268156424
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,31,6.581740976645436
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,125,7.374631268436578
+specter,31,Physics and Astronomy,2000,base,2116,46,2.1739130434782608
+specter,31,Physics and Astronomy,2000,extra,50,1,2.0
+specter,31,Physics and Astronomy,2005,base,2704,69,2.551775147928994
+specter,31,Physics and Astronomy,2010,base,3094,76,2.4563671622495153
+specter,31,Physics and Astronomy,2015,base,3388,72,2.125147579693034
+specter,31,Physics and Astronomy,2020,base,3470,91,2.622478386167147
+specter,32,Psychology,2000,base,838,37,4.41527446300716
+specter,32,Psychology,2000,extra,1328,63,4.743975903614458
+specter,32,Psychology,2005,base,1342,60,4.470938897168406
+specter,32,Psychology,2005,extra,824,41,4.975728155339806
+specter,32,Psychology,2010,base,2089,94,4.4997606510292005
+specter,32,Psychology,2010,extra,77,2,2.5974025974025974
+specter,32,Psychology,2015,base,2577,113,4.384943733022895
+specter,32,Psychology,2020,base,3970,237,5.969773299748111
+specter,33,Social Sciences,2000,base,2776,146,5.259365994236311
+specter,33,Social Sciences,2005,base,4893,313,6.396893521357041
+specter,33,Social Sciences,2010,base,7110,423,5.949367088607595
+specter,33,Social Sciences,2015,base,8891,613,6.894612529524238
+specter,33,Social Sciences,2020,base,13879,915,6.592693998126666
+specter,34,Veterinary,2000,base,58,1,1.7241379310344827
+specter,34,Veterinary,2000,extra,2108,149,7.06831119544592
+specter,34,Veterinary,2005,base,100,10,10.0
+specter,34,Veterinary,2005,extra,2066,154,7.454017424975799
+specter,34,Veterinary,2010,base,107,11,10.280373831775702
+specter,34,Veterinary,2010,extra,2058,159,7.725947521865889
+specter,34,Veterinary,2015,base,165,13,7.878787878787879
+specter,34,Veterinary,2015,extra,2000,191,9.55
+specter,34,Veterinary,2020,base,212,34,16.037735849056602
+specter,34,Veterinary,2020,extra,1953,250,12.800819252432156
+specter,35,Dentistry,2000,base,159,5,3.1446540880503147
+specter,35,Dentistry,2000,extra,2006,102,5.084745762711864
+specter,35,Dentistry,2005,base,260,16,6.153846153846154
+specter,35,Dentistry,2005,extra,1905,67,3.5170603674540684
+specter,35,Dentistry,2010,base,441,15,3.401360544217687
+specter,35,Dentistry,2010,extra,1724,78,4.524361948955916
+specter,35,Dentistry,2015,base,544,37,6.801470588235294
+specter,35,Dentistry,2015,extra,1621,75,4.626773596545342
+specter,35,Dentistry,2020,base,834,49,5.875299760191846
+specter,35,Dentistry,2020,extra,1331,97,7.2877535687453046
+specter,36,Health Professions,2000,base,589,47,7.979626485568761
+specter,36,Health Professions,2000,extra,1576,124,7.868020304568528
+specter,36,Health Professions,2005,base,933,53,5.680600214362272
+specter,36,Health Professions,2005,extra,1232,90,7.305194805194805
+specter,36,Health Professions,2010,base,1504,112,7.446808510638298
+specter,36,Health Professions,2010,extra,661,48,7.2617246596066565
+specter,36,Health Professions,2015,base,1877,157,8.364411294619073
+specter,36,Health Professions,2015,extra,288,21,7.291666666666667
+specter,36,Health Professions,2020,base,2833,261,9.21284857042005
+specter2,11,Agricultural and Biological Sciences,2000,base,1663,87,5.231509320505111
+specter2,11,Agricultural and Biological Sciences,2000,extra,503,23,4.572564612326044
+specter2,11,Agricultural and Biological Sciences,2005,base,2528,150,5.9335443037974684
+specter2,11,Agricultural and Biological Sciences,2010,base,3940,225,5.710659898477157
+specter2,11,Agricultural and Biological Sciences,2015,base,4298,271,6.305258259655654
+specter2,11,Agricultural and Biological Sciences,2020,base,6491,456,7.0251116931135416
+specter2,12,Arts and Humanities,2000,base,847,91,10.743801652892563
+specter2,12,Arts and Humanities,2000,extra,1319,137,10.386656557998483
+specter2,12,Arts and Humanities,2005,base,1551,167,10.767246937459703
+specter2,12,Arts and Humanities,2005,extra,615,82,13.333333333333334
+specter2,12,Arts and Humanities,2010,base,2186,231,10.567246111619395
+specter2,12,Arts and Humanities,2015,base,2732,276,10.102489019033674
+specter2,12,Arts and Humanities,2020,base,3380,436,12.899408284023668
+specter2,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,131,4.782767433369843
+specter2,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,207,5.084745762711864
+specter2,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,273,5.199009712435727
+specter2,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,381,6.8084345961401
+specter2,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,400,5.847953216374269
+specter2,14,"Business, Management and Accounting",2000,base,762,25,3.2808398950131235
+specter2,14,"Business, Management and Accounting",2000,extra,1404,32,2.2792022792022792
+specter2,14,"Business, Management and Accounting",2005,base,1489,48,3.223640026863667
+specter2,14,"Business, Management and Accounting",2005,extra,677,17,2.511078286558346
+specter2,14,"Business, Management and Accounting",2010,base,2186,55,2.516010978956999
+specter2,14,"Business, Management and Accounting",2015,base,2660,100,3.7593984962406015
+specter2,14,"Business, Management and Accounting",2020,base,4040,121,2.995049504950495
+specter2,15,Chemical Engineering,2000,base,161,2,1.2422360248447204
+specter2,15,Chemical Engineering,2000,extra,2005,34,1.6957605985037407
+specter2,15,Chemical Engineering,2005,base,214,3,1.4018691588785046
+specter2,15,Chemical Engineering,2005,extra,1952,44,2.2540983606557377
+specter2,15,Chemical Engineering,2010,base,246,7,2.845528455284553
+specter2,15,Chemical Engineering,2010,extra,1920,49,2.5520833333333335
+specter2,15,Chemical Engineering,2015,base,255,3,1.1764705882352942
+specter2,15,Chemical Engineering,2015,extra,1911,39,2.0408163265306123
+specter2,15,Chemical Engineering,2020,base,319,7,2.19435736677116
+specter2,15,Chemical Engineering,2020,extra,1847,47,2.5446670276123444
+specter2,16,Chemistry,2000,base,931,31,3.329752953813104
+specter2,16,Chemistry,2000,extra,1235,50,4.048582995951417
+specter2,16,Chemistry,2005,base,1358,33,2.430044182621502
+specter2,16,Chemistry,2005,extra,808,35,4.3316831683168315
+specter2,16,Chemistry,2010,base,1686,59,3.4994068801897984
+specter2,16,Chemistry,2010,extra,480,15,3.125
+specter2,16,Chemistry,2015,base,1555,44,2.829581993569132
+specter2,16,Chemistry,2015,extra,611,21,3.436988543371522
+specter2,16,Chemistry,2020,base,1760,57,3.2386363636363638
+specter2,16,Chemistry,2020,extra,406,19,4.679802955665025
+specter2,17,Computer Science,2000,base,3310,35,1.0574018126888218
+specter2,17,Computer Science,2005,base,5594,59,1.0547014658562746
+specter2,17,Computer Science,2010,base,7094,69,0.9726529461516775
+specter2,17,Computer Science,2015,base,6858,115,1.6768737241178187
+specter2,17,Computer Science,2020,base,9972,194,1.945447252306458
+specter2,18,Decision Sciences,2000,base,290,7,2.413793103448276
+specter2,18,Decision Sciences,2000,extra,1876,48,2.55863539445629
+specter2,18,Decision Sciences,2005,base,567,22,3.880070546737213
+specter2,18,Decision Sciences,2005,extra,1599,35,2.188868042526579
+specter2,18,Decision Sciences,2010,base,883,27,3.057757644394111
+specter2,18,Decision Sciences,2010,extra,1283,36,2.8059236165237724
+specter2,18,Decision Sciences,2015,base,921,28,3.040173724212812
+specter2,18,Decision Sciences,2015,extra,1245,33,2.6506024096385543
+specter2,18,Decision Sciences,2020,base,1156,29,2.508650519031142
+specter2,18,Decision Sciences,2020,extra,1010,28,2.772277227722772
+specter2,19,Earth and Planetary Sciences,2000,base,851,59,6.933019976498238
+specter2,19,Earth and Planetary Sciences,2000,extra,1315,95,7.224334600760456
+specter2,19,Earth and Planetary Sciences,2005,base,1203,80,6.6500415627597675
+specter2,19,Earth and Planetary Sciences,2005,extra,963,55,5.711318795430945
+specter2,19,Earth and Planetary Sciences,2010,base,1604,95,5.922693266832917
+specter2,19,Earth and Planetary Sciences,2010,extra,562,36,6.405693950177936
+specter2,19,Earth and Planetary Sciences,2015,base,1716,121,7.051282051282051
+specter2,19,Earth and Planetary Sciences,2015,extra,450,38,8.444444444444445
+specter2,19,Earth and Planetary Sciences,2020,base,1882,136,7.226354941551541
+specter2,19,Earth and Planetary Sciences,2020,extra,284,18,6.338028169014085
+specter2,20,"Economics, Econometrics and Finance",2000,base,773,34,4.3984476067270375
+specter2,20,"Economics, Econometrics and Finance",2000,extra,1393,58,4.1636755204594404
+specter2,20,"Economics, Econometrics and Finance",2005,base,1236,53,4.288025889967638
+specter2,20,"Economics, Econometrics and Finance",2005,extra,930,34,3.6559139784946235
+specter2,20,"Economics, Econometrics and Finance",2010,base,1849,92,4.975662520281233
+specter2,20,"Economics, Econometrics and Finance",2010,extra,317,12,3.7854889589905363
+specter2,20,"Economics, Econometrics and Finance",2015,base,1917,80,4.173187271778821
+specter2,20,"Economics, Econometrics and Finance",2015,extra,249,9,3.6144578313253013
+specter2,20,"Economics, Econometrics and Finance",2020,base,2845,142,4.991212653778559
+specter2,21,Energy,2000,base,116,1,0.8620689655172413
+specter2,21,Energy,2000,extra,2050,58,2.8292682926829267
+specter2,21,Energy,2005,base,240,8,3.3333333333333335
+specter2,21,Energy,2005,extra,1926,42,2.1806853582554515
+specter2,21,Energy,2010,base,591,9,1.5228426395939085
+specter2,21,Energy,2010,extra,1575,23,1.4603174603174602
+specter2,21,Energy,2015,base,680,16,2.3529411764705883
+specter2,21,Energy,2015,extra,1486,26,1.749663526244953
+specter2,21,Energy,2020,base,990,13,1.3131313131313131
+specter2,21,Energy,2020,extra,1176,21,1.7857142857142858
+specter2,22,Engineering,2000,base,6990,90,1.2875536480686696
+specter2,22,Engineering,2005,base,11310,145,1.2820512820512822
+specter2,22,Engineering,2010,base,15203,190,1.2497533381569428
+specter2,22,Engineering,2015,base,14738,276,1.8727100013570361
+specter2,22,Engineering,2020,base,18907,351,1.8564552811128154
+specter2,23,Environmental Science,2000,base,1751,69,3.9406053683609366
+specter2,23,Environmental Science,2000,extra,415,22,5.301204819277109
+specter2,23,Environmental Science,2005,base,2876,119,4.13769123783032
+specter2,23,Environmental Science,2010,base,4005,176,4.394506866416979
+specter2,23,Environmental Science,2015,base,4018,218,5.425584868093579
+specter2,23,Environmental Science,2020,base,5919,291,4.91637100861632
+specter2,24,Immunology and Microbiology,2000,base,534,24,4.49438202247191
+specter2,24,Immunology and Microbiology,2000,extra,1632,84,5.147058823529412
+specter2,24,Immunology and Microbiology,2005,base,764,49,6.4136125654450264
+specter2,24,Immunology and Microbiology,2005,extra,1402,83,5.920114122681883
+specter2,24,Immunology and Microbiology,2010,base,924,61,6.6017316017316015
+specter2,24,Immunology and Microbiology,2010,extra,1242,75,6.038647342995169
+specter2,24,Immunology and Microbiology,2015,base,1028,85,8.268482490272374
+specter2,24,Immunology and Microbiology,2015,extra,1138,80,7.0298769771529
+specter2,24,Immunology and Microbiology,2020,base,1206,105,8.706467661691542
+specter2,24,Immunology and Microbiology,2020,extra,960,86,8.958333333333334
+specter2,25,Materials Science,2000,base,1292,23,1.7801857585139318
+specter2,25,Materials Science,2000,extra,874,12,1.3729977116704806
+specter2,25,Materials Science,2005,base,2142,41,1.9140989729225024
+specter2,25,Materials Science,2005,extra,24,1,4.166666666666667
+specter2,25,Materials Science,2010,base,2962,41,1.3841998649561107
+specter2,25,Materials Science,2015,base,3152,66,2.0939086294416245
+specter2,25,Materials Science,2020,base,3787,126,3.3271719038817005
+specter2,26,Mathematics,2000,base,386,6,1.5544041450777202
+specter2,26,Mathematics,2000,extra,1780,28,1.5730337078651686
+specter2,26,Mathematics,2005,base,639,6,0.9389671361502347
+specter2,26,Mathematics,2005,extra,1527,11,0.7203667321545514
+specter2,26,Mathematics,2010,base,893,11,1.2318029115341544
+specter2,26,Mathematics,2010,extra,1273,16,1.2568735271013354
+specter2,26,Mathematics,2015,base,1108,20,1.8050541516245486
+specter2,26,Mathematics,2015,extra,1058,12,1.1342155009451795
+specter2,26,Mathematics,2020,base,1555,39,2.508038585209003
+specter2,26,Mathematics,2020,extra,611,19,3.109656301145663
+specter2,27,Medicine,2000,base,7128,507,7.1127946127946124
+specter2,27,Medicine,2005,base,10946,825,7.536999817284853
+specter2,27,Medicine,2010,base,15771,1352,8.572696721831209
+specter2,27,Medicine,2015,base,18629,1910,10.252831606634818
+specter2,27,Medicine,2020,base,26195,2934,11.200610803588471
+specter2,28,Neuroscience,2000,base,718,25,3.481894150417827
+specter2,28,Neuroscience,2000,extra,1448,67,4.62707182320442
+specter2,28,Neuroscience,2005,base,1005,43,4.278606965174129
+specter2,28,Neuroscience,2005,extra,1161,40,3.4453057708871664
+specter2,28,Neuroscience,2010,base,1408,61,4.332386363636363
+specter2,28,Neuroscience,2010,extra,758,29,3.825857519788918
+specter2,28,Neuroscience,2015,base,1640,69,4.2073170731707314
+specter2,28,Neuroscience,2015,extra,526,26,4.942965779467681
+specter2,28,Neuroscience,2020,base,2053,97,4.7247929858743305
+specter2,28,Neuroscience,2020,extra,113,10,8.849557522123893
+specter2,29,Nursing,2000,base,182,13,7.142857142857143
+specter2,29,Nursing,2000,extra,1984,127,6.401209677419355
+specter2,29,Nursing,2005,base,285,21,7.368421052631579
+specter2,29,Nursing,2005,extra,1881,110,5.847953216374269
+specter2,29,Nursing,2010,base,453,21,4.635761589403973
+specter2,29,Nursing,2010,extra,1713,98,5.720957384705196
+specter2,29,Nursing,2015,base,497,36,7.2434607645875255
+specter2,29,Nursing,2015,extra,1669,138,8.268424206111444
+specter2,29,Nursing,2020,base,660,55,8.333333333333334
+specter2,29,Nursing,2020,extra,1506,118,7.835325365205843
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,8,5.194805194805195
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,121,6.013916500994036
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,13,4.779411764705882
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,79,4.171066525871172
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,21,4.751131221719457
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,49,2.8422273781902554
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,23,6.117021276595745
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,131,7.318435754189944
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,25,5.307855626326964
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,100,5.899705014749262
+specter2,31,Physics and Astronomy,2000,base,2116,43,2.0321361058601135
+specter2,31,Physics and Astronomy,2000,extra,50,1,2.0
+specter2,31,Physics and Astronomy,2005,base,2704,66,2.440828402366864
+specter2,31,Physics and Astronomy,2010,base,3094,71,2.2947640594699417
+specter2,31,Physics and Astronomy,2015,base,3388,67,1.9775678866587958
+specter2,31,Physics and Astronomy,2020,base,3470,82,2.363112391930836
+specter2,32,Psychology,2000,base,838,35,4.176610978520286
+specter2,32,Psychology,2000,extra,1328,58,4.367469879518072
+specter2,32,Psychology,2005,base,1342,59,4.396423248882265
+specter2,32,Psychology,2005,extra,824,38,4.611650485436893
+specter2,32,Psychology,2010,base,2089,81,3.877453326950694
+specter2,32,Psychology,2010,extra,77,2,2.5974025974025974
+specter2,32,Psychology,2015,base,2577,106,4.113310050446255
+specter2,32,Psychology,2020,base,3970,217,5.465994962216625
+specter2,33,Social Sciences,2000,base,2776,135,4.863112391930835
+specter2,33,Social Sciences,2005,base,4893,306,6.253832004904966
+specter2,33,Social Sciences,2010,base,7110,388,5.457102672292546
+specter2,33,Social Sciences,2015,base,8891,561,6.309751434034417
+specter2,33,Social Sciences,2020,base,13879,818,5.893796383024713
+specter2,34,Veterinary,2000,base,58,1,1.7241379310344827
+specter2,34,Veterinary,2000,extra,2108,135,6.404174573055029
+specter2,34,Veterinary,2005,base,100,10,10.0
+specter2,34,Veterinary,2005,extra,2066,137,6.631171345595353
+specter2,34,Veterinary,2010,base,107,11,10.280373831775702
+specter2,34,Veterinary,2010,extra,2058,138,6.705539358600583
+specter2,34,Veterinary,2015,base,165,12,7.2727272727272725
+specter2,34,Veterinary,2015,extra,2000,163,8.15
+specter2,34,Veterinary,2020,base,212,27,12.735849056603774
+specter2,34,Veterinary,2020,extra,1953,214,10.957501280081924
+specter2,35,Dentistry,2000,base,159,5,3.1446540880503147
+specter2,35,Dentistry,2000,extra,2006,87,4.336989032901296
+specter2,35,Dentistry,2005,base,260,13,5.0
+specter2,35,Dentistry,2005,extra,1905,59,3.0971128608923886
+specter2,35,Dentistry,2010,base,441,11,2.494331065759637
+specter2,35,Dentistry,2010,extra,1724,64,3.7122969837587005
+specter2,35,Dentistry,2015,base,544,28,5.147058823529412
+specter2,35,Dentistry,2015,extra,1621,67,4.133251079580506
+specter2,35,Dentistry,2020,base,834,42,5.0359712230215825
+specter2,35,Dentistry,2020,extra,1331,73,5.484598046581517
+specter2,36,Health Professions,2000,base,589,42,7.130730050933786
+specter2,36,Health Professions,2000,extra,1576,119,7.550761421319797
+specter2,36,Health Professions,2005,base,933,50,5.359056806002144
+specter2,36,Health Professions,2005,extra,1232,87,7.061688311688312
+specter2,36,Health Professions,2010,base,1504,104,6.914893617021277
+specter2,36,Health Professions,2010,extra,661,47,7.110438729198185
+specter2,36,Health Professions,2015,base,1877,145,7.725093233883857
+specter2,36,Health Professions,2015,extra,288,21,7.291666666666667
+specter2,36,Health Professions,2020,base,2833,233,8.224496999647018
+scincl,11,Agricultural and Biological Sciences,2000,base,1663,87,5.231509320505111
+scincl,11,Agricultural and Biological Sciences,2000,extra,503,23,4.572564612326044
+scincl,11,Agricultural and Biological Sciences,2005,base,2528,149,5.893987341772152
+scincl,11,Agricultural and Biological Sciences,2010,base,3940,225,5.710659898477157
+scincl,11,Agricultural and Biological Sciences,2015,base,4298,271,6.305258259655654
+scincl,11,Agricultural and Biological Sciences,2020,base,6491,456,7.0251116931135416
+scincl,12,Arts and Humanities,2000,base,847,91,10.743801652892563
+scincl,12,Arts and Humanities,2000,extra,1319,137,10.386656557998483
+scincl,12,Arts and Humanities,2005,base,1551,167,10.767246937459703
+scincl,12,Arts and Humanities,2005,extra,615,82,13.333333333333334
+scincl,12,Arts and Humanities,2010,base,2186,231,10.567246111619395
+scincl,12,Arts and Humanities,2015,base,2732,276,10.102489019033674
+scincl,12,Arts and Humanities,2020,base,3380,436,12.899408284023668
+scincl,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,131,4.782767433369843
+scincl,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,207,5.084745762711864
+scincl,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,273,5.199009712435727
+scincl,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,381,6.8084345961401
+scincl,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,400,5.847953216374269
+scincl,14,"Business, Management and Accounting",2000,base,762,25,3.2808398950131235
+scincl,14,"Business, Management and Accounting",2000,extra,1404,32,2.2792022792022792
+scincl,14,"Business, Management and Accounting",2005,base,1489,48,3.223640026863667
+scincl,14,"Business, Management and Accounting",2005,extra,677,17,2.511078286558346
+scincl,14,"Business, Management and Accounting",2010,base,2186,55,2.516010978956999
+scincl,14,"Business, Management and Accounting",2015,base,2660,100,3.7593984962406015
+scincl,14,"Business, Management and Accounting",2020,base,4040,121,2.995049504950495
+scincl,15,Chemical Engineering,2000,base,161,2,1.2422360248447204
+scincl,15,Chemical Engineering,2000,extra,2005,34,1.6957605985037407
+scincl,15,Chemical Engineering,2005,base,214,3,1.4018691588785046
+scincl,15,Chemical Engineering,2005,extra,1952,44,2.2540983606557377
+scincl,15,Chemical Engineering,2010,base,246,7,2.845528455284553
+scincl,15,Chemical Engineering,2010,extra,1920,49,2.5520833333333335
+scincl,15,Chemical Engineering,2015,base,255,3,1.1764705882352942
+scincl,15,Chemical Engineering,2015,extra,1911,39,2.0408163265306123
+scincl,15,Chemical Engineering,2020,base,319,7,2.19435736677116
+scincl,15,Chemical Engineering,2020,extra,1847,47,2.5446670276123444
+scincl,16,Chemistry,2000,base,931,31,3.329752953813104
+scincl,16,Chemistry,2000,extra,1235,50,4.048582995951417
+scincl,16,Chemistry,2005,base,1358,33,2.430044182621502
+scincl,16,Chemistry,2005,extra,808,35,4.3316831683168315
+scincl,16,Chemistry,2010,base,1686,59,3.4994068801897984
+scincl,16,Chemistry,2010,extra,480,15,3.125
+scincl,16,Chemistry,2015,base,1555,44,2.829581993569132
+scincl,16,Chemistry,2015,extra,611,21,3.436988543371522
+scincl,16,Chemistry,2020,base,1760,57,3.2386363636363638
+scincl,16,Chemistry,2020,extra,406,19,4.679802955665025
+scincl,17,Computer Science,2000,base,3310,35,1.0574018126888218
+scincl,17,Computer Science,2005,base,5594,59,1.0547014658562746
+scincl,17,Computer Science,2010,base,7094,69,0.9726529461516775
+scincl,17,Computer Science,2015,base,6858,115,1.6768737241178187
+scincl,17,Computer Science,2020,base,9972,194,1.945447252306458
+scincl,18,Decision Sciences,2000,base,290,7,2.413793103448276
+scincl,18,Decision Sciences,2000,extra,1876,48,2.55863539445629
+scincl,18,Decision Sciences,2005,base,567,22,3.880070546737213
+scincl,18,Decision Sciences,2005,extra,1599,35,2.188868042526579
+scincl,18,Decision Sciences,2010,base,883,27,3.057757644394111
+scincl,18,Decision Sciences,2010,extra,1283,36,2.8059236165237724
+scincl,18,Decision Sciences,2015,base,921,28,3.040173724212812
+scincl,18,Decision Sciences,2015,extra,1245,33,2.6506024096385543
+scincl,18,Decision Sciences,2020,base,1156,29,2.508650519031142
+scincl,18,Decision Sciences,2020,extra,1010,28,2.772277227722772
+scincl,19,Earth and Planetary Sciences,2000,base,851,59,6.933019976498238
+scincl,19,Earth and Planetary Sciences,2000,extra,1315,95,7.224334600760456
+scincl,19,Earth and Planetary Sciences,2005,base,1203,80,6.6500415627597675
+scincl,19,Earth and Planetary Sciences,2005,extra,963,55,5.711318795430945
+scincl,19,Earth and Planetary Sciences,2010,base,1604,95,5.922693266832917
+scincl,19,Earth and Planetary Sciences,2010,extra,562,36,6.405693950177936
+scincl,19,Earth and Planetary Sciences,2015,base,1716,121,7.051282051282051
+scincl,19,Earth and Planetary Sciences,2015,extra,450,38,8.444444444444445
+scincl,19,Earth and Planetary Sciences,2020,base,1882,136,7.226354941551541
+scincl,19,Earth and Planetary Sciences,2020,extra,284,18,6.338028169014085
+scincl,20,"Economics, Econometrics and Finance",2000,base,773,33,4.269081500646831
+scincl,20,"Economics, Econometrics and Finance",2000,extra,1393,58,4.1636755204594404
+scincl,20,"Economics, Econometrics and Finance",2005,base,1236,53,4.288025889967638
+scincl,20,"Economics, Econometrics and Finance",2005,extra,930,34,3.6559139784946235
+scincl,20,"Economics, Econometrics and Finance",2010,base,1849,92,4.975662520281233
+scincl,20,"Economics, Econometrics and Finance",2010,extra,317,12,3.7854889589905363
+scincl,20,"Economics, Econometrics and Finance",2015,base,1917,80,4.173187271778821
+scincl,20,"Economics, Econometrics and Finance",2015,extra,249,9,3.6144578313253013
+scincl,20,"Economics, Econometrics and Finance",2020,base,2845,142,4.991212653778559
+scincl,21,Energy,2000,base,116,1,0.8620689655172413
+scincl,21,Energy,2000,extra,2050,58,2.8292682926829267
+scincl,21,Energy,2005,base,240,8,3.3333333333333335
+scincl,21,Energy,2005,extra,1926,42,2.1806853582554515
+scincl,21,Energy,2010,base,591,9,1.5228426395939085
+scincl,21,Energy,2010,extra,1575,23,1.4603174603174602
+scincl,21,Energy,2015,base,680,16,2.3529411764705883
+scincl,21,Energy,2015,extra,1486,26,1.749663526244953
+scincl,21,Energy,2020,base,990,13,1.3131313131313131
+scincl,21,Energy,2020,extra,1176,21,1.7857142857142858
+scincl,22,Engineering,2000,base,6990,90,1.2875536480686696
+scincl,22,Engineering,2005,base,11310,145,1.2820512820512822
+scincl,22,Engineering,2010,base,15203,190,1.2497533381569428
+scincl,22,Engineering,2015,base,14738,276,1.8727100013570361
+scincl,22,Engineering,2020,base,18907,351,1.8564552811128154
+scincl,23,Environmental Science,2000,base,1751,69,3.9406053683609366
+scincl,23,Environmental Science,2000,extra,415,22,5.301204819277109
+scincl,23,Environmental Science,2005,base,2876,119,4.13769123783032
+scincl,23,Environmental Science,2010,base,4005,176,4.394506866416979
+scincl,23,Environmental Science,2015,base,4018,218,5.425584868093579
+scincl,23,Environmental Science,2020,base,5919,291,4.91637100861632
+scincl,24,Immunology and Microbiology,2000,base,534,24,4.49438202247191
+scincl,24,Immunology and Microbiology,2000,extra,1632,84,5.147058823529412
+scincl,24,Immunology and Microbiology,2005,base,764,49,6.4136125654450264
+scincl,24,Immunology and Microbiology,2005,extra,1402,83,5.920114122681883
+scincl,24,Immunology and Microbiology,2010,base,924,61,6.6017316017316015
+scincl,24,Immunology and Microbiology,2010,extra,1242,75,6.038647342995169
+scincl,24,Immunology and Microbiology,2015,base,1028,85,8.268482490272374
+scincl,24,Immunology and Microbiology,2015,extra,1138,80,7.0298769771529
+scincl,24,Immunology and Microbiology,2020,base,1206,105,8.706467661691542
+scincl,24,Immunology and Microbiology,2020,extra,960,86,8.958333333333334
+scincl,25,Materials Science,2000,base,1292,23,1.7801857585139318
+scincl,25,Materials Science,2000,extra,874,12,1.3729977116704806
+scincl,25,Materials Science,2005,base,2142,41,1.9140989729225024
+scincl,25,Materials Science,2005,extra,24,1,4.166666666666667
+scincl,25,Materials Science,2010,base,2962,41,1.3841998649561107
+scincl,25,Materials Science,2015,base,3152,66,2.0939086294416245
+scincl,25,Materials Science,2020,base,3787,126,3.3271719038817005
+scincl,26,Mathematics,2000,base,386,6,1.5544041450777202
+scincl,26,Mathematics,2000,extra,1780,28,1.5730337078651686
+scincl,26,Mathematics,2005,base,639,6,0.9389671361502347
+scincl,26,Mathematics,2005,extra,1527,11,0.7203667321545514
+scincl,26,Mathematics,2010,base,893,11,1.2318029115341544
+scincl,26,Mathematics,2010,extra,1273,16,1.2568735271013354
+scincl,26,Mathematics,2015,base,1108,20,1.8050541516245486
+scincl,26,Mathematics,2015,extra,1058,12,1.1342155009451795
+scincl,26,Mathematics,2020,base,1555,39,2.508038585209003
+scincl,26,Mathematics,2020,extra,611,19,3.109656301145663
+scincl,27,Medicine,2000,base,7128,506,7.098765432098766
+scincl,27,Medicine,2005,base,10946,825,7.536999817284853
+scincl,27,Medicine,2010,base,15771,1352,8.572696721831209
+scincl,27,Medicine,2015,base,18629,1910,10.252831606634818
+scincl,27,Medicine,2020,base,26195,2934,11.200610803588471
+scincl,28,Neuroscience,2000,base,718,25,3.481894150417827
+scincl,28,Neuroscience,2000,extra,1448,67,4.62707182320442
+scincl,28,Neuroscience,2005,base,1005,43,4.278606965174129
+scincl,28,Neuroscience,2005,extra,1161,40,3.4453057708871664
+scincl,28,Neuroscience,2010,base,1408,61,4.332386363636363
+scincl,28,Neuroscience,2010,extra,758,29,3.825857519788918
+scincl,28,Neuroscience,2015,base,1640,69,4.2073170731707314
+scincl,28,Neuroscience,2015,extra,526,26,4.942965779467681
+scincl,28,Neuroscience,2020,base,2053,97,4.7247929858743305
+scincl,28,Neuroscience,2020,extra,113,10,8.849557522123893
+scincl,29,Nursing,2000,base,182,13,7.142857142857143
+scincl,29,Nursing,2000,extra,1984,127,6.401209677419355
+scincl,29,Nursing,2005,base,285,21,7.368421052631579
+scincl,29,Nursing,2005,extra,1881,110,5.847953216374269
+scincl,29,Nursing,2010,base,453,21,4.635761589403973
+scincl,29,Nursing,2010,extra,1713,98,5.720957384705196
+scincl,29,Nursing,2015,base,497,36,7.2434607645875255
+scincl,29,Nursing,2015,extra,1669,138,8.268424206111444
+scincl,29,Nursing,2020,base,660,55,8.333333333333334
+scincl,29,Nursing,2020,extra,1506,118,7.835325365205843
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,8,5.194805194805195
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,121,6.013916500994036
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,13,4.779411764705882
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,79,4.171066525871172
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,21,4.751131221719457
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,49,2.8422273781902554
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,23,6.117021276595745
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,131,7.318435754189944
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,25,5.307855626326964
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,100,5.899705014749262
+scincl,31,Physics and Astronomy,2000,base,2116,43,2.0321361058601135
+scincl,31,Physics and Astronomy,2000,extra,50,1,2.0
+scincl,31,Physics and Astronomy,2005,base,2704,66,2.440828402366864
+scincl,31,Physics and Astronomy,2010,base,3094,71,2.2947640594699417
+scincl,31,Physics and Astronomy,2015,base,3388,67,1.9775678866587958
+scincl,31,Physics and Astronomy,2020,base,3470,82,2.363112391930836
+scincl,32,Psychology,2000,base,838,35,4.176610978520286
+scincl,32,Psychology,2000,extra,1328,58,4.367469879518072
+scincl,32,Psychology,2005,base,1342,59,4.396423248882265
+scincl,32,Psychology,2005,extra,824,38,4.611650485436893
+scincl,32,Psychology,2010,base,2089,81,3.877453326950694
+scincl,32,Psychology,2010,extra,77,2,2.5974025974025974
+scincl,32,Psychology,2015,base,2577,106,4.113310050446255
+scincl,32,Psychology,2020,base,3970,217,5.465994962216625
+scincl,33,Social Sciences,2000,base,2776,135,4.863112391930835
+scincl,33,Social Sciences,2005,base,4893,306,6.253832004904966
+scincl,33,Social Sciences,2010,base,7110,388,5.457102672292546
+scincl,33,Social Sciences,2015,base,8891,561,6.309751434034417
+scincl,33,Social Sciences,2020,base,13879,818,5.893796383024713
+scincl,34,Veterinary,2000,base,58,1,1.7241379310344827
+scincl,34,Veterinary,2000,extra,2108,135,6.404174573055029
+scincl,34,Veterinary,2005,base,100,10,10.0
+scincl,34,Veterinary,2005,extra,2066,137,6.631171345595353
+scincl,34,Veterinary,2010,base,107,11,10.280373831775702
+scincl,34,Veterinary,2010,extra,2058,138,6.705539358600583
+scincl,34,Veterinary,2015,base,165,12,7.2727272727272725
+scincl,34,Veterinary,2015,extra,2000,163,8.15
+scincl,34,Veterinary,2020,base,212,27,12.735849056603774
+scincl,34,Veterinary,2020,extra,1953,214,10.957501280081924
+scincl,35,Dentistry,2000,base,159,5,3.1446540880503147
+scincl,35,Dentistry,2000,extra,2006,87,4.336989032901296
+scincl,35,Dentistry,2005,base,260,13,5.0
+scincl,35,Dentistry,2005,extra,1905,59,3.0971128608923886
+scincl,35,Dentistry,2010,base,441,11,2.494331065759637
+scincl,35,Dentistry,2010,extra,1724,64,3.7122969837587005
+scincl,35,Dentistry,2015,base,544,28,5.147058823529412
+scincl,35,Dentistry,2015,extra,1621,67,4.133251079580506
+scincl,35,Dentistry,2020,base,834,42,5.0359712230215825
+scincl,35,Dentistry,2020,extra,1331,73,5.484598046581517
+scincl,36,Health Professions,2000,base,589,42,7.130730050933786
+scincl,36,Health Professions,2000,extra,1576,119,7.550761421319797
+scincl,36,Health Professions,2005,base,933,50,5.359056806002144
+scincl,36,Health Professions,2005,extra,1232,87,7.061688311688312
+scincl,36,Health Professions,2010,base,1504,104,6.914893617021277
+scincl,36,Health Professions,2010,extra,661,47,7.110438729198185
+scincl,36,Health Professions,2015,base,1877,145,7.725093233883857
+scincl,36,Health Professions,2015,extra,288,21,7.291666666666667
+scincl,36,Health Professions,2020,base,2833,233,8.224496999647018
+scibert,11,Agricultural and Biological Sciences,2000,base,1663,87,5.231509320505111
+scibert,11,Agricultural and Biological Sciences,2000,extra,503,23,4.572564612326044
+scibert,11,Agricultural and Biological Sciences,2005,base,2528,148,5.8544303797468356
+scibert,11,Agricultural and Biological Sciences,2010,base,3940,224,5.685279187817259
+scibert,11,Agricultural and Biological Sciences,2015,base,4298,271,6.305258259655654
+scibert,11,Agricultural and Biological Sciences,2020,base,6491,448,6.9018641195501464
+scibert,12,Arts and Humanities,2000,base,847,91,10.743801652892563
+scibert,12,Arts and Humanities,2000,extra,1319,136,10.310841546626232
+scibert,12,Arts and Humanities,2005,base,1551,167,10.767246937459703
+scibert,12,Arts and Humanities,2005,extra,615,82,13.333333333333334
+scibert,12,Arts and Humanities,2010,base,2186,230,10.521500457456542
+scibert,12,Arts and Humanities,2015,base,2732,275,10.06588579795022
+scibert,12,Arts and Humanities,2020,base,3380,436,12.899408284023668
+scibert,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,131,4.782767433369843
+scibert,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,206,5.06018177352002
+scibert,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,272,5.179965720815082
+scibert,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,380,6.790564689063617
+scibert,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,399,5.833333333333333
+scibert,14,"Business, Management and Accounting",2000,base,762,25,3.2808398950131235
+scibert,14,"Business, Management and Accounting",2000,extra,1404,32,2.2792022792022792
+scibert,14,"Business, Management and Accounting",2005,base,1489,48,3.223640026863667
+scibert,14,"Business, Management and Accounting",2005,extra,677,17,2.511078286558346
+scibert,14,"Business, Management and Accounting",2010,base,2186,55,2.516010978956999
+scibert,14,"Business, Management and Accounting",2015,base,2660,99,3.7218045112781954
+scibert,14,"Business, Management and Accounting",2020,base,4040,121,2.995049504950495
+scibert,15,Chemical Engineering,2000,base,161,2,1.2422360248447204
+scibert,15,Chemical Engineering,2000,extra,2005,34,1.6957605985037407
+scibert,15,Chemical Engineering,2005,base,214,3,1.4018691588785046
+scibert,15,Chemical Engineering,2005,extra,1952,43,2.2028688524590163
+scibert,15,Chemical Engineering,2010,base,246,7,2.845528455284553
+scibert,15,Chemical Engineering,2010,extra,1920,48,2.5
+scibert,15,Chemical Engineering,2015,base,255,3,1.1764705882352942
+scibert,15,Chemical Engineering,2015,extra,1911,38,1.9884877027734171
+scibert,15,Chemical Engineering,2020,base,319,7,2.19435736677116
+scibert,15,Chemical Engineering,2020,extra,1847,46,2.490525175961018
+scibert,16,Chemistry,2000,base,931,30,3.2223415682062297
+scibert,16,Chemistry,2000,extra,1235,50,4.048582995951417
+scibert,16,Chemistry,2005,base,1358,33,2.430044182621502
+scibert,16,Chemistry,2005,extra,808,35,4.3316831683168315
+scibert,16,Chemistry,2010,base,1686,59,3.4994068801897984
+scibert,16,Chemistry,2010,extra,480,15,3.125
+scibert,16,Chemistry,2015,base,1555,43,2.765273311897106
+scibert,16,Chemistry,2015,extra,611,20,3.2733224222585924
+scibert,16,Chemistry,2020,base,1760,57,3.2386363636363638
+scibert,16,Chemistry,2020,extra,406,18,4.433497536945813
+scibert,17,Computer Science,2000,base,3310,35,1.0574018126888218
+scibert,17,Computer Science,2005,base,5594,58,1.0368251698248123
+scibert,17,Computer Science,2010,base,7094,69,0.9726529461516775
+scibert,17,Computer Science,2015,base,6858,115,1.6768737241178187
+scibert,17,Computer Science,2020,base,9972,194,1.945447252306458
+scibert,18,Decision Sciences,2000,base,290,7,2.413793103448276
+scibert,18,Decision Sciences,2000,extra,1876,48,2.55863539445629
+scibert,18,Decision Sciences,2005,base,567,22,3.880070546737213
+scibert,18,Decision Sciences,2005,extra,1599,35,2.188868042526579
+scibert,18,Decision Sciences,2010,base,883,27,3.057757644394111
+scibert,18,Decision Sciences,2010,extra,1283,34,2.6500389711613406
+scibert,18,Decision Sciences,2015,base,921,28,3.040173724212812
+scibert,18,Decision Sciences,2015,extra,1245,33,2.6506024096385543
+scibert,18,Decision Sciences,2020,base,1156,29,2.508650519031142
+scibert,18,Decision Sciences,2020,extra,1010,28,2.772277227722772
+scibert,19,Earth and Planetary Sciences,2000,base,851,59,6.933019976498238
+scibert,19,Earth and Planetary Sciences,2000,extra,1315,94,7.14828897338403
+scibert,19,Earth and Planetary Sciences,2005,base,1203,80,6.6500415627597675
+scibert,19,Earth and Planetary Sciences,2005,extra,963,55,5.711318795430945
+scibert,19,Earth and Planetary Sciences,2010,base,1604,95,5.922693266832917
+scibert,19,Earth and Planetary Sciences,2010,extra,562,36,6.405693950177936
+scibert,19,Earth and Planetary Sciences,2015,base,1716,120,6.993006993006993
+scibert,19,Earth and Planetary Sciences,2015,extra,450,37,8.222222222222221
+scibert,19,Earth and Planetary Sciences,2020,base,1882,132,7.0138150903294365
+scibert,19,Earth and Planetary Sciences,2020,extra,284,18,6.338028169014085
+scibert,20,"Economics, Econometrics and Finance",2000,base,773,34,4.3984476067270375
+scibert,20,"Economics, Econometrics and Finance",2000,extra,1393,58,4.1636755204594404
+scibert,20,"Economics, Econometrics and Finance",2005,base,1236,53,4.288025889967638
+scibert,20,"Economics, Econometrics and Finance",2005,extra,930,34,3.6559139784946235
+scibert,20,"Economics, Econometrics and Finance",2010,base,1849,92,4.975662520281233
+scibert,20,"Economics, Econometrics and Finance",2010,extra,317,12,3.7854889589905363
+scibert,20,"Economics, Econometrics and Finance",2015,base,1917,79,4.1210224308815855
+scibert,20,"Economics, Econometrics and Finance",2015,extra,249,9,3.6144578313253013
+scibert,20,"Economics, Econometrics and Finance",2020,base,2845,142,4.991212653778559
+scibert,21,Energy,2000,base,116,1,0.8620689655172413
+scibert,21,Energy,2000,extra,2050,58,2.8292682926829267
+scibert,21,Energy,2005,base,240,8,3.3333333333333335
+scibert,21,Energy,2005,extra,1926,42,2.1806853582554515
+scibert,21,Energy,2010,base,591,9,1.5228426395939085
+scibert,21,Energy,2010,extra,1575,22,1.3968253968253967
+scibert,21,Energy,2015,base,680,16,2.3529411764705883
+scibert,21,Energy,2015,extra,1486,26,1.749663526244953
+scibert,21,Energy,2020,base,990,13,1.3131313131313131
+scibert,21,Energy,2020,extra,1176,21,1.7857142857142858
+scibert,22,Engineering,2000,base,6990,89,1.2732474964234621
+scibert,22,Engineering,2005,base,11310,145,1.2820512820512822
+scibert,22,Engineering,2010,base,15203,187,1.2300203907123595
+scibert,22,Engineering,2015,base,14738,275,1.8659248201926992
+scibert,22,Engineering,2020,base,18907,350,1.8511662347278786
+scibert,23,Environmental Science,2000,base,1751,68,3.883495145631068
+scibert,23,Environmental Science,2000,extra,415,22,5.301204819277109
+scibert,23,Environmental Science,2005,base,2876,118,4.1029207232267035
+scibert,23,Environmental Science,2010,base,4005,173,4.31960049937578
+scibert,23,Environmental Science,2015,base,4018,216,5.375808860129418
+scibert,23,Environmental Science,2020,base,5919,288,4.86568677141409
+scibert,24,Immunology and Microbiology,2000,base,534,23,4.307116104868914
+scibert,24,Immunology and Microbiology,2000,extra,1632,84,5.147058823529412
+scibert,24,Immunology and Microbiology,2005,base,764,48,6.282722513089006
+scibert,24,Immunology and Microbiology,2005,extra,1402,82,5.848787446504993
+scibert,24,Immunology and Microbiology,2010,base,924,60,6.4935064935064934
+scibert,24,Immunology and Microbiology,2010,extra,1242,75,6.038647342995169
+scibert,24,Immunology and Microbiology,2015,base,1028,85,8.268482490272374
+scibert,24,Immunology and Microbiology,2015,extra,1138,80,7.0298769771529
+scibert,24,Immunology and Microbiology,2020,base,1206,103,8.540630182421227
+scibert,24,Immunology and Microbiology,2020,extra,960,85,8.854166666666666
+scibert,25,Materials Science,2000,base,1292,23,1.7801857585139318
+scibert,25,Materials Science,2000,extra,874,12,1.3729977116704806
+scibert,25,Materials Science,2005,base,2142,41,1.9140989729225024
+scibert,25,Materials Science,2005,extra,24,1,4.166666666666667
+scibert,25,Materials Science,2010,base,2962,41,1.3841998649561107
+scibert,25,Materials Science,2015,base,3152,64,2.030456852791878
+scibert,25,Materials Science,2020,base,3787,126,3.3271719038817005
+scibert,26,Mathematics,2000,base,386,6,1.5544041450777202
+scibert,26,Mathematics,2000,extra,1780,28,1.5730337078651686
+scibert,26,Mathematics,2005,base,639,6,0.9389671361502347
+scibert,26,Mathematics,2005,extra,1527,11,0.7203667321545514
+scibert,26,Mathematics,2010,base,893,11,1.2318029115341544
+scibert,26,Mathematics,2010,extra,1273,16,1.2568735271013354
+scibert,26,Mathematics,2015,base,1108,20,1.8050541516245486
+scibert,26,Mathematics,2015,extra,1058,12,1.1342155009451795
+scibert,26,Mathematics,2020,base,1555,39,2.508038585209003
+scibert,26,Mathematics,2020,extra,611,19,3.109656301145663
+scibert,27,Medicine,2000,base,7128,507,7.1127946127946124
+scibert,27,Medicine,2005,base,10946,820,7.491321030513429
+scibert,27,Medicine,2010,base,15771,1344,8.5219707057257
+scibert,27,Medicine,2015,base,18629,1887,10.129368189382147
+scibert,27,Medicine,2020,base,26195,2901,11.074632563466311
+scibert,28,Neuroscience,2000,base,718,24,3.3426183844011144
+scibert,28,Neuroscience,2000,extra,1448,66,4.558011049723757
+scibert,28,Neuroscience,2005,base,1005,42,4.17910447761194
+scibert,28,Neuroscience,2005,extra,1161,39,3.359173126614987
+scibert,28,Neuroscience,2010,base,1408,61,4.332386363636363
+scibert,28,Neuroscience,2010,extra,758,29,3.825857519788918
+scibert,28,Neuroscience,2015,base,1640,69,4.2073170731707314
+scibert,28,Neuroscience,2015,extra,526,25,4.752851711026616
+scibert,28,Neuroscience,2020,base,2053,95,4.627374573794447
+scibert,28,Neuroscience,2020,extra,113,10,8.849557522123893
+scibert,29,Nursing,2000,base,182,13,7.142857142857143
+scibert,29,Nursing,2000,extra,1984,127,6.401209677419355
+scibert,29,Nursing,2005,base,285,20,7.017543859649122
+scibert,29,Nursing,2005,extra,1881,108,5.741626794258373
+scibert,29,Nursing,2010,base,453,21,4.635761589403973
+scibert,29,Nursing,2010,extra,1713,98,5.720957384705196
+scibert,29,Nursing,2015,base,497,36,7.2434607645875255
+scibert,29,Nursing,2015,extra,1669,137,8.208508088675854
+scibert,29,Nursing,2020,base,660,55,8.333333333333334
+scibert,29,Nursing,2020,extra,1506,117,7.768924302788845
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,8,5.194805194805195
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,121,6.013916500994036
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,12,4.411764705882353
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,79,4.171066525871172
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,21,4.751131221719457
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,48,2.7842227378190256
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,23,6.117021276595745
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,130,7.262569832402234
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,24,5.095541401273885
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,100,5.899705014749262
+scibert,31,Physics and Astronomy,2000,base,2116,43,2.0321361058601135
+scibert,31,Physics and Astronomy,2000,extra,50,1,2.0
+scibert,31,Physics and Astronomy,2005,base,2704,64,2.366863905325444
+scibert,31,Physics and Astronomy,2010,base,3094,71,2.2947640594699417
+scibert,31,Physics and Astronomy,2015,base,3388,66,1.948051948051948
+scibert,31,Physics and Astronomy,2020,base,3470,82,2.363112391930836
+scibert,32,Psychology,2000,base,838,34,4.05727923627685
+scibert,32,Psychology,2000,extra,1328,57,4.292168674698795
+scibert,32,Psychology,2005,base,1342,59,4.396423248882265
+scibert,32,Psychology,2005,extra,824,38,4.611650485436893
+scibert,32,Psychology,2010,base,2089,80,3.829583532790809
+scibert,32,Psychology,2010,extra,77,2,2.5974025974025974
+scibert,32,Psychology,2015,base,2577,104,4.03570042685293
+scibert,32,Psychology,2020,base,3970,215,5.415617128463476
+scibert,33,Social Sciences,2000,base,2776,135,4.863112391930835
+scibert,33,Social Sciences,2005,base,4893,306,6.253832004904966
+scibert,33,Social Sciences,2010,base,7110,388,5.457102672292546
+scibert,33,Social Sciences,2015,base,8891,559,6.287256776515577
+scibert,33,Social Sciences,2020,base,13879,817,5.886591252972116
+scibert,34,Veterinary,2000,base,58,1,1.7241379310344827
+scibert,34,Veterinary,2000,extra,2108,135,6.404174573055029
+scibert,34,Veterinary,2005,base,100,10,10.0
+scibert,34,Veterinary,2005,extra,2066,137,6.631171345595353
+scibert,34,Veterinary,2010,base,107,10,9.345794392523365
+scibert,34,Veterinary,2010,extra,2058,138,6.705539358600583
+scibert,34,Veterinary,2015,base,165,12,7.2727272727272725
+scibert,34,Veterinary,2015,extra,2000,162,8.1
+scibert,34,Veterinary,2020,base,212,27,12.735849056603774
+scibert,34,Veterinary,2020,extra,1953,211,10.80389144905274
+scibert,35,Dentistry,2000,base,159,5,3.1446540880503147
+scibert,35,Dentistry,2000,extra,2006,86,4.287138584247258
+scibert,35,Dentistry,2005,base,260,13,5.0
+scibert,35,Dentistry,2005,extra,1905,57,2.9921259842519685
+scibert,35,Dentistry,2010,base,441,11,2.494331065759637
+scibert,35,Dentistry,2010,extra,1724,63,3.6542923433874708
+scibert,35,Dentistry,2015,base,544,27,4.963235294117647
+scibert,35,Dentistry,2015,extra,1621,67,4.133251079580506
+scibert,35,Dentistry,2020,base,834,42,5.0359712230215825
+scibert,35,Dentistry,2020,extra,1331,72,5.40946656649136
+scibert,36,Health Professions,2000,base,589,41,6.960950764006792
+scibert,36,Health Professions,2000,extra,1576,119,7.550761421319797
+scibert,36,Health Professions,2005,base,933,49,5.251875669882101
+scibert,36,Health Professions,2005,extra,1232,87,7.061688311688312
+scibert,36,Health Professions,2010,base,1504,103,6.848404255319149
+scibert,36,Health Professions,2010,extra,661,47,7.110438729198185
+scibert,36,Health Professions,2015,base,1877,144,7.67181672882259
+scibert,36,Health Professions,2015,extra,288,20,6.944444444444445
+scibert,36,Health Professions,2020,base,2833,231,8.153900458877516
+bert,11,Agricultural and Biological Sciences,2000,base,1663,110,6.61455201443175
+bert,11,Agricultural and Biological Sciences,2000,extra,503,31,6.163021868787276
+bert,11,Agricultural and Biological Sciences,2005,base,2528,198,7.832278481012659
+bert,11,Agricultural and Biological Sciences,2010,base,3940,298,7.563451776649746
+bert,11,Agricultural and Biological Sciences,2015,base,4298,378,8.794788273615636
+bert,11,Agricultural and Biological Sciences,2020,base,6491,625,9.62871668464027
+bert,12,Arts and Humanities,2000,base,847,89,10.50767414403778
+bert,12,Arts and Humanities,2000,extra,1319,130,9.855951478392722
+bert,12,Arts and Humanities,2005,base,1551,169,10.896196002578982
+bert,12,Arts and Humanities,2005,extra,615,77,12.520325203252032
+bert,12,Arts and Humanities,2010,base,2186,225,10.292772186642269
+bert,12,Arts and Humanities,2015,base,2732,271,9.919472913616397
+bert,12,Arts and Humanities,2020,base,3380,423,12.514792899408285
+bert,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,254,9.273457466228551
+bert,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,362,8.892164087447801
+bert,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,489,9.312511902494762
+bert,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,633,11.311651179413866
+bert,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,747,10.921052631578947
+bert,14,"Business, Management and Accounting",2000,base,762,28,3.674540682414698
+bert,14,"Business, Management and Accounting",2000,extra,1404,29,2.0655270655270654
+bert,14,"Business, Management and Accounting",2005,base,1489,48,3.223640026863667
+bert,14,"Business, Management and Accounting",2005,extra,677,18,2.658788774002954
+bert,14,"Business, Management and Accounting",2010,base,2186,64,2.92772186642269
+bert,14,"Business, Management and Accounting",2015,base,2660,109,4.097744360902255
+bert,14,"Business, Management and Accounting",2020,base,4040,133,3.292079207920792
+bert,15,Chemical Engineering,2000,base,161,5,3.1055900621118013
+bert,15,Chemical Engineering,2000,extra,2005,54,2.693266832917706
+bert,15,Chemical Engineering,2005,base,214,4,1.8691588785046729
+bert,15,Chemical Engineering,2005,extra,1952,62,3.1762295081967213
+bert,15,Chemical Engineering,2010,base,246,9,3.658536585365854
+bert,15,Chemical Engineering,2010,extra,1920,73,3.8020833333333335
+bert,15,Chemical Engineering,2015,base,255,6,2.3529411764705883
+bert,15,Chemical Engineering,2015,extra,1911,63,3.2967032967032965
+bert,15,Chemical Engineering,2020,base,319,8,2.5078369905956115
+bert,15,Chemical Engineering,2020,extra,1847,63,3.410936654033568
+bert,16,Chemistry,2000,base,931,45,4.833512352309345
+bert,16,Chemistry,2000,extra,1235,74,5.991902834008097
+bert,16,Chemistry,2005,base,1358,54,3.976435935198822
+bert,16,Chemistry,2005,extra,808,48,5.9405940594059405
+bert,16,Chemistry,2010,base,1686,81,4.804270462633452
+bert,16,Chemistry,2010,extra,480,25,5.208333333333333
+bert,16,Chemistry,2015,base,1555,69,4.437299035369775
+bert,16,Chemistry,2015,extra,611,31,5.073649754500818
+bert,16,Chemistry,2020,base,1760,84,4.7727272727272725
+bert,16,Chemistry,2020,extra,406,28,6.896551724137931
+bert,17,Computer Science,2000,base,3310,48,1.4501510574018126
+bert,17,Computer Science,2005,base,5594,82,1.465856274579907
+bert,17,Computer Science,2010,base,7094,119,1.6774739216239076
+bert,17,Computer Science,2015,base,6858,161,2.347623213764946
+bert,17,Computer Science,2020,base,9972,219,2.1961492178098676
+bert,18,Decision Sciences,2000,base,290,8,2.7586206896551726
+bert,18,Decision Sciences,2000,extra,1876,51,2.718550106609808
+bert,18,Decision Sciences,2005,base,567,23,4.056437389770723
+bert,18,Decision Sciences,2005,extra,1599,41,2.5641025641025643
+bert,18,Decision Sciences,2010,base,883,33,3.737259343148358
+bert,18,Decision Sciences,2010,extra,1283,43,3.3515198752922837
+bert,18,Decision Sciences,2015,base,921,34,3.6916395222584146
+bert,18,Decision Sciences,2015,extra,1245,42,3.3734939759036147
+bert,18,Decision Sciences,2020,base,1156,33,2.8546712802768166
+bert,18,Decision Sciences,2020,extra,1010,30,2.9702970297029703
+bert,19,Earth and Planetary Sciences,2000,base,851,65,7.63807285546416
+bert,19,Earth and Planetary Sciences,2000,extra,1315,111,8.44106463878327
+bert,19,Earth and Planetary Sciences,2005,base,1203,88,7.315045719035744
+bert,19,Earth and Planetary Sciences,2005,extra,963,66,6.853582554517134
+bert,19,Earth and Planetary Sciences,2010,base,1604,113,7.0448877805486285
+bert,19,Earth and Planetary Sciences,2010,extra,562,39,6.93950177935943
+bert,19,Earth and Planetary Sciences,2015,base,1716,132,7.6923076923076925
+bert,19,Earth and Planetary Sciences,2015,extra,450,44,9.777777777777779
+bert,19,Earth and Planetary Sciences,2020,base,1882,157,8.342189160467587
+bert,19,Earth and Planetary Sciences,2020,extra,284,20,7.042253521126761
+bert,20,"Economics, Econometrics and Finance",2000,base,773,34,4.3984476067270375
+bert,20,"Economics, Econometrics and Finance",2000,extra,1393,57,4.0918880114860015
+bert,20,"Economics, Econometrics and Finance",2005,base,1236,54,4.368932038834951
+bert,20,"Economics, Econometrics and Finance",2005,extra,930,34,3.6559139784946235
+bert,20,"Economics, Econometrics and Finance",2010,base,1849,89,4.813412655489453
+bert,20,"Economics, Econometrics and Finance",2010,extra,317,13,4.100946372239748
+bert,20,"Economics, Econometrics and Finance",2015,base,1917,91,4.747000521648409
+bert,20,"Economics, Econometrics and Finance",2015,extra,249,10,4.016064257028113
+bert,20,"Economics, Econometrics and Finance",2020,base,2845,152,5.3427065026362035
+bert,21,Energy,2000,base,116,2,1.7241379310344827
+bert,21,Energy,2000,extra,2050,73,3.5609756097560976
+bert,21,Energy,2005,base,240,8,3.3333333333333335
+bert,21,Energy,2005,extra,1926,47,2.4402907580477673
+bert,21,Energy,2010,base,591,17,2.8764805414551606
+bert,21,Energy,2010,extra,1575,36,2.2857142857142856
+bert,21,Energy,2015,base,680,25,3.676470588235294
+bert,21,Energy,2015,extra,1486,34,2.288021534320323
+bert,21,Energy,2020,base,990,26,2.6262626262626263
+bert,21,Energy,2020,extra,1176,35,2.9761904761904763
+bert,22,Engineering,2000,base,6990,102,1.4592274678111588
+bert,22,Engineering,2005,base,11310,192,1.6976127320954908
+bert,22,Engineering,2010,base,15203,303,1.993027691902914
+bert,22,Engineering,2015,base,14738,362,2.456235581490026
+bert,22,Engineering,2020,base,18907,441,2.332469455757127
+bert,23,Environmental Science,2000,base,1751,83,4.7401484865790975
+bert,23,Environmental Science,2000,extra,415,24,5.783132530120482
+bert,23,Environmental Science,2005,base,2876,147,5.111265646731572
+bert,23,Environmental Science,2010,base,4005,220,5.493133583021224
+bert,23,Environmental Science,2015,base,4018,265,6.595321055251369
+bert,23,Environmental Science,2020,base,5919,375,6.3355296502787635
+bert,24,Immunology and Microbiology,2000,base,534,43,8.05243445692884
+bert,24,Immunology and Microbiology,2000,extra,1632,162,9.926470588235293
+bert,24,Immunology and Microbiology,2005,base,764,81,10.602094240837696
+bert,24,Immunology and Microbiology,2005,extra,1402,138,9.843081312410842
+bert,24,Immunology and Microbiology,2010,base,924,98,10.606060606060606
+bert,24,Immunology and Microbiology,2010,extra,1242,150,12.077294685990339
+bert,24,Immunology and Microbiology,2015,base,1028,135,13.132295719844358
+bert,24,Immunology and Microbiology,2015,extra,1138,140,12.302284710017574
+bert,24,Immunology and Microbiology,2020,base,1206,180,14.925373134328359
+bert,24,Immunology and Microbiology,2020,extra,960,149,15.520833333333334
+bert,25,Materials Science,2000,base,1292,36,2.7863777089783284
+bert,25,Materials Science,2000,extra,874,16,1.8306636155606408
+bert,25,Materials Science,2005,base,2142,57,2.661064425770308
+bert,25,Materials Science,2005,extra,24,1,4.166666666666667
+bert,25,Materials Science,2010,base,2962,70,2.363268062120189
+bert,25,Materials Science,2015,base,3152,106,3.3629441624365484
+bert,25,Materials Science,2020,base,3787,170,4.489041457618168
+bert,26,Mathematics,2000,base,386,7,1.8134715025906736
+bert,26,Mathematics,2000,extra,1780,32,1.797752808988764
+bert,26,Mathematics,2005,base,639,9,1.408450704225352
+bert,26,Mathematics,2005,extra,1527,15,0.9823182711198428
+bert,26,Mathematics,2010,base,893,12,1.343784994400896
+bert,26,Mathematics,2010,extra,1273,22,1.7282010997643362
+bert,26,Mathematics,2015,base,1108,26,2.3465703971119134
+bert,26,Mathematics,2015,extra,1058,17,1.606805293005671
+bert,26,Mathematics,2020,base,1555,43,2.765273311897106
+bert,26,Mathematics,2020,extra,611,23,3.7643207855973815
+bert,27,Medicine,2000,base,7128,813,11.405723905723907
+bert,27,Medicine,2005,base,10946,1217,11.118216700164444
+bert,27,Medicine,2010,base,15771,1971,12.497622217995055
+bert,27,Medicine,2015,base,18629,2866,15.384615384615385
+bert,27,Medicine,2020,base,26195,4406,16.820003817522426
+bert,28,Neuroscience,2000,base,718,52,7.242339832869081
+bert,28,Neuroscience,2000,extra,1448,119,8.218232044198896
+bert,28,Neuroscience,2005,base,1005,76,7.562189054726368
+bert,28,Neuroscience,2005,extra,1161,81,6.976744186046512
+bert,28,Neuroscience,2010,base,1408,101,7.173295454545454
+bert,28,Neuroscience,2010,extra,758,54,7.124010554089709
+bert,28,Neuroscience,2015,base,1640,128,7.804878048780488
+bert,28,Neuroscience,2015,extra,526,46,8.745247148288973
+bert,28,Neuroscience,2020,base,2053,173,8.426692644909888
+bert,28,Neuroscience,2020,extra,113,16,14.15929203539823
+bert,29,Nursing,2000,base,182,17,9.340659340659341
+bert,29,Nursing,2000,extra,1984,177,8.921370967741936
+bert,29,Nursing,2005,base,285,26,9.12280701754386
+bert,29,Nursing,2005,extra,1881,148,7.868155236576289
+bert,29,Nursing,2010,base,453,34,7.50551876379691
+bert,29,Nursing,2010,extra,1713,147,8.581436077057793
+bert,29,Nursing,2015,base,497,64,12.877263581488934
+bert,29,Nursing,2015,extra,1669,209,12.522468544038347
+bert,29,Nursing,2020,base,660,76,11.515151515151516
+bert,29,Nursing,2020,extra,1506,177,11.752988047808765
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,12,7.792207792207792
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,187,9.294234592445328
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,18,6.617647058823529
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,134,7.074973600844773
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,39,8.823529411764707
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,92,5.336426914153132
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,40,10.638297872340425
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,210,11.731843575418994
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,49,10.40339702760085
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,187,11.03244837758112
+bert,31,Physics and Astronomy,2000,base,2116,50,2.3629489603024574
+bert,31,Physics and Astronomy,2000,extra,50,1,2.0
+bert,31,Physics and Astronomy,2005,base,2704,77,2.8476331360946747
+bert,31,Physics and Astronomy,2010,base,3094,89,2.876535229476406
+bert,31,Physics and Astronomy,2015,base,3388,89,2.626918536009445
+bert,31,Physics and Astronomy,2020,base,3470,103,2.968299711815562
+bert,32,Psychology,2000,base,838,37,4.41527446300716
+bert,32,Psychology,2000,extra,1328,59,4.442771084337349
+bert,32,Psychology,2005,base,1342,62,4.619970193740685
+bert,32,Psychology,2005,extra,824,39,4.733009708737864
+bert,32,Psychology,2010,base,2089,93,4.451890856869316
+bert,32,Psychology,2010,extra,77,3,3.896103896103896
+bert,32,Psychology,2015,base,2577,123,4.772991850989523
+bert,32,Psychology,2020,base,3970,236,5.944584382871536
+bert,33,Social Sciences,2000,base,2776,138,4.971181556195965
+bert,33,Social Sciences,2005,base,4893,304,6.21295728591866
+bert,33,Social Sciences,2010,base,7110,404,5.682137834036568
+bert,33,Social Sciences,2015,base,8891,599,6.737149926892363
+bert,33,Social Sciences,2020,base,13879,837,6.030693854024065
+bert,34,Veterinary,2000,base,58,1,1.7241379310344827
+bert,34,Veterinary,2000,extra,2108,196,9.297912713472487
+bert,34,Veterinary,2005,base,100,10,10.0
+bert,34,Veterinary,2005,extra,2066,199,9.63213939980639
+bert,34,Veterinary,2010,base,107,13,12.149532710280374
+bert,34,Veterinary,2010,extra,2058,210,10.204081632653061
+bert,34,Veterinary,2015,base,165,21,12.727272727272727
+bert,34,Veterinary,2015,extra,2000,242,12.1
+bert,34,Veterinary,2020,base,212,39,18.39622641509434
+bert,34,Veterinary,2020,extra,1953,295,15.104966717869944
+bert,35,Dentistry,2000,base,159,10,6.289308176100629
+bert,35,Dentistry,2000,extra,2006,129,6.430707876370887
+bert,35,Dentistry,2005,base,260,20,7.6923076923076925
+bert,35,Dentistry,2005,extra,1905,90,4.724409448818897
+bert,35,Dentistry,2010,base,441,24,5.442176870748299
+bert,35,Dentistry,2010,extra,1724,104,6.0324825986078885
+bert,35,Dentistry,2015,base,544,50,9.191176470588236
+bert,35,Dentistry,2015,extra,1621,108,6.662553979025293
+bert,35,Dentistry,2020,base,834,63,7.553956834532374
+bert,35,Dentistry,2020,extra,1331,131,9.842223891810669
+bert,36,Health Professions,2000,base,589,48,8.149405772495756
+bert,36,Health Professions,2000,extra,1576,124,7.868020304568528
+bert,36,Health Professions,2005,base,933,57,6.109324758842444
+bert,36,Health Professions,2005,extra,1232,95,7.711038961038961
+bert,36,Health Professions,2010,base,1504,122,8.111702127659575
+bert,36,Health Professions,2010,extra,661,51,7.7155824508320725
+bert,36,Health Professions,2015,base,1877,170,9.057005860415556
+bert,36,Health Professions,2015,extra,288,19,6.597222222222222
+bert,36,Health Professions,2020,base,2833,270,9.530533003882809
+mpnet,11,Agricultural and Biological Sciences,2000,base,1663,364,21.888153938665063
+mpnet,11,Agricultural and Biological Sciences,2000,extra,503,99,19.681908548707753
+mpnet,11,Agricultural and Biological Sciences,2005,base,2528,570,22.54746835443038
+mpnet,11,Agricultural and Biological Sciences,2010,base,3940,934,23.705583756345177
+mpnet,11,Agricultural and Biological Sciences,2015,base,4298,1282,29.827826896230803
+mpnet,11,Agricultural and Biological Sciences,2020,base,6491,2165,33.3538745955939
+mpnet,12,Arts and Humanities,2000,base,847,125,14.757969303423849
+mpnet,12,Arts and Humanities,2000,extra,1319,176,13.3434420015163
+mpnet,12,Arts and Humanities,2005,base,1551,247,15.925209542230819
+mpnet,12,Arts and Humanities,2005,extra,615,108,17.5609756097561
+mpnet,12,Arts and Humanities,2010,base,2186,336,15.370539798719122
+mpnet,12,Arts and Humanities,2015,base,2732,427,15.629575402635432
+mpnet,12,Arts and Humanities,2020,base,3380,668,19.763313609467456
+mpnet,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,821,29.974443227455275
+mpnet,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,1137,27.92925571112749
+mpnet,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,1599,30.451342601409255
+mpnet,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,1892,33.80986418870622
+mpnet,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,2451,35.833333333333336
+mpnet,14,"Business, Management and Accounting",2000,base,762,45,5.905511811023622
+mpnet,14,"Business, Management and Accounting",2000,extra,1404,68,4.843304843304844
+mpnet,14,"Business, Management and Accounting",2005,base,1489,81,5.439892545332438
+mpnet,14,"Business, Management and Accounting",2005,extra,677,33,4.874446085672083
+mpnet,14,"Business, Management and Accounting",2010,base,2186,146,6.678865507776761
+mpnet,14,"Business, Management and Accounting",2015,base,2660,253,9.511278195488721
+mpnet,14,"Business, Management and Accounting",2020,base,4040,408,10.099009900990099
+mpnet,15,Chemical Engineering,2000,base,161,19,11.801242236024844
+mpnet,15,Chemical Engineering,2000,extra,2005,201,10.024937655860349
+mpnet,15,Chemical Engineering,2005,base,214,19,8.878504672897197
+mpnet,15,Chemical Engineering,2005,extra,1952,209,10.706967213114755
+mpnet,15,Chemical Engineering,2010,base,246,28,11.382113821138212
+mpnet,15,Chemical Engineering,2010,extra,1920,233,12.135416666666666
+mpnet,15,Chemical Engineering,2015,base,255,30,11.764705882352942
+mpnet,15,Chemical Engineering,2015,extra,1911,245,12.820512820512821
+mpnet,15,Chemical Engineering,2020,base,319,49,15.360501567398119
+mpnet,15,Chemical Engineering,2020,extra,1847,350,18.949648077964266
+mpnet,16,Chemistry,2000,base,931,135,14.500537056928035
+mpnet,16,Chemistry,2000,extra,1235,194,15.708502024291498
+mpnet,16,Chemistry,2005,base,1358,212,15.61119293078056
+mpnet,16,Chemistry,2005,extra,808,115,14.232673267326733
+mpnet,16,Chemistry,2010,base,1686,247,14.65005931198102
+mpnet,16,Chemistry,2010,extra,480,75,15.625
+mpnet,16,Chemistry,2015,base,1555,252,16.205787781350484
+mpnet,16,Chemistry,2015,extra,611,99,16.202945990180034
+mpnet,16,Chemistry,2020,base,1760,313,17.78409090909091
+mpnet,16,Chemistry,2020,extra,406,91,22.413793103448278
+mpnet,17,Computer Science,2000,base,3310,90,2.719033232628399
+mpnet,17,Computer Science,2005,base,5594,165,2.9495888451912764
+mpnet,17,Computer Science,2010,base,7094,248,3.495912038342261
+mpnet,17,Computer Science,2015,base,6858,391,5.701370662000583
+mpnet,17,Computer Science,2020,base,9972,762,7.641395908543923
+mpnet,18,Decision Sciences,2000,base,290,16,5.517241379310345
+mpnet,18,Decision Sciences,2000,extra,1876,110,5.863539445628998
+mpnet,18,Decision Sciences,2005,base,567,44,7.760141093474426
+mpnet,18,Decision Sciences,2005,extra,1599,94,5.8786741713570985
+mpnet,18,Decision Sciences,2010,base,883,59,6.681766704416761
+mpnet,18,Decision Sciences,2010,extra,1283,90,7.014809041309431
+mpnet,18,Decision Sciences,2015,base,921,69,7.49185667752443
+mpnet,18,Decision Sciences,2015,extra,1245,102,8.19277108433735
+mpnet,18,Decision Sciences,2020,base,1156,109,9.429065743944637
+mpnet,18,Decision Sciences,2020,extra,1010,94,9.306930693069306
+mpnet,19,Earth and Planetary Sciences,2000,base,851,165,19.38895417156287
+mpnet,19,Earth and Planetary Sciences,2000,extra,1315,269,20.456273764258555
+mpnet,19,Earth and Planetary Sciences,2005,base,1203,211,17.539484621778886
+mpnet,19,Earth and Planetary Sciences,2005,extra,963,186,19.314641744548286
+mpnet,19,Earth and Planetary Sciences,2010,base,1604,310,19.326683291770575
+mpnet,19,Earth and Planetary Sciences,2010,extra,562,107,19.03914590747331
+mpnet,19,Earth and Planetary Sciences,2015,base,1716,400,23.31002331002331
+mpnet,19,Earth and Planetary Sciences,2015,extra,450,113,25.11111111111111
+mpnet,19,Earth and Planetary Sciences,2020,base,1882,506,26.886291179596174
+mpnet,19,Earth and Planetary Sciences,2020,extra,284,72,25.35211267605634
+mpnet,20,"Economics, Econometrics and Finance",2000,base,773,52,6.727037516170763
+mpnet,20,"Economics, Econometrics and Finance",2000,extra,1393,102,7.322325915290739
+mpnet,20,"Economics, Econometrics and Finance",2005,base,1236,83,6.715210355987055
+mpnet,20,"Economics, Econometrics and Finance",2005,extra,930,64,6.881720430107527
+mpnet,20,"Economics, Econometrics and Finance",2010,base,1849,178,9.626825310978907
+mpnet,20,"Economics, Econometrics and Finance",2010,extra,317,22,6.94006309148265
+mpnet,20,"Economics, Econometrics and Finance",2015,base,1917,211,11.006781429316641
+mpnet,20,"Economics, Econometrics and Finance",2015,extra,249,25,10.040160642570282
+mpnet,20,"Economics, Econometrics and Finance",2020,base,2845,440,15.46572934973638
+mpnet,21,Energy,2000,base,116,13,11.206896551724139
+mpnet,21,Energy,2000,extra,2050,197,9.609756097560975
+mpnet,21,Energy,2005,base,240,14,5.833333333333333
+mpnet,21,Energy,2005,extra,1926,140,7.268951194184839
+mpnet,21,Energy,2010,base,591,52,8.798646362098138
+mpnet,21,Energy,2010,extra,1575,143,9.079365079365079
+mpnet,21,Energy,2015,base,680,92,13.529411764705882
+mpnet,21,Energy,2015,extra,1486,158,10.63257065948856
+mpnet,21,Energy,2020,base,990,138,13.93939393939394
+mpnet,21,Energy,2020,extra,1176,193,16.41156462585034
+mpnet,22,Engineering,2000,base,6990,304,4.349070100143061
+mpnet,22,Engineering,2005,base,11310,524,4.633068081343944
+mpnet,22,Engineering,2010,base,15203,874,5.748865355521937
+mpnet,22,Engineering,2015,base,14738,1134,7.6943954403582575
+mpnet,22,Engineering,2020,base,18907,1975,10.445866610250173
+mpnet,23,Environmental Science,2000,base,1751,292,16.676185037121645
+mpnet,23,Environmental Science,2000,extra,415,81,19.518072289156628
+mpnet,23,Environmental Science,2005,base,2876,481,16.72461752433936
+mpnet,23,Environmental Science,2010,base,4005,711,17.752808988764045
+mpnet,23,Environmental Science,2015,base,4018,945,23.519163763066203
+mpnet,23,Environmental Science,2020,base,5919,1565,26.44027707383004
+mpnet,24,Immunology and Microbiology,2000,base,534,187,35.0187265917603
+mpnet,24,Immunology and Microbiology,2000,extra,1632,587,35.96813725490196
+mpnet,24,Immunology and Microbiology,2005,base,764,274,35.86387434554974
+mpnet,24,Immunology and Microbiology,2005,extra,1402,483,34.450784593437945
+mpnet,24,Immunology and Microbiology,2010,base,924,352,38.095238095238095
+mpnet,24,Immunology and Microbiology,2010,extra,1242,481,38.727858293075684
+mpnet,24,Immunology and Microbiology,2015,base,1028,447,43.48249027237354
+mpnet,24,Immunology and Microbiology,2015,extra,1138,451,39.63093145869947
+mpnet,24,Immunology and Microbiology,2020,base,1206,566,46.93200663349917
+mpnet,24,Immunology and Microbiology,2020,extra,960,446,46.458333333333336
+mpnet,25,Materials Science,2000,base,1292,107,8.281733746130032
+mpnet,25,Materials Science,2000,extra,874,72,8.237986270022883
+mpnet,25,Materials Science,2005,base,2142,177,8.263305322128852
+mpnet,25,Materials Science,2005,extra,24,4,16.666666666666668
+mpnet,25,Materials Science,2010,base,2962,253,8.541525995948684
+mpnet,25,Materials Science,2015,base,3152,385,12.214467005076141
+mpnet,25,Materials Science,2020,base,3787,629,16.60945339318722
+mpnet,26,Mathematics,2000,base,386,25,6.476683937823834
+mpnet,26,Mathematics,2000,extra,1780,86,4.831460674157303
+mpnet,26,Mathematics,2005,base,639,27,4.225352112676056
+mpnet,26,Mathematics,2005,extra,1527,58,3.7982973149967254
+mpnet,26,Mathematics,2010,base,893,42,4.703247480403135
+mpnet,26,Mathematics,2010,extra,1273,61,4.791830322073841
+mpnet,26,Mathematics,2015,base,1108,62,5.595667870036101
+mpnet,26,Mathematics,2015,extra,1058,54,5.103969754253308
+mpnet,26,Mathematics,2020,base,1555,116,7.459807073954984
+mpnet,26,Mathematics,2020,extra,611,61,9.983633387888707
+mpnet,27,Medicine,2000,base,7128,2304,32.323232323232325
+mpnet,27,Medicine,2005,base,10946,3578,32.68773981363055
+mpnet,27,Medicine,2010,base,15771,5766,36.56077610804641
+mpnet,27,Medicine,2015,base,18629,8052,43.222931987761015
+mpnet,27,Medicine,2020,base,26195,12151,46.38671502195076
+mpnet,28,Neuroscience,2000,base,718,196,27.298050139275766
+mpnet,28,Neuroscience,2000,extra,1448,403,27.831491712707184
+mpnet,28,Neuroscience,2005,base,1005,287,28.557213930348258
+mpnet,28,Neuroscience,2005,extra,1161,309,26.614987080103358
+mpnet,28,Neuroscience,2010,base,1408,402,28.551136363636363
+mpnet,28,Neuroscience,2010,extra,758,208,27.440633245382585
+mpnet,28,Neuroscience,2015,base,1640,475,28.963414634146343
+mpnet,28,Neuroscience,2015,extra,526,148,28.136882129277566
+mpnet,28,Neuroscience,2020,base,2053,602,29.32294203604481
+mpnet,28,Neuroscience,2020,extra,113,33,29.20353982300885
+mpnet,29,Nursing,2000,base,182,49,26.923076923076923
+mpnet,29,Nursing,2000,extra,1984,569,28.679435483870968
+mpnet,29,Nursing,2005,base,285,84,29.473684210526315
+mpnet,29,Nursing,2005,extra,1881,502,26.687931951089844
+mpnet,29,Nursing,2010,base,453,157,34.65783664459161
+mpnet,29,Nursing,2010,extra,1713,474,27.6707530647986
+mpnet,29,Nursing,2015,base,497,185,37.223340040241446
+mpnet,29,Nursing,2015,extra,1669,643,38.52606351108448
+mpnet,29,Nursing,2020,base,660,264,40.0
+mpnet,29,Nursing,2020,extra,1506,579,38.44621513944223
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,34,22.07792207792208
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,501,24.900596421471175
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,61,22.426470588235293
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,387,20.43294614572334
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,113,25.56561085972851
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,414,24.013921113689094
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,125,33.244680851063826
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,628,35.08379888268156
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,173,36.73036093418259
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,635,37.46312684365782
+mpnet,31,Physics and Astronomy,2000,base,2116,148,6.994328922495274
+mpnet,31,Physics and Astronomy,2000,extra,50,4,8.0
+mpnet,31,Physics and Astronomy,2005,base,2704,239,8.838757396449704
+mpnet,31,Physics and Astronomy,2010,base,3094,300,9.696186166774401
+mpnet,31,Physics and Astronomy,2015,base,3388,346,10.212514757969304
+mpnet,31,Physics and Astronomy,2020,base,3470,430,12.39193083573487
+mpnet,32,Psychology,2000,base,838,67,7.995226730310263
+mpnet,32,Psychology,2000,extra,1328,114,8.58433734939759
+mpnet,32,Psychology,2005,base,1342,131,9.761549925484351
+mpnet,32,Psychology,2005,extra,824,85,10.315533980582524
+mpnet,32,Psychology,2010,base,2089,234,11.201531833413116
+mpnet,32,Psychology,2010,extra,77,12,15.584415584415584
+mpnet,32,Psychology,2015,base,2577,389,15.095071788901825
+mpnet,32,Psychology,2020,base,3970,778,19.596977329974813
+mpnet,33,Social Sciences,2000,base,2776,219,7.889048991354467
+mpnet,33,Social Sciences,2005,base,4893,473,9.666871040261599
+mpnet,33,Social Sciences,2010,base,7110,723,10.168776371308017
+mpnet,33,Social Sciences,2015,base,8891,1124,12.641997525587673
+mpnet,33,Social Sciences,2020,base,13879,1938,13.963542041933858
+mpnet,34,Veterinary,2000,base,58,16,27.586206896551722
+mpnet,34,Veterinary,2000,extra,2108,663,31.451612903225808
+mpnet,34,Veterinary,2005,base,100,29,29.0
+mpnet,34,Veterinary,2005,extra,2066,668,32.33301064859632
+mpnet,34,Veterinary,2010,base,107,39,36.44859813084112
+mpnet,34,Veterinary,2010,extra,2058,712,34.59669582118562
+mpnet,34,Veterinary,2015,base,165,68,41.21212121212121
+mpnet,34,Veterinary,2015,extra,2000,814,40.7
+mpnet,34,Veterinary,2020,base,212,95,44.81132075471698
+mpnet,34,Veterinary,2020,extra,1953,878,44.95647721454173
+mpnet,35,Dentistry,2000,base,159,42,26.41509433962264
+mpnet,35,Dentistry,2000,extra,2006,492,24.52642073778664
+mpnet,35,Dentistry,2005,base,260,62,23.846153846153847
+mpnet,35,Dentistry,2005,extra,1905,465,24.409448818897637
+mpnet,35,Dentistry,2010,base,441,121,27.43764172335601
+mpnet,35,Dentistry,2010,extra,1724,443,25.696055684454755
+mpnet,35,Dentistry,2015,base,544,187,34.375
+mpnet,35,Dentistry,2015,extra,1621,525,32.387415175817395
+mpnet,35,Dentistry,2020,base,834,312,37.410071942446045
+mpnet,35,Dentistry,2020,extra,1331,521,39.143501126972204
+mpnet,36,Health Professions,2000,base,589,86,14.601018675721562
+mpnet,36,Health Professions,2000,extra,1576,225,14.276649746192893
+mpnet,36,Health Professions,2005,base,933,131,14.040728831725616
+mpnet,36,Health Professions,2005,extra,1232,202,16.396103896103895
+mpnet,36,Health Professions,2010,base,1504,305,20.279255319148938
+mpnet,36,Health Professions,2010,extra,661,126,19.062027231467475
+mpnet,36,Health Professions,2015,base,1877,452,24.080980287693126
+mpnet,36,Health Professions,2015,extra,288,67,23.26388888888889
+mpnet,36,Health Professions,2020,base,2833,779,27.497352629721142
+minilm,11,Agricultural and Biological Sciences,2000,base,1663,905,54.41972339146121
+minilm,11,Agricultural and Biological Sciences,2000,extra,503,248,49.30417495029821
+minilm,11,Agricultural and Biological Sciences,2005,base,2528,1425,56.36867088607595
+minilm,11,Agricultural and Biological Sciences,2010,base,3940,2418,61.370558375634516
+minilm,11,Agricultural and Biological Sciences,2015,base,4298,3039,70.70730572359237
+minilm,11,Agricultural and Biological Sciences,2020,base,6491,4976,76.65999075643198
+minilm,12,Arts and Humanities,2000,base,847,259,30.578512396694215
+minilm,12,Arts and Humanities,2000,extra,1319,386,29.264594389689158
+minilm,12,Arts and Humanities,2005,base,1551,489,31.528046421663444
+minilm,12,Arts and Humanities,2005,extra,615,208,33.82113821138211
+minilm,12,Arts and Humanities,2010,base,2186,778,35.590118938700826
+minilm,12,Arts and Humanities,2015,base,2732,1124,41.142020497803806
+minilm,12,Arts and Humanities,2020,base,3380,1611,47.662721893491124
+minilm,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,1746,63.74589266155531
+minilm,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,2598,63.81724392041267
+minilm,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,3542,67.45381832031994
+minilm,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,4037,72.14081486776269
+minilm,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,5215,76.24269005847954
+minilm,14,"Business, Management and Accounting",2000,base,762,131,17.191601049868765
+minilm,14,"Business, Management and Accounting",2000,extra,1404,217,15.455840455840455
+minilm,14,"Business, Management and Accounting",2005,base,1489,290,19.476158495634653
+minilm,14,"Business, Management and Accounting",2005,extra,677,124,18.31610044313146
+minilm,14,"Business, Management and Accounting",2010,base,2186,514,23.513266239707228
+minilm,14,"Business, Management and Accounting",2015,base,2660,910,34.21052631578947
+minilm,14,"Business, Management and Accounting",2020,base,4040,1749,43.29207920792079
+minilm,15,Chemical Engineering,2000,base,161,63,39.130434782608695
+minilm,15,Chemical Engineering,2000,extra,2005,721,35.96009975062344
+minilm,15,Chemical Engineering,2005,base,214,87,40.654205607476634
+minilm,15,Chemical Engineering,2005,extra,1952,762,39.03688524590164
+minilm,15,Chemical Engineering,2010,base,246,98,39.83739837398374
+minilm,15,Chemical Engineering,2010,extra,1920,848,44.166666666666664
+minilm,15,Chemical Engineering,2015,base,255,127,49.80392156862745
+minilm,15,Chemical Engineering,2015,extra,1911,965,50.49712192569336
+minilm,15,Chemical Engineering,2020,base,319,203,63.63636363636363
+minilm,15,Chemical Engineering,2020,extra,1847,1194,64.64537087168381
+minilm,16,Chemistry,2000,base,931,384,41.245972073039745
+minilm,16,Chemistry,2000,extra,1235,517,41.86234817813765
+minilm,16,Chemistry,2005,base,1358,558,41.089837997054495
+minilm,16,Chemistry,2005,extra,808,349,43.193069306930695
+minilm,16,Chemistry,2010,base,1686,742,44.009489916963226
+minilm,16,Chemistry,2010,extra,480,207,43.125
+minilm,16,Chemistry,2015,base,1555,732,47.07395498392283
+minilm,16,Chemistry,2015,extra,611,291,47.62684124386252
+minilm,16,Chemistry,2020,base,1760,958,54.43181818181818
+minilm,16,Chemistry,2020,extra,406,240,59.11330049261084
+minilm,17,Computer Science,2000,base,3310,386,11.661631419939576
+minilm,17,Computer Science,2005,base,5594,696,12.441902037897748
+minilm,17,Computer Science,2010,base,7094,1160,16.351846630955738
+minilm,17,Computer Science,2015,base,6858,1914,27.909011373578302
+minilm,17,Computer Science,2020,base,9972,4225,42.36863217007621
+minilm,18,Decision Sciences,2000,base,290,55,18.96551724137931
+minilm,18,Decision Sciences,2000,extra,1876,353,18.816631130063964
+minilm,18,Decision Sciences,2005,base,567,115,20.282186948853617
+minilm,18,Decision Sciences,2005,extra,1599,297,18.574108818011258
+minilm,18,Decision Sciences,2010,base,883,220,24.91506228765572
+minilm,18,Decision Sciences,2010,extra,1283,293,22.837100545596257
+minilm,18,Decision Sciences,2015,base,921,296,32.13897937024973
+minilm,18,Decision Sciences,2015,extra,1245,407,32.69076305220884
+minilm,18,Decision Sciences,2020,base,1156,472,40.83044982698962
+minilm,18,Decision Sciences,2020,extra,1010,404,40.0
+minilm,19,Earth and Planetary Sciences,2000,base,851,397,46.650998824911866
+minilm,19,Earth and Planetary Sciences,2000,extra,1315,656,49.88593155893536
+minilm,19,Earth and Planetary Sciences,2005,base,1203,592,49.21030756442228
+minilm,19,Earth and Planetary Sciences,2005,extra,963,450,46.728971962616825
+minilm,19,Earth and Planetary Sciences,2010,base,1604,867,54.052369077306736
+minilm,19,Earth and Planetary Sciences,2010,extra,562,282,50.1779359430605
+minilm,19,Earth and Planetary Sciences,2015,base,1716,1066,62.121212121212125
+minilm,19,Earth and Planetary Sciences,2015,extra,450,291,64.66666666666667
+minilm,19,Earth and Planetary Sciences,2020,base,1882,1273,67.64080765143464
+minilm,19,Earth and Planetary Sciences,2020,extra,284,194,68.30985915492958
+minilm,20,"Economics, Econometrics and Finance",2000,base,773,145,18.758085381630014
+minilm,20,"Economics, Econometrics and Finance",2000,extra,1393,256,18.377602297200287
+minilm,20,"Economics, Econometrics and Finance",2005,base,1236,233,18.851132686084142
+minilm,20,"Economics, Econometrics and Finance",2005,extra,930,168,18.06451612903226
+minilm,20,"Economics, Econometrics and Finance",2010,base,1849,478,25.85181179015684
+minilm,20,"Economics, Econometrics and Finance",2010,extra,317,73,23.028391167192428
+minilm,20,"Economics, Econometrics and Finance",2015,base,1917,658,34.3244653103808
+minilm,20,"Economics, Econometrics and Finance",2015,extra,249,86,34.53815261044177
+minilm,20,"Economics, Econometrics and Finance",2020,base,2845,1350,47.45166959578207
+minilm,21,Energy,2000,base,116,30,25.862068965517242
+minilm,21,Energy,2000,extra,2050,587,28.634146341463413
+minilm,21,Energy,2005,base,240,62,25.833333333333332
+minilm,21,Energy,2005,extra,1926,501,26.01246105919003
+minilm,21,Energy,2010,base,591,210,35.53299492385787
+minilm,21,Energy,2010,extra,1575,570,36.19047619047619
+minilm,21,Energy,2015,base,680,324,47.64705882352941
+minilm,21,Energy,2015,extra,1486,681,45.82772543741588
+minilm,21,Energy,2020,base,990,576,58.18181818181818
+minilm,21,Energy,2020,extra,1176,742,63.095238095238095
+minilm,22,Engineering,2000,base,6990,1276,18.254649499284692
+minilm,22,Engineering,2005,base,11310,2092,18.49690539345712
+minilm,22,Engineering,2010,base,15203,3497,23.00203907123594
+minilm,22,Engineering,2015,base,14738,5169,35.072601438458406
+minilm,22,Engineering,2020,base,18907,9225,48.79145290104194
+minilm,23,Environmental Science,2000,base,1751,835,47.68703597944032
+minilm,23,Environmental Science,2000,extra,415,206,49.63855421686747
+minilm,23,Environmental Science,2005,base,2876,1383,48.087621696801115
+minilm,23,Environmental Science,2010,base,4005,2099,52.40948813982522
+minilm,23,Environmental Science,2015,base,4018,2536,63.115978098556496
+minilm,23,Environmental Science,2020,base,5919,4136,69.87666835614124
+minilm,24,Immunology and Microbiology,2000,base,534,393,73.59550561797752
+minilm,24,Immunology and Microbiology,2000,extra,1632,1177,72.12009803921569
+minilm,24,Immunology and Microbiology,2005,base,764,545,71.33507853403141
+minilm,24,Immunology and Microbiology,2005,extra,1402,1007,71.82596291012838
+minilm,24,Immunology and Microbiology,2010,base,924,685,74.13419913419914
+minilm,24,Immunology and Microbiology,2010,extra,1242,937,75.44283413848632
+minilm,24,Immunology and Microbiology,2015,base,1028,818,79.57198443579766
+minilm,24,Immunology and Microbiology,2015,extra,1138,898,78.9103690685413
+minilm,24,Immunology and Microbiology,2020,base,1206,975,80.8457711442786
+minilm,24,Immunology and Microbiology,2020,extra,960,784,81.66666666666667
+minilm,25,Materials Science,2000,base,1292,407,31.5015479876161
+minilm,25,Materials Science,2000,extra,874,274,31.35011441647597
+minilm,25,Materials Science,2005,base,2142,701,32.72642390289449
+minilm,25,Materials Science,2005,extra,24,11,45.833333333333336
+minilm,25,Materials Science,2010,base,2962,1114,37.60972316002701
+minilm,25,Materials Science,2015,base,3152,1571,49.84137055837564
+minilm,25,Materials Science,2020,base,3787,2329,61.49986796936889
+minilm,26,Mathematics,2000,base,386,73,18.911917098445596
+minilm,26,Mathematics,2000,extra,1780,273,15.337078651685394
+minilm,26,Mathematics,2005,base,639,92,14.397496087636933
+minilm,26,Mathematics,2005,extra,1527,251,16.437459070072038
+minilm,26,Mathematics,2010,base,893,145,16.237402015677493
+minilm,26,Mathematics,2010,extra,1273,199,15.632364493322859
+minilm,26,Mathematics,2015,base,1108,254,22.924187725631768
+minilm,26,Mathematics,2015,extra,1058,259,24.480151228733458
+minilm,26,Mathematics,2020,base,1555,468,30.09646302250804
+minilm,26,Mathematics,2020,extra,611,180,29.459901800327334
+minilm,27,Medicine,2000,base,7128,4581,64.26767676767676
+minilm,27,Medicine,2005,base,10946,7003,63.97770875205555
+minilm,27,Medicine,2010,base,15771,10928,69.29173800012681
+minilm,27,Medicine,2015,base,18629,13990,75.09796553760266
+minilm,27,Medicine,2020,base,26195,20782,79.3357510975377
+minilm,28,Neuroscience,2000,base,718,450,62.674094707520894
+minilm,28,Neuroscience,2000,extra,1448,876,60.49723756906077
+minilm,28,Neuroscience,2005,base,1005,634,63.08457711442786
+minilm,28,Neuroscience,2005,extra,1161,713,61.41257536606374
+minilm,28,Neuroscience,2010,base,1408,931,66.1221590909091
+minilm,28,Neuroscience,2010,extra,758,499,65.8311345646438
+minilm,28,Neuroscience,2015,base,1640,1082,65.97560975609755
+minilm,28,Neuroscience,2015,extra,526,374,71.10266159695817
+minilm,28,Neuroscience,2020,base,2053,1437,69.99512907939601
+minilm,28,Neuroscience,2020,extra,113,72,63.716814159292035
+minilm,29,Nursing,2000,base,182,91,50.0
+minilm,29,Nursing,2000,extra,1984,1198,60.38306451612903
+minilm,29,Nursing,2005,base,285,176,61.75438596491228
+minilm,29,Nursing,2005,extra,1881,1138,60.49973418394471
+minilm,29,Nursing,2010,base,453,311,68.65342163355409
+minilm,29,Nursing,2010,extra,1713,1097,64.03969643899592
+minilm,29,Nursing,2015,base,497,371,74.64788732394366
+minilm,29,Nursing,2015,extra,1669,1280,76.69263031755543
+minilm,29,Nursing,2020,base,660,527,79.84848484848484
+minilm,29,Nursing,2020,extra,1506,1192,79.15006640106242
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,79,51.298701298701296
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,1084,53.87673956262425
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,146,53.6764705882353
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,1035,54.64625131995776
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,275,62.217194570135746
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,1066,61.832946635730856
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,256,68.08510638297872
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,1278,71.39664804469274
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,367,77.91932059447983
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,1259,74.27728613569322
+minilm,31,Physics and Astronomy,2000,base,2116,526,24.858223062381853
+minilm,31,Physics and Astronomy,2000,extra,50,15,30.0
+minilm,31,Physics and Astronomy,2005,base,2704,775,28.661242603550296
+minilm,31,Physics and Astronomy,2010,base,3094,968,31.286360698125403
+minilm,31,Physics and Astronomy,2015,base,3388,1261,37.21959858323495
+minilm,31,Physics and Astronomy,2020,base,3470,1540,44.38040345821326
+minilm,32,Psychology,2000,base,838,225,26.84964200477327
+minilm,32,Psychology,2000,extra,1328,375,28.237951807228917
+minilm,32,Psychology,2005,base,1342,397,29.582712369597616
+minilm,32,Psychology,2005,extra,824,245,29.733009708737864
+minilm,32,Psychology,2010,base,2089,794,38.00861656294878
+minilm,32,Psychology,2010,extra,77,28,36.36363636363637
+minilm,32,Psychology,2015,base,2577,1248,48.428405122235155
+minilm,32,Psychology,2020,base,3970,2386,60.1007556675063
+minilm,33,Social Sciences,2000,base,2776,614,22.118155619596543
+minilm,33,Social Sciences,2005,base,4893,1162,23.74821173104435
+minilm,33,Social Sciences,2010,base,7110,2022,28.438818565400844
+minilm,33,Social Sciences,2015,base,8891,3431,38.589584973568776
+minilm,33,Social Sciences,2020,base,13879,6772,48.793140716189924
+minilm,34,Veterinary,2000,base,58,40,68.96551724137932
+minilm,34,Veterinary,2000,extra,2108,1386,65.74952561669829
+minilm,34,Veterinary,2005,base,100,60,60.0
+minilm,34,Veterinary,2005,extra,2066,1341,64.90803484995159
+minilm,34,Veterinary,2010,base,107,74,69.1588785046729
+minilm,34,Veterinary,2010,extra,2058,1454,70.6511175898931
+minilm,34,Veterinary,2015,base,165,125,75.75757575757575
+minilm,34,Veterinary,2015,extra,2000,1525,76.25
+minilm,34,Veterinary,2020,base,212,175,82.54716981132076
+minilm,34,Veterinary,2020,extra,1953,1595,81.66922683051715
+minilm,35,Dentistry,2000,base,159,113,71.06918238993711
+minilm,35,Dentistry,2000,extra,2006,1231,61.36590229312064
+minilm,35,Dentistry,2005,base,260,182,70.0
+minilm,35,Dentistry,2005,extra,1905,1204,63.202099737532805
+minilm,35,Dentistry,2010,base,441,306,69.38775510204081
+minilm,35,Dentistry,2010,extra,1724,1193,69.19953596287704
+minilm,35,Dentistry,2015,base,544,412,75.73529411764706
+minilm,35,Dentistry,2015,extra,1621,1209,74.58359037631092
+minilm,35,Dentistry,2020,base,834,675,80.93525179856115
+minilm,35,Dentistry,2020,extra,1331,1048,78.73779113448535
+minilm,36,Health Professions,2000,base,589,221,37.521222410865875
+minilm,36,Health Professions,2000,extra,1576,546,34.64467005076142
+minilm,36,Health Professions,2005,base,933,376,40.30010718113612
+minilm,36,Health Professions,2005,extra,1232,512,41.55844155844156
+minilm,36,Health Professions,2010,base,1504,714,47.473404255319146
+minilm,36,Health Professions,2010,extra,661,326,49.319213313161875
+minilm,36,Health Professions,2015,base,1877,1091,58.124667021843365
+minilm,36,Health Professions,2015,extra,288,171,59.375
+minilm,36,Health Professions,2020,base,2833,1893,66.81962583833392
+pubmedbert,11,Agricultural and Biological Sciences,2000,base,1663,85,5.111244738424534
+pubmedbert,11,Agricultural and Biological Sciences,2000,extra,503,23,4.572564612326044
+pubmedbert,11,Agricultural and Biological Sciences,2005,base,2528,143,5.656645569620253
+pubmedbert,11,Agricultural and Biological Sciences,2010,base,3940,220,5.583756345177665
+pubmedbert,11,Agricultural and Biological Sciences,2015,base,4298,251,5.8399255467659374
+pubmedbert,11,Agricultural and Biological Sciences,2020,base,6491,425,6.547527345555384
+pubmedbert,12,Arts and Humanities,2000,base,847,93,10.979929161747343
+pubmedbert,12,Arts and Humanities,2000,extra,1319,138,10.462471569370736
+pubmedbert,12,Arts and Humanities,2005,base,1551,173,11.154094132817537
+pubmedbert,12,Arts and Humanities,2005,extra,615,82,13.333333333333334
+pubmedbert,12,Arts and Humanities,2010,base,2186,239,10.933211344922233
+pubmedbert,12,Arts and Humanities,2015,base,2732,281,10.285505124450951
+pubmedbert,12,Arts and Humanities,2020,base,3380,448,13.254437869822485
+pubmedbert,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,110,4.016064257028113
+pubmedbert,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,188,4.618029968066814
+pubmedbert,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,236,4.49438202247191
+pubmedbert,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,319,5.700500357398141
+pubmedbert,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,338,4.941520467836257
+pubmedbert,14,"Business, Management and Accounting",2000,base,762,25,3.2808398950131235
+pubmedbert,14,"Business, Management and Accounting",2000,extra,1404,33,2.3504273504273505
+pubmedbert,14,"Business, Management and Accounting",2005,base,1489,48,3.223640026863667
+pubmedbert,14,"Business, Management and Accounting",2005,extra,677,19,2.806499261447563
+pubmedbert,14,"Business, Management and Accounting",2010,base,2186,59,2.698993595608417
+pubmedbert,14,"Business, Management and Accounting",2015,base,2660,104,3.9097744360902253
+pubmedbert,14,"Business, Management and Accounting",2020,base,4040,129,3.1930693069306932
+pubmedbert,15,Chemical Engineering,2000,base,161,1,0.6211180124223602
+pubmedbert,15,Chemical Engineering,2000,extra,2005,35,1.745635910224439
+pubmedbert,15,Chemical Engineering,2005,base,214,3,1.4018691588785046
+pubmedbert,15,Chemical Engineering,2005,extra,1952,43,2.2028688524590163
+pubmedbert,15,Chemical Engineering,2010,base,246,7,2.845528455284553
+pubmedbert,15,Chemical Engineering,2010,extra,1920,52,2.7083333333333335
+pubmedbert,15,Chemical Engineering,2015,base,255,2,0.7843137254901961
+pubmedbert,15,Chemical Engineering,2015,extra,1911,33,1.7268445839874411
+pubmedbert,15,Chemical Engineering,2020,base,319,7,2.19435736677116
+pubmedbert,15,Chemical Engineering,2020,extra,1847,46,2.490525175961018
+pubmedbert,16,Chemistry,2000,base,931,30,3.2223415682062297
+pubmedbert,16,Chemistry,2000,extra,1235,48,3.88663967611336
+pubmedbert,16,Chemistry,2005,base,1358,33,2.430044182621502
+pubmedbert,16,Chemistry,2005,extra,808,32,3.9603960396039604
+pubmedbert,16,Chemistry,2010,base,1686,54,3.202846975088968
+pubmedbert,16,Chemistry,2010,extra,480,16,3.3333333333333335
+pubmedbert,16,Chemistry,2015,base,1555,37,2.379421221864952
+pubmedbert,16,Chemistry,2015,extra,611,18,2.9459901800327333
+pubmedbert,16,Chemistry,2020,base,1760,53,3.0113636363636362
+pubmedbert,16,Chemistry,2020,extra,406,20,4.926108374384237
+pubmedbert,17,Computer Science,2000,base,3310,35,1.0574018126888218
+pubmedbert,17,Computer Science,2005,base,5594,64,1.144082946013586
+pubmedbert,17,Computer Science,2010,base,7094,72,1.0149422046800112
+pubmedbert,17,Computer Science,2015,base,6858,115,1.6768737241178187
+pubmedbert,17,Computer Science,2020,base,9972,206,2.0657841957480945
+pubmedbert,18,Decision Sciences,2000,base,290,7,2.413793103448276
+pubmedbert,18,Decision Sciences,2000,extra,1876,49,2.611940298507463
+pubmedbert,18,Decision Sciences,2005,base,567,22,3.880070546737213
+pubmedbert,18,Decision Sciences,2005,extra,1599,36,2.25140712945591
+pubmedbert,18,Decision Sciences,2010,base,883,28,3.1710079275198186
+pubmedbert,18,Decision Sciences,2010,extra,1283,35,2.7279812938425567
+pubmedbert,18,Decision Sciences,2015,base,921,28,3.040173724212812
+pubmedbert,18,Decision Sciences,2015,extra,1245,34,2.7309236947791167
+pubmedbert,18,Decision Sciences,2020,base,1156,30,2.5951557093425603
+pubmedbert,18,Decision Sciences,2020,extra,1010,30,2.9702970297029703
+pubmedbert,19,Earth and Planetary Sciences,2000,base,851,61,7.1680376028202115
+pubmedbert,19,Earth and Planetary Sciences,2000,extra,1315,100,7.604562737642586
+pubmedbert,19,Earth and Planetary Sciences,2005,base,1203,82,6.816292601828762
+pubmedbert,19,Earth and Planetary Sciences,2005,extra,963,55,5.711318795430945
+pubmedbert,19,Earth and Planetary Sciences,2010,base,1604,98,6.109725685785536
+pubmedbert,19,Earth and Planetary Sciences,2010,extra,562,37,6.5836298932384345
+pubmedbert,19,Earth and Planetary Sciences,2015,base,1716,125,7.284382284382285
+pubmedbert,19,Earth and Planetary Sciences,2015,extra,450,41,9.11111111111111
+pubmedbert,19,Earth and Planetary Sciences,2020,base,1882,139,7.385759829968119
+pubmedbert,19,Earth and Planetary Sciences,2020,extra,284,20,7.042253521126761
+pubmedbert,20,"Economics, Econometrics and Finance",2000,base,773,34,4.3984476067270375
+pubmedbert,20,"Economics, Econometrics and Finance",2000,extra,1393,58,4.1636755204594404
+pubmedbert,20,"Economics, Econometrics and Finance",2005,base,1236,56,4.53074433656958
+pubmedbert,20,"Economics, Econometrics and Finance",2005,extra,930,34,3.6559139784946235
+pubmedbert,20,"Economics, Econometrics and Finance",2010,base,1849,93,5.02974580854516
+pubmedbert,20,"Economics, Econometrics and Finance",2010,extra,317,12,3.7854889589905363
+pubmedbert,20,"Economics, Econometrics and Finance",2015,base,1917,86,4.486176317162233
+pubmedbert,20,"Economics, Econometrics and Finance",2015,extra,249,9,3.6144578313253013
+pubmedbert,20,"Economics, Econometrics and Finance",2020,base,2845,151,5.30755711775044
+pubmedbert,21,Energy,2000,base,116,2,1.7241379310344827
+pubmedbert,21,Energy,2000,extra,2050,58,2.8292682926829267
+pubmedbert,21,Energy,2005,base,240,7,2.9166666666666665
+pubmedbert,21,Energy,2005,extra,1926,42,2.1806853582554515
+pubmedbert,21,Energy,2010,base,591,10,1.6920473773265652
+pubmedbert,21,Energy,2010,extra,1575,21,1.3333333333333333
+pubmedbert,21,Energy,2015,base,680,15,2.2058823529411766
+pubmedbert,21,Energy,2015,extra,1486,26,1.749663526244953
+pubmedbert,21,Energy,2020,base,990,13,1.3131313131313131
+pubmedbert,21,Energy,2020,extra,1176,22,1.870748299319728
+pubmedbert,22,Engineering,2000,base,6990,92,1.3161659513590844
+pubmedbert,22,Engineering,2005,base,11310,157,1.3881520778072503
+pubmedbert,22,Engineering,2010,base,15203,194,1.2760639347497205
+pubmedbert,22,Engineering,2015,base,14738,282,1.9134210883430587
+pubmedbert,22,Engineering,2020,base,18907,361,1.9093457449621833
+pubmedbert,23,Environmental Science,2000,base,1751,67,3.8263849229011995
+pubmedbert,23,Environmental Science,2000,extra,415,22,5.301204819277109
+pubmedbert,23,Environmental Science,2005,base,2876,118,4.1029207232267035
+pubmedbert,23,Environmental Science,2010,base,4005,172,4.294631710362047
+pubmedbert,23,Environmental Science,2015,base,4018,221,5.500248880039821
+pubmedbert,23,Environmental Science,2020,base,5919,278,4.696739314073323
+pubmedbert,24,Immunology and Microbiology,2000,base,534,18,3.3707865168539324
+pubmedbert,24,Immunology and Microbiology,2000,extra,1632,76,4.6568627450980395
+pubmedbert,24,Immunology and Microbiology,2005,base,764,44,5.7591623036649215
+pubmedbert,24,Immunology and Microbiology,2005,extra,1402,74,5.2781740370898715
+pubmedbert,24,Immunology and Microbiology,2010,base,924,53,5.735930735930736
+pubmedbert,24,Immunology and Microbiology,2010,extra,1242,71,5.71658615136876
+pubmedbert,24,Immunology and Microbiology,2015,base,1028,73,7.101167315175097
+pubmedbert,24,Immunology and Microbiology,2015,extra,1138,67,5.8875219683655535
+pubmedbert,24,Immunology and Microbiology,2020,base,1206,94,7.794361525704809
+pubmedbert,24,Immunology and Microbiology,2020,extra,960,65,6.770833333333333
+pubmedbert,25,Materials Science,2000,base,1292,23,1.7801857585139318
+pubmedbert,25,Materials Science,2000,extra,874,10,1.1441647597254005
+pubmedbert,25,Materials Science,2005,base,2142,39,1.8207282913165266
+pubmedbert,25,Materials Science,2005,extra,24,1,4.166666666666667
+pubmedbert,25,Materials Science,2010,base,2962,41,1.3841998649561107
+pubmedbert,25,Materials Science,2015,base,3152,60,1.9035532994923858
+pubmedbert,25,Materials Science,2020,base,3787,122,3.221547398996567
+pubmedbert,26,Mathematics,2000,base,386,7,1.8134715025906736
+pubmedbert,26,Mathematics,2000,extra,1780,32,1.797752808988764
+pubmedbert,26,Mathematics,2005,base,639,7,1.0954616588419406
+pubmedbert,26,Mathematics,2005,extra,1527,14,0.91683038637852
+pubmedbert,26,Mathematics,2010,base,893,11,1.2318029115341544
+pubmedbert,26,Mathematics,2010,extra,1273,17,1.335428122545169
+pubmedbert,26,Mathematics,2015,base,1108,24,2.1660649819494586
+pubmedbert,26,Mathematics,2015,extra,1058,16,1.5122873345935728
+pubmedbert,26,Mathematics,2020,base,1555,41,2.6366559485530545
+pubmedbert,26,Mathematics,2020,extra,611,20,3.2733224222585924
+pubmedbert,27,Medicine,2000,base,7128,469,6.579685746352413
+pubmedbert,27,Medicine,2005,base,10946,762,6.961447103964919
+pubmedbert,27,Medicine,2010,base,15771,1257,7.970325280578277
+pubmedbert,27,Medicine,2015,base,18629,1726,9.265124268613452
+pubmedbert,27,Medicine,2020,base,26195,2580,9.849207864096202
+pubmedbert,28,Neuroscience,2000,base,718,23,3.203342618384401
+pubmedbert,28,Neuroscience,2000,extra,1448,62,4.281767955801105
+pubmedbert,28,Neuroscience,2005,base,1005,37,3.681592039800995
+pubmedbert,28,Neuroscience,2005,extra,1161,37,3.1869078380706286
+pubmedbert,28,Neuroscience,2010,base,1408,54,3.835227272727273
+pubmedbert,28,Neuroscience,2010,extra,758,27,3.5620052770448547
+pubmedbert,28,Neuroscience,2015,base,1640,60,3.658536585365854
+pubmedbert,28,Neuroscience,2015,extra,526,19,3.612167300380228
+pubmedbert,28,Neuroscience,2020,base,2053,80,3.896736483195324
+pubmedbert,28,Neuroscience,2020,extra,113,8,7.079646017699115
+pubmedbert,29,Nursing,2000,base,182,11,6.043956043956044
+pubmedbert,29,Nursing,2000,extra,1984,116,5.846774193548387
+pubmedbert,29,Nursing,2005,base,285,20,7.017543859649122
+pubmedbert,29,Nursing,2005,extra,1881,100,5.31632110579479
+pubmedbert,29,Nursing,2010,base,453,21,4.635761589403973
+pubmedbert,29,Nursing,2010,extra,1713,88,5.137186223000584
+pubmedbert,29,Nursing,2015,base,497,32,6.438631790744467
+pubmedbert,29,Nursing,2015,extra,1669,128,7.669263031755542
+pubmedbert,29,Nursing,2020,base,660,52,7.878787878787879
+pubmedbert,29,Nursing,2020,extra,1506,102,6.772908366533865
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,7,4.545454545454546
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,98,4.870775347912525
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,9,3.3088235294117645
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,71,3.7486800422386484
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,21,4.751131221719457
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,45,2.6102088167053363
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,22,5.851063829787234
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,115,6.424581005586592
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,25,5.307855626326964
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,90,5.3097345132743365
+pubmedbert,31,Physics and Astronomy,2000,base,2116,45,2.126654064272212
+pubmedbert,31,Physics and Astronomy,2000,extra,50,1,2.0
+pubmedbert,31,Physics and Astronomy,2005,base,2704,70,2.588757396449704
+pubmedbert,31,Physics and Astronomy,2010,base,3094,75,2.4240465416936003
+pubmedbert,31,Physics and Astronomy,2015,base,3388,71,2.0956316410861864
+pubmedbert,31,Physics and Astronomy,2020,base,3470,87,2.5072046109510087
+pubmedbert,32,Psychology,2000,base,838,34,4.05727923627685
+pubmedbert,32,Psychology,2000,extra,1328,59,4.442771084337349
+pubmedbert,32,Psychology,2005,base,1342,59,4.396423248882265
+pubmedbert,32,Psychology,2005,extra,824,37,4.490291262135922
+pubmedbert,32,Psychology,2010,base,2089,84,4.02106270943035
+pubmedbert,32,Psychology,2010,extra,77,3,3.896103896103896
+pubmedbert,32,Psychology,2015,base,2577,101,3.9192859914629414
+pubmedbert,32,Psychology,2020,base,3970,200,5.037783375314861
+pubmedbert,33,Social Sciences,2000,base,2776,138,4.971181556195965
+pubmedbert,33,Social Sciences,2005,base,4893,310,6.33558144287758
+pubmedbert,33,Social Sciences,2010,base,7110,402,5.654008438818566
+pubmedbert,33,Social Sciences,2015,base,8891,576,6.478461365425711
+pubmedbert,33,Social Sciences,2020,base,13879,854,6.153181064918222
+pubmedbert,34,Veterinary,2000,base,58,1,1.7241379310344827
+pubmedbert,34,Veterinary,2000,extra,2108,123,5.834914611005693
+pubmedbert,34,Veterinary,2005,base,100,10,10.0
+pubmedbert,34,Veterinary,2005,extra,2066,123,5.953533397870281
+pubmedbert,34,Veterinary,2010,base,107,10,9.345794392523365
+pubmedbert,34,Veterinary,2010,extra,2058,125,6.073858114674441
+pubmedbert,34,Veterinary,2015,base,165,12,7.2727272727272725
+pubmedbert,34,Veterinary,2015,extra,2000,138,6.9
+pubmedbert,34,Veterinary,2020,base,212,25,11.79245283018868
+pubmedbert,34,Veterinary,2020,extra,1953,186,9.523809523809524
+pubmedbert,35,Dentistry,2000,base,159,5,3.1446540880503147
+pubmedbert,35,Dentistry,2000,extra,2006,83,4.137587238285144
+pubmedbert,35,Dentistry,2005,base,260,12,4.615384615384615
+pubmedbert,35,Dentistry,2005,extra,1905,53,2.7821522309711284
+pubmedbert,35,Dentistry,2010,base,441,11,2.494331065759637
+pubmedbert,35,Dentistry,2010,extra,1724,56,3.2482598607888633
+pubmedbert,35,Dentistry,2015,base,544,25,4.595588235294118
+pubmedbert,35,Dentistry,2015,extra,1621,60,3.7014188772362737
+pubmedbert,35,Dentistry,2020,base,834,40,4.796163069544365
+pubmedbert,35,Dentistry,2020,extra,1331,63,4.73328324567994
+pubmedbert,36,Health Professions,2000,base,589,45,7.6400679117147705
+pubmedbert,36,Health Professions,2000,extra,1576,123,7.804568527918781
+pubmedbert,36,Health Professions,2005,base,933,48,5.144694533762058
+pubmedbert,36,Health Professions,2005,extra,1232,86,6.98051948051948
+pubmedbert,36,Health Professions,2010,base,1504,104,6.914893617021277
+pubmedbert,36,Health Professions,2010,extra,661,46,6.959152798789712
+pubmedbert,36,Health Professions,2015,base,1877,134,7.13905167820991
+pubmedbert,36,Health Professions,2015,extra,288,19,6.597222222222222
+pubmedbert,36,Health Professions,2020,base,2833,221,7.800917755030004
+biobert,11,Agricultural and Biological Sciences,2000,base,1663,140,8.418520745640409
+biobert,11,Agricultural and Biological Sciences,2000,extra,503,42,8.34990059642147
+biobert,11,Agricultural and Biological Sciences,2005,base,2528,243,9.612341772151899
+biobert,11,Agricultural and Biological Sciences,2010,base,3940,382,9.695431472081218
+biobert,11,Agricultural and Biological Sciences,2015,base,4298,505,11.749651000465333
+biobert,11,Agricultural and Biological Sciences,2020,base,6491,827,12.740717917116006
+biobert,12,Arts and Humanities,2000,base,847,95,11.216056670602125
+biobert,12,Arts and Humanities,2000,extra,1319,142,10.765731614859742
+biobert,12,Arts and Humanities,2005,base,1551,177,11.411992263056092
+biobert,12,Arts and Humanities,2005,extra,615,82,13.333333333333334
+biobert,12,Arts and Humanities,2010,base,2186,238,10.887465690759377
+biobert,12,Arts and Humanities,2015,base,2732,288,10.541727672035138
+biobert,12,Arts and Humanities,2020,base,3380,459,13.579881656804734
+biobert,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,346,12.632347572106609
+biobert,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,499,12.257430606730534
+biobert,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,683,13.007046276899638
+biobert,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,868,15.51107934238742
+biobert,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,1094,15.994152046783626
+biobert,14,"Business, Management and Accounting",2000,base,762,28,3.674540682414698
+biobert,14,"Business, Management and Accounting",2000,extra,1404,41,2.92022792022792
+biobert,14,"Business, Management and Accounting",2005,base,1489,51,3.4251175285426463
+biobert,14,"Business, Management and Accounting",2005,extra,677,19,2.806499261447563
+biobert,14,"Business, Management and Accounting",2010,base,2186,70,3.202195791399817
+biobert,14,"Business, Management and Accounting",2015,base,2660,120,4.511278195488722
+biobert,14,"Business, Management and Accounting",2020,base,4040,157,3.886138613861386
+biobert,15,Chemical Engineering,2000,base,161,10,6.211180124223603
+biobert,15,Chemical Engineering,2000,extra,2005,67,3.341645885286783
+biobert,15,Chemical Engineering,2005,base,214,7,3.2710280373831777
+biobert,15,Chemical Engineering,2005,extra,1952,87,4.456967213114754
+biobert,15,Chemical Engineering,2010,base,246,12,4.878048780487805
+biobert,15,Chemical Engineering,2010,extra,1920,90,4.6875
+biobert,15,Chemical Engineering,2015,base,255,10,3.9215686274509802
+biobert,15,Chemical Engineering,2015,extra,1911,83,4.343275771847201
+biobert,15,Chemical Engineering,2020,base,319,13,4.075235109717869
+biobert,15,Chemical Engineering,2020,extra,1847,98,5.305901461829994
+biobert,16,Chemistry,2000,base,931,56,6.015037593984962
+biobert,16,Chemistry,2000,extra,1235,89,7.206477732793522
+biobert,16,Chemistry,2005,base,1358,79,5.817378497790869
+biobert,16,Chemistry,2005,extra,808,58,7.178217821782178
+biobert,16,Chemistry,2010,base,1686,114,6.761565836298932
+biobert,16,Chemistry,2010,extra,480,37,7.708333333333333
+biobert,16,Chemistry,2015,base,1555,90,5.787781350482315
+biobert,16,Chemistry,2015,extra,611,43,7.037643207855973
+biobert,16,Chemistry,2020,base,1760,119,6.761363636363637
+biobert,16,Chemistry,2020,extra,406,33,8.12807881773399
+biobert,17,Computer Science,2000,base,3310,41,1.2386706948640482
+biobert,17,Computer Science,2005,base,5594,70,1.2513407222023596
+biobert,17,Computer Science,2010,base,7094,90,1.2686777558500142
+biobert,17,Computer Science,2015,base,6858,160,2.3330417031204433
+biobert,17,Computer Science,2020,base,9972,276,2.7677496991576414
+biobert,18,Decision Sciences,2000,base,290,8,2.7586206896551726
+biobert,18,Decision Sciences,2000,extra,1876,61,3.251599147121535
+biobert,18,Decision Sciences,2005,base,567,27,4.761904761904762
+biobert,18,Decision Sciences,2005,extra,1599,44,2.7517198248905568
+biobert,18,Decision Sciences,2010,base,883,29,3.2842582106455267
+biobert,18,Decision Sciences,2010,extra,1283,42,3.273577552611068
+biobert,18,Decision Sciences,2015,base,921,33,3.583061889250814
+biobert,18,Decision Sciences,2015,extra,1245,41,3.2931726907630523
+biobert,18,Decision Sciences,2020,base,1156,44,3.8062283737024223
+biobert,18,Decision Sciences,2020,extra,1010,37,3.6633663366336635
+biobert,19,Earth and Planetary Sciences,2000,base,851,78,9.165687426556993
+biobert,19,Earth and Planetary Sciences,2000,extra,1315,128,9.73384030418251
+biobert,19,Earth and Planetary Sciences,2005,base,1203,100,8.31255195344971
+biobert,19,Earth and Planetary Sciences,2005,extra,963,79,8.203530633437175
+biobert,19,Earth and Planetary Sciences,2010,base,1604,135,8.41645885286783
+biobert,19,Earth and Planetary Sciences,2010,extra,562,47,8.362989323843417
+biobert,19,Earth and Planetary Sciences,2015,base,1716,161,9.382284382284382
+biobert,19,Earth and Planetary Sciences,2015,extra,450,56,12.444444444444445
+biobert,19,Earth and Planetary Sciences,2020,base,1882,205,10.892667375132838
+biobert,19,Earth and Planetary Sciences,2020,extra,284,30,10.56338028169014
+biobert,20,"Economics, Econometrics and Finance",2000,base,773,36,4.657179818887451
+biobert,20,"Economics, Econometrics and Finance",2000,extra,1393,67,4.809763101220388
+biobert,20,"Economics, Econometrics and Finance",2005,base,1236,60,4.854368932038835
+biobert,20,"Economics, Econometrics and Finance",2005,extra,930,37,3.978494623655914
+biobert,20,"Economics, Econometrics and Finance",2010,base,1849,102,5.516495402920498
+biobert,20,"Economics, Econometrics and Finance",2010,extra,317,13,4.100946372239748
+biobert,20,"Economics, Econometrics and Finance",2015,base,1917,103,5.372978612415232
+biobert,20,"Economics, Econometrics and Finance",2015,extra,249,10,4.016064257028113
+biobert,20,"Economics, Econometrics and Finance",2020,base,2845,185,6.502636203866432
+biobert,21,Energy,2000,base,116,2,1.7241379310344827
+biobert,21,Energy,2000,extra,2050,90,4.390243902439025
+biobert,21,Energy,2005,base,240,8,3.3333333333333335
+biobert,21,Energy,2005,extra,1926,61,3.167185877466251
+biobert,21,Energy,2010,base,591,24,4.060913705583756
+biobert,21,Energy,2010,extra,1575,48,3.0476190476190474
+biobert,21,Energy,2015,base,680,31,4.5588235294117645
+biobert,21,Energy,2015,extra,1486,53,3.566621803499327
+biobert,21,Energy,2020,base,990,34,3.4343434343434343
+biobert,21,Energy,2020,extra,1176,47,3.996598639455782
+biobert,22,Engineering,2000,base,6990,121,1.7310443490701002
+biobert,22,Engineering,2005,base,11310,215,1.900972590627763
+biobert,22,Engineering,2010,base,15203,302,1.9864500427547194
+biobert,22,Engineering,2015,base,14738,408,2.768353915049532
+biobert,22,Engineering,2020,base,18907,600,3.1734278309620776
+biobert,23,Environmental Science,2000,base,1751,109,6.225014277555682
+biobert,23,Environmental Science,2000,extra,415,27,6.506024096385542
+biobert,23,Environmental Science,2005,base,2876,180,6.258692628650904
+biobert,23,Environmental Science,2010,base,4005,256,6.392009987515605
+biobert,23,Environmental Science,2015,base,4018,349,8.685913389746142
+biobert,23,Environmental Science,2020,base,5919,502,8.481162358506504
+biobert,24,Immunology and Microbiology,2000,base,534,70,13.108614232209737
+biobert,24,Immunology and Microbiology,2000,extra,1632,239,14.644607843137255
+biobert,24,Immunology and Microbiology,2005,base,764,119,15.575916230366492
+biobert,24,Immunology and Microbiology,2005,extra,1402,200,14.265335235378032
+biobert,24,Immunology and Microbiology,2010,base,924,141,15.25974025974026
+biobert,24,Immunology and Microbiology,2010,extra,1242,213,17.14975845410628
+biobert,24,Immunology and Microbiology,2015,base,1028,201,19.55252918287938
+biobert,24,Immunology and Microbiology,2015,extra,1138,206,18.101933216168717
+biobert,24,Immunology and Microbiology,2020,base,1206,264,21.890547263681594
+biobert,24,Immunology and Microbiology,2020,extra,960,208,21.666666666666668
+biobert,25,Materials Science,2000,base,1292,43,3.328173374613003
+biobert,25,Materials Science,2000,extra,874,23,2.6315789473684212
+biobert,25,Materials Science,2005,base,2142,76,3.5480859010270773
+biobert,25,Materials Science,2005,extra,24,1,4.166666666666667
+biobert,25,Materials Science,2010,base,2962,86,2.9034436191762323
+biobert,25,Materials Science,2015,base,3152,141,4.473350253807107
+biobert,25,Materials Science,2020,base,3787,223,5.888566147346184
+biobert,26,Mathematics,2000,base,386,9,2.33160621761658
+biobert,26,Mathematics,2000,extra,1780,39,2.191011235955056
+biobert,26,Mathematics,2005,base,639,12,1.8779342723004695
+biobert,26,Mathematics,2005,extra,1527,24,1.5717092337917484
+biobert,26,Mathematics,2010,base,893,16,1.7917133258678613
+biobert,26,Mathematics,2010,extra,1273,23,1.8067556952081696
+biobert,26,Mathematics,2015,base,1108,28,2.527075812274368
+biobert,26,Mathematics,2015,extra,1058,19,1.7958412098298677
+biobert,26,Mathematics,2020,base,1555,48,3.0868167202572345
+biobert,26,Mathematics,2020,extra,611,26,4.25531914893617
+biobert,27,Medicine,2000,base,7128,1087,15.249719416386084
+biobert,27,Medicine,2005,base,10946,1700,15.530787502283939
+biobert,27,Medicine,2010,base,15771,2818,17.868239173165936
+biobert,27,Medicine,2015,base,18629,4021,21.58462612056471
+biobert,27,Medicine,2020,base,26195,6063,23.145638480626072
+biobert,28,Neuroscience,2000,base,718,72,10.027855153203342
+biobert,28,Neuroscience,2000,extra,1448,163,11.256906077348066
+biobert,28,Neuroscience,2005,base,1005,115,11.442786069651742
+biobert,28,Neuroscience,2005,extra,1161,123,10.594315245478036
+biobert,28,Neuroscience,2010,base,1408,137,9.730113636363637
+biobert,28,Neuroscience,2010,extra,758,71,9.366754617414248
+biobert,28,Neuroscience,2015,base,1640,186,11.341463414634147
+biobert,28,Neuroscience,2015,extra,526,60,11.406844106463879
+biobert,28,Neuroscience,2020,base,2053,249,12.128592303945446
+biobert,28,Neuroscience,2020,extra,113,19,16.8141592920354
+biobert,29,Nursing,2000,base,182,23,12.637362637362637
+biobert,29,Nursing,2000,extra,1984,240,12.096774193548388
+biobert,29,Nursing,2005,base,285,36,12.631578947368421
+biobert,29,Nursing,2005,extra,1881,202,10.738968633705475
+biobert,29,Nursing,2010,base,453,40,8.830022075055188
+biobert,29,Nursing,2010,extra,1713,200,11.675423234092236
+biobert,29,Nursing,2015,base,497,75,15.090543259557345
+biobert,29,Nursing,2015,extra,1669,268,16.057519472738168
+biobert,29,Nursing,2020,base,660,108,16.363636363636363
+biobert,29,Nursing,2020,extra,1506,238,15.803452855245684
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,16,10.38961038961039
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,234,11.630218687872764
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,25,9.191176470588236
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,172,9.081309398099261
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,48,10.85972850678733
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,132,7.65661252900232
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,54,14.361702127659575
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,286,15.977653631284916
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,66,14.012738853503185
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,256,15.103244837758112
+biobert,31,Physics and Astronomy,2000,base,2116,61,2.8827977315689983
+biobert,31,Physics and Astronomy,2000,extra,50,1,2.0
+biobert,31,Physics and Astronomy,2005,base,2704,94,3.4763313609467454
+biobert,31,Physics and Astronomy,2010,base,3094,119,3.8461538461538463
+biobert,31,Physics and Astronomy,2015,base,3388,117,3.4533648170011806
+biobert,31,Physics and Astronomy,2020,base,3470,131,3.7752161383285303
+biobert,32,Psychology,2000,base,838,46,5.4892601431980905
+biobert,32,Psychology,2000,extra,1328,66,4.969879518072289
+biobert,32,Psychology,2005,base,1342,70,5.216095380029806
+biobert,32,Psychology,2005,extra,824,48,5.825242718446602
+biobert,32,Psychology,2010,base,2089,108,5.169937769267592
+biobert,32,Psychology,2010,extra,77,3,3.896103896103896
+biobert,32,Psychology,2015,base,2577,154,5.975941016686069
+biobert,32,Psychology,2020,base,3970,315,7.934508816120907
+biobert,33,Social Sciences,2000,base,2776,145,5.223342939481268
+biobert,33,Social Sciences,2005,base,4893,323,6.601267116288575
+biobert,33,Social Sciences,2010,base,7110,429,6.033755274261603
+biobert,33,Social Sciences,2015,base,8891,637,7.164548419750309
+biobert,33,Social Sciences,2020,base,13879,957,6.895309460335759
+biobert,34,Veterinary,2000,base,58,4,6.896551724137931
+biobert,34,Veterinary,2000,extra,2108,278,13.18785578747628
+biobert,34,Veterinary,2005,base,100,15,15.0
+biobert,34,Veterinary,2005,extra,2066,282,13.649564375605033
+biobert,34,Veterinary,2010,base,107,19,17.757009345794394
+biobert,34,Veterinary,2010,extra,2058,300,14.577259475218659
+biobert,34,Veterinary,2015,base,165,32,19.393939393939394
+biobert,34,Veterinary,2015,extra,2000,362,18.1
+biobert,34,Veterinary,2020,base,212,45,21.22641509433962
+biobert,34,Veterinary,2020,extra,1953,391,20.02048131080389
+biobert,35,Dentistry,2000,base,159,15,9.433962264150944
+biobert,35,Dentistry,2000,extra,2006,190,9.471585244267198
+biobert,35,Dentistry,2005,base,260,26,10.0
+biobert,35,Dentistry,2005,extra,1905,140,7.349081364829396
+biobert,35,Dentistry,2010,base,441,34,7.709750566893424
+biobert,35,Dentistry,2010,extra,1724,162,9.39675174013921
+biobert,35,Dentistry,2015,base,544,67,12.316176470588236
+biobert,35,Dentistry,2015,extra,1621,175,10.795805058605799
+biobert,35,Dentistry,2020,base,834,111,13.309352517985612
+biobert,35,Dentistry,2020,extra,1331,201,15.101427498121714
+biobert,36,Health Professions,2000,base,589,52,8.828522920203735
+biobert,36,Health Professions,2000,extra,1576,139,8.819796954314722
+biobert,36,Health Professions,2005,base,933,71,7.609860664523044
+biobert,36,Health Professions,2005,extra,1232,113,9.172077922077921
+biobert,36,Health Professions,2010,base,1504,140,9.308510638297872
+biobert,36,Health Professions,2010,extra,661,58,8.774583963691377
+biobert,36,Health Professions,2015,base,1877,201,10.708577517314865
+biobert,36,Health Professions,2015,extra,288,25,8.680555555555555
+biobert,36,Health Professions,2020,base,2833,350,12.354394634662901
+simcse,11,Agricultural and Biological Sciences,2000,base,1663,110,6.61455201443175
+simcse,11,Agricultural and Biological Sciences,2000,extra,503,31,6.163021868787276
+simcse,11,Agricultural and Biological Sciences,2005,base,2528,198,7.832278481012659
+simcse,11,Agricultural and Biological Sciences,2010,base,3940,298,7.563451776649746
+simcse,11,Agricultural and Biological Sciences,2015,base,4298,378,8.794788273615636
+simcse,11,Agricultural and Biological Sciences,2020,base,6491,625,9.62871668464027
+simcse,12,Arts and Humanities,2000,base,847,89,10.50767414403778
+simcse,12,Arts and Humanities,2000,extra,1319,130,9.855951478392722
+simcse,12,Arts and Humanities,2005,base,1551,169,10.896196002578982
+simcse,12,Arts and Humanities,2005,extra,615,77,12.520325203252032
+simcse,12,Arts and Humanities,2010,base,2186,225,10.292772186642269
+simcse,12,Arts and Humanities,2015,base,2732,271,9.919472913616397
+simcse,12,Arts and Humanities,2020,base,3380,423,12.514792899408285
+simcse,13,"Biochemistry, Genetics and Molecular Biology",2000,base,2739,254,9.273457466228551
+simcse,13,"Biochemistry, Genetics and Molecular Biology",2005,base,4071,362,8.892164087447801
+simcse,13,"Biochemistry, Genetics and Molecular Biology",2010,base,5251,489,9.312511902494762
+simcse,13,"Biochemistry, Genetics and Molecular Biology",2015,base,5596,633,11.311651179413866
+simcse,13,"Biochemistry, Genetics and Molecular Biology",2020,base,6840,747,10.921052631578947
+simcse,14,"Business, Management and Accounting",2000,base,762,28,3.674540682414698
+simcse,14,"Business, Management and Accounting",2000,extra,1404,29,2.0655270655270654
+simcse,14,"Business, Management and Accounting",2005,base,1489,48,3.223640026863667
+simcse,14,"Business, Management and Accounting",2005,extra,677,18,2.658788774002954
+simcse,14,"Business, Management and Accounting",2010,base,2186,64,2.92772186642269
+simcse,14,"Business, Management and Accounting",2015,base,2660,109,4.097744360902255
+simcse,14,"Business, Management and Accounting",2020,base,4040,133,3.292079207920792
+simcse,15,Chemical Engineering,2000,base,161,5,3.1055900621118013
+simcse,15,Chemical Engineering,2000,extra,2005,54,2.693266832917706
+simcse,15,Chemical Engineering,2005,base,214,4,1.8691588785046729
+simcse,15,Chemical Engineering,2005,extra,1952,62,3.1762295081967213
+simcse,15,Chemical Engineering,2010,base,246,9,3.658536585365854
+simcse,15,Chemical Engineering,2010,extra,1920,73,3.8020833333333335
+simcse,15,Chemical Engineering,2015,base,255,6,2.3529411764705883
+simcse,15,Chemical Engineering,2015,extra,1911,63,3.2967032967032965
+simcse,15,Chemical Engineering,2020,base,319,8,2.5078369905956115
+simcse,15,Chemical Engineering,2020,extra,1847,63,3.410936654033568
+simcse,16,Chemistry,2000,base,931,45,4.833512352309345
+simcse,16,Chemistry,2000,extra,1235,74,5.991902834008097
+simcse,16,Chemistry,2005,base,1358,54,3.976435935198822
+simcse,16,Chemistry,2005,extra,808,48,5.9405940594059405
+simcse,16,Chemistry,2010,base,1686,81,4.804270462633452
+simcse,16,Chemistry,2010,extra,480,25,5.208333333333333
+simcse,16,Chemistry,2015,base,1555,69,4.437299035369775
+simcse,16,Chemistry,2015,extra,611,31,5.073649754500818
+simcse,16,Chemistry,2020,base,1760,84,4.7727272727272725
+simcse,16,Chemistry,2020,extra,406,28,6.896551724137931
+simcse,17,Computer Science,2000,base,3310,48,1.4501510574018126
+simcse,17,Computer Science,2005,base,5594,82,1.465856274579907
+simcse,17,Computer Science,2010,base,7094,119,1.6774739216239076
+simcse,17,Computer Science,2015,base,6858,161,2.347623213764946
+simcse,17,Computer Science,2020,base,9972,219,2.1961492178098676
+simcse,18,Decision Sciences,2000,base,290,8,2.7586206896551726
+simcse,18,Decision Sciences,2000,extra,1876,51,2.718550106609808
+simcse,18,Decision Sciences,2005,base,567,23,4.056437389770723
+simcse,18,Decision Sciences,2005,extra,1599,41,2.5641025641025643
+simcse,18,Decision Sciences,2010,base,883,33,3.737259343148358
+simcse,18,Decision Sciences,2010,extra,1283,43,3.3515198752922837
+simcse,18,Decision Sciences,2015,base,921,34,3.6916395222584146
+simcse,18,Decision Sciences,2015,extra,1245,42,3.3734939759036147
+simcse,18,Decision Sciences,2020,base,1156,33,2.8546712802768166
+simcse,18,Decision Sciences,2020,extra,1010,30,2.9702970297029703
+simcse,19,Earth and Planetary Sciences,2000,base,851,65,7.63807285546416
+simcse,19,Earth and Planetary Sciences,2000,extra,1315,111,8.44106463878327
+simcse,19,Earth and Planetary Sciences,2005,base,1203,88,7.315045719035744
+simcse,19,Earth and Planetary Sciences,2005,extra,963,66,6.853582554517134
+simcse,19,Earth and Planetary Sciences,2010,base,1604,113,7.0448877805486285
+simcse,19,Earth and Planetary Sciences,2010,extra,562,39,6.93950177935943
+simcse,19,Earth and Planetary Sciences,2015,base,1716,132,7.6923076923076925
+simcse,19,Earth and Planetary Sciences,2015,extra,450,44,9.777777777777779
+simcse,19,Earth and Planetary Sciences,2020,base,1882,157,8.342189160467587
+simcse,19,Earth and Planetary Sciences,2020,extra,284,20,7.042253521126761
+simcse,20,"Economics, Econometrics and Finance",2000,base,773,34,4.3984476067270375
+simcse,20,"Economics, Econometrics and Finance",2000,extra,1393,57,4.0918880114860015
+simcse,20,"Economics, Econometrics and Finance",2005,base,1236,54,4.368932038834951
+simcse,20,"Economics, Econometrics and Finance",2005,extra,930,34,3.6559139784946235
+simcse,20,"Economics, Econometrics and Finance",2010,base,1849,89,4.813412655489453
+simcse,20,"Economics, Econometrics and Finance",2010,extra,317,13,4.100946372239748
+simcse,20,"Economics, Econometrics and Finance",2015,base,1917,91,4.747000521648409
+simcse,20,"Economics, Econometrics and Finance",2015,extra,249,10,4.016064257028113
+simcse,20,"Economics, Econometrics and Finance",2020,base,2845,152,5.3427065026362035
+simcse,21,Energy,2000,base,116,2,1.7241379310344827
+simcse,21,Energy,2000,extra,2050,73,3.5609756097560976
+simcse,21,Energy,2005,base,240,8,3.3333333333333335
+simcse,21,Energy,2005,extra,1926,47,2.4402907580477673
+simcse,21,Energy,2010,base,591,17,2.8764805414551606
+simcse,21,Energy,2010,extra,1575,36,2.2857142857142856
+simcse,21,Energy,2015,base,680,25,3.676470588235294
+simcse,21,Energy,2015,extra,1486,34,2.288021534320323
+simcse,21,Energy,2020,base,990,26,2.6262626262626263
+simcse,21,Energy,2020,extra,1176,35,2.9761904761904763
+simcse,22,Engineering,2000,base,6990,102,1.4592274678111588
+simcse,22,Engineering,2005,base,11310,192,1.6976127320954908
+simcse,22,Engineering,2010,base,15203,303,1.993027691902914
+simcse,22,Engineering,2015,base,14738,362,2.456235581490026
+simcse,22,Engineering,2020,base,18907,441,2.332469455757127
+simcse,23,Environmental Science,2000,base,1751,83,4.7401484865790975
+simcse,23,Environmental Science,2000,extra,415,24,5.783132530120482
+simcse,23,Environmental Science,2005,base,2876,147,5.111265646731572
+simcse,23,Environmental Science,2010,base,4005,220,5.493133583021224
+simcse,23,Environmental Science,2015,base,4018,265,6.595321055251369
+simcse,23,Environmental Science,2020,base,5919,375,6.3355296502787635
+simcse,24,Immunology and Microbiology,2000,base,534,43,8.05243445692884
+simcse,24,Immunology and Microbiology,2000,extra,1632,162,9.926470588235293
+simcse,24,Immunology and Microbiology,2005,base,764,81,10.602094240837696
+simcse,24,Immunology and Microbiology,2005,extra,1402,138,9.843081312410842
+simcse,24,Immunology and Microbiology,2010,base,924,98,10.606060606060606
+simcse,24,Immunology and Microbiology,2010,extra,1242,150,12.077294685990339
+simcse,24,Immunology and Microbiology,2015,base,1028,135,13.132295719844358
+simcse,24,Immunology and Microbiology,2015,extra,1138,140,12.302284710017574
+simcse,24,Immunology and Microbiology,2020,base,1206,180,14.925373134328359
+simcse,24,Immunology and Microbiology,2020,extra,960,149,15.520833333333334
+simcse,25,Materials Science,2000,base,1292,36,2.7863777089783284
+simcse,25,Materials Science,2000,extra,874,16,1.8306636155606408
+simcse,25,Materials Science,2005,base,2142,57,2.661064425770308
+simcse,25,Materials Science,2005,extra,24,1,4.166666666666667
+simcse,25,Materials Science,2010,base,2962,70,2.363268062120189
+simcse,25,Materials Science,2015,base,3152,106,3.3629441624365484
+simcse,25,Materials Science,2020,base,3787,170,4.489041457618168
+simcse,26,Mathematics,2000,base,386,7,1.8134715025906736
+simcse,26,Mathematics,2000,extra,1780,32,1.797752808988764
+simcse,26,Mathematics,2005,base,639,9,1.408450704225352
+simcse,26,Mathematics,2005,extra,1527,15,0.9823182711198428
+simcse,26,Mathematics,2010,base,893,12,1.343784994400896
+simcse,26,Mathematics,2010,extra,1273,22,1.7282010997643362
+simcse,26,Mathematics,2015,base,1108,26,2.3465703971119134
+simcse,26,Mathematics,2015,extra,1058,17,1.606805293005671
+simcse,26,Mathematics,2020,base,1555,43,2.765273311897106
+simcse,26,Mathematics,2020,extra,611,23,3.7643207855973815
+simcse,27,Medicine,2000,base,7128,813,11.405723905723907
+simcse,27,Medicine,2005,base,10946,1217,11.118216700164444
+simcse,27,Medicine,2010,base,15771,1971,12.497622217995055
+simcse,27,Medicine,2015,base,18629,2866,15.384615384615385
+simcse,27,Medicine,2020,base,26195,4406,16.820003817522426
+simcse,28,Neuroscience,2000,base,718,52,7.242339832869081
+simcse,28,Neuroscience,2000,extra,1448,119,8.218232044198896
+simcse,28,Neuroscience,2005,base,1005,76,7.562189054726368
+simcse,28,Neuroscience,2005,extra,1161,81,6.976744186046512
+simcse,28,Neuroscience,2010,base,1408,101,7.173295454545454
+simcse,28,Neuroscience,2010,extra,758,54,7.124010554089709
+simcse,28,Neuroscience,2015,base,1640,128,7.804878048780488
+simcse,28,Neuroscience,2015,extra,526,46,8.745247148288973
+simcse,28,Neuroscience,2020,base,2053,173,8.426692644909888
+simcse,28,Neuroscience,2020,extra,113,16,14.15929203539823
+simcse,29,Nursing,2000,base,182,17,9.340659340659341
+simcse,29,Nursing,2000,extra,1984,177,8.921370967741936
+simcse,29,Nursing,2005,base,285,26,9.12280701754386
+simcse,29,Nursing,2005,extra,1881,148,7.868155236576289
+simcse,29,Nursing,2010,base,453,34,7.50551876379691
+simcse,29,Nursing,2010,extra,1713,147,8.581436077057793
+simcse,29,Nursing,2015,base,497,64,12.877263581488934
+simcse,29,Nursing,2015,extra,1669,209,12.522468544038347
+simcse,29,Nursing,2020,base,660,76,11.515151515151516
+simcse,29,Nursing,2020,extra,1506,177,11.752988047808765
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2000,base,154,12,7.792207792207792
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2000,extra,2012,187,9.294234592445328
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2005,base,272,18,6.617647058823529
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2005,extra,1894,134,7.074973600844773
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2010,base,442,39,8.823529411764707
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2010,extra,1724,92,5.336426914153132
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2015,base,376,40,10.638297872340425
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2015,extra,1790,210,11.731843575418994
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2020,base,471,49,10.40339702760085
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",2020,extra,1695,187,11.03244837758112
+simcse,31,Physics and Astronomy,2000,base,2116,50,2.3629489603024574
+simcse,31,Physics and Astronomy,2000,extra,50,1,2.0
+simcse,31,Physics and Astronomy,2005,base,2704,77,2.8476331360946747
+simcse,31,Physics and Astronomy,2010,base,3094,89,2.876535229476406
+simcse,31,Physics and Astronomy,2015,base,3388,89,2.626918536009445
+simcse,31,Physics and Astronomy,2020,base,3470,103,2.968299711815562
+simcse,32,Psychology,2000,base,838,37,4.41527446300716
+simcse,32,Psychology,2000,extra,1328,59,4.442771084337349
+simcse,32,Psychology,2005,base,1342,62,4.619970193740685
+simcse,32,Psychology,2005,extra,824,39,4.733009708737864
+simcse,32,Psychology,2010,base,2089,93,4.451890856869316
+simcse,32,Psychology,2010,extra,77,3,3.896103896103896
+simcse,32,Psychology,2015,base,2577,123,4.772991850989523
+simcse,32,Psychology,2020,base,3970,236,5.944584382871536
+simcse,33,Social Sciences,2000,base,2776,138,4.971181556195965
+simcse,33,Social Sciences,2005,base,4893,304,6.21295728591866
+simcse,33,Social Sciences,2010,base,7110,404,5.682137834036568
+simcse,33,Social Sciences,2015,base,8891,599,6.737149926892363
+simcse,33,Social Sciences,2020,base,13879,837,6.030693854024065
+simcse,34,Veterinary,2000,base,58,1,1.7241379310344827
+simcse,34,Veterinary,2000,extra,2108,196,9.297912713472487
+simcse,34,Veterinary,2005,base,100,10,10.0
+simcse,34,Veterinary,2005,extra,2066,199,9.63213939980639
+simcse,34,Veterinary,2010,base,107,13,12.149532710280374
+simcse,34,Veterinary,2010,extra,2058,210,10.204081632653061
+simcse,34,Veterinary,2015,base,165,21,12.727272727272727
+simcse,34,Veterinary,2015,extra,2000,242,12.1
+simcse,34,Veterinary,2020,base,212,39,18.39622641509434
+simcse,34,Veterinary,2020,extra,1953,295,15.104966717869944
+simcse,35,Dentistry,2000,base,159,10,6.289308176100629
+simcse,35,Dentistry,2000,extra,2006,129,6.430707876370887
+simcse,35,Dentistry,2005,base,260,20,7.6923076923076925
+simcse,35,Dentistry,2005,extra,1905,90,4.724409448818897
+simcse,35,Dentistry,2010,base,441,24,5.442176870748299
+simcse,35,Dentistry,2010,extra,1724,104,6.0324825986078885
+simcse,35,Dentistry,2015,base,544,50,9.191176470588236
+simcse,35,Dentistry,2015,extra,1621,108,6.662553979025293
+simcse,35,Dentistry,2020,base,834,63,7.553956834532374
+simcse,35,Dentistry,2020,extra,1331,131,9.842223891810669
+simcse,36,Health Professions,2000,base,589,48,8.149405772495756
+simcse,36,Health Professions,2000,extra,1576,124,7.868020304568528
+simcse,36,Health Professions,2005,base,933,57,6.109324758842444
+simcse,36,Health Professions,2005,extra,1232,95,7.711038961038961
+simcse,36,Health Professions,2010,base,1504,122,8.111702127659575
+simcse,36,Health Professions,2010,extra,661,51,7.7155824508320725
+simcse,36,Health Professions,2015,base,1877,170,9.057005860415556
+simcse,36,Health Professions,2015,extra,288,19,6.597222222222222
+simcse,36,Health Professions,2020,base,2833,270,9.530533003882809

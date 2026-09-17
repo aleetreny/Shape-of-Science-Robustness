@@ -1,0 +1,22 @@
+{
+  "completed_at": "2026-09-17T18:37:24.041929+00:00",
+  "reviewer": "Codex visual inspection via view_image",
+  "figures_reviewed": 7,
+  "all_pass": true,
+  "checks": [
+    "Titles, axes and captions legible",
+    "No clipped labels or overlapping legends",
+    "Values and denominators match the audited tables",
+    "Field dots visible above box plots; no scientific values changed"
+  ],
+  "png_sha256": {
+    "01_input_effect.png": "6735671d3eeefa2649f102b7e615d1336e68f13c31870d6563ae1e724cda44fc",
+    "02_scales.png": "2859d8f8f2d05c0c68f83b038a6ceceac064ac8fa2a10ef124fef2c7571707ff",
+    "03_paired_neighbors.png": "1187c4ef2d0f421a8024ed7cedae18df0d405b2766a1946ee886de05e560e6a3",
+    "04_time_controls.png": "da8c62a4f54ad7aad0f99bd29866a147c4443ed4bcb74fe6d4a72aca260440e9",
+    "05_medicine_composition.png": "76d7c88c69a1f1dc92430270e11e05b650a3f7d66e20f5bd3d33adaa96fb66a4",
+    "06_recipe_families.png": "52920732db578f7af937ae483d0af17e8d1b1fdb86d680b3f9fb1f1593a3f1ab",
+    "07_input_alerts.png": "56c240db45bbf07d4ed66f1c822e8d3e3bc21302871a3b75bc547d23e17a29e1"
+  },
+  "note": "Figures 2-7 remained byte-identical after the presentation-only dot layering change; revised figure 1 was inspected again."
+}

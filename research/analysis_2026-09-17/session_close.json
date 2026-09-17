@@ -1,0 +1,23 @@
+{
+  "closed_at": "2026-09-17T08:34:44.122644+00:00",
+  "final_catalog_files_verified": 60,
+  "final_audit_passed": true,
+  "documentation_links_verified": true,
+  "figures_visually_reviewed": 8,
+  "scientific_calculations_finished": true,
+  "documentation_sha256": {
+    "ANALYSIS_RESULTS.md": "811cab820001d6177dd43eece370e3ae5dfe466e0fcda1dd2b30215faa1e536a",
+    "PAPER_OUTLINE.md": "bc094303a11d16db13808ec6c92be2d0b78161bd6dc5bb645936acae46a353c3",
+    "METHODS_ANALYSIS.md": "0cfb58cf823a6cb07b03355a3b91b444d4e930ee335e2edfaff29400b2011de9",
+    "DATA_CATALOG.md": "0f03748f4be02330d685a76dc89c2f4caf1feafc47c8f86373aa5b9cfebe14f3",
+    "NEXT_STEPS.md": "4eaddec46df1a9f2e54f8325c9afc2fabb722d39aefe1a20243b9dbc3de2c84c",
+    "README.md": "eecdac49e7a642e71d8f2df06fd43a5ce3b785f6514848a752b7e0cb098c31c0",
+    "DECISIONS.md": "fc82735f63f1edb4a3de35bbcaf3c2eee87f54f90334f8dd10c75c10e8ce5a6f",
+    "progress.md": "ad023ce98dca0d190a9747992c798e07d091300ce0b05dde2d860247cf878ff8",
+    "task_plan.md": "5e5d8fb47cdcf470190537591969e334f1751fac698033eb0f2e9b3e28583f45",
+    "findings.md": "952ce5818ee727cee513b2d098c2f892d4e92c0b43dd02867fa8bf6f1171a7d1",
+    "AGENTS.md": "a495fc9c74f0010526ce0ad3538f519a171b8d78c80e3e7078506149b848a445",
+    "02_open_questions.md": "866e67e3e6f3793d622f3410c8cce50085d62961a37b3ac61ac9dd7e586cbb8d"
+  },
+  "next_step": "Manuscript drafting and close-literature comparison; no routine reinference or new extraction."
+}

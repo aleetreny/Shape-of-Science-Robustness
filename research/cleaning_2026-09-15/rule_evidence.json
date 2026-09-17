@@ -1,0 +1,28 @@
+{
+  "boilerplate_distinct_full_texts": 6,
+  "boilerplate_affected_original_records": 166,
+  "reviewed_records": {
+    "W2989450726": {
+      "action": "exclude",
+      "reason": "erratum_labeled_auxiliary_record",
+      "text_sha256": "dc1896153f01c2c914184b4b106e39bbd1eb43e1bfff599aae9c5679899d9845",
+      "title": "Erratum: Secreted klotho from exosomes alleviates inflammation and apoptosis in acute pancreatitis.",
+      "evidence": "Original OpenAlex title and full abstract inspected, 2026-09-15."
+    },
+    "W4253065921": {
+      "action": "exclude",
+      "reason": "title_explicitly_marks_retracted_at_both_ends",
+      "text_sha256": "ec2db164d8fdce9bdd6f4e39c13e67c2953173198f0627dde093187d3549adfd",
+      "title": "RETRACTED Warped Product Pointwise Semi-slant Submanifolds of Sasakian Manifol Retracted",
+      "evidence": "Original OpenAlex title and full abstract inspected, 2026-09-15."
+    },
+    "W4400321782": {
+      "action": "exclude",
+      "reason": "abstract_is_expression_of_concern_notice",
+      "text_sha256": "405fcdeb4bfba8014291b3b24d798061f64589e69e8163ce9565d22232c7386f",
+      "title": "Expression of Concern: Garlic ( Allium sativum ) and mushroom ( Agaricus bisporus ) powder: Investigation of performance, immune organs and humoural and cellular immune response in broilers",
+      "evidence": "Original OpenAlex title and full abstract inspected, 2026-09-15."
+    }
+  },
+  "language_limitation": "Examples at fastText score >=0.9 can still contain substantial English and other-language abstract versions; three text sections are diagnosed to avoid automatic exclusion of these mixed cases."
+}

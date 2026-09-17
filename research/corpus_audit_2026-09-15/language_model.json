@@ -1,0 +1,8 @@
+{
+  "model": "fastText lid.176.bin",
+  "source": "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin",
+  "sha256": "7e69ec5451bc261cc7844e49e4792a85d7f09c06789ec800fc4a44aec362764e",
+  "bytes": 131266198,
+  "license": "CC BY-SA 3.0",
+  "purpose": "Diagnostic language audit only; no records removed or translated"
+}

@@ -1,0 +1,15 @@
+{
+  "issue": "One new-page ACS webpage passed because structural signatures were applied only when constructing the original exact-text catalogue.",
+  "work_id": "W1972646318",
+  "text_sha256": "20371081c6bc2848c6aacb1de12a466bccdbb3d481f490d9689cec8351f5b1a2",
+  "fix": "Apply the existing specific signatures to every candidate inside reasons_for; keep original rule definitions and data untouched.",
+  "archive": "data/corpus_clean_v1_third_pass",
+  "additional_pages_preserved": [
+    {
+      "path": "raw/block_000127_page_001.json.gz",
+      "sha256": "d108e62084a8f6021ae91a3cb1e428b9800e4891b4b36eb3ed9b7ea6a0d5f069"
+    }
+  ],
+  "new_requests_for_rebuild": 0,
+  "tests": "14 tests pass; new-page regression failed before correction. Complete saved-page adoption also tested."
+}

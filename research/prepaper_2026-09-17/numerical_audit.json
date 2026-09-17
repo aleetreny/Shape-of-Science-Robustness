@@ -1,0 +1,128 @@
+{
+  "all_complete": true,
+  "components": [
+    {
+      "component": "centroid_scales",
+      "files": 18,
+      "sources": 9
+    },
+    {
+      "component": "control_review_v2",
+      "files": 11,
+      "sources": 3
+    },
+    {
+      "component": "family_traits",
+      "files": 17,
+      "sources": 4
+    },
+    {
+      "component": "input_comparisons",
+      "files": 6,
+      "sources": 6
+    },
+    {
+      "component": "input_recipes",
+      "files": 3,
+      "sources": 8
+    },
+    {
+      "component": "input_review",
+      "files": 12,
+      "sources": 3
+    },
+    {
+      "component": "input_stability100",
+      "files": 4,
+      "sources": 5
+    },
+    {
+      "component": "medicine_composition",
+      "files": 6,
+      "sources": 8
+    },
+    {
+      "component": "paired_neighbor_scales",
+      "files": 8,
+      "sources": 9
+    },
+    {
+      "component": "provenance",
+      "files": 4,
+      "sources": 2
+    },
+    {
+      "component": "regions_native",
+      "files": 6,
+      "sources": 3
+    },
+    {
+      "component": "structural_review_v3",
+      "files": 22,
+      "sources": 3
+    },
+    {
+      "component": "subfield_controls",
+      "files": 7,
+      "sources": 9
+    },
+    {
+      "component": "subfields_native",
+      "files": 3,
+      "sources": 8
+    },
+    {
+      "component": "temporal_review",
+      "files": 7,
+      "sources": 3
+    }
+  ],
+  "real_gram_formula_checks": [
+    {
+      "subfield": "2214",
+      "model_a": "specter",
+      "model_b": "bert",
+      "cka": 0.6547363764929697,
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "subfield": "2214",
+      "model_a": "specter",
+      "model_b": "minilm",
+      "cka": 0.8482118714551384,
+      "absolute_error": 3.6637359812630166e-15
+    },
+    {
+      "subfield": "2214",
+      "model_a": "bert",
+      "model_b": "minilm",
+      "cka": 0.6695290588188485,
+      "absolute_error": 4.6629367034256575e-15
+    },
+    {
+      "subfield": "2602",
+      "model_a": "specter",
+      "model_b": "bert",
+      "cka": 0.29428694869824584,
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "subfield": "2602",
+      "model_a": "specter",
+      "model_b": "minilm",
+      "cka": 0.6367470878767916,
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "subfield": "2602",
+      "model_a": "bert",
+      "model_b": "minilm",
+      "cka": 0.3608648300941967,
+      "absolute_error": 2.220446049250313e-15
+    }
+  ],
+  "real_full_sort_neighbor_queries": 300,
+  "checks_per_query": 50,
+  "scope": "All 15 current component seals/sources; independent real-vector spot-check of 3 models and 2 Subfields. Not a semantic validation.",
+  "script_sha256": "03a677a7600b5bc74ab43fe9bb9f2561bdd919b871d65b93d9d125260d330679"
+}

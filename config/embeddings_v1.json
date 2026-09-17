@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "chosen_by_user": "2026-09-15: los 10. Vamos hazlo perfecto",
+  "input_policy": "native_title_abstract",
+  "production_input_policy_approved": true,
+  "saved_vectors": "float32, unnormalized; normalization is reversible and remains an analysis choice",
+  "models": [
+    {
+      "key": "specter",
+      "name": "SPECTER",
+      "repo_id": "allenai/specter",
+      "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "sep",
+      "poolings": [
+        "cls"
+      ],
+      "weight_file": "pytorch_model.bin"
+    },
+    {
+      "key": "specter2",
+      "name": "SPECTER2",
+      "repo_id": "allenai/specter2_base",
+      "revision": "3447645e1def9117997203454fa4495937bfbd83",
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "sep",
+      "poolings": [
+        "cls"
+      ],
+      "weight_file": "pytorch_model.bin",
+      "adapter": {
+        "repo_id": "allenai/specter2",
+        "revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+        "files": [
+          "README.md",
+          "adapter_config.json",
+          "pytorch_adapter.bin"
+        ]
+      }
+    },
+    {
+      "key": "scincl",
+      "name": "SciNCL",
+      "repo_id": "malteos/scincl",
+      "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+      "files": [
+        "1_Pooling/config.json",
+        "README.md",
+        "config.json",
+        "config_sentence_transformers.json",
+        "model.safetensors",
+        "modules.json",
+        "sentence_bert_config.json",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "sep",
+      "poolings": [
+        "cls"
+      ],
+      "weight_file": "model.safetensors"
+    },
+    {
+      "key": "scibert",
+      "name": "SciBERT",
+      "repo_id": "allenai/scibert_scivocab_uncased",
+      "revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1",
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "blank_line",
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "weight_file": "pytorch_model.bin"
+    },
+    {
+      "key": "bert",
+      "name": "BERT",
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "files": [
+        "README.md",
+        "config.json",
+        "model.safetensors",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "blank_line",
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "weight_file": "model.safetensors"
+    },
+    {
+      "key": "mpnet",
+      "name": "MPNet",
+      "repo_id": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "files": [
+        "1_Pooling/config.json",
+        "README.md",
+        "config.json",
+        "config_sentence_transformers.json",
+        "model.safetensors",
+        "modules.json",
+        "sentence_bert_config.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 384,
+      "dimension": 768,
+      "text_format": "blank_line",
+      "poolings": [
+        "mean"
+      ],
+      "weight_file": "model.safetensors"
+    },
+    {
+      "key": "minilm",
+      "name": "MiniLM",
+      "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "files": [
+        "1_Pooling/config.json",
+        "README.md",
+        "config.json",
+        "config_sentence_transformers.json",
+        "model.safetensors",
+        "modules.json",
+        "sentence_bert_config.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 256,
+      "dimension": 384,
+      "text_format": "blank_line",
+      "poolings": [
+        "mean"
+      ],
+      "weight_file": "model.safetensors"
+    },
+    {
+      "key": "pubmedbert",
+      "name": "PubMedBERT / BiomedBERT",
+      "repo_id": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+      "files": [
+        "LICENSE.md",
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "blank_line",
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "weight_file": "pytorch_model.bin"
+    },
+    {
+      "key": "biobert",
+      "name": "BioBERT",
+      "repo_id": "dmis-lab/biobert-v1.1",
+      "revision": "551ca18efd7f052c8dfa0b01c94c2a8e68bc5488",
+      "files": [
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "blank_line",
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "weight_file": "pytorch_model.bin"
+    },
+    {
+      "key": "simcse",
+      "name": "SimCSE",
+      "repo_id": "princeton-nlp/unsup-simcse-bert-base-uncased",
+      "revision": "218baf6bc48c463a53f5b4e1c568299537fab124",
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "text_format": "blank_line",
+      "poolings": [
+        "cls"
+      ],
+      "weight_file": "pytorch_model.bin"
+    }
+  ],
+  "input_policy_approval": "2026-09-15: uso habitual + comprobaci\u00f3n con texto id\u00e9ntico"
+}

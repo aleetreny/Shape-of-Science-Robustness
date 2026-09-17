@@ -1,0 +1,8 @@
+{
+  "same_vectors_when_input_unchanged": true,
+  "checked_rows": 1024,
+  "reused": 527,
+  "old_truncated": 497,
+  "new_truncated": 67,
+  "vectors_finite": true
+}

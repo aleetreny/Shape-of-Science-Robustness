@@ -1,0 +1,6 @@
+{
+  "code_and_current_documents_check_passed": true,
+  "command": "git -c core.whitespace=cr-at-eol diff --cached --check -- . :(exclude)reports/** :(exclude)research/**",
+  "generated_or_historical_files_preserved": "Unfiltered whitespace check flags original CRLF CSV files, generated SVG path spacing and historical Markdown line breaks. Those sealed files are intentionally not reformatted.",
+  "scientific_files_modified": false
+}

@@ -1,0 +1,110 @@
+{
+  "verified_at": "2026-09-15T09:57:57.103507+00:00",
+  "status": "passed",
+  "offline_tests": 21,
+  "live_smoke": {
+    "rows": 124,
+    "base": 120,
+    "extra": 4,
+    "pages": 6,
+    "resume_events": [
+      {
+        "block": 1,
+        "checks": [
+          {
+            "page": 1,
+            "checked_at": "2026-09-15T09:56:21.067907+00:00",
+            "ids_sha256": "ef4a20535523b668153b05c1c5bc183647267c398fcdc0b443d24072a6ce7380"
+          }
+        ]
+      }
+    ],
+    "raw_to_export_match": true,
+    "validation": {
+      "status": "passed",
+      "rows": 124,
+      "counts": {
+        "base": 120,
+        "extra": 4
+      },
+      "unique_work_ids": 124,
+      "duplicate_doi_groups": 0,
+      "duplicate_text_groups": 0,
+      "checks": [
+        "sqlite_integrity",
+        "raw_page_checksums",
+        "exact_cohort_sizes",
+        "unique_work_ids",
+        "selection_order",
+        "text_hashes",
+        "text_lengths",
+        "field_period_year",
+        "parquet_rows"
+      ],
+      "completed_at": "2026-09-15T09:56:25.175251+00:00",
+      "parquet_sha256": "284b4e363d8d5f0b0a20954da5ae27b57b310988513be534153f32e160ffa18a"
+    },
+    "block_stats": [
+      {
+        "block": 1,
+        "cohort": "base",
+        "stats": {
+          "candidates": 200,
+          "accepted": 120,
+          "rejected_short_abstract": 15,
+          "rejected_abstract_index": 2,
+          "not_examined_after_target": 63
+        }
+      },
+      {
+        "block": 2,
+        "cohort": "extra",
+        "stats": {
+          "candidates": 100,
+          "accepted": 1,
+          "not_examined_after_target": 99
+        }
+      },
+      {
+        "block": 3,
+        "cohort": "extra",
+        "stats": {
+          "candidates": 100,
+          "accepted": 1,
+          "rejected_short_abstract": 1,
+          "not_examined_after_target": 98
+        }
+      },
+      {
+        "block": 4,
+        "cohort": "extra",
+        "stats": {
+          "candidates": 100,
+          "accepted": 1,
+          "rejected_short_abstract": 2,
+          "not_examined_after_target": 97
+        }
+      },
+      {
+        "block": 5,
+        "cohort": "extra",
+        "stats": {
+          "candidates": 100,
+          "accepted": 1,
+          "not_examined_after_target": 99
+        }
+      }
+    ]
+  },
+  "legacy_index_rows": 2378036,
+  "reference_git_clean": true,
+  "production_started": false,
+  "credentials_absent_from_scanned_artifacts": true,
+  "code_matches_live_smoke": true,
+  "versions": {
+    "python": "3.12.14",
+    "requests": "2.34.2",
+    "pyarrow": "25.0.1",
+    "python-dotenv": "1.2.3"
+  }
+}

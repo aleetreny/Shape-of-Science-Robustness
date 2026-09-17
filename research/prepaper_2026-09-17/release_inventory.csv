@@ -1,0 +1,12 @@
+path,regular_files,bytes,status
+data/corpus_clean_v1,42,3647618354,local only; publication not authorized
+data/analysis_ready_v1,1,45397498,local only; publication not authorized
+data/embeddings_v1,18633,27533305342,local only; publication not authorized
+data/analysis_v1,11473,5994991984,local only; publication not authorized
+data/checklist_v1,3518,4671785666,local only; publication not authorized
+data/robustness_v2,20754,11487717822,local only; publication not authorized
+data/prepaper_v1,29,19493088,local only; publication not authorized
+reports,311,88437971,local only; publication not authorized
+config,18,264153,local only; publication not authorized
+references,5,70608,local only; publication not authorized
+tests,25,72783,local only; publication not authorized

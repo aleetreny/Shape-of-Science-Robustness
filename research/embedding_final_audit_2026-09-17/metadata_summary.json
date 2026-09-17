@@ -1,0 +1,43 @@
+{
+  "rows": 500000,
+  "columns": [
+    "row_index",
+    "work_id",
+    "text_sha256",
+    "cohort",
+    "field_id",
+    "publication_year",
+    "period_start",
+    "field_display_name",
+    "subfield_id",
+    "subfield_display_name",
+    "doi",
+    "type",
+    "abstract_word_count",
+    "title_word_count",
+    "language_ambiguous",
+    "possible_mixed_language",
+    "abstract_50_79",
+    "abstract_over_2000",
+    "duplicate_doi",
+    "duplicate_text",
+    "normalized_text_group",
+    "possible_notice",
+    "possible_access_message",
+    "content_review_flag",
+    "content_review_note"
+  ],
+  "quality_flag_counts": {
+    "language_ambiguous": 9883,
+    "possible_mixed_language": 3002,
+    "abstract_50_79": 42849,
+    "abstract_over_2000": 249,
+    "duplicate_doi": 18,
+    "duplicate_text": 124,
+    "possible_notice": 4,
+    "possible_access_message": 0,
+    "content_review_flag": 33
+  },
+  "vector_gib": 25.03500008583069,
+  "inference_hours": 24.12760729215054
+}

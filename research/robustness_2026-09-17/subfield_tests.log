@@ -1,0 +1,10 @@
+test_rotations_preserve_three_shape_measures_and_exact_neighbors (tests.test_deep_subfields.SubfieldComparisons.test_rotations_preserve_three_shape_measures_and_exact_neighbors) ... SUBFIELD 1100 80 complete
+ok
+test_small_groups_are_missing_not_zero_and_full_lists_are_trivial (tests.test_deep_subfields.SubfieldComparisons.test_small_groups_are_missing_not_zero_and_full_lists_are_trivial) ... SUBFIELD 1100 3 complete
+SUBFIELD 1100 11 complete
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.022s
+
+OK

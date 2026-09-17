@@ -1,0 +1,62 @@
+{
+  "frozen_at": "2026-09-15T12:30:55.592093+00:00",
+  "corpus_path": "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/data/corpus_500k/corpus.parquet",
+  "rows": 500000,
+  "parquet_sha256": "420d123ac4f1966d984fd58931034fd89dbb0fea601efdf0fe1a383263d45909",
+  "ordered_ids_sha256": "33beedccb1cc76497366054ca0bee780dc285c41477c78b9499c984a98f00b1c",
+  "ordered_ids_texts_sha256": "b0ffabd9f4a622fc76c2761889efa0308787f7e3466395be26fdb4a53be3d7be",
+  "row_order": "selection_order ascending",
+  "cohorts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "input_text_decision": "Pending: preserve title and abstract separately; do not choose model formatting here",
+  "config": {
+    "schema_version": 1,
+    "base_target": 400000,
+    "extra_target": 100000,
+    "seed": 20260915,
+    "block_size": 10000,
+    "per_page": 100,
+    "field_ids": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "period_starts": [
+      2000,
+      2005,
+      2010,
+      2015,
+      2020
+    ],
+    "year_min": 2000,
+    "year_max": 2024,
+    "min_abstract_words": 50,
+    "request_delay": 0.2,
+    "retry_seconds": 5
+  }
+}

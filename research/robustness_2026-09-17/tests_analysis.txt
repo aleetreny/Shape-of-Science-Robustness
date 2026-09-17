@@ -1,0 +1,12 @@
+Analysis environment modules: test_deep_analysis52, test_deep_family, test_deep_input_stability100, test_deep_medicine, test_deep_paired_scales, test_deep_recipes52, test_deep_regions, test_deep_scales, test_deep_subfield_controls, test_deep_subfields, test_deep_temporal
+INPUT COMPARISONS Field 11 complete
+.....INPUT COMPARISONS Field 11 complete
+INPUT RECIPE CONTROL Field 11 complete
+....SUBFIELD 1100 80 complete
+.SUBFIELD 1100 3 complete
+SUBFIELD 1100 11 complete
+..
+----------------------------------------------------------------------
+Ran 12 tests in 0.857s
+
+OK

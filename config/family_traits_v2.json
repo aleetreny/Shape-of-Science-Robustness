@@ -1,0 +1,88 @@
+{
+  "frozen_at": "2026-09-17T17:11:55.663526+00:00",
+  "timing": "Post hoc refinement after earlier family results; before this expanded trait fit",
+  "traits": {
+    "specter": {
+      "lineage": "SciBERT",
+      "final_corpus_group": "S2_citations",
+      "objective": "citation_document_contrast",
+      "domain": "scientific",
+      "lineage_detail": "SciBERT cased tokenizer ancestry; pinned tokenizer nevertheless lowercases"
+    },
+    "specter2": {
+      "lineage": "SciBERT",
+      "final_corpus_group": "S2_citations",
+      "objective": "citation_document_contrast",
+      "domain": "scientific",
+      "lineage_detail": "SciBERT uncased plus SciRepEval proximity adapter"
+    },
+    "scincl": {
+      "lineage": "SciBERT",
+      "final_corpus_group": "S2_citations",
+      "objective": "citation_document_contrast",
+      "domain": "scientific",
+      "lineage_detail": "SciBERT uncased, citation-neighborhood selection"
+    },
+    "scibert": {
+      "lineage": "SciBERT",
+      "final_corpus_group": "S2_scientific_fulltext",
+      "objective": "masked_word",
+      "domain": "scientific",
+      "lineage_detail": "Trained from scratch, SciVocab uncased"
+    },
+    "bert": {
+      "lineage": "BERT",
+      "final_corpus_group": "Books_Wikipedia",
+      "objective": "masked_word",
+      "domain": "general",
+      "lineage_detail": "BERT base uncased"
+    },
+    "mpnet": {
+      "lineage": "MPNet",
+      "final_corpus_group": "ST_1B_pairs",
+      "objective": "sentence_pair_contrast",
+      "domain": "general",
+      "lineage_detail": "MPNet base plus all-1B sentence-pair training"
+    },
+    "minilm": {
+      "lineage": "MiniLM",
+      "final_corpus_group": "ST_1B_pairs",
+      "objective": "sentence_pair_contrast",
+      "domain": "general",
+      "lineage_detail": "nreimers MiniLM L6 H384, distillation; not the same architecture as BERT base"
+    },
+    "pubmedbert": {
+      "lineage": "PubMedBERT",
+      "final_corpus_group": "PubMed_PMC",
+      "objective": "masked_word",
+      "domain": "biomedical",
+      "lineage_detail": "Trained from scratch on abstracts plus fulltext"
+    },
+    "biobert": {
+      "lineage": "BERT",
+      "final_corpus_group": "PubMed",
+      "objective": "masked_word",
+      "domain": "biomedical",
+      "lineage_detail": "BERT base cased followed by PubMed continued pretraining, v1.1"
+    },
+    "simcse": {
+      "lineage": "BERT",
+      "final_corpus_group": "Wikipedia",
+      "objective": "dropout_sentence_contrast",
+      "domain": "general",
+      "lineage_detail": "BERT base uncased plus unsupervised dropout contrast"
+    }
+  },
+  "features": [
+    "same_architecture",
+    "same_lineage",
+    "same_final_corpus_group",
+    "same_objective",
+    "same_domain",
+    "same_pooling"
+  ],
+  "permutations": 5000,
+  "seed": 2026091707,
+  "warning": "Coarse documented source groups, not exact paper overlap. Ten fixed models; coefficients only where design rank permits. Identifiability is algebraic, not causal.",
+  "output": "data/robustness_v2/family_traits"
+}

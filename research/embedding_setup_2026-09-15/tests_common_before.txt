@@ -1,0 +1,13 @@
+..............F
+======================================================================
+FAIL: test_same_fragment_fits_every_tokenizer_and_keeps_source_prefix (test_embeddings.EmbeddingTests.test_same_fragment_fits_every_tokenizer_and_keeps_source_prefix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embeddings.py", line 132, in test_same_fragment_fits_every_tokenizer_and_keeps_source_prefix
+    self.assertIsNotNone(importlib.util.find_spec('sos_embed.common_text'), 'Common text preparation is missing')
+AssertionError: unexpectedly None : Common text preparation is missing
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.460s
+
+FAILED (failures=1)

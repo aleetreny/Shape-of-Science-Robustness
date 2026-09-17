@@ -1,0 +1,17 @@
+Fragmento común: 250/1300
+Fragmento común: 500/1300
+Fragmento común: 750/1300
+Fragmento común: 1000/1300
+Fragmento común: 1250/1300
+{
+  "selection": {
+    "source_pilot_sha256": "224f2856c5920a59e5233b47ef95c481569809b244b435ea20a0e7a589357c6c",
+    "model_input_rules_sha256": "45042978f74f9b50461f397ec3e44e2793ab9238eed159d69086ea7dc41745a8",
+    "method": "common original title/abstract prefix ending at whitespace boundaries",
+    "purpose": "technical control; final scientific control sample size remains open"
+  },
+  "rows": 1300,
+  "input_sha256": "1f4ecf5e736d05f021478be581ee657326ffbc69415c13949737c8b5883cce3b",
+  "changed_rows": 622,
+  "titles_shortened": 0
+}

@@ -1,0 +1,10 @@
+{
+  "benchmark": "synthetic CPU float64 dot plus partition; not a scientific result",
+  "reference_rows": 12000,
+  "queries": 256,
+  "dimensions": 768,
+  "seconds": 0.06282354200084228,
+  "sum_cell_n_squared": 3854929290,
+  "max_cell_n": 26195,
+  "rough_10_model_cell_seconds": 788.3473703144274
+}

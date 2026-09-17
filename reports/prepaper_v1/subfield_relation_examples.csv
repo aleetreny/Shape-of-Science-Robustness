@@ -1,0 +1,17 @@
+subfield_a,name_a,subfield_b,name_b,mutual_top5_models,native_mutual_top5_models,best_mutual_rank,worst_mutual_rank,mutual_rank_range,mean_mutual_rank,specter_mutual_rank,specter2_mutual_rank,scincl_mutual_rank,scibert_mutual_rank,bert_mutual_rank,mpnet_mutual_rank,minilm_mutual_rank,pubmedbert_mutual_rank,biobert_mutual_rank,simcse_mutual_rank,tail
+1203,Language and Linguistics,3310,Linguistics and Language,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+1307,Cell Biology,1312,Molecular Biology,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+1404,Management Information Systems,1803,Management Science and Operations Research,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+1502,Bioengineering,1603,Electrochemistry,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+1604,Inorganic Chemistry,1605,Organic Chemistry,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+1707,Computer Vision and Pattern Recognition,1711,Signal Processing,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+2000,"General Economics, Econometrics and Finance",2002,Economics and Econometrics,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+2210,Mechanical Engineering,2211,Mechanics of Materials,10,10,1,1,0,1.0,1,1,1,1,1,1,1,1,1,1,recurrent
+1908,Geophysics,2200,General Engineering,0,0,13,208,195,78.6,26,55,13,208,85,15,14,118,174,78,encoder_dependent
+2608,Geometry and Topology,3103,Astronomy and Astrophysics,0,0,19,212,193,107.4,25,105,42,158,212,31,19,132,183,167,encoder_dependent
+1205,Classics,2602,Algebra and Number Theory,0,0,30,216,186,151.7,119,199,123,215,216,51,30,176,202,186,encoder_dependent
+1708,Hardware and Architecture,2602,Algebra and Number Theory,0,0,29,215,186,129.6,75,135,50,214,215,45,29,190,213,130,encoder_dependent
+2602,Algebra and Number Theory,3103,Astronomy and Astrophysics,0,0,30,216,186,144.6,57,199,85,210,216,38,30,187,213,211,encoder_dependent
+1205,Classics,2608,Geometry and Topology,0,0,29,214,185,129.7,105,140,89,213,214,32,29,166,167,142,encoder_dependent
+1904,Earth-Surface Processes,2200,General Engineering,0,0,18,201,183,65.4,19,30,25,201,66,18,18,99,138,40,encoder_dependent
+2607,Discrete Mathematics and Combinatorics,3103,Astronomy and Astrophysics,0,0,28,210,182,123.8,39,177,62,164,210,60,28,130,177,191,encoder_dependent

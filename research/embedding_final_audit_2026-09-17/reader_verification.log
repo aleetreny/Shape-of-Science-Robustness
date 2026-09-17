@@ -1,0 +1,3 @@
+Lectura comprobada: {'specter': 'cls', 'specter2': 'cls', 'scincl': 'cls', 'scibert': 'mean', 'bert': 'mean', 'mpnet': 'mean', 'minilm': 'mean', 'pubmedbert': 'mean', 'biobert': 'mean', 'simcse': 'cls'} 500000
+Lectura comprobada: {'scibert': 'cls', 'bert': 'cls', 'pubmedbert': 'cls', 'biobert': 'cls'} 500000
+Lectura comprobada: {'scibert': 'sep', 'bert': 'sep', 'pubmedbert': 'sep', 'biobert': 'sep'} 500000

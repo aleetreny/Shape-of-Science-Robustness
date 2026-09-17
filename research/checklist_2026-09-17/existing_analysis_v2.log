@@ -1,0 +1,51 @@
+EXISTING FOLLOWUP COMPLETE
+{
+  "time": {
+    "period_means": [
+      0.314068342681624,
+      0.3176731103098291,
+      0.3192083500267094,
+      0.3188464543269231,
+      0.32318307625534193
+    ],
+    "endpoint_change": {
+      "mean": 0.00911473357371795,
+      "median": 0.006914062499999998,
+      "min": -0.05068359374999998,
+      "max": 0.10175781250000004,
+      "q05": -0.025624999999999985,
+      "q95": 0.04903027343749999
+    },
+    "increasing_endpoints": 753,
+    "decreasing_endpoints": 417,
+    "all_four_steps_increasing": 168,
+    "all_four_steps_decreasing": 46
+  },
+  "families": {
+    "coefficients": {
+      "intercept": 0.6035084226518458,
+      "same_objective": 0.186636658489882,
+      "same_broad_domain": -0.011846064266967585,
+      "same_primary_pooling": -0.028619046399602634
+    },
+    "r_squared": 0.3991358683742148,
+    "reference_tail_fraction": 0.019770563827190626,
+    "same_objective_agreement": 0.7593856716529945,
+    "different_objective_agreement": 0.5918149106519235,
+    "leave_one_coefficient_min": {
+      "intercept": 0.5832703126813066,
+      "same_objective": 0.1436942811942509,
+      "same_broad_domain": -0.06482224051614185,
+      "same_primary_pooling": -0.0761179081441912
+    },
+    "leave_one_coefficient_max": {
+      "intercept": 0.6233788656336063,
+      "same_objective": 0.2651748551346842,
+      "same_broad_domain": 0.026201315204895947,
+      "same_primary_pooling": -0.02215361388275149
+    },
+    "leave_one_models_identified": 10,
+    "leave_one_model_prediction_improvement_over_training_mean": 0.2207690258066678,
+    "prediction_scope": "identified deletions only; rows without unique coefficients excluded and reported"
+  }
+}

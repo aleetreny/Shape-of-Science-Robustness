@@ -1,0 +1,8 @@
+{
+  "synthetic_only": true,
+  "rows": 2048,
+  "models": 10,
+  "threads": 4,
+  "shape_all_pairs_three_geometry_outputs_seconds": 1.447196332999738,
+  "exact_neighbors_one_model_seconds": 0.05528270799550228
+}

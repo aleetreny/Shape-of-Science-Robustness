@@ -1,0 +1,4 @@
+AUDIT pubmedbert abstract PASS
+AUDIT biobert title_abstract PASS
+AUDIT biobert title PASS
+AUDITS COMPLETE 26 /30

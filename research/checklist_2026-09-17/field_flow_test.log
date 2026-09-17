@@ -1,0 +1,7 @@
+test_identical_inputs_preserve_shape_neighbors_and_resume (tests.test_followup_field_flow.KnownInputFlow.test_identical_inputs_preserve_shape_neighbors_and_resume) ... INPUT COMPARISONS Field 11 complete
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.932s
+
+OK

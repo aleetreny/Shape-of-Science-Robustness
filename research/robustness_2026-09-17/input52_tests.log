@@ -1,0 +1,8 @@
+test_all_old_rows_require_no_encoder_and_mismatched_id_is_rejected (tests.test_deep_input52.NestedInputs.test_all_old_rows_require_no_encoder_and_mismatched_id_is_rejected) ... ok
+test_mixed_rows_preserve_identity_and_every_old_pooling (tests.test_deep_input52.NestedInputs.test_mixed_rows_preserve_identity_and_every_old_pooling) ... ok
+test_pooling_semantics_including_special_and_excluding_padding (tests.test_deep_input52.NestedInputs.test_pooling_semantics_including_special_and_excluding_padding) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.009s
+
+OK

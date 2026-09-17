@@ -1,0 +1,131 @@
+field_id,field,period_start,rows,full_text_in_all_models
+11,Agricultural and Biological Sciences,2000,2166,1013
+11,Agricultural and Biological Sciences,2005,2528,1103
+11,Agricultural and Biological Sciences,2010,3940,1522
+11,Agricultural and Biological Sciences,2015,4298,1259
+11,Agricultural and Biological Sciences,2020,6491,1515
+12,Arts and Humanities,2000,2166,1521
+12,Arts and Humanities,2005,2166,1469
+12,Arts and Humanities,2010,2186,1408
+12,Arts and Humanities,2015,2732,1608
+12,Arts and Humanities,2020,3380,1769
+13,"Biochemistry, Genetics and Molecular Biology",2000,2739,993
+13,"Biochemistry, Genetics and Molecular Biology",2005,4071,1473
+13,"Biochemistry, Genetics and Molecular Biology",2010,5251,1709
+13,"Biochemistry, Genetics and Molecular Biology",2015,5596,1559
+13,"Biochemistry, Genetics and Molecular Biology",2020,6840,1625
+14,"Business, Management and Accounting",2000,2166,1818
+14,"Business, Management and Accounting",2005,2166,1752
+14,"Business, Management and Accounting",2010,2186,1672
+14,"Business, Management and Accounting",2015,2660,1750
+14,"Business, Management and Accounting",2020,4040,2291
+15,Chemical Engineering,2000,2166,1382
+15,Chemical Engineering,2005,2166,1317
+15,Chemical Engineering,2010,2166,1220
+15,Chemical Engineering,2015,2166,1074
+15,Chemical Engineering,2020,2166,769
+16,Chemistry,2000,2166,1265
+16,Chemistry,2005,2166,1259
+16,Chemistry,2010,2166,1217
+16,Chemistry,2015,2166,1143
+16,Chemistry,2020,2166,968
+17,Computer Science,2000,3310,2924
+17,Computer Science,2005,5594,4898
+17,Computer Science,2010,7094,5934
+17,Computer Science,2015,6858,4944
+17,Computer Science,2020,9972,5747
+18,Decision Sciences,2000,2166,1758
+18,Decision Sciences,2005,2166,1754
+18,Decision Sciences,2010,2166,1653
+18,Decision Sciences,2015,2166,1463
+18,Decision Sciences,2020,2166,1290
+19,Earth and Planetary Sciences,2000,2166,1113
+19,Earth and Planetary Sciences,2005,2166,1124
+19,Earth and Planetary Sciences,2010,2166,1017
+19,Earth and Planetary Sciences,2015,2166,809
+19,Earth and Planetary Sciences,2020,2166,699
+20,"Economics, Econometrics and Finance",2000,2166,1765
+20,"Economics, Econometrics and Finance",2005,2166,1765
+20,"Economics, Econometrics and Finance",2010,2166,1615
+20,"Economics, Econometrics and Finance",2015,2166,1422
+20,"Economics, Econometrics and Finance",2020,2845,1495
+21,Energy,2000,2166,1549
+21,Energy,2005,2166,1603
+21,Energy,2010,2166,1386
+21,Energy,2015,2166,1161
+21,Energy,2020,2166,848
+22,Engineering,2000,6990,5714
+22,Engineering,2005,11310,9218
+22,Engineering,2010,15203,11706
+22,Engineering,2015,14738,9569
+22,Engineering,2020,18907,9682
+23,Environmental Science,2000,2166,1125
+23,Environmental Science,2005,2876,1493
+23,Environmental Science,2010,4005,1906
+23,Environmental Science,2015,4018,1482
+23,Environmental Science,2020,5919,1783
+24,Immunology and Microbiology,2000,2166,596
+24,Immunology and Microbiology,2005,2166,614
+24,Immunology and Microbiology,2010,2166,544
+24,Immunology and Microbiology,2015,2166,450
+24,Immunology and Microbiology,2020,2166,407
+25,Materials Science,2000,2166,1485
+25,Materials Science,2005,2166,1454
+25,Materials Science,2010,2962,1848
+25,Materials Science,2015,3152,1581
+25,Materials Science,2020,3787,1458
+26,Mathematics,2000,2166,1820
+26,Mathematics,2005,2166,1823
+26,Mathematics,2010,2166,1822
+26,Mathematics,2015,2166,1653
+26,Mathematics,2020,2166,1518
+27,Medicine,2000,7128,2547
+27,Medicine,2005,10946,3943
+27,Medicine,2010,15771,4843
+27,Medicine,2015,18629,4639
+27,Medicine,2020,26195,5413
+28,Neuroscience,2000,2166,840
+28,Neuroscience,2005,2166,819
+28,Neuroscience,2010,2166,736
+28,Neuroscience,2015,2166,710
+28,Neuroscience,2020,2166,657
+29,Nursing,2000,2166,877
+29,Nursing,2005,2166,852
+29,Nursing,2010,2166,758
+29,Nursing,2015,2166,515
+29,Nursing,2020,2166,447
+30,"Pharmacology, Toxicology and Pharmaceutics",2000,2166,1003
+30,"Pharmacology, Toxicology and Pharmaceutics",2005,2166,985
+30,"Pharmacology, Toxicology and Pharmaceutics",2010,2166,825
+30,"Pharmacology, Toxicology and Pharmaceutics",2015,2166,632
+30,"Pharmacology, Toxicology and Pharmaceutics",2020,2166,540
+31,Physics and Astronomy,2000,2166,1625
+31,Physics and Astronomy,2005,2704,1929
+31,Physics and Astronomy,2010,3094,2126
+31,Physics and Astronomy,2015,3388,2127
+31,Physics and Astronomy,2020,3470,1930
+32,Psychology,2000,2166,1566
+32,Psychology,2005,2166,1524
+32,Psychology,2010,2166,1344
+32,Psychology,2015,2577,1329
+32,Psychology,2020,3970,1584
+33,Social Sciences,2000,2776,2162
+33,Social Sciences,2005,4893,3731
+33,Social Sciences,2010,7110,5088
+33,Social Sciences,2015,8891,5460
+33,Social Sciences,2020,13879,7107
+34,Veterinary,2000,2166,740
+34,Veterinary,2005,2166,765
+34,Veterinary,2010,2165,637
+34,Veterinary,2015,2165,515
+34,Veterinary,2020,2165,395
+35,Dentistry,2000,2165,821
+35,Dentistry,2005,2165,779
+35,Dentistry,2010,2165,666
+35,Dentistry,2015,2165,544
+35,Dentistry,2020,2165,442
+36,Health Professions,2000,2165,1398
+36,Health Professions,2005,2165,1277
+36,Health Professions,2010,2165,1125
+36,Health Professions,2015,2165,903
+36,Health Professions,2020,2833,939

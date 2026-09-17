@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-17T06:58:49.191927+00:00",
+  "authorization": "2026-09-17 user delegates scientific choices and requests shape then neighbors",
+  "catalog": "research/embedding_final_audit_2026-09-17/catalog.json",
+  "catalog_sha256": "d25365a082d87c62ef3c171407a63886451ea570f34e12b33505b6f0240b3a2a",
+  "seed": 20260917,
+  "poolings": {
+    "specter": "cls",
+    "specter2": "cls",
+    "scincl": "cls",
+    "scibert": "mean",
+    "bert": "mean",
+    "mpnet": "mean",
+    "minilm": "mean",
+    "pubmedbert": "mean",
+    "biobert": "mean",
+    "simcse": "cls"
+  },
+  "primary_preprocessing": "row_L2_then_column_center_for_shape",
+  "primary_metric": "debiased_linear_CKA",
+  "shape_checks": [
+    "angular_orthogonal_Procrustes",
+    "RSA_Spearman_cosine"
+  ],
+  "rsa_pairs": 20000,
+  "primary_cells": "all 130 Field x five-year-period cells, all available rows",
+  "global_population_view": "400000 base rows only",
+  "centroid_view": "26 Field centroids within each period; unit-paper vectors; cosine among centroids",
+  "null_permutations_per_cell": 1,
+  "null_purpose": "diagnostic reference only, no p values",
+  "shape_sample_sizes": [
+    1024,
+    2048
+  ],
+  "shape_resamples": 20,
+  "sample_stability_median_change": 0.02,
+  "sample_stability_central_range": 0.04,
+  "stability_interpretation": "finite-corpus subsampling sensitivity, not population confidence intervals",
+  "common_text_per_cell": 400,
+  "common_text_rows": 52000,
+  "common_text_seed": "sos-analysis-v1-common-text",
+  "common_control_inference_level": "26 Fields pooled equally across five periods; 2000 papers per Field; period cells only diagnostic",
+  "common_fragment": "original prefixes ending at whitespace, fitting all native tokenizers and limits; native separators retained",
+  "extra_minilm_max_length": 512,
+  "minilm_512_role": "sensitivity only; original native 256 retained",
+  "quality_sensitivity_flags": [
+    "language_ambiguous",
+    "possible_mixed_language",
+    "abstract_50_79",
+    "content_review_flag",
+    "possible_notice",
+    "possible_access_message",
+    "abstract_over_2000"
+  ],
+  "quality_deduplication": "one smallest row_index per connected component of nonempty DOI or normalized_text_group",
+  "pooling_sensitivity": [
+    "all_four_word_BERT_cls",
+    "all_four_word_BERT_sep"
+  ],
+  "normalization_sensitivity": "raw vectors for shape",
+  "knn_k": [
+    10,
+    25,
+    50
+  ],
+  "knn_primary_k": 25,
+  "knn_candidates": "all papers in same Field and five-year-period cell",
+  "knn_self_excluded": true,
+  "knn_backend": "exact blocked cosine float32, verify against CPU float64 on deterministic anchors",
+  "knn_tie_rule": "score then smaller global row_index; diagnose floating point boundary sensitivity",
+  "knn_chance_adjustment": "(overlap_fraction - k/(candidate_count-1))/(1-k/(candidate_count-1))",
+  "knn_global_anchors_per_cell": 100,
+  "knn_global_reference": "400000 base rows only; exclude self when present",
+  "family_sensitivity": {
+    "citation_document": [
+      "specter",
+      "specter2",
+      "scincl"
+    ],
+    "word_BERT": [
+      "scibert",
+      "bert",
+      "pubmedbert",
+      "biobert"
+    ],
+    "general_sentence": [
+      "mpnet",
+      "minilm",
+      "simcse"
+    ]
+  },
+  "output": "data/analysis_v1",
+  "publication_claims": "descriptive model dependence of defined eligible corpus; no universal best model, causal historical evolution or automatic novelty claim"
+}

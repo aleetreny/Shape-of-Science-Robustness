@@ -1,0 +1,15 @@
+{
+  "selection": {
+    "source": {
+      "rows": 500000,
+      "input_sha256": "15f81305696c3a6f6692d849e1116f176940494d6d6f78225ead3ea72d710acf",
+      "source_manifest_sha256": "d8b48bccda4196063535ed6a8b3029481feddb7642e4a3f9eb146a772c71cde5"
+    },
+    "method": "ten lowest SHA256(seed + work_id) per Field/period",
+    "seed": "embedding-technical-pilot-v1",
+    "per_cell": 10,
+    "purpose": "technical_only"
+  },
+  "rows": 1300,
+  "input_sha256": "224f2856c5920a59e5233b47ef95c481569809b244b435ea20a0e7a589357c6c"
+}

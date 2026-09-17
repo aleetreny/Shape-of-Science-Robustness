@@ -1,0 +1,112 @@
+{
+  "access_date": "2026-09-15",
+  "scope": "Directed, non-exhaustive review of ten studies on publication maps, disciplinary structure, bibliometric relatedness or topic evolution. Counts describe these studies, not community-wide prevalence.",
+  "counting_rule": "One occurrence per study and model family used in a relevant analysis. Do not count bibliography mentions, software wrappers, model ancestry, different versions of one paper, or models used only in a separate general retrieval benchmark.",
+  "studies": [
+    {
+      "id": "lamers_2021", "year": 2021,
+      "title": "An appraisal of publication embedding techniques in the context of conventional bibliometric relatedness measures",
+      "venue": "ISSI 2021", "url": "https://cris.unibo.it/handle/11585/948699",
+      "evidence": "Institutional record and abstract explicitly identify the four representations compared; full PDF fetch failed. Exact BERT and SciBERT checkpoints/pooling not confirmed.",
+      "models": ["BERT", "SciBERT", "SPECTER"],
+      "additional_methods": ["Word2Vec over citation labels"],
+      "excluded_mentions": [],
+      "note": "Word2Vec here embeds citation labels, not the same textual input. DOI qss_a_00168 belongs to a different paper."
+    },
+    {
+      "id": "landscape_2024", "year": 2024,
+      "title": "The landscape of biomedical research",
+      "venue": "Patterns", "url": "https://doi.org/10.1016/j.patter.2024.100968",
+      "evidence": "Full publisher JATS obtained in the prior review and read again locally, including pilot methods and exact model list.",
+      "models": ["BERT", "SciBERT", "BioBERT", "PubMedBERT", "MPNet", "SPECTER", "SimCSE", "SciNCL"],
+      "exact_checkpoints": ["bert-base-uncased", "allenai/scibert_scivocab_uncased", "dmis-lab/biobert-v1.1", "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext", "sentence-transformers/all-mpnet-base-v2", "princeton-nlp/unsup-simcse-bert-base-uncased"],
+      "additional_methods": ["TF-IDF"],
+      "note": "PubMedBERT is used for the full map; all eight encoders appear in the pilot comparison. Do not call all eight final-map models."
+    },
+    {
+      "id": "constantino_2025", "year": 2025,
+      "title": "Representing the disciplinary structure of physics: a comparative evaluation of graph and text embedding methods",
+      "venue": "Quantitative Science Studies", "url": "https://arxiv.org/html/2308.15706v2",
+      "evidence": "Full author version, section 2.2.2.",
+      "models": ["SciBERT", "MPNet"],
+      "exact_checkpoints": ["allenai/scibert_scivocab_uncased", "sentence-transformers/paraphrase-mpnet-base-v2"],
+      "additional_methods": ["Doc2Vec PV-DM", "graph embeddings"],
+      "note": "MPNet is the paraphrase variant, not all-mpnet-base-v2. SciBERT uses a sum of the last four CLS states."
+    },
+    {
+      "id": "huang_2025", "year": 2025,
+      "title": "A framework for demonstrating, forecasting, and explaining topic evolution by analyzing geometrical motion of topic embeddings",
+      "venue": "Quantitative Science Studies", "url": "https://direct.mit.edu/qss/article/doi/10.1162/qss_a_00344/125737/A-framework-for-demonstrating-forecasting-and",
+      "code_url": "https://github.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution",
+      "evidence": "Publisher-indexed methods/results and author code vec_by_bert.py and vec_by_mpnet.py. Direct full publisher fetch failed; code read, never executed.",
+      "models": ["BERT", "MPNet", "MiniLM"],
+      "exact_checkpoints": ["bert-base-uncased", "all-mpnet-base-v2", "all-MiniLM-L6-v2"],
+      "additional_methods": [],
+      "note": "Studies topic evolution using topic/context representations associated with papers, not an identical whole-paper mapping protocol."
+    },
+    {
+      "id": "imel_2025", "year": 2025,
+      "title": "Density, asymmetry and citation dynamics in scientific literature",
+      "venue": "arXiv preprint", "url": "https://arxiv.org/html/2506.23366v1",
+      "evidence": "Full author text, Document embeddings section and maps in figure 6.",
+      "models": ["SciBERT", "SBERT_unspecified", "GPT-2"],
+      "additional_methods": ["averaged Word2Vec", "bag of words"],
+      "excluded_mentions": ["SPECTER"],
+      "note": "SBERT checkpoint not identified in the text read: no attribution to MPNet/MiniLM. SPECTER is explicitly not used."
+    },
+    {
+      "id": "liang_2026", "year": 2026,
+      "title": "Citation importance-aware document representation learning for large-scale science mapping",
+      "venue": "Information Processing & Management", "doi": "10.1016/j.ipm.2025.104557",
+      "url": "https://arxiv.org/pdf/2512.13054",
+      "evidence": "Full author PDF, sections 4.1.2, 4.2 and 4.3; publication title and DOI confirmed via Crossref.",
+      "models": ["SciBERT", "SPECTER", "SPECTER2", "SciNCL"],
+      "additional_methods": ["BM25", "citation networks", "authors' citation-importance model"],
+      "separate_benchmark_not_counted": ["BERT", "E5-base-v2", "text-embedding-ada-002", "SimCSE", "FastText", "Doc2Vec"],
+      "note": "Count only the four pretrained encoders explicitly compared in the PubMed science-mapping task. The other models belong to the separate SciDocs evaluation; some baseline results are taken from other publications."
+    },
+    {
+      "id": "knowledge_cosmos_2025", "year": 2025,
+      "title": "The Knowledge Cosmos: An Immersive Platform for Interdisciplinary Research Discovery",
+      "venue": "VISAP 2025", "doi": "10.1109/VISAP.2025.00007",
+      "url": "https://www.theknowledgecosmos.com/VISAP.pdf",
+      "evidence": "Full author PDF downloaded and parsed, Methods section. Author PDF has an earlier title: A Playful, Immersive Platform for Exploring Science.",
+      "models": ["SPECTER"], "additional_methods": [],
+      "excluded_mentions": ["SciBERT"],
+      "note": "Uses approximately 17 million precomputed SPECTER embeddings. SciBERT explains their ancestry, not a separate model run."
+    },
+    {
+      "id": "interdisciplinary_2024", "year": 2024,
+      "title": "Identifying interdisciplinary emergence in the science of science: combination of network analysis and BERTopic",
+      "venue": "Humanities and Social Sciences Communications", "doi": "10.1057/s41599-024-03044-y",
+      "url": "https://www.nature.com/articles/s41599-024-03044-y",
+      "evidence": "Full publisher HTML retrieved and read, methods text specifying the default representation actually used.",
+      "models": ["MiniLM"], "exact_checkpoints": ["all-MiniLM-L6-v2"],
+      "additional_methods": ["BERTopic pipeline", "network analysis"],
+      "excluded_mentions": ["MPNet"],
+      "note": "MPNet is mentioned as a comparison of speed/quality from elsewhere, not run in this study. BERTopic is the pipeline, not another embedding model."
+    },
+    {
+      "id": "nanoscience_2025", "year": 2025,
+      "title": "An Efficient Deep Learning Framework for Revealing the Evolution of Characterization Methods in Nanoscience",
+      "venue": "Nano-Micro Letters", "doi": "10.1007/s40820-025-01807-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12165910/",
+      "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12165910/fullTextXML",
+      "evidence": "Full JATS retrieved via Europe PMC, body confirmed by paper-lookup parser, methods/results read.",
+      "models": ["MiniLM"], "exact_checkpoints": ["all-MiniLM-L6-v2"],
+      "additional_methods": ["BERTopic pipeline"],
+      "note": "Maps topics and their evolution in a specific research domain."
+    },
+    {
+      "id": "bascur_2026", "year": 2026,
+      "title": "Use of diverse data sources to control which topics emerge in a science map",
+      "venue": "MetaROR open peer review / arXiv author manuscript",
+      "url": "https://metaror.org/article/use-of-diverse-data-sources-to-control-which-topics-emerge-in-a-science-map-2/",
+      "evidence": "Full MetaROR HTML retrieved; text-similarity methods specify allenai-specter. Version 2 page evaluates arXiv v3 and links a v4 title revision.",
+      "models": ["SPECTER"], "exact_checkpoints": ["allenai-specter via Sentence-Transformers"],
+      "additional_methods": ["networks from other data sources"],
+      "excluded_mentions": ["BERT", "SBERT_unspecified"],
+      "note": "Count once across versions. Calls its similarity network BERT, but the actual model is SPECTER. Distinct from Bascur et al. 2025 Which topics..., which used BM25."
+    }
+  ]
+}

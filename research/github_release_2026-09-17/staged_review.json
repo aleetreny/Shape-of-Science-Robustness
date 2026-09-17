@@ -1,0 +1,41 @@
+{
+  "staged_files": 849,
+  "bytes": 75487878,
+  "staged_blobs_match_local_files": 849,
+  "credential_pattern_findings": [],
+  "largest_files": [
+    [
+      "research/corpus_audit_2026-09-15/quality_flags.csv",
+      6230612
+    ],
+    [
+      "research/embedding_final_audit_2026-09-17/catalog.json",
+      4244270
+    ],
+    [
+      "reports/analysis_v1/final/tables/centroid_control_distances.csv",
+      4108464
+    ],
+    [
+      "reports/analysis_v1/final/tables/shape_all_stages.csv",
+      3612551
+    ],
+    [
+      "reports/analysis_v1/final/tables/neighbors_equal2048.csv",
+      3582627
+    ]
+  ],
+  "publication_status_documents_changed": [
+    "AGENTS.md",
+    "DECISIONS.md",
+    "NEXT_STEPS.md",
+    "PREPAPER_REVIEW.md",
+    "docs/DATA_RELEASE.md",
+    "docs/QSS_CHECK.md",
+    "progress.md",
+    "task_plan.md"
+  ],
+  "prior_closed_documents_preserved": true,
+  "prepaper_and_robustness_reports_unchanged": true,
+  "scope": "Staged bytes checked, not a claim that every possible secret pattern can be detected. No corpus, embeddings, weights or environments are tracked."
+}

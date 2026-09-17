@@ -1,0 +1,7 @@
+AUDIT mpnet abstract PASS
+AUDIT minilm title_abstract PASS
+AUDIT minilm title PASS
+AUDIT minilm abstract PASS
+AUDIT pubmedbert title_abstract PASS
+AUDIT pubmedbert title PASS
+AUDITS COMPLETE 23 /30

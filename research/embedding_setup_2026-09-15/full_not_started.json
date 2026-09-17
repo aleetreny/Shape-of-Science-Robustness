@@ -1,0 +1,56 @@
+{
+  "scope": "full",
+  "verified": false,
+  "models": [
+    {
+      "model": "specter",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "specter2",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "scincl",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "scibert",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "bert",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "mpnet",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "minilm",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "pubmedbert",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "biobert",
+      "state": "not_started",
+      "rows": 0
+    },
+    {
+      "model": "simcse",
+      "state": "not_started",
+      "rows": 0
+    }
+  ]
+}

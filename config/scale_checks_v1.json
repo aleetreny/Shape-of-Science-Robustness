@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-09-17T17:19:32.212569+00:00",
+  "scope": "R03/R04 paired scales and centroid averaging references",
+  "seed": 2026091708,
+  "candidate_count": 256,
+  "query_count": 50,
+  "paired_candidate_repeats": 10,
+  "random_group_repeats": 20,
+  "equal_centroid_count": 26,
+  "eligible_subfields": "same >=256 as primary Subfield size control",
+  "centroid_null": "shuffle paper assignments within period, preserving each group size and its period composition",
+  "centroid_normalization": "average row-normalized paper vectors; L2-normalize centroids before CKA/RSA",
+  "paired_neighbors": "same 50 fixed queries per Subfield, same 256 total candidates including queries; 206 sampled from Subfield or parent Field, without replacement; all ten models share selections",
+  "interpretation": "Agreement is compared at each scale using the same kind of measure. A centroid score and neighbor fraction are not the same quantity. The paired candidate contrast changes topical scope while fixing query IDs, count and k."
+}

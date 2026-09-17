@@ -1,0 +1,305 @@
+{
+  "all_models_pass": true,
+  "at": "2026-09-17T13:00:59.285153+00:00",
+  "models": [
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.14367816600133665,
+          "tokens": [
+            15,
+            15,
+            16,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.10073999999440275,
+          "tokens": [
+            120,
+            323,
+            177,
+            110
+          ]
+        }
+      ],
+      "model": "specter",
+      "native_max_absolute_errors": {
+        "cls": 1.6689300537109375e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.06011733299237676,
+          "tokens": [
+            13,
+            14,
+            16,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.07150583399925381,
+          "tokens": [
+            120,
+            314,
+            172,
+            108
+          ]
+        }
+      ],
+      "model": "specter2",
+      "native_max_absolute_errors": {
+        "cls": 1.1920928955078125e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.014976041973568499,
+          "tokens": [
+            13,
+            14,
+            16,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.057621375017333776,
+          "tokens": [
+            120,
+            314,
+            172,
+            108
+          ]
+        }
+      ],
+      "model": "scincl",
+      "native_max_absolute_errors": {
+        "cls": 1.0728836059570312e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.013958208000985906,
+          "tokens": [
+            13,
+            14,
+            16,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.05689799998071976,
+          "tokens": [
+            120,
+            314,
+            172,
+            108
+          ]
+        }
+      ],
+      "model": "scibert",
+      "native_max_absolute_errors": {
+        "cls": 2.9653310775756836e-06,
+        "mean": 9.5367431640625e-07,
+        "sep": 2.868473529815674e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.07304608300910331,
+          "tokens": [
+            15,
+            18,
+            17,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.06159500000649132,
+          "tokens": [
+            122,
+            335,
+            183,
+            109
+          ]
+        }
+      ],
+      "model": "bert",
+      "native_max_absolute_errors": {
+        "cls": 5.4836273193359375e-06,
+        "mean": 2.60770320892334e-07,
+        "sep": 2.0265579223632812e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.012116750003769994,
+          "tokens": [
+            15,
+            18,
+            17,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.06750529201235622,
+          "tokens": [
+            122,
+            335,
+            183,
+            109
+          ]
+        }
+      ],
+      "model": "mpnet",
+      "native_max_absolute_errors": {
+        "mean": 1.564621925354004e-07
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.021150415996089578,
+          "tokens": [
+            15,
+            18,
+            17,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.010280791990226135,
+          "tokens": [
+            122,
+            256,
+            183,
+            109
+          ]
+        }
+      ],
+      "model": "minilm",
+      "native_max_absolute_errors": {
+        "mean": 5.960464477539063e-08
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.01205766698694788,
+          "tokens": [
+            13,
+            12,
+            16,
+            13
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.053654707997338846,
+          "tokens": [
+            119,
+            304,
+            164,
+            112
+          ]
+        }
+      ],
+      "model": "pubmedbert",
+      "native_max_absolute_errors": {
+        "cls": 1.8477439880371094e-06,
+        "mean": 9.5367431640625e-07,
+        "sep": 1.0132789611816406e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.012114124983781949,
+          "tokens": [
+            24,
+            18,
+            25,
+            13
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.06416370801161975,
+          "tokens": [
+            131,
+            348,
+            187,
+            110
+          ]
+        }
+      ],
+      "model": "biobert",
+      "native_max_absolute_errors": {
+        "cls": 1.1324882507324219e-06,
+        "mean": 9.5367431640625e-07,
+        "sep": 2.3245811462402344e-06
+      },
+      "passed": true
+    },
+    {
+      "literal_conditions": [
+        {
+          "condition": "title",
+          "seconds": 0.011176667001564056,
+          "tokens": [
+            15,
+            18,
+            17,
+            12
+          ]
+        },
+        {
+          "condition": "abstract",
+          "seconds": 0.05815700002131052,
+          "tokens": [
+            122,
+            335,
+            183,
+            109
+          ]
+        }
+      ],
+      "model": "simcse",
+      "native_max_absolute_errors": {
+        "cls": 1.5497207641601562e-06
+      },
+      "passed": true
+    }
+  ],
+  "rows": 4
+}

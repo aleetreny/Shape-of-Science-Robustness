@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-15T14:27:20.367276+00:00",
+  "rows": 500000,
+  "counts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "pages_verified": 6139,
+  "candidates_replayed": 576585,
+  "fields": 26,
+  "field_period_cells": 130,
+  "minimum_cell": 2165,
+  "original_corpus_unchanged": true,
+  "additional_api_pages": 1,
+  "checks": [
+    "full_random_selection_replay",
+    "every_candidate_decision_replayed",
+    "every_selected_record_against_raw_response",
+    "independent_supplement_allocation",
+    "all_legacy_flags",
+    "all_parquet_rows",
+    "all_input_rows_and_order",
+    "all_quality_flags_and_exclusion_rules",
+    "frozen_input_hashes",
+    "database_integrity",
+    "original_corpus_hash"
+  ],
+  "model_runs_started": false
+}

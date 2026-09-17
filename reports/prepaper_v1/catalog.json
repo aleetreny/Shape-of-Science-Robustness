@@ -1,0 +1,26 @@
+{
+  "exporter_sha256": "89418a4029dd4bbdea224b582474d62909e1bace34e52cc4417bf2a64b53e1ef",
+  "files": {
+    "CASES.md": "8f7f0e84431a88c1bbcffd8cdd53143ca0e7278cbc31ab5d0a97c8eb048eb6f0",
+    "article_relation_examples.csv": "3bbfb2f48abca50a2b59f4e84a6f5b08f4f2aeed431505334cd328320d4cf259",
+    "article_relations_readable.csv": "1aee4e0c40c5d8327716982976d7afaea21b12409bc635e7c1bc95785f42d33f",
+    "figures/01_subfield_persistence.pdf": "4e255444d3f5b43bd1b276911fc05214fc4c1d8e048448421285c523e66631fd",
+    "figures/01_subfield_persistence.png": "55231c02db2eadf6500d1ba94bfa5e27947b2baef26b96964d7d344c17a67ff9",
+    "figures/01_subfield_persistence.svg": "679341db8342c1f82fb5a3f6f5a882e640ab76b99bab9f7796973ffb34b918b1",
+    "figures/02_relation_dependence.pdf": "4fd1353555f768d6c3f950bbd58b46a1d5567296a17b71deb5a150a30b3a41a3",
+    "figures/02_relation_dependence.png": "57f4108f55cdb9a5eb1904c20940d0c38f81182dd6fed813cbb06077d732a56d",
+    "figures/02_relation_dependence.svg": "d1f386a9a12cd33bd6f2445857616421abcd948e36fab71ef4911cbf7c6be6af",
+    "paper_example_pairs.csv": "ff4292f57e15fde427514391502276d107432ca3d76a8f49d7956311a11fa67c",
+    "paper_examples.csv": "f9c0f9d96c1c4f7a50e0d3237a0641910f3d421ae7a1f2aad37af7cf7f4b8506",
+    "paper_examples_readable.csv": "29d3d7c5c9de09f6840b0cc9bc759fa4274d143af4a76fa8d55630ac2ad7b636",
+    "source_snapshot/report.py": "89418a4029dd4bbdea224b582474d62909e1bace34e52cc4417bf2a64b53e1ef",
+    "subfield_examples.csv": "988feabe279a4ee619d25e610aa785495952afa1d7a3ccf6a41c595f4173a611",
+    "subfield_relation_examples.csv": "e70a73060a93251d751e23ea3d8d8f3cb60e3c0b78e9afd9bf60398e630d585c",
+    "subfield_sensitivity_panels.csv": "9368ac50265a06f7312a4f6c999a753135ebdc102b7cd9cc3530bfb26ae836c3",
+    "subfields.csv": "154a9fad2cd01cf82d5149bda323652b22a5e4f3202a8f6591ab1da7314a81e3"
+  },
+  "source_audit_sha256": "8b2626d86511e11f0a1f212d35b1da51cefeed5deff93ebfdb59c60aee03d1e6",
+  "visual_review": "complete",
+  "visual_review_record": "research/prepaper_2026-09-17/visual_review.json",
+  "visual_review_sha256": "6a3ab729a624752a9bb4c368867d208ace6cab20638e1639cf5e798427a17e16"
+}

@@ -1,0 +1,23 @@
+Waiting for the existing 100-repeat run 96363
+Starting sos_deep.input_review
+INPUT CLOSURE REVIEW COMPLETE
+Starting sos_deep.audit_closure
+CLOSURE AUDIT subfields_native PASS
+CLOSURE AUDIT subfield_controls PASS
+CLOSURE AUDIT regions_native PASS
+CLOSURE AUDIT temporal_review PASS
+CLOSURE AUDIT family_traits PASS
+CLOSURE AUDIT medicine_composition PASS
+CLOSURE AUDIT centroid_scales PASS
+CLOSURE AUDIT paired_neighbor_scales PASS
+CLOSURE AUDIT control_review_v2 PASS
+CLOSURE AUDIT structural_review_v3 PASS
+CLOSURE AUDIT provenance PASS
+CLOSURE AUDIT input_comparisons PASS
+CLOSURE AUDIT input_recipes PASS
+CLOSURE AUDIT input_stability100 PASS
+CLOSURE AUDIT input_review PASS
+EXPANDED EXPERIMENTAL CLOSURE AUDITED
+Starting sos_deep.report
+EXPANDED REPORT EXPORTED
+EXPANDED NUMERICAL DELIVERY COMPLETE; DOCUMENT AND VISUAL REVIEW STILL REQUIRED

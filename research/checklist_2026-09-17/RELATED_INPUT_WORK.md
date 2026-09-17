@@ -1,0 +1,9 @@
+# Antecedentes cercanos al control de entrada
+
+Consulta dirigida del 17-09-2026, mientras calcula el piloto. No es una revisión sistemática ni cambia los diez modelos fijados.
+
+**Constantino, Kojaku, Fortunato y Ahn.** *Representing the disciplinary structure of physics: a comparative evaluation of graph and text embedding methods*. La [versión de autores, febrero de 2025](https://arxiv.org/html/2308.15706v2), compara representaciones de títulos y de resúmenes con métodos de texto y grafos en física. Utiliza clasificación PACS y propiedades de agrupación. La versión editorial QSS, [DOI 10.1162/qss_a_00349](https://doi.org/10.1162/qss_a_00349), devolvió 403 en esta consulta; se leyó la versión de autores. Comparar títulos y resúmenes para mapear ciencia, por sí solo, no es nuestra novedad.
+
+**Brinner y Zarrieß.** *SemCSE*, EMNLP 2025, [registro editorial](https://aclanthology.org/2025.emnlp-main.1662/) y [PDF](https://aclanthology.org/2025.emnlp-main.1662.pdf), secciones 5.1–5.2. Evalúa recuperar el documento correspondiente a un resumen y compara título, abstract y concatenación en ese contexto. Su evaluación adicional incluye emparejar títulos con abstracts y partes de un abstract. El [código de autores](https://github.com/inas-argumentation/SemCSE) documenta estas tareas. No es lo mismo que medir conservación de la geometría y los vecinos entre diez modelos en los mismos artículos. SemCSE y nuestro SimCSE son modelos distintos; no cambiar uno por otro silenciosamente.
+
+**Implicación para nuestro argumento:** debemos presentar una comparación emparejada entre cambiar de modelo y cambiar de entrada, junto con controles de receta y candidatos, en las 26 áreas. El aporte es qué conclusiones resisten esas decisiones. No afirmar que somos los primeros en usar estas entradas ni que la cantidad de modelos garantice novedad. La revisión dirigida anterior sigue en [ACADEMIC_MODEL_USAGE.md](../../ACADEMIC_MODEL_USAGE.md).

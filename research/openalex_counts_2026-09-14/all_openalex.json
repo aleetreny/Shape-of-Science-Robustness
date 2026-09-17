@@ -1,0 +1,33 @@
+{
+  "retrieved_at_utc": "2026-09-14T15:46:06.123646+00:00",
+  "endpoint": "https://api.openalex.org/works",
+  "parameters": {
+    "per_page": 1,
+    "select": "id"
+  },
+  "api_key_used": true,
+  "http_status": 200,
+  "response": {
+    "meta": {
+      "count": 326269690,
+      "db_response_time_ms": 161,
+      "page": 1,
+      "per_page": 1,
+      "groups_count": null,
+      "x_query": {
+        "oql": "works",
+        "oqo": {
+          "get_rows": "works"
+        },
+        "url": "/works?per_page=1"
+      },
+      "cost_usd": 0.0001
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W3038568908"
+      }
+    ],
+    "group_by": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "source_input_sha256": "15f81305696c3a6f6692d849e1116f176940494d6d6f78225ead3ea72d710acf",
+  "native_pilot_rows_per_model": 1300,
+  "control_pilot_rows_per_model": 1300,
+  "identical_fragment_rows_compared": 678,
+  "first_shard_unchanged_after_resume": true,
+  "full_calculation_started": false,
+  "full_vectors_bytes": 26880000000,
+  "full_total_hours_extrapolated": 24.138778993161147,
+  "limitation": "Short balanced technical sample; extrapolated times are not a sustained full-corpus benchmark."
+}

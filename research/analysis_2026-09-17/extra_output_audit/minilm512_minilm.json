@@ -1,0 +1,20 @@
+{
+  "audited_at": "2026-09-17T07:58:19.568959+00:00",
+  "control": "minilm512",
+  "file_and_identity_validation": {
+    "complete": true,
+    "rows": 500000,
+    "seconds": 1353.7839443282428,
+    "shards": 489,
+    "target": 500000,
+    "truncated_rows": 34331
+  },
+  "input_sha256": "15f81305696c3a6f6692d849e1116f176940494d6d6f78225ead3ea72d710acf",
+  "manifest_sha256": "df88fd2fd0eccb0109ff81443557ccddacf097a46b014b2c0a58f821ecf936ce",
+  "model": "minilm",
+  "recomputed_rows": 247910,
+  "reused_rows_checked_bit_exact": 252090,
+  "rows": 500000,
+  "source_files_current_and_snapshot_match": true,
+  "truncated_rows_from_metadata": 34331
+}

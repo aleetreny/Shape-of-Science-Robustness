@@ -1,0 +1,106 @@
+{
+  "scope": "pilot",
+  "verified": true,
+  "models": [
+    {
+      "model": "specter",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 24.586715666995588,
+      "truncated_rows": 64,
+      "state": "verified_complete"
+    },
+    {
+      "model": "specter2",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 25.9640696259994,
+      "truncated_rows": 55,
+      "state": "verified_complete"
+    },
+    {
+      "model": "scincl",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 24.37513583299733,
+      "truncated_rows": 55,
+      "state": "verified_complete"
+    },
+    {
+      "model": "scibert",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 24.411919917001796,
+      "truncated_rows": 55,
+      "state": "verified_complete"
+    },
+    {
+      "model": "bert",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 24.832715332999214,
+      "truncated_rows": 75,
+      "state": "verified_complete"
+    },
+    {
+      "model": "mpnet",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 20.008109875001537,
+      "truncated_rows": 235,
+      "state": "verified_complete"
+    },
+    {
+      "model": "minilm",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 3.2943237079998653,
+      "truncated_rows": 622,
+      "state": "verified_complete"
+    },
+    {
+      "model": "pubmedbert",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 25.317422374999296,
+      "truncated_rows": 53,
+      "state": "verified_complete"
+    },
+    {
+      "model": "biobert",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 27.814958291997755,
+      "truncated_rows": 94,
+      "state": "verified_complete"
+    },
+    {
+      "model": "simcse",
+      "rows": 1300,
+      "target": 1300,
+      "complete": true,
+      "shards": 2,
+      "seconds": 25.33360074999655,
+      "truncated_rows": 75,
+      "state": "verified_complete"
+    }
+  ]
+}

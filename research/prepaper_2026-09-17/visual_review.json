@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-09-17T19:42:24.819117+00:00",
+  "status": "complete",
+  "review_method": "Both final PNGs visually inspected; labels, footnotes, selection caveats, color contrast and margins checked. PDF/SVG are exports from the same figures.",
+  "figures": {
+    "figures/01_subfield_persistence.pdf": "4e255444d3f5b43bd1b276911fc05214fc4c1d8e048448421285c523e66631fd",
+    "figures/01_subfield_persistence.png": "55231c02db2eadf6500d1ba94bfa5e27947b2baef26b96964d7d344c17a67ff9",
+    "figures/01_subfield_persistence.svg": "679341db8342c1f82fb5a3f6f5a882e640ab76b99bab9f7796973ffb34b918b1",
+    "figures/02_relation_dependence.pdf": "4fd1353555f768d6c3f950bbd58b46a1d5567296a17b71deb5a150a30b3a41a3",
+    "figures/02_relation_dependence.png": "57f4108f55cdb9a5eb1904c20940d0c38f81182dd6fed813cbb06077d732a56d",
+    "figures/02_relation_dependence.svg": "d1f386a9a12cd33bd6f2445857616421abcd948e36fab71ef4911cbf7c6be6af"
+  },
+  "notes": [
+    "01: footer no longer overlaps axis label; same 183 groups and 27 settings explicit.",
+    "02: source caveats and incomplete target marked; selected maximum-disagreement edges are not a prevalence estimate."
+  ]
+}

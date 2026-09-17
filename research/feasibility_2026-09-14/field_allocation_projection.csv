@@ -1,0 +1,27 @@
+field_id,field_name,expected_base,expected_additional,expected_total
+27,Medicine,76576,0,76576
+22,Engineering,65657,0,65657
+33,Social Sciences,40268,0,40268
+17,Computer Science,32521,0,32521
+13,"Biochemistry, Genetics and Molecular Biology",23062,0,23062
+11,Agricultural and Biological Sciences,18610,572,19182
+23,Environmental Science,18143,456,18599
+31,Physics and Astronomy,14230,183,14413
+25,Materials Science,13459,911,14370
+12,Arts and Humanities,12203,1431,13634
+14,"Business, Management and Accounting",11399,1947,13346
+32,Psychology,10679,2332,13011
+20,"Economics, Econometrics and Finance",9242,2375,11617
+36,Health Professions,8341,3241,11582
+15,Chemical Engineering,1246,9769,11015
+16,Chemistry,8544,2471,11015
+18,Decision Sciences,3901,7114,11015
+19,Earth and Planetary Sciences,6985,4030,11015
+21,Energy,2655,8360,11015
+24,Immunology and Microbiology,4234,6781,11015
+26,Mathematics,5128,5887,11015
+28,Neuroscience,6528,4487,11015
+29,Nursing,2041,8971,11012
+30,"Pharmacology, Toxicology and Pharmaceutics",1759,9251,11010
+34,Veterinary,620,10390,11010
+35,Dentistry,1969,9041,11010

@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-09-15T16:45:39.322391+00:00",
+  "models": [
+    {
+      "repo_id": "allenai/specter",
+      "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+      "license_in_card": "apache-2.0",
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/allenai/specter/tree/81cbfb43d4fc2e728d5b4201ce14987db8d0854c"
+    },
+    {
+      "repo_id": "allenai/specter2_base",
+      "revision": "3447645e1def9117997203454fa4495937bfbd83",
+      "license_in_card": "apache-2.0",
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/allenai/specter2_base/tree/3447645e1def9117997203454fa4495937bfbd83"
+    },
+    {
+      "repo_id": "malteos/scincl",
+      "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+      "license_in_card": "mit",
+      "files": [
+        "1_Pooling/config.json",
+        "README.md",
+        "config.json",
+        "config_sentence_transformers.json",
+        "model.safetensors",
+        "modules.json",
+        "sentence_bert_config.json",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/malteos/scincl/tree/ebc5348d184ba2fc9beee69b4e394263fce57b2e"
+    },
+    {
+      "repo_id": "allenai/scibert_scivocab_uncased",
+      "revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1",
+      "license_in_card": null,
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/allenai/scibert_scivocab_uncased/tree/24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1"
+    },
+    {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "license_in_card": "apache-2.0",
+      "files": [
+        "README.md",
+        "config.json",
+        "model.safetensors",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/google-bert/bert-base-uncased/tree/86b5e0934494bd15c9632b12f734a8a67f723594"
+    },
+    {
+      "repo_id": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "license_in_card": "apache-2.0",
+      "files": [
+        "1_Pooling/config.json",
+        "README.md",
+        "config.json",
+        "config_sentence_transformers.json",
+        "model.safetensors",
+        "modules.json",
+        "sentence_bert_config.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2/tree/e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    {
+      "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "license_in_card": "apache-2.0",
+      "files": [
+        "1_Pooling/config.json",
+        "README.md",
+        "config.json",
+        "config_sentence_transformers.json",
+        "model.safetensors",
+        "modules.json",
+        "sentence_bert_config.json",
+        "special_tokens_map.json",
+        "tokenizer.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    {
+      "repo_id": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+      "license_in_card": "mit",
+      "files": [
+        "LICENSE.md",
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext/tree/e1354b7a3a09615f6aba48dfad4b7a613eef7062"
+    },
+    {
+      "repo_id": "dmis-lab/biobert-v1.1",
+      "revision": "551ca18efd7f052c8dfa0b01c94c2a8e68bc5488",
+      "license_in_card": null,
+      "files": [
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/dmis-lab/biobert-v1.1/tree/551ca18efd7f052c8dfa0b01c94c2a8e68bc5488"
+    },
+    {
+      "repo_id": "princeton-nlp/unsup-simcse-bert-base-uncased",
+      "revision": "218baf6bc48c463a53f5b4e1c568299537fab124",
+      "license_in_card": null,
+      "files": [
+        "README.md",
+        "config.json",
+        "pytorch_model.bin",
+        "special_tokens_map.json",
+        "tokenizer_config.json",
+        "vocab.txt"
+      ],
+      "source_url": "https://huggingface.co/princeton-nlp/unsup-simcse-bert-base-uncased/tree/218baf6bc48c463a53f5b4e1c568299537fab124"
+    }
+  ]
+}

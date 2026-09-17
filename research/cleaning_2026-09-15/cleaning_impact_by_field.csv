@@ -1,0 +1,27 @@
+field_id,field_name,original_total,final_total,original_not_selected,original_excluded_by_quality,quality_excluded_percent,clear_non_english,content_or_notice,valid_not_reselected_due_to_allocation
+11,Agricultural and Biological Sciences,19455,19423,248,248,1.2747,217,35,0
+12,Arts and Humanities,12848,12630,453,453,3.5258,377,77,0
+13,"Biochemistry, Genetics and Molecular Biology",24346,24497,121,121,0.497,93,31,0
+14,"Business, Management and Accounting",13286,13218,211,211,1.5881,194,18,0
+15,Chemical Engineering,10820,10830,144,144,1.3309,51,96,0
+16,Chemistry,10820,10830,194,184,1.7006,77,107,10
+17,Computer Science,32867,32828,388,388,1.1805,334,54,0
+18,Decision Sciences,10820,10830,122,122,1.1275,94,29,0
+19,Earth and Planetary Sciences,10820,10830,100,82,0.7579,73,10,18
+20,"Economics, Econometrics and Finance",11546,11509,244,244,2.1133,198,52,0
+21,Energy,10820,10830,101,101,0.9335,58,43,0
+22,Engineering,66794,67148,413,413,0.6183,316,100,0
+23,Environmental Science,19017,18984,235,226,1.1884,194,33,9
+24,Immunology and Microbiology,10820,10830,60,51,0.4713,37,14,9
+25,Materials Science,14194,14233,136,131,0.9229,78,54,5
+26,Mathematics,10820,10830,45,31,0.2865,20,11,14
+27,Medicine,78373,78669,627,627,0.8,493,142,0
+28,Neuroscience,10820,10830,80,52,0.4806,40,12,28
+29,Nursing,10820,10830,244,244,2.2551,208,37,0
+30,"Pharmacology, Toxicology and Pharmaceutics",10820,10830,71,71,0.6562,52,19,0
+31,Physics and Astronomy,14720,14822,66,37,0.2514,29,10,29
+32,Psychology,13084,13045,187,187,1.4292,170,18,0
+33,Social Sciences,38116,37549,994,994,2.6078,927,71,0
+34,Veterinary,10820,10827,159,159,1.4695,123,36,0
+35,Dentistry,10818,10825,63,62,0.5731,56,7,1
+36,Health Professions,11516,11493,193,193,1.6759,142,53,0

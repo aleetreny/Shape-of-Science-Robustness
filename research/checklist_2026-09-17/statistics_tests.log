@@ -1,0 +1,10 @@
+test_degenerate_rejected (tests.test_followup_statistics.PairedStatistics.test_degenerate_rejected) ... ok
+test_dual_equals_independent_frozen_feature_formula (tests.test_followup_statistics.PairedStatistics.test_dual_equals_independent_frozen_feature_formula) ... ok
+test_effects_keep_model_and_input_separate (tests.test_followup_statistics.PairedStatistics.test_effects_keep_model_and_input_separate) ... ok
+test_row_alignment_and_rotation (tests.test_followup_statistics.PairedStatistics.test_row_alignment_and_rotation) ... ok
+test_rsa_and_common_reordering (tests.test_followup_statistics.PairedStatistics.test_rsa_and_common_reordering) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.013s
+
+OK

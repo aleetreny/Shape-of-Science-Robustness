@@ -1,0 +1,17 @@
+{
+  "status": "ready_for_scientific_decisions",
+  "completed_at": "2026-09-17T05:06:04.725399+00:00",
+  "frozen_sources_unchanged": true,
+  "frozen_manifests_unchanged": true,
+  "catalog_and_metadata_match_audit": true,
+  "automation_paused": true,
+  "prior_openalex_automation_paused": true,
+  "new_source_sha256": {
+    "sos_analysis/reader.py": "9d815d63d0262c8c8f057755d0815d2e27b94a5652b7e75949970129ca5d50c3",
+    "sos_analysis/__init__.py": "2ccef0669061125eb5f944bb547985d00dce3bc339ec79776499bb0bb4d2a917",
+    "tests/test_analysis_reader.py": "74100413dfeb8eab2b4469b19d86be7ad2f5e8358d64925791d57a6e860c36d7",
+    "research/embedding_final_audit_2026-09-17/verify_reader.py": "b4ef40e071563fe46390410dd12f333fb8295d80bb3f94bbecc83fe3cde11ffe",
+    "research/embedding_final_audit_2026-09-17/audit.py": "1d27d86d77c2e97730a0d2b04b7df3f6f729623598d3629d7f21e0e9e419bf7a"
+  },
+  "science_comparisons_started": false
+}

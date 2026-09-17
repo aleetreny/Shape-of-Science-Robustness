@@ -1,0 +1,206 @@
+{
+  "endpoint": "https://api.crossref.org/works",
+  "query.title": "Citation importance-aware document representation learning for large-scale science mapping",
+  "rows_requested": 3,
+  "items": [
+    {
+      "DOI": "10.1016/j.ipm.2025.104557",
+      "title": [
+        "Citation importance-aware document representation learning for large-scale science mapping"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2927-3523",
+          "authenticated-orcid": false,
+          "given": "Zhentao",
+          "family": "Liang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8448-4521",
+          "authenticated-orcid": false,
+          "given": "Nees Jan",
+          "family": "van Eck",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0231-2975",
+          "authenticated-orcid": false,
+          "given": "Xuehua",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9572-6709",
+          "authenticated-orcid": false,
+          "given": "Jin",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gang",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "container-title": [
+        "Information Processing &amp; Management"
+      ],
+      "type": "journal-article"
+    },
+    {
+      "DOI": "10.18653/v1/2020.acl-main.207",
+      "title": [
+        "SPECTER: Document-level Representation Learning using Citation-informed Transformers"
+      ],
+      "author": [
+        {
+          "given": "Arman",
+          "family": "Cohan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sergey",
+          "family": "Feldman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Iz",
+          "family": "Beltagy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Doug",
+          "family": "Downey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Weld",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
+      ],
+      "type": "proceedings-article"
+    },
+    {
+      "DOI": "10.1007/bf02457414",
+      "title": [
+        "Update on science mapping: Creating large document spaces"
+      ],
+      "author": [
+        {
+          "given": "H.",
+          "family": "Small",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            2
+          ]
+        ]
+      },
+      "container-title": [
+        "Scientometrics"
+      ],
+      "type": "journal-article"
+    }
+  ]
+}

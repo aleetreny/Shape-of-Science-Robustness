@@ -1,0 +1,35 @@
+ATLAS edges specter
+ATLAS edges specter2
+ATLAS edges scincl
+ATLAS edges scibert
+ATLAS edges bert
+ATLAS edges mpnet
+ATLAS edges minilm
+ATLAS edges pubmedbert
+ATLAS edges biobert
+ATLAS edges simcse
+{
+  "queries": 10850,
+  "eligible_illustration_queries": 9653,
+  "directed_article_relations": 531650,
+  "independent_reconstructions": 34200,
+  "parent_neighbor_hashes": {
+    "data/robustness_v2/paired_neighbor_scales/models/specter/neighbors.npy": "a9455cdcafb2c74cb80c04a0707537df7e29f182c0ffc5ab0a6fad4bc92d1c3a",
+    "data/robustness_v2/paired_neighbor_scales/models/specter2/neighbors.npy": "9c251941f28133a327c32836120649350c3ce95b657985369747bfcd1d7844a0",
+    "data/robustness_v2/paired_neighbor_scales/models/scincl/neighbors.npy": "02f0a38784c9c49932b473a23cc6d61f47fb8499e6eed8764453286aba538225",
+    "data/robustness_v2/paired_neighbor_scales/models/scibert/neighbors.npy": "85033cc6d91038cf17ca467f63d6976b9c3649c0eda413fa0aafa49ebc63f8f8",
+    "data/robustness_v2/paired_neighbor_scales/models/bert/neighbors.npy": "ca8ad084262e9a9cc0c651648451fcb0a5acaeca40fbdcbb6fba0af5c7b69cc6",
+    "data/robustness_v2/paired_neighbor_scales/models/mpnet/neighbors.npy": "eaa409f649777cf5f72f89c16f0fa565a902a9c99a20d825fc522f6d0cee7e83",
+    "data/robustness_v2/paired_neighbor_scales/models/minilm/neighbors.npy": "869f57d89fbda95ec67d5586215bfa402babd9251bf2ebc31c72b9107ed5e826",
+    "data/robustness_v2/paired_neighbor_scales/models/pubmedbert/neighbors.npy": "b20858e23a2f11474eb2bba97dac179e709ccbdfba399cbb5bf43a813281ad6a",
+    "data/robustness_v2/paired_neighbor_scales/models/biobert/neighbors.npy": "1476ca640ca868d1e750c82bf065e9318f113b687b263f5334e6d5b2d791d636",
+    "data/robustness_v2/paired_neighbor_scales/models/simcse/neighbors.npy": "f9cc2a4c9edcb13f9a74d5ec33b44ed67250e44480d44013f71f016541d6fa57"
+  },
+  "subfield_center_pairs": 23436,
+  "independent_center_orderings": 2170,
+  "center_recipe_sensitivity": "not available; primary-recipe example only",
+  "subfield_examples": 12,
+  "paper_examples": 12,
+  "exploratory": true,
+  "no_new_encoder_inference": true
+}

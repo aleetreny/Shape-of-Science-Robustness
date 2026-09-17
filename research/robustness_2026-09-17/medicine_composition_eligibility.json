@@ -1,0 +1,457 @@
+[
+  {
+    "field_id": 11,
+    "all_subfields": 11,
+    "eligible_subfields": 9,
+    "eligible_papers": 19157,
+    "excluded_papers": 266,
+    "minimum_cell_count": 71,
+    "ids": [
+      "1100",
+      "1102",
+      "1103",
+      "1104",
+      "1105",
+      "1106",
+      "1109",
+      "1110",
+      "1111"
+    ]
+  },
+  {
+    "field_id": 12,
+    "all_subfields": 13,
+    "eligible_subfields": 12,
+    "eligible_papers": 12600,
+    "excluded_papers": 30,
+    "minimum_cell_count": 41,
+    "ids": [
+      "1202",
+      "1203",
+      "1204",
+      "1205",
+      "1206",
+      "1207",
+      "1208",
+      "1209",
+      "1210",
+      "1211",
+      "1212",
+      "1213"
+    ]
+  },
+  {
+    "field_id": 13,
+    "all_subfields": 14,
+    "eligible_subfields": 5,
+    "eligible_papers": 21715,
+    "excluded_papers": 2782,
+    "minimum_cell_count": 85,
+    "ids": [
+      "1305",
+      "1306",
+      "1307",
+      "1311",
+      "1312"
+    ]
+  },
+  {
+    "field_id": 14,
+    "all_subfields": 9,
+    "eligible_subfields": 6,
+    "eligible_papers": 12753,
+    "excluded_papers": 465,
+    "minimum_cell_count": 170,
+    "ids": [
+      "1402",
+      "1404",
+      "1405",
+      "1406",
+      "1407",
+      "1408"
+    ]
+  },
+  {
+    "field_id": 15,
+    "all_subfields": 6,
+    "eligible_subfields": 4,
+    "eligible_papers": 10150,
+    "excluded_papers": 680,
+    "minimum_cell_count": 221,
+    "ids": [
+      "1502",
+      "1503",
+      "1507",
+      "1508"
+    ]
+  },
+  {
+    "field_id": 16,
+    "all_subfields": 6,
+    "eligible_subfields": 5,
+    "eligible_papers": 10557,
+    "excluded_papers": 273,
+    "minimum_cell_count": 112,
+    "ids": [
+      "1602",
+      "1604",
+      "1605",
+      "1606",
+      "1607"
+    ]
+  },
+  {
+    "field_id": 17,
+    "all_subfields": 11,
+    "eligible_subfields": 11,
+    "eligible_papers": 32828,
+    "excluded_papers": 0,
+    "minimum_cell_count": 44,
+    "ids": [
+      "1702",
+      "1703",
+      "1704",
+      "1705",
+      "1706",
+      "1707",
+      "1708",
+      "1709",
+      "1710",
+      "1711",
+      "1712"
+    ]
+  },
+  {
+    "field_id": 18,
+    "all_subfields": 4,
+    "eligible_subfields": 3,
+    "eligible_papers": 10508,
+    "excluded_papers": 322,
+    "minimum_cell_count": 394,
+    "ids": [
+      "1802",
+      "1803",
+      "1804"
+    ]
+  },
+  {
+    "field_id": 19,
+    "all_subfields": 8,
+    "eligible_subfields": 7,
+    "eligible_papers": 10736,
+    "excluded_papers": 94,
+    "minimum_cell_count": 102,
+    "ids": [
+      "1902",
+      "1904",
+      "1906",
+      "1907",
+      "1908",
+      "1910",
+      "1911"
+    ]
+  },
+  {
+    "field_id": 20,
+    "all_subfields": 3,
+    "eligible_subfields": 3,
+    "eligible_papers": 11509,
+    "excluded_papers": 0,
+    "minimum_cell_count": 267,
+    "ids": [
+      "2000",
+      "2002",
+      "2003"
+    ]
+  },
+  {
+    "field_id": 21,
+    "all_subfields": 5,
+    "eligible_subfields": 1,
+    "eligible_papers": 7992,
+    "excluded_papers": 2838,
+    "minimum_cell_count": 1301,
+    "ids": [
+      "2105"
+    ]
+  },
+  {
+    "field_id": 22,
+    "all_subfields": 16,
+    "eligible_subfields": 14,
+    "eligible_papers": 66610,
+    "excluded_papers": 538,
+    "minimum_cell_count": 113,
+    "ids": [
+      "2202",
+      "2203",
+      "2204",
+      "2205",
+      "2206",
+      "2207",
+      "2208",
+      "2209",
+      "2210",
+      "2211",
+      "2212",
+      "2213",
+      "2214",
+      "2215"
+    ]
+  },
+  {
+    "field_id": 23,
+    "all_subfields": 11,
+    "eligible_subfields": 11,
+    "eligible_papers": 18984,
+    "excluded_papers": 0,
+    "minimum_cell_count": 41,
+    "ids": [
+      "2302",
+      "2303",
+      "2304",
+      "2305",
+      "2306",
+      "2307",
+      "2308",
+      "2309",
+      "2310",
+      "2311",
+      "2312"
+    ]
+  },
+  {
+    "field_id": 24,
+    "all_subfields": 5,
+    "eligible_subfields": 4,
+    "eligible_papers": 10460,
+    "excluded_papers": 370,
+    "minimum_cell_count": 189,
+    "ids": [
+      "2403",
+      "2404",
+      "2405",
+      "2406"
+    ]
+  },
+  {
+    "field_id": 25,
+    "all_subfields": 8,
+    "eligible_subfields": 5,
+    "eligible_papers": 13547,
+    "excluded_papers": 686,
+    "minimum_cell_count": 96,
+    "ids": [
+      "2502",
+      "2504",
+      "2505",
+      "2507",
+      "2508"
+    ]
+  },
+  {
+    "field_id": 26,
+    "all_subfields": 10,
+    "eligible_subfields": 8,
+    "eligible_papers": 10650,
+    "excluded_papers": 180,
+    "minimum_cell_count": 52,
+    "ids": [
+      "2602",
+      "2604",
+      "2607",
+      "2608",
+      "2610",
+      "2611",
+      "2612",
+      "2613"
+    ]
+  },
+  {
+    "field_id": 27,
+    "all_subfields": 42,
+    "eligible_subfields": 39,
+    "eligible_papers": 78419,
+    "excluded_papers": 250,
+    "minimum_cell_count": 12,
+    "ids": [
+      "2703",
+      "2704",
+      "2705",
+      "2706",
+      "2707",
+      "2708",
+      "2711",
+      "2712",
+      "2713",
+      "2714",
+      "2715",
+      "2716",
+      "2717",
+      "2720",
+      "2721",
+      "2723",
+      "2724",
+      "2725",
+      "2727",
+      "2728",
+      "2729",
+      "2730",
+      "2731",
+      "2732",
+      "2733",
+      "2734",
+      "2735",
+      "2736",
+      "2737",
+      "2738",
+      "2739",
+      "2740",
+      "2741",
+      "2742",
+      "2743",
+      "2745",
+      "2746",
+      "2747",
+      "2748"
+    ]
+  },
+  {
+    "field_id": 28,
+    "all_subfields": 8,
+    "eligible_subfields": 5,
+    "eligible_papers": 10005,
+    "excluded_papers": 825,
+    "minimum_cell_count": 114,
+    "ids": [
+      "2804",
+      "2805",
+      "2807",
+      "2808",
+      "2809"
+    ]
+  },
+  {
+    "field_id": 29,
+    "all_subfields": 4,
+    "eligible_subfields": 1,
+    "eligible_papers": 9431,
+    "excluded_papers": 1399,
+    "minimum_cell_count": 1873,
+    "ids": [
+      "2916"
+    ]
+  },
+  {
+    "field_id": 30,
+    "all_subfields": 4,
+    "eligible_subfields": 3,
+    "eligible_papers": 10803,
+    "excluded_papers": 27,
+    "minimum_cell_count": 219,
+    "ids": [
+      "3003",
+      "3004",
+      "3005"
+    ]
+  },
+  {
+    "field_id": 31,
+    "all_subfields": 8,
+    "eligible_subfields": 6,
+    "eligible_papers": 14574,
+    "excluded_papers": 248,
+    "minimum_cell_count": 96,
+    "ids": [
+      "3103",
+      "3104",
+      "3106",
+      "3107",
+      "3108",
+      "3109"
+    ]
+  },
+  {
+    "field_id": 32,
+    "all_subfields": 7,
+    "eligible_subfields": 4,
+    "eligible_papers": 12417,
+    "excluded_papers": 628,
+    "minimum_cell_count": 326,
+    "ids": [
+      "3203",
+      "3204",
+      "3205",
+      "3207"
+    ]
+  },
+  {
+    "field_id": 33,
+    "all_subfields": 22,
+    "eligible_subfields": 16,
+    "eligible_papers": 36407,
+    "excluded_papers": 1142,
+    "minimum_cell_count": 38,
+    "ids": [
+      "3304",
+      "3305",
+      "3306",
+      "3308",
+      "3310",
+      "3311",
+      "3312",
+      "3313",
+      "3314",
+      "3315",
+      "3316",
+      "3317",
+      "3318",
+      "3320",
+      "3321",
+      "3322"
+    ]
+  },
+  {
+    "field_id": 34,
+    "all_subfields": 2,
+    "eligible_subfields": 2,
+    "eligible_papers": 10827,
+    "excluded_papers": 0,
+    "minimum_cell_count": 308,
+    "ids": [
+      "3402",
+      "3404"
+    ]
+  },
+  {
+    "field_id": 35,
+    "all_subfields": 4,
+    "eligible_subfields": 3,
+    "eligible_papers": 10373,
+    "excluded_papers": 452,
+    "minimum_cell_count": 522,
+    "ids": [
+      "3504",
+      "3505",
+      "3506"
+    ]
+  },
+  {
+    "field_id": 36,
+    "all_subfields": 11,
+    "eligible_subfields": 8,
+    "eligible_papers": 11107,
+    "excluded_papers": 386,
+    "minimum_cell_count": 83,
+    "ids": [
+      "3600",
+      "3604",
+      "3605",
+      "3609",
+      "3611",
+      "3612",
+      "3614",
+      "3616"
+    ]
+  }
+]

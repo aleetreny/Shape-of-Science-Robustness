@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "revisar-embeddings-y-preparar-siguiente-fase",
+  "kind": "heartbeat",
+  "name": "Revisar embeddings y preparar siguiente fase",
+  "prompt": "Retoma en este mismo chat la revisi\u00f3n solicitada por el usuario para /Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness. Lee AGENTS.md, DECISIONS.md, progress.md, task_plan.md y POST_EMBEDDING_REVIEW.md. Comprueba primero si esta auditor\u00eda ya fue entregada o si otro proceso de auditor\u00eda est\u00e1 trabajando, para no duplicarla. Consulta el avance de los diez modelos con ./embed.sh status --scope full, los procesos reales y data/embeddings_run.log. No te f\u00edes solo de un estado guardado. No inicies ni reinicies embeddings, otra descarga o experimentos nuevos, y no modifiques el programa, entorno, pesos, configuraci\u00f3n ni los datos congelados. Si el c\u00e1lculo sigue activo, cambia esta misma automatizaci\u00f3n a una comprobaci\u00f3n cada hora y vuelve a revisar m\u00e1s tarde. No publiques mensajes cuando el avance sea normal y no haya nada que requiera atenci\u00f3n; avisa de un problema importante o una acci\u00f3n necesaria. Si est\u00e1 parado, informa sin reiniciarlo. Cuando los diez modelos est\u00e9n completos y termine la cola, ejecuta la revisi\u00f3n final descrita en POST_EMBEDDING_REVIEW.md: verifica corpus, archivos, filas, identidades, versiones y resultados; conserva evidencia; prepara un cat\u00e1logo claro y res\u00famenes de recorte por modelo, \u00e1rea y per\u00edodo; organiza con documentaci\u00f3n y derivados separados sin mover o borrar los archivos congelados. Deja preparada la lectura de datos y la siguiente fase, documentando las opciones cient\u00edficas a\u00fan pendientes sin decidirlas ni ejecutarlas por tu cuenta. Actualiza los Markdown de continuidad. Al terminar, comunica el resultado y las preguntas necesarias en espa\u00f1ol muy sencillo y desactiva esta automatizaci\u00f3n. Tambi\u00e9n desact\u00edvala si la preparaci\u00f3n ya est\u00e1 entregada o si solo queda una decisi\u00f3n o acci\u00f3n del usuario que impide continuar. Mant\u00e9n intacta la antigua automatizaci\u00f3n pausada de extracci\u00f3n OpenAlex.",
+  "status": "ACTIVE",
+  "rrule": "FREQ=HOURLY;INTERVAL=5",
+  "target_thread_id": "01a0a07c-2b40-7bd1-ba70-1e85f87d99dc",
+  "created_at": 1789594938040,
+  "updated_at": 1789594938040
+}

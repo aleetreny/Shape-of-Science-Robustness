@@ -1,0 +1,9 @@
+test_bad_inputs (test_neighbors.NeighborTests.test_bad_inputs) ... ok
+test_external_queries_and_overlap (test_neighbors.NeighborTests.test_external_queries_and_overlap) ... ok
+test_large_tie_and_self_not_first (test_neighbors.NeighborTests.test_large_tie_and_self_not_first) ... ok
+test_matches_independent_cosine_and_batch_sizes (test_neighbors.NeighborTests.test_matches_independent_cosine_and_batch_sizes) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.046s
+
+OK

@@ -1,0 +1,432 @@
+{
+  "allenai/scibert_scivocab_uncased": {
+    "files": {
+      "README.md": {
+        "bytes": 1135,
+        "sha256": "dbf7cf7e4365de6032a9677a4e305113c46f4597ea7f2f25b9ca4e4e6dafcfe5",
+        "upstream_oid": "5ece180ec11a5525af90bf3f7d2124ad9a142e08"
+      },
+      "config.json": {
+        "bytes": 385,
+        "sha256": "488e7dbd68e27a38337ecb16358810da6df4226ac3b8880a0fde44bfdc37ccf0",
+        "upstream_oid": "e7e5a29ad0904cb11c014ce669b56d07c19997cf"
+      },
+      "pytorch_model.bin": {
+        "bytes": 442221694,
+        "sha256": "e492944d88ac97dee6baa547671d3c526a3d067676883efb058311f4e5882e1a",
+        "upstream_oid": "e492944d88ac97dee6baa547671d3c526a3d067676883efb058311f4e5882e1a"
+      },
+      "vocab.txt": {
+        "bytes": 227845,
+        "sha256": "f0a650346e51ede8996710f79ba65d83fdb8da05b159f17037b74ba4e3a36c6f",
+        "upstream_oid": "8a2c6673dbaca55493a7449f60f0bf6c18a7e107"
+      }
+    },
+    "revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1"
+  },
+  "allenai/specter": {
+    "files": {
+      "README.md": {
+        "bytes": 1160,
+        "sha256": "f96b667d304d22019e55a5928baa6eed52636eaf2d9d74e1d590b9405e28af18",
+        "upstream_oid": "0cf33964f6f3ca72542e091ac18acd4f0d844bd8"
+      },
+      "config.json": {
+        "bytes": 612,
+        "sha256": "6bbfb71747935be052561b95cfeb1450ace786225f0a5379bb0e2b79604c33e2",
+        "upstream_oid": "53b96fc705b0671b64de2286c188b886bff8cf84"
+      },
+      "pytorch_model.bin": {
+        "bytes": 439803023,
+        "sha256": "a260abd90ae4bbb5aae9e040b5910ab68f27bac0cc13b1d1c9b83e42e880972c",
+        "upstream_oid": "a260abd90ae4bbb5aae9e040b5910ab68f27bac0cc13b1d1c9b83e42e880972c"
+      },
+      "special_tokens_map.json": {
+        "bytes": 112,
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "upstream_oid": "e7b0375001f109a6b8873d756ad4f7bbb15fbaa5"
+      },
+      "tokenizer_config.json": {
+        "bytes": 321,
+        "sha256": "2e15575ac9455be4a3672e5ebe1c7760281e8239a0f0e43eb6992563cbdfd071",
+        "upstream_oid": "7732863ccf6726521f95525c99cb1f70968362bc"
+      },
+      "vocab.txt": {
+        "bytes": 222296,
+        "sha256": "f99aae27d5a572628760968078207b9d79ff241cc75de4b9e4323feabc61fd6b",
+        "upstream_oid": "9ae1cf9fb273a7fad905b348a14deb798e60f8ed"
+      }
+    },
+    "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c"
+  },
+  "allenai/specter2": {
+    "files": {
+      "README.md": {
+        "bytes": 9767,
+        "sha256": "35e07453097b8a52632532d0b3024075c22b575e1e3c555bef74357cc5042479",
+        "upstream_oid": "866a2e640dbc3c3dffe1dc9aa3f6114b7dabcfd5"
+      },
+      "adapter_config.json": {
+        "bytes": 1032,
+        "sha256": "1065ad610a661c5169f05d81040fe14429d2cc7ecdf83ed654dca4a62aaf9a8c",
+        "upstream_oid": "62444fcfa7392cd780d46e44e9fc15ae850eb2fc"
+      },
+      "pytorch_adapter.bin": {
+        "bytes": 3593365,
+        "sha256": "5b6105714f78b294daa7e2d181134df12f0acb7a4ec7c1e3c13e512c908db94a",
+        "upstream_oid": "5b6105714f78b294daa7e2d181134df12f0acb7a4ec7c1e3c13e512c908db94a"
+      }
+    },
+    "revision": "2081559630a80fc5851d8f798a05ba81e9468089"
+  },
+  "allenai/specter2_base": {
+    "files": {
+      "README.md": {
+        "bytes": 9205,
+        "sha256": "8ad7f51d9584a399c4b6c322e8dcb186c7776fb81950f5314ba797d64fab4c77",
+        "upstream_oid": "dccf2424f81a1f5f1eb2a97d227a7678251b7def"
+      },
+      "config.json": {
+        "bytes": 754,
+        "sha256": "6d9d68ca2bfeca756fd807e7c81e8e9d3203d8a002dff19cc42b29edd48e8802",
+        "upstream_oid": "b8079041daa9db6f28c7377c47867ba8027e79ca"
+      },
+      "pytorch_model.bin": {
+        "bytes": 439740465,
+        "sha256": "801eda968fad1752fe846a8e572bfdc25202be85544680dda4c99f4589646ebc",
+        "upstream_oid": "801eda968fad1752fe846a8e572bfdc25202be85544680dda4c99f4589646ebc"
+      },
+      "special_tokens_map.json": {
+        "bytes": 125,
+        "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+        "upstream_oid": "a8b3208c2884c4efb86e49300fdd3dc877220cdf"
+      },
+      "tokenizer.json": {
+        "bytes": 716830,
+        "sha256": "fcd3fffca5d8fcc0d5863406f5f491293c1e4658ed503f424a30324b70533c0d",
+        "upstream_oid": "e10b7477b7e9cdd39f0758d280ace492674a986c"
+      },
+      "tokenizer_config.json": {
+        "bytes": 453,
+        "sha256": "afea6e85bb539b2c2de8847d92c2a3ae88334c280abbbdb3baaddc5fb7195242",
+        "upstream_oid": "96c1fb6539fdcb90c25837977803f6743f853d72"
+      },
+      "vocab.txt": {
+        "bytes": 227845,
+        "sha256": "f0a650346e51ede8996710f79ba65d83fdb8da05b159f17037b74ba4e3a36c6f",
+        "upstream_oid": "8a2c6673dbaca55493a7449f60f0bf6c18a7e107"
+      }
+    },
+    "revision": "3447645e1def9117997203454fa4495937bfbd83"
+  },
+  "dmis-lab/biobert-v1.1": {
+    "files": {
+      "config.json": {
+        "bytes": 462,
+        "sha256": "d506e8d0cfd5223472678e897cb294f6765d2e4695d39445a6e486cf853e62e8",
+        "upstream_oid": "3f068f4ab6d5d0b9d15c8f22c2b8e6f0cdc94cb8"
+      },
+      "pytorch_model.bin": {
+        "bytes": 433286112,
+        "sha256": "8e87cb27d889186c442feff2bea53f8cce2c5fc24d4bc88bf08ccd3821b138dc",
+        "upstream_oid": "8e87cb27d889186c442feff2bea53f8cce2c5fc24d4bc88bf08ccd3821b138dc"
+      },
+      "special_tokens_map.json": {
+        "bytes": 112,
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "upstream_oid": "e7b0375001f109a6b8873d756ad4f7bbb15fbaa5"
+      },
+      "tokenizer_config.json": {
+        "bytes": 49,
+        "sha256": "0f6d13e6f4da6f9e24f22ada6bc3be571123d858d7c0c05a8a7cd55a9c23c2e8",
+        "upstream_oid": "2ba5de7675473164e07f3b3531748c9a6f113a2c"
+      },
+      "vocab.txt": {
+        "bytes": 213450,
+        "sha256": "eeaa9875b23b04b4c54ef759d03db9d1ba1554838f8fb26c5d96fa551df93d02",
+        "upstream_oid": "2ea941cc79a6f3d7985ca6991ef4f67dad62af04"
+      }
+    },
+    "revision": "551ca18efd7f052c8dfa0b01c94c2a8e68bc5488"
+  },
+  "google-bert/bert-base-uncased": {
+    "files": {
+      "README.md": {
+        "bytes": 10517,
+        "sha256": "9187b6018ea0010d884e78e098e328faa1b88b301570d0cce606bb35e4067e17",
+        "upstream_oid": "40a2aaca31dd005eb5f6ffad07b5ffed0a31d1f6"
+      },
+      "config.json": {
+        "bytes": 570,
+        "sha256": "7160e1553ad2ca51d8c1cb066be533db31826e12d173824c1bb0cb1a4f187d20",
+        "upstream_oid": "45a2321a7ecfdaaf60a6c1fd7f5463994cc8907d"
+      },
+      "model.safetensors": {
+        "bytes": 440449768,
+        "sha256": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3",
+        "upstream_oid": "68d45e234eb4a928074dfd868cead0219ab85354cc53d20e772753c6bb9169d3"
+      },
+      "tokenizer.json": {
+        "bytes": 466062,
+        "sha256": "ce64fce797c24f68df90b40a3f74f579b336a493db14bd583fd520ea0d8c9a98",
+        "upstream_oid": "949a6f013d67eb8a5b4b5b46026217b888021b88"
+      },
+      "tokenizer_config.json": {
+        "bytes": 48,
+        "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+        "upstream_oid": "e5c73d8a50df1f56fb5b0b8002d7cf4010afdccb"
+      },
+      "vocab.txt": {
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "upstream_oid": "fb140275c155a9c7c5a3b3e0e77a9e839594a938"
+      }
+    },
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  "malteos/scincl": {
+    "files": {
+      "1_Pooling/config.json": {
+        "bytes": 296,
+        "sha256": "d02ebf56344d20f773449b15d0c10ee9a86a9178f3b3c9bfecb8b87d4350ce38",
+        "upstream_oid": "1b013adee922cdde26976d6e46f4ec75a651dfdf"
+      },
+      "README.md": {
+        "bytes": 5767,
+        "sha256": "943eca505e2597e615f51c027d7a9b706e505fe51e6574e8bbb907e096c4fea4",
+        "upstream_oid": "938c7dd82c89d8351741bb81aad60d0e56c60a84"
+      },
+      "config.json": {
+        "bytes": 596,
+        "sha256": "b1a28b1460d7f0b17e096540e0296e573c210868f7d06c90361bc49f52c597e5",
+        "upstream_oid": "3af991a41c4487a3d683655be7dbb2803d8104d4"
+      },
+      "config_sentence_transformers.json": {
+        "bytes": 205,
+        "sha256": "631cae23e5201e7b456b99e66b18b2facebb75ad6f252a33db59cf2180ea9add",
+        "upstream_oid": "1cd44bfa892a0dc8ff04afe44d80eeb64f276039"
+      },
+      "model.safetensors": {
+        "bytes": 439700404,
+        "sha256": "d65da219f67f051fdd065bfec666285c136e23002787603b2565e467bfed3c68",
+        "upstream_oid": "d65da219f67f051fdd065bfec666285c136e23002787603b2565e467bfed3c68"
+      },
+      "modules.json": {
+        "bytes": 229,
+        "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460",
+        "upstream_oid": "f7640f94e81bb7f4f04daf1668850b38763a13d9"
+      },
+      "sentence_bert_config.json": {
+        "bytes": 53,
+        "sha256": "ec8e29d6dcb61b611b7d3fdd2982c4524e6ad985959fa7194eacfb655a8d0d51",
+        "upstream_oid": "f789d99277496b282d19020415c5ba9ca79ac875"
+      },
+      "special_tokens_map.json": {
+        "bytes": 112,
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "upstream_oid": "e7b0375001f109a6b8873d756ad4f7bbb15fbaa5"
+      },
+      "tokenizer_config.json": {
+        "bytes": 327,
+        "sha256": "21e46d130d4822c8a9f6ba5eb9bb79d150b91cc31f38ba798e93505187135218",
+        "upstream_oid": "ceaa319a5cba524d332cf0d19bd06325d8748af8"
+      },
+      "vocab.txt": {
+        "bytes": 226841,
+        "sha256": "69894f6b0401652e74f9f5bf7bf4b587c149a9aa08c094eaed0325889acc449f",
+        "upstream_oid": "9c7b764e94bf80beca907b75c9a87a4c465c6905"
+      }
+    },
+    "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e"
+  },
+  "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext": {
+    "files": {
+      "LICENSE.md": {
+        "bytes": 1072,
+        "sha256": "8542b3a65414366ae3228e8f1658e538ec95f9b8855599c9c6e36751d592be66",
+        "upstream_oid": "2f66bdf7dfaeb7d0c1a5fab2faab9d45f20356d2"
+      },
+      "README.md": {
+        "bytes": 2436,
+        "sha256": "33ee2e0c3178e144af68c8e8c741a227373304151a6b53660c8542306fffb0d4",
+        "upstream_oid": "6f94faa789de5a95e2a23db0610bff80294b1b08"
+      },
+      "config.json": {
+        "bytes": 385,
+        "sha256": "56bab767c02bc792897638feb8addc06d483d9c73769a5f554bbabea1f5507a1",
+        "upstream_oid": "f8a8cd37533eee7ab2f72c09890b360824352953"
+      },
+      "pytorch_model.bin": {
+        "bytes": 440474434,
+        "sha256": "ad7bbb66376cfd6b2db3447192b034efe016337cbef135c35c411fd61b13c193",
+        "upstream_oid": "ad7bbb66376cfd6b2db3447192b034efe016337cbef135c35c411fd61b13c193"
+      },
+      "tokenizer_config.json": {
+        "bytes": 28,
+        "sha256": "53b6f42b8b8daddbdc6d3532c324187a92b46c1602bd6e8d4ad5a413b4fc90e1",
+        "upstream_oid": "a661b1a138dac6dc5590367402d100765010ffd6"
+      },
+      "vocab.txt": {
+        "bytes": 226150,
+        "sha256": "79489a52be45e6fa033521e8ce8e4f62aedc0a742ee2aa6fc04667e5b0b1454d",
+        "upstream_oid": "9d595d9c20feef7012f174efaaa5eb621910588e"
+      }
+    },
+    "revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062"
+  },
+  "princeton-nlp/unsup-simcse-bert-base-uncased": {
+    "files": {
+      "README.md": {
+        "bytes": 5306,
+        "sha256": "abb075a2dc6c640dadb4814e30339acc27beadd785fa4230c8c1bdbcb46e4aab",
+        "upstream_oid": "ce7bc9078d0f0eaf38d6d7d8a9c07a951e2a2530"
+      },
+      "config.json": {
+        "bytes": 697,
+        "sha256": "eb1da67179cf7650155a2681436ed454ad3a3acdf4568e1829e8940e5c21562e",
+        "upstream_oid": "3a38cdf81696890df0562e120dd369bd38d66ea4"
+      },
+      "pytorch_model.bin": {
+        "bytes": 437998343,
+        "sha256": "d1c2ee39eee210f7a0760a71342a7fe304c61ae8ba7274e73aff437eb64c84ac",
+        "upstream_oid": "d1c2ee39eee210f7a0760a71342a7fe304c61ae8ba7274e73aff437eb64c84ac"
+      },
+      "special_tokens_map.json": {
+        "bytes": 112,
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "upstream_oid": "e7b0375001f109a6b8873d756ad4f7bbb15fbaa5"
+      },
+      "tokenizer_config.json": {
+        "bytes": 252,
+        "sha256": "ffc7913f6084b138dad68de5a0c2f0ee25ac983709260901e01f53be5796b9d9",
+        "upstream_oid": "cd79adc84d3c96daa03456853766c63141aef734"
+      },
+      "vocab.txt": {
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "upstream_oid": "fb140275c155a9c7c5a3b3e0e77a9e839594a938"
+      }
+    },
+    "revision": "218baf6bc48c463a53f5b4e1c568299537fab124"
+  },
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "files": {
+      "1_Pooling/config.json": {
+        "bytes": 190,
+        "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+        "upstream_oid": "d1514c3162bbe87b343f565fadc62e6c06f04f03"
+      },
+      "README.md": {
+        "bytes": 10502,
+        "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+        "upstream_oid": "44af2e3b0fa3a0b6239e48422972bf755f28fde0"
+      },
+      "config.json": {
+        "bytes": 612,
+        "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+        "upstream_oid": "72b987fd805cfa2b58c4c8c952b274a11bfd5a00"
+      },
+      "config_sentence_transformers.json": {
+        "bytes": 116,
+        "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+        "upstream_oid": "fd1b291129c607e5d49799f87cb219b27f98acdf"
+      },
+      "model.safetensors": {
+        "bytes": 90868376,
+        "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+        "upstream_oid": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db"
+      },
+      "modules.json": {
+        "bytes": 349,
+        "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+        "upstream_oid": "952a9b81c0bfd99800fabf352f69c7ccd46c5e43"
+      },
+      "sentence_bert_config.json": {
+        "bytes": 53,
+        "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+        "upstream_oid": "59d594003bf59880a884c574bf88ef7555bb0202"
+      },
+      "special_tokens_map.json": {
+        "bytes": 112,
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "upstream_oid": "e7b0375001f109a6b8873d756ad4f7bbb15fbaa5"
+      },
+      "tokenizer.json": {
+        "bytes": 466247,
+        "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+        "upstream_oid": "cb202bfe2e3c98645018a6d12f182a434c9d3e02"
+      },
+      "tokenizer_config.json": {
+        "bytes": 350,
+        "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+        "upstream_oid": "c79f2b6a0cea6f4b564fed1938984bace9d30ff0"
+      },
+      "vocab.txt": {
+        "bytes": 231508,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "upstream_oid": "fb140275c155a9c7c5a3b3e0e77a9e839594a938"
+      }
+    },
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  },
+  "sentence-transformers/all-mpnet-base-v2": {
+    "files": {
+      "1_Pooling/config.json": {
+        "bytes": 190,
+        "sha256": "a37f83ada23e7887be6b88f4998927dbeac0038af301553c7cd5461413bf1a56",
+        "upstream_oid": "4e09f293dfe90bba49f87cfe7996271f07be2666"
+      },
+      "README.md": {
+        "bytes": 11612,
+        "sha256": "89a1a9c3290fe58e76c939b578c48a14331dc7bfcaaf5a53102adb183da6f96a",
+        "upstream_oid": "1452a960a1189347d079efa950d3c87d5706c0d6"
+      },
+      "config.json": {
+        "bytes": 571,
+        "sha256": "d46a3e04ded82bba22528424480697d394eeda6a27484e08c5bb2bdf5906cfa0",
+        "upstream_oid": "b9fd4298819da011007a6a4ceb728c860914fc88"
+      },
+      "config_sentence_transformers.json": {
+        "bytes": 116,
+        "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+        "upstream_oid": "fd1b291129c607e5d49799f87cb219b27f98acdf"
+      },
+      "model.safetensors": {
+        "bytes": 437971872,
+        "sha256": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658",
+        "upstream_oid": "78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658"
+      },
+      "modules.json": {
+        "bytes": 349,
+        "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+        "upstream_oid": "952a9b81c0bfd99800fabf352f69c7ccd46c5e43"
+      },
+      "sentence_bert_config.json": {
+        "bytes": 53,
+        "sha256": "cabfacded9272091a06ff595a46ef027a76ddf4ac9e77d0fcf11c605748f1667",
+        "upstream_oid": "4eb670bb4e7f34e9031acec2b86d39e5c921198e"
+      },
+      "special_tokens_map.json": {
+        "bytes": 239,
+        "sha256": "9ef40e9c160511bf3f46ceb71f1471dafa1e9473d5120bb816c36b2efa75f8ba",
+        "upstream_oid": "378d4fa393d5eaccf69c437a20f1cda6ac65c14d"
+      },
+      "tokenizer.json": {
+        "bytes": 466021,
+        "sha256": "b8be2c30ba5dd723a6d5ee26d013da103d5408d92ddcb23747622f9e48f1d842",
+        "upstream_oid": "7c8e194053bc80e27e19bb2125469e4f289ab2b3"
+      },
+      "tokenizer_config.json": {
+        "bytes": 363,
+        "sha256": "67f2ff7e223518e729869bb3a70f0caf8368fe549383fc11cfe2dfb42fffc268",
+        "upstream_oid": "20ae1276042f43d1c80f4f7b7f084a8704592c1d"
+      },
+      "vocab.txt": {
+        "bytes": 231536,
+        "sha256": "dbd90cb94e2247bd4d4ccaecbf616d2290e66691d7d5e5bb81f063c2d0649ada",
+        "upstream_oid": "1c51ab79a2298a340952d3e6012042a9c84bbe4d"
+      }
+    },
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+  }
+}

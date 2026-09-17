@@ -1,0 +1,90 @@
+[
+  {
+    "identifier": "doi:10.1016/j.joi.2008.11.003",
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1016/j.joi.2008.11.003",
+      "title": "Document–document similarity approaches and science mapping: Experimental comparison of five approaches",
+      "authors": "Ahlgren, Per and Colliander, Cristian",
+      "editors": "",
+      "year": "2009",
+      "journal": "Journal of Informetrics",
+      "volume": "3",
+      "issue": "1",
+      "pages": "49-63",
+      "publisher": "Elsevier BV",
+      "isbn": "",
+      "issn": "1751-1577",
+      "url": "https://doi.org/10.1016/j.joi.2008.11.003"
+    },
+    "verified": true,
+    "request_url": "https://api.crossref.org/works/10.1016%2Fj.joi.2008.11.003"
+  },
+  {
+    "identifier": "doi:10.1109/TVCG.2020.3045918",
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1109/TVCG.2020.3045918",
+      "title": "<i>embComp</i>\n                    : Visual Interactive Comparison of Vector Embeddings",
+      "authors": "Heimerl, Florian and Kralj, Christoph and Moller, Torsten and Gleicher, Michael",
+      "editors": "",
+      "year": "2022",
+      "journal": "IEEE Transactions on Visualization and Computer Graphics",
+      "volume": "28",
+      "issue": "8",
+      "pages": "2953-2969",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "isbn": "",
+      "issn": "1077-2626",
+      "url": "https://doi.org/10.1109/TVCG.2020.3045918"
+    },
+    "verified": true,
+    "request_url": "https://api.crossref.org/works/10.1109%2FTVCG.2020.3045918"
+  },
+  {
+    "identifier": "doi:10.1016/j.joi.2021.101224",
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1016/j.joi.2021.101224",
+      "title": "Robustness, replicability and scalability in topic modelling",
+      "authors": "Ballester, Omar and Penner, Orion",
+      "editors": "",
+      "year": "2022",
+      "journal": "Journal of Informetrics",
+      "volume": "16",
+      "issue": "1",
+      "pages": "101224",
+      "publisher": "Elsevier BV",
+      "isbn": "",
+      "issn": "1751-1577",
+      "url": "https://doi.org/10.1016/j.joi.2021.101224"
+    },
+    "verified": true,
+    "request_url": "https://api.crossref.org/works/10.1016%2Fj.joi.2021.101224"
+  },
+  {
+    "identifier": "doi:10.18653/v1/D19-1410",
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/D19-1410",
+      "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+      "authors": "Reimers, Nils and Gurevych, Iryna",
+      "editors": "",
+      "year": "2019",
+      "journal": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+      "volume": "",
+      "issue": "",
+      "pages": "3980-3990",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/D19-1410"
+    },
+    "verified": true,
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2FD19-1410"
+  }
+]

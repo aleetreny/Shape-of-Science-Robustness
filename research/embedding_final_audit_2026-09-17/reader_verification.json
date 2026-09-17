@@ -1,0 +1,59 @@
+{
+  "verified": true,
+  "completed_at": "2026-09-17T04:59:05.128417+00:00",
+  "variants_read": 18,
+  "passes": [
+    {
+      "selections_for_io_check_only": {
+        "specter": "cls",
+        "specter2": "cls",
+        "scincl": "cls",
+        "scibert": "mean",
+        "bert": "mean",
+        "mpnet": "mean",
+        "minilm": "mean",
+        "pubmedbert": "mean",
+        "biobert": "mean",
+        "simcse": "cls"
+      },
+      "rows": 500000,
+      "cohorts": {
+        "base": 400000,
+        "extra": 100000
+      },
+      "blocks": 489
+    },
+    {
+      "selections_for_io_check_only": {
+        "scibert": "cls",
+        "bert": "cls",
+        "pubmedbert": "cls",
+        "biobert": "cls"
+      },
+      "rows": 500000,
+      "cohorts": {
+        "base": 400000,
+        "extra": 100000
+      },
+      "blocks": 489
+    },
+    {
+      "selections_for_io_check_only": {
+        "scibert": "sep",
+        "bert": "sep",
+        "pubmedbert": "sep",
+        "biobert": "sep"
+      },
+      "rows": 500000,
+      "cohorts": {
+        "base": 400000,
+        "extra": 100000
+      },
+      "blocks": 489
+    }
+  ],
+  "seconds": 26.481231584009947,
+  "max_resident_memory_bytes_macos": 716455936,
+  "scientific_metrics_computed": false,
+  "source_files_modified": false
+}

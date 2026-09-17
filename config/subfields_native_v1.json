@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-17T16:45:38.966330+00:00",
+  "scope": "R03-R04 full native Subfield comparisons, followed by separate matched-size controls",
+  "metadata": "data/analysis_ready_v1/metadata.parquet",
+  "catalog": "research/embedding_final_audit_2026-09-17/catalog.json",
+  "catalog_sha256": "d25365a082d87c62ef3c171407a63886451ea570f34e12b33505b6f0240b3a2a",
+  "poolings": {
+    "specter": "cls",
+    "specter2": "cls",
+    "scincl": "cls",
+    "scibert": "mean",
+    "bert": "mean",
+    "mpnet": "mean",
+    "minilm": "mean",
+    "pubmedbert": "mean",
+    "biobert": "mean",
+    "simcse": "cls"
+  },
+  "group_by": "subfield_id pooled across observed periods",
+  "shape_metrics": [
+    "cka_debiased",
+    "cka_biased_diagnostic",
+    "procrustes_similarity",
+    "rsa_spearman"
+  ],
+  "normalization": "L2 per paper before centering",
+  "minimum_shape_rows": 4,
+  "rsa_pairs": 20000,
+  "knn_k": [
+    10,
+    25,
+    50
+  ],
+  "knn_primary_k": 25,
+  "neighbors": "exact within whole Subfield, self excluded, float64 cosine and 12-decimal global-index tie break",
+  "too_small": "explicit unavailability for each metric; never fill with zero or compare missing as perfect agreement",
+  "source_snapshot": "current source fingerprints and original embedding catalog",
+  "output": "data/robustness_v2/subfields_native",
+  "seed": 2026091703,
+  "interpretation": "same ten models and papers within each group; pooled periods have observed composition. Size and time confounds require separate controls before cross-level conclusions."
+}

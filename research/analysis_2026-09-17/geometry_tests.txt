@@ -1,0 +1,12 @@
+test_bias_correction_on_unrelated_high_dimensional_data (test_geometry.GeometryTests.test_bias_correction_on_unrelated_high_dimensional_data) ... ok
+test_degenerate_input_fails (test_geometry.GeometryTests.test_degenerate_input_fails) ... ok
+test_feature_formula_matches_independent_gram_formula (test_geometry.GeometryTests.test_feature_formula_matches_independent_gram_formula) ... ok
+test_pairs_unique_and_rsa_matches_scipy (test_geometry.GeometryTests.test_pairs_unique_and_rsa_matches_scipy) ... ok
+test_rigid_shape_invariance_and_different_dimensions (test_geometry.GeometryTests.test_rigid_shape_invariance_and_different_dimensions) ... ok
+test_shuffled_correspondence_is_not_same_labeled_shape (test_geometry.GeometryTests.test_shuffled_correspondence_is_not_same_labeled_shape) ... ok
+test_streaming_matches_direct (test_geometry.GeometryTests.test_streaming_matches_direct) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

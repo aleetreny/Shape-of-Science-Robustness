@@ -1,0 +1,2126 @@
+[
+  {
+    "identifier": "arxiv:2108.01661",
+    "origins": [
+      "ANALYSIS_PROTOCOL.md",
+      "METHODS_ANALYSIS.md",
+      "research/analysis_2026-09-17/METRIC_REVIEW.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2108.01661",
+      "title": "Grounding Representation Similarity with Statistical Testing",
+      "authors": "Frances Ding and Jean-Stanislas Denain and Jacob Steinhardt",
+      "year": "2021",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "To understand neural network behavior, recent works quantitatively compare different networks' learned representations using canonical correlation analysis (CCA), centered kernel alignment (CKA), and other dissimilarity measures. Unfortunately, these widely used measures often disagree on fundamental observations, such as whether deep networks differing only in random initialization learn similar representations. These disagreements raise the question: which, if any, of these dissimilarity measures should we believe? We provide a framework to ground this question through a concrete test: measures should have sensitivity to changes that affect functional behavior, and specificity against changes that do not. We quantify this through a variety of functional behaviors including probing accuracy and robustness to distribution shift, and examine changes such as varying random initialization and deleting principal components. We find that current metrics exhibit different weaknesses, note that a classical baseline performs surprisingly well, and highlight settings where all metrics appear to fail, thus providing a challenge set for further improvement.",
+      "url": "https://arxiv.org/abs/2108.01661"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2108.01661&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2108.01661v2",
+    "updated": "2021-11-03T16:55:19Z",
+    "citation_key": "refece4b1d965",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2308.15706",
+    "origins": [
+      "ACADEMIC_MODEL_USAGE.md",
+      "CORPUS_PROTOCOL.md",
+      "research/checklist_2026-09-17/RELATED_INPUT_WORK.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2308.15706",
+      "title": "Representing the Disciplinary Structure of Physics: A Comparative Evaluation of Graph and Text Embedding Methods",
+      "authors": "Isabel Constantino and Sadamori Kojaku and Santo Fortunato and Yong-Yeol Ahn",
+      "year": "2023",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Recent advances in machine learning offer new ways to represent and study scholarly works and the space of knowledge. Graph and text embeddings provide a convenient vector representation of scholarly works based on citations and text. Yet, it is unclear whether their representations are consistent or provide different views of the structure of science. Here, we compare graph and text embedding by testing their ability to capture the hierarchical structure of the Physics and Astronomy Classification Scheme (PACS) of papers published by the American Physical Society (APS). We also provide a qualitative comparison of the overall structure of the graph and text embeddings for reference. We find that neural network-based methods outperform traditional methods and graph embedding methods such as node2vec are better than other methods at capturing the PACS structure. Our results call for further investigations into how different contexts of scientific papers are captured by different methods, and how we can combine and leverage such information in an interpretable manner.",
+      "url": "https://arxiv.org/abs/2308.15706"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2308.15706&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2308.15706v2",
+    "updated": "2025-02-12T20:07:35Z",
+    "citation_key": "ref4cf048bae8",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2405.01012",
+    "origins": [
+      "ANALYSIS_PROTOCOL.md",
+      "METHODS_ANALYSIS.md",
+      "research/analysis_2026-09-17/METRIC_REVIEW.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2405.01012",
+      "title": "Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks",
+      "authors": "Alex Murphy and Joel Zylberberg and Alona Fyshe",
+      "year": "2024",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Centred Kernel Alignment (CKA) has recently emerged as a popular metric to compare activations from biological and artificial neural networks (ANNs) in order to quantify the alignment between internal representations derived from stimuli sets (e.g. images, text, video) that are presented to both systems. In this paper we highlight issues that the community should take into account if using CKA as an alignment metric with neural data. Neural data are in the low-data high-dimensionality domain, which is one of the cases where (biased) CKA results in high similarity scores even for pairs of random matrices. Using fMRI and MEG data from the THINGS project, we show that if biased CKA is applied to representations of different sizes in the low-data high-dimensionality domain, they are not directly comparable due to biased CKA's sensitivity to differing feature-sample ratios and not stimuli-driven responses. This situation can arise both when comparing a pre-selected area of interest (e.g. ROI) to multiple ANN layers, as well as when determining to which ANN layer multiple regions of interest (ROIs) / sensor groups of different dimensionality are most similar. We show that biased CKA can be artificially driven to its maximum value when using independent random data of different sample-feature ratios. We further show that shuffling sample-feature pairs of real neural data does not drastically alter biased CKA similarity in comparison to unshuffled data, indicating an undesirable lack of sensitivity to stimuli-driven neural responses. Positive alignment of true stimuli-driven responses is only achieved by using debiased CKA. Lastly, we report findings that suggest biased CKA is sensitive to the inherent structure of neural data, only differing from shuffled data when debiased CKA detects stimuli-driven alignment.",
+      "url": "https://arxiv.org/abs/2405.01012"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2405.01012&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2405.01012v1",
+    "updated": "2024-05-02T05:27:12Z",
+    "citation_key": "refa961d84a4e",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2407.08275",
+    "origins": [
+      "MODEL_FAMILIES.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2407.08275",
+      "title": "Beyond Benchmarks: Evaluating Embedding Model Similarity for Retrieval Augmented Generation Systems",
+      "authors": "Laura Caspari and Kanishka Ghosh Dastidar and Saber Zerhoudi and Jelena Mitrovic and Michael Granitzer",
+      "year": "2024",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "The choice of embedding model is a crucial step in the design of Retrieval Augmented Generation (RAG) systems. Given the sheer volume of available options, identifying clusters of similar models streamlines this model selection process. Relying solely on benchmark performance scores only allows for a weak assessment of model similarity. Thus, in this study, we evaluate the similarity of embedding models within the context of RAG systems. Our assessment is two-fold: We use Centered Kernel Alignment to compare embeddings on a pair-wise level. Additionally, as it is especially pertinent to RAG systems, we evaluate the similarity of retrieval results between these models using Jaccard and rank similarity. We compare different families of embedding models, including proprietary ones, across five datasets from the popular Benchmark Information Retrieval (BEIR). Through our experiments we identify clusters of models corresponding to model families, but interestingly, also some inter-family clusters. Furthermore, our analysis of top-k retrieval similarity reveals high-variance at low k values. We also identify possible open-source alternatives to proprietary models, with Mistral exhibiting the highest similarity to OpenAI models.",
+      "url": "https://arxiv.org/abs/2407.08275"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2407.08275&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2407.08275v1",
+    "updated": "2024-07-11T08:24:16Z",
+    "citation_key": "ref4e1e0d5582",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2506.23366",
+    "origins": [
+      "03_bibliography_related_work-2.md",
+      "ACADEMIC_MODEL_USAGE.md",
+      "ANALYSIS_PROPOSAL.md",
+      "ANALYSIS_PROTOCOL.md",
+      "ANALYSIS_RESULTS.md",
+      "research/analysis_2026-09-17/METRIC_REVIEW.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2506.23366",
+      "title": "Density, asymmetry and citation dynamics in scientific literature",
+      "authors": "Nathaniel Imel and Zachary Hafen",
+      "year": "2025",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Scientific behavior is often characterized by a tension between building upon established knowledge and introducing novel ideas. Here, we investigate whether this tension is reflected in the relationship between the similarity of a scientific paper to previous research and its eventual citation rate. To operationalize similarity to previous research, we introduce two complementary metrics to characterize the local geometry of a publication's semantic neighborhood: (1) \\emph{density} ($ρ$), defined as the ratio between a fixed number of previously-published papers and the minimum distance enclosing those papers in a semantic embedding space, and (2) asymmetry ($α$), defined as the average directional difference between a paper and its nearest neighbors. We tested the predictive relationship between these two metrics and its subsequent citation rate using a Bayesian hierarchical regression approach, surveying $\\sim 53,000$ publications across nine academic disciplines and five different document embeddings. While the individual effects of $ρ$ on citation count are small and variable, incorporating density-based predictors consistently improves out-of-sample prediction when added to baseline models. These results suggest that the density of a paper's surrounding scientific literature may carry modest but informative signals about its eventual impact. Meanwhile, we find no evidence that publication asymmetry improves model predictions of citation rates. Our work provides a scalable framework for linking document embeddings to scientometric outcomes and highlights new questions regarding the role that semantic similarity plays in shaping the dynamics of scientific reward.",
+      "url": "https://arxiv.org/abs/2506.23366"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2506.23366&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2506.23366v1",
+    "updated": "2025-06-29T18:55:04Z",
+    "citation_key": "ref6da178065c",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2512.13054",
+    "origins": [
+      "ACADEMIC_MODEL_USAGE.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2512.13054",
+      "title": "Citation importance-aware document representation learning for large-scale science mapping",
+      "authors": "Zhentao Liang and Nees Jan van Eck and Xuehua Wu and Jin Mao and Gang Li",
+      "year": "2025",
+      "doi": "10.1016/j.ipm.2025.104557",
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Effective science mapping relies on high-quality representations of scientific documents. As an important task in scientometrics and information studies, science mapping is often challenged by the complex and heterogeneous nature of citations. While previous studies have attempted to improve document representations by integrating citation and semantic information, the heterogeneity of citations is often overlooked. To address this problem, this study proposes a citation importance-aware contrastive learning framework that refines the supervisory signal. We first develop a scalable measurement of citation importance based on location, frequency, and self-citation characteristics. Citation importance is then integrated into the contrastive learning process through an importance-aware sampling strategy, which selects low-importance citations as hard negatives. This forces the model to learn finer-grained representations that distinguish between important and perfunctory citations. To validate the effectiveness of the proposed framework, we fine-tune a SciBERT model and perform extensive evaluations on SciDocs and PubMed benchmark datasets. Results show consistent improvements in both document representation quality and science mapping accuracy. Furthermore, we apply the trained model to over 33 million documents from Web of Science. The resulting map of science accurately visualizes the global and local intellectual structure of science and reveals interdisciplinary research fronts. By operationalizing citation heterogeneity into a scalable computational framework, this study demonstrates how differentiating citations by their importance can be effectively leveraged to improve document representation and science mapping.",
+      "url": "https://arxiv.org/abs/2512.13054"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2512.13054&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2512.13054v1",
+    "updated": "2025-12-15T07:29:54Z",
+    "citation_key": "refda252bbd77",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2601.09173",
+    "origins": [
+      "METRICS.md",
+      "research/analysis_2026-09-17/METRIC_REVIEW.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2601.09173",
+      "title": "Geometric Stability: The Missing Axis of Representations",
+      "authors": "Prashant C. Raju",
+      "year": "2026",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Representational similarity analysis and related methods compare the internal geometries of neural networks, but they measure only alignment between spaces, leaving a blind spot -- whether a representation's structure is reliably recoverable, not merely similar. We introduce geometric stability, a distinct axis, and \\textit{Shesha}, a metric that quantifies it from a single representation by correlating dissimilarity matrices built from complementary random halves of the feature dimensions. Unlike CKA and Procrustes distance, Shesha is provably non-invariant to orthogonal rotations of the feature basis. This is by design: the basis is privileged for learned models, since probes, patching, and steering act on coordinates, and a rotation-invariant metric cannot see whether the targeted structure survives them. A double dissociation isolates the mechanism -- removing the top principal component collapses CKA while Shesha holds, whereas rotating a representation into its eigenbasis, which preserves the spectrum and CKA exactly, collapses Shesha. Across 2,463 encoder configurations in seven domains, the metrics are redundant under geometry-preserving transforms and anti-correlate under compression ($ρ=-0.47$). Across 170 vision models spanning 6 clean and 38 corruption-shifted datasets, DINOv2 ranks first or second in transferability on three of six clean datasets yet bottom-quartile in stability on five, an isolated dissociation rather than a trade-off.",
+      "url": "https://arxiv.org/abs/2601.09173"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2601.09173&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2601.09173v5",
+    "updated": "2026-07-06T19:10:40Z",
+    "citation_key": "ref483cb38608",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2602.14486",
+    "origins": [
+      "METRICS.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2602.14486",
+      "title": "Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
+      "authors": "Fabian Gröger and Shuo Wen and Maria Brbić",
+      "year": "2026",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "The Platonic Representation Hypothesis suggests that representations from neural networks are converging to a common statistical model of reality. We show that the existing metrics used to measure representational similarity are confounded by network scale: increasing model depth or width can systematically inflate representational similarity scores. To correct these effects, we introduce a permutation-based null-calibration framework that transforms any representational similarity metric into a calibrated score with statistical guarantees. We revisit the Platonic Representation Hypothesis with our calibration framework, which reveals a nuanced picture: the apparent convergence reported by global spectral measures largely disappears after calibration, while local neighborhood similarity, but not local distances, retains significant agreement across different modalities. Based on these findings, we propose the Aristotelian Representation Hypothesis: representations in neural networks are converging to shared local neighborhood relationships.",
+      "url": "https://arxiv.org/abs/2602.14486"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2602.14486&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2602.14486v2",
+    "updated": "2026-06-25T06:33:52Z",
+    "citation_key": "ref7f56b2d833",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2608.05857",
+    "origins": [
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2608.05857",
+      "title": "Mapping Similarity Spaces across Embedding Models with Synthetic Query Probing",
+      "authors": "Marcin Rozmus and Peter van der Putten",
+      "year": "2026",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Retrieval-Augmented Generation systems rely on similarity scores to retrieve relevant content, yet scores are not directly comparable across embedding models due to differing geometric properties, complicating model migration and limiting threshold reuse. We study how similarity scores can be related by learning mappings between score distributions rather than embeddings. We introduce Synthetic Query Probing, generating queries from documents to create controlled query-chunk pairs, enabling large-scale, reference-free analysis of cross-model similarity behavior. We evaluate the approach on multiple embedding configurations and learn score conversion functions using linear, isotonic, and quantile mappings. Experiments on SciFact and a proprietary corpus show that while models largely agree on rankings, their absolute scores exhibit systematic distortions. Learned mappings partially align these spaces and improve threshold portability, with isotonic regression performing best. Our results highlight the need for cross-model calibration and position Synthetic Query Probing as a scalable framework for analyzing embedding comparability.",
+      "url": "https://arxiv.org/abs/2608.05857"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2608.05857&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2608.05857v1",
+    "updated": "2026-08-06T10:38:13Z",
+    "citation_key": "ref735d55a2c5",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2609.00065",
+    "origins": [
+      "ANALYSIS_PROTOCOL.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2609.00065",
+      "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "authors": "Timothy Kassis and Vinayak Agarwal and Yuhuan He and Darshil Patel and Aubrey M. Brueckner",
+      "year": "2026",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a different question. A defensible analysis depends on procedural choices: which test the field accepts, which identifier namespace is authoritative, and which caveats must accompany a result. We present Scientific Agent Skills, an open library of 163 such procedures in 16 areas of practice, including genomics, cheminformatics, medical imaging, study design and scientific communication. Each skill is a directory built around a versioned, human-readable instruction file. An agent loads the file only when a task calls for it; the directory often also contains reference material and runnable scripts. We report no task-level evaluation and no host selection rate. We measure two properties of the documentation corpus: the always-resident descriptions of all 163 skills cost 7.1% of a 200,000-token window, and the median documented workflow fits within 23.9% of it, although 29 of 46 would overflow if every reference file were loaded. Openly licensed and available at https://github.com/K-Dense-AI/scientific-agent-skills.",
+      "url": "https://arxiv.org/abs/2609.00065"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2609.00065&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2609.00065v2",
+    "updated": "2026-09-02T21:50:40Z",
+    "citation_key": "refa9b75120a0",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1002/wics.70066",
+    "origins": [
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1002/wics.70066",
+      "title": "Text Mining in Bibliometrics and Science Mapping: A Methodological Review",
+      "authors": "Misuraca, Michelangelo",
+      "editors": "",
+      "year": "2026",
+      "journal": "WIREs Computational Statistics",
+      "volume": "18",
+      "issue": "2",
+      "pages": "e70066",
+      "publisher": "Wiley",
+      "isbn": "",
+      "issn": "1939-5108",
+      "url": "https://doi.org/10.1002/wics.70066"
+    },
+    "request_url": "https://api.crossref.org/works/10.1002%2Fwics.70066",
+    "status_code": 200,
+    "verified": true,
+    "locator_kind": "article number (publisher field), not page range",
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            28
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            29
+          ]
+        ],
+        "date-time": "2026-04-29T03:53:13Z",
+        "timestamp": 1777434793000
+      }
+    },
+    "citation_key": "ref26daf24a50",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1007/s11192-017-2296-z",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1007/s11192-017-2296-z",
+      "title": "Same data—different results? Towards a comparative approach to the identification of thematic structures in science",
+      "authors": "Gläser, Jochen and Glänzel, Wolfgang and Scharnhorst, Andrea",
+      "editors": "",
+      "year": "2017",
+      "journal": "Scientometrics",
+      "volume": "111",
+      "issue": "2",
+      "pages": "981-998",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "0138-9130",
+      "url": "https://doi.org/10.1007/s11192-017-2296-z"
+    },
+    "request_url": "https://api.crossref.org/works/10.1007%2Fs11192-017-2296-z",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            7
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            7
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            5
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            7
+          ]
+        ],
+        "date-time": "2017-03-07T10:25:37Z",
+        "timestamp": 1488882337000
+      }
+    },
+    "citation_key": "refa0d2d707e6",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1007/s11192-024-05161-6",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1007/s11192-024-05161-6",
+      "title": "Comparative science mapping: a novel conceptual structure analysis with metadata",
+      "authors": "Aria, Massimo and Cuccurullo, Corrado and D’Aniello, Luca and Misuraca, Michelangelo and Spano, Maria",
+      "editors": "",
+      "year": "2024",
+      "journal": "Scientometrics",
+      "volume": "129",
+      "issue": "11",
+      "pages": "7055-7081",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "0138-9130",
+      "url": "https://doi.org/10.1007/s11192-024-05161-6"
+    },
+    "request_url": "https://api.crossref.org/works/10.1007%2Fs11192-024-05161-6",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            28
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            28
+          ]
+        ],
+        "date-time": "2024-09-28T02:01:53Z",
+        "timestamp": 1727488913000
+      }
+    },
+    "citation_key": "reff69af90b5f",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1007/s11192-024-05218-6",
+    "origins": [
+      "03_bibliography_related_work-2.md",
+      "ACADEMIC_MODEL_USAGE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1007/s11192-024-05218-6",
+      "title": "Which topics are best represented by science maps? An analysis of clustering effectiveness for citation and text similarity networks",
+      "authors": "Bascur, Juan Pablo and Verberne, Suzan and van Eck, Nees Jan and Waltman, Ludo",
+      "editors": "",
+      "year": "2025",
+      "journal": "Scientometrics",
+      "volume": "130",
+      "issue": "2",
+      "pages": "1181-1199",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "0138-9130",
+      "url": "https://doi.org/10.1007/s11192-024-05218-6"
+    },
+    "request_url": "https://api.crossref.org/works/10.1007%2Fs11192-024-05218-6",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            23
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            23
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            23
+          ]
+        ],
+        "date-time": "2025-01-23T05:23:38Z",
+        "timestamp": 1737609818000
+      }
+    },
+    "citation_key": "ref13b7cf724a",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1007/s11192-025-05324-z",
+    "origins": [
+      "03_bibliography_related_work-2.md",
+      "ACADEMIC_MODEL_USAGE.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1007/s11192-025-05324-z",
+      "title": "A comparison of citation-based clustering and topic modeling for science mapping",
+      "authors": "Xie, Qianqian and Waltman, Ludo",
+      "editors": "",
+      "year": "2025",
+      "journal": "Scientometrics",
+      "volume": "130",
+      "issue": "5",
+      "pages": "2497-2522",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "0138-9130",
+      "url": "https://doi.org/10.1007/s11192-025-05324-z"
+    },
+    "request_url": "https://api.crossref.org/works/10.1007%2Fs11192-025-05324-z",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            5
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            25
+          ]
+        ],
+        "date-time": "2025-04-25T08:03:26Z",
+        "timestamp": 1745568206000
+      }
+    },
+    "citation_key": "ref6eb4f42906",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1007/s40820-025-01807-z",
+    "origins": [
+      "ACADEMIC_MODEL_USAGE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1007/s40820-025-01807-z",
+      "title": "An Efficient Deep Learning Framework for Revealing the Evolution of Characterization Methods in Nanoscience",
+      "authors": "Duan, Hui-Cong and Lin, Long-Xing and Wang, Ji-Chun and Diao, Tong-Ruo and Qiu, Sheng-Jie and Geng, Bi-Jun and Shi, Jia and Hu, Shu and Yang, Yang",
+      "editors": "",
+      "year": "2025",
+      "journal": "Nano-Micro Letters",
+      "volume": "17",
+      "issue": "1",
+      "pages": "295",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "2311-6706",
+      "url": "https://doi.org/10.1007/s40820-025-01807-z"
+    },
+    "request_url": "https://api.crossref.org/works/10.1007%2Fs40820-025-01807-z",
+    "status_code": 200,
+    "verified": true,
+    "locator_kind": "article number (publisher field), not page range",
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2025-06-13T04:09:09Z",
+        "timestamp": 1749787749000
+      }
+    },
+    "citation_key": "refa0fa5ef30a",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1016/j.ipm.2025.104557",
+    "origins": [
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1016/j.ipm.2025.104557",
+      "title": "Citation importance-aware document representation learning for large-scale science mapping",
+      "authors": "Liang, Zhentao and van Eck, Nees Jan and Wu, Xuehua and Mao, Jin and Li, Gang",
+      "editors": "",
+      "year": "2026",
+      "journal": "Information Processing &amp; Management",
+      "volume": "63",
+      "issue": "3",
+      "pages": "104557",
+      "publisher": "Elsevier BV",
+      "isbn": "",
+      "issn": "0306-4573",
+      "url": "https://doi.org/10.1016/j.ipm.2025.104557"
+    },
+    "request_url": "https://api.crossref.org/works/10.1016%2Fj.ipm.2025.104557",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            13
+          ]
+        ],
+        "date-time": "2025-12-13T20:24:18Z",
+        "timestamp": 1765657458000
+      }
+    },
+    "citation_key": "ref07e33b3339",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1016/j.patter.2024.100968",
+    "origins": [
+      "ACADEMIC_MODEL_USAGE.md",
+      "EMBEDDINGS.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1016/j.patter.2024.100968",
+      "title": "The landscape of biomedical research",
+      "authors": "González-Márquez, Rita and Schmidt, Luca and Schmidt, Benjamin M. and Berens, Philipp and Kobak, Dmitry",
+      "editors": "",
+      "year": "2024",
+      "journal": "Patterns",
+      "volume": "5",
+      "issue": "6",
+      "pages": "100968",
+      "publisher": "Elsevier BV",
+      "isbn": "",
+      "issn": "2666-3899",
+      "url": "https://doi.org/10.1016/j.patter.2024.100968"
+    },
+    "request_url": "https://api.crossref.org/works/10.1016%2Fj.patter.2024.100968",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2024-04-09T10:47:37Z",
+        "timestamp": 1712659657000
+      }
+    },
+    "citation_key": "refbe130e2973",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1145/3728458",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1145/3728458",
+      "title": "Similarity of Neural Network Models: A Survey of Functional and Representational Measures",
+      "authors": "Klabunde, Max and Schumacher, Tobias and Strohmaier, Markus and Lemmerich, Florian",
+      "editors": "",
+      "year": "2025",
+      "journal": "ACM Computing Surveys",
+      "volume": "57",
+      "issue": "9",
+      "pages": "1-52",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "isbn": "",
+      "issn": "0360-0300",
+      "url": "https://doi.org/10.1145/3728458"
+    },
+    "request_url": "https://api.crossref.org/works/10.1145%2F3728458",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            6
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            30
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            8
+          ]
+        ],
+        "date-time": "2025-04-08T11:44:54Z",
+        "timestamp": 1744112694000
+      }
+    },
+    "citation_key": "ref2af7967157",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1162/qss_a_00085",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1162/qss_a_00085",
+      "title": "A comparison of large-scale science models based on textual, direct citation and hybrid relatedness",
+      "authors": "Boyack, Kevin W. and Klavans, Richard",
+      "editors": "",
+      "year": "2020",
+      "journal": "Quantitative Science Studies",
+      "volume": "1",
+      "issue": "4",
+      "pages": "1570-1585",
+      "publisher": "MIT Press",
+      "isbn": "",
+      "issn": "2641-3337",
+      "url": "https://doi.org/10.1162/qss_a_00085"
+    },
+    "request_url": "https://api.crossref.org/works/10.1162%2Fqss_a_00085",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            12
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            12
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2020-08-19T12:35:17Z",
+        "timestamp": 1597840517000
+      }
+    },
+    "citation_key": "ref6a2f5912bc",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1162/qss_a_00168",
+    "origins": [
+      "ACADEMIC_MODEL_USAGE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1162/qss_a_00168",
+      "title": "Investigating dissemination of scientific information on Twitter: A study of topic networks in opioid publications",
+      "authors": "Haunschild, Robin and Bornmann, Lutz and Potnis, Devendra and Tahamtan, Iman",
+      "editors": "",
+      "year": "2021",
+      "journal": "Quantitative Science Studies",
+      "volume": "2",
+      "issue": "4",
+      "pages": "1486-1510",
+      "publisher": "MIT Press",
+      "isbn": "",
+      "issn": "2641-3337",
+      "url": "https://doi.org/10.1162/qss_a_00168"
+    },
+    "request_url": "https://api.crossref.org/works/10.1162%2Fqss_a_00168",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            1
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            11,
+            8
+          ]
+        ],
+        "date-time": "2021-11-08T20:12:06Z",
+        "timestamp": 1636402326000
+      }
+    },
+    "citation_key": "refe86c47393b",
+    "historical_wrong_attribution": true
+  },
+  {
+    "identifier": "doi:10.1162/qss_a_00344",
+    "origins": [
+      "03_bibliography_related_work-2.md",
+      "ACADEMIC_MODEL_USAGE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1162/qss_a_00344",
+      "title": "A framework for demonstrating, forecasting, and explaining topic evolution by analyzing geometrical motion of topic embeddings",
+      "authors": "Huang, Shengzhi and Lu, Wei and Cheng, Qikai and Huang, Yong and Yi, Fan and Zhu, Liang",
+      "editors": "",
+      "year": "2025",
+      "journal": "Quantitative Science Studies",
+      "volume": "6",
+      "issue": "",
+      "pages": "171-193",
+      "publisher": "MIT Press",
+      "isbn": "",
+      "issn": "2641-3337",
+      "url": "https://doi.org/10.1162/qss_a_00344"
+    },
+    "request_url": "https://api.crossref.org/works/10.1162%2Fqss_a_00344",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            2
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            12,
+            18
+          ]
+        ],
+        "date-time": "2024-12-18T13:41:53Z",
+        "timestamp": 1734529313000
+      }
+    },
+    "citation_key": "ref664541a0e1",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1162/qss_a_00349",
+    "origins": [
+      "03_bibliography_related_work-2.md",
+      "CORPUS_PROTOCOL.md",
+      "research/checklist_2026-09-17/RELATED_INPUT_WORK.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1162/qss_a_00349",
+      "title": "Representing the disciplinary structure of physics: A comparative evaluation of graph and text embedding methods",
+      "authors": "Constantino, Isabel and Kojaku, Sadamori and Fortunato, Santo and Ahn, Yong-Yeol",
+      "editors": "",
+      "year": "2025",
+      "journal": "Quantitative Science Studies",
+      "volume": "6",
+      "issue": "",
+      "pages": "263-280",
+      "publisher": "MIT Press",
+      "isbn": "",
+      "issn": "2641-3337",
+      "url": "https://doi.org/10.1162/qss_a_00349"
+    },
+    "request_url": "https://api.crossref.org/works/10.1162%2Fqss_a_00349",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            12
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            22
+          ]
+        ],
+        "date-time": "2025-01-22T17:10:33Z",
+        "timestamp": 1737565833000
+      }
+    },
+    "citation_key": "refc0e2cc29e0",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1186/s13326-026-00365-6",
+    "origins": [
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1186/s13326-026-00365-6",
+      "title": "Benchmarking MeSH-augmented embeddings for biomedical document similarity",
+      "authors": "Ravinder, Rohitha and Geist, Lukas and Quiñones, Nelson and Venkatesh, Suhasini and Castro, Leyla Jael and Rebholz-Schuhmann, Dietrich",
+      "editors": "",
+      "year": "2026",
+      "journal": "Journal of Biomedical Semantics",
+      "volume": "17",
+      "issue": "1",
+      "pages": "16",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "2041-1480",
+      "url": "https://doi.org/10.1186/s13326-026-00365-6"
+    },
+    "request_url": "https://api.crossref.org/works/10.1186%2Fs13326-026-00365-6",
+    "status_code": 200,
+    "verified": true,
+    "locator_kind": "article number (publisher field), not page range",
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ]
+      },
+      "published-print": null,
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2026-08-14T11:04:51Z",
+        "timestamp": 1786705491000
+      }
+    },
+    "citation_key": "ref66ba908e98",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1371/journal.pone.0018029",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1371/journal.pone.0018029",
+      "title": "Clustering More than Two Million Biomedical Publications: Comparing the Accuracies of Nine Text-Based Similarity Approaches",
+      "authors": "Boyack, Kevin W. and Newman, David and Duhon, Russell J. and Klavans, Richard and Patek, Michael and Biberstine, Joseph R. and Schijvenaars, Bob and Skupin, André and Ma, Nianli and Börner, Katy",
+      "editors": "Allen, Colin",
+      "year": "2011",
+      "journal": "PLoS ONE",
+      "volume": "6",
+      "issue": "3",
+      "pages": "e18029",
+      "publisher": "Public Library of Science (PLoS)",
+      "isbn": "",
+      "issn": "1932-6203",
+      "url": "https://doi.org/10.1371/journal.pone.0018029"
+    },
+    "request_url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0018029",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            17
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            17
+          ]
+        ]
+      },
+      "published-print": null,
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            17
+          ]
+        ],
+        "date-time": "2011-03-17T20:58:22Z",
+        "timestamp": 1300395502000
+      }
+    },
+    "citation_key": "refbcb958d8f9",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2020.acl-main.207",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2020.acl-main.207",
+      "title": "SPECTER: Document-level Representation Learning using Citation-informed Transformers",
+      "authors": "Cohan, Arman and Feldman, Sergey and Beltagy, Iz and Downey, Doug and Weld, Daniel",
+      "editors": "",
+      "year": "2020",
+      "journal": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+      "volume": "",
+      "issue": "",
+      "pages": "2270-2282",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2020.acl-main.207"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2020.acl-main.207",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            29
+          ]
+        ],
+        "date-time": "2020-07-29T10:14:43Z",
+        "timestamp": 1596017683000
+      }
+    },
+    "citation_key": "refb49ce14641",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2021.emnlp-main.552",
+    "origins": [
+      "research/checklist_2026-09-17/MODEL_PROFILES.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2021.emnlp-main.552",
+      "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+      "authors": "Gao, Tianyu and Yao, Xingcheng and Chen, Danqi",
+      "editors": "",
+      "year": "2021",
+      "journal": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "issue": "",
+      "pages": "6894-6910",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2021.emnlp-main.552"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2021.emnlp-main.552",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            12,
+            16
+          ]
+        ],
+        "date-time": "2021-12-16T22:56:42Z",
+        "timestamp": 1639695402000
+      }
+    },
+    "citation_key": "ref311983d228",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2022.emnlp-main.802",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2022.emnlp-main.802",
+      "title": "Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings",
+      "authors": "Ostendorff, Malte and Rethmeier, Nils and Augenstein, Isabelle and Gipp, Bela and Rehm, Georg",
+      "editors": "",
+      "year": "2022",
+      "journal": "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "issue": "",
+      "pages": "11670-11688",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2022.emnlp-main.802"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2022.emnlp-main.802",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            4
+          ]
+        ],
+        "date-time": "2023-08-04T16:21:02Z",
+        "timestamp": 1691166062000
+      }
+    },
+    "citation_key": "ref4adfe629fa",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2023.emnlp-main.338",
+    "origins": [
+      "03_bibliography_related_work-2.md",
+      "research/analysis_2026-09-17/METRIC_REVIEW.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2023.emnlp-main.338",
+      "title": "SciRepEval: A Multi-Format Benchmark for Scientific Document Representations",
+      "authors": "Singh, Amanpreet and D’Arcy, Mike and Cohan, Arman and Downey, Doug and Feldman, Sergey",
+      "editors": "",
+      "year": "2023",
+      "journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "issue": "",
+      "pages": "5548-5566",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.338"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2023.emnlp-main.338",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            10
+          ]
+        ],
+        "date-time": "2023-12-10T16:58:19Z",
+        "timestamp": 1702227499000
+      }
+    },
+    "citation_key": "ref5757514d4c",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2024.sdp-1.27",
+    "origins": [
+      "03_bibliography_related_work-2.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2024.sdp-1.27",
+      "title": "CoSAEmb: Contrastive Section-aware Aspect Embeddings for Scientific Articles",
+      "authors": "Singh, Shruti and Singh, Mayank",
+      "editors": "",
+      "year": "2024",
+      "journal": "Proceedings of the Fourth Workshop on Scholarly Document Processing (SDP 2024)",
+      "volume": "",
+      "issue": "",
+      "pages": "283-292",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2024.sdp-1.27"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.sdp-1.27",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            20
+          ]
+        ],
+        "date-time": "2024-09-20T15:33:08Z",
+        "timestamp": 1726846388000
+      }
+    },
+    "citation_key": "refbaa1dab9f7",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2025.emnlp-main.1662",
+    "origins": [
+      "research/checklist_2026-09-17/RELATED_INPUT_WORK.md",
+      "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2025.emnlp-main.1662",
+      "title": "SemCSE: Semantic Contrastive Sentence Embeddings Using LLM-Generated Summaries For Scientific Abstracts",
+      "authors": "Brinner, Marc Felix and Zarrieß, Sina",
+      "editors": "",
+      "year": "2025",
+      "journal": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+      "volume": "",
+      "issue": "",
+      "pages": "32692-32707",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1662"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.emnlp-main.1662",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            11,
+            8
+          ]
+        ],
+        "date-time": "2025-11-08T12:29:45Z",
+        "timestamp": 1762604985000
+      }
+    },
+    "citation_key": "ref53775a92a5",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2026.acl-long.1884",
+    "origins": [
+      "MODEL_SELECTION.md"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2026.acl-long.1884",
+      "title": "SemCSE-Multi: Multifaceted and Decodable Embeddings for Aspect-Specific and Interpretable Scientific Domain Mapping",
+      "authors": "Brinner, Marc and Zarrieß, Sina",
+      "editors": "",
+      "year": "2026",
+      "journal": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      "volume": "",
+      "issue": "",
+      "pages": "40565-40586",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2026.acl-long.1884"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.1884",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            1
+          ]
+        ],
+        "date-time": "2026-07-01T12:25:50Z",
+        "timestamp": 1782908750000
+      }
+    },
+    "citation_key": "refe0ab7752fe",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1007/s41109-026-00830-2",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1007/s41109-026-00830-2",
+      "title": "The impact of dimensionality on the stability of node embeddings",
+      "authors": "Schumacher, Tobias and Reichelt, Simon and Strohmaier, Markus",
+      "editors": "",
+      "year": "2026",
+      "journal": "Applied Network Science",
+      "volume": "11",
+      "issue": "1",
+      "pages": "59",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "2364-8228",
+      "url": "https://doi.org/10.1007/s41109-026-00830-2"
+    },
+    "request_url": "https://api.crossref.org/works/10.1007%2Fs41109-026-00830-2",
+    "status_code": 200,
+    "verified": true,
+    "locator_kind": "article number (publisher field), not page range",
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            13
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            13
+          ]
+        ]
+      },
+      "published-print": null,
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            13
+          ]
+        ],
+        "date-time": "2026-09-13T08:44:30Z",
+        "timestamp": 1789289070000
+      }
+    },
+    "citation_key": "refa5ab490e37",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/2022.findings-acl.249",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/2022.findings-acl.249",
+      "title": "The Inefficiency of Language Models in Scholarly Retrieval: An Experimental Walk-through",
+      "authors": "Singh, Shruti and Singh, Mayank",
+      "editors": "",
+      "year": "2022",
+      "journal": "Findings of the Association for Computational Linguistics: ACL 2022",
+      "volume": "",
+      "issue": "",
+      "pages": "3153-3173",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/2022.findings-acl.249"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2F2022.findings-acl.249",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2022
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2022-06-03T01:34:53Z",
+        "timestamp": 1654220093000
+      }
+    },
+    "citation_key": "ref01fec52516",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/D19-1371",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/D19-1371",
+      "title": "SciBERT: A Pretrained Language Model for Scientific Text",
+      "authors": "Beltagy, Iz and Lo, Kyle and Cohan, Arman",
+      "editors": "",
+      "year": "2019",
+      "journal": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+      "volume": "",
+      "issue": "",
+      "pages": "3613-3618",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/D19-1371"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2FD19-1371",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            2
+          ]
+        ],
+        "date-time": "2019-11-02T22:21:11Z",
+        "timestamp": 1572733271000
+      }
+    },
+    "citation_key": "refc80ed67197",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.18653/v1/N19-1423",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "inproceedings",
+      "doi": "10.18653/v1/N19-1423",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "authors": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+      "editors": "",
+      "year": "2019",
+      "journal": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      "volume": "",
+      "issue": "",
+      "pages": "4171-4186",
+      "publisher": "Association for Computational Linguistics",
+      "isbn": "",
+      "issn": "",
+      "url": "https://doi.org/10.18653/v1/N19-1423"
+    },
+    "request_url": "https://api.crossref.org/works/10.18653%2Fv1%2FN19-1423",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "published-online": null,
+      "published-print": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            7,
+            21
+          ]
+        ],
+        "date-time": "2019-07-21T13:26:41Z",
+        "timestamp": 1563715601000
+      }
+    },
+    "citation_key": "ref4f2459f810",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1093/bioinformatics/btz682",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1093/bioinformatics/btz682",
+      "title": "BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+      "authors": "Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo",
+      "editors": "Wren, Jonathan",
+      "year": "2020",
+      "journal": "Bioinformatics",
+      "volume": "36",
+      "issue": "4",
+      "pages": "1234-1240",
+      "publisher": "Oxford University Press (OUP)",
+      "isbn": "",
+      "issn": "1367-4803",
+      "url": "https://doi.org/10.1093/bioinformatics/btz682"
+    },
+    "request_url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtz682",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            10
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            15
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2019,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2019-09-05T15:27:43Z",
+        "timestamp": 1567697263000
+      }
+    },
+    "citation_key": "ref4f3e28932e",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1145/3458754",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1145/3458754",
+      "title": "Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing",
+      "authors": "Gu, Yu and Tinn, Robert and Cheng, Hao and Lucas, Michael and Usuyama, Naoto and Liu, Xiaodong and Naumann, Tristan and Gao, Jianfeng and Poon, Hoifung",
+      "editors": "",
+      "year": "2022",
+      "journal": "ACM Transactions on Computing for Healthcare",
+      "volume": "3",
+      "issue": "1",
+      "pages": "1-23",
+      "publisher": "Association for Computing Machinery (ACM)",
+      "isbn": "",
+      "issn": "2691-1957",
+      "url": "https://doi.org/10.1145/3458754"
+    },
+    "request_url": "https://api.crossref.org/works/10.1145%2F3458754",
+    "status_code": 200,
+    "verified": true,
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            15
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            15
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            31
+          ]
+        ]
+      },
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2021-10-16T21:39:53Z",
+        "timestamp": 1634420393000
+      }
+    },
+    "citation_key": "reff9ebfb9307",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "doi:10.1038/s41598-026-48795-7",
+    "origins": [
+      "prepaper review"
+    ],
+    "metadata": {
+      "type": "doi",
+      "entry_type": "article",
+      "doi": "10.1038/s41598-026-48795-7",
+      "title": "Sustainable science mapping: benchmarking green AI against transformers for cross-disciplinary abstract classification using arXiv",
+      "authors": "Erkan, Mehmet Ali and Yozgatlıgil, Ceylan",
+      "editors": "",
+      "year": "2026",
+      "journal": "Scientific Reports",
+      "volume": "16",
+      "issue": "1",
+      "pages": "22195",
+      "publisher": "Springer Science and Business Media LLC",
+      "isbn": "",
+      "issn": "2045-2322",
+      "url": "https://doi.org/10.1038/s41598-026-48795-7"
+    },
+    "request_url": "https://api.crossref.org/works/10.1038%2Fs41598-026-48795-7",
+    "status_code": 200,
+    "verified": true,
+    "locator_kind": "article number (publisher field), not page range",
+    "publisher_dates": {
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            15
+          ]
+        ]
+      },
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            15
+          ]
+        ]
+      },
+      "published-print": null,
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            15
+          ]
+        ],
+        "date-time": "2026-05-15T17:26:56Z",
+        "timestamp": 1778866016000
+      }
+    },
+    "citation_key": "refd3654f1f94",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2408.00531",
+    "origins": [
+      "original metrics bibliography"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2408.00531",
+      "title": "ReSi: A Comprehensive Benchmark for Representational Similarity Measures",
+      "authors": "Max Klabunde and Tassilo Wald and Tobias Schumacher and Klaus Maier-Hein and Markus Strohmaier and Florian Lemmerich",
+      "year": "2024",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Measuring the similarity of different representations of neural architectures is a fundamental task and an open research challenge for the machine learning community. This paper presents the first comprehensive benchmark for evaluating representational similarity measures based on well-defined groundings of similarity. The representational similarity (ReSi) benchmark consists of (i) six carefully designed tests for similarity measures, (ii) 24 similarity measures, (iii) 14 neural network architectures, and (iv) seven datasets, spanning over the graph, language, and vision domains. The benchmark opens up several important avenues of research on representational similarity that enable novel explorations and applications of neural architectures. We demonstrate the utility of the ReSi benchmark by conducting experiments on various neural network architectures, real world datasets and similarity measures. All components of the benchmark are publicly available and thereby facilitate systematic reproduction and production of research results. The benchmark is extensible, future research can build on and further expand it. We believe that the ReSi benchmark can serve as a sound platform catalyzing future research that aims to systematically evaluate existing and explore novel ways of comparing representations of neural architectures.",
+      "url": "https://arxiv.org/abs/2408.00531"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2408.00531&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2408.00531v2",
+    "updated": "2025-03-11T20:01:30Z",
+    "citation_key": "refb08df3c926",
+    "historical_wrong_attribution": false
+  },
+  {
+    "identifier": "arxiv:2110.14739",
+    "origins": [
+      "original metrics bibliography"
+    ],
+    "metadata": {
+      "type": "arxiv",
+      "entry_type": "misc",
+      "arxiv_id": "2110.14739",
+      "title": "Generalized Shape Metrics on Neural Representations",
+      "authors": "Alex H. Williams and Erin Kunz and Simon Kornblith and Scott W. Linderman",
+      "year": "2021",
+      "doi": null,
+      "journal": "",
+      "journal_ref": null,
+      "abstract": "Understanding the operation of biological and artificial networks remains a difficult and important challenge. To identify general principles, researchers are increasingly interested in surveying large collections of networks that are trained on, or biologically adapted to, similar tasks. A standardized set of analysis tools is now needed to identify how network-level covariates -- such as architecture, anatomical brain region, and model organism -- impact neural representations (hidden layer activations). Here, we provide a rigorous foundation for these analyses by defining a broad family of metric spaces that quantify representational dissimilarity. Using this framework we modify existing representational similarity measures based on canonical correlation analysis to satisfy the triangle inequality, formulate a novel metric that respects the inductive biases in convolutional layers, and identify approximate Euclidean embeddings that enable network representations to be incorporated into essentially any off-the-shelf machine learning method. We demonstrate these methods on large-scale datasets from biology (Allen Institute Brain Observatory) and deep learning (NAS-Bench-101). In doing so, we identify relationships between neural representations that are interpretable in terms of anatomical features and model performance.",
+      "url": "https://arxiv.org/abs/2110.14739"
+    },
+    "request_url": "https://export.arxiv.org/api/query?id_list=2110.14739&max_results=1",
+    "status_code": 200,
+    "verified": true,
+    "current_version_url": "http://arxiv.org/abs/2110.14739v2",
+    "updated": "2022-01-13T01:28:59Z",
+    "citation_key": "ref2476f2d4fe",
+    "historical_wrong_attribution": false
+  }
+]

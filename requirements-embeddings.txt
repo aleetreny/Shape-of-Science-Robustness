@@ -1,0 +1,3 @@
+# Exact working environment already used for the local MPS benchmarks.
+-r research/feasibility_2026-09-14/requirements-benchmark.txt
+adapters==1.3.0

@@ -1,0 +1,7 @@
+{
+  "config_sha256": "b9c86346a0e390cf07b041a3cfc2a95141f4be79b6b121050a55789efbdf8f4e",
+  "inference_still_active": true,
+  "primary_input_results_exist": false,
+  "reason": "Control known pooling sensitivity before examining input effects; use already saved variants; no new inference.",
+  "recorded_at": "2026-09-17T14:15:25.330620+00:00"
+}

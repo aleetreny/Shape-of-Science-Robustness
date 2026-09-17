@@ -1,0 +1,7292 @@
+{
+  "rows": 500000,
+  "subfields": 252,
+  "cells": 1255,
+  "subfield_sizes": [
+    {
+      "subfield_id": "1100",
+      "rows": 1163
+    },
+    {
+      "subfield_id": "1102",
+      "rows": 1255
+    },
+    {
+      "subfield_id": "1103",
+      "rows": 1099
+    },
+    {
+      "subfield_id": "1104",
+      "rows": 750
+    },
+    {
+      "subfield_id": "1105",
+      "rows": 2217
+    },
+    {
+      "subfield_id": "1106",
+      "rows": 2790
+    },
+    {
+      "subfield_id": "1107",
+      "rows": 239
+    },
+    {
+      "subfield_id": "1108",
+      "rows": 27
+    },
+    {
+      "subfield_id": "1109",
+      "rows": 1174
+    },
+    {
+      "subfield_id": "1110",
+      "rows": 7547
+    },
+    {
+      "subfield_id": "1111",
+      "rows": 1162
+    },
+    {
+      "subfield_id": "1200",
+      "rows": 30
+    },
+    {
+      "subfield_id": "1202",
+      "rows": 1202
+    },
+    {
+      "subfield_id": "1203",
+      "rows": 1990
+    },
+    {
+      "subfield_id": "1204",
+      "rows": 1164
+    },
+    {
+      "subfield_id": "1205",
+      "rows": 272
+    },
+    {
+      "subfield_id": "1206",
+      "rows": 332
+    },
+    {
+      "subfield_id": "1207",
+      "rows": 615
+    },
+    {
+      "subfield_id": "1208",
+      "rows": 2137
+    },
+    {
+      "subfield_id": "1209",
+      "rows": 419
+    },
+    {
+      "subfield_id": "1210",
+      "rows": 628
+    },
+    {
+      "subfield_id": "1211",
+      "rows": 2430
+    },
+    {
+      "subfield_id": "1212",
+      "rows": 690
+    },
+    {
+      "subfield_id": "1213",
+      "rows": 721
+    },
+    {
+      "subfield_id": "1302",
+      "rows": 143
+    },
+    {
+      "subfield_id": "1303",
+      "rows": 365
+    },
+    {
+      "subfield_id": "1304",
+      "rows": 528
+    },
+    {
+      "subfield_id": "1305",
+      "rows": 688
+    },
+    {
+      "subfield_id": "1306",
+      "rows": 1810
+    },
+    {
+      "subfield_id": "1307",
+      "rows": 1705
+    },
+    {
+      "subfield_id": "1308",
+      "rows": 384
+    },
+    {
+      "subfield_id": "1309",
+      "rows": 109
+    },
+    {
+      "subfield_id": "1310",
+      "rows": 431
+    },
+    {
+      "subfield_id": "1311",
+      "rows": 3832
+    },
+    {
+      "subfield_id": "1312",
+      "rows": 13680
+    },
+    {
+      "subfield_id": "1313",
+      "rows": 537
+    },
+    {
+      "subfield_id": "1314",
+      "rows": 240
+    },
+    {
+      "subfield_id": "1315",
+      "rows": 45
+    },
+    {
+      "subfield_id": "1402",
+      "rows": 2491
+    },
+    {
+      "subfield_id": "1403",
+      "rows": 299
+    },
+    {
+      "subfield_id": "1404",
+      "rows": 1901
+    },
+    {
+      "subfield_id": "1405",
+      "rows": 1368
+    },
+    {
+      "subfield_id": "1406",
+      "rows": 1486
+    },
+    {
+      "subfield_id": "1407",
+      "rows": 2027
+    },
+    {
+      "subfield_id": "1408",
+      "rows": 3480
+    },
+    {
+      "subfield_id": "1409",
+      "rows": 163
+    },
+    {
+      "subfield_id": "1410",
+      "rows": 3
+    },
+    {
+      "subfield_id": "1502",
+      "rows": 1864
+    },
+    {
+      "subfield_id": "1503",
+      "rows": 3091
+    },
+    {
+      "subfield_id": "1504",
+      "rows": 283
+    },
+    {
+      "subfield_id": "1506",
+      "rows": 397
+    },
+    {
+      "subfield_id": "1507",
+      "rows": 4003
+    },
+    {
+      "subfield_id": "1508",
+      "rows": 1192
+    },
+    {
+      "subfield_id": "1602",
+      "rows": 1292
+    },
+    {
+      "subfield_id": "1603",
+      "rows": 273
+    },
+    {
+      "subfield_id": "1604",
+      "rows": 1742
+    },
+    {
+      "subfield_id": "1605",
+      "rows": 5078
+    },
+    {
+      "subfield_id": "1606",
+      "rows": 701
+    },
+    {
+      "subfield_id": "1607",
+      "rows": 1744
+    },
+    {
+      "subfield_id": "1702",
+      "rows": 8080
+    },
+    {
+      "subfield_id": "1703",
+      "rows": 1832
+    },
+    {
+      "subfield_id": "1704",
+      "rows": 535
+    },
+    {
+      "subfield_id": "1705",
+      "rows": 5861
+    },
+    {
+      "subfield_id": "1706",
+      "rows": 683
+    },
+    {
+      "subfield_id": "1707",
+      "rows": 5215
+    },
+    {
+      "subfield_id": "1708",
+      "rows": 995
+    },
+    {
+      "subfield_id": "1709",
+      "rows": 796
+    },
+    {
+      "subfield_id": "1710",
+      "rows": 6851
+    },
+    {
+      "subfield_id": "1711",
+      "rows": 1601
+    },
+    {
+      "subfield_id": "1712",
+      "rows": 379
+    },
+    {
+      "subfield_id": "1800",
+      "rows": 322
+    },
+    {
+      "subfield_id": "1802",
+      "rows": 2497
+    },
+    {
+      "subfield_id": "1803",
+      "rows": 5916
+    },
+    {
+      "subfield_id": "1804",
+      "rows": 2095
+    },
+    {
+      "subfield_id": "1902",
+      "rows": 3440
+    },
+    {
+      "subfield_id": "1904",
+      "rows": 719
+    },
+    {
+      "subfield_id": "1906",
+      "rows": 536
+    },
+    {
+      "subfield_id": "1907",
+      "rows": 738
+    },
+    {
+      "subfield_id": "1908",
+      "rows": 2575
+    },
+    {
+      "subfield_id": "1910",
+      "rows": 1916
+    },
+    {
+      "subfield_id": "1911",
+      "rows": 812
+    },
+    {
+      "subfield_id": "1912",
+      "rows": 94
+    },
+    {
+      "subfield_id": "2000",
+      "rows": 1657
+    },
+    {
+      "subfield_id": "2002",
+      "rows": 7829
+    },
+    {
+      "subfield_id": "2003",
+      "rows": 2023
+    },
+    {
+      "subfield_id": "2100",
+      "rows": 393
+    },
+    {
+      "subfield_id": "2102",
+      "rows": 2133
+    },
+    {
+      "subfield_id": "2103",
+      "rows": 251
+    },
+    {
+      "subfield_id": "2104",
+      "rows": 61
+    },
+    {
+      "subfield_id": "2105",
+      "rows": 7992
+    },
+    {
+      "subfield_id": "2200",
+      "rows": 323
+    },
+    {
+      "subfield_id": "2202",
+      "rows": 5257
+    },
+    {
+      "subfield_id": "2203",
+      "rows": 1499
+    },
+    {
+      "subfield_id": "2204",
+      "rows": 7966
+    },
+    {
+      "subfield_id": "2205",
+      "rows": 4385
+    },
+    {
+      "subfield_id": "2206",
+      "rows": 2678
+    },
+    {
+      "subfield_id": "2207",
+      "rows": 6633
+    },
+    {
+      "subfield_id": "2208",
+      "rows": 17974
+    },
+    {
+      "subfield_id": "2209",
+      "rows": 1921
+    },
+    {
+      "subfield_id": "2210",
+      "rows": 6804
+    },
+    {
+      "subfield_id": "2211",
+      "rows": 3743
+    },
+    {
+      "subfield_id": "2212",
+      "rows": 2577
+    },
+    {
+      "subfield_id": "2213",
+      "rows": 1516
+    },
+    {
+      "subfield_id": "2214",
+      "rows": 1437
+    },
+    {
+      "subfield_id": "2215",
+      "rows": 2220
+    },
+    {
+      "subfield_id": "2216",
+      "rows": 215
+    },
+    {
+      "subfield_id": "2302",
+      "rows": 495
+    },
+    {
+      "subfield_id": "2303",
+      "rows": 3800
+    },
+    {
+      "subfield_id": "2304",
+      "rows": 958
+    },
+    {
+      "subfield_id": "2305",
+      "rows": 1655
+    },
+    {
+      "subfield_id": "2306",
+      "rows": 3184
+    },
+    {
+      "subfield_id": "2307",
+      "rows": 1692
+    },
+    {
+      "subfield_id": "2308",
+      "rows": 1608
+    },
+    {
+      "subfield_id": "2309",
+      "rows": 1286
+    },
+    {
+      "subfield_id": "2310",
+      "rows": 1187
+    },
+    {
+      "subfield_id": "2311",
+      "rows": 973
+    },
+    {
+      "subfield_id": "2312",
+      "rows": 2146
+    },
+    {
+      "subfield_id": "2402",
+      "rows": 370
+    },
+    {
+      "subfield_id": "2403",
+      "rows": 6178
+    },
+    {
+      "subfield_id": "2404",
+      "rows": 1578
+    },
+    {
+      "subfield_id": "2405",
+      "rows": 1563
+    },
+    {
+      "subfield_id": "2406",
+      "rows": 1141
+    },
+    {
+      "subfield_id": "2500",
+      "rows": 237
+    },
+    {
+      "subfield_id": "2502",
+      "rows": 1606
+    },
+    {
+      "subfield_id": "2503",
+      "rows": 351
+    },
+    {
+      "subfield_id": "2504",
+      "rows": 2000
+    },
+    {
+      "subfield_id": "2505",
+      "rows": 7744
+    },
+    {
+      "subfield_id": "2506",
+      "rows": 98
+    },
+    {
+      "subfield_id": "2507",
+      "rows": 1652
+    },
+    {
+      "subfield_id": "2508",
+      "rows": 545
+    },
+    {
+      "subfield_id": "2602",
+      "rows": 577
+    },
+    {
+      "subfield_id": "2604",
+      "rows": 2269
+    },
+    {
+      "subfield_id": "2605",
+      "rows": 78
+    },
+    {
+      "subfield_id": "2607",
+      "rows": 422
+    },
+    {
+      "subfield_id": "2608",
+      "rows": 1702
+    },
+    {
+      "subfield_id": "2610",
+      "rows": 1519
+    },
+    {
+      "subfield_id": "2611",
+      "rows": 1033
+    },
+    {
+      "subfield_id": "2612",
+      "rows": 709
+    },
+    {
+      "subfield_id": "2613",
+      "rows": 2419
+    },
+    {
+      "subfield_id": "2614",
+      "rows": 102
+    },
+    {
+      "subfield_id": "2702",
+      "rows": 119
+    },
+    {
+      "subfield_id": "2703",
+      "rows": 515
+    },
+    {
+      "subfield_id": "2704",
+      "rows": 494
+    },
+    {
+      "subfield_id": "2705",
+      "rows": 4072
+    },
+    {
+      "subfield_id": "2706",
+      "rows": 451
+    },
+    {
+      "subfield_id": "2707",
+      "rows": 1791
+    },
+    {
+      "subfield_id": "2708",
+      "rows": 887
+    },
+    {
+      "subfield_id": "2711",
+      "rows": 861
+    },
+    {
+      "subfield_id": "2712",
+      "rows": 2483
+    },
+    {
+      "subfield_id": "2713",
+      "rows": 6166
+    },
+    {
+      "subfield_id": "2714",
+      "rows": 154
+    },
+    {
+      "subfield_id": "2715",
+      "rows": 540
+    },
+    {
+      "subfield_id": "2716",
+      "rows": 1255
+    },
+    {
+      "subfield_id": "2717",
+      "rows": 399
+    },
+    {
+      "subfield_id": "2718",
+      "rows": 94
+    },
+    {
+      "subfield_id": "2720",
+      "rows": 1546
+    },
+    {
+      "subfield_id": "2721",
+      "rows": 1010
+    },
+    {
+      "subfield_id": "2723",
+      "rows": 443
+    },
+    {
+      "subfield_id": "2724",
+      "rows": 267
+    },
+    {
+      "subfield_id": "2725",
+      "rows": 3070
+    },
+    {
+      "subfield_id": "2726",
+      "rows": 37
+    },
+    {
+      "subfield_id": "2727",
+      "rows": 984
+    },
+    {
+      "subfield_id": "2728",
+      "rows": 2119
+    },
+    {
+      "subfield_id": "2729",
+      "rows": 1134
+    },
+    {
+      "subfield_id": "2730",
+      "rows": 3898
+    },
+    {
+      "subfield_id": "2731",
+      "rows": 1217
+    },
+    {
+      "subfield_id": "2732",
+      "rows": 1129
+    },
+    {
+      "subfield_id": "2733",
+      "rows": 518
+    },
+    {
+      "subfield_id": "2734",
+      "rows": 2438
+    },
+    {
+      "subfield_id": "2735",
+      "rows": 2517
+    },
+    {
+      "subfield_id": "2736",
+      "rows": 2052
+    },
+    {
+      "subfield_id": "2737",
+      "rows": 3975
+    },
+    {
+      "subfield_id": "2738",
+      "rows": 2285
+    },
+    {
+      "subfield_id": "2739",
+      "rows": 5111
+    },
+    {
+      "subfield_id": "2740",
+      "rows": 5883
+    },
+    {
+      "subfield_id": "2741",
+      "rows": 3414
+    },
+    {
+      "subfield_id": "2742",
+      "rows": 663
+    },
+    {
+      "subfield_id": "2743",
+      "rows": 1053
+    },
+    {
+      "subfield_id": "2745",
+      "rows": 1922
+    },
+    {
+      "subfield_id": "2746",
+      "rows": 8858
+    },
+    {
+      "subfield_id": "2747",
+      "rows": 226
+    },
+    {
+      "subfield_id": "2748",
+      "rows": 619
+    },
+    {
+      "subfield_id": "2802",
+      "rows": 279
+    },
+    {
+      "subfield_id": "2803",
+      "rows": 164
+    },
+    {
+      "subfield_id": "2804",
+      "rows": 2520
+    },
+    {
+      "subfield_id": "2805",
+      "rows": 4653
+    },
+    {
+      "subfield_id": "2806",
+      "rows": 382
+    },
+    {
+      "subfield_id": "2807",
+      "rows": 779
+    },
+    {
+      "subfield_id": "2808",
+      "rows": 1427
+    },
+    {
+      "subfield_id": "2809",
+      "rows": 626
+    },
+    {
+      "subfield_id": "2910",
+      "rows": 554
+    },
+    {
+      "subfield_id": "2911",
+      "rows": 410
+    },
+    {
+      "subfield_id": "2916",
+      "rows": 9431
+    },
+    {
+      "subfield_id": "2922",
+      "rows": 435
+    },
+    {
+      "subfield_id": "3002",
+      "rows": 27
+    },
+    {
+      "subfield_id": "3003",
+      "rows": 3062
+    },
+    {
+      "subfield_id": "3004",
+      "rows": 6419
+    },
+    {
+      "subfield_id": "3005",
+      "rows": 1322
+    },
+    {
+      "subfield_id": "3102",
+      "rows": 52
+    },
+    {
+      "subfield_id": "3103",
+      "rows": 3698
+    },
+    {
+      "subfield_id": "3104",
+      "rows": 1193
+    },
+    {
+      "subfield_id": "3105",
+      "rows": 196
+    },
+    {
+      "subfield_id": "3106",
+      "rows": 2490
+    },
+    {
+      "subfield_id": "3107",
+      "rows": 4923
+    },
+    {
+      "subfield_id": "3108",
+      "rows": 828
+    },
+    {
+      "subfield_id": "3109",
+      "rows": 1442
+    },
+    {
+      "subfield_id": "3200",
+      "rows": 54
+    },
+    {
+      "subfield_id": "3202",
+      "rows": 490
+    },
+    {
+      "subfield_id": "3203",
+      "rows": 4352
+    },
+    {
+      "subfield_id": "3204",
+      "rows": 2058
+    },
+    {
+      "subfield_id": "3205",
+      "rows": 2145
+    },
+    {
+      "subfield_id": "3206",
+      "rows": 84
+    },
+    {
+      "subfield_id": "3207",
+      "rows": 3862
+    },
+    {
+      "subfield_id": "3300",
+      "rows": 167
+    },
+    {
+      "subfield_id": "3302",
+      "rows": 39
+    },
+    {
+      "subfield_id": "3303",
+      "rows": 405
+    },
+    {
+      "subfield_id": "3304",
+      "rows": 7564
+    },
+    {
+      "subfield_id": "3305",
+      "rows": 611
+    },
+    {
+      "subfield_id": "3306",
+      "rows": 1006
+    },
+    {
+      "subfield_id": "3307",
+      "rows": 293
+    },
+    {
+      "subfield_id": "3308",
+      "rows": 1516
+    },
+    {
+      "subfield_id": "3309",
+      "rows": 217
+    },
+    {
+      "subfield_id": "3310",
+      "rows": 354
+    },
+    {
+      "subfield_id": "3311",
+      "rows": 920
+    },
+    {
+      "subfield_id": "3312",
+      "rows": 11393
+    },
+    {
+      "subfield_id": "3313",
+      "rows": 820
+    },
+    {
+      "subfield_id": "3314",
+      "rows": 899
+    },
+    {
+      "subfield_id": "3315",
+      "rows": 990
+    },
+    {
+      "subfield_id": "3316",
+      "rows": 1273
+    },
+    {
+      "subfield_id": "3317",
+      "rows": 1682
+    },
+    {
+      "subfield_id": "3318",
+      "rows": 1152
+    },
+    {
+      "subfield_id": "3319",
+      "rows": 21
+    },
+    {
+      "subfield_id": "3320",
+      "rows": 5192
+    },
+    {
+      "subfield_id": "3321",
+      "rows": 359
+    },
+    {
+      "subfield_id": "3322",
+      "rows": 676
+    },
+    {
+      "subfield_id": "3402",
+      "rows": 1674
+    },
+    {
+      "subfield_id": "3404",
+      "rows": 9153
+    },
+    {
+      "subfield_id": "3500",
+      "rows": 452
+    },
+    {
+      "subfield_id": "3504",
+      "rows": 4308
+    },
+    {
+      "subfield_id": "3505",
+      "rows": 2892
+    },
+    {
+      "subfield_id": "3506",
+      "rows": 3173
+    },
+    {
+      "subfield_id": "3600",
+      "rows": 5708
+    },
+    {
+      "subfield_id": "3603",
+      "rows": 204
+    },
+    {
+      "subfield_id": "3604",
+      "rows": 1305
+    },
+    {
+      "subfield_id": "3605",
+      "rows": 763
+    },
+    {
+      "subfield_id": "3607",
+      "rows": 161
+    },
+    {
+      "subfield_id": "3608",
+      "rows": 21
+    },
+    {
+      "subfield_id": "3609",
+      "rows": 539
+    },
+    {
+      "subfield_id": "3611",
+      "rows": 474
+    },
+    {
+      "subfield_id": "3612",
+      "rows": 841
+    },
+    {
+      "subfield_id": "3614",
+      "rows": 669
+    },
+    {
+      "subfield_id": "3616",
+      "rows": 808
+    }
+  ],
+  "subfield_period_sizes": [
+    {
+      "subfield_id": "1100",
+      "period_start": 2000,
+      "rows": 83
+    },
+    {
+      "subfield_id": "1100",
+      "period_start": 2005,
+      "rows": 100
+    },
+    {
+      "subfield_id": "1100",
+      "period_start": 2010,
+      "rows": 180
+    },
+    {
+      "subfield_id": "1100",
+      "period_start": 2015,
+      "rows": 290
+    },
+    {
+      "subfield_id": "1100",
+      "period_start": 2020,
+      "rows": 510
+    },
+    {
+      "subfield_id": "1102",
+      "period_start": 2000,
+      "rows": 122
+    },
+    {
+      "subfield_id": "1102",
+      "period_start": 2005,
+      "rows": 156
+    },
+    {
+      "subfield_id": "1102",
+      "period_start": 2010,
+      "rows": 266
+    },
+    {
+      "subfield_id": "1102",
+      "period_start": 2015,
+      "rows": 302
+    },
+    {
+      "subfield_id": "1102",
+      "period_start": 2020,
+      "rows": 409
+    },
+    {
+      "subfield_id": "1103",
+      "period_start": 2000,
+      "rows": 148
+    },
+    {
+      "subfield_id": "1103",
+      "period_start": 2005,
+      "rows": 165
+    },
+    {
+      "subfield_id": "1103",
+      "period_start": 2010,
+      "rows": 246
+    },
+    {
+      "subfield_id": "1103",
+      "period_start": 2015,
+      "rows": 218
+    },
+    {
+      "subfield_id": "1103",
+      "period_start": 2020,
+      "rows": 322
+    },
+    {
+      "subfield_id": "1104",
+      "period_start": 2000,
+      "rows": 71
+    },
+    {
+      "subfield_id": "1104",
+      "period_start": 2005,
+      "rows": 82
+    },
+    {
+      "subfield_id": "1104",
+      "period_start": 2010,
+      "rows": 142
+    },
+    {
+      "subfield_id": "1104",
+      "period_start": 2015,
+      "rows": 183
+    },
+    {
+      "subfield_id": "1104",
+      "period_start": 2020,
+      "rows": 272
+    },
+    {
+      "subfield_id": "1105",
+      "period_start": 2000,
+      "rows": 312
+    },
+    {
+      "subfield_id": "1105",
+      "period_start": 2005,
+      "rows": 373
+    },
+    {
+      "subfield_id": "1105",
+      "period_start": 2010,
+      "rows": 421
+    },
+    {
+      "subfield_id": "1105",
+      "period_start": 2015,
+      "rows": 515
+    },
+    {
+      "subfield_id": "1105",
+      "period_start": 2020,
+      "rows": 596
+    },
+    {
+      "subfield_id": "1106",
+      "period_start": 2000,
+      "rows": 254
+    },
+    {
+      "subfield_id": "1106",
+      "period_start": 2005,
+      "rows": 340
+    },
+    {
+      "subfield_id": "1106",
+      "period_start": 2010,
+      "rows": 572
+    },
+    {
+      "subfield_id": "1106",
+      "period_start": 2015,
+      "rows": 581
+    },
+    {
+      "subfield_id": "1106",
+      "period_start": 2020,
+      "rows": 1043
+    },
+    {
+      "subfield_id": "1107",
+      "period_start": 2000,
+      "rows": 13
+    },
+    {
+      "subfield_id": "1107",
+      "period_start": 2005,
+      "rows": 27
+    },
+    {
+      "subfield_id": "1107",
+      "period_start": 2010,
+      "rows": 51
+    },
+    {
+      "subfield_id": "1107",
+      "period_start": 2015,
+      "rows": 67
+    },
+    {
+      "subfield_id": "1107",
+      "period_start": 2020,
+      "rows": 81
+    },
+    {
+      "subfield_id": "1108",
+      "period_start": 2000,
+      "rows": 2
+    },
+    {
+      "subfield_id": "1108",
+      "period_start": 2005,
+      "rows": 2
+    },
+    {
+      "subfield_id": "1108",
+      "period_start": 2010,
+      "rows": 6
+    },
+    {
+      "subfield_id": "1108",
+      "period_start": 2015,
+      "rows": 4
+    },
+    {
+      "subfield_id": "1108",
+      "period_start": 2020,
+      "rows": 13
+    },
+    {
+      "subfield_id": "1109",
+      "period_start": 2000,
+      "rows": 144
+    },
+    {
+      "subfield_id": "1109",
+      "period_start": 2005,
+      "rows": 167
+    },
+    {
+      "subfield_id": "1109",
+      "period_start": 2010,
+      "rows": 211
+    },
+    {
+      "subfield_id": "1109",
+      "period_start": 2015,
+      "rows": 262
+    },
+    {
+      "subfield_id": "1109",
+      "period_start": 2020,
+      "rows": 390
+    },
+    {
+      "subfield_id": "1110",
+      "period_start": 2000,
+      "rows": 899
+    },
+    {
+      "subfield_id": "1110",
+      "period_start": 2005,
+      "rows": 994
+    },
+    {
+      "subfield_id": "1110",
+      "period_start": 2010,
+      "rows": 1626
+    },
+    {
+      "subfield_id": "1110",
+      "period_start": 2015,
+      "rows": 1612
+    },
+    {
+      "subfield_id": "1110",
+      "period_start": 2020,
+      "rows": 2416
+    },
+    {
+      "subfield_id": "1111",
+      "period_start": 2000,
+      "rows": 118
+    },
+    {
+      "subfield_id": "1111",
+      "period_start": 2005,
+      "rows": 122
+    },
+    {
+      "subfield_id": "1111",
+      "period_start": 2010,
+      "rows": 219
+    },
+    {
+      "subfield_id": "1111",
+      "period_start": 2015,
+      "rows": 264
+    },
+    {
+      "subfield_id": "1111",
+      "period_start": 2020,
+      "rows": 439
+    },
+    {
+      "subfield_id": "1200",
+      "period_start": 2000,
+      "rows": 2
+    },
+    {
+      "subfield_id": "1200",
+      "period_start": 2005,
+      "rows": 2
+    },
+    {
+      "subfield_id": "1200",
+      "period_start": 2010,
+      "rows": 8
+    },
+    {
+      "subfield_id": "1200",
+      "period_start": 2015,
+      "rows": 11
+    },
+    {
+      "subfield_id": "1200",
+      "period_start": 2020,
+      "rows": 7
+    },
+    {
+      "subfield_id": "1202",
+      "period_start": 2000,
+      "rows": 238
+    },
+    {
+      "subfield_id": "1202",
+      "period_start": 2005,
+      "rows": 229
+    },
+    {
+      "subfield_id": "1202",
+      "period_start": 2010,
+      "rows": 209
+    },
+    {
+      "subfield_id": "1202",
+      "period_start": 2015,
+      "rows": 262
+    },
+    {
+      "subfield_id": "1202",
+      "period_start": 2020,
+      "rows": 264
+    },
+    {
+      "subfield_id": "1203",
+      "period_start": 2000,
+      "rows": 339
+    },
+    {
+      "subfield_id": "1203",
+      "period_start": 2005,
+      "rows": 364
+    },
+    {
+      "subfield_id": "1203",
+      "period_start": 2010,
+      "rows": 329
+    },
+    {
+      "subfield_id": "1203",
+      "period_start": 2015,
+      "rows": 419
+    },
+    {
+      "subfield_id": "1203",
+      "period_start": 2020,
+      "rows": 539
+    },
+    {
+      "subfield_id": "1204",
+      "period_start": 2000,
+      "rows": 176
+    },
+    {
+      "subfield_id": "1204",
+      "period_start": 2005,
+      "rows": 161
+    },
+    {
+      "subfield_id": "1204",
+      "period_start": 2010,
+      "rows": 197
+    },
+    {
+      "subfield_id": "1204",
+      "period_start": 2015,
+      "rows": 280
+    },
+    {
+      "subfield_id": "1204",
+      "period_start": 2020,
+      "rows": 350
+    },
+    {
+      "subfield_id": "1205",
+      "period_start": 2000,
+      "rows": 56
+    },
+    {
+      "subfield_id": "1205",
+      "period_start": 2005,
+      "rows": 53
+    },
+    {
+      "subfield_id": "1205",
+      "period_start": 2010,
+      "rows": 41
+    },
+    {
+      "subfield_id": "1205",
+      "period_start": 2015,
+      "rows": 63
+    },
+    {
+      "subfield_id": "1205",
+      "period_start": 2020,
+      "rows": 59
+    },
+    {
+      "subfield_id": "1206",
+      "period_start": 2000,
+      "rows": 50
+    },
+    {
+      "subfield_id": "1206",
+      "period_start": 2005,
+      "rows": 45
+    },
+    {
+      "subfield_id": "1206",
+      "period_start": 2010,
+      "rows": 67
+    },
+    {
+      "subfield_id": "1206",
+      "period_start": 2015,
+      "rows": 68
+    },
+    {
+      "subfield_id": "1206",
+      "period_start": 2020,
+      "rows": 102
+    },
+    {
+      "subfield_id": "1207",
+      "period_start": 2000,
+      "rows": 127
+    },
+    {
+      "subfield_id": "1207",
+      "period_start": 2005,
+      "rows": 104
+    },
+    {
+      "subfield_id": "1207",
+      "period_start": 2010,
+      "rows": 108
+    },
+    {
+      "subfield_id": "1207",
+      "period_start": 2015,
+      "rows": 157
+    },
+    {
+      "subfield_id": "1207",
+      "period_start": 2020,
+      "rows": 119
+    },
+    {
+      "subfield_id": "1208",
+      "period_start": 2000,
+      "rows": 378
+    },
+    {
+      "subfield_id": "1208",
+      "period_start": 2005,
+      "rows": 400
+    },
+    {
+      "subfield_id": "1208",
+      "period_start": 2010,
+      "rows": 390
+    },
+    {
+      "subfield_id": "1208",
+      "period_start": 2015,
+      "rows": 413
+    },
+    {
+      "subfield_id": "1208",
+      "period_start": 2020,
+      "rows": 556
+    },
+    {
+      "subfield_id": "1209",
+      "period_start": 2000,
+      "rows": 58
+    },
+    {
+      "subfield_id": "1209",
+      "period_start": 2005,
+      "rows": 68
+    },
+    {
+      "subfield_id": "1209",
+      "period_start": 2010,
+      "rows": 85
+    },
+    {
+      "subfield_id": "1209",
+      "period_start": 2015,
+      "rows": 95
+    },
+    {
+      "subfield_id": "1209",
+      "period_start": 2020,
+      "rows": 113
+    },
+    {
+      "subfield_id": "1210",
+      "period_start": 2000,
+      "rows": 110
+    },
+    {
+      "subfield_id": "1210",
+      "period_start": 2005,
+      "rows": 143
+    },
+    {
+      "subfield_id": "1210",
+      "period_start": 2010,
+      "rows": 114
+    },
+    {
+      "subfield_id": "1210",
+      "period_start": 2015,
+      "rows": 122
+    },
+    {
+      "subfield_id": "1210",
+      "period_start": 2020,
+      "rows": 139
+    },
+    {
+      "subfield_id": "1211",
+      "period_start": 2000,
+      "rows": 424
+    },
+    {
+      "subfield_id": "1211",
+      "period_start": 2005,
+      "rows": 371
+    },
+    {
+      "subfield_id": "1211",
+      "period_start": 2010,
+      "rows": 398
+    },
+    {
+      "subfield_id": "1211",
+      "period_start": 2015,
+      "rows": 513
+    },
+    {
+      "subfield_id": "1211",
+      "period_start": 2020,
+      "rows": 724
+    },
+    {
+      "subfield_id": "1212",
+      "period_start": 2000,
+      "rows": 102
+    },
+    {
+      "subfield_id": "1212",
+      "period_start": 2005,
+      "rows": 108
+    },
+    {
+      "subfield_id": "1212",
+      "period_start": 2010,
+      "rows": 100
+    },
+    {
+      "subfield_id": "1212",
+      "period_start": 2015,
+      "rows": 141
+    },
+    {
+      "subfield_id": "1212",
+      "period_start": 2020,
+      "rows": 239
+    },
+    {
+      "subfield_id": "1213",
+      "period_start": 2000,
+      "rows": 106
+    },
+    {
+      "subfield_id": "1213",
+      "period_start": 2005,
+      "rows": 118
+    },
+    {
+      "subfield_id": "1213",
+      "period_start": 2010,
+      "rows": 140
+    },
+    {
+      "subfield_id": "1213",
+      "period_start": 2015,
+      "rows": 188
+    },
+    {
+      "subfield_id": "1213",
+      "period_start": 2020,
+      "rows": 169
+    },
+    {
+      "subfield_id": "1302",
+      "period_start": 2000,
+      "rows": 13
+    },
+    {
+      "subfield_id": "1302",
+      "period_start": 2005,
+      "rows": 19
+    },
+    {
+      "subfield_id": "1302",
+      "period_start": 2010,
+      "rows": 34
+    },
+    {
+      "subfield_id": "1302",
+      "period_start": 2015,
+      "rows": 35
+    },
+    {
+      "subfield_id": "1302",
+      "period_start": 2020,
+      "rows": 42
+    },
+    {
+      "subfield_id": "1303",
+      "period_start": 2000,
+      "rows": 50
+    },
+    {
+      "subfield_id": "1303",
+      "period_start": 2005,
+      "rows": 55
+    },
+    {
+      "subfield_id": "1303",
+      "period_start": 2010,
+      "rows": 69
+    },
+    {
+      "subfield_id": "1303",
+      "period_start": 2015,
+      "rows": 94
+    },
+    {
+      "subfield_id": "1303",
+      "period_start": 2020,
+      "rows": 97
+    },
+    {
+      "subfield_id": "1304",
+      "period_start": 2000,
+      "rows": 61
+    },
+    {
+      "subfield_id": "1304",
+      "period_start": 2005,
+      "rows": 68
+    },
+    {
+      "subfield_id": "1304",
+      "period_start": 2010,
+      "rows": 123
+    },
+    {
+      "subfield_id": "1304",
+      "period_start": 2015,
+      "rows": 117
+    },
+    {
+      "subfield_id": "1304",
+      "period_start": 2020,
+      "rows": 159
+    },
+    {
+      "subfield_id": "1305",
+      "period_start": 2000,
+      "rows": 85
+    },
+    {
+      "subfield_id": "1305",
+      "period_start": 2005,
+      "rows": 128
+    },
+    {
+      "subfield_id": "1305",
+      "period_start": 2010,
+      "rows": 151
+    },
+    {
+      "subfield_id": "1305",
+      "period_start": 2015,
+      "rows": 147
+    },
+    {
+      "subfield_id": "1305",
+      "period_start": 2020,
+      "rows": 177
+    },
+    {
+      "subfield_id": "1306",
+      "period_start": 2000,
+      "rows": 154
+    },
+    {
+      "subfield_id": "1306",
+      "period_start": 2005,
+      "rows": 225
+    },
+    {
+      "subfield_id": "1306",
+      "period_start": 2010,
+      "rows": 389
+    },
+    {
+      "subfield_id": "1306",
+      "period_start": 2015,
+      "rows": 519
+    },
+    {
+      "subfield_id": "1306",
+      "period_start": 2020,
+      "rows": 523
+    },
+    {
+      "subfield_id": "1307",
+      "period_start": 2000,
+      "rows": 191
+    },
+    {
+      "subfield_id": "1307",
+      "period_start": 2005,
+      "rows": 301
+    },
+    {
+      "subfield_id": "1307",
+      "period_start": 2010,
+      "rows": 341
+    },
+    {
+      "subfield_id": "1307",
+      "period_start": 2015,
+      "rows": 412
+    },
+    {
+      "subfield_id": "1307",
+      "period_start": 2020,
+      "rows": 460
+    },
+    {
+      "subfield_id": "1308",
+      "period_start": 2000,
+      "rows": 49
+    },
+    {
+      "subfield_id": "1308",
+      "period_start": 2005,
+      "rows": 57
+    },
+    {
+      "subfield_id": "1308",
+      "period_start": 2010,
+      "rows": 85
+    },
+    {
+      "subfield_id": "1308",
+      "period_start": 2015,
+      "rows": 91
+    },
+    {
+      "subfield_id": "1308",
+      "period_start": 2020,
+      "rows": 102
+    },
+    {
+      "subfield_id": "1309",
+      "period_start": 2000,
+      "rows": 12
+    },
+    {
+      "subfield_id": "1309",
+      "period_start": 2005,
+      "rows": 10
+    },
+    {
+      "subfield_id": "1309",
+      "period_start": 2010,
+      "rows": 20
+    },
+    {
+      "subfield_id": "1309",
+      "period_start": 2015,
+      "rows": 25
+    },
+    {
+      "subfield_id": "1309",
+      "period_start": 2020,
+      "rows": 42
+    },
+    {
+      "subfield_id": "1310",
+      "period_start": 2000,
+      "rows": 43
+    },
+    {
+      "subfield_id": "1310",
+      "period_start": 2005,
+      "rows": 69
+    },
+    {
+      "subfield_id": "1310",
+      "period_start": 2010,
+      "rows": 99
+    },
+    {
+      "subfield_id": "1310",
+      "period_start": 2015,
+      "rows": 104
+    },
+    {
+      "subfield_id": "1310",
+      "period_start": 2020,
+      "rows": 116
+    },
+    {
+      "subfield_id": "1311",
+      "period_start": 2000,
+      "rows": 442
+    },
+    {
+      "subfield_id": "1311",
+      "period_start": 2005,
+      "rows": 659
+    },
+    {
+      "subfield_id": "1311",
+      "period_start": 2010,
+      "rows": 816
+    },
+    {
+      "subfield_id": "1311",
+      "period_start": 2015,
+      "rows": 858
+    },
+    {
+      "subfield_id": "1311",
+      "period_start": 2020,
+      "rows": 1057
+    },
+    {
+      "subfield_id": "1312",
+      "period_start": 2000,
+      "rows": 1562
+    },
+    {
+      "subfield_id": "1312",
+      "period_start": 2005,
+      "rows": 2367
+    },
+    {
+      "subfield_id": "1312",
+      "period_start": 2010,
+      "rows": 2950
+    },
+    {
+      "subfield_id": "1312",
+      "period_start": 2015,
+      "rows": 3002
+    },
+    {
+      "subfield_id": "1312",
+      "period_start": 2020,
+      "rows": 3799
+    },
+    {
+      "subfield_id": "1313",
+      "period_start": 2000,
+      "rows": 36
+    },
+    {
+      "subfield_id": "1313",
+      "period_start": 2005,
+      "rows": 68
+    },
+    {
+      "subfield_id": "1313",
+      "period_start": 2010,
+      "rows": 111
+    },
+    {
+      "subfield_id": "1313",
+      "period_start": 2015,
+      "rows": 127
+    },
+    {
+      "subfield_id": "1313",
+      "period_start": 2020,
+      "rows": 195
+    },
+    {
+      "subfield_id": "1314",
+      "period_start": 2000,
+      "rows": 39
+    },
+    {
+      "subfield_id": "1314",
+      "period_start": 2005,
+      "rows": 41
+    },
+    {
+      "subfield_id": "1314",
+      "period_start": 2010,
+      "rows": 53
+    },
+    {
+      "subfield_id": "1314",
+      "period_start": 2015,
+      "rows": 53
+    },
+    {
+      "subfield_id": "1314",
+      "period_start": 2020,
+      "rows": 54
+    },
+    {
+      "subfield_id": "1315",
+      "period_start": 2000,
+      "rows": 2
+    },
+    {
+      "subfield_id": "1315",
+      "period_start": 2005,
+      "rows": 4
+    },
+    {
+      "subfield_id": "1315",
+      "period_start": 2010,
+      "rows": 10
+    },
+    {
+      "subfield_id": "1315",
+      "period_start": 2015,
+      "rows": 12
+    },
+    {
+      "subfield_id": "1315",
+      "period_start": 2020,
+      "rows": 17
+    },
+    {
+      "subfield_id": "1402",
+      "period_start": 2000,
+      "rows": 326
+    },
+    {
+      "subfield_id": "1402",
+      "period_start": 2005,
+      "rows": 348
+    },
+    {
+      "subfield_id": "1402",
+      "period_start": 2010,
+      "rows": 377
+    },
+    {
+      "subfield_id": "1402",
+      "period_start": 2015,
+      "rows": 565
+    },
+    {
+      "subfield_id": "1402",
+      "period_start": 2020,
+      "rows": 875
+    },
+    {
+      "subfield_id": "1403",
+      "period_start": 2000,
+      "rows": 26
+    },
+    {
+      "subfield_id": "1403",
+      "period_start": 2005,
+      "rows": 32
+    },
+    {
+      "subfield_id": "1403",
+      "period_start": 2010,
+      "rows": 51
+    },
+    {
+      "subfield_id": "1403",
+      "period_start": 2015,
+      "rows": 65
+    },
+    {
+      "subfield_id": "1403",
+      "period_start": 2020,
+      "rows": 125
+    },
+    {
+      "subfield_id": "1404",
+      "period_start": 2000,
+      "rows": 394
+    },
+    {
+      "subfield_id": "1404",
+      "period_start": 2005,
+      "rows": 347
+    },
+    {
+      "subfield_id": "1404",
+      "period_start": 2010,
+      "rows": 309
+    },
+    {
+      "subfield_id": "1404",
+      "period_start": 2015,
+      "rows": 335
+    },
+    {
+      "subfield_id": "1404",
+      "period_start": 2020,
+      "rows": 516
+    },
+    {
+      "subfield_id": "1405",
+      "period_start": 2000,
+      "rows": 229
+    },
+    {
+      "subfield_id": "1405",
+      "period_start": 2005,
+      "rows": 244
+    },
+    {
+      "subfield_id": "1405",
+      "period_start": 2010,
+      "rows": 224
+    },
+    {
+      "subfield_id": "1405",
+      "period_start": 2015,
+      "rows": 288
+    },
+    {
+      "subfield_id": "1405",
+      "period_start": 2020,
+      "rows": 383
+    },
+    {
+      "subfield_id": "1406",
+      "period_start": 2000,
+      "rows": 170
+    },
+    {
+      "subfield_id": "1406",
+      "period_start": 2005,
+      "rows": 200
+    },
+    {
+      "subfield_id": "1406",
+      "period_start": 2010,
+      "rows": 241
+    },
+    {
+      "subfield_id": "1406",
+      "period_start": 2015,
+      "rows": 312
+    },
+    {
+      "subfield_id": "1406",
+      "period_start": 2020,
+      "rows": 563
+    },
+    {
+      "subfield_id": "1407",
+      "period_start": 2000,
+      "rows": 379
+    },
+    {
+      "subfield_id": "1407",
+      "period_start": 2005,
+      "rows": 360
+    },
+    {
+      "subfield_id": "1407",
+      "period_start": 2010,
+      "rows": 386
+    },
+    {
+      "subfield_id": "1407",
+      "period_start": 2015,
+      "rows": 374
+    },
+    {
+      "subfield_id": "1407",
+      "period_start": 2020,
+      "rows": 528
+    },
+    {
+      "subfield_id": "1408",
+      "period_start": 2000,
+      "rows": 618
+    },
+    {
+      "subfield_id": "1408",
+      "period_start": 2005,
+      "rows": 602
+    },
+    {
+      "subfield_id": "1408",
+      "period_start": 2010,
+      "rows": 569
+    },
+    {
+      "subfield_id": "1408",
+      "period_start": 2015,
+      "rows": 671
+    },
+    {
+      "subfield_id": "1408",
+      "period_start": 2020,
+      "rows": 1020
+    },
+    {
+      "subfield_id": "1409",
+      "period_start": 2000,
+      "rows": 23
+    },
+    {
+      "subfield_id": "1409",
+      "period_start": 2005,
+      "rows": 33
+    },
+    {
+      "subfield_id": "1409",
+      "period_start": 2010,
+      "rows": 29
+    },
+    {
+      "subfield_id": "1409",
+      "period_start": 2015,
+      "rows": 49
+    },
+    {
+      "subfield_id": "1409",
+      "period_start": 2020,
+      "rows": 29
+    },
+    {
+      "subfield_id": "1410",
+      "period_start": 2000,
+      "rows": 1
+    },
+    {
+      "subfield_id": "1410",
+      "period_start": 2015,
+      "rows": 1
+    },
+    {
+      "subfield_id": "1410",
+      "period_start": 2020,
+      "rows": 1
+    },
+    {
+      "subfield_id": "1502",
+      "period_start": 2000,
+      "rows": 450
+    },
+    {
+      "subfield_id": "1502",
+      "period_start": 2005,
+      "rows": 423
+    },
+    {
+      "subfield_id": "1502",
+      "period_start": 2010,
+      "rows": 386
+    },
+    {
+      "subfield_id": "1502",
+      "period_start": 2015,
+      "rows": 330
+    },
+    {
+      "subfield_id": "1502",
+      "period_start": 2020,
+      "rows": 275
+    },
+    {
+      "subfield_id": "1503",
+      "period_start": 2000,
+      "rows": 403
+    },
+    {
+      "subfield_id": "1503",
+      "period_start": 2005,
+      "rows": 543
+    },
+    {
+      "subfield_id": "1503",
+      "period_start": 2010,
+      "rows": 647
+    },
+    {
+      "subfield_id": "1503",
+      "period_start": 2015,
+      "rows": 675
+    },
+    {
+      "subfield_id": "1503",
+      "period_start": 2020,
+      "rows": 823
+    },
+    {
+      "subfield_id": "1504",
+      "period_start": 2000,
+      "rows": 66
+    },
+    {
+      "subfield_id": "1504",
+      "period_start": 2005,
+      "rows": 64
+    },
+    {
+      "subfield_id": "1504",
+      "period_start": 2010,
+      "rows": 57
+    },
+    {
+      "subfield_id": "1504",
+      "period_start": 2015,
+      "rows": 44
+    },
+    {
+      "subfield_id": "1504",
+      "period_start": 2020,
+      "rows": 52
+    },
+    {
+      "subfield_id": "1506",
+      "period_start": 2000,
+      "rows": 79
+    },
+    {
+      "subfield_id": "1506",
+      "period_start": 2005,
+      "rows": 87
+    },
+    {
+      "subfield_id": "1506",
+      "period_start": 2010,
+      "rows": 81
+    },
+    {
+      "subfield_id": "1506",
+      "period_start": 2015,
+      "rows": 70
+    },
+    {
+      "subfield_id": "1506",
+      "period_start": 2020,
+      "rows": 80
+    },
+    {
+      "subfield_id": "1507",
+      "period_start": 2000,
+      "rows": 943
+    },
+    {
+      "subfield_id": "1507",
+      "period_start": 2005,
+      "rows": 826
+    },
+    {
+      "subfield_id": "1507",
+      "period_start": 2010,
+      "rows": 774
+    },
+    {
+      "subfield_id": "1507",
+      "period_start": 2015,
+      "rows": 786
+    },
+    {
+      "subfield_id": "1507",
+      "period_start": 2020,
+      "rows": 674
+    },
+    {
+      "subfield_id": "1508",
+      "period_start": 2000,
+      "rows": 225
+    },
+    {
+      "subfield_id": "1508",
+      "period_start": 2005,
+      "rows": 223
+    },
+    {
+      "subfield_id": "1508",
+      "period_start": 2010,
+      "rows": 221
+    },
+    {
+      "subfield_id": "1508",
+      "period_start": 2015,
+      "rows": 261
+    },
+    {
+      "subfield_id": "1508",
+      "period_start": 2020,
+      "rows": 262
+    },
+    {
+      "subfield_id": "1602",
+      "period_start": 2000,
+      "rows": 217
+    },
+    {
+      "subfield_id": "1602",
+      "period_start": 2005,
+      "rows": 255
+    },
+    {
+      "subfield_id": "1602",
+      "period_start": 2010,
+      "rows": 306
+    },
+    {
+      "subfield_id": "1602",
+      "period_start": 2015,
+      "rows": 259
+    },
+    {
+      "subfield_id": "1602",
+      "period_start": 2020,
+      "rows": 255
+    },
+    {
+      "subfield_id": "1603",
+      "period_start": 2000,
+      "rows": 68
+    },
+    {
+      "subfield_id": "1603",
+      "period_start": 2005,
+      "rows": 59
+    },
+    {
+      "subfield_id": "1603",
+      "period_start": 2010,
+      "rows": 47
+    },
+    {
+      "subfield_id": "1603",
+      "period_start": 2015,
+      "rows": 54
+    },
+    {
+      "subfield_id": "1603",
+      "period_start": 2020,
+      "rows": 45
+    },
+    {
+      "subfield_id": "1604",
+      "period_start": 2000,
+      "rows": 294
+    },
+    {
+      "subfield_id": "1604",
+      "period_start": 2005,
+      "rows": 322
+    },
+    {
+      "subfield_id": "1604",
+      "period_start": 2010,
+      "rows": 374
+    },
+    {
+      "subfield_id": "1604",
+      "period_start": 2015,
+      "rows": 328
+    },
+    {
+      "subfield_id": "1604",
+      "period_start": 2020,
+      "rows": 424
+    },
+    {
+      "subfield_id": "1605",
+      "period_start": 2000,
+      "rows": 963
+    },
+    {
+      "subfield_id": "1605",
+      "period_start": 2005,
+      "rows": 971
+    },
+    {
+      "subfield_id": "1605",
+      "period_start": 2010,
+      "rows": 986
+    },
+    {
+      "subfield_id": "1605",
+      "period_start": 2015,
+      "rows": 1093
+    },
+    {
+      "subfield_id": "1605",
+      "period_start": 2020,
+      "rows": 1065
+    },
+    {
+      "subfield_id": "1606",
+      "period_start": 2000,
+      "rows": 194
+    },
+    {
+      "subfield_id": "1606",
+      "period_start": 2005,
+      "rows": 151
+    },
+    {
+      "subfield_id": "1606",
+      "period_start": 2010,
+      "rows": 118
+    },
+    {
+      "subfield_id": "1606",
+      "period_start": 2015,
+      "rows": 126
+    },
+    {
+      "subfield_id": "1606",
+      "period_start": 2020,
+      "rows": 112
+    },
+    {
+      "subfield_id": "1607",
+      "period_start": 2000,
+      "rows": 430
+    },
+    {
+      "subfield_id": "1607",
+      "period_start": 2005,
+      "rows": 408
+    },
+    {
+      "subfield_id": "1607",
+      "period_start": 2010,
+      "rows": 335
+    },
+    {
+      "subfield_id": "1607",
+      "period_start": 2015,
+      "rows": 306
+    },
+    {
+      "subfield_id": "1607",
+      "period_start": 2020,
+      "rows": 265
+    },
+    {
+      "subfield_id": "1702",
+      "period_start": 2000,
+      "rows": 795
+    },
+    {
+      "subfield_id": "1702",
+      "period_start": 2005,
+      "rows": 1303
+    },
+    {
+      "subfield_id": "1702",
+      "period_start": 2010,
+      "rows": 1539
+    },
+    {
+      "subfield_id": "1702",
+      "period_start": 2015,
+      "rows": 1606
+    },
+    {
+      "subfield_id": "1702",
+      "period_start": 2020,
+      "rows": 2837
+    },
+    {
+      "subfield_id": "1703",
+      "period_start": 2000,
+      "rows": 226
+    },
+    {
+      "subfield_id": "1703",
+      "period_start": 2005,
+      "rows": 310
+    },
+    {
+      "subfield_id": "1703",
+      "period_start": 2010,
+      "rows": 403
+    },
+    {
+      "subfield_id": "1703",
+      "period_start": 2015,
+      "rows": 394
+    },
+    {
+      "subfield_id": "1703",
+      "period_start": 2020,
+      "rows": 499
+    },
+    {
+      "subfield_id": "1704",
+      "period_start": 2000,
+      "rows": 92
+    },
+    {
+      "subfield_id": "1704",
+      "period_start": 2005,
+      "rows": 124
+    },
+    {
+      "subfield_id": "1704",
+      "period_start": 2010,
+      "rows": 124
+    },
+    {
+      "subfield_id": "1704",
+      "period_start": 2015,
+      "rows": 76
+    },
+    {
+      "subfield_id": "1704",
+      "period_start": 2020,
+      "rows": 119
+    },
+    {
+      "subfield_id": "1705",
+      "period_start": 2000,
+      "rows": 709
+    },
+    {
+      "subfield_id": "1705",
+      "period_start": 2005,
+      "rows": 1203
+    },
+    {
+      "subfield_id": "1705",
+      "period_start": 2010,
+      "rows": 1441
+    },
+    {
+      "subfield_id": "1705",
+      "period_start": 2015,
+      "rows": 1215
+    },
+    {
+      "subfield_id": "1705",
+      "period_start": 2020,
+      "rows": 1293
+    },
+    {
+      "subfield_id": "1706",
+      "period_start": 2000,
+      "rows": 44
+    },
+    {
+      "subfield_id": "1706",
+      "period_start": 2005,
+      "rows": 57
+    },
+    {
+      "subfield_id": "1706",
+      "period_start": 2010,
+      "rows": 120
+    },
+    {
+      "subfield_id": "1706",
+      "period_start": 2015,
+      "rows": 188
+    },
+    {
+      "subfield_id": "1706",
+      "period_start": 2020,
+      "rows": 274
+    },
+    {
+      "subfield_id": "1707",
+      "period_start": 2000,
+      "rows": 471
+    },
+    {
+      "subfield_id": "1707",
+      "period_start": 2005,
+      "rows": 862
+    },
+    {
+      "subfield_id": "1707",
+      "period_start": 2010,
+      "rows": 1101
+    },
+    {
+      "subfield_id": "1707",
+      "period_start": 2015,
+      "rows": 1183
+    },
+    {
+      "subfield_id": "1707",
+      "period_start": 2020,
+      "rows": 1598
+    },
+    {
+      "subfield_id": "1708",
+      "period_start": 2000,
+      "rows": 209
+    },
+    {
+      "subfield_id": "1708",
+      "period_start": 2005,
+      "rows": 228
+    },
+    {
+      "subfield_id": "1708",
+      "period_start": 2010,
+      "rows": 236
+    },
+    {
+      "subfield_id": "1708",
+      "period_start": 2015,
+      "rows": 169
+    },
+    {
+      "subfield_id": "1708",
+      "period_start": 2020,
+      "rows": 153
+    },
+    {
+      "subfield_id": "1709",
+      "period_start": 2000,
+      "rows": 45
+    },
+    {
+      "subfield_id": "1709",
+      "period_start": 2005,
+      "rows": 112
+    },
+    {
+      "subfield_id": "1709",
+      "period_start": 2010,
+      "rows": 147
+    },
+    {
+      "subfield_id": "1709",
+      "period_start": 2015,
+      "rows": 206
+    },
+    {
+      "subfield_id": "1709",
+      "period_start": 2020,
+      "rows": 286
+    },
+    {
+      "subfield_id": "1710",
+      "period_start": 2000,
+      "rows": 462
+    },
+    {
+      "subfield_id": "1710",
+      "period_start": 2005,
+      "rows": 1017
+    },
+    {
+      "subfield_id": "1710",
+      "period_start": 2010,
+      "rows": 1471
+    },
+    {
+      "subfield_id": "1710",
+      "period_start": 2015,
+      "rows": 1424
+    },
+    {
+      "subfield_id": "1710",
+      "period_start": 2020,
+      "rows": 2477
+    },
+    {
+      "subfield_id": "1711",
+      "period_start": 2000,
+      "rows": 207
+    },
+    {
+      "subfield_id": "1711",
+      "period_start": 2005,
+      "rows": 310
+    },
+    {
+      "subfield_id": "1711",
+      "period_start": 2010,
+      "rows": 426
+    },
+    {
+      "subfield_id": "1711",
+      "period_start": 2015,
+      "rows": 306
+    },
+    {
+      "subfield_id": "1711",
+      "period_start": 2020,
+      "rows": 352
+    },
+    {
+      "subfield_id": "1712",
+      "period_start": 2000,
+      "rows": 50
+    },
+    {
+      "subfield_id": "1712",
+      "period_start": 2005,
+      "rows": 68
+    },
+    {
+      "subfield_id": "1712",
+      "period_start": 2010,
+      "rows": 86
+    },
+    {
+      "subfield_id": "1712",
+      "period_start": 2015,
+      "rows": 91
+    },
+    {
+      "subfield_id": "1712",
+      "period_start": 2020,
+      "rows": 84
+    },
+    {
+      "subfield_id": "1800",
+      "period_start": 2000,
+      "rows": 63
+    },
+    {
+      "subfield_id": "1800",
+      "period_start": 2005,
+      "rows": 79
+    },
+    {
+      "subfield_id": "1800",
+      "period_start": 2010,
+      "rows": 64
+    },
+    {
+      "subfield_id": "1800",
+      "period_start": 2015,
+      "rows": 57
+    },
+    {
+      "subfield_id": "1800",
+      "period_start": 2020,
+      "rows": 59
+    },
+    {
+      "subfield_id": "1802",
+      "period_start": 2000,
+      "rows": 425
+    },
+    {
+      "subfield_id": "1802",
+      "period_start": 2005,
+      "rows": 459
+    },
+    {
+      "subfield_id": "1802",
+      "period_start": 2010,
+      "rows": 510
+    },
+    {
+      "subfield_id": "1802",
+      "period_start": 2015,
+      "rows": 541
+    },
+    {
+      "subfield_id": "1802",
+      "period_start": 2020,
+      "rows": 562
+    },
+    {
+      "subfield_id": "1803",
+      "period_start": 2000,
+      "rows": 1207
+    },
+    {
+      "subfield_id": "1803",
+      "period_start": 2005,
+      "rows": 1214
+    },
+    {
+      "subfield_id": "1803",
+      "period_start": 2010,
+      "rows": 1177
+    },
+    {
+      "subfield_id": "1803",
+      "period_start": 2015,
+      "rows": 1167
+    },
+    {
+      "subfield_id": "1803",
+      "period_start": 2020,
+      "rows": 1151
+    },
+    {
+      "subfield_id": "1804",
+      "period_start": 2000,
+      "rows": 471
+    },
+    {
+      "subfield_id": "1804",
+      "period_start": 2005,
+      "rows": 414
+    },
+    {
+      "subfield_id": "1804",
+      "period_start": 2010,
+      "rows": 415
+    },
+    {
+      "subfield_id": "1804",
+      "period_start": 2015,
+      "rows": 401
+    },
+    {
+      "subfield_id": "1804",
+      "period_start": 2020,
+      "rows": 394
+    },
+    {
+      "subfield_id": "1902",
+      "period_start": 2000,
+      "rows": 705
+    },
+    {
+      "subfield_id": "1902",
+      "period_start": 2005,
+      "rows": 757
+    },
+    {
+      "subfield_id": "1902",
+      "period_start": 2010,
+      "rows": 765
+    },
+    {
+      "subfield_id": "1902",
+      "period_start": 2015,
+      "rows": 598
+    },
+    {
+      "subfield_id": "1902",
+      "period_start": 2020,
+      "rows": 615
+    },
+    {
+      "subfield_id": "1904",
+      "period_start": 2000,
+      "rows": 150
+    },
+    {
+      "subfield_id": "1904",
+      "period_start": 2005,
+      "rows": 119
+    },
+    {
+      "subfield_id": "1904",
+      "period_start": 2010,
+      "rows": 151
+    },
+    {
+      "subfield_id": "1904",
+      "period_start": 2015,
+      "rows": 136
+    },
+    {
+      "subfield_id": "1904",
+      "period_start": 2020,
+      "rows": 163
+    },
+    {
+      "subfield_id": "1906",
+      "period_start": 2000,
+      "rows": 102
+    },
+    {
+      "subfield_id": "1906",
+      "period_start": 2005,
+      "rows": 109
+    },
+    {
+      "subfield_id": "1906",
+      "period_start": 2010,
+      "rows": 118
+    },
+    {
+      "subfield_id": "1906",
+      "period_start": 2015,
+      "rows": 105
+    },
+    {
+      "subfield_id": "1906",
+      "period_start": 2020,
+      "rows": 102
+    },
+    {
+      "subfield_id": "1907",
+      "period_start": 2000,
+      "rows": 104
+    },
+    {
+      "subfield_id": "1907",
+      "period_start": 2005,
+      "rows": 114
+    },
+    {
+      "subfield_id": "1907",
+      "period_start": 2010,
+      "rows": 112
+    },
+    {
+      "subfield_id": "1907",
+      "period_start": 2015,
+      "rows": 200
+    },
+    {
+      "subfield_id": "1907",
+      "period_start": 2020,
+      "rows": 208
+    },
+    {
+      "subfield_id": "1908",
+      "period_start": 2000,
+      "rows": 508
+    },
+    {
+      "subfield_id": "1908",
+      "period_start": 2005,
+      "rows": 514
+    },
+    {
+      "subfield_id": "1908",
+      "period_start": 2010,
+      "rows": 490
+    },
+    {
+      "subfield_id": "1908",
+      "period_start": 2015,
+      "rows": 541
+    },
+    {
+      "subfield_id": "1908",
+      "period_start": 2020,
+      "rows": 522
+    },
+    {
+      "subfield_id": "1910",
+      "period_start": 2000,
+      "rows": 434
+    },
+    {
+      "subfield_id": "1910",
+      "period_start": 2005,
+      "rows": 380
+    },
+    {
+      "subfield_id": "1910",
+      "period_start": 2010,
+      "rows": 365
+    },
+    {
+      "subfield_id": "1910",
+      "period_start": 2015,
+      "rows": 385
+    },
+    {
+      "subfield_id": "1910",
+      "period_start": 2020,
+      "rows": 352
+    },
+    {
+      "subfield_id": "1911",
+      "period_start": 2000,
+      "rows": 143
+    },
+    {
+      "subfield_id": "1911",
+      "period_start": 2005,
+      "rows": 162
+    },
+    {
+      "subfield_id": "1911",
+      "period_start": 2010,
+      "rows": 150
+    },
+    {
+      "subfield_id": "1911",
+      "period_start": 2015,
+      "rows": 179
+    },
+    {
+      "subfield_id": "1911",
+      "period_start": 2020,
+      "rows": 178
+    },
+    {
+      "subfield_id": "1912",
+      "period_start": 2000,
+      "rows": 20
+    },
+    {
+      "subfield_id": "1912",
+      "period_start": 2005,
+      "rows": 11
+    },
+    {
+      "subfield_id": "1912",
+      "period_start": 2010,
+      "rows": 15
+    },
+    {
+      "subfield_id": "1912",
+      "period_start": 2015,
+      "rows": 22
+    },
+    {
+      "subfield_id": "1912",
+      "period_start": 2020,
+      "rows": 26
+    },
+    {
+      "subfield_id": "2000",
+      "period_start": 2000,
+      "rows": 313
+    },
+    {
+      "subfield_id": "2000",
+      "period_start": 2005,
+      "rows": 282
+    },
+    {
+      "subfield_id": "2000",
+      "period_start": 2010,
+      "rows": 267
+    },
+    {
+      "subfield_id": "2000",
+      "period_start": 2015,
+      "rows": 341
+    },
+    {
+      "subfield_id": "2000",
+      "period_start": 2020,
+      "rows": 454
+    },
+    {
+      "subfield_id": "2002",
+      "period_start": 2000,
+      "rows": 1478
+    },
+    {
+      "subfield_id": "2002",
+      "period_start": 2005,
+      "rows": 1489
+    },
+    {
+      "subfield_id": "2002",
+      "period_start": 2010,
+      "rows": 1448
+    },
+    {
+      "subfield_id": "2002",
+      "period_start": 2015,
+      "rows": 1427
+    },
+    {
+      "subfield_id": "2002",
+      "period_start": 2020,
+      "rows": 1987
+    },
+    {
+      "subfield_id": "2003",
+      "period_start": 2000,
+      "rows": 375
+    },
+    {
+      "subfield_id": "2003",
+      "period_start": 2005,
+      "rows": 395
+    },
+    {
+      "subfield_id": "2003",
+      "period_start": 2010,
+      "rows": 451
+    },
+    {
+      "subfield_id": "2003",
+      "period_start": 2015,
+      "rows": 398
+    },
+    {
+      "subfield_id": "2003",
+      "period_start": 2020,
+      "rows": 404
+    },
+    {
+      "subfield_id": "2100",
+      "period_start": 2000,
+      "rows": 75
+    },
+    {
+      "subfield_id": "2100",
+      "period_start": 2005,
+      "rows": 79
+    },
+    {
+      "subfield_id": "2100",
+      "period_start": 2010,
+      "rows": 71
+    },
+    {
+      "subfield_id": "2100",
+      "period_start": 2015,
+      "rows": 78
+    },
+    {
+      "subfield_id": "2100",
+      "period_start": 2020,
+      "rows": 90
+    },
+    {
+      "subfield_id": "2102",
+      "period_start": 2000,
+      "rows": 552
+    },
+    {
+      "subfield_id": "2102",
+      "period_start": 2005,
+      "rows": 715
+    },
+    {
+      "subfield_id": "2102",
+      "period_start": 2010,
+      "rows": 437
+    },
+    {
+      "subfield_id": "2102",
+      "period_start": 2015,
+      "rows": 192
+    },
+    {
+      "subfield_id": "2102",
+      "period_start": 2020,
+      "rows": 237
+    },
+    {
+      "subfield_id": "2103",
+      "period_start": 2000,
+      "rows": 76
+    },
+    {
+      "subfield_id": "2103",
+      "period_start": 2005,
+      "rows": 63
+    },
+    {
+      "subfield_id": "2103",
+      "period_start": 2010,
+      "rows": 37
+    },
+    {
+      "subfield_id": "2103",
+      "period_start": 2015,
+      "rows": 39
+    },
+    {
+      "subfield_id": "2103",
+      "period_start": 2020,
+      "rows": 36
+    },
+    {
+      "subfield_id": "2104",
+      "period_start": 2000,
+      "rows": 7
+    },
+    {
+      "subfield_id": "2104",
+      "period_start": 2005,
+      "rows": 8
+    },
+    {
+      "subfield_id": "2104",
+      "period_start": 2010,
+      "rows": 9
+    },
+    {
+      "subfield_id": "2104",
+      "period_start": 2015,
+      "rows": 15
+    },
+    {
+      "subfield_id": "2104",
+      "period_start": 2020,
+      "rows": 22
+    },
+    {
+      "subfield_id": "2105",
+      "period_start": 2000,
+      "rows": 1456
+    },
+    {
+      "subfield_id": "2105",
+      "period_start": 2005,
+      "rows": 1301
+    },
+    {
+      "subfield_id": "2105",
+      "period_start": 2010,
+      "rows": 1612
+    },
+    {
+      "subfield_id": "2105",
+      "period_start": 2015,
+      "rows": 1842
+    },
+    {
+      "subfield_id": "2105",
+      "period_start": 2020,
+      "rows": 1781
+    },
+    {
+      "subfield_id": "2200",
+      "period_start": 2000,
+      "rows": 41
+    },
+    {
+      "subfield_id": "2200",
+      "period_start": 2005,
+      "rows": 116
+    },
+    {
+      "subfield_id": "2200",
+      "period_start": 2010,
+      "rows": 135
+    },
+    {
+      "subfield_id": "2200",
+      "period_start": 2015,
+      "rows": 20
+    },
+    {
+      "subfield_id": "2200",
+      "period_start": 2020,
+      "rows": 11
+    },
+    {
+      "subfield_id": "2202",
+      "period_start": 2000,
+      "rows": 546
+    },
+    {
+      "subfield_id": "2202",
+      "period_start": 2005,
+      "rows": 901
+    },
+    {
+      "subfield_id": "2202",
+      "period_start": 2010,
+      "rows": 1141
+    },
+    {
+      "subfield_id": "2202",
+      "period_start": 2015,
+      "rows": 1173
+    },
+    {
+      "subfield_id": "2202",
+      "period_start": 2020,
+      "rows": 1496
+    },
+    {
+      "subfield_id": "2203",
+      "period_start": 2000,
+      "rows": 113
+    },
+    {
+      "subfield_id": "2203",
+      "period_start": 2005,
+      "rows": 152
+    },
+    {
+      "subfield_id": "2203",
+      "period_start": 2010,
+      "rows": 281
+    },
+    {
+      "subfield_id": "2203",
+      "period_start": 2015,
+      "rows": 345
+    },
+    {
+      "subfield_id": "2203",
+      "period_start": 2020,
+      "rows": 608
+    },
+    {
+      "subfield_id": "2204",
+      "period_start": 2000,
+      "rows": 667
+    },
+    {
+      "subfield_id": "2204",
+      "period_start": 2005,
+      "rows": 1069
+    },
+    {
+      "subfield_id": "2204",
+      "period_start": 2010,
+      "rows": 1733
+    },
+    {
+      "subfield_id": "2204",
+      "period_start": 2015,
+      "rows": 1914
+    },
+    {
+      "subfield_id": "2204",
+      "period_start": 2020,
+      "rows": 2583
+    },
+    {
+      "subfield_id": "2205",
+      "period_start": 2000,
+      "rows": 378
+    },
+    {
+      "subfield_id": "2205",
+      "period_start": 2005,
+      "rows": 649
+    },
+    {
+      "subfield_id": "2205",
+      "period_start": 2010,
+      "rows": 1022
+    },
+    {
+      "subfield_id": "2205",
+      "period_start": 2015,
+      "rows": 962
+    },
+    {
+      "subfield_id": "2205",
+      "period_start": 2020,
+      "rows": 1374
+    },
+    {
+      "subfield_id": "2206",
+      "period_start": 2000,
+      "rows": 373
+    },
+    {
+      "subfield_id": "2206",
+      "period_start": 2005,
+      "rows": 484
+    },
+    {
+      "subfield_id": "2206",
+      "period_start": 2010,
+      "rows": 624
+    },
+    {
+      "subfield_id": "2206",
+      "period_start": 2015,
+      "rows": 585
+    },
+    {
+      "subfield_id": "2206",
+      "period_start": 2020,
+      "rows": 612
+    },
+    {
+      "subfield_id": "2207",
+      "period_start": 2000,
+      "rows": 780
+    },
+    {
+      "subfield_id": "2207",
+      "period_start": 2005,
+      "rows": 1427
+    },
+    {
+      "subfield_id": "2207",
+      "period_start": 2010,
+      "rows": 1664
+    },
+    {
+      "subfield_id": "2207",
+      "period_start": 2015,
+      "rows": 1224
+    },
+    {
+      "subfield_id": "2207",
+      "period_start": 2020,
+      "rows": 1538
+    },
+    {
+      "subfield_id": "2208",
+      "period_start": 2000,
+      "rows": 2051
+    },
+    {
+      "subfield_id": "2208",
+      "period_start": 2005,
+      "rows": 3028
+    },
+    {
+      "subfield_id": "2208",
+      "period_start": 2010,
+      "rows": 3841
+    },
+    {
+      "subfield_id": "2208",
+      "period_start": 2015,
+      "rows": 4196
+    },
+    {
+      "subfield_id": "2208",
+      "period_start": 2020,
+      "rows": 4858
+    },
+    {
+      "subfield_id": "2209",
+      "period_start": 2000,
+      "rows": 178
+    },
+    {
+      "subfield_id": "2209",
+      "period_start": 2005,
+      "rows": 287
+    },
+    {
+      "subfield_id": "2209",
+      "period_start": 2010,
+      "rows": 409
+    },
+    {
+      "subfield_id": "2209",
+      "period_start": 2015,
+      "rows": 385
+    },
+    {
+      "subfield_id": "2209",
+      "period_start": 2020,
+      "rows": 662
+    },
+    {
+      "subfield_id": "2210",
+      "period_start": 2000,
+      "rows": 647
+    },
+    {
+      "subfield_id": "2210",
+      "period_start": 2005,
+      "rows": 1108
+    },
+    {
+      "subfield_id": "2210",
+      "period_start": 2010,
+      "rows": 1526
+    },
+    {
+      "subfield_id": "2210",
+      "period_start": 2015,
+      "rows": 1514
+    },
+    {
+      "subfield_id": "2210",
+      "period_start": 2020,
+      "rows": 2009
+    },
+    {
+      "subfield_id": "2211",
+      "period_start": 2000,
+      "rows": 462
+    },
+    {
+      "subfield_id": "2211",
+      "period_start": 2005,
+      "rows": 713
+    },
+    {
+      "subfield_id": "2211",
+      "period_start": 2010,
+      "rows": 977
+    },
+    {
+      "subfield_id": "2211",
+      "period_start": 2015,
+      "rows": 736
+    },
+    {
+      "subfield_id": "2211",
+      "period_start": 2020,
+      "rows": 855
+    },
+    {
+      "subfield_id": "2212",
+      "period_start": 2000,
+      "rows": 277
+    },
+    {
+      "subfield_id": "2212",
+      "period_start": 2005,
+      "rows": 418
+    },
+    {
+      "subfield_id": "2212",
+      "period_start": 2010,
+      "rows": 599
+    },
+    {
+      "subfield_id": "2212",
+      "period_start": 2015,
+      "rows": 589
+    },
+    {
+      "subfield_id": "2212",
+      "period_start": 2020,
+      "rows": 694
+    },
+    {
+      "subfield_id": "2213",
+      "period_start": 2000,
+      "rows": 191
+    },
+    {
+      "subfield_id": "2213",
+      "period_start": 2005,
+      "rows": 367
+    },
+    {
+      "subfield_id": "2213",
+      "period_start": 2010,
+      "rows": 447
+    },
+    {
+      "subfield_id": "2213",
+      "period_start": 2015,
+      "rows": 229
+    },
+    {
+      "subfield_id": "2213",
+      "period_start": 2020,
+      "rows": 282
+    },
+    {
+      "subfield_id": "2214",
+      "period_start": 2000,
+      "rows": 120
+    },
+    {
+      "subfield_id": "2214",
+      "period_start": 2005,
+      "rows": 245
+    },
+    {
+      "subfield_id": "2214",
+      "period_start": 2010,
+      "rows": 313
+    },
+    {
+      "subfield_id": "2214",
+      "period_start": 2015,
+      "rows": 306
+    },
+    {
+      "subfield_id": "2214",
+      "period_start": 2020,
+      "rows": 453
+    },
+    {
+      "subfield_id": "2215",
+      "period_start": 2000,
+      "rows": 147
+    },
+    {
+      "subfield_id": "2215",
+      "period_start": 2005,
+      "rows": 313
+    },
+    {
+      "subfield_id": "2215",
+      "period_start": 2010,
+      "rows": 453
+    },
+    {
+      "subfield_id": "2215",
+      "period_start": 2015,
+      "rows": 509
+    },
+    {
+      "subfield_id": "2215",
+      "period_start": 2020,
+      "rows": 798
+    },
+    {
+      "subfield_id": "2216",
+      "period_start": 2000,
+      "rows": 19
+    },
+    {
+      "subfield_id": "2216",
+      "period_start": 2005,
+      "rows": 33
+    },
+    {
+      "subfield_id": "2216",
+      "period_start": 2010,
+      "rows": 38
+    },
+    {
+      "subfield_id": "2216",
+      "period_start": 2015,
+      "rows": 51
+    },
+    {
+      "subfield_id": "2216",
+      "period_start": 2020,
+      "rows": 74
+    },
+    {
+      "subfield_id": "2302",
+      "period_start": 2000,
+      "rows": 41
+    },
+    {
+      "subfield_id": "2302",
+      "period_start": 2005,
+      "rows": 105
+    },
+    {
+      "subfield_id": "2302",
+      "period_start": 2010,
+      "rows": 160
+    },
+    {
+      "subfield_id": "2302",
+      "period_start": 2015,
+      "rows": 72
+    },
+    {
+      "subfield_id": "2302",
+      "period_start": 2020,
+      "rows": 117
+    },
+    {
+      "subfield_id": "2303",
+      "period_start": 2000,
+      "rows": 452
+    },
+    {
+      "subfield_id": "2303",
+      "period_start": 2005,
+      "rows": 666
+    },
+    {
+      "subfield_id": "2303",
+      "period_start": 2010,
+      "rows": 810
+    },
+    {
+      "subfield_id": "2303",
+      "period_start": 2015,
+      "rows": 806
+    },
+    {
+      "subfield_id": "2303",
+      "period_start": 2020,
+      "rows": 1066
+    },
+    {
+      "subfield_id": "2304",
+      "period_start": 2000,
+      "rows": 150
+    },
+    {
+      "subfield_id": "2304",
+      "period_start": 2005,
+      "rows": 161
+    },
+    {
+      "subfield_id": "2304",
+      "period_start": 2010,
+      "rows": 204
+    },
+    {
+      "subfield_id": "2304",
+      "period_start": 2015,
+      "rows": 185
+    },
+    {
+      "subfield_id": "2304",
+      "period_start": 2020,
+      "rows": 258
+    },
+    {
+      "subfield_id": "2305",
+      "period_start": 2000,
+      "rows": 163
+    },
+    {
+      "subfield_id": "2305",
+      "period_start": 2005,
+      "rows": 191
+    },
+    {
+      "subfield_id": "2305",
+      "period_start": 2010,
+      "rows": 340
+    },
+    {
+      "subfield_id": "2305",
+      "period_start": 2015,
+      "rows": 397
+    },
+    {
+      "subfield_id": "2305",
+      "period_start": 2020,
+      "rows": 564
+    },
+    {
+      "subfield_id": "2306",
+      "period_start": 2000,
+      "rows": 340
+    },
+    {
+      "subfield_id": "2306",
+      "period_start": 2005,
+      "rows": 396
+    },
+    {
+      "subfield_id": "2306",
+      "period_start": 2010,
+      "rows": 639
+    },
+    {
+      "subfield_id": "2306",
+      "period_start": 2015,
+      "rows": 744
+    },
+    {
+      "subfield_id": "2306",
+      "period_start": 2020,
+      "rows": 1065
+    },
+    {
+      "subfield_id": "2307",
+      "period_start": 2000,
+      "rows": 180
+    },
+    {
+      "subfield_id": "2307",
+      "period_start": 2005,
+      "rows": 254
+    },
+    {
+      "subfield_id": "2307",
+      "period_start": 2010,
+      "rows": 308
+    },
+    {
+      "subfield_id": "2307",
+      "period_start": 2015,
+      "rows": 360
+    },
+    {
+      "subfield_id": "2307",
+      "period_start": 2020,
+      "rows": 590
+    },
+    {
+      "subfield_id": "2308",
+      "period_start": 2000,
+      "rows": 137
+    },
+    {
+      "subfield_id": "2308",
+      "period_start": 2005,
+      "rows": 179
+    },
+    {
+      "subfield_id": "2308",
+      "period_start": 2010,
+      "rows": 297
+    },
+    {
+      "subfield_id": "2308",
+      "period_start": 2015,
+      "rows": 351
+    },
+    {
+      "subfield_id": "2308",
+      "period_start": 2020,
+      "rows": 644
+    },
+    {
+      "subfield_id": "2309",
+      "period_start": 2000,
+      "rows": 200
+    },
+    {
+      "subfield_id": "2309",
+      "period_start": 2005,
+      "rows": 215
+    },
+    {
+      "subfield_id": "2309",
+      "period_start": 2010,
+      "rows": 274
+    },
+    {
+      "subfield_id": "2309",
+      "period_start": 2015,
+      "rows": 271
+    },
+    {
+      "subfield_id": "2309",
+      "period_start": 2020,
+      "rows": 326
+    },
+    {
+      "subfield_id": "2310",
+      "period_start": 2000,
+      "rows": 133
+    },
+    {
+      "subfield_id": "2310",
+      "period_start": 2005,
+      "rows": 180
+    },
+    {
+      "subfield_id": "2310",
+      "period_start": 2010,
+      "rows": 212
+    },
+    {
+      "subfield_id": "2310",
+      "period_start": 2015,
+      "rows": 226
+    },
+    {
+      "subfield_id": "2310",
+      "period_start": 2020,
+      "rows": 436
+    },
+    {
+      "subfield_id": "2311",
+      "period_start": 2000,
+      "rows": 123
+    },
+    {
+      "subfield_id": "2311",
+      "period_start": 2005,
+      "rows": 177
+    },
+    {
+      "subfield_id": "2311",
+      "period_start": 2010,
+      "rows": 211
+    },
+    {
+      "subfield_id": "2311",
+      "period_start": 2015,
+      "rows": 172
+    },
+    {
+      "subfield_id": "2311",
+      "period_start": 2020,
+      "rows": 290
+    },
+    {
+      "subfield_id": "2312",
+      "period_start": 2000,
+      "rows": 247
+    },
+    {
+      "subfield_id": "2312",
+      "period_start": 2005,
+      "rows": 352
+    },
+    {
+      "subfield_id": "2312",
+      "period_start": 2010,
+      "rows": 550
+    },
+    {
+      "subfield_id": "2312",
+      "period_start": 2015,
+      "rows": 434
+    },
+    {
+      "subfield_id": "2312",
+      "period_start": 2020,
+      "rows": 563
+    },
+    {
+      "subfield_id": "2402",
+      "period_start": 2000,
+      "rows": 27
+    },
+    {
+      "subfield_id": "2402",
+      "period_start": 2005,
+      "rows": 27
+    },
+    {
+      "subfield_id": "2402",
+      "period_start": 2010,
+      "rows": 62
+    },
+    {
+      "subfield_id": "2402",
+      "period_start": 2015,
+      "rows": 102
+    },
+    {
+      "subfield_id": "2402",
+      "period_start": 2020,
+      "rows": 152
+    },
+    {
+      "subfield_id": "2403",
+      "period_start": 2000,
+      "rows": 1266
+    },
+    {
+      "subfield_id": "2403",
+      "period_start": 2005,
+      "rows": 1266
+    },
+    {
+      "subfield_id": "2403",
+      "period_start": 2010,
+      "rows": 1235
+    },
+    {
+      "subfield_id": "2403",
+      "period_start": 2015,
+      "rows": 1208
+    },
+    {
+      "subfield_id": "2403",
+      "period_start": 2020,
+      "rows": 1203
+    },
+    {
+      "subfield_id": "2404",
+      "period_start": 2000,
+      "rows": 309
+    },
+    {
+      "subfield_id": "2404",
+      "period_start": 2005,
+      "rows": 332
+    },
+    {
+      "subfield_id": "2404",
+      "period_start": 2010,
+      "rows": 327
+    },
+    {
+      "subfield_id": "2404",
+      "period_start": 2015,
+      "rows": 326
+    },
+    {
+      "subfield_id": "2404",
+      "period_start": 2020,
+      "rows": 284
+    },
+    {
+      "subfield_id": "2405",
+      "period_start": 2000,
+      "rows": 285
+    },
+    {
+      "subfield_id": "2405",
+      "period_start": 2005,
+      "rows": 286
+    },
+    {
+      "subfield_id": "2405",
+      "period_start": 2010,
+      "rows": 316
+    },
+    {
+      "subfield_id": "2405",
+      "period_start": 2015,
+      "rows": 341
+    },
+    {
+      "subfield_id": "2405",
+      "period_start": 2020,
+      "rows": 335
+    },
+    {
+      "subfield_id": "2406",
+      "period_start": 2000,
+      "rows": 279
+    },
+    {
+      "subfield_id": "2406",
+      "period_start": 2005,
+      "rows": 255
+    },
+    {
+      "subfield_id": "2406",
+      "period_start": 2010,
+      "rows": 226
+    },
+    {
+      "subfield_id": "2406",
+      "period_start": 2015,
+      "rows": 189
+    },
+    {
+      "subfield_id": "2406",
+      "period_start": 2020,
+      "rows": 192
+    },
+    {
+      "subfield_id": "2500",
+      "period_start": 2000,
+      "rows": 30
+    },
+    {
+      "subfield_id": "2500",
+      "period_start": 2005,
+      "rows": 29
+    },
+    {
+      "subfield_id": "2500",
+      "period_start": 2010,
+      "rows": 34
+    },
+    {
+      "subfield_id": "2500",
+      "period_start": 2015,
+      "rows": 57
+    },
+    {
+      "subfield_id": "2500",
+      "period_start": 2020,
+      "rows": 87
+    },
+    {
+      "subfield_id": "2502",
+      "period_start": 2000,
+      "rows": 158
+    },
+    {
+      "subfield_id": "2502",
+      "period_start": 2005,
+      "rows": 208
+    },
+    {
+      "subfield_id": "2502",
+      "period_start": 2010,
+      "rows": 336
+    },
+    {
+      "subfield_id": "2502",
+      "period_start": 2015,
+      "rows": 393
+    },
+    {
+      "subfield_id": "2502",
+      "period_start": 2020,
+      "rows": 511
+    },
+    {
+      "subfield_id": "2503",
+      "period_start": 2000,
+      "rows": 82
+    },
+    {
+      "subfield_id": "2503",
+      "period_start": 2005,
+      "rows": 76
+    },
+    {
+      "subfield_id": "2503",
+      "period_start": 2010,
+      "rows": 65
+    },
+    {
+      "subfield_id": "2503",
+      "period_start": 2015,
+      "rows": 70
+    },
+    {
+      "subfield_id": "2503",
+      "period_start": 2020,
+      "rows": 58
+    },
+    {
+      "subfield_id": "2504",
+      "period_start": 2000,
+      "rows": 329
+    },
+    {
+      "subfield_id": "2504",
+      "period_start": 2005,
+      "rows": 273
+    },
+    {
+      "subfield_id": "2504",
+      "period_start": 2010,
+      "rows": 410
+    },
+    {
+      "subfield_id": "2504",
+      "period_start": 2015,
+      "rows": 491
+    },
+    {
+      "subfield_id": "2504",
+      "period_start": 2020,
+      "rows": 497
+    },
+    {
+      "subfield_id": "2505",
+      "period_start": 2000,
+      "rows": 1146
+    },
+    {
+      "subfield_id": "2505",
+      "period_start": 2005,
+      "rows": 1170
+    },
+    {
+      "subfield_id": "2505",
+      "period_start": 2010,
+      "rows": 1602
+    },
+    {
+      "subfield_id": "2505",
+      "period_start": 2015,
+      "rows": 1702
+    },
+    {
+      "subfield_id": "2505",
+      "period_start": 2020,
+      "rows": 2124
+    },
+    {
+      "subfield_id": "2506",
+      "period_start": 2000,
+      "rows": 13
+    },
+    {
+      "subfield_id": "2506",
+      "period_start": 2005,
+      "rows": 18
+    },
+    {
+      "subfield_id": "2506",
+      "period_start": 2010,
+      "rows": 26
+    },
+    {
+      "subfield_id": "2506",
+      "period_start": 2015,
+      "rows": 20
+    },
+    {
+      "subfield_id": "2506",
+      "period_start": 2020,
+      "rows": 21
+    },
+    {
+      "subfield_id": "2507",
+      "period_start": 2000,
+      "rows": 310
+    },
+    {
+      "subfield_id": "2507",
+      "period_start": 2005,
+      "rows": 296
+    },
+    {
+      "subfield_id": "2507",
+      "period_start": 2010,
+      "rows": 361
+    },
+    {
+      "subfield_id": "2507",
+      "period_start": 2015,
+      "rows": 306
+    },
+    {
+      "subfield_id": "2507",
+      "period_start": 2020,
+      "rows": 379
+    },
+    {
+      "subfield_id": "2508",
+      "period_start": 2000,
+      "rows": 98
+    },
+    {
+      "subfield_id": "2508",
+      "period_start": 2005,
+      "rows": 96
+    },
+    {
+      "subfield_id": "2508",
+      "period_start": 2010,
+      "rows": 128
+    },
+    {
+      "subfield_id": "2508",
+      "period_start": 2015,
+      "rows": 113
+    },
+    {
+      "subfield_id": "2508",
+      "period_start": 2020,
+      "rows": 110
+    },
+    {
+      "subfield_id": "2602",
+      "period_start": 2000,
+      "rows": 124
+    },
+    {
+      "subfield_id": "2602",
+      "period_start": 2005,
+      "rows": 120
+    },
+    {
+      "subfield_id": "2602",
+      "period_start": 2010,
+      "rows": 114
+    },
+    {
+      "subfield_id": "2602",
+      "period_start": 2015,
+      "rows": 119
+    },
+    {
+      "subfield_id": "2602",
+      "period_start": 2020,
+      "rows": 100
+    },
+    {
+      "subfield_id": "2604",
+      "period_start": 2000,
+      "rows": 428
+    },
+    {
+      "subfield_id": "2604",
+      "period_start": 2005,
+      "rows": 444
+    },
+    {
+      "subfield_id": "2604",
+      "period_start": 2010,
+      "rows": 401
+    },
+    {
+      "subfield_id": "2604",
+      "period_start": 2015,
+      "rows": 481
+    },
+    {
+      "subfield_id": "2604",
+      "period_start": 2020,
+      "rows": 515
+    },
+    {
+      "subfield_id": "2605",
+      "period_start": 2000,
+      "rows": 3
+    },
+    {
+      "subfield_id": "2605",
+      "period_start": 2005,
+      "rows": 14
+    },
+    {
+      "subfield_id": "2605",
+      "period_start": 2010,
+      "rows": 11
+    },
+    {
+      "subfield_id": "2605",
+      "period_start": 2015,
+      "rows": 23
+    },
+    {
+      "subfield_id": "2605",
+      "period_start": 2020,
+      "rows": 27
+    },
+    {
+      "subfield_id": "2607",
+      "period_start": 2000,
+      "rows": 89
+    },
+    {
+      "subfield_id": "2607",
+      "period_start": 2005,
+      "rows": 106
+    },
+    {
+      "subfield_id": "2607",
+      "period_start": 2010,
+      "rows": 95
+    },
+    {
+      "subfield_id": "2607",
+      "period_start": 2015,
+      "rows": 80
+    },
+    {
+      "subfield_id": "2607",
+      "period_start": 2020,
+      "rows": 52
+    },
+    {
+      "subfield_id": "2608",
+      "period_start": 2000,
+      "rows": 370
+    },
+    {
+      "subfield_id": "2608",
+      "period_start": 2005,
+      "rows": 349
+    },
+    {
+      "subfield_id": "2608",
+      "period_start": 2010,
+      "rows": 339
+    },
+    {
+      "subfield_id": "2608",
+      "period_start": 2015,
+      "rows": 355
+    },
+    {
+      "subfield_id": "2608",
+      "period_start": 2020,
+      "rows": 289
+    },
+    {
+      "subfield_id": "2610",
+      "period_start": 2000,
+      "rows": 373
+    },
+    {
+      "subfield_id": "2610",
+      "period_start": 2005,
+      "rows": 344
+    },
+    {
+      "subfield_id": "2610",
+      "period_start": 2010,
+      "rows": 297
+    },
+    {
+      "subfield_id": "2610",
+      "period_start": 2015,
+      "rows": 280
+    },
+    {
+      "subfield_id": "2610",
+      "period_start": 2020,
+      "rows": 225
+    },
+    {
+      "subfield_id": "2611",
+      "period_start": 2000,
+      "rows": 117
+    },
+    {
+      "subfield_id": "2611",
+      "period_start": 2005,
+      "rows": 126
+    },
+    {
+      "subfield_id": "2611",
+      "period_start": 2010,
+      "rows": 202
+    },
+    {
+      "subfield_id": "2611",
+      "period_start": 2015,
+      "rows": 173
+    },
+    {
+      "subfield_id": "2611",
+      "period_start": 2020,
+      "rows": 415
+    },
+    {
+      "subfield_id": "2612",
+      "period_start": 2000,
+      "rows": 162
+    },
+    {
+      "subfield_id": "2612",
+      "period_start": 2005,
+      "rows": 161
+    },
+    {
+      "subfield_id": "2612",
+      "period_start": 2010,
+      "rows": 158
+    },
+    {
+      "subfield_id": "2612",
+      "period_start": 2015,
+      "rows": 127
+    },
+    {
+      "subfield_id": "2612",
+      "period_start": 2020,
+      "rows": 101
+    },
+    {
+      "subfield_id": "2613",
+      "period_start": 2000,
+      "rows": 474
+    },
+    {
+      "subfield_id": "2613",
+      "period_start": 2005,
+      "rows": 479
+    },
+    {
+      "subfield_id": "2613",
+      "period_start": 2010,
+      "rows": 530
+    },
+    {
+      "subfield_id": "2613",
+      "period_start": 2015,
+      "rows": 513
+    },
+    {
+      "subfield_id": "2613",
+      "period_start": 2020,
+      "rows": 423
+    },
+    {
+      "subfield_id": "2614",
+      "period_start": 2000,
+      "rows": 26
+    },
+    {
+      "subfield_id": "2614",
+      "period_start": 2005,
+      "rows": 23
+    },
+    {
+      "subfield_id": "2614",
+      "period_start": 2010,
+      "rows": 19
+    },
+    {
+      "subfield_id": "2614",
+      "period_start": 2015,
+      "rows": 15
+    },
+    {
+      "subfield_id": "2614",
+      "period_start": 2020,
+      "rows": 19
+    },
+    {
+      "subfield_id": "2702",
+      "period_start": 2000,
+      "rows": 5
+    },
+    {
+      "subfield_id": "2702",
+      "period_start": 2005,
+      "rows": 11
+    },
+    {
+      "subfield_id": "2702",
+      "period_start": 2010,
+      "rows": 14
+    },
+    {
+      "subfield_id": "2702",
+      "period_start": 2015,
+      "rows": 36
+    },
+    {
+      "subfield_id": "2702",
+      "period_start": 2020,
+      "rows": 53
+    },
+    {
+      "subfield_id": "2703",
+      "period_start": 2000,
+      "rows": 61
+    },
+    {
+      "subfield_id": "2703",
+      "period_start": 2005,
+      "rows": 75
+    },
+    {
+      "subfield_id": "2703",
+      "period_start": 2010,
+      "rows": 125
+    },
+    {
+      "subfield_id": "2703",
+      "period_start": 2015,
+      "rows": 133
+    },
+    {
+      "subfield_id": "2703",
+      "period_start": 2020,
+      "rows": 121
+    },
+    {
+      "subfield_id": "2704",
+      "period_start": 2000,
+      "rows": 48
+    },
+    {
+      "subfield_id": "2704",
+      "period_start": 2005,
+      "rows": 69
+    },
+    {
+      "subfield_id": "2704",
+      "period_start": 2010,
+      "rows": 109
+    },
+    {
+      "subfield_id": "2704",
+      "period_start": 2015,
+      "rows": 108
+    },
+    {
+      "subfield_id": "2704",
+      "period_start": 2020,
+      "rows": 160
+    },
+    {
+      "subfield_id": "2705",
+      "period_start": 2000,
+      "rows": 405
+    },
+    {
+      "subfield_id": "2705",
+      "period_start": 2005,
+      "rows": 569
+    },
+    {
+      "subfield_id": "2705",
+      "period_start": 2010,
+      "rows": 806
+    },
+    {
+      "subfield_id": "2705",
+      "period_start": 2015,
+      "rows": 957
+    },
+    {
+      "subfield_id": "2705",
+      "period_start": 2020,
+      "rows": 1335
+    },
+    {
+      "subfield_id": "2706",
+      "period_start": 2000,
+      "rows": 27
+    },
+    {
+      "subfield_id": "2706",
+      "period_start": 2005,
+      "rows": 46
+    },
+    {
+      "subfield_id": "2706",
+      "period_start": 2010,
+      "rows": 93
+    },
+    {
+      "subfield_id": "2706",
+      "period_start": 2015,
+      "rows": 109
+    },
+    {
+      "subfield_id": "2706",
+      "period_start": 2020,
+      "rows": 176
+    },
+    {
+      "subfield_id": "2707",
+      "period_start": 2000,
+      "rows": 141
+    },
+    {
+      "subfield_id": "2707",
+      "period_start": 2005,
+      "rows": 331
+    },
+    {
+      "subfield_id": "2707",
+      "period_start": 2010,
+      "rows": 587
+    },
+    {
+      "subfield_id": "2707",
+      "period_start": 2015,
+      "rows": 332
+    },
+    {
+      "subfield_id": "2707",
+      "period_start": 2020,
+      "rows": 400
+    },
+    {
+      "subfield_id": "2708",
+      "period_start": 2000,
+      "rows": 81
+    },
+    {
+      "subfield_id": "2708",
+      "period_start": 2005,
+      "rows": 134
+    },
+    {
+      "subfield_id": "2708",
+      "period_start": 2010,
+      "rows": 148
+    },
+    {
+      "subfield_id": "2708",
+      "period_start": 2015,
+      "rows": 199
+    },
+    {
+      "subfield_id": "2708",
+      "period_start": 2020,
+      "rows": 325
+    },
+    {
+      "subfield_id": "2711",
+      "period_start": 2000,
+      "rows": 77
+    },
+    {
+      "subfield_id": "2711",
+      "period_start": 2005,
+      "rows": 104
+    },
+    {
+      "subfield_id": "2711",
+      "period_start": 2010,
+      "rows": 152
+    },
+    {
+      "subfield_id": "2711",
+      "period_start": 2015,
+      "rows": 242
+    },
+    {
+      "subfield_id": "2711",
+      "period_start": 2020,
+      "rows": 286
+    },
+    {
+      "subfield_id": "2712",
+      "period_start": 2000,
+      "rows": 221
+    },
+    {
+      "subfield_id": "2712",
+      "period_start": 2005,
+      "rows": 350
+    },
+    {
+      "subfield_id": "2712",
+      "period_start": 2010,
+      "rows": 482
+    },
+    {
+      "subfield_id": "2712",
+      "period_start": 2015,
+      "rows": 618
+    },
+    {
+      "subfield_id": "2712",
+      "period_start": 2020,
+      "rows": 812
+    },
+    {
+      "subfield_id": "2713",
+      "period_start": 2000,
+      "rows": 532
+    },
+    {
+      "subfield_id": "2713",
+      "period_start": 2005,
+      "rows": 850
+    },
+    {
+      "subfield_id": "2713",
+      "period_start": 2010,
+      "rows": 1320
+    },
+    {
+      "subfield_id": "2713",
+      "period_start": 2015,
+      "rows": 1440
+    },
+    {
+      "subfield_id": "2713",
+      "period_start": 2020,
+      "rows": 2024
+    },
+    {
+      "subfield_id": "2714",
+      "period_start": 2000,
+      "rows": 12
+    },
+    {
+      "subfield_id": "2714",
+      "period_start": 2005,
+      "rows": 17
+    },
+    {
+      "subfield_id": "2714",
+      "period_start": 2010,
+      "rows": 30
+    },
+    {
+      "subfield_id": "2714",
+      "period_start": 2015,
+      "rows": 34
+    },
+    {
+      "subfield_id": "2714",
+      "period_start": 2020,
+      "rows": 61
+    },
+    {
+      "subfield_id": "2715",
+      "period_start": 2000,
+      "rows": 53
+    },
+    {
+      "subfield_id": "2715",
+      "period_start": 2005,
+      "rows": 94
+    },
+    {
+      "subfield_id": "2715",
+      "period_start": 2010,
+      "rows": 115
+    },
+    {
+      "subfield_id": "2715",
+      "period_start": 2015,
+      "rows": 122
+    },
+    {
+      "subfield_id": "2715",
+      "period_start": 2020,
+      "rows": 156
+    },
+    {
+      "subfield_id": "2716",
+      "period_start": 2000,
+      "rows": 92
+    },
+    {
+      "subfield_id": "2716",
+      "period_start": 2005,
+      "rows": 166
+    },
+    {
+      "subfield_id": "2716",
+      "period_start": 2010,
+      "rows": 286
+    },
+    {
+      "subfield_id": "2716",
+      "period_start": 2015,
+      "rows": 321
+    },
+    {
+      "subfield_id": "2716",
+      "period_start": 2020,
+      "rows": 390
+    },
+    {
+      "subfield_id": "2717",
+      "period_start": 2000,
+      "rows": 16
+    },
+    {
+      "subfield_id": "2717",
+      "period_start": 2005,
+      "rows": 37
+    },
+    {
+      "subfield_id": "2717",
+      "period_start": 2010,
+      "rows": 64
+    },
+    {
+      "subfield_id": "2717",
+      "period_start": 2015,
+      "rows": 123
+    },
+    {
+      "subfield_id": "2717",
+      "period_start": 2020,
+      "rows": 159
+    },
+    {
+      "subfield_id": "2718",
+      "period_start": 2005,
+      "rows": 2
+    },
+    {
+      "subfield_id": "2718",
+      "period_start": 2010,
+      "rows": 1
+    },
+    {
+      "subfield_id": "2718",
+      "period_start": 2015,
+      "rows": 4
+    },
+    {
+      "subfield_id": "2718",
+      "period_start": 2020,
+      "rows": 87
+    },
+    {
+      "subfield_id": "2720",
+      "period_start": 2000,
+      "rows": 168
+    },
+    {
+      "subfield_id": "2720",
+      "period_start": 2005,
+      "rows": 284
+    },
+    {
+      "subfield_id": "2720",
+      "period_start": 2010,
+      "rows": 313
+    },
+    {
+      "subfield_id": "2720",
+      "period_start": 2015,
+      "rows": 336
+    },
+    {
+      "subfield_id": "2720",
+      "period_start": 2020,
+      "rows": 445
+    },
+    {
+      "subfield_id": "2721",
+      "period_start": 2000,
+      "rows": 109
+    },
+    {
+      "subfield_id": "2721",
+      "period_start": 2005,
+      "rows": 147
+    },
+    {
+      "subfield_id": "2721",
+      "period_start": 2010,
+      "rows": 237
+    },
+    {
+      "subfield_id": "2721",
+      "period_start": 2015,
+      "rows": 269
+    },
+    {
+      "subfield_id": "2721",
+      "period_start": 2020,
+      "rows": 248
+    },
+    {
+      "subfield_id": "2723",
+      "period_start": 2000,
+      "rows": 81
+    },
+    {
+      "subfield_id": "2723",
+      "period_start": 2005,
+      "rows": 100
+    },
+    {
+      "subfield_id": "2723",
+      "period_start": 2010,
+      "rows": 90
+    },
+    {
+      "subfield_id": "2723",
+      "period_start": 2015,
+      "rows": 85
+    },
+    {
+      "subfield_id": "2723",
+      "period_start": 2020,
+      "rows": 87
+    },
+    {
+      "subfield_id": "2724",
+      "period_start": 2000,
+      "rows": 32
+    },
+    {
+      "subfield_id": "2724",
+      "period_start": 2005,
+      "rows": 32
+    },
+    {
+      "subfield_id": "2724",
+      "period_start": 2010,
+      "rows": 50
+    },
+    {
+      "subfield_id": "2724",
+      "period_start": 2015,
+      "rows": 67
+    },
+    {
+      "subfield_id": "2724",
+      "period_start": 2020,
+      "rows": 86
+    },
+    {
+      "subfield_id": "2725",
+      "period_start": 2000,
+      "rows": 212
+    },
+    {
+      "subfield_id": "2725",
+      "period_start": 2005,
+      "rows": 361
+    },
+    {
+      "subfield_id": "2725",
+      "period_start": 2010,
+      "rows": 482
+    },
+    {
+      "subfield_id": "2725",
+      "period_start": 2015,
+      "rows": 630
+    },
+    {
+      "subfield_id": "2725",
+      "period_start": 2020,
+      "rows": 1385
+    },
+    {
+      "subfield_id": "2726",
+      "period_start": 2000,
+      "rows": 4
+    },
+    {
+      "subfield_id": "2726",
+      "period_start": 2005,
+      "rows": 5
+    },
+    {
+      "subfield_id": "2726",
+      "period_start": 2010,
+      "rows": 5
+    },
+    {
+      "subfield_id": "2726",
+      "period_start": 2015,
+      "rows": 9
+    },
+    {
+      "subfield_id": "2726",
+      "period_start": 2020,
+      "rows": 14
+    },
+    {
+      "subfield_id": "2727",
+      "period_start": 2000,
+      "rows": 79
+    },
+    {
+      "subfield_id": "2727",
+      "period_start": 2005,
+      "rows": 146
+    },
+    {
+      "subfield_id": "2727",
+      "period_start": 2010,
+      "rows": 192
+    },
+    {
+      "subfield_id": "2727",
+      "period_start": 2015,
+      "rows": 239
+    },
+    {
+      "subfield_id": "2727",
+      "period_start": 2020,
+      "rows": 328
+    },
+    {
+      "subfield_id": "2728",
+      "period_start": 2000,
+      "rows": 221
+    },
+    {
+      "subfield_id": "2728",
+      "period_start": 2005,
+      "rows": 293
+    },
+    {
+      "subfield_id": "2728",
+      "period_start": 2010,
+      "rows": 390
+    },
+    {
+      "subfield_id": "2728",
+      "period_start": 2015,
+      "rows": 478
+    },
+    {
+      "subfield_id": "2728",
+      "period_start": 2020,
+      "rows": 737
+    },
+    {
+      "subfield_id": "2729",
+      "period_start": 2000,
+      "rows": 77
+    },
+    {
+      "subfield_id": "2729",
+      "period_start": 2005,
+      "rows": 149
+    },
+    {
+      "subfield_id": "2729",
+      "period_start": 2010,
+      "rows": 226
+    },
+    {
+      "subfield_id": "2729",
+      "period_start": 2015,
+      "rows": 254
+    },
+    {
+      "subfield_id": "2729",
+      "period_start": 2020,
+      "rows": 428
+    },
+    {
+      "subfield_id": "2730",
+      "period_start": 2000,
+      "rows": 350
+    },
+    {
+      "subfield_id": "2730",
+      "period_start": 2005,
+      "rows": 513
+    },
+    {
+      "subfield_id": "2730",
+      "period_start": 2010,
+      "rows": 743
+    },
+    {
+      "subfield_id": "2730",
+      "period_start": 2015,
+      "rows": 935
+    },
+    {
+      "subfield_id": "2730",
+      "period_start": 2020,
+      "rows": 1357
+    },
+    {
+      "subfield_id": "2731",
+      "period_start": 2000,
+      "rows": 116
+    },
+    {
+      "subfield_id": "2731",
+      "period_start": 2005,
+      "rows": 122
+    },
+    {
+      "subfield_id": "2731",
+      "period_start": 2010,
+      "rows": 235
+    },
+    {
+      "subfield_id": "2731",
+      "period_start": 2015,
+      "rows": 314
+    },
+    {
+      "subfield_id": "2731",
+      "period_start": 2020,
+      "rows": 430
+    },
+    {
+      "subfield_id": "2732",
+      "period_start": 2000,
+      "rows": 77
+    },
+    {
+      "subfield_id": "2732",
+      "period_start": 2005,
+      "rows": 147
+    },
+    {
+      "subfield_id": "2732",
+      "period_start": 2010,
+      "rows": 191
+    },
+    {
+      "subfield_id": "2732",
+      "period_start": 2015,
+      "rows": 322
+    },
+    {
+      "subfield_id": "2732",
+      "period_start": 2020,
+      "rows": 392
+    },
+    {
+      "subfield_id": "2733",
+      "period_start": 2000,
+      "rows": 53
+    },
+    {
+      "subfield_id": "2733",
+      "period_start": 2005,
+      "rows": 77
+    },
+    {
+      "subfield_id": "2733",
+      "period_start": 2010,
+      "rows": 101
+    },
+    {
+      "subfield_id": "2733",
+      "period_start": 2015,
+      "rows": 129
+    },
+    {
+      "subfield_id": "2733",
+      "period_start": 2020,
+      "rows": 158
+    },
+    {
+      "subfield_id": "2734",
+      "period_start": 2000,
+      "rows": 236
+    },
+    {
+      "subfield_id": "2734",
+      "period_start": 2005,
+      "rows": 335
+    },
+    {
+      "subfield_id": "2734",
+      "period_start": 2010,
+      "rows": 505
+    },
+    {
+      "subfield_id": "2734",
+      "period_start": 2015,
+      "rows": 618
+    },
+    {
+      "subfield_id": "2734",
+      "period_start": 2020,
+      "rows": 744
+    },
+    {
+      "subfield_id": "2735",
+      "period_start": 2000,
+      "rows": 196
+    },
+    {
+      "subfield_id": "2735",
+      "period_start": 2005,
+      "rows": 275
+    },
+    {
+      "subfield_id": "2735",
+      "period_start": 2010,
+      "rows": 420
+    },
+    {
+      "subfield_id": "2735",
+      "period_start": 2015,
+      "rows": 639
+    },
+    {
+      "subfield_id": "2735",
+      "period_start": 2020,
+      "rows": 987
+    },
+    {
+      "subfield_id": "2736",
+      "period_start": 2000,
+      "rows": 201
+    },
+    {
+      "subfield_id": "2736",
+      "period_start": 2005,
+      "rows": 314
+    },
+    {
+      "subfield_id": "2736",
+      "period_start": 2010,
+      "rows": 479
+    },
+    {
+      "subfield_id": "2736",
+      "period_start": 2015,
+      "rows": 426
+    },
+    {
+      "subfield_id": "2736",
+      "period_start": 2020,
+      "rows": 632
+    },
+    {
+      "subfield_id": "2737",
+      "period_start": 2000,
+      "rows": 419
+    },
+    {
+      "subfield_id": "2737",
+      "period_start": 2005,
+      "rows": 545
+    },
+    {
+      "subfield_id": "2737",
+      "period_start": 2010,
+      "rows": 743
+    },
+    {
+      "subfield_id": "2737",
+      "period_start": 2015,
+      "rows": 965
+    },
+    {
+      "subfield_id": "2737",
+      "period_start": 2020,
+      "rows": 1303
+    },
+    {
+      "subfield_id": "2738",
+      "period_start": 2000,
+      "rows": 204
+    },
+    {
+      "subfield_id": "2738",
+      "period_start": 2005,
+      "rows": 365
+    },
+    {
+      "subfield_id": "2738",
+      "period_start": 2010,
+      "rows": 415
+    },
+    {
+      "subfield_id": "2738",
+      "period_start": 2015,
+      "rows": 526
+    },
+    {
+      "subfield_id": "2738",
+      "period_start": 2020,
+      "rows": 775
+    },
+    {
+      "subfield_id": "2739",
+      "period_start": 2000,
+      "rows": 370
+    },
+    {
+      "subfield_id": "2739",
+      "period_start": 2005,
+      "rows": 635
+    },
+    {
+      "subfield_id": "2739",
+      "period_start": 2010,
+      "rows": 1043
+    },
+    {
+      "subfield_id": "2739",
+      "period_start": 2015,
+      "rows": 1274
+    },
+    {
+      "subfield_id": "2739",
+      "period_start": 2020,
+      "rows": 1789
+    },
+    {
+      "subfield_id": "2740",
+      "period_start": 2000,
+      "rows": 522
+    },
+    {
+      "subfield_id": "2740",
+      "period_start": 2005,
+      "rows": 855
+    },
+    {
+      "subfield_id": "2740",
+      "period_start": 2010,
+      "rows": 1179
+    },
+    {
+      "subfield_id": "2740",
+      "period_start": 2015,
+      "rows": 1353
+    },
+    {
+      "subfield_id": "2740",
+      "period_start": 2020,
+      "rows": 1974
+    },
+    {
+      "subfield_id": "2741",
+      "period_start": 2000,
+      "rows": 338
+    },
+    {
+      "subfield_id": "2741",
+      "period_start": 2005,
+      "rows": 518
+    },
+    {
+      "subfield_id": "2741",
+      "period_start": 2010,
+      "rows": 691
+    },
+    {
+      "subfield_id": "2741",
+      "period_start": 2015,
+      "rows": 766
+    },
+    {
+      "subfield_id": "2741",
+      "period_start": 2020,
+      "rows": 1101
+    },
+    {
+      "subfield_id": "2742",
+      "period_start": 2000,
+      "rows": 40
+    },
+    {
+      "subfield_id": "2742",
+      "period_start": 2005,
+      "rows": 82
+    },
+    {
+      "subfield_id": "2742",
+      "period_start": 2010,
+      "rows": 134
+    },
+    {
+      "subfield_id": "2742",
+      "period_start": 2015,
+      "rows": 168
+    },
+    {
+      "subfield_id": "2742",
+      "period_start": 2020,
+      "rows": 239
+    },
+    {
+      "subfield_id": "2743",
+      "period_start": 2000,
+      "rows": 120
+    },
+    {
+      "subfield_id": "2743",
+      "period_start": 2005,
+      "rows": 140
+    },
+    {
+      "subfield_id": "2743",
+      "period_start": 2010,
+      "rows": 186
+    },
+    {
+      "subfield_id": "2743",
+      "period_start": 2015,
+      "rows": 270
+    },
+    {
+      "subfield_id": "2743",
+      "period_start": 2020,
+      "rows": 337
+    },
+    {
+      "subfield_id": "2745",
+      "period_start": 2000,
+      "rows": 192
+    },
+    {
+      "subfield_id": "2745",
+      "period_start": 2005,
+      "rows": 295
+    },
+    {
+      "subfield_id": "2745",
+      "period_start": 2010,
+      "rows": 404
+    },
+    {
+      "subfield_id": "2745",
+      "period_start": 2015,
+      "rows": 431
+    },
+    {
+      "subfield_id": "2745",
+      "period_start": 2020,
+      "rows": 600
+    },
+    {
+      "subfield_id": "2746",
+      "period_start": 2000,
+      "rows": 851
+    },
+    {
+      "subfield_id": "2746",
+      "period_start": 2005,
+      "rows": 1241
+    },
+    {
+      "subfield_id": "2746",
+      "period_start": 2010,
+      "rows": 1793
+    },
+    {
+      "subfield_id": "2746",
+      "period_start": 2015,
+      "rows": 2136
+    },
+    {
+      "subfield_id": "2746",
+      "period_start": 2020,
+      "rows": 2837
+    },
+    {
+      "subfield_id": "2747",
+      "period_start": 2000,
+      "rows": 27
+    },
+    {
+      "subfield_id": "2747",
+      "period_start": 2005,
+      "rows": 32
+    },
+    {
+      "subfield_id": "2747",
+      "period_start": 2010,
+      "rows": 55
+    },
+    {
+      "subfield_id": "2747",
+      "period_start": 2015,
+      "rows": 69
+    },
+    {
+      "subfield_id": "2747",
+      "period_start": 2020,
+      "rows": 43
+    },
+    {
+      "subfield_id": "2748",
+      "period_start": 2000,
+      "rows": 62
+    },
+    {
+      "subfield_id": "2748",
+      "period_start": 2005,
+      "rows": 83
+    },
+    {
+      "subfield_id": "2748",
+      "period_start": 2010,
+      "rows": 137
+    },
+    {
+      "subfield_id": "2748",
+      "period_start": 2015,
+      "rows": 143
+    },
+    {
+      "subfield_id": "2748",
+      "period_start": 2020,
+      "rows": 194
+    },
+    {
+      "subfield_id": "2802",
+      "period_start": 2000,
+      "rows": 52
+    },
+    {
+      "subfield_id": "2802",
+      "period_start": 2005,
+      "rows": 76
+    },
+    {
+      "subfield_id": "2802",
+      "period_start": 2010,
+      "rows": 49
+    },
+    {
+      "subfield_id": "2802",
+      "period_start": 2015,
+      "rows": 56
+    },
+    {
+      "subfield_id": "2802",
+      "period_start": 2020,
+      "rows": 46
+    },
+    {
+      "subfield_id": "2803",
+      "period_start": 2000,
+      "rows": 11
+    },
+    {
+      "subfield_id": "2803",
+      "period_start": 2005,
+      "rows": 27
+    },
+    {
+      "subfield_id": "2803",
+      "period_start": 2010,
+      "rows": 34
+    },
+    {
+      "subfield_id": "2803",
+      "period_start": 2015,
+      "rows": 41
+    },
+    {
+      "subfield_id": "2803",
+      "period_start": 2020,
+      "rows": 51
+    },
+    {
+      "subfield_id": "2804",
+      "period_start": 2000,
+      "rows": 701
+    },
+    {
+      "subfield_id": "2804",
+      "period_start": 2005,
+      "rows": 589
+    },
+    {
+      "subfield_id": "2804",
+      "period_start": 2010,
+      "rows": 503
+    },
+    {
+      "subfield_id": "2804",
+      "period_start": 2015,
+      "rows": 382
+    },
+    {
+      "subfield_id": "2804",
+      "period_start": 2020,
+      "rows": 345
+    },
+    {
+      "subfield_id": "2805",
+      "period_start": 2000,
+      "rows": 749
+    },
+    {
+      "subfield_id": "2805",
+      "period_start": 2005,
+      "rows": 797
+    },
+    {
+      "subfield_id": "2805",
+      "period_start": 2010,
+      "rows": 958
+    },
+    {
+      "subfield_id": "2805",
+      "period_start": 2015,
+      "rows": 1108
+    },
+    {
+      "subfield_id": "2805",
+      "period_start": 2020,
+      "rows": 1041
+    },
+    {
+      "subfield_id": "2806",
+      "period_start": 2000,
+      "rows": 90
+    },
+    {
+      "subfield_id": "2806",
+      "period_start": 2005,
+      "rows": 95
+    },
+    {
+      "subfield_id": "2806",
+      "period_start": 2010,
+      "rows": 80
+    },
+    {
+      "subfield_id": "2806",
+      "period_start": 2015,
+      "rows": 70
+    },
+    {
+      "subfield_id": "2806",
+      "period_start": 2020,
+      "rows": 47
+    },
+    {
+      "subfield_id": "2807",
+      "period_start": 2000,
+      "rows": 208
+    },
+    {
+      "subfield_id": "2807",
+      "period_start": 2005,
+      "rows": 191
+    },
+    {
+      "subfield_id": "2807",
+      "period_start": 2010,
+      "rows": 132
+    },
+    {
+      "subfield_id": "2807",
+      "period_start": 2015,
+      "rows": 130
+    },
+    {
+      "subfield_id": "2807",
+      "period_start": 2020,
+      "rows": 118
+    },
+    {
+      "subfield_id": "2808",
+      "period_start": 2000,
+      "rows": 225
+    },
+    {
+      "subfield_id": "2808",
+      "period_start": 2005,
+      "rows": 269
+    },
+    {
+      "subfield_id": "2808",
+      "period_start": 2010,
+      "rows": 275
+    },
+    {
+      "subfield_id": "2808",
+      "period_start": 2015,
+      "rows": 265
+    },
+    {
+      "subfield_id": "2808",
+      "period_start": 2020,
+      "rows": 393
+    },
+    {
+      "subfield_id": "2809",
+      "period_start": 2000,
+      "rows": 130
+    },
+    {
+      "subfield_id": "2809",
+      "period_start": 2005,
+      "rows": 122
+    },
+    {
+      "subfield_id": "2809",
+      "period_start": 2010,
+      "rows": 135
+    },
+    {
+      "subfield_id": "2809",
+      "period_start": 2015,
+      "rows": 114
+    },
+    {
+      "subfield_id": "2809",
+      "period_start": 2020,
+      "rows": 125
+    },
+    {
+      "subfield_id": "2910",
+      "period_start": 2000,
+      "rows": 149
+    },
+    {
+      "subfield_id": "2910",
+      "period_start": 2005,
+      "rows": 125
+    },
+    {
+      "subfield_id": "2910",
+      "period_start": 2010,
+      "rows": 107
+    },
+    {
+      "subfield_id": "2910",
+      "period_start": 2015,
+      "rows": 114
+    },
+    {
+      "subfield_id": "2910",
+      "period_start": 2020,
+      "rows": 59
+    },
+    {
+      "subfield_id": "2911",
+      "period_start": 2000,
+      "rows": 48
+    },
+    {
+      "subfield_id": "2911",
+      "period_start": 2005,
+      "rows": 70
+    },
+    {
+      "subfield_id": "2911",
+      "period_start": 2010,
+      "rows": 86
+    },
+    {
+      "subfield_id": "2911",
+      "period_start": 2015,
+      "rows": 94
+    },
+    {
+      "subfield_id": "2911",
+      "period_start": 2020,
+      "rows": 112
+    },
+    {
+      "subfield_id": "2916",
+      "period_start": 2000,
+      "rows": 1881
+    },
+    {
+      "subfield_id": "2916",
+      "period_start": 2005,
+      "rows": 1887
+    },
+    {
+      "subfield_id": "2916",
+      "period_start": 2010,
+      "rows": 1877
+    },
+    {
+      "subfield_id": "2916",
+      "period_start": 2015,
+      "rows": 1873
+    },
+    {
+      "subfield_id": "2916",
+      "period_start": 2020,
+      "rows": 1913
+    },
+    {
+      "subfield_id": "2922",
+      "period_start": 2000,
+      "rows": 88
+    },
+    {
+      "subfield_id": "2922",
+      "period_start": 2005,
+      "rows": 84
+    },
+    {
+      "subfield_id": "2922",
+      "period_start": 2010,
+      "rows": 96
+    },
+    {
+      "subfield_id": "2922",
+      "period_start": 2015,
+      "rows": 85
+    },
+    {
+      "subfield_id": "2922",
+      "period_start": 2020,
+      "rows": 82
+    },
+    {
+      "subfield_id": "3002",
+      "period_start": 2005,
+      "rows": 1
+    },
+    {
+      "subfield_id": "3002",
+      "period_start": 2010,
+      "rows": 2
+    },
+    {
+      "subfield_id": "3002",
+      "period_start": 2015,
+      "rows": 11
+    },
+    {
+      "subfield_id": "3002",
+      "period_start": 2020,
+      "rows": 13
+    },
+    {
+      "subfield_id": "3003",
+      "period_start": 2000,
+      "rows": 496
+    },
+    {
+      "subfield_id": "3003",
+      "period_start": 2005,
+      "rows": 452
+    },
+    {
+      "subfield_id": "3003",
+      "period_start": 2010,
+      "rows": 640
+    },
+    {
+      "subfield_id": "3003",
+      "period_start": 2015,
+      "rows": 741
+    },
+    {
+      "subfield_id": "3003",
+      "period_start": 2020,
+      "rows": 733
+    },
+    {
+      "subfield_id": "3004",
+      "period_start": 2000,
+      "rows": 1371
+    },
+    {
+      "subfield_id": "3004",
+      "period_start": 2005,
+      "rows": 1494
+    },
+    {
+      "subfield_id": "3004",
+      "period_start": 2010,
+      "rows": 1303
+    },
+    {
+      "subfield_id": "3004",
+      "period_start": 2015,
+      "rows": 1114
+    },
+    {
+      "subfield_id": "3004",
+      "period_start": 2020,
+      "rows": 1137
+    },
+    {
+      "subfield_id": "3005",
+      "period_start": 2000,
+      "rows": 299
+    },
+    {
+      "subfield_id": "3005",
+      "period_start": 2005,
+      "rows": 219
+    },
+    {
+      "subfield_id": "3005",
+      "period_start": 2010,
+      "rows": 221
+    },
+    {
+      "subfield_id": "3005",
+      "period_start": 2015,
+      "rows": 300
+    },
+    {
+      "subfield_id": "3005",
+      "period_start": 2020,
+      "rows": 283
+    },
+    {
+      "subfield_id": "3102",
+      "period_start": 2000,
+      "rows": 3
+    },
+    {
+      "subfield_id": "3102",
+      "period_start": 2005,
+      "rows": 3
+    },
+    {
+      "subfield_id": "3102",
+      "period_start": 2010,
+      "rows": 11
+    },
+    {
+      "subfield_id": "3102",
+      "period_start": 2015,
+      "rows": 15
+    },
+    {
+      "subfield_id": "3102",
+      "period_start": 2020,
+      "rows": 20
+    },
+    {
+      "subfield_id": "3103",
+      "period_start": 2000,
+      "rows": 502
+    },
+    {
+      "subfield_id": "3103",
+      "period_start": 2005,
+      "rows": 683
+    },
+    {
+      "subfield_id": "3103",
+      "period_start": 2010,
+      "rows": 756
+    },
+    {
+      "subfield_id": "3103",
+      "period_start": 2015,
+      "rows": 849
+    },
+    {
+      "subfield_id": "3103",
+      "period_start": 2020,
+      "rows": 908
+    },
+    {
+      "subfield_id": "3104",
+      "period_start": 2000,
+      "rows": 229
+    },
+    {
+      "subfield_id": "3104",
+      "period_start": 2005,
+      "rows": 206
+    },
+    {
+      "subfield_id": "3104",
+      "period_start": 2010,
+      "rows": 241
+    },
+    {
+      "subfield_id": "3104",
+      "period_start": 2015,
+      "rows": 229
+    },
+    {
+      "subfield_id": "3104",
+      "period_start": 2020,
+      "rows": 288
+    },
+    {
+      "subfield_id": "3105",
+      "period_start": 2000,
+      "rows": 14
+    },
+    {
+      "subfield_id": "3105",
+      "period_start": 2005,
+      "rows": 32
+    },
+    {
+      "subfield_id": "3105",
+      "period_start": 2010,
+      "rows": 49
+    },
+    {
+      "subfield_id": "3105",
+      "period_start": 2015,
+      "rows": 52
+    },
+    {
+      "subfield_id": "3105",
+      "period_start": 2020,
+      "rows": 49
+    },
+    {
+      "subfield_id": "3106",
+      "period_start": 2000,
+      "rows": 334
+    },
+    {
+      "subfield_id": "3106",
+      "period_start": 2005,
+      "rows": 399
+    },
+    {
+      "subfield_id": "3106",
+      "period_start": 2010,
+      "rows": 503
+    },
+    {
+      "subfield_id": "3106",
+      "period_start": 2015,
+      "rows": 663
+    },
+    {
+      "subfield_id": "3106",
+      "period_start": 2020,
+      "rows": 591
+    },
+    {
+      "subfield_id": "3107",
+      "period_start": 2000,
+      "rows": 819
+    },
+    {
+      "subfield_id": "3107",
+      "period_start": 2005,
+      "rows": 982
+    },
+    {
+      "subfield_id": "3107",
+      "period_start": 2010,
+      "rows": 1018
+    },
+    {
+      "subfield_id": "3107",
+      "period_start": 2015,
+      "rows": 1069
+    },
+    {
+      "subfield_id": "3107",
+      "period_start": 2020,
+      "rows": 1035
+    },
+    {
+      "subfield_id": "3108",
+      "period_start": 2000,
+      "rows": 96
+    },
+    {
+      "subfield_id": "3108",
+      "period_start": 2005,
+      "rows": 157
+    },
+    {
+      "subfield_id": "3108",
+      "period_start": 2010,
+      "rows": 202
+    },
+    {
+      "subfield_id": "3108",
+      "period_start": 2015,
+      "rows": 202
+    },
+    {
+      "subfield_id": "3108",
+      "period_start": 2020,
+      "rows": 171
+    },
+    {
+      "subfield_id": "3109",
+      "period_start": 2000,
+      "rows": 169
+    },
+    {
+      "subfield_id": "3109",
+      "period_start": 2005,
+      "rows": 242
+    },
+    {
+      "subfield_id": "3109",
+      "period_start": 2010,
+      "rows": 314
+    },
+    {
+      "subfield_id": "3109",
+      "period_start": 2015,
+      "rows": 309
+    },
+    {
+      "subfield_id": "3109",
+      "period_start": 2020,
+      "rows": 408
+    },
+    {
+      "subfield_id": "3200",
+      "period_start": 2000,
+      "rows": 15
+    },
+    {
+      "subfield_id": "3200",
+      "period_start": 2005,
+      "rows": 14
+    },
+    {
+      "subfield_id": "3200",
+      "period_start": 2010,
+      "rows": 10
+    },
+    {
+      "subfield_id": "3200",
+      "period_start": 2015,
+      "rows": 8
+    },
+    {
+      "subfield_id": "3200",
+      "period_start": 2020,
+      "rows": 7
+    },
+    {
+      "subfield_id": "3202",
+      "period_start": 2000,
+      "rows": 70
+    },
+    {
+      "subfield_id": "3202",
+      "period_start": 2005,
+      "rows": 74
+    },
+    {
+      "subfield_id": "3202",
+      "period_start": 2010,
+      "rows": 65
+    },
+    {
+      "subfield_id": "3202",
+      "period_start": 2015,
+      "rows": 117
+    },
+    {
+      "subfield_id": "3202",
+      "period_start": 2020,
+      "rows": 164
+    },
+    {
+      "subfield_id": "3203",
+      "period_start": 2000,
+      "rows": 713
+    },
+    {
+      "subfield_id": "3203",
+      "period_start": 2005,
+      "rows": 638
+    },
+    {
+      "subfield_id": "3203",
+      "period_start": 2010,
+      "rows": 631
+    },
+    {
+      "subfield_id": "3203",
+      "period_start": 2015,
+      "rows": 831
+    },
+    {
+      "subfield_id": "3203",
+      "period_start": 2020,
+      "rows": 1539
+    },
+    {
+      "subfield_id": "3204",
+      "period_start": 2000,
+      "rows": 343
+    },
+    {
+      "subfield_id": "3204",
+      "period_start": 2005,
+      "rows": 358
+    },
+    {
+      "subfield_id": "3204",
+      "period_start": 2010,
+      "rows": 326
+    },
+    {
+      "subfield_id": "3204",
+      "period_start": 2015,
+      "rows": 434
+    },
+    {
+      "subfield_id": "3204",
+      "period_start": 2020,
+      "rows": 597
+    },
+    {
+      "subfield_id": "3205",
+      "period_start": 2000,
+      "rows": 336
+    },
+    {
+      "subfield_id": "3205",
+      "period_start": 2005,
+      "rows": 392
+    },
+    {
+      "subfield_id": "3205",
+      "period_start": 2010,
+      "rows": 405
+    },
+    {
+      "subfield_id": "3205",
+      "period_start": 2015,
+      "rows": 423
+    },
+    {
+      "subfield_id": "3205",
+      "period_start": 2020,
+      "rows": 589
+    },
+    {
+      "subfield_id": "3206",
+      "period_start": 2000,
+      "rows": 19
+    },
+    {
+      "subfield_id": "3206",
+      "period_start": 2005,
+      "rows": 19
+    },
+    {
+      "subfield_id": "3206",
+      "period_start": 2010,
+      "rows": 9
+    },
+    {
+      "subfield_id": "3206",
+      "period_start": 2015,
+      "rows": 7
+    },
+    {
+      "subfield_id": "3206",
+      "period_start": 2020,
+      "rows": 30
+    },
+    {
+      "subfield_id": "3207",
+      "period_start": 2000,
+      "rows": 670
+    },
+    {
+      "subfield_id": "3207",
+      "period_start": 2005,
+      "rows": 671
+    },
+    {
+      "subfield_id": "3207",
+      "period_start": 2010,
+      "rows": 720
+    },
+    {
+      "subfield_id": "3207",
+      "period_start": 2015,
+      "rows": 757
+    },
+    {
+      "subfield_id": "3207",
+      "period_start": 2020,
+      "rows": 1044
+    },
+    {
+      "subfield_id": "3300",
+      "period_start": 2000,
+      "rows": 6
+    },
+    {
+      "subfield_id": "3300",
+      "period_start": 2005,
+      "rows": 9
+    },
+    {
+      "subfield_id": "3300",
+      "period_start": 2010,
+      "rows": 25
+    },
+    {
+      "subfield_id": "3300",
+      "period_start": 2015,
+      "rows": 46
+    },
+    {
+      "subfield_id": "3300",
+      "period_start": 2020,
+      "rows": 81
+    },
+    {
+      "subfield_id": "3302",
+      "period_start": 2000,
+      "rows": 1
+    },
+    {
+      "subfield_id": "3302",
+      "period_start": 2005,
+      "rows": 6
+    },
+    {
+      "subfield_id": "3302",
+      "period_start": 2010,
+      "rows": 8
+    },
+    {
+      "subfield_id": "3302",
+      "period_start": 2015,
+      "rows": 14
+    },
+    {
+      "subfield_id": "3302",
+      "period_start": 2020,
+      "rows": 10
+    },
+    {
+      "subfield_id": "3303",
+      "period_start": 2000,
+      "rows": 24
+    },
+    {
+      "subfield_id": "3303",
+      "period_start": 2005,
+      "rows": 49
+    },
+    {
+      "subfield_id": "3303",
+      "period_start": 2010,
+      "rows": 66
+    },
+    {
+      "subfield_id": "3303",
+      "period_start": 2015,
+      "rows": 110
+    },
+    {
+      "subfield_id": "3303",
+      "period_start": 2020,
+      "rows": 156
+    },
+    {
+      "subfield_id": "3304",
+      "period_start": 2000,
+      "rows": 455
+    },
+    {
+      "subfield_id": "3304",
+      "period_start": 2005,
+      "rows": 828
+    },
+    {
+      "subfield_id": "3304",
+      "period_start": 2010,
+      "rows": 1294
+    },
+    {
+      "subfield_id": "3304",
+      "period_start": 2015,
+      "rows": 1706
+    },
+    {
+      "subfield_id": "3304",
+      "period_start": 2020,
+      "rows": 3281
+    },
+    {
+      "subfield_id": "3305",
+      "period_start": 2000,
+      "rows": 47
+    },
+    {
+      "subfield_id": "3305",
+      "period_start": 2005,
+      "rows": 74
+    },
+    {
+      "subfield_id": "3305",
+      "period_start": 2010,
+      "rows": 121
+    },
+    {
+      "subfield_id": "3305",
+      "period_start": 2015,
+      "rows": 153
+    },
+    {
+      "subfield_id": "3305",
+      "period_start": 2020,
+      "rows": 216
+    },
+    {
+      "subfield_id": "3306",
+      "period_start": 2000,
+      "rows": 54
+    },
+    {
+      "subfield_id": "3306",
+      "period_start": 2005,
+      "rows": 99
+    },
+    {
+      "subfield_id": "3306",
+      "period_start": 2010,
+      "rows": 160
+    },
+    {
+      "subfield_id": "3306",
+      "period_start": 2015,
+      "rows": 221
+    },
+    {
+      "subfield_id": "3306",
+      "period_start": 2020,
+      "rows": 472
+    },
+    {
+      "subfield_id": "3307",
+      "period_start": 2000,
+      "rows": 9
+    },
+    {
+      "subfield_id": "3307",
+      "period_start": 2005,
+      "rows": 12
+    },
+    {
+      "subfield_id": "3307",
+      "period_start": 2010,
+      "rows": 24
+    },
+    {
+      "subfield_id": "3307",
+      "period_start": 2015,
+      "rows": 55
+    },
+    {
+      "subfield_id": "3307",
+      "period_start": 2020,
+      "rows": 193
+    },
+    {
+      "subfield_id": "3308",
+      "period_start": 2000,
+      "rows": 105
+    },
+    {
+      "subfield_id": "3308",
+      "period_start": 2005,
+      "rows": 222
+    },
+    {
+      "subfield_id": "3308",
+      "period_start": 2010,
+      "rows": 281
+    },
+    {
+      "subfield_id": "3308",
+      "period_start": 2015,
+      "rows": 341
+    },
+    {
+      "subfield_id": "3308",
+      "period_start": 2020,
+      "rows": 567
+    },
+    {
+      "subfield_id": "3309",
+      "period_start": 2000,
+      "rows": 22
+    },
+    {
+      "subfield_id": "3309",
+      "period_start": 2005,
+      "rows": 55
+    },
+    {
+      "subfield_id": "3309",
+      "period_start": 2010,
+      "rows": 56
+    },
+    {
+      "subfield_id": "3309",
+      "period_start": 2015,
+      "rows": 40
+    },
+    {
+      "subfield_id": "3309",
+      "period_start": 2020,
+      "rows": 44
+    },
+    {
+      "subfield_id": "3310",
+      "period_start": 2000,
+      "rows": 38
+    },
+    {
+      "subfield_id": "3310",
+      "period_start": 2005,
+      "rows": 38
+    },
+    {
+      "subfield_id": "3310",
+      "period_start": 2010,
+      "rows": 65
+    },
+    {
+      "subfield_id": "3310",
+      "period_start": 2015,
+      "rows": 94
+    },
+    {
+      "subfield_id": "3310",
+      "period_start": 2020,
+      "rows": 119
+    },
+    {
+      "subfield_id": "3311",
+      "period_start": 2000,
+      "rows": 76
+    },
+    {
+      "subfield_id": "3311",
+      "period_start": 2005,
+      "rows": 135
+    },
+    {
+      "subfield_id": "3311",
+      "period_start": 2010,
+      "rows": 182
+    },
+    {
+      "subfield_id": "3311",
+      "period_start": 2015,
+      "rows": 213
+    },
+    {
+      "subfield_id": "3311",
+      "period_start": 2020,
+      "rows": 314
+    },
+    {
+      "subfield_id": "3312",
+      "period_start": 2000,
+      "rows": 940
+    },
+    {
+      "subfield_id": "3312",
+      "period_start": 2005,
+      "rows": 1633
+    },
+    {
+      "subfield_id": "3312",
+      "period_start": 2010,
+      "rows": 2295
+    },
+    {
+      "subfield_id": "3312",
+      "period_start": 2015,
+      "rows": 2606
+    },
+    {
+      "subfield_id": "3312",
+      "period_start": 2020,
+      "rows": 3919
+    },
+    {
+      "subfield_id": "3313",
+      "period_start": 2000,
+      "rows": 73
+    },
+    {
+      "subfield_id": "3313",
+      "period_start": 2005,
+      "rows": 115
+    },
+    {
+      "subfield_id": "3313",
+      "period_start": 2010,
+      "rows": 196
+    },
+    {
+      "subfield_id": "3313",
+      "period_start": 2015,
+      "rows": 208
+    },
+    {
+      "subfield_id": "3313",
+      "period_start": 2020,
+      "rows": 228
+    },
+    {
+      "subfield_id": "3314",
+      "period_start": 2000,
+      "rows": 68
+    },
+    {
+      "subfield_id": "3314",
+      "period_start": 2005,
+      "rows": 122
+    },
+    {
+      "subfield_id": "3314",
+      "period_start": 2010,
+      "rows": 165
+    },
+    {
+      "subfield_id": "3314",
+      "period_start": 2015,
+      "rows": 268
+    },
+    {
+      "subfield_id": "3314",
+      "period_start": 2020,
+      "rows": 276
+    },
+    {
+      "subfield_id": "3315",
+      "period_start": 2000,
+      "rows": 50
+    },
+    {
+      "subfield_id": "3315",
+      "period_start": 2005,
+      "rows": 108
+    },
+    {
+      "subfield_id": "3315",
+      "period_start": 2010,
+      "rows": 228
+    },
+    {
+      "subfield_id": "3315",
+      "period_start": 2015,
+      "rows": 265
+    },
+    {
+      "subfield_id": "3315",
+      "period_start": 2020,
+      "rows": 339
+    },
+    {
+      "subfield_id": "3316",
+      "period_start": 2000,
+      "rows": 74
+    },
+    {
+      "subfield_id": "3316",
+      "period_start": 2005,
+      "rows": 164
+    },
+    {
+      "subfield_id": "3316",
+      "period_start": 2010,
+      "rows": 209
+    },
+    {
+      "subfield_id": "3316",
+      "period_start": 2015,
+      "rows": 317
+    },
+    {
+      "subfield_id": "3316",
+      "period_start": 2020,
+      "rows": 509
+    },
+    {
+      "subfield_id": "3317",
+      "period_start": 2000,
+      "rows": 86
+    },
+    {
+      "subfield_id": "3317",
+      "period_start": 2005,
+      "rows": 187
+    },
+    {
+      "subfield_id": "3317",
+      "period_start": 2010,
+      "rows": 304
+    },
+    {
+      "subfield_id": "3317",
+      "period_start": 2015,
+      "rows": 345
+    },
+    {
+      "subfield_id": "3317",
+      "period_start": 2020,
+      "rows": 760
+    },
+    {
+      "subfield_id": "3318",
+      "period_start": 2000,
+      "rows": 97
+    },
+    {
+      "subfield_id": "3318",
+      "period_start": 2005,
+      "rows": 131
+    },
+    {
+      "subfield_id": "3318",
+      "period_start": 2010,
+      "rows": 213
+    },
+    {
+      "subfield_id": "3318",
+      "period_start": 2015,
+      "rows": 284
+    },
+    {
+      "subfield_id": "3318",
+      "period_start": 2020,
+      "rows": 427
+    },
+    {
+      "subfield_id": "3319",
+      "period_start": 2005,
+      "rows": 1
+    },
+    {
+      "subfield_id": "3319",
+      "period_start": 2010,
+      "rows": 3
+    },
+    {
+      "subfield_id": "3319",
+      "period_start": 2015,
+      "rows": 5
+    },
+    {
+      "subfield_id": "3319",
+      "period_start": 2020,
+      "rows": 12
+    },
+    {
+      "subfield_id": "3320",
+      "period_start": 2000,
+      "rows": 440
+    },
+    {
+      "subfield_id": "3320",
+      "period_start": 2005,
+      "rows": 752
+    },
+    {
+      "subfield_id": "3320",
+      "period_start": 2010,
+      "rows": 968
+    },
+    {
+      "subfield_id": "3320",
+      "period_start": 2015,
+      "rows": 1347
+    },
+    {
+      "subfield_id": "3320",
+      "period_start": 2020,
+      "rows": 1685
+    },
+    {
+      "subfield_id": "3321",
+      "period_start": 2000,
+      "rows": 53
+    },
+    {
+      "subfield_id": "3321",
+      "period_start": 2005,
+      "rows": 64
+    },
+    {
+      "subfield_id": "3321",
+      "period_start": 2010,
+      "rows": 99
+    },
+    {
+      "subfield_id": "3321",
+      "period_start": 2015,
+      "rows": 75
+    },
+    {
+      "subfield_id": "3321",
+      "period_start": 2020,
+      "rows": 68
+    },
+    {
+      "subfield_id": "3322",
+      "period_start": 2000,
+      "rows": 58
+    },
+    {
+      "subfield_id": "3322",
+      "period_start": 2005,
+      "rows": 89
+    },
+    {
+      "subfield_id": "3322",
+      "period_start": 2010,
+      "rows": 148
+    },
+    {
+      "subfield_id": "3322",
+      "period_start": 2015,
+      "rows": 178
+    },
+    {
+      "subfield_id": "3322",
+      "period_start": 2020,
+      "rows": 203
+    },
+    {
+      "subfield_id": "3402",
+      "period_start": 2000,
+      "rows": 372
+    },
+    {
+      "subfield_id": "3402",
+      "period_start": 2005,
+      "rows": 344
+    },
+    {
+      "subfield_id": "3402",
+      "period_start": 2010,
+      "rows": 319
+    },
+    {
+      "subfield_id": "3402",
+      "period_start": 2015,
+      "rows": 331
+    },
+    {
+      "subfield_id": "3402",
+      "period_start": 2020,
+      "rows": 308
+    },
+    {
+      "subfield_id": "3404",
+      "period_start": 2000,
+      "rows": 1794
+    },
+    {
+      "subfield_id": "3404",
+      "period_start": 2005,
+      "rows": 1822
+    },
+    {
+      "subfield_id": "3404",
+      "period_start": 2010,
+      "rows": 1846
+    },
+    {
+      "subfield_id": "3404",
+      "period_start": 2015,
+      "rows": 1834
+    },
+    {
+      "subfield_id": "3404",
+      "period_start": 2020,
+      "rows": 1857
+    },
+    {
+      "subfield_id": "3500",
+      "period_start": 2000,
+      "rows": 54
+    },
+    {
+      "subfield_id": "3500",
+      "period_start": 2005,
+      "rows": 51
+    },
+    {
+      "subfield_id": "3500",
+      "period_start": 2010,
+      "rows": 45
+    },
+    {
+      "subfield_id": "3500",
+      "period_start": 2015,
+      "rows": 82
+    },
+    {
+      "subfield_id": "3500",
+      "period_start": 2020,
+      "rows": 220
+    },
+    {
+      "subfield_id": "3504",
+      "period_start": 2000,
+      "rows": 897
+    },
+    {
+      "subfield_id": "3504",
+      "period_start": 2005,
+      "rows": 844
+    },
+    {
+      "subfield_id": "3504",
+      "period_start": 2010,
+      "rows": 893
+    },
+    {
+      "subfield_id": "3504",
+      "period_start": 2015,
+      "rows": 871
+    },
+    {
+      "subfield_id": "3504",
+      "period_start": 2020,
+      "rows": 803
+    },
+    {
+      "subfield_id": "3505",
+      "period_start": 2000,
+      "rows": 572
+    },
+    {
+      "subfield_id": "3505",
+      "period_start": 2005,
+      "rows": 626
+    },
+    {
+      "subfield_id": "3505",
+      "period_start": 2010,
+      "rows": 566
+    },
+    {
+      "subfield_id": "3505",
+      "period_start": 2015,
+      "rows": 606
+    },
+    {
+      "subfield_id": "3505",
+      "period_start": 2020,
+      "rows": 522
+    },
+    {
+      "subfield_id": "3506",
+      "period_start": 2000,
+      "rows": 642
+    },
+    {
+      "subfield_id": "3506",
+      "period_start": 2005,
+      "rows": 644
+    },
+    {
+      "subfield_id": "3506",
+      "period_start": 2010,
+      "rows": 661
+    },
+    {
+      "subfield_id": "3506",
+      "period_start": 2015,
+      "rows": 606
+    },
+    {
+      "subfield_id": "3506",
+      "period_start": 2020,
+      "rows": 620
+    },
+    {
+      "subfield_id": "3600",
+      "period_start": 2000,
+      "rows": 1166
+    },
+    {
+      "subfield_id": "3600",
+      "period_start": 2005,
+      "rows": 1056
+    },
+    {
+      "subfield_id": "3600",
+      "period_start": 2010,
+      "rows": 1038
+    },
+    {
+      "subfield_id": "3600",
+      "period_start": 2015,
+      "rows": 1089
+    },
+    {
+      "subfield_id": "3600",
+      "period_start": 2020,
+      "rows": 1359
+    },
+    {
+      "subfield_id": "3603",
+      "period_start": 2000,
+      "rows": 44
+    },
+    {
+      "subfield_id": "3603",
+      "period_start": 2005,
+      "rows": 44
+    },
+    {
+      "subfield_id": "3603",
+      "period_start": 2010,
+      "rows": 30
+    },
+    {
+      "subfield_id": "3603",
+      "period_start": 2015,
+      "rows": 32
+    },
+    {
+      "subfield_id": "3603",
+      "period_start": 2020,
+      "rows": 54
+    },
+    {
+      "subfield_id": "3604",
+      "period_start": 2000,
+      "rows": 263
+    },
+    {
+      "subfield_id": "3604",
+      "period_start": 2005,
+      "rows": 302
+    },
+    {
+      "subfield_id": "3604",
+      "period_start": 2010,
+      "rows": 269
+    },
+    {
+      "subfield_id": "3604",
+      "period_start": 2015,
+      "rows": 220
+    },
+    {
+      "subfield_id": "3604",
+      "period_start": 2020,
+      "rows": 251
+    },
+    {
+      "subfield_id": "3605",
+      "period_start": 2000,
+      "rows": 122
+    },
+    {
+      "subfield_id": "3605",
+      "period_start": 2005,
+      "rows": 126
+    },
+    {
+      "subfield_id": "3605",
+      "period_start": 2010,
+      "rows": 157
+    },
+    {
+      "subfield_id": "3605",
+      "period_start": 2015,
+      "rows": 134
+    },
+    {
+      "subfield_id": "3605",
+      "period_start": 2020,
+      "rows": 224
+    },
+    {
+      "subfield_id": "3607",
+      "period_start": 2000,
+      "rows": 35
+    },
+    {
+      "subfield_id": "3607",
+      "period_start": 2005,
+      "rows": 44
+    },
+    {
+      "subfield_id": "3607",
+      "period_start": 2010,
+      "rows": 31
+    },
+    {
+      "subfield_id": "3607",
+      "period_start": 2015,
+      "rows": 27
+    },
+    {
+      "subfield_id": "3607",
+      "period_start": 2020,
+      "rows": 24
+    },
+    {
+      "subfield_id": "3608",
+      "period_start": 2000,
+      "rows": 5
+    },
+    {
+      "subfield_id": "3608",
+      "period_start": 2005,
+      "rows": 11
+    },
+    {
+      "subfield_id": "3608",
+      "period_start": 2010,
+      "rows": 2
+    },
+    {
+      "subfield_id": "3608",
+      "period_start": 2015,
+      "rows": 2
+    },
+    {
+      "subfield_id": "3608",
+      "period_start": 2020,
+      "rows": 1
+    },
+    {
+      "subfield_id": "3609",
+      "period_start": 2000,
+      "rows": 88
+    },
+    {
+      "subfield_id": "3609",
+      "period_start": 2005,
+      "rows": 83
+    },
+    {
+      "subfield_id": "3609",
+      "period_start": 2010,
+      "rows": 83
+    },
+    {
+      "subfield_id": "3609",
+      "period_start": 2015,
+      "rows": 103
+    },
+    {
+      "subfield_id": "3609",
+      "period_start": 2020,
+      "rows": 182
+    },
+    {
+      "subfield_id": "3611",
+      "period_start": 2000,
+      "rows": 90
+    },
+    {
+      "subfield_id": "3611",
+      "period_start": 2005,
+      "rows": 103
+    },
+    {
+      "subfield_id": "3611",
+      "period_start": 2010,
+      "rows": 98
+    },
+    {
+      "subfield_id": "3611",
+      "period_start": 2015,
+      "rows": 89
+    },
+    {
+      "subfield_id": "3611",
+      "period_start": 2020,
+      "rows": 94
+    },
+    {
+      "subfield_id": "3612",
+      "period_start": 2000,
+      "rows": 91
+    },
+    {
+      "subfield_id": "3612",
+      "period_start": 2005,
+      "rows": 129
+    },
+    {
+      "subfield_id": "3612",
+      "period_start": 2010,
+      "rows": 161
+    },
+    {
+      "subfield_id": "3612",
+      "period_start": 2015,
+      "rows": 180
+    },
+    {
+      "subfield_id": "3612",
+      "period_start": 2020,
+      "rows": 280
+    },
+    {
+      "subfield_id": "3614",
+      "period_start": 2000,
+      "rows": 125
+    },
+    {
+      "subfield_id": "3614",
+      "period_start": 2005,
+      "rows": 115
+    },
+    {
+      "subfield_id": "3614",
+      "period_start": 2010,
+      "rows": 141
+    },
+    {
+      "subfield_id": "3614",
+      "period_start": 2015,
+      "rows": 126
+    },
+    {
+      "subfield_id": "3614",
+      "period_start": 2020,
+      "rows": 162
+    },
+    {
+      "subfield_id": "3616",
+      "period_start": 2000,
+      "rows": 136
+    },
+    {
+      "subfield_id": "3616",
+      "period_start": 2005,
+      "rows": 152
+    },
+    {
+      "subfield_id": "3616",
+      "period_start": 2010,
+      "rows": 155
+    },
+    {
+      "subfield_id": "3616",
+      "period_start": 2015,
+      "rows": 163
+    },
+    {
+      "subfield_id": "3616",
+      "period_start": 2020,
+      "rows": 202
+    }
+  ]
+}

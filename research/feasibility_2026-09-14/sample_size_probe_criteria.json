@@ -1,0 +1,5 @@
+{
+  "max_abs_median_change_1024_to_2048": 0.02,
+  "max_empirical_95_range_at_2048": 0.04,
+  "note": "Screening tolerance, not a journal requirement or universal power calculation."
+}

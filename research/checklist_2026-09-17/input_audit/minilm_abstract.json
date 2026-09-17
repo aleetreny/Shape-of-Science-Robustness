@@ -1,0 +1,17 @@
+{
+  "all_pass": true,
+  "all_saved_poolings_checked": true,
+  "auditor_sha256": "33937928bfb5d17f00e8d47be21eede3a541682be9339ce2ebaef895ef916ba0",
+  "completed_at": "2026-09-17T13:58:39.125297+00:00",
+  "condition": "abstract",
+  "input_sha256": "843bc482a328a706232c642a46d3a85abf78f290b74ca600f961ba5568cc5daf",
+  "lost_tokens": 1608885,
+  "manifest_sha256": "4ecf37b2676e1c2012d91c96ff601f9e2340dcb6a167a24d9c6348361702375f",
+  "model": "minilm",
+  "native_exact_reuse": 0,
+  "original_tokens": 6889103,
+  "rows": 26000,
+  "source_identity_text_order_checked": true,
+  "token_sequences_checked": 26000,
+  "truncated_rows": 11012
+}

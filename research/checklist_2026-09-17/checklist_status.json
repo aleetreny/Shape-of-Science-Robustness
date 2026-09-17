@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "checked_at": "2026-09-17T14:46:07.078477+00:00",
+  "active_scientific_processes": [],
+  "protocol": "CHECKLIST_PROTOCOL.md",
+  "results": "CHECKLIST_RESULTS.md",
+  "report": "reports/checklist_v1/final",
+  "distinct_papers": 26000,
+  "model_input_conditions": 30,
+  "principal_recipe": "mean_for_four_word_BERTs",
+  "new_individual_shape_stability_alerts": 31,
+  "old_separate_stability_alerts": 50,
+  "full500k_input_rerun": "not_started_and_not_needed_for_current_broad_claims",
+  "input_queue_log": "research/checklist_2026-09-17/input_run.log",
+  "completion_driver_logs": [
+    "research/checklist_2026-09-17/finish_pilot.log",
+    "research/checklist_2026-09-17/finish_recipes.log"
+  ],
+  "next_step": "Manuscript drafting when requested; retain alerts and limitations.",
+  "warning": "Do not restart inference or neighbors. Do not treat the shape stability screen as population precision or neighbor stability."
+}

@@ -1,0 +1,11 @@
+Auditado specter 500000 filas; variantes cls
+Auditado specter2 500000 filas; variantes cls
+Auditado scincl 500000 filas; variantes cls
+Auditado scibert 500000 filas; variantes mean,cls,sep
+Auditado bert 500000 filas; variantes mean,cls,sep
+Auditado mpnet 500000 filas; variantes mean
+Auditado minilm 500000 filas; variantes mean
+Auditado pubmedbert 500000 filas; variantes mean,cls,sep
+Auditado biobert 500000 filas; variantes mean,cls,sep
+Auditado simcse 500000 filas; variantes cls
+AUDITORIA COMPLETA 10 modelos 8802 archivos de vectores

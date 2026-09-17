@@ -1,0 +1,564 @@
+{
+  "audit": {
+    "all500k_paper_ids_preserved": true,
+    "all_complete": true,
+    "components": 15,
+    "composition_selections": 520,
+    "input_cells": 130,
+    "input_rows": 52000,
+    "nested_old_rows": 26000,
+    "paired_query_sets": 217,
+    "prior_failed_exporters_excluded": [
+      "structural_review",
+      "structural_review_v2"
+    ],
+    "query_rows": 10850,
+    "raw_neighbor_counts_reproduce_all_group_means": true,
+    "repeated_paired_candidate_sets": 2170,
+    "rows_per_cell": 400,
+    "same_dates_sizes_and_eligible_subfields_verified": true,
+    "source_hashes_and_saved_copies_match": true,
+    "superseded_control_summary": "control_review; use control_review_v2 to separate MiniLM self-comparison"
+  },
+  "controls": {
+    "controls": {
+      "control_rows": 34,
+      "quality_and_deduplication_joint_control": true,
+      "quality_removed": 51114,
+      "quality_retained": 448886,
+      "separate_causal_effect_not_identified": true
+    },
+    "metrics": {
+      "original_metric_correlations_reproduced": true,
+      "unit_comparisons": 5318
+    },
+    "stability": {
+      "alert_cells": 13,
+      "comparisons": 5850,
+      "max_absolute_offset_to_full": 0.008909237718585983,
+      "max_width": 0.06364230014607852,
+      "retained_alerts": 50,
+      "shift_alerts": 0,
+      "width_alerts": 50
+    }
+  },
+  "created_at": "2026-09-17T18:35:47.195801+00:00",
+  "input": {
+    "alert_counts": [
+      {
+        "alerts26k": 31,
+        "alerts52k": 4,
+        "comparisons": 520,
+        "crosses_zero26k": 8,
+        "crosses_zero52k": 5,
+        "new": 1,
+        "no_alert": 488,
+        "persists": 3,
+        "repeats": 20,
+        "resolved": 28,
+        "scope": "individual_models"
+      },
+      {
+        "alerts26k": 0,
+        "alerts52k": 0,
+        "comparisons": 52,
+        "crosses_zero26k": 7,
+        "crosses_zero52k": 5,
+        "new": 0,
+        "no_alert": 52,
+        "persists": 0,
+        "repeats": 20,
+        "resolved": 0,
+        "scope": "area_means"
+      },
+      {
+        "alerts26k": 72,
+        "alerts52k": 5,
+        "comparisons": 520,
+        "crosses_zero26k": 11,
+        "crosses_zero52k": 4,
+        "new": 0,
+        "no_alert": 448,
+        "persists": 5,
+        "repeats": 100,
+        "resolved": 67,
+        "scope": "individual_models"
+      },
+      {
+        "alerts26k": 0,
+        "alerts52k": 0,
+        "comparisons": 52,
+        "crosses_zero26k": 8,
+        "crosses_zero52k": 6,
+        "new": 0,
+        "no_alert": 52,
+        "persists": 0,
+        "repeats": 100,
+        "resolved": 0,
+        "scope": "area_means"
+      }
+    ],
+    "conditions": 30,
+    "model_article_input_rows": 1560000,
+    "native_exact_reuse": 520000,
+    "new_inference_rows": 520000,
+    "pilot_exact_reuse": 520000,
+    "population_confidence_intervals": false,
+    "recipe_cases": 4160,
+    "recipe_primary_unchanged": true,
+    "recipe_sign_counts": [
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.22183121652604293,
+        "mean_effect_change": 0.0321087637984423,
+        "metric": "cka",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 15
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.22183121652604293,
+        "mean_effect_change": -0.014755590256670994,
+        "metric": "cka",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 9
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.22430603032461405,
+        "mean_effect_change": 0.08688251269557057,
+        "metric": "cka",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.22430603032461405,
+        "mean_effect_change": 0.12217878198614968,
+        "metric": "cka",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12055555555555564,
+        "mean_effect_change": 0.05035241452991453,
+        "metric": "neighbors10",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 1
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12055555555555564,
+        "mean_effect_change": 0.06520902777777779,
+        "metric": "neighbors10",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.2310833333333332,
+        "mean_effect_change": 0.014570299145299146,
+        "metric": "neighbors10",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.2310833333333332,
+        "mean_effect_change": -0.02424626068376068,
+        "metric": "neighbors10",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12291999999999992,
+        "mean_effect_change": 0.049505769230769235,
+        "metric": "neighbors25",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 1
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12291999999999992,
+        "mean_effect_change": 0.058202756410256434,
+        "metric": "neighbors25",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.20512888888888892,
+        "mean_effect_change": 0.025053230769230776,
+        "metric": "neighbors25",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.20512888888888892,
+        "mean_effect_change": -0.0029285897435897138,
+        "metric": "neighbors25",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12280555555555561,
+        "mean_effect_change": 0.047092384615384626,
+        "metric": "neighbors50",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 1
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12280555555555561,
+        "mean_effect_change": 0.05029892094017094,
+        "metric": "neighbors50",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.17683000000000004,
+        "mean_effect_change": 0.03127111538461539,
+        "metric": "neighbors50",
+        "recipe": "cls",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.17683000000000004,
+        "mean_effect_change": 0.010745747863247864,
+        "metric": "neighbors50",
+        "recipe": "cls",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.2733725008680262,
+        "mean_effect_change": 0.05847765030412673,
+        "metric": "cka",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 20
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.2733725008680262,
+        "mean_effect_change": 0.09047270388841834,
+        "metric": "cka",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 13
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.3198587416904422,
+        "mean_effect_change": 0.06408045454437106,
+        "metric": "cka",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.3198587416904422,
+        "mean_effect_change": 0.10447971448902912,
+        "metric": "cka",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.1204333333333335,
+        "mean_effect_change": 0.035282585470085476,
+        "metric": "neighbors10",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 1
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.1204333333333335,
+        "mean_effect_change": 0.07219722222222222,
+        "metric": "neighbors10",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.21353888888888883,
+        "mean_effect_change": -0.002840491452991451,
+        "metric": "neighbors10",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.21353888888888883,
+        "mean_effect_change": -0.023110470085470087,
+        "metric": "neighbors10",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.1207422222222222,
+        "mean_effect_change": 0.03623639316239317,
+        "metric": "neighbors25",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 1
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.1207422222222222,
+        "mean_effect_change": 0.07271747863247865,
+        "metric": "neighbors25",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.1886377777777778,
+        "mean_effect_change": 0.0028163162393162406,
+        "metric": "neighbors25",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.1886377777777778,
+        "mean_effect_change": -0.010832713675213674,
+        "metric": "neighbors25",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12666222222222223,
+        "mean_effect_change": 0.03568623504273504,
+        "metric": "neighbors50",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "title",
+        "max_absolute_effect_change": 0.12666222222222223,
+        "mean_effect_change": 0.07052001068376068,
+        "metric": "neighbors50",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      },
+      {
+        "cases": 260,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.1650977777777778,
+        "mean_effect_change": 0.006165696581196584,
+        "metric": "neighbors50",
+        "recipe": "sep",
+        "scope": "all_ten",
+        "sign_changes": 0
+      },
+      {
+        "cases": 104,
+        "input_condition": "abstract",
+        "max_absolute_effect_change": 0.1650977777777778,
+        "mean_effect_change": -0.0032813354700854647,
+        "metric": "neighbors50",
+        "recipe": "sep",
+        "scope": "four_word_berts",
+        "sign_changes": 0
+      }
+    ]
+  },
+  "provenance": {
+    "asset_records_checked": 75,
+    "clean_corpus_unchanged": true,
+    "current_embedding_source_matches_frozen": true,
+    "native_commits": 4890,
+    "native_models": 10,
+    "native_vector_bytes": 26881126656,
+    "native_vector_files": 8802,
+    "openalex_scope": "Frozen downloaded pages, not the full OpenAlex database or a simultaneous snapshot",
+    "original_source_unchanged": true,
+    "raw_responses": {
+      "data/corpus_500k": {
+        "first_retrieved_at": "2026-09-15T10:13:35.983788+00:00",
+        "last_retrieved_at": "2026-09-15T12:29:47.763342+00:00",
+        "pages": 6138
+      },
+      "data/corpus_clean_v1": {
+        "first_retrieved_at": "2026-09-15T10:13:35.983788+00:00",
+        "last_retrieved_at": "2026-09-15T14:02:47.401223+00:00",
+        "pages": 6139
+      }
+    },
+    "saved_source_hashes_verified": true,
+    "unique_raw_files": 6139
+  },
+  "structure": {
+    "families": {
+      "causal_attribution": false,
+      "exact_training_document_overlap_known": false,
+      "rows": 56
+    },
+    "medicine": {
+      "associations": [
+        {
+          "fields": 26,
+          "interpretation": "Descriptive, correlated Field attributes not separated",
+          "metric": "cka_debiased",
+          "spearman_diversity_agreement": -0.33988716516586626
+        },
+        {
+          "fields": 26,
+          "interpretation": "Descriptive, correlated Field attributes not separated",
+          "metric": "neighbors_k10",
+          "spearman_diversity_agreement": -0.3207385924804654
+        },
+        {
+          "fields": 26,
+          "interpretation": "Descriptive, correlated Field attributes not separated",
+          "metric": "neighbors_k25",
+          "spearman_diversity_agreement": -0.4222944154726809
+        },
+        {
+          "fields": 26,
+          "interpretation": "Descriptive, correlated Field attributes not separated",
+          "metric": "neighbors_k50",
+          "spearman_diversity_agreement": -0.39596512803025463
+        },
+        {
+          "fields": 26,
+          "interpretation": "Descriptive, correlated Field attributes not separated",
+          "metric": "rsa_spearman",
+          "spearman_diversity_agreement": -0.3952812504343475
+        }
+      ],
+      "comparisons": 10400,
+      "field_contrasts": 1200
+    },
+    "paired_scopes": [
+      {
+        "field_mean": 0.3865387813620072,
+        "k": 10,
+        "max_repeat_mean_difference": -0.016538248847926266,
+        "mean_difference": -0.01729865847414235,
+        "min_repeat_mean_difference": -0.017775115207373272,
+        "subfield_mean": 0.36924012288786484,
+        "subfields": 217,
+        "subfields_higher_agreement": 72,
+        "subfields_lower_agreement": 145
+      },
+      {
+        "field_mean": 0.46693378392217105,
+        "k": 25,
+        "max_repeat_mean_difference": -0.012337286226318484,
+        "mean_difference": -0.013491809523809526,
+        "min_repeat_mean_difference": -0.014116374807987705,
+        "subfield_mean": 0.4534419743983615,
+        "subfields": 217,
+        "subfields_higher_agreement": 90,
+        "subfields_lower_agreement": 127
+      },
+      {
+        "field_mean": 0.5448781771633385,
+        "k": 50,
+        "max_repeat_mean_difference": -0.007026195596518171,
+        "mean_difference": -0.007853124423963135,
+        "min_repeat_mean_difference": -0.008417572964669742,
+        "subfield_mean": 0.5370250527393754,
+        "subfields": 217,
+        "subfields_higher_agreement": 108,
+        "subfields_lower_agreement": 109
+      }
+    ],
+    "size": {
+      "all_sizes_counts": [
+        232,
+        217,
+        183
+      ],
+      "common_subfields_all_sizes": 183,
+      "fixed256_subfields": 217,
+      "stability": [
+        {
+          "alerts": 2628,
+          "comparisons": 8235,
+          "large_sample_equals_whole_group": false,
+          "max_median_change": 0.029769943268824872,
+          "max_width": 0.1813043931150935,
+          "passed": 5607,
+          "subfields": 183
+        },
+        {
+          "alerts": 213,
+          "comparisons": 3060,
+          "large_sample_equals_whole_group": true,
+          "max_median_change": 0.09307071907681763,
+          "max_width": 3.574918139293004e-14,
+          "passed": 2847,
+          "subfields": 68
+        }
+      ]
+    }
+  }
+}

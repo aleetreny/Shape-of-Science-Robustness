@@ -1,0 +1,11 @@
+{
+  "all_pass": true,
+  "rows_checked": 1024,
+  "reused_rows_exact": 521,
+  "new_rows": 503,
+  "tokens_checked": 1024,
+  "individually_reencoded_new_rows": 4,
+  "maximum_batch_absolute_error": 5.364418029785156e-07,
+  "manifest_sha256": "65c0f35ac1e27a79c23eb38f202eb1707b2a480a75ea8d3e0d1691be33c75ca7",
+  "script_sha256": "6f5eb3379c9624b015fc2252c152bf059fd91778962445ae79e0dfa1dc487752"
+}

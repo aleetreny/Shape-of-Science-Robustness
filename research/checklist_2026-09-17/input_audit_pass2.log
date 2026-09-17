@@ -1,0 +1,7 @@
+AUDIT specter2 abstract PASS
+AUDIT scincl title_abstract PASS
+AUDIT scincl title PASS
+AUDIT scincl abstract PASS
+AUDIT scibert title_abstract PASS
+AUDIT scibert title PASS
+AUDITS COMPLETE 11 /30

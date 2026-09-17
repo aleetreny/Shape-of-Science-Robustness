@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-17",
+  "type": "directed_update_not_exhaustive_systematic_review",
+  "exact_recent_queries": [
+    "\"Mapping Similarity Spaces across Embedding Models with Synthetic Query Probing\"",
+    "\"Beyond benchmarks\" \"Caspari\" embedding 2024",
+    "\"Sustainable science mapping\" arXiv classification 2026 authors",
+    "\"An embedding-based approach\" \"2026\" science technology topic linkages date"
+  ],
+  "query_families_used": [
+    "\"science mapping\" embedding model comparison 2025 2026",
+    "cross-model robustness geometry neighborhood embedding 2025 2026"
+  ],
+  "exclusions": [
+    "Unrelated search hits despite successful HTTP responses",
+    "Aggregators as final evidence",
+    "Unconfirmed publication date as novelty timing evidence"
+  ],
+  "followed_references": [
+    "Caspari et al. 2024 from Rozmus and van der Putten 2026"
+  ],
+  "read_source_register": "../RELATED_WORK_UPDATE.md"
+}

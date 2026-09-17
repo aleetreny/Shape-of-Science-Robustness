@@ -1,0 +1,43 @@
+{
+  "original_quality_excluded": 5776,
+  "valid_not_reselected_due_to_allocation": 123,
+  "largest_quality_exclusion_percent": [
+    {
+      "field_id": 12,
+      "field_name": "Arts and Humanities",
+      "original_total": 12848,
+      "final_total": 12630,
+      "original_not_selected": 453,
+      "original_excluded_by_quality": 453,
+      "quality_excluded_percent": 3.5258,
+      "clear_non_english": 377,
+      "content_or_notice": 77,
+      "valid_not_reselected_due_to_allocation": 0
+    },
+    {
+      "field_id": 33,
+      "field_name": "Social Sciences",
+      "original_total": 38116,
+      "final_total": 37549,
+      "original_not_selected": 994,
+      "original_excluded_by_quality": 994,
+      "quality_excluded_percent": 2.6078,
+      "clear_non_english": 927,
+      "content_or_notice": 71,
+      "valid_not_reselected_due_to_allocation": 0
+    },
+    {
+      "field_id": 29,
+      "field_name": "Nursing",
+      "original_total": 10820,
+      "final_total": 10830,
+      "original_not_selected": 244,
+      "original_excluded_by_quality": 244,
+      "quality_excluded_percent": 2.2551,
+      "clear_non_english": 208,
+      "content_or_notice": 37,
+      "valid_not_reselected_due_to_allocation": 0
+    }
+  ],
+  "note": "Language and content reasons can overlap. Rates describe the original selected corpus, not OpenAlex-wide error rates."
+}

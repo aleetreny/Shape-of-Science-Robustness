@@ -1,0 +1,86 @@
+{
+  "retrieved_at_utc": "2026-09-14T15:47:26.307721+00:00",
+  "endpoint": "https://api.openalex.org/works",
+  "parameters": {
+    "filter": "publication_year:2025-2026,type:article|preprint,language:en,has_abstract:true,is_retracted:false,is_paratext:false",
+    "group_by": "publication_year",
+    "per_page": 100
+  },
+  "api_key_used": true,
+  "http_status": 200,
+  "response": {
+    "meta": {
+      "count": 6487876,
+      "db_response_time_ms": 71,
+      "page": 1,
+      "per_page": 100,
+      "groups_count": 2,
+      "x_query": {
+        "oql": "works where has abstract is (true)\n  and paratext is (false)\n  and retracted is (false)\n  and language is (en)\n  and year >= (2025)\n  and year <= (2026)\n  and type is (article or preprint)\ngroup by year",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "has_abstract",
+              "value": true
+            },
+            {
+              "column_id": "is_paratext",
+              "value": false
+            },
+            {
+              "column_id": "is_retracted",
+              "value": false
+            },
+            {
+              "column_id": "language",
+              "value": "en"
+            },
+            {
+              "column_id": "publication_year",
+              "value": 2025,
+              "operator": ">="
+            },
+            {
+              "column_id": "publication_year",
+              "value": 2026,
+              "operator": "<="
+            },
+            {
+              "join": "or",
+              "filters": [
+                {
+                  "column_id": "type",
+                  "value": "article"
+                },
+                {
+                  "column_id": "type",
+                  "value": "preprint"
+                }
+              ]
+            }
+          ],
+          "group_by": [
+            {
+              "column_id": "publication_year"
+            }
+          ]
+        },
+        "url": "/works?filter=has_abstract:true,is_paratext:false,is_retracted:false,language:en,publication_year:2025-2026,type:article|preprint&group_by=publication_year&per_page=100"
+      },
+      "cost_usd": 0.0001
+    },
+    "group_by": [
+      {
+        "key": "2025",
+        "key_display_name": "2025",
+        "count": 4026794
+      },
+      {
+        "key": "2026",
+        "key_display_name": "2026",
+        "count": 2461082
+      }
+    ]
+  }
+}

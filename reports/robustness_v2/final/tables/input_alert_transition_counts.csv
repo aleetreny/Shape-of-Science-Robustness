@@ -1,0 +1,5 @@
+repeats,scope,comparisons,alerts26k,alerts52k,persists,resolved,new,no_alert,crosses_zero26k,crosses_zero52k
+20,individual_models,520,31,4,3,28,1,488,8,5
+20,area_means,52,0,0,0,0,0,52,7,5
+100,individual_models,520,72,5,5,67,0,448,11,4
+100,area_means,52,0,0,0,0,0,52,8,6

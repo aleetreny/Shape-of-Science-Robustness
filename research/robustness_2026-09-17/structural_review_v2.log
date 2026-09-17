@@ -1,0 +1,23 @@
+/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review_v2.py:132: RuntimeWarning: divide by zero encountered in log
+  'effective_subfields_entropy':float(np.exp(-(p*np.log(p)).sum())),
+/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review_v2.py:132: RuntimeWarning: invalid value encountered in multiply
+  'effective_subfields_entropy':float(np.exp(-(p*np.log(p)).sum())),
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review_v2.py", line 176, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review_v2.py", line 171, in main
+    'medicine':medicine(),'families':families()}
+               ^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review_v2.py", line 136, in medicine
+    byfield={r['field_id']:r['mean'] for r in aggregate([r for r in diversity if r['condition']=='observed_eligible_composition'],
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review_v2.py", line 18, in aggregate
+    return [{**dict(zip(keys,k)),**stats(v)} for k,v in groups.items()]
+                                   ^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/control_review.py", line 20, in stats
+    assert len(v) and np.isfinite(v).all()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

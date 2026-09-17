@@ -1,0 +1,13 @@
+model_or_family,studies,study_ids
+SPECTER,5,lamers_2021;landscape_2024;liang_2026;knowledge_cosmos_2025;bascur_2026
+SciBERT,5,lamers_2021;landscape_2024;constantino_2025;imel_2025;liang_2026
+BERT,3,lamers_2021;landscape_2024;huang_2025
+MPNet,3,landscape_2024;constantino_2025;huang_2025
+MiniLM,3,huang_2025;interdisciplinary_2024;nanoscience_2025
+SciNCL,2,landscape_2024;liang_2026
+BioBERT,1,landscape_2024
+GPT-2,1,imel_2025
+PubMedBERT,1,landscape_2024
+SBERT_unspecified,1,imel_2025
+SPECTER2,1,liang_2026
+SimCSE,1,landscape_2024

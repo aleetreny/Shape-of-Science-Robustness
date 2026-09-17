@@ -1,0 +1,15 @@
+{
+  "tables_match_generated_csv": true,
+  "local_links_exist": true,
+  "documents_checked": [
+    "CORPUS_BALANCE.md",
+    "MODEL_SELECTION.md",
+    "DECISIONS.md",
+    "progress.md",
+    "task_plan.md",
+    "findings.md",
+    "NEXT_STEPS.md"
+  ],
+  "corpus_hash_matches_frozen_manifest_and_readiness": true,
+  "verification_correction": "The first check searched final_validation.json, which has no corpus hash. Exact equality was then checked in the frozen embedding manifest and readiness.json."
+}

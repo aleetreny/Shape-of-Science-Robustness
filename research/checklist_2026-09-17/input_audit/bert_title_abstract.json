@@ -1,0 +1,17 @@
+{
+  "all_pass": true,
+  "all_saved_poolings_checked": true,
+  "auditor_sha256": "33937928bfb5d17f00e8d47be21eede3a541682be9339ce2ebaef895ef916ba0",
+  "completed_at": "2026-09-17T13:50:20.503762+00:00",
+  "condition": "title_abstract",
+  "input_sha256": "e7c4bf04ec736a5d46ef20dcb3df2cfa84ba211816090e2312a75318a4860776",
+  "lost_tokens": 410860,
+  "manifest_sha256": "e26de00f1ee3cd299bfae14fb7993e5110f9759879bee63d0fef00f8c56f2b2b",
+  "model": "bert",
+  "native_exact_reuse": 26000,
+  "original_tokens": 7381470,
+  "rows": 26000,
+  "source_identity_text_order_checked": true,
+  "token_sequences_checked": 26000,
+  "truncated_rows": 1674
+}

@@ -1,0 +1,9 @@
+outcome,permutations,observed_r_squared,reference_fraction_ge_observed,interpretation
+cka_primary,5000,0.7407675496457281,0.0003999200159968006,"Model-label permutation reference, not causal inference or 45 independent pairs"
+cka_equal2048,5000,0.7407191144622526,0.0003999200159968006,"Model-label permutation reference, not causal inference or 45 independent pairs"
+cka_quality,5000,0.7520478769510524,0.0003999200159968006,"Model-label permutation reference, not causal inference or 45 independent pairs"
+cka_cls,5000,0.4590986636674824,0.012397520495900819,"Model-label permutation reference, not causal inference or 45 independent pairs"
+cka_sep,5000,0.25753133342925016,0.3395320935812837,"Model-label permutation reference, not causal inference or 45 independent pairs"
+neighbors_2048_mean_k25,5000,0.7585284704095776,0.0001999600079984003,"Model-label permutation reference, not causal inference or 45 independent pairs"
+neighbors_2048_cls_k25,5000,0.5067203619211704,0.011797640471905619,"Model-label permutation reference, not causal inference or 45 independent pairs"
+neighbors_2048_sep_k25,5000,0.44166810895557973,0.05458908218356329,"Model-label permutation reference, not causal inference or 45 independent pairs"

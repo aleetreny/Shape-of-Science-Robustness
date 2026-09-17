@@ -1,0 +1,25 @@
+{
+  "filepath": "references/references.bib",
+  "total_entries": 45,
+  "valid_entries": 45,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry klabunde2025: Missing recommended field \"pages\"",
+      "entry": "klabunde2025"
+    }
+  ],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "torch": "2.14.0",
+  "transformers": "4.57.6",
+  "numpy": "2.5.3",
+  "input_ids_sha256": "a7bf101a6da095723c1b2945c24cb6af99bae3954a2d4ffc4f3707ce866ad0bf",
+  "results": [
+    {
+      "model": "malteos/scincl",
+      "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+      "device": "mps",
+      "dtype": "float32",
+      "attention": "eager",
+      "max_length": 512,
+      "n": 512,
+      "batch_size": 16,
+      "seconds": 10.132624958001543,
+      "papers_per_second": 50.52984810176787,
+      "padded_tokens": 248944,
+      "token_lengths_percentiles": [
+        103.0,
+        177.0,
+        250.0,
+        335.0,
+        451.0,
+        524.9,
+        1504.0
+      ],
+      "truncated_fraction": 0.052734375,
+      "process_peak_rss_gib": 0.497222900390625,
+      "mps_driver_allocated_gib": 4.00848388671875,
+      "mps_current_allocated_gib": 0.41038036346435547,
+      "batch_trials": [
+        {
+          "n": 128,
+          "batch_size": 8,
+          "seconds": 2.786425917001907,
+          "papers_per_second": 45.936983007150374,
+          "padded_tokens": 56712
+        },
+        {
+          "n": 128,
+          "batch_size": 16,
+          "seconds": 2.5518281659969944,
+          "papers_per_second": 50.16011724676244,
+          "padded_tokens": 62432
+        },
+        {
+          "n": 128,
+          "batch_size": 32,
+          "seconds": 2.625328250003804,
+          "papers_per_second": 48.75580796413345,
+          "padded_tokens": 65536
+        }
+      ]
+    },
+    {
+      "model": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "device": "mps",
+      "dtype": "float32",
+      "attention": "eager",
+      "max_length": 384,
+      "n": 512,
+      "batch_size": 8,
+      "seconds": 7.919738458003849,
+      "papers_per_second": 64.64859953582967,
+      "padded_tokens": 192424,
+      "token_lengths_percentiles": [
+        101.0,
+        186.75,
+        264.5,
+        360.0,
+        499.90000000000003,
+        601.5999999999999,
+        1772.0
+      ],
+      "truncated_fraction": 0.208984375,
+      "process_peak_rss_gib": 0.5186767578125,
+      "mps_driver_allocated_gib": 2.00848388671875,
+      "mps_current_allocated_gib": 0.4084498882293701,
+      "batch_trials": [
+        {
+          "n": 128,
+          "batch_size": 8,
+          "seconds": 1.9205575000014505,
+          "papers_per_second": 66.6473146468686,
+          "padded_tokens": 47368
+        },
+        {
+          "n": 128,
+          "batch_size": 16,
+          "seconds": 1.9810177920007845,
+          "papers_per_second": 64.61325108580817,
+          "padded_tokens": 49152
+        },
+        {
+          "n": 128,
+          "batch_size": 32,
+          "seconds": 1.9553969589978806,
+          "papers_per_second": 65.45985428227249,
+          "padded_tokens": 49152
+        }
+      ]
+    }
+  ],
+  "note": "Short warm benchmark on local historical sample; no claim about sustained thermals, different future encoders, or scientific convergence."
+}

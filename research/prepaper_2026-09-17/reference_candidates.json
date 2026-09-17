@@ -1,0 +1,130 @@
+{
+  "arxiv:2108.01661": [
+    "ANALYSIS_PROTOCOL.md",
+    "METHODS_ANALYSIS.md",
+    "research/analysis_2026-09-17/METRIC_REVIEW.md"
+  ],
+  "arxiv:2308.15706": [
+    "ACADEMIC_MODEL_USAGE.md",
+    "CORPUS_PROTOCOL.md",
+    "research/checklist_2026-09-17/RELATED_INPUT_WORK.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2405.01012": [
+    "ANALYSIS_PROTOCOL.md",
+    "METHODS_ANALYSIS.md",
+    "research/analysis_2026-09-17/METRIC_REVIEW.md"
+  ],
+  "arxiv:2407.08275": [
+    "MODEL_FAMILIES.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2506.23366": [
+    "03_bibliography_related_work-2.md",
+    "ACADEMIC_MODEL_USAGE.md",
+    "ANALYSIS_PROPOSAL.md",
+    "ANALYSIS_PROTOCOL.md",
+    "ANALYSIS_RESULTS.md",
+    "research/analysis_2026-09-17/METRIC_REVIEW.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2512.13054": [
+    "ACADEMIC_MODEL_USAGE.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2601.09173": [
+    "METRICS.md",
+    "research/analysis_2026-09-17/METRIC_REVIEW.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2602.14486": [
+    "METRICS.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2608.05857": [
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "arxiv:2609.00065": [
+    "ANALYSIS_PROTOCOL.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.1002/wics.70066": [
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.1007/s11192-017-2296-z": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.1007/s11192-024-05161-6": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.1007/s11192-024-05218-6": [
+    "03_bibliography_related_work-2.md",
+    "ACADEMIC_MODEL_USAGE.md"
+  ],
+  "doi:10.1007/s11192-025-05324-z": [
+    "03_bibliography_related_work-2.md",
+    "ACADEMIC_MODEL_USAGE.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.1007/s40820-025-01807-z": [
+    "ACADEMIC_MODEL_USAGE.md"
+  ],
+  "doi:10.1016/j.ipm.2025.104557": [
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.1016/j.patter.2024.100968": [
+    "ACADEMIC_MODEL_USAGE.md",
+    "EMBEDDINGS.md"
+  ],
+  "doi:10.1145/3728458": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.1162/qss_a_00085": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.1162/qss_a_00168": [
+    "ACADEMIC_MODEL_USAGE.md"
+  ],
+  "doi:10.1162/qss_a_00344": [
+    "03_bibliography_related_work-2.md",
+    "ACADEMIC_MODEL_USAGE.md"
+  ],
+  "doi:10.1162/qss_a_00349": [
+    "03_bibliography_related_work-2.md",
+    "CORPUS_PROTOCOL.md",
+    "research/checklist_2026-09-17/RELATED_INPUT_WORK.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.1186/s13326-026-00365-6": [
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.1371/journal.pone.0018029": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.18653/v1/2020.acl-main.207": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.18653/v1/2021.emnlp-main.552": [
+    "research/checklist_2026-09-17/MODEL_PROFILES.md"
+  ],
+  "doi:10.18653/v1/2022.emnlp-main.802": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.18653/v1/2023.emnlp-main.338": [
+    "03_bibliography_related_work-2.md",
+    "research/analysis_2026-09-17/METRIC_REVIEW.md"
+  ],
+  "doi:10.18653/v1/2024.sdp-1.27": [
+    "03_bibliography_related_work-2.md"
+  ],
+  "doi:10.18653/v1/2025.emnlp-main.1662": [
+    "research/checklist_2026-09-17/RELATED_INPUT_WORK.md",
+    "research/robustness_2026-09-17/RELATED_WORK_UPDATE.md"
+  ],
+  "doi:10.18653/v1/2026.acl-long.1884": [
+    "MODEL_SELECTION.md"
+  ],
+  "doi:10.48550/arxiv.2609.00065": [
+    "ACADEMIC_MODEL_USAGE.md"
+  ]
+}

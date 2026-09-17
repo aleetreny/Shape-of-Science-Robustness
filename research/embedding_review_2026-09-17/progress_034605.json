@@ -1,0 +1,75 @@
+{
+  "checked_at": "2026-09-17T03:46:05.404866+00:00",
+  "models": [
+    {
+      "model": "specter",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-15T20:08:03.467137+00:00"
+    },
+    {
+      "model": "specter2",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-15T22:53:23.409129+00:00"
+    },
+    {
+      "model": "scincl",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T01:30:19.543417+00:00"
+    },
+    {
+      "model": "scibert",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T06:23:19.801441+00:00"
+    },
+    {
+      "model": "bert",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T17:19:38.989584+00:00"
+    },
+    {
+      "model": "mpnet",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T19:29:07.427368+00:00"
+    },
+    {
+      "model": "minilm",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T20:16:20.756619+00:00"
+    },
+    {
+      "model": "pubmedbert",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T23:04:43.540201+00:00"
+    },
+    {
+      "model": "biobert",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-17T01:48:47.509718+00:00"
+    },
+    {
+      "model": "simcse",
+      "rows": 362496,
+      "state": "running",
+      "updated_at": "2026-09-17T03:46:00.382062+00:00"
+    }
+  ],
+  "live_model_pid": 57837,
+  "live_queue_pid": 43938,
+  "audit_already_delivered": false,
+  "other_audit_process_seen": false,
+  "recent_simcse_papers_per_second": 51.477496188686516,
+  "estimated_remaining_hours": 0.7419854962555463,
+  "automation_interval_hours": 1,
+  "changed_protected_files": false,
+  "action_required": false,
+  "audit_level": "progress, active processes, source/config and saved validations; full vector audit deferred"
+}

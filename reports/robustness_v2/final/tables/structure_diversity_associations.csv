@@ -1,0 +1,6 @@
+metric,fields,spearman_diversity_agreement,interpretation
+cka_debiased,26,-0.33988716516586626,"Descriptive, correlated Field attributes not separated"
+neighbors_k10,26,-0.3207385924804654,"Descriptive, correlated Field attributes not separated"
+neighbors_k25,26,-0.4222944154726809,"Descriptive, correlated Field attributes not separated"
+neighbors_k50,26,-0.39596512803025463,"Descriptive, correlated Field attributes not separated"
+rsa_spearman,26,-0.3952812504343475,"Descriptive, correlated Field attributes not separated"

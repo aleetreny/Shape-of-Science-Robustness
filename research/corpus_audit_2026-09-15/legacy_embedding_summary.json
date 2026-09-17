@@ -1,0 +1,10 @@
+{
+  "exact_text_matches": 22118,
+  "indexed_vectors": 22118,
+  "shards_checked": 119,
+  "all_matching_vectors_finite_nonzero": true,
+  "all_metadata_row_ids_match": true,
+  "norm_min": 21.267894744873047,
+  "norm_max": 22.7398681640625,
+  "readiness": "Candidates only: exact model/tokenizer/adapter revisions and original input processing remain to be resolved. Additional cleaning may remove some IDs. No vectors recomputed or copied."
+}

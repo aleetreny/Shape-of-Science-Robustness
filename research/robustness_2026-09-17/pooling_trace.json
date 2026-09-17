@@ -1,0 +1,1044 @@
+{
+  "all_pass": true,
+  "pooling_source": "sos_embed/models.py",
+  "pooling_source_sha256": "253563df8ef17d6d15931300730144375acf047eeb5468055a5d507b813dfb61",
+  "embedding_config_sha256": "3f080d674ce8110c38933e64c605ce1a32762d9b9da2af7be94e6b143f6b5ae4",
+  "input52_config_sha256": "4f0db886a710b7f4528ef19a6893397a52b6165732e3fb7148a94555ea4cad45",
+  "models": [
+    {
+      "model": "specter",
+      "repo_id": "allenai/specter",
+      "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+      "primary_pooling": "cls",
+      "saved_poolings": [
+        "cls"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            105,
+            553,
+            125,
+            10473,
+            102
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            289,
+            3935,
+            3458,
+            125,
+            15291,
+            10473,
+            211,
+            102
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars[SEP]We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            105,
+            553,
+            125,
+            10473,
+            102,
+            289,
+            3935,
+            3458,
+            125,
+            15291,
+            10473,
+            211,
+            102
+          ],
+          "mean_positions": 14,
+          "cls_position": 0,
+          "sep_position": 13
+        }
+      }
+    },
+    {
+      "model": "specter2",
+      "repo_id": "allenai/specter2_base",
+      "revision": "3447645e1def9117997203454fa4495937bfbd83",
+      "primary_pooling": "cls",
+      "saved_poolings": [
+        "cls"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            106,
+            527,
+            131,
+            9438,
+            103
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            185,
+            3745,
+            3244,
+            131,
+            13794,
+            9438,
+            205,
+            103
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars[SEP]We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            106,
+            527,
+            131,
+            9438,
+            103,
+            185,
+            3745,
+            3244,
+            131,
+            13794,
+            9438,
+            205,
+            103
+          ],
+          "mean_positions": 14,
+          "cls_position": 0,
+          "sep_position": 13
+        }
+      }
+    },
+    {
+      "model": "scincl",
+      "repo_id": "malteos/scincl",
+      "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+      "primary_pooling": "cls",
+      "saved_poolings": [
+        "cls"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            106,
+            527,
+            131,
+            9438,
+            103
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            185,
+            3745,
+            3244,
+            131,
+            13794,
+            9438,
+            205,
+            103
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars[SEP]We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            106,
+            527,
+            131,
+            9438,
+            103,
+            185,
+            3745,
+            3244,
+            131,
+            13794,
+            9438,
+            205,
+            103
+          ],
+          "mean_positions": 14,
+          "cls_position": 0,
+          "sep_position": 13
+        }
+      }
+    },
+    {
+      "model": "scibert",
+      "repo_id": "allenai/scibert_scivocab_uncased",
+      "revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1",
+      "primary_pooling": "mean",
+      "saved_poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            106,
+            527,
+            131,
+            9438,
+            103
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            185,
+            3745,
+            3244,
+            131,
+            13794,
+            9438,
+            205,
+            103
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            102,
+            106,
+            527,
+            131,
+            9438,
+            185,
+            3745,
+            3244,
+            131,
+            13794,
+            9438,
+            205,
+            103
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    },
+    {
+      "model": "bert",
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "primary_pooling": "mean",
+      "saved_poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1037,
+            2817,
+            1997,
+            3340,
+            102
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            2057,
+            12826,
+            9420,
+            1997,
+            3518,
+            3340,
+            1012,
+            102
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1037,
+            2817,
+            1997,
+            3340,
+            2057,
+            12826,
+            9420,
+            1997,
+            3518,
+            3340,
+            1012,
+            102
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    },
+    {
+      "model": "mpnet",
+      "repo_id": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "primary_pooling": "mean",
+      "saved_poolings": [
+        "mean"
+      ],
+      "max_length": 384,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "<s>",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "</s>"
+          ],
+          "token_ids": [
+            0,
+            1041,
+            2821,
+            2001,
+            3344,
+            2
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "<s>",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "</s>"
+          ],
+          "token_ids": [
+            0,
+            2061,
+            12830,
+            9424,
+            2001,
+            3522,
+            3344,
+            1016,
+            2
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "<s>",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "</s>"
+          ],
+          "token_ids": [
+            0,
+            1041,
+            2821,
+            2001,
+            3344,
+            2061,
+            12830,
+            9424,
+            2001,
+            3522,
+            3344,
+            1016,
+            2
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    },
+    {
+      "model": "minilm",
+      "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "primary_pooling": "mean",
+      "saved_poolings": [
+        "mean"
+      ],
+      "max_length": 256,
+      "dimension": 384,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1037,
+            2817,
+            1997,
+            3340,
+            102
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            2057,
+            12826,
+            9420,
+            1997,
+            3518,
+            3340,
+            1012,
+            102
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1037,
+            2817,
+            1997,
+            3340,
+            2057,
+            12826,
+            9420,
+            1997,
+            3518,
+            3340,
+            1012,
+            102
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    },
+    {
+      "model": "pubmedbert",
+      "repo_id": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+      "revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+      "primary_pooling": "mean",
+      "saved_poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            2,
+            43,
+            2161,
+            1927,
+            25084,
+            3
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            2,
+            2038,
+            5175,
+            5184,
+            1927,
+            15485,
+            25084,
+            18,
+            3
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            2,
+            43,
+            2161,
+            1927,
+            25084,
+            2038,
+            5175,
+            5184,
+            1927,
+            15485,
+            25084,
+            18,
+            3
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    },
+    {
+      "model": "biobert",
+      "repo_id": "dmis-lab/biobert-v1.1",
+      "revision": "551ca18efd7f052c8dfa0b01c94c2a8e68bc5488",
+      "primary_pooling": "mean",
+      "saved_poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "A",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            138,
+            2025,
+            1104,
+            2940,
+            102
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "We",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1284,
+            14133,
+            9959,
+            1104,
+            2721,
+            2940,
+            119,
+            102
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "A",
+            "study",
+            "of",
+            "stars",
+            "We",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            138,
+            2025,
+            1104,
+            2940,
+            1284,
+            14133,
+            9959,
+            1104,
+            2721,
+            2940,
+            119,
+            102
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    },
+    {
+      "model": "simcse",
+      "repo_id": "princeton-nlp/unsup-simcse-bert-base-uncased",
+      "revision": "218baf6bc48c463a53f5b4e1c568299537fab124",
+      "primary_pooling": "cls",
+      "saved_poolings": [
+        "cls"
+      ],
+      "max_length": 512,
+      "dimension": 768,
+      "special_tokens_in_mean": true,
+      "right_padding": true,
+      "pooler_output_used": false,
+      "examples": {
+        "title": {
+          "text": "A study of stars",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1037,
+            2817,
+            1997,
+            3340,
+            102
+          ],
+          "mean_positions": 6,
+          "cls_position": 0,
+          "sep_position": 5
+        },
+        "abstract": {
+          "text": "We compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            2057,
+            12826,
+            9420,
+            1997,
+            3518,
+            3340,
+            1012,
+            102
+          ],
+          "mean_positions": 9,
+          "cls_position": 0,
+          "sep_position": 8
+        },
+        "title_abstract": {
+          "text": "A study of stars\n\nWe compare observations of nearby stars.",
+          "tokens": [
+            "[CLS]",
+            "a",
+            "study",
+            "of",
+            "stars",
+            "we",
+            "compare",
+            "observations",
+            "of",
+            "nearby",
+            "stars",
+            ".",
+            "[SEP]"
+          ],
+          "token_ids": [
+            101,
+            1037,
+            2817,
+            1997,
+            3340,
+            2057,
+            12826,
+            9420,
+            1997,
+            3518,
+            3340,
+            1012,
+            102
+          ],
+          "mean_positions": 13,
+          "cls_position": 0,
+          "sep_position": 12
+        }
+      }
+    }
+  ],
+  "scope": "Literal tokenizer examples and code trace. No inference or model change."
+}

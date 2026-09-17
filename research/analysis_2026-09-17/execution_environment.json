@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-09-17T07:20:42.510502+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pyarrow": "25.0.1",
+  "shape_command": "VECLIB_MAXIMUM_THREADS=4 caffeinate -i .venv-analysis/bin/python -m sos_analysis.run_shape all",
+  "neighbor_command": "VECLIB_MAXIMUM_THREADS=4 caffeinate -i .venv-analysis/bin/python -m sos_analysis.run_neighbors all",
+  "control_environment": ".venv-embed unchanged; recorded per control manifest"
+}

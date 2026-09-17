@@ -1,0 +1,8 @@
+test_only_shuffled_title_changes_its_recipe_input_effect (tests.test_followup_recipes.RecipeInputControl.test_only_shuffled_title_changes_its_recipe_input_effect) ... INPUT COMPARISONS Field 11 complete
+INPUT RECIPE CONTROL Field 11 complete
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 2.948s
+
+OK

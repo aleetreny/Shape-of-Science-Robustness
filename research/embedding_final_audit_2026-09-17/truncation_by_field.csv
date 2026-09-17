@@ -1,0 +1,261 @@
+model,field_id,field,rows,truncated,truncated_percent
+specter,11,Agricultural and Biological Sciences,19423,1398,7.197652267929774
+specter,12,Arts and Humanities,12630,1500,11.876484560570072
+specter,13,"Biochemistry, Genetics and Molecular Biology",24497,1687,6.886557537657672
+specter,14,"Business, Management and Accounting",13218,445,3.3666212740202752
+specter,15,Chemical Engineering,10830,274,2.5300092336103415
+specter,16,Chemistry,10830,398,3.674976915974146
+specter,17,Computer Science,32828,505,1.5383209455342999
+specter,18,Decision Sciences,10830,314,2.899353647276085
+specter,19,Earth and Planetary Sciences,10830,840,7.756232686980609
+specter,20,"Economics, Econometrics and Finance",11509,562,4.883134937874707
+specter,21,Energy,10830,253,2.3361034164358263
+specter,22,Engineering,67148,1169,1.7409304819205338
+specter,23,Environmental Science,18984,1032,5.436156763590392
+specter,24,Immunology and Microbiology,10830,883,8.153277931671283
+specter,25,Materials Science,14233,345,2.423944354668728
+specter,26,Mathematics,10830,191,1.7636195752539243
+specter,27,Medicine,78669,8609,10.943319477812098
+specter,28,Neuroscience,10830,546,5.041551246537396
+specter,29,Nursing,10830,828,7.645429362880886
+specter,30,"Pharmacology, Toxicology and Pharmaceutics",10830,668,6.168051708217913
+specter,31,Physics and Astronomy,14822,355,2.3950883821346647
+specter,32,Psychology,13045,647,4.95975469528555
+specter,33,Social Sciences,37549,2410,6.418280113984394
+specter,34,Veterinary,10827,972,8.977556109725686
+specter,35,Dentistry,10825,541,4.997690531177829
+specter,36,Health Professions,11493,913,7.943965892282259
+specter2,11,Agricultural and Biological Sciences,19423,1212,6.24002471296916
+specter2,12,Arts and Humanities,12630,1420,11.243072050673002
+specter2,13,"Biochemistry, Genetics and Molecular Biology",24497,1392,5.682328448381434
+specter2,14,"Business, Management and Accounting",13218,398,3.0110455439552126
+specter2,15,Chemical Engineering,10830,235,2.169898430286242
+specter2,16,Chemistry,10830,364,3.361034164358264
+specter2,17,Computer Science,32828,472,1.4377970025587912
+specter2,18,Decision Sciences,10830,293,2.7054478301015696
+specter2,19,Earth and Planetary Sciences,10830,733,6.768236380424746
+specter2,20,"Economics, Econometrics and Finance",11509,514,4.466070032148753
+specter2,21,Energy,10830,217,2.0036934441366574
+specter2,22,Engineering,67148,1052,1.5666885089652707
+specter2,23,Environmental Science,18984,895,4.714496418036241
+specter2,24,Immunology and Microbiology,10830,732,6.759002770083103
+specter2,25,Materials Science,14233,310,2.1780369563690014
+specter2,26,Mathematics,10830,168,1.551246537396122
+specter2,27,Medicine,78669,7528,9.569207692992157
+specter2,28,Neuroscience,10830,467,4.312096029547553
+specter2,29,Nursing,10830,737,6.805170821791321
+specter2,30,"Pharmacology, Toxicology and Pharmaceutics",10830,570,5.2631578947368425
+specter2,31,Physics and Astronomy,14822,330,2.226420186209688
+specter2,32,Psychology,13045,596,4.568800306630893
+specter2,33,Social Sciences,37549,2208,5.880316386588191
+specter2,34,Veterinary,10827,848,7.832271173917059
+specter2,35,Dentistry,10825,449,4.147806004618937
+specter2,36,Health Professions,11493,848,7.3784042460628205
+scincl,11,Agricultural and Biological Sciences,19423,1211,6.234876177727436
+scincl,12,Arts and Humanities,12630,1420,11.243072050673002
+scincl,13,"Biochemistry, Genetics and Molecular Biology",24497,1392,5.682328448381434
+scincl,14,"Business, Management and Accounting",13218,398,3.0110455439552126
+scincl,15,Chemical Engineering,10830,235,2.169898430286242
+scincl,16,Chemistry,10830,364,3.361034164358264
+scincl,17,Computer Science,32828,472,1.4377970025587912
+scincl,18,Decision Sciences,10830,293,2.7054478301015696
+scincl,19,Earth and Planetary Sciences,10830,733,6.768236380424746
+scincl,20,"Economics, Econometrics and Finance",11509,513,4.457381179946129
+scincl,21,Energy,10830,217,2.0036934441366574
+scincl,22,Engineering,67148,1052,1.5666885089652707
+scincl,23,Environmental Science,18984,895,4.714496418036241
+scincl,24,Immunology and Microbiology,10830,732,6.759002770083103
+scincl,25,Materials Science,14233,310,2.1780369563690014
+scincl,26,Mathematics,10830,168,1.551246537396122
+scincl,27,Medicine,78669,7527,9.567936544255044
+scincl,28,Neuroscience,10830,467,4.312096029547553
+scincl,29,Nursing,10830,737,6.805170821791321
+scincl,30,"Pharmacology, Toxicology and Pharmaceutics",10830,570,5.2631578947368425
+scincl,31,Physics and Astronomy,14822,330,2.226420186209688
+scincl,32,Psychology,13045,596,4.568800306630893
+scincl,33,Social Sciences,37549,2208,5.880316386588191
+scincl,34,Veterinary,10827,848,7.832271173917059
+scincl,35,Dentistry,10825,449,4.147806004618937
+scincl,36,Health Professions,11493,848,7.3784042460628205
+scibert,11,Agricultural and Biological Sciences,19423,1201,6.183390825310199
+scibert,12,Arts and Humanities,12630,1417,11.21931908155186
+scibert,13,"Biochemistry, Genetics and Molecular Biology",24497,1388,5.6659999183573495
+scibert,14,"Business, Management and Accounting",13218,397,3.0034801028899984
+scibert,15,Chemical Engineering,10830,231,2.1329639889196677
+scibert,16,Chemistry,10830,360,3.3240997229916895
+scibert,17,Computer Science,32828,471,1.4347508224686243
+scibert,18,Decision Sciences,10830,291,2.6869806094182827
+scibert,19,Earth and Planetary Sciences,10830,726,6.703601108033241
+scibert,20,"Economics, Econometrics and Finance",11509,513,4.457381179946129
+scibert,21,Energy,10830,216,1.994459833795014
+scibert,22,Engineering,67148,1046,1.5577530231726933
+scibert,23,Environmental Science,18984,885,4.661820480404551
+scibert,24,Immunology and Microbiology,10830,725,6.694367497691597
+scibert,25,Materials Science,14233,308,2.1639851050375887
+scibert,26,Mathematics,10830,168,1.551246537396122
+scibert,27,Medicine,78669,7459,9.48149843013131
+scibert,28,Neuroscience,10830,460,4.247460757156048
+scibert,29,Nursing,10830,732,6.759002770083103
+scibert,30,"Pharmacology, Toxicology and Pharmaceutics",10830,566,5.226223453370268
+scibert,31,Physics and Astronomy,14822,327,2.2061800026986913
+scibert,32,Psychology,13045,589,4.51513990034496
+scibert,33,Social Sciences,37549,2205,5.872326826280327
+scibert,34,Veterinary,10827,843,7.786090329731228
+scibert,35,Dentistry,10825,443,4.092378752886836
+scibert,36,Health Professions,11493,841,7.317497607239189
+bert,11,Agricultural and Biological Sciences,19423,1640,8.443597796426916
+bert,12,Arts and Humanities,12630,1384,10.958036421219319
+bert,13,"Biochemistry, Genetics and Molecular Biology",24497,2485,10.144099277462546
+bert,14,"Business, Management and Accounting",13218,429,3.24557421697685
+bert,15,Chemical Engineering,10830,347,3.2040627885503232
+bert,16,Chemistry,10830,539,4.976915974145891
+bert,17,Computer Science,32828,629,1.9160472767149994
+bert,18,Decision Sciences,10830,338,3.120960295475531
+bert,19,Earth and Planetary Sciences,10830,835,7.710064635272391
+bert,20,"Economics, Econometrics and Finance",11509,534,4.639847076201233
+bert,21,Energy,10830,303,2.7977839335180055
+bert,22,Engineering,67148,1400,2.084946684934771
+bert,23,Environmental Science,18984,1114,5.868099452170249
+bert,24,Immunology and Microbiology,10830,1276,11.78208679593721
+bert,25,Materials Science,14233,456,3.2038221035621444
+bert,26,Mathematics,10830,206,1.902123730378578
+bert,27,Medicine,78669,11273,14.329659713483075
+bert,28,Neuroscience,10830,846,7.811634349030471
+bert,29,Nursing,10830,1075,9.926131117266852
+bert,30,"Pharmacology, Toxicology and Pharmaceutics",10830,968,8.938134810710988
+bert,31,Physics and Astronomy,14822,409,2.759411685332614
+bert,32,Psychology,13045,652,4.99808355691836
+bert,33,Social Sciences,37549,2282,6.077392207515513
+bert,34,Veterinary,10827,1226,11.323542994365937
+bert,35,Dentistry,10825,729,6.734411085450346
+bert,36,Health Professions,11493,956,8.318106673627426
+mpnet,11,Agricultural and Biological Sciences,19423,5414,27.87416979869227
+mpnet,12,Arts and Humanities,12630,2087,16.524148851939827
+mpnet,13,"Biochemistry, Genetics and Molecular Biology",24497,7900,32.24884679756705
+mpnet,14,"Business, Management and Accounting",13218,1034,7.822666061431382
+mpnet,15,Chemical Engineering,10830,1383,12.770083102493075
+mpnet,16,Chemistry,10830,1733,16.00184672206833
+mpnet,17,Computer Science,32828,1656,5.044474229316437
+mpnet,18,Decision Sciences,10830,787,7.2668513388735
+mpnet,19,Earth and Planetary Sciences,10830,2339,21.59741458910434
+mpnet,20,"Economics, Econometrics and Finance",11509,1177,10.226779042488488
+mpnet,21,Energy,10830,1140,10.526315789473685
+mpnet,22,Engineering,67148,4811,7.164770358015131
+mpnet,23,Environmental Science,18984,4075,21.465444584913612
+mpnet,24,Immunology and Microbiology,10830,4274,39.46445060018467
+mpnet,25,Materials Science,14233,1627,11.431181058104405
+mpnet,26,Mathematics,10830,592,5.466297322253001
+mpnet,27,Medicine,78669,31851,40.487358425809404
+mpnet,28,Neuroscience,10830,3063,28.282548476454295
+mpnet,29,Nursing,10830,3506,32.3730378578024
+mpnet,30,"Pharmacology, Toxicology and Pharmaceutics",10830,3071,28.356417359187443
+mpnet,31,Physics and Astronomy,14822,1467,9.897449736877615
+mpnet,32,Psychology,13045,1810,13.875047911077042
+mpnet,33,Social Sciences,37549,4477,11.92308716610296
+mpnet,34,Veterinary,10827,3982,36.77842430959638
+mpnet,35,Dentistry,10825,3170,29.28406466512702
+mpnet,36,Health Professions,11493,2373,20.647350561211173
+minilm,11,Agricultural and Biological Sciences,19423,13011,66.98759203006745
+minilm,12,Arts and Humanities,12630,4855,38.440221694378465
+minilm,13,"Biochemistry, Genetics and Molecular Biology",24497,17138,69.95958688819039
+minilm,14,"Business, Management and Accounting",13218,3935,29.770010591617492
+minilm,15,Chemical Engineering,10830,5068,46.795937211449676
+minilm,16,Chemistry,10830,4978,45.96491228070175
+minilm,17,Computer Science,32828,8381,25.530035335689046
+minilm,18,Decision Sciences,10830,2912,26.88827331486611
+minilm,19,Earth and Planetary Sciences,10830,6068,56.02954755309326
+minilm,20,"Economics, Econometrics and Finance",11509,3447,29.950473542445042
+minilm,21,Energy,10830,4283,39.54755309325947
+minilm,22,Engineering,67148,21259,31.6599154107345
+minilm,23,Environmental Science,18984,11195,58.97071217867678
+minilm,24,Immunology and Microbiology,10830,8219,75.8910433979686
+minilm,25,Materials Science,14233,6407,45.01510574018127
+minilm,26,Mathematics,10830,2194,20.25854108956602
+minilm,27,Medicine,78669,57284,72.81648425682289
+minilm,28,Neuroscience,10830,7068,65.26315789473684
+minilm,29,Nursing,10830,7381,68.15327793167128
+minilm,30,"Pharmacology, Toxicology and Pharmaceutics",10830,6845,63.204062788550324
+minilm,31,Physics and Astronomy,14822,5085,34.3071110511402
+minilm,32,Psychology,13045,5698,43.679570716749716
+minilm,33,Social Sciences,37549,14001,37.28727795680311
+minilm,34,Veterinary,10827,7775,71.81121270896833
+minilm,35,Dentistry,10825,7573,69.95842956120093
+minilm,36,Health Professions,11493,5850,50.90054815974941
+pubmedbert,11,Agricultural and Biological Sciences,19423,1147,5.905369922257118
+pubmedbert,12,Arts and Humanities,12630,1454,11.512272367379255
+pubmedbert,13,"Biochemistry, Genetics and Molecular Biology",24497,1191,4.861819814671184
+pubmedbert,14,"Business, Management and Accounting",13218,417,3.1547889241942806
+pubmedbert,15,Chemical Engineering,10830,229,2.11449676823638
+pubmedbert,16,Chemistry,10830,341,3.148661126500462
+pubmedbert,17,Computer Science,32828,492,1.49872060436213
+pubmedbert,18,Decision Sciences,10830,299,2.760849492151431
+pubmedbert,19,Earth and Planetary Sciences,10830,758,6.999076638965835
+pubmedbert,20,"Economics, Econometrics and Finance",11509,533,4.63115822399861
+pubmedbert,21,Energy,10830,216,1.994459833795014
+pubmedbert,22,Engineering,67148,1086,1.6173229284565438
+pubmedbert,23,Environmental Science,18984,878,4.624947324062369
+pubmedbert,24,Immunology and Microbiology,10830,635,5.863342566943675
+pubmedbert,25,Materials Science,14233,296,2.0796739970491114
+pubmedbert,26,Mathematics,10830,189,1.745152354570637
+pubmedbert,27,Medicine,78669,6794,8.63618451995068
+pubmedbert,28,Neuroscience,10830,407,3.7580794090489382
+pubmedbert,29,Nursing,10830,670,6.186518928901201
+pubmedbert,30,"Pharmacology, Toxicology and Pharmaceutics",10830,503,4.644506001846722
+pubmedbert,31,Physics and Astronomy,14822,349,2.3546080151126705
+pubmedbert,32,Psychology,13045,577,4.423150632426217
+pubmedbert,33,Social Sciences,37549,2280,6.072065833976937
+pubmedbert,34,Veterinary,10827,753,6.954835134386257
+pubmedbert,35,Dentistry,10825,408,3.76905311778291
+pubmedbert,36,Health Professions,11493,826,7.18698338118855
+biobert,11,Agricultural and Biological Sciences,19423,2139,11.012716882047057
+biobert,12,Arts and Humanities,12630,1481,11.726049089469518
+biobert,13,"Biochemistry, Genetics and Molecular Biology",24497,3490,14.246642446013798
+biobert,14,"Business, Management and Accounting",13218,486,3.6768043576940537
+biobert,15,Chemical Engineering,10830,477,4.404432132963989
+biobert,16,Chemistry,10830,718,6.629732225300092
+biobert,17,Computer Science,32828,637,1.940416717436335
+biobert,18,Decision Sciences,10830,366,3.3795013850415514
+biobert,19,Earth and Planetary Sciences,10830,1019,9.409048938134811
+biobert,20,"Economics, Econometrics and Finance",11509,613,5.3262664002085325
+biobert,21,Energy,10830,398,3.674976915974146
+biobert,22,Engineering,67148,1646,2.451301602430452
+biobert,23,Environmental Science,18984,1423,7.495785924989465
+biobert,24,Immunology and Microbiology,10830,1861,17.183748845798707
+biobert,25,Materials Science,14233,593,4.166373919763929
+biobert,26,Mathematics,10830,244,2.253000923361034
+biobert,27,Medicine,78669,15689,19.943052536577305
+biobert,28,Neuroscience,10830,1195,11.034164358264082
+biobert,29,Nursing,10830,1430,13.204062788550322
+biobert,30,"Pharmacology, Toxicology and Pharmaceutics",10830,1289,11.902123730378579
+biobert,31,Physics and Astronomy,14822,523,3.528538658750506
+biobert,32,Psychology,13045,810,6.20927558451514
+biobert,33,Social Sciences,37549,2491,6.633998242296732
+biobert,34,Veterinary,10827,1728,15.960099750623442
+biobert,35,Dentistry,10825,1121,10.355658198614318
+biobert,36,Health Professions,11493,1149,9.997389715478986
+simcse,11,Agricultural and Biological Sciences,19423,1640,8.443597796426916
+simcse,12,Arts and Humanities,12630,1384,10.958036421219319
+simcse,13,"Biochemistry, Genetics and Molecular Biology",24497,2485,10.144099277462546
+simcse,14,"Business, Management and Accounting",13218,429,3.24557421697685
+simcse,15,Chemical Engineering,10830,347,3.2040627885503232
+simcse,16,Chemistry,10830,539,4.976915974145891
+simcse,17,Computer Science,32828,629,1.9160472767149994
+simcse,18,Decision Sciences,10830,338,3.120960295475531
+simcse,19,Earth and Planetary Sciences,10830,835,7.710064635272391
+simcse,20,"Economics, Econometrics and Finance",11509,534,4.639847076201233
+simcse,21,Energy,10830,303,2.7977839335180055
+simcse,22,Engineering,67148,1400,2.084946684934771
+simcse,23,Environmental Science,18984,1114,5.868099452170249
+simcse,24,Immunology and Microbiology,10830,1276,11.78208679593721
+simcse,25,Materials Science,14233,456,3.2038221035621444
+simcse,26,Mathematics,10830,206,1.902123730378578
+simcse,27,Medicine,78669,11273,14.329659713483075
+simcse,28,Neuroscience,10830,846,7.811634349030471
+simcse,29,Nursing,10830,1075,9.926131117266852
+simcse,30,"Pharmacology, Toxicology and Pharmaceutics",10830,968,8.938134810710988
+simcse,31,Physics and Astronomy,14822,409,2.759411685332614
+simcse,32,Psychology,13045,652,4.99808355691836
+simcse,33,Social Sciences,37549,2282,6.077392207515513
+simcse,34,Veterinary,10827,1226,11.323542994365937
+simcse,35,Dentistry,10825,729,6.734411085450346
+simcse,36,Health Professions,11493,956,8.318106673627426

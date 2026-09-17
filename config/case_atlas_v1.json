@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-09-17T18:56:29.425382+00:00",
+  "phase": "Exploratory follow-up requested after aggregate results; selection fixed before reading new titles/relations",
+  "output": "data/prepaper_v1/case_atlas",
+  "models_from": "config/analysis_v1.json",
+  "primary_k": 25,
+  "ks": [
+    10,
+    25,
+    50
+  ],
+  "primary_pooling_unchanged": true,
+  "subfields": {
+    "primary_candidates": 256,
+    "primary_rows": 217,
+    "sensitivity_common_groups": 183,
+    "sizes": [
+      128,
+      256,
+      512
+    ],
+    "recipes": [
+      "mean",
+      "cls",
+      "sep"
+    ],
+    "ranking": "Primary equal-size k25 mean pair agreement; also preserve worst/best within-panel percentile across all 27 size/recipe/k panels on the same 183 groups",
+    "showcase_per_tail": 6,
+    "showcase_rule": "Stable: highest worst percentile. Dependent: lowest best percentile. Ties by numeric Subfield ID. No universal stability threshold."
+  },
+  "papers": {
+    "population": "Existing 10850 fixed query IDs in 217 Subfields, 256 candidates, ten repeats, Subfield scope",
+    "ranking": "Stable: largest minimum mean pair agreement across ten candidate selections. Dependent: smallest maximum. k25, ties by row_index. Preserve mean, range, k10/50, pair/model and native-search diagnostics.",
+    "showcase_per_tail": 6,
+    "max_per_subfield": 1,
+    "max_per_field": 2,
+    "showcase_quality": "Exclude existing strict-quality/duplicate flags for illustrated examples only; all query scores retained in full table",
+    "not_generalizable": "These are model-panel and candidate-universe dependent examples, not intrinsic paper quality."
+  },
+  "relations": {
+    "article_pairs": "For all 10850 fixed queries and their 49 co-queries, both endpoints occur in all ten candidate samples. Report frequency among top k across ten models and ten repeats. Never count absence from candidate set as a failure. Save directed edges and per-model support.",
+    "showcase": "For the 12 selected papers, strongest recurrent edge and strongest encoder-dependent edge (max-minus-min per-model support), tie by mean support then row_index; retain all counterparts and actual titles/abstracts for interpretation.",
+    "group_pairs": "Rank each pair of matched-256 Subfield centers within each encoder using cosine; summarize rank dispersion, top5 mutual frequencies, recipe/native sensitivities where existing data permit. Separate these center relations from article neighborhood edges."
+  },
+  "audit": {
+    "originals_read_only": true,
+    "independent_reconstruction": true,
+    "freeze_source_config": true,
+    "no_new_encoder_inference": true,
+    "no_new_openalex_extraction": true
+  }
+}

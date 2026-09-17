@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "rows": 500000,
+  "language_prediction_mismatches": 0,
+  "segment_prediction_mismatches": 0,
+  "known_content_signatures_remaining": 0,
+  "retained_flags": {
+    "language_ambiguous": 9883,
+    "possible_mixed_language": 3002,
+    "content_review_flag": 33,
+    "possible_notice": 4,
+    "possible_access_message": 0,
+    "abstract_50_79": 42849,
+    "abstract_over_2000": 249,
+    "abstract_top_label_non_en": 3902
+  },
+  "normalized_duplicate_groups": 64,
+  "abstract_duplicate_groups": 88,
+  "limitation": "Verifies detector execution and removal of known errors, not ground-truth language or exhaustive metadata quality."
+}

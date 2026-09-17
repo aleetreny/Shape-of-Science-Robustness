@@ -1,0 +1,26 @@
+INPUT COMPARISONS Field 11 complete
+..E...INPUT COMPARISONS Field 11 complete
+INPUT RECIPE CONTROL Field 11 complete
+....SUBFIELD 1100 80 complete
+.SUBFIELD 1100 3 complete
+SUBFIELD 1100 11 complete
+..
+======================================================================
+ERROR: test_deep_input52 (unittest.loader._FailedTest.test_deep_input52)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_deep_input52
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 396, in _find_test_path
+    module = self._get_module_from_name(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/loader.py", line 339, in _get_module_from_name
+    __import__(name)
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_deep_input52.py", line 3, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.852s
+
+FAILED (errors=1)

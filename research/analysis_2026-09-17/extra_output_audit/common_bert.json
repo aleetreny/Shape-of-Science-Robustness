@@ -1,0 +1,20 @@
+{
+  "audited_at": "2026-09-17T08:08:21.604058+00:00",
+  "control": "common",
+  "file_and_identity_validation": {
+    "complete": true,
+    "rows": 52000,
+    "seconds": 249.14376525401894,
+    "shards": 51,
+    "target": 52000,
+    "truncated_rows": 0
+  },
+  "input_sha256": "59895077b6a29ddb9304a43b1dfc343648c282567a653e54de595430756e46a0",
+  "manifest_sha256": "d0e864eb5ae280d1f97b747edaedac6b580857bd25eac611b0a1a7ba075ed4ea",
+  "model": "bert",
+  "recomputed_rows": 25143,
+  "reused_rows_checked_bit_exact": 26857,
+  "rows": 52000,
+  "source_files_current_and_snapshot_match": true,
+  "truncated_rows_from_metadata": 0
+}

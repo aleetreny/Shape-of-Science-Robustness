@@ -1,0 +1,10 @@
+flag,marked_rows,not_additive
+language_ambiguous,9883,True
+possible_mixed_language,3002,True
+abstract_50_79,42849,True
+content_review_flag,33,True
+possible_notice,4,True
+possible_access_message,0,True
+abstract_over_2000,249,True
+duplicate_doi,18,True
+duplicate_text,124,True

@@ -1,0 +1,17 @@
+{
+  "all_pass": true,
+  "all_saved_poolings_checked": true,
+  "auditor_sha256": "33937928bfb5d17f00e8d47be21eede3a541682be9339ce2ebaef895ef916ba0",
+  "completed_at": "2026-09-17T14:09:58.461532+00:00",
+  "condition": "title_abstract",
+  "input_sha256": "e7c4bf04ec736a5d46ef20dcb3df2cfa84ba211816090e2312a75318a4860776",
+  "lost_tokens": 489838,
+  "manifest_sha256": "f739f4c1fa4fb76e08c69fce96fa6be23fa5e17e4cf4ac23aaf3761a610566dd",
+  "model": "biobert",
+  "native_exact_reuse": 26000,
+  "original_tokens": 7856048,
+  "rows": 26000,
+  "source_identity_text_order_checked": true,
+  "token_sequences_checked": 26000,
+  "truncated_rows": 2179
+}

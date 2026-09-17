@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-09-17T17:21:45.347442+00:00",
+  "seed": 2026091709,
+  "scope": "R03/R04 query-paired Field versus Subfield neighborhoods",
+  "candidates": 256,
+  "queries": 50,
+  "repeats": 10,
+  "eligible_subfields": "same >=256 as size-control primary",
+  "candidate_period_matching": "For every repeat and Subfield, choose 206 additional Subfield papers; match their per-period counts when choosing the parent Field papers. Include the same 50 queries in both sets.",
+  "metrics": [
+    10,
+    25,
+    50
+  ],
+  "source_primary_recipe": "word-BERT mean; other native recipe",
+  "output": "data/robustness_v2/paired_neighbor_scales",
+  "interpretation": "Same query IDs, candidate count and date composition across scopes. This probes changes of topical search context, not a population interval."
+}

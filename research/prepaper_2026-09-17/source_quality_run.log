@@ -1,0 +1,26 @@
+{
+  "all_corpus_rows": 500000,
+  "all_work_ids_and_text_hashes_match_metadata": true,
+  "all_primary_field_subfield_labels_match_corpus_source_json": true,
+  "illustrated_records_verified_against_raw_response": 30,
+  "generic_title_rule": "^(?:announcements?|editorials?|book reviews?|news|corrections?|erratum|errata|corrigendum|contents|table of contents|preface|foreword|index|author index|subject index|conference calendar)$",
+  "generic_title_records": 82,
+  "additional_beyond_existing_strict_flags": 67,
+  "generic_title_count_by_title": {
+    "News": 13,
+    "Errata": 10,
+    "PREFACE": 1,
+    "Announcements": 4,
+    "Preface": 37,
+    "Foreword": 13,
+    "Announcement": 2,
+    "FOREWORD": 1,
+    "ERRATA": 1
+  },
+  "fixed_queries_flagged": 5,
+  "fixed_query_count": 10850,
+  "equal_subfield_k25_before": 0.45344197439836154,
+  "equal_subfield_k25_excluding_generic_queries": 0.45348954631110006,
+  "scope_limit": "Posthoc narrow generic-title diagnostic. Candidates unchanged. Does not estimate semantic label error prevalence or validate all abstracts.",
+  "script_sha256": "bcb4a70cb8da38b66ca13a98d39848aca1ceeb03f6941c751981a3b87fb26b9b"
+}

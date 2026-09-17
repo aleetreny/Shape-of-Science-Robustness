@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "work_id": "W2359395392",
+      "text_sha256": "07bb8e568210654497936aed0b4a79bb751b71fc8fdd5964236f730e1d58e127"
+    },
+    {
+      "work_id": "W2331459751",
+      "text_sha256": "d9e86e8f738f3fd9f294cbbe1f200158ac6e03d342bb04856cb3de46b90db6ae"
+    },
+    {
+      "work_id": "W2035422805",
+      "text_sha256": "407199aeba0b327e58a0484ff0faa95721fd080582528d58dc98257ebba310ef"
+    },
+    {
+      "work_id": "W1969235204",
+      "text_sha256": "3f530795c4a593ed992064ab72cbb4293a2b94c3e8b2d0b3eeedd97eb257641c"
+    },
+    {
+      "work_id": "W4301403643",
+      "text_sha256": "e9a8d000940abf55349fc5c2461699d52334d3b0d03c8523d09195513a3318aa"
+    },
+    {
+      "work_id": "W3147378692",
+      "text_sha256": "1593d88665661b3d50ac6f7a73a90007f0e9c09ef4ea41ba347dad83f786c2c2"
+    },
+    {
+      "work_id": "W2013723442",
+      "text_sha256": "d0108e25903efda616d6df572493522a504b4afff05c1d9d1041509f80414585"
+    },
+    {
+      "work_id": "W2011119066",
+      "text_sha256": "c18d22992f422efc4269adc87738a96d98ae234d455c277489b23d8986bc6845"
+    },
+    {
+      "work_id": "W7137766413",
+      "text_sha256": "23402547bbaa41c4b919085cbe684da0a2504df6344359bcd97d5187ce4cfd3d"
+    },
+    {
+      "work_id": "W1972893464",
+      "text_sha256": "b541f396216c42708246133387a479a21e4c5b3f0a24c2a0708a3bc523da9620"
+    }
+  ],
+  "check": "Assistant read all 10 selected title/abstract pairs from the additional page. Each contains scientific content consistent with its title; no remaining webpage template identified in this small set.",
+  "limitation": "Not independent human validation and not an exhaustive quality guarantee for the whole corpus. Original spelling, symbols and an abstract marker remain unchanged."
+}

@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-09-15T14:50:30.870742+00:00",
+  "source": "data/corpus_clean_v1/corpus.parquet",
+  "source_sha256": "b48bfd4344400d811953fff42832460ad711991f0bc7df8b8442807106b72abe",
+  "script_sha256": "3c4f3aba27aa5f0a8bf98681f7c81b76a0854ca1775ece23f464470a122c424e",
+  "audit_counts_match": true,
+  "rows": 500000,
+  "cohorts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "fields": 26,
+  "field_periods": 130,
+  "field_years": 650,
+  "minimum_period_n": 2165,
+  "cells_at_minimum": 12,
+  "cells_at_2165_or_2166": 80,
+  "minimum_year_n": 282,
+  "weakest_years": [
+    {
+      "field_id": 17,
+      "field_name": "Computer Science",
+      "year": 2000,
+      "n": 282
+    }
+  ],
+  "language_ambiguous": 9883,
+  "short_abstracts": 42849,
+  "hypothetical_remaining": 449217,
+  "hypothetical_smallest": [
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2000,
+      "base": 386,
+      "extra": 1780,
+      "total": 2166,
+      "language_ambiguous": 153,
+      "abstract_50_79": 688,
+      "union_flagged": 790,
+      "hypothetical_remaining": 1376,
+      "ambiguous_pct": 7.06371191135734
+    },
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2005,
+      "base": 639,
+      "extra": 1527,
+      "total": 2166,
+      "language_ambiguous": 152,
+      "abstract_50_79": 692,
+      "union_flagged": 785,
+      "hypothetical_remaining": 1381,
+      "ambiguous_pct": 7.017543859649122
+    },
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2010,
+      "base": 893,
+      "extra": 1273,
+      "total": 2166,
+      "language_ambiguous": 159,
+      "abstract_50_79": 653,
+      "union_flagged": 752,
+      "hypothetical_remaining": 1414,
+      "ambiguous_pct": 7.340720221606648
+    },
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2015,
+      "base": 1108,
+      "extra": 1058,
+      "total": 2166,
+      "language_ambiguous": 148,
+      "abstract_50_79": 563,
+      "union_flagged": 671,
+      "hypothetical_remaining": 1495,
+      "ambiguous_pct": 6.832871652816251
+    },
+    {
+      "field_id": 12,
+      "field_name": "Arts and Humanities",
+      "period_start": 2000,
+      "base": 847,
+      "extra": 1319,
+      "total": 2166,
+      "language_ambiguous": 230,
+      "abstract_50_79": 445,
+      "union_flagged": 612,
+      "hypothetical_remaining": 1554,
+      "ambiguous_pct": 10.61865189289012
+    }
+  ],
+  "highest_ambiguous_rates": [
+    {
+      "field_id": 12,
+      "field_name": "Arts and Humanities",
+      "period_start": 2000,
+      "base": 847,
+      "extra": 1319,
+      "total": 2166,
+      "language_ambiguous": 230,
+      "abstract_50_79": 445,
+      "union_flagged": 612,
+      "hypothetical_remaining": 1554,
+      "ambiguous_pct": 10.61865189289012
+    },
+    {
+      "field_id": 12,
+      "field_name": "Arts and Humanities",
+      "period_start": 2005,
+      "base": 1551,
+      "extra": 615,
+      "total": 2166,
+      "language_ambiguous": 165,
+      "abstract_50_79": 413,
+      "union_flagged": 555,
+      "hypothetical_remaining": 1611,
+      "ambiguous_pct": 7.617728531855955
+    },
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2010,
+      "base": 893,
+      "extra": 1273,
+      "total": 2166,
+      "language_ambiguous": 159,
+      "abstract_50_79": 653,
+      "union_flagged": 752,
+      "hypothetical_remaining": 1414,
+      "ambiguous_pct": 7.340720221606648
+    },
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2000,
+      "base": 386,
+      "extra": 1780,
+      "total": 2166,
+      "language_ambiguous": 153,
+      "abstract_50_79": 688,
+      "union_flagged": 790,
+      "hypothetical_remaining": 1376,
+      "ambiguous_pct": 7.06371191135734
+    },
+    {
+      "field_id": 26,
+      "field_name": "Mathematics",
+      "period_start": 2005,
+      "base": 639,
+      "extra": 1527,
+      "total": 2166,
+      "language_ambiguous": 152,
+      "abstract_50_79": 692,
+      "union_flagged": 785,
+      "hypothetical_remaining": 1381,
+      "ambiguous_pct": 7.017543859649122
+    }
+  ],
+  "limitations": [
+    "Descriptive counts, not precision or model stability estimates.",
+    "Hypothetical flag exclusion is a diagnostic, not a new cleaning rule.",
+    "Base percentages describe the cleaned random sample, not exact OpenAlex shares."
+  ]
+}

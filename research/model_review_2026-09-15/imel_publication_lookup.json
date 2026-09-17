@@ -1,0 +1,123 @@
+{
+  "url": "https://api.crossref.org/works?query.title=Density%2C+asymmetry+and+citation+dynamics+in+scientific+literature&rows=3",
+  "checked_at": "2026-09-15T14:42:18.838867+00:00",
+  "returned": 3,
+  "records": [
+    {
+      "DOI": "10.1002/asi.5090060105",
+      "title": [
+        "Citation indexes for scientific literature?"
+      ],
+      "author": [
+        {
+          "given": "W. C.",
+          "family": "Adair",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "journal-article",
+      "published": {
+        "date-parts": [
+          [
+            1955,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "American Documentation"
+      ],
+      "volume": "6",
+      "page": "31-32"
+    },
+    {
+      "DOI": "10.34297/ajbsr.2020.10.001514",
+      "title": [
+        "Assessing Citation Bias in Scientific Literature"
+      ],
+      "author": [
+        {
+          "given": "Walter R",
+          "family": "Schumm",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "journal-article",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ]
+      },
+      "container-title": [
+        "American Journal of Biomedical Science &amp; Research"
+      ],
+      "volume": "10",
+      "page": "274-276"
+    },
+    {
+      "DOI": "10.1109/cse.2015.21",
+      "title": [
+        "Citation Impact Categorization: For Scientific Literature"
+      ],
+      "author": [
+        {
+          "given": "Myriam",
+          "family": "Hernandez-Alvarez",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jose M.",
+          "family": "Gomez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "type": "proceedings-article",
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "2015 IEEE 18th International Conference on Computational Science and Engineering"
+      ],
+      "volume": null,
+      "page": "307-313"
+    }
+  ],
+  "exhaustive": false
+}

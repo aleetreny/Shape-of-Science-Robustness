@@ -1,0 +1,7 @@
+Waiting for shape
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/research/analysis_2026-09-17/run_final_comparisons.py", line 22, in <module>
+    released(BASE / directory)
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/research/analysis_2026-09-17/run_final_comparisons.py", line 17, in released
+    fcntl.flock(lock, fcntl.LOCK_EX)
+KeyboardInterrupt

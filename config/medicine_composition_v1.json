@@ -1,0 +1,43 @@
+{
+  "frozen_at": "2026-09-17T17:15:05.927513+00:00",
+  "scope": "R06 composition sensitivity, all 26 Fields, all ten fixed models",
+  "periods": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "period_quotas": [
+    410,
+    410,
+    410,
+    409,
+    409
+  ],
+  "rows_per_field": 2048,
+  "repeats": 10,
+  "seed": 2026091706,
+  "eligibility": "Iteratively retain Subfields having at least ceil(410/G) papers in each period, until G stabilizes. Same retained set for observed and equal composition.",
+  "conditions": [
+    "observed_eligible_composition",
+    "equal_subfield_composition"
+  ],
+  "paired_sampling": "One random ordering per Field/Subfield/period/repetition; quotas differ, model IDs identical. Observed condition uses uniform sampling from eligible rows, preserving period quota.",
+  "measures": [
+    "cka_debiased",
+    "rsa_spearman",
+    "knn_10",
+    "knn_25",
+    "knn_50"
+  ],
+  "recipe": "original primary, word BERT mean",
+  "comparisons": [
+    "all_45_pairs",
+    "no_biomedical_28_pairs",
+    "one_biomedical_16_pairs",
+    "two_biomedical_1_pair"
+  ],
+  "output": "data/robustness_v2/medicine_composition",
+  "interpretation": "Controlled composition within the eligible observed corpus, not causal attribution. Report exclusion coverage, all repetitions, and single-Subfield Fields explicitly."
+}

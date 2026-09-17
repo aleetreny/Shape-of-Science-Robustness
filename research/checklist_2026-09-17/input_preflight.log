@@ -1,0 +1,13 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+specter {'cls': 1.6689300537109375e-06}
+There are adapters available but none are activated for the forward pass.
+specter2 {'cls': 1.1920928955078125e-06}
+scincl {'cls': 1.0728836059570312e-06}
+scibert {'mean': 9.5367431640625e-07, 'cls': 2.9653310775756836e-06, 'sep': 2.868473529815674e-06}
+bert {'mean': 2.60770320892334e-07, 'cls': 5.4836273193359375e-06, 'sep': 2.0265579223632812e-06}
+mpnet {'mean': 1.564621925354004e-07}
+minilm {'mean': 5.960464477539063e-08}
+pubmedbert {'mean': 9.5367431640625e-07, 'cls': 1.8477439880371094e-06, 'sep': 1.0132789611816406e-06}
+biobert {'mean': 9.5367431640625e-07, 'cls': 1.1324882507324219e-06, 'sep': 2.3245811462402344e-06}
+simcse {'cls': 1.5497207641601562e-06}
+ALL PREFLIGHT CHECKS PASSED

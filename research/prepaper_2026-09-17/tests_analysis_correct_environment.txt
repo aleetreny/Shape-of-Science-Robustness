@@ -1,0 +1,46 @@
+test_bias_correction_on_unrelated_high_dimensional_data (tests.test_geometry.GeometryTests.test_bias_correction_on_unrelated_high_dimensional_data) ... ok
+test_degenerate_input_fails (tests.test_geometry.GeometryTests.test_degenerate_input_fails) ... ok
+test_feature_formula_matches_independent_gram_formula (tests.test_geometry.GeometryTests.test_feature_formula_matches_independent_gram_formula) ... ok
+test_pairs_unique_and_rsa_matches_scipy (tests.test_geometry.GeometryTests.test_pairs_unique_and_rsa_matches_scipy) ... ok
+test_rigid_shape_invariance_and_different_dimensions (tests.test_geometry.GeometryTests.test_rigid_shape_invariance_and_different_dimensions) ... ok
+test_shuffled_correspondence_is_not_same_labeled_shape (tests.test_geometry.GeometryTests.test_shuffled_correspondence_is_not_same_labeled_shape) ... ok
+test_streaming_matches_direct (tests.test_geometry.GeometryTests.test_streaming_matches_direct) ... ok
+test_bad_inputs (tests.test_neighbors.NeighborTests.test_bad_inputs) ... ok
+test_external_queries_and_overlap (tests.test_neighbors.NeighborTests.test_external_queries_and_overlap) ... ok
+test_large_tie_and_self_not_first (tests.test_neighbors.NeighborTests.test_large_tie_and_self_not_first) ... ok
+test_matches_independent_cosine_and_batch_sizes (tests.test_neighbors.NeighborTests.test_matches_independent_cosine_and_batch_sizes) ... ok
+test_degenerate_rejected (tests.test_followup_statistics.PairedStatistics.test_degenerate_rejected) ... ok
+test_dual_equals_independent_frozen_feature_formula (tests.test_followup_statistics.PairedStatistics.test_dual_equals_independent_frozen_feature_formula) ... ok
+test_effects_keep_model_and_input_separate (tests.test_followup_statistics.PairedStatistics.test_effects_keep_model_and_input_separate) ... ok
+test_row_alignment_and_rotation (tests.test_followup_statistics.PairedStatistics.test_row_alignment_and_rotation) ... ok
+test_rsa_and_common_reordering (tests.test_followup_statistics.PairedStatistics.test_rsa_and_common_reordering) ... ok
+test_identical_inputs_preserve_shape_neighbors_and_resume (tests.test_followup_field_flow.KnownInputFlow.test_identical_inputs_preserve_shape_neighbors_and_resume) ... INPUT COMPARISONS Field 11 complete
+ok
+test_only_shuffled_title_changes_its_recipe_input_effect (tests.test_followup_recipes.RecipeInputControl.test_only_shuffled_title_changes_its_recipe_input_effect) ... INPUT COMPARISONS Field 11 complete
+INPUT RECIPE CONTROL Field 11 complete
+ok
+test_deterministic_nested_selection_and_model_recipe_invariance (tests.test_deep_subfield_controls.ControlsTests.test_deterministic_nested_selection_and_model_recipe_invariance) ... ok
+test_nonmonotonicity_and_endpoint_do_not_imply_same_slope (tests.test_deep_temporal.TemporalTests.test_nonmonotonicity_and_endpoint_do_not_imply_same_slope) ... ok
+test_candidates_keep_queries_counts_and_period_composition (tests.test_deep_paired_scales.PairedScaleTests.test_candidates_keep_queries_counts_and_period_composition) ... ok
+test_omission_detects_single_model_and_trivial_graph_rejected (tests.test_deep_regions.RegionTests.test_omission_detects_single_model_and_trivial_graph_rejected) ... ok
+test_null_preserves_each_group_period_composition_without_replacement (tests.test_deep_scales.ScaleTests.test_null_preserves_each_group_period_composition_without_replacement) ... ok
+test_rank_deficiency_cannot_produce_named_coefficients (tests.test_deep_family.FamilyTests.test_rank_deficiency_cannot_produce_named_coefficients) ... ok
+test_cross_zero_is_separate_from_sampling_alert (tests.test_deep_input_stability100.StabilityTests.test_cross_zero_is_separate_from_sampling_alert) ... ok
+test_eligibility_time_quotas_balancing_and_single_group_identity (tests.test_deep_medicine.MedicineTests.test_eligibility_time_quotas_balancing_and_single_group_identity) ... ok
+test_only_shuffled_title_changes_its_recipe_input_effect (tests.test_deep_recipes52.RecipeInputControl.test_only_shuffled_title_changes_its_recipe_input_effect) ... INPUT COMPARISONS Field 11 complete
+INPUT RECIPE CONTROL Field 11 complete
+ok
+test_identical_inputs_preserve_shape_neighbors_and_resume (tests.test_deep_analysis52.KnownInputFlow.test_identical_inputs_preserve_shape_neighbors_and_resume) ... INPUT COMPARISONS Field 11 complete
+ok
+test_rotations_preserve_three_shape_measures_and_exact_neighbors (tests.test_deep_subfields.SubfieldComparisons.test_rotations_preserve_three_shape_measures_and_exact_neighbors) ... SUBFIELD 1100 80 complete
+ok
+test_small_groups_are_missing_not_zero_and_full_lists_are_trivial (tests.test_deep_subfields.SubfieldComparisons.test_small_groups_are_missing_not_zero_and_full_lists_are_trivial) ... SUBFIELD 1100 3 complete
+SUBFIELD 1100 11 complete
+ok
+test_center_ranks_normalize_exclude_self_and_break_ties_by_id (tests.test_case_atlas.CaseAtlasTests.test_center_ranks_normalize_exclude_self_and_break_ties_by_id) ... ok
+test_edges_ignore_non_anchor_candidates_and_preserve_rank_cutoffs (tests.test_case_atlas.CaseAtlasTests.test_edges_ignore_non_anchor_candidates_and_preserve_rank_cutoffs) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 4.846s
+
+OK

@@ -1,0 +1,21 @@
+...F.....F....
+======================================================================
+FAIL: test_full_run_needs_resolved_input_policy (test_embeddings.EmbeddingTests.test_full_run_needs_resolved_input_policy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embeddings.py", line 117, in test_full_run_needs_resolved_input_policy
+    self.assertIsNotNone(importlib.util.find_spec('sos_embed.runner'), 'Runner is missing')
+AssertionError: unexpectedly None : Runner is missing
+
+======================================================================
+FAIL: test_modified_input_is_refused (test_embeddings.EmbeddingTests.test_modified_input_is_refused)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embeddings.py", line 125, in test_modified_input_is_refused
+    self.assertIsNotNone(importlib.util.find_spec('sos_embed.runner'), 'Runner is missing')
+AssertionError: unexpectedly None : Runner is missing
+
+----------------------------------------------------------------------
+Ran 14 tests in 14.288s
+
+FAILED (failures=2)

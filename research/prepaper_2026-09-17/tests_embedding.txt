@@ -1,0 +1,25 @@
+test_all_old_rows_require_no_encoder_and_mismatched_id_is_rejected (tests.test_deep_input52.NestedInputs.test_all_old_rows_require_no_encoder_and_mismatched_id_is_rejected) ... ok
+test_mixed_rows_preserve_identity_and_every_old_pooling (tests.test_deep_input52.NestedInputs.test_mixed_rows_preserve_identity_and_every_old_pooling) ... ok
+test_pooling_semantics_including_special_and_excluding_padding (tests.test_deep_input52.NestedInputs.test_pooling_semantics_including_special_and_excluding_padding) ... ok
+test_changed_recipe_refuses_resume (tests.test_embeddings.EmbeddingTests.test_changed_recipe_refuses_resume) ... ok
+test_committed_shard_cannot_be_overwritten (tests.test_embeddings.EmbeddingTests.test_committed_shard_cannot_be_overwritten) ... ok
+test_corrupt_vectors_are_detected (tests.test_embeddings.EmbeddingTests.test_corrupt_vectors_are_detected) ... ok
+test_full_run_needs_resolved_input_policy (tests.test_embeddings.EmbeddingTests.test_full_run_needs_resolved_input_policy) ... ok
+test_gap_is_detected (tests.test_embeddings.EmbeddingTests.test_gap_is_detected) ... ok
+test_input_separators_are_explicit (tests.test_embeddings.EmbeddingTests.test_input_separators_are_explicit) ... ok
+test_invalid_numbers_dimensions_and_zero_vectors_refused (tests.test_embeddings.EmbeddingTests.test_invalid_numbers_dimensions_and_zero_vectors_refused) ... ok
+test_killed_process_keeps_only_committed_work (tests.test_embeddings.EmbeddingTests.test_killed_process_keeps_only_committed_work) ... ok
+test_lock_blocks_second_process (tests.test_embeddings.EmbeddingTests.test_lock_blocks_second_process) ... ok
+test_modified_input_is_refused (tests.test_embeddings.EmbeddingTests.test_modified_input_is_refused) ... ok
+test_partial_directories_are_not_completed_work (tests.test_embeddings.EmbeddingTests.test_partial_directories_are_not_completed_work) ... ok
+test_pooling_uses_last_real_token_and_excludes_padding (tests.test_embeddings.EmbeddingTests.test_pooling_uses_last_real_token_and_excludes_padding) ... ok
+test_resume_keeps_exact_ids_and_vectors (tests.test_embeddings.EmbeddingTests.test_resume_keeps_exact_ids_and_vectors) ... ok
+test_row_permutation_is_detected (tests.test_embeddings.EmbeddingTests.test_row_permutation_is_detected) ... ok
+test_same_fragment_fits_every_tokenizer_and_keeps_source_prefix (tests.test_embeddings.EmbeddingTests.test_same_fragment_fits_every_tokenizer_and_keeps_source_prefix) ... ok
+test_failure_is_not_hidden_by_logging (tests.test_embedding_launcher.LauncherTests.test_failure_is_not_hidden_by_logging) ... ok
+test_success_is_logged (tests.test_embedding_launcher.LauncherTests.test_success_is_logged) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.062s
+
+OK

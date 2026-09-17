@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-17T12:57:36.158266+00:00",
+  "authorization": "2026-09-17 user requests checklist, fitting scientific details at assistant discretion; pilot before any 500k recomputation",
+  "parent_design": "config/analysis_v1.json",
+  "parent_report": "reports/analysis_v1/final",
+  "output": "data/checklist_v1",
+  "seed": "sos-checklist-v1-input",
+  "per_cell": 200,
+  "rows": 26000,
+  "conditions": [
+    "title",
+    "abstract",
+    "title_abstract"
+  ],
+  "single_input_format": "literal selected field, no empty-field separator; tokenizer adds usual special tokens",
+  "title_abstract": "reuse original exact outputs, unchanged native separators and limits",
+  "analysis_unit": "Field pooled across five periods: 1000 rows; equal contribution of each period",
+  "poolings": {
+    "specter": "cls",
+    "specter2": "cls",
+    "scincl": "cls",
+    "scibert": "mean",
+    "bert": "mean",
+    "mpnet": "mean",
+    "minilm": "mean",
+    "pubmedbert": "mean",
+    "biobert": "mean",
+    "simcse": "cls"
+  },
+  "saved_word_BERT_poolings": [
+    "mean",
+    "cls",
+    "sep"
+  ],
+  "primary_shape": "debiased linear CKA; retain primary v1 preprocessing",
+  "shape_check": "Spearman cosine distance ranks on 20000 same paper pairs",
+  "neighbors": {
+    "k": [
+      10,
+      25,
+      50
+    ],
+    "main": 25,
+    "candidates": "same 1000 papers per Field for every model/input",
+    "precision": "float64 exact; 12 decimal ties, global row_index"
+  },
+  "effects": {
+    "reference": "title_abstract",
+    "model": "mean dissimilarity to other nine models on identical input",
+    "input": "same model, dropping title, dropping abstract, and title vs abstract reported separately",
+    "scale": "1-CKA and 1-neighbor-overlap separately; no claim 1-CKA is a metric",
+    "balanced": "each Field and model equal weight",
+    "secondary": "average all three input transitions versus all three same-input model comparisons"
+  },
+  "stability": {
+    "repeats": 20,
+    "subset_per_period": 100,
+    "subset_per_field": 500,
+    "max_median_effect_change": 0.02,
+    "max_central95_width": 0.04,
+    "interpretation": "finite-pilot sensitivity of model-minus-input contrast; no population confidence interval"
+  },
+  "escalation": "no automatic full-500k rerun; use pilot stability and exact missing question to decide targeted next preparation",
+  "temporal": {
+    "periods": [
+      2000,
+      2005,
+      2010,
+      2015,
+      2020
+    ],
+    "primary_neighbors": "existing identical-2048-candidate control",
+    "shape": "full cells, checked against saved medians of 2048 selections",
+    "summaries": [
+      "balanced means by period",
+      "paired endpoint changes by Field and model pair",
+      "OLS slope over five periods; no causal historical claims"
+    ],
+    "inference": "descriptive fixed models; no IID pair tests"
+  },
+  "discipline": {
+    "focus": [
+      27,
+      21,
+      31,
+      26
+    ],
+    "biomedical_models": [
+      "biobert",
+      "pubmedbert"
+    ],
+    "comparisons": [
+      "within biomedical pair",
+      "exactly one biomedical model",
+      "neither biomedical model",
+      "leave both biomedical out",
+      "model x Field residual after Field and pair means"
+    ],
+    "controls": [
+      "quality",
+      "fixed-size shape",
+      "fixed-size neighbors",
+      "CLS and SEP"
+    ],
+    "interpretation": "localize disagreement, not establish a causal training mechanism"
+  },
+  "families": {
+    "objective": {
+      "specter": "citation_document",
+      "specter2": "citation_document",
+      "scincl": "citation_document",
+      "scibert": "masked_language",
+      "bert": "masked_language",
+      "pubmedbert": "masked_language",
+      "biobert": "masked_language",
+      "mpnet": "sentence_contrastive",
+      "minilm": "sentence_contrastive",
+      "simcse": "sentence_contrastive"
+    },
+    "broad_domain": {
+      "specter": "scientific",
+      "specter2": "scientific",
+      "scincl": "scientific",
+      "scibert": "scientific",
+      "bert": "not_domain_specialized",
+      "simcse": "not_domain_specialized",
+      "mpnet": "not_domain_specialized",
+      "minilm": "not_domain_specialized",
+      "pubmedbert": "biomedical",
+      "biobert": "biomedical"
+    },
+    "regression_features": [
+      "same_objective",
+      "same_broad_domain",
+      "same_primary_pooling"
+    ],
+    "permutations": 4096,
+    "delete_one_model": true,
+    "interpretation": "descriptive dyadic regression and model-label permutation reference; no random sample of models, no causal effect of training, broad domain is not measured corpus overlap"
+  }
+}

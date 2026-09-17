@@ -1,0 +1,205 @@
+{
+  "retrieved_at_utc": "2026-09-14T15:49:08.297015+00:00",
+  "endpoint": "https://api.openalex.org/works",
+  "parameters": {
+    "filter": "publication_year:2000-2024,type:article|preprint,language:en,has_abstract:true,is_retracted:false,is_paratext:false,primary_topic.field.id:15",
+    "group_by": "publication_year",
+    "per_page": 100
+  },
+  "api_key_used": true,
+  "http_status": 200,
+  "response": {
+    "meta": {
+      "count": 178786,
+      "db_response_time_ms": 408,
+      "page": 1,
+      "per_page": 100,
+      "groups_count": 25,
+      "x_query": {
+        "oql": "works where has abstract is (true)\n  and paratext is (false)\n  and retracted is (false)\n  and language is (en)\n  and field is (15)\n  and year >= (2000)\n  and year <= (2024)\n  and type is (article or preprint)\ngroup by year",
+        "oqo": {
+          "get_rows": "works",
+          "filter_rows": [
+            {
+              "column_id": "has_abstract",
+              "value": true
+            },
+            {
+              "column_id": "is_paratext",
+              "value": false
+            },
+            {
+              "column_id": "is_retracted",
+              "value": false
+            },
+            {
+              "column_id": "language",
+              "value": "en"
+            },
+            {
+              "column_id": "primary_topic.field.id",
+              "value": "15"
+            },
+            {
+              "column_id": "publication_year",
+              "value": 2000,
+              "operator": ">="
+            },
+            {
+              "column_id": "publication_year",
+              "value": 2024,
+              "operator": "<="
+            },
+            {
+              "join": "or",
+              "filters": [
+                {
+                  "column_id": "type",
+                  "value": "article"
+                },
+                {
+                  "column_id": "type",
+                  "value": "preprint"
+                }
+              ]
+            }
+          ],
+          "group_by": [
+            {
+              "column_id": "publication_year"
+            }
+          ]
+        },
+        "url": "/works?filter=has_abstract:true,is_paratext:false,is_retracted:false,language:en,primary_topic.field.id:15,publication_year:2000-2024,type:article|preprint&group_by=publication_year&per_page=100"
+      },
+      "cost_usd": 0.0001
+    },
+    "group_by": [
+      {
+        "key": "2024",
+        "key_display_name": "2024",
+        "count": 12005
+      },
+      {
+        "key": "2023",
+        "key_display_name": "2023",
+        "count": 10743
+      },
+      {
+        "key": "2021",
+        "key_display_name": "2021",
+        "count": 9506
+      },
+      {
+        "key": "2020",
+        "key_display_name": "2020",
+        "count": 9483
+      },
+      {
+        "key": "2022",
+        "key_display_name": "2022",
+        "count": 9329
+      },
+      {
+        "key": "2014",
+        "key_display_name": "2014",
+        "count": 8438
+      },
+      {
+        "key": "2013",
+        "key_display_name": "2013",
+        "count": 8191
+      },
+      {
+        "key": "2019",
+        "key_display_name": "2019",
+        "count": 8181
+      },
+      {
+        "key": "2012",
+        "key_display_name": "2012",
+        "count": 7884
+      },
+      {
+        "key": "2011",
+        "key_display_name": "2011",
+        "count": 7829
+      },
+      {
+        "key": "2018",
+        "key_display_name": "2018",
+        "count": 7623
+      },
+      {
+        "key": "2015",
+        "key_display_name": "2015",
+        "count": 7558
+      },
+      {
+        "key": "2016",
+        "key_display_name": "2016",
+        "count": 7297
+      },
+      {
+        "key": "2017",
+        "key_display_name": "2017",
+        "count": 7193
+      },
+      {
+        "key": "2010",
+        "key_display_name": "2010",
+        "count": 7187
+      },
+      {
+        "key": "2009",
+        "key_display_name": "2009",
+        "count": 6859
+      },
+      {
+        "key": "2008",
+        "key_display_name": "2008",
+        "count": 6486
+      },
+      {
+        "key": "2007",
+        "key_display_name": "2007",
+        "count": 5958
+      },
+      {
+        "key": "2006",
+        "key_display_name": "2006",
+        "count": 5436
+      },
+      {
+        "key": "2005",
+        "key_display_name": "2005",
+        "count": 5117
+      },
+      {
+        "key": "2004",
+        "key_display_name": "2004",
+        "count": 4735
+      },
+      {
+        "key": "2003",
+        "key_display_name": "2003",
+        "count": 4265
+      },
+      {
+        "key": "2002",
+        "key_display_name": "2002",
+        "count": 3969
+      },
+      {
+        "key": "2001",
+        "key_display_name": "2001",
+        "count": 3811
+      },
+      {
+        "key": "2000",
+        "key_display_name": "2000",
+        "count": 3703
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "audited_at": "2026-09-15T12:30:55.327531+00:00",
+  "audited_rows": 500000,
+  "counts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "duplicates": {
+    "doi": {
+      "groups": 7,
+      "records": 18,
+      "excess": 11
+    },
+    "exact_text": {
+      "groups": 80,
+      "records": 173,
+      "excess": 93
+    },
+    "normalized_text": {
+      "groups": 83,
+      "records": 180,
+      "excess": 97
+    },
+    "abstract": {
+      "groups": 286,
+      "records": 1030,
+      "excess": 744
+    }
+  },
+  "quality_flags": {
+    "abstract_50_79": 43482,
+    "many_non_ascii_letters": 3619,
+    "abstract_over_2000_words": 246,
+    "possible_notice_title": 12
+  },
+  "abstract_words": {
+    "min": 50,
+    "median": 175,
+    "p95": 359,
+    "p99": 644,
+    "max": 3860
+  },
+  "coverage": {
+    "fields": 26,
+    "field_period_cells": 130,
+    "subfields": 252,
+    "topics": 4477
+  },
+  "legacy": {
+    "id_matches": 27562,
+    "exact_text_matches": 22118
+  }
+}

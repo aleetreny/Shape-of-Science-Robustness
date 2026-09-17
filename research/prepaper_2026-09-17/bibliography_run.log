@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/research/prepaper_2026-09-17/build_bibliography.py", line 100, in <module>
+    main()
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/research/prepaper_2026-09-17/build_bibliography.py", line 71, in main
+    assert match, source
+           ^^^^^
+AssertionError: https://proceedings.mlr.press/v97/kornblith19a.html

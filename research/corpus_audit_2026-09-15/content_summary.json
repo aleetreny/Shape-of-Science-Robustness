@@ -1,0 +1,135 @@
+{
+  "at": "2026-09-15T12:30:45.607790+00:00",
+  "checked_rows": 500000,
+  "flagged_rows": 166,
+  "counts": {
+    "doi_error_text": 61,
+    "journal_description_ijcse": 26,
+    "library_description_americanae": 25,
+    "catalog_description_kansas": 20,
+    "possible_placeholder_title": 1,
+    "journal_description_cad": 17,
+    "journal_description_asian_chemistry": 17
+  },
+  "examples": {
+    "doi_error_text": [
+      {
+        "work_id": "W2324603214",
+        "title": "Small-Angle Scattering Functions of Micelles",
+        "abstract_start": "This DOI is not currently attached to any metadata records. DOIs can’t actually ever be deleted (they’re persistent), but sometimes our members create DOIs in error. We do have a process to approximate deletion which we follow only in rare cases where the DOI has been genuinely created in error, and most crucially, if the DOI has never been published anywhere online or in print and never otherwise distributed to or communicated with anyone (authors, readers, reviewers, etc."
+      },
+      {
+        "work_id": "W4250236288",
+        "title": "Not available",
+        "abstract_start": "This DOI is not currently attached to any metadata records. DOIs can’t actually ever be deleted (they’re persistent), but sometimes our members create DOIs in error. We do have a process to approximate deletion which we follow only in rare cases where the DOI has been genuinely created in error, and most crucially, if the DOI has never been published anywhere online or in print and never otherwise distributed to or communicated with anyone (authors, readers, reviewers, etc."
+      },
+      {
+        "work_id": "W3139769870",
+        "title": "Nonlinear Robust Sliding Mode Control for PM Linear Synchronous Motors",
+        "abstract_start": "This DOI is not currently attached to any metadata records. DOIs can’t actually ever be deleted (they’re persistent), but sometimes our members create DOIs in error. We do have a process to approximate deletion which we follow only in rare cases where the DOI has been genuinely created in error, and most crucially, if the DOI has never been published anywhere online or in print and never otherwise distributed to or communicated with anyone (authors, readers, reviewers, etc."
+      }
+    ],
+    "journal_description_ijcse": [
+      {
+        "work_id": "W2808142743",
+        "title": "An Updated Particle Gaggle Based Optimization Routing Algorithm for Wireless Sensor Networks",
+        "abstract_start": "International Journal of Computer Sciences and Engineering (A UGC Approved and indexed with DOI, ICI and Approved, DPI Digital Library) is one of the leading and growing open access, peer-reviewed, monthly, and scientific research journal for scientists, engineers, research scholars, and academicians, which gains a foothold in Asia and opens to the world, aims to publish original, theoretical and practical advances in Computer Science,Information Technology, Engineering (Software, Mechanical, Civil, Electronics & Electrical), and all interdisciplinary streams of Computing Sciences. It intends "
+      },
+      {
+        "work_id": "W2895907750",
+        "title": "Credibility of Genetic Algorithm (GA) for Power Efficient Routing and Reactive Protocols in MANET",
+        "abstract_start": "International Journal of Computer Sciences and Engineering (A UGC Approved and indexed with DOI, ICI and Approved, DPI Digital Library) is one of the leading and growing open access, peer-reviewed, monthly, and scientific research journal for scientists, engineers, research scholars, and academicians, which gains a foothold in Asia and opens to the world, aims to publish original, theoretical and practical advances in Computer Science,Information Technology, Engineering (Software, Mechanical, Civil, Electronics & Electrical), and all interdisciplinary streams of Computing Sciences. It intends "
+      },
+      {
+        "work_id": "W2907026754",
+        "title": "Spectral Subtraction based Speech De-noising using Adapted Cascaded Median Filter",
+        "abstract_start": "International Journal of Computer Sciences and Engineering (A UGC Approved and indexed with DOI, ICI and Approved, DPI Digital Library) is one of the leading and growing open access, peer-reviewed, monthly, and scientific research journal for scientists, engineers, research scholars, and academicians, which gains a foothold in Asia and opens to the world, aims to publish original, theoretical and practical advances in Computer Science,Information Technology, Engineering (Software, Mechanical, Civil, Electronics & Electrical), and all interdisciplinary streams of Computing Sciences. It intends "
+      }
+    ],
+    "library_description_americanae": [
+      {
+        "work_id": "W2977645010",
+        "title": "A rapid survey of ground-dwelling ants (Hymenoptera: Formicidae) in an urban park from state of São Paulo, Brazil",
+        "abstract_start": "Americanae nace como un proyecto conjunto que surge dentro de la Red Europea de Información y Documentación sobre América Latina (REDIAL), y que ha afrontado la Biblioteca de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID). Esta nueva biblioteca virtual hace más accesibles los libros digitales de tema americanista a los investigadores y usuarios interesados de cualquier parte del mundo."
+      },
+      {
+        "work_id": "W2089274564",
+        "title": "Inequality of opportunity in daycare and preschool services in Brazil",
+        "abstract_start": "Americanae nace como un proyecto conjunto que surge dentro de la Red Europea de Información y Documentación sobre América Latina (REDIAL), y que ha afrontado la Biblioteca de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID). Esta nueva biblioteca virtual hace más accesibles los libros digitales de tema americanista a los investigadores y usuarios interesados de cualquier parte del mundo."
+      },
+      {
+        "work_id": "W2152884691",
+        "title": "Porous Ceramic Materials From Polysiloxane-Clay Composites",
+        "abstract_start": "Americanae nace como un proyecto conjunto que surge dentro de la Red Europea de Información y Documentación sobre América Latina (REDIAL), y que ha afrontado la Biblioteca de la Agencia Española de Cooperación Internacional para el Desarrollo (AECID). Esta nueva biblioteca virtual hace más accesibles los libros digitales de tema americanista a los investigadores y usuarios interesados de cualquier parte del mundo."
+      }
+    ],
+    "catalog_description_kansas": [
+      {
+        "work_id": "W7211521218",
+        "title": "Kansas farmer, v. 17, no. 18 (April 30, 1879)",
+        "abstract_start": "Published as: Kansas Farmer, Vol. 1, no. 1 (May 1, 1863)-v. 57, no. 49 (Dec. 6, 1919); Kansas Farmer and Mail & Breeze, Vol. 57, no. 50 (Dec 13, 1919)-v. 64, no. 9 (Feb 27, 1926); Kansas Farmer, Mail & Breeze, Vol. 64, no. 10 (Mar. 6, 1926)-v. 70, no. 1 (Jan. 9, 1932); Kansas Farmer Continuing Mail & Breeze, Vol. 70, no. 2 (Jan. 23, 1932)-v. 76, no. 8 (Apr. 22, 1939); Kansas Farmer, Mail & Breeze, Vol. 76, no. 9 (May 6, 1939)-v. 77, no. 20 (Oct. 5, 1940); Kansas Farmer Continuing Mail & Breeze, Vol. 77, no. 21 (Oct. 19, 1940)-v. 91, no. 3 (Feb. 6, 1954)."
+      },
+      {
+        "work_id": "W7211559926",
+        "title": "Kansas farmer, v. 7, no. 11 (November 15, 1870)",
+        "abstract_start": "Published as: Kansas Farmer, Vol. 1, no. 1 (May 1, 1863)-v. 57, no. 49 (Dec. 6, 1919); Kansas Farmer and Mail & Breeze, Vol. 57, no. 50 (Dec 13, 1919)-v. 64, no. 9 (Feb 27, 1926); Kansas Farmer, Mail & Breeze, Vol. 64, no. 10 (Mar. 6, 1926)-v. 70, no. 1 (Jan. 9, 1932); Kansas Farmer Continuing Mail & Breeze, Vol. 70, no. 2 (Jan. 23, 1932)-v. 76, no. 8 (Apr. 22, 1939); Kansas Farmer, Mail & Breeze, Vol. 76, no. 9 (May 6, 1939)-v. 77, no. 20 (Oct. 5, 1940); Kansas Farmer Continuing Mail & Breeze, Vol. 77, no. 21 (Oct. 19, 1940)-v. 91, no. 3 (Feb. 6, 1954)."
+      },
+      {
+        "work_id": "W7210590507",
+        "title": "Farmer's Mail & Breeze, v. 44, no. 42 (October 17, 1914)",
+        "abstract_start": "Published as: Kansas Farmer, Vol. 1, no. 1 (May 1, 1863)-v. 57, no. 49 (Dec. 6, 1919); Kansas Farmer and Mail & Breeze, Vol. 57, no. 50 (Dec 13, 1919)-v. 64, no. 9 (Feb 27, 1926); Kansas Farmer, Mail & Breeze, Vol. 64, no. 10 (Mar. 6, 1926)-v. 70, no. 1 (Jan. 9, 1932); Kansas Farmer Continuing Mail & Breeze, Vol. 70, no. 2 (Jan. 23, 1932)-v. 76, no. 8 (Apr. 22, 1939); Kansas Farmer, Mail & Breeze, Vol. 76, no. 9 (May 6, 1939)-v. 77, no. 20 (Oct. 5, 1940); Kansas Farmer Continuing Mail & Breeze, Vol. 77, no. 21 (Oct. 19, 1940)-v. 91, no. 3 (Feb. 6, 1954)."
+      }
+    ],
+    "possible_placeholder_title": [
+      {
+        "work_id": "W4250236288",
+        "title": "Not available",
+        "abstract_start": "This DOI is not currently attached to any metadata records. DOIs can’t actually ever be deleted (they’re persistent), but sometimes our members create DOIs in error. We do have a process to approximate deletion which we follow only in rare cases where the DOI has been genuinely created in error, and most crucially, if the DOI has never been published anywhere online or in print and never otherwise distributed to or communicated with anyone (authors, readers, reviewers, etc."
+      }
+    ],
+    "journal_description_cad": [
+      {
+        "work_id": "W4392244116",
+        "title": "Fusion Algorithm of Fashion Trend Analysis and CAD Design Driven by Big Data",
+        "abstract_start": "Computer-Aided Design and Applications is an international journal on the applications of CAD and CAM. It publishes papers in the general domain of CAD plus in emerging fields like bio-CAD, nano-CAD, soft-CAD, garment-CAD, PLM, PDM, CAD data mining, CAD and the internet, CAD education, genetic algorithms and CAD engines. The journal is aimed at all developers and users of CAD technology to ptovide CAD solutions for various stages of design and manufacturing. The journal publishes all about Computer-Aided Design and Computer-Aided technologies."
+      },
+      {
+        "work_id": "W4385855118",
+        "title": "Customer Preference Mining of Electric Vehicles for Design Decision-making Using Big Sales Data",
+        "abstract_start": "Computer-Aided Design and Applications is an international journal on the applications of CAD and CAM. It publishes papers in the general domain of CAD plus in emerging fields like bio-CAD, nano-CAD, soft-CAD, garment-CAD, PLM, PDM, CAD data mining, CAD and the internet, CAD education, genetic algorithms and CAD engines. The journal is aimed at all developers and users of CAD technology to ptovide CAD solutions for various stages of design and manufacturing. The journal publishes all about Computer-Aided Design and Computer-Aided technologies."
+      },
+      {
+        "work_id": "W4403026332",
+        "title": "Computer-Aided Design and Intelligent Optimization in the Inheritance of Intangible Cultural Heritage",
+        "abstract_start": "Computer-Aided Design and Applications is an international journal on the applications of CAD and CAM. It publishes papers in the general domain of CAD plus in emerging fields like bio-CAD, nano-CAD, soft-CAD, garment-CAD, PLM, PDM, CAD data mining, CAD and the internet, CAD education, genetic algorithms and CAD engines. The journal is aimed at all developers and users of CAD technology to ptovide CAD solutions for various stages of design and manufacturing. The journal publishes all about Computer-Aided Design and Computer-Aided technologies."
+      }
+    ],
+    "journal_description_asian_chemistry": [
+      {
+        "work_id": "W4229801805",
+        "title": "Preparation of Waterborne Epoxy Resin for Carbon Fibers Sizing Agent",
+        "abstract_start": "Asian Journal of Chemistry, a Multidisciplinary Chemistry Journal is an Peer Reviewed International Journal and publishes from India. The journal has been established since January 1989 on a firm foundation of International Quality Research. This Journal encompasses all branches of chemistry and its sub – disciplines like Pharmaceutical, Biological activities of Synthetic Drugs, Environmental Chemistry, Biochemistry, Polymer Chemistry, Petroleum Chemistry, and Agricultural Chemistry, etc."
+      },
+      {
+        "work_id": "W2317091753",
+        "title": "Chemical Composition, Antioxidant and Antimicrobial Activity of the Essential Oil of Phellodendron amurense (Rupr.) from China",
+        "abstract_start": "Asian Journal of Chemistry, a Multidisciplinary Chemistry Journal is an Peer Reviewed International Journal and publishes from India. The journal has been established since January 1989 on a firm foundation of International Quality Research. This Journal encompasses all branches of chemistry and its sub – disciplines like Pharmaceutical, Biological activities of Synthetic Drugs, Environmental Chemistry, Biochemistry, Polymer Chemistry, Petroleum Chemistry, and Agricultural Chemistry, etc."
+      },
+      {
+        "work_id": "W2315743061",
+        "title": "Synthesis, Characterization and Reduction of p-Nitrobenzoyl Hydroxypropyl Cellulose",
+        "abstract_start": "Asian Journal of Chemistry, a Multidisciplinary Chemistry Journal is an Peer Reviewed International Journal and publishes from India. The journal has been established since January 1989 on a firm foundation of International Quality Research. This Journal encompasses all branches of chemistry and its sub – disciplines like Pharmaceutical, Biological activities of Synthetic Drugs, Environmental Chemistry, Biochemistry, Polymer Chemistry, Petroleum Chemistry, and Agricultural Chemistry, etc."
+      }
+    ]
+  },
+  "observed_prefixes": {
+    "doi_error_text": "This DOI is not currently attached to any metadata records.",
+    "journal_description_ijcse": "International Journal of Computer Sciences and Engineering (A UGC Approved",
+    "library_description_americanae": "Americanae nace como un proyecto conjunto",
+    "catalog_description_kansas": "Published as: Kansas Farmer, Vol.",
+    "journal_description_cad": "Computer-Aided Design and Applications is an international journal",
+    "journal_description_asian_chemistry": "Asian Journal of Chemistry, a Multidisciplinary Chemistry Journal"
+  },
+  "script_sha256": "6a87efbe16b7b0e7c538b64605be62c160377d237e6a1d52a892be476e773c60",
+  "warning": "Exploratory flags, not approved exclusion rules. They do not prove absence of other bad abstracts. Generic access/title flags require review; do not discard all repeated abstracts automatically."
+}

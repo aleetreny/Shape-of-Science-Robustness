@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-09-17",
+  "timing": "Continuation of the 26k recipe control, fixed before 52k agreement is inspected; earlier 26k sensitivities are known",
+  "reason": "The earlier phase established large pooling sensitivity; test whether the input-versus-model contrast depends on the primary word-BERT recipe.",
+  "parent_design": "config/input52_v1.json",
+  "recipes": [
+    "mean",
+    "cls",
+    "sep"
+  ],
+  "word_models": [
+    "scibert",
+    "bert",
+    "pubmedbert",
+    "biobert"
+  ],
+  "other_models": "retain original habitual pooling",
+  "rows": 52000,
+  "rows_per_field": 2000,
+  "metrics": [
+    "cka_debiased",
+    "neighbors10",
+    "neighbors25",
+    "neighbors50"
+  ],
+  "main_recipe": "mean remains primary; do not select by observed agreement",
+  "reuse": "all embeddings already saved; reuse 30 primary neighbor arrays per Field, compute 24 alternative arrays",
+  "interpretation": "paired recipe sensitivity; the 1000-row subset screen remains a primary-mean analysis, not a proof for all recipes",
+  "output": "data/robustness_v2/input_recipes"
+}

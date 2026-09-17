@@ -1,0 +1,42 @@
+VERIFIED arxiv:2108.01661 Grounding Representation Similarity with Statistical Testing
+VERIFIED arxiv:2308.15706 Representing the Disciplinary Structure of Physics: A Comparative Evaluation of Graph and Text Embedding Methods
+VERIFIED arxiv:2405.01012 Correcting Biased Centered Kernel Alignment Measures in Biological and Artificial Neural Networks
+VERIFIED arxiv:2407.08275 Beyond Benchmarks: Evaluating Embedding Model Similarity for Retrieval Augmented Generation Systems
+VERIFIED arxiv:2506.23366 Density, asymmetry and citation dynamics in scientific literature
+VERIFIED arxiv:2512.13054 Citation importance-aware document representation learning for large-scale science mapping
+VERIFIED arxiv:2601.09173 Geometric Stability: The Missing Axis of Representations
+VERIFIED arxiv:2602.14486 Revisiting the Platonic Representation Hypothesis: An Aristotelian View
+VERIFIED arxiv:2608.05857 Mapping Similarity Spaces across Embedding Models with Synthetic Query Probing
+VERIFIED arxiv:2609.00065 Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents
+VERIFIED doi:10.1002/wics.70066 Text Mining in Bibliometrics and Science Mapping: A Methodological Review
+VERIFIED doi:10.1007/s11192-017-2296-z Same data—different results? Towards a comparative approach to the identification of thematic structures in science
+VERIFIED doi:10.1007/s11192-024-05161-6 Comparative science mapping: a novel conceptual structure analysis with metadata
+VERIFIED doi:10.1007/s11192-024-05218-6 Which topics are best represented by science maps? An analysis of clustering effectiveness for citation and text similarity networks
+VERIFIED doi:10.1007/s11192-025-05324-z A comparison of citation-based clustering and topic modeling for science mapping
+VERIFIED doi:10.1007/s40820-025-01807-z An Efficient Deep Learning Framework for Revealing the Evolution of Characterization Methods in Nanoscience
+VERIFIED doi:10.1016/j.ipm.2025.104557 Citation importance-aware document representation learning for large-scale science mapping
+VERIFIED doi:10.1016/j.patter.2024.100968 The landscape of biomedical research
+VERIFIED doi:10.1145/3728458 Similarity of Neural Network Models: A Survey of Functional and Representational Measures
+VERIFIED doi:10.1162/qss_a_00085 A comparison of large-scale science models based on textual, direct citation and hybrid relatedness
+VERIFIED doi:10.1162/qss_a_00168 Investigating dissemination of scientific information on Twitter: A study of topic networks in opioid publications
+VERIFIED doi:10.1162/qss_a_00344 A framework for demonstrating, forecasting, and explaining topic evolution by analyzing geometrical motion of topic embeddings
+VERIFIED doi:10.1162/qss_a_00349 Representing the disciplinary structure of physics: A comparative evaluation of graph and text embedding methods
+VERIFIED doi:10.1186/s13326-026-00365-6 Benchmarking MeSH-augmented embeddings for biomedical document similarity
+VERIFIED doi:10.1371/journal.pone.0018029 Clustering More than Two Million Biomedical Publications: Comparing the Accuracies of Nine Text-Based Similarity Approaches
+VERIFIED doi:10.18653/v1/2020.acl-main.207 SPECTER: Document-level Representation Learning using Citation-informed Transformers
+VERIFIED doi:10.18653/v1/2021.emnlp-main.552 SimCSE: Simple Contrastive Learning of Sentence Embeddings
+VERIFIED doi:10.18653/v1/2022.emnlp-main.802 Neighborhood Contrastive Learning for Scientific Document Representations with Citation Embeddings
+VERIFIED doi:10.18653/v1/2023.emnlp-main.338 SciRepEval: A Multi-Format Benchmark for Scientific Document Representations
+VERIFIED doi:10.18653/v1/2024.sdp-1.27 CoSAEmb: Contrastive Section-aware Aspect Embeddings for Scientific Articles
+VERIFIED doi:10.18653/v1/2025.emnlp-main.1662 SemCSE: Semantic Contrastive Sentence Embeddings Using LLM-Generated Summaries For Scientific Abstracts
+VERIFIED doi:10.18653/v1/2026.acl-long.1884 SemCSE-Multi: Multifaceted and Decodable Embeddings for Aspect-Specific and Interpretable Scientific Domain Mapping
+VERIFIED doi:10.1007/s41109-026-00830-2 The impact of dimensionality on the stability of node embeddings
+VERIFIED doi:10.18653/v1/2022.findings-acl.249 The Inefficiency of Language Models in Scholarly Retrieval: An Experimental Walk-through
+VERIFIED doi:10.18653/v1/D19-1371 SciBERT: A Pretrained Language Model for Scientific Text
+VERIFIED doi:10.18653/v1/N19-1423 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+VERIFIED doi:10.1093/bioinformatics/btz682 BioBERT: a pre-trained biomedical language representation model for biomedical text mining
+VERIFIED doi:10.1145/3458754 Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing
+VERIFIED doi:10.1038/s41598-026-48795-7 Sustainable science mapping: benchmarking green AI against transformers for cross-disciplinary abstract classification using arXiv
+VERIFIED arxiv:2408.00531 ReSi: A Comprehensive Benchmark for Representational Similarity Measures
+VERIFIED arxiv:2110.14739 Generalized Shape Metrics on Neural Representations
+FINISHED 41 41

@@ -1,0 +1,90 @@
+{
+  "updated_at": "2026-09-17T18:39:52.600500+00:00",
+  "input_queue": {
+    "tool_session_id": 85571,
+    "pid": 93254,
+    "driver": "research/robustness_2026-09-17/run_inputs52.py",
+    "log": "research/robustness_2026-09-17/input52_run.log",
+    "state": "complete_audited",
+    "audit_child_pid": 7279
+  },
+  "comparison_driver": {
+    "driver": "research/robustness_2026-09-17/finish_input52.py",
+    "log": "research/robustness_2026-09-17/finish_input52.log",
+    "state": "complete_audited",
+    "tool_session_id": 25482,
+    "pid": 93472
+  },
+  "warning": "All recorded runs completed and tool sessions closed. Historical PIDs are not live-run authorization; do not restart.",
+  "subfields_native": {
+    "tool_session_id": 41399,
+    "pid": 94177,
+    "log": "research/robustness_2026-09-17/subfields_native.log",
+    "state": "complete_audited"
+  },
+  "subfield_control_driver": {
+    "tool_session_id": 44320,
+    "pid": 96028,
+    "log": "research/robustness_2026-09-17/subfield_controls.log",
+    "state": "complete_audited",
+    "child_pid": 96521
+  },
+  "input_stability100_driver": {
+    "tool_session_id": 10201,
+    "pid": 96363,
+    "log": "research/robustness_2026-09-17/input_stability100.log",
+    "state": "complete_audited"
+  },
+  "regions_native": {
+    "tool_session_id": 83971,
+    "log": "research/robustness_2026-09-17/regions.log",
+    "state": "complete_audited"
+  },
+  "medicine_composition": {
+    "tool_session_id": 61572,
+    "pid": 99181,
+    "log": "research/robustness_2026-09-17/medicine_composition.log",
+    "state": "complete_audited"
+  },
+  "centroid_scales": {
+    "tool_session_id": 6956,
+    "log": "research/robustness_2026-09-17/centroid_scales.log",
+    "state": "complete_audited"
+  },
+  "paired_neighbor_scales": {
+    "tool_session_id": 45455,
+    "pid": 1363,
+    "log": "research/robustness_2026-09-17/paired_neighbor_scales.log",
+    "state": "complete_audited"
+  },
+  "control_review": {
+    "tool_session_id": 73792,
+    "state": "complete_audited",
+    "log": "research/robustness_2026-09-17/control_review.log"
+  },
+  "structural_review_v3": {
+    "tool_session_id": 33379,
+    "state": "complete_audited",
+    "audit": "data/robustness_v2/structural_review_v3/audit.json"
+  },
+  "control_review_v2": {
+    "tool_session_id": 79025,
+    "state": "complete_audited",
+    "audit": "data/robustness_v2/control_review_v2/audit.json"
+  },
+  "provenance": {
+    "tool_session_id": 57131,
+    "state": "complete_audited",
+    "audit": "data/robustness_v2/provenance/audit.json"
+  },
+  "delivery_driver": {
+    "tool_session_id": 23979,
+    "pid": 6866,
+    "state": "complete_audited",
+    "driver": "research/robustness_2026-09-17/finish_closure.py",
+    "log": "research/robustness_2026-09-17/finish_closure.log",
+    "visual_review": "complete; 7 figures",
+    "tables": 50
+  },
+  "all_runs_complete": true
+}

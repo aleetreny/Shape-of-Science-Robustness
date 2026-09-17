@@ -1,0 +1,14 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+specter: 1,024/1,300 — 53.0 artículos/s
+{"rows": 1024, "target": 1300, "complete": false, "shards": 1, "seconds": 19.321514874998684, "truncated_rows": 49, "model": "specter", "updated_at": "2026-09-15T16:58:42.785788+00:00", "manifest_sha256": "c93fd0d822eb7fa5fd07f0c08aae9826f96a3a2021690f032cfc7f0b86717ef8"}
+{
+  "rows": 1024,
+  "target": 1300,
+  "complete": false,
+  "shards": 1,
+  "seconds": 19.321514874998684,
+  "truncated_rows": 49,
+  "model": "specter",
+  "updated_at": "2026-09-15T16:58:42.785788+00:00",
+  "manifest_sha256": "c93fd0d822eb7fa5fd07f0c08aae9826f96a3a2021690f032cfc7f0b86717ef8"
+}

@@ -1,0 +1,14 @@
+{
+  "download_and_integrity": "passed",
+  "rows": 500000,
+  "base": 400000,
+  "extra": 100000,
+  "metadata_quality": "additional_cleaning_decision_needed",
+  "ready_for_embedding_experiments": false,
+  "next_step": "Agree common quality-cleaning rules, rebuild the base and supplement if exclusions are adopted, then choose model versions and text input.",
+  "non_english_language_alerts": 8544,
+  "content_alerts": 166,
+  "notice_title_alerts": 12,
+  "legacy_exact_text_vector_candidates": 22118,
+  "original_data_changed_by_audit": false
+}

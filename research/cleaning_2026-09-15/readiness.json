@@ -1,0 +1,36 @@
+{
+  "status": "ready_for_model_configuration",
+  "completed_at": "2026-09-15T14:31:30.411911+00:00",
+  "rows": 500000,
+  "counts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "fields": 26,
+  "field_period_cells": 130,
+  "minimum_field_period": 2165,
+  "field_year_cells": 650,
+  "minimum_field_year": 282,
+  "original_corpus_unchanged": true,
+  "additional_api_pages": 1,
+  "additional_candidates_received": 100,
+  "selected_from_additional_page": 10,
+  "source_snapshot_files": 25,
+  "quality_check": "passed",
+  "input": "data/corpus_clean_v1/embedding_input.parquet",
+  "corpus_sha256": "b48bfd4344400d811953fff42832460ad711991f0bc7df8b8442807106b72abe",
+  "input_sha256": "15f81305696c3a6f6692d849e1116f176940494d6d6f78225ead3ea72d710acf",
+  "model_runs_started": false,
+  "remaining_decisions": [
+    "Final models and exact revisions",
+    "Model-specific formatting and truncation",
+    "Whether old SPECTER2 provenance permits reuse",
+    "Sensitivity analyses for retained flags and duplicate versions"
+  ],
+  "limitations": [
+    "Language classification is imperfect; ambiguous and mixed-language records are retained and flagged.",
+    "Distinct OpenAlex IDs with matching DOI/text remain marked, not merged; unique study counts are not claimed.",
+    "Title/abstract retained verbatim. No translation, generated replacement or model-specific truncation.",
+    "No guarantee that all metadata/abstract errors have been detected."
+  ]
+}

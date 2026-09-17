@@ -1,0 +1,7 @@
+{
+  "source_block": 46,
+  "global_candidates_not_in_current_base": 6531,
+  "top_label_english": 6419,
+  "not_flagged_as_non_en_score_ge_09": 6462,
+  "note": "Already downloaded random global candidates. Diagnostic availability, not selected or approved replacements. Rebuild base first and then supplement if cleaning is approved."
+}

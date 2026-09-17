@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "decision_date": "2026-09-17",
+  "timing": "additional control fixed before inspection of any input-agreement result; inference still running",
+  "reason": "The earlier phase established large pooling sensitivity; test whether the input-versus-model contrast depends on the primary word-BERT recipe.",
+  "parent_design": "config/checklist_v1.json",
+  "recipes": ["mean", "cls", "sep"],
+  "word_models": ["scibert", "bert", "pubmedbert", "biobert"],
+  "other_models": "retain original habitual pooling",
+  "rows": 26000,
+  "rows_per_field": 1000,
+  "metrics": ["cka_debiased", "neighbors10", "neighbors25", "neighbors50"],
+  "main_recipe": "mean remains primary; do not select by observed agreement",
+  "reuse": "all embeddings already saved; reuse 30 primary neighbor arrays per Field, compute 24 alternative arrays",
+  "interpretation": "paired recipe sensitivity; the 500-row stability screen remains a primary-mean analysis, not a proof for all recipes",
+  "output": "data/checklist_v1/input_recipes"
+}

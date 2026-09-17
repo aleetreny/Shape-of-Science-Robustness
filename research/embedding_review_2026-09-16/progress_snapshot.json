@@ -1,0 +1,139 @@
+{
+  "checked_at": "2026-09-16T21:31:16.874477+00:00",
+  "local_time": "2026-09-16T23:31:16.874477+02:00",
+  "models": [
+    {
+      "model": "specter",
+      "name": "SPECTER",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-15T20:08:03.467137+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 50.704701280487775,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "specter2",
+      "name": "SPECTER2",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-15T22:53:23.409129+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 49.59950004144474,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "scincl",
+      "name": "SciNCL",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T01:30:19.543417+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 51.54950466699648,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "scibert",
+      "name": "SciBERT",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T06:23:19.801441+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 51.36292382664888,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "bert",
+      "name": "BERT",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T17:19:38.989584+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 49.47652305633329,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "mpnet",
+      "name": "MPNet",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T19:29:07.427368+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 64.23009420619896,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "minilm",
+      "name": "MiniLM",
+      "rows": 500000,
+      "state": "complete",
+      "updated_at": "2026-09-16T20:16:20.756619+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 500000,
+      "committed_shards": 489,
+      "recent_papers_per_second": 397.94205668178324,
+      "saved_validation_complete": true,
+      "saved_validation_matches_manifest": true
+    },
+    {
+      "model": "pubmedbert",
+      "name": "PubMedBERT / BiomedBERT",
+      "rows": 209920,
+      "state": "running",
+      "updated_at": "2026-09-16T21:31:10.922784+00:00",
+      "configuration_matches": true,
+      "code_matches": true,
+      "committed_end": 209920,
+      "committed_shards": 205,
+      "recent_papers_per_second": 46.35912897021317,
+      "hours_remaining_recent_speed": 1.7381210468719308
+    },
+    {
+      "model": "biobert",
+      "name": "BioBERT",
+      "rows": 0,
+      "state": "not_started",
+      "hours_remaining_from_pilot": 2.9716835782048885
+    },
+    {
+      "model": "simcse",
+      "name": "SimCSE",
+      "rows": 0,
+      "state": "not_started",
+      "hours_remaining_from_pilot": 2.7065812767090334
+    }
+  ],
+  "calculation_inputs_done": 3709920,
+  "calculation_inputs_total": 5000000,
+  "estimated_remaining_hours_unadjusted": 7.416385901785853,
+  "planning_range_hours": [
+    7,
+    9
+  ],
+  "audit_level": "Progress, last 20 commit records, code/config and saved validation manifests; full array audit deferred until completion."
+}

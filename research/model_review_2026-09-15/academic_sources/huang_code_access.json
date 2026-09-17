@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/main/vec_by_bert.py",
+    "checked_at": "2026-09-15T15:08:06.010421+00:00",
+    "curl_exit": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/WannaLearning/Demonstrating-Forecasting-and-Explaining-Topic-Evolution/main/vec_by_mpnet.py",
+    "checked_at": "2026-09-15T15:08:06.517820+00:00",
+    "curl_exit": 0
+  }
+]

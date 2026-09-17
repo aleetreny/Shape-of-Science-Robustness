@@ -1,0 +1,16 @@
+{
+  "reference_rows": 500000,
+  "query_rows": 256,
+  "dimensions": 768,
+  "dtype": "float32",
+  "device": "mps",
+  "query_batch": 32,
+  "topk": 21,
+  "load_seconds": 0.454330625005241,
+  "search_seconds": 0.27372795800329186,
+  "queries_per_second": 935.2351212765827,
+  "estimated_10000_queries_seconds": 10.692498359503588,
+  "observed_max_mps_driver_allocated_gib": 2.940155029296875,
+  "checksum": 1317343472,
+  "note": "Timing only, first 500k legacy analysis rows; not a representative scientific sample. 21 retrieved to accommodate self; no neighbor-overlap conclusion is reported. Extrapolation is not a sustained whole-study runtime."
+}

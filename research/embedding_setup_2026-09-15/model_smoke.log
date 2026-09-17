@@ -1,0 +1,22 @@
+Checking specter
+`torch_dtype` is deprecated! Use `dtype` instead!
+OK specter {'cls': 2.86102294921875e-06}
+Checking specter2
+There are adapters available but none are activated for the forward pass.
+OK specter2 {'cls': 1.4901161193847656e-06}
+Checking scincl
+OK scincl {'cls': 1.9073486328125e-06}
+Checking scibert
+OK scibert {'mean': 4.76837158203125e-07, 'cls': 3.4570693969726562e-06, 'sep': 3.2186508178710938e-06}
+Checking bert
+OK bert {'mean': 4.76837158203125e-07, 'cls': 6.4373016357421875e-06, 'sep': 2.6226043701171875e-06}
+Checking mpnet
+OK mpnet {'mean': 1.862645149230957e-07}
+Checking minilm
+OK minilm {'mean': 1.862645149230957e-07}
+Checking pubmedbert
+OK pubmedbert {'mean': 1.9073486328125e-06, 'cls': 4.291534423828125e-06, 'sep': 7.748603820800781e-07}
+Checking biobert
+OK biobert {'mean': 9.5367431640625e-07, 'cls': 1.0579824447631836e-06, 'sep': 2.7418136596679688e-06}
+Checking simcse
+OK simcse {'cls': 1.7285346984863281e-06}

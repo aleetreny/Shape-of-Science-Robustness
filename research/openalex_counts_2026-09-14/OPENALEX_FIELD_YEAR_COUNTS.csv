@@ -1,0 +1,651 @@
+field_id,field_name,publication_year,basic_candidates
+11,Agricultural and Biological Sciences,2000,47227
+11,Agricultural and Biological Sciences,2001,49281
+11,Agricultural and Biological Sciences,2002,52582
+11,Agricultural and Biological Sciences,2003,55246
+11,Agricultural and Biological Sciences,2004,61633
+11,Agricultural and Biological Sciences,2005,68579
+11,Agricultural and Biological Sciences,2006,74578
+11,Agricultural and Biological Sciences,2007,81594
+11,Agricultural and Biological Sciences,2008,91692
+11,Agricultural and Biological Sciences,2009,103517
+11,Agricultural and Biological Sciences,2010,110796
+11,Agricultural and Biological Sciences,2011,119993
+11,Agricultural and Biological Sciences,2012,128065
+11,Agricultural and Biological Sciences,2013,136260
+11,Agricultural and Biological Sciences,2014,140238
+11,Agricultural and Biological Sciences,2015,135579
+11,Agricultural and Biological Sciences,2016,132020
+11,Agricultural and Biological Sciences,2017,138880
+11,Agricultural and Biological Sciences,2018,147762
+11,Agricultural and Biological Sciences,2019,159919
+11,Agricultural and Biological Sciences,2020,185541
+11,Agricultural and Biological Sciences,2021,190341
+11,Agricultural and Biological Sciences,2022,191425
+11,Agricultural and Biological Sciences,2023,200317
+11,Agricultural and Biological Sciences,2024,217821
+12,Arts and Humanities,2000,32802
+12,Arts and Humanities,2001,34435
+12,Arts and Humanities,2002,38361
+12,Arts and Humanities,2003,41272
+12,Arts and Humanities,2004,45233
+12,Arts and Humanities,2005,48963
+12,Arts and Humanities,2006,52782
+12,Arts and Humanities,2007,59097
+12,Arts and Humanities,2008,65161
+12,Arts and Humanities,2009,68963
+12,Arts and Humanities,2010,74269
+12,Arts and Humanities,2011,82134
+12,Arts and Humanities,2012,81388
+12,Arts and Humanities,2013,88645
+12,Arts and Humanities,2014,91088
+12,Arts and Humanities,2015,100887
+12,Arts and Humanities,2016,102020
+12,Arts and Humanities,2017,93569
+12,Arts and Humanities,2018,98756
+12,Arts and Humanities,2019,106306
+12,Arts and Humanities,2020,110594
+12,Arts and Humanities,2021,106629
+12,Arts and Humanities,2022,131682
+12,Arts and Humanities,2023,107853
+12,Arts and Humanities,2024,108670
+13,"Biochemistry, Genetics and Molecular Biology",2000,77815
+13,"Biochemistry, Genetics and Molecular Biology",2001,79825
+13,"Biochemistry, Genetics and Molecular Biology",2002,84136
+13,"Biochemistry, Genetics and Molecular Biology",2003,89573
+13,"Biochemistry, Genetics and Molecular Biology",2004,100999
+13,"Biochemistry, Genetics and Molecular Biology",2005,107200
+13,"Biochemistry, Genetics and Molecular Biology",2006,115647
+13,"Biochemistry, Genetics and Molecular Biology",2007,121855
+13,"Biochemistry, Genetics and Molecular Biology",2008,135432
+13,"Biochemistry, Genetics and Molecular Biology",2009,143192
+13,"Biochemistry, Genetics and Molecular Biology",2010,147412
+13,"Biochemistry, Genetics and Molecular Biology",2011,156316
+13,"Biochemistry, Genetics and Molecular Biology",2012,161423
+13,"Biochemistry, Genetics and Molecular Biology",2013,170005
+13,"Biochemistry, Genetics and Molecular Biology",2014,172283
+13,"Biochemistry, Genetics and Molecular Biology",2015,172447
+13,"Biochemistry, Genetics and Molecular Biology",2016,171281
+13,"Biochemistry, Genetics and Molecular Biology",2017,173207
+13,"Biochemistry, Genetics and Molecular Biology",2018,180988
+13,"Biochemistry, Genetics and Molecular Biology",2019,199899
+13,"Biochemistry, Genetics and Molecular Biology",2020,230940
+13,"Biochemistry, Genetics and Molecular Biology",2021,235750
+13,"Biochemistry, Genetics and Molecular Biology",2022,234547
+13,"Biochemistry, Genetics and Molecular Biology",2023,230875
+13,"Biochemistry, Genetics and Molecular Biology",2024,236489
+14,"Business, Management and Accounting",2000,21150
+14,"Business, Management and Accounting",2001,24878
+14,"Business, Management and Accounting",2002,28175
+14,"Business, Management and Accounting",2003,32842
+14,"Business, Management and Accounting",2004,37191
+14,"Business, Management and Accounting",2005,43647
+14,"Business, Management and Accounting",2006,48283
+14,"Business, Management and Accounting",2007,52176
+14,"Business, Management and Accounting",2008,55614
+14,"Business, Management and Accounting",2009,60218
+14,"Business, Management and Accounting",2010,64332
+14,"Business, Management and Accounting",2011,73025
+14,"Business, Management and Accounting",2012,75480
+14,"Business, Management and Accounting",2013,79875
+14,"Business, Management and Accounting",2014,82692
+14,"Business, Management and Accounting",2015,81887
+14,"Business, Management and Accounting",2016,79289
+14,"Business, Management and Accounting",2017,83796
+14,"Business, Management and Accounting",2018,88517
+14,"Business, Management and Accounting",2019,98047
+14,"Business, Management and Accounting",2020,107957
+14,"Business, Management and Accounting",2021,106125
+14,"Business, Management and Accounting",2022,105355
+14,"Business, Management and Accounting",2023,124747
+14,"Business, Management and Accounting",2024,146114
+15,Chemical Engineering,2000,3703
+15,Chemical Engineering,2001,3811
+15,Chemical Engineering,2002,3969
+15,Chemical Engineering,2003,4265
+15,Chemical Engineering,2004,4735
+15,Chemical Engineering,2005,5117
+15,Chemical Engineering,2006,5436
+15,Chemical Engineering,2007,5958
+15,Chemical Engineering,2008,6486
+15,Chemical Engineering,2009,6859
+15,Chemical Engineering,2010,7187
+15,Chemical Engineering,2011,7829
+15,Chemical Engineering,2012,7884
+15,Chemical Engineering,2013,8191
+15,Chemical Engineering,2014,8438
+15,Chemical Engineering,2015,7558
+15,Chemical Engineering,2016,7297
+15,Chemical Engineering,2017,7193
+15,Chemical Engineering,2018,7623
+15,Chemical Engineering,2019,8181
+15,Chemical Engineering,2020,9483
+15,Chemical Engineering,2021,9506
+15,Chemical Engineering,2022,9329
+15,Chemical Engineering,2023,10743
+15,Chemical Engineering,2024,12005
+16,Chemistry,2000,40189
+16,Chemistry,2001,40541
+16,Chemistry,2002,41706
+16,Chemistry,2003,42410
+16,Chemistry,2004,45250
+16,Chemistry,2005,49226
+16,Chemistry,2006,52412
+16,Chemistry,2007,55600
+16,Chemistry,2008,57619
+16,Chemistry,2009,59149
+16,Chemistry,2010,62159
+16,Chemistry,2011,66211
+16,Chemistry,2012,65276
+16,Chemistry,2013,66304
+16,Chemistry,2014,66161
+16,Chemistry,2015,63366
+16,Chemistry,2016,59515
+16,Chemistry,2017,52732
+16,Chemistry,2018,53543
+16,Chemistry,2019,57721
+16,Chemistry,2020,64521
+16,Chemistry,2021,58385
+16,Chemistry,2022,57868
+16,Chemistry,2023,61560
+16,Chemistry,2024,64203
+17,Computer Science,2000,45839
+17,Computer Science,2001,53597
+17,Computer Science,2002,62927
+17,Computer Science,2003,74411
+17,Computer Science,2004,87613
+17,Computer Science,2005,100559
+17,Computer Science,2006,112773
+17,Computer Science,2007,125825
+17,Computer Science,2008,132020
+17,Computer Science,2009,137488
+17,Computer Science,2010,147362
+17,Computer Science,2011,155158
+17,Computer Science,2012,155542
+17,Computer Science,2013,162977
+17,Computer Science,2014,157081
+17,Computer Science,2015,142899
+17,Computer Science,2016,133278
+17,Computer Science,2017,142036
+17,Computer Science,2018,165534
+17,Computer Science,2019,188799
+17,Computer Science,2020,221050
+17,Computer Science,2021,238815
+17,Computer Science,2022,250750
+17,Computer Science,2023,285892
+17,Computer Science,2024,313648
+18,Decision Sciences,2000,7869
+18,Decision Sciences,2001,8501
+18,Decision Sciences,2002,9516
+18,Decision Sciences,2003,10568
+18,Decision Sciences,2004,11901
+18,Decision Sciences,2005,13661
+18,Decision Sciences,2006,15549
+18,Decision Sciences,2007,17060
+18,Decision Sciences,2008,18887
+18,Decision Sciences,2009,20057
+18,Decision Sciences,2010,21498
+18,Decision Sciences,2011,24246
+18,Decision Sciences,2012,25234
+18,Decision Sciences,2013,27479
+18,Decision Sciences,2014,28072
+18,Decision Sciences,2015,27131
+18,Decision Sciences,2016,26022
+18,Decision Sciences,2017,26610
+18,Decision Sciences,2018,28862
+18,Decision Sciences,2019,30784
+18,Decision Sciences,2020,33408
+18,Decision Sciences,2021,33639
+18,Decision Sciences,2022,32844
+18,Decision Sciences,2023,34540
+18,Decision Sciences,2024,41404
+19,Earth and Planetary Sciences,2000,22216
+19,Earth and Planetary Sciences,2001,22860
+19,Earth and Planetary Sciences,2002,24489
+19,Earth and Planetary Sciences,2003,27027
+19,Earth and Planetary Sciences,2004,28592
+19,Earth and Planetary Sciences,2005,30210
+19,Earth and Planetary Sciences,2006,33099
+19,Earth and Planetary Sciences,2007,36758
+19,Earth and Planetary Sciences,2008,38268
+19,Earth and Planetary Sciences,2009,40494
+19,Earth and Planetary Sciences,2010,43374
+19,Earth and Planetary Sciences,2011,45724
+19,Earth and Planetary Sciences,2012,46718
+19,Earth and Planetary Sciences,2013,49715
+19,Earth and Planetary Sciences,2014,47589
+19,Earth and Planetary Sciences,2015,47061
+19,Earth and Planetary Sciences,2016,44159
+19,Earth and Planetary Sciences,2017,44123
+19,Earth and Planetary Sciences,2018,46821
+19,Earth and Planetary Sciences,2019,50330
+19,Earth and Planetary Sciences,2020,55117
+19,Earth and Planetary Sciences,2021,58745
+19,Earth and Planetary Sciences,2022,58272
+19,Earth and Planetary Sciences,2023,59709
+19,Earth and Planetary Sciences,2024,61619
+20,"Economics, Econometrics and Finance",2000,28639
+20,"Economics, Econometrics and Finance",2001,31822
+20,"Economics, Econometrics and Finance",2002,34865
+20,"Economics, Econometrics and Finance",2003,39070
+20,"Economics, Econometrics and Finance",2004,43325
+20,"Economics, Econometrics and Finance",2005,47863
+20,"Economics, Econometrics and Finance",2006,50354
+20,"Economics, Econometrics and Finance",2007,55382
+20,"Economics, Econometrics and Finance",2008,57981
+20,"Economics, Econometrics and Finance",2009,64739
+20,"Economics, Econometrics and Finance",2010,68278
+20,"Economics, Econometrics and Finance",2011,75031
+20,"Economics, Econometrics and Finance",2012,75181
+20,"Economics, Econometrics and Finance",2013,79235
+20,"Economics, Econometrics and Finance",2014,79881
+20,"Economics, Econometrics and Finance",2015,78460
+20,"Economics, Econometrics and Finance",2016,76193
+20,"Economics, Econometrics and Finance",2017,74019
+20,"Economics, Econometrics and Finance",2018,75455
+20,"Economics, Econometrics and Finance",2019,81769
+20,"Economics, Econometrics and Finance",2020,97567
+20,"Economics, Econometrics and Finance",2021,97133
+20,"Economics, Econometrics and Finance",2022,90639
+20,"Economics, Econometrics and Finance",2023,92669
+20,"Economics, Econometrics and Finance",2024,98679
+21,Energy,2000,2896
+21,Energy,2001,3378
+21,Energy,2002,3923
+21,Energy,2003,4529
+21,Energy,2004,5312
+21,Energy,2005,6400
+21,Energy,2006,7202
+21,Energy,2007,8500
+21,Energy,2008,9587
+21,Energy,2009,10840
+21,Energy,2010,12628
+21,Energy,2011,15315
+21,Energy,2012,16534
+21,Energy,2013,18342
+21,Energy,2014,19186
+21,Energy,2015,18274
+21,Energy,2016,17337
+21,Energy,2017,18142
+21,Energy,2018,19807
+21,Energy,2019,22281
+21,Energy,2020,24933
+21,Energy,2021,26660
+21,Energy,2022,28137
+21,Energy,2023,31808
+21,Energy,2024,34073
+22,Engineering,2000,121730
+22,Engineering,2001,133902
+22,Engineering,2002,152564
+22,Engineering,2003,171825
+22,Engineering,2004,198986
+22,Engineering,2005,226637
+22,Engineering,2006,254402
+22,Engineering,2007,281177
+22,Engineering,2008,298242
+22,Engineering,2009,315842
+22,Engineering,2010,340120
+22,Engineering,2011,374573
+22,Engineering,2012,369289
+22,Engineering,2013,385724
+22,Engineering,2014,369489
+22,Engineering,2015,323269
+22,Engineering,2016,295429
+22,Engineering,2017,300832
+22,Engineering,2018,329395
+22,Engineering,2019,361770
+22,Engineering,2020,402709
+22,Engineering,2021,413205
+22,Engineering,2022,423671
+22,Engineering,2023,470774
+22,Engineering,2024,511397
+23,Environmental Science,2000,46940
+23,Environmental Science,2001,48999
+23,Environmental Science,2002,54943
+23,Environmental Science,2003,58658
+23,Environmental Science,2004,65140
+23,Environmental Science,2005,72576
+23,Environmental Science,2006,80261
+23,Environmental Science,2007,88192
+23,Environmental Science,2008,94706
+23,Environmental Science,2009,102551
+23,Environmental Science,2010,110988
+23,Environmental Science,2011,118364
+23,Environmental Science,2012,124095
+23,Environmental Science,2013,133056
+23,Environmental Science,2014,129516
+23,Environmental Science,2015,123140
+23,Environmental Science,2016,118931
+23,Environmental Science,2017,119444
+23,Environmental Science,2018,128449
+23,Environmental Science,2019,139815
+23,Environmental Science,2020,161658
+23,Environmental Science,2021,173826
+23,Environmental Science,2022,176788
+23,Environmental Science,2023,188438
+23,Environmental Science,2024,198304
+24,Immunology and Microbiology,2000,15395
+24,Immunology and Microbiology,2001,15502
+24,Immunology and Microbiology,2002,15987
+24,Immunology and Microbiology,2003,16663
+24,Immunology and Microbiology,2004,18963
+24,Immunology and Microbiology,2005,20320
+24,Immunology and Microbiology,2006,21725
+24,Immunology and Microbiology,2007,21978
+24,Immunology and Microbiology,2008,24457
+24,Immunology and Microbiology,2009,27347
+24,Immunology and Microbiology,2010,26312
+24,Immunology and Microbiology,2011,28247
+24,Immunology and Microbiology,2012,29540
+24,Immunology and Microbiology,2013,31338
+24,Immunology and Microbiology,2014,31829
+24,Immunology and Microbiology,2015,31119
+24,Immunology and Microbiology,2016,30485
+24,Immunology and Microbiology,2017,31081
+24,Immunology and Microbiology,2018,31965
+24,Immunology and Microbiology,2019,34642
+24,Immunology and Microbiology,2020,41403
+24,Immunology and Microbiology,2021,41864
+24,Immunology and Microbiology,2022,42594
+24,Immunology and Microbiology,2023,42976
+24,Immunology and Microbiology,2024,42803
+25,Materials Science,2000,34117
+25,Materials Science,2001,36272
+25,Materials Science,2002,39810
+25,Materials Science,2003,41618
+25,Materials Science,2004,47188
+25,Materials Science,2005,53886
+25,Materials Science,2006,59270
+25,Materials Science,2007,65546
+25,Materials Science,2008,70343
+25,Materials Science,2009,73928
+25,Materials Science,2010,80260
+25,Materials Science,2011,90636
+25,Materials Science,2012,91562
+25,Materials Science,2013,96194
+25,Materials Science,2014,101637
+25,Materials Science,2015,95603
+25,Materials Science,2016,92385
+25,Materials Science,2017,91203
+25,Materials Science,2018,94682
+25,Materials Science,2019,105080
+25,Materials Science,2020,128281
+25,Materials Science,2021,111782
+25,Materials Science,2022,113047
+25,Materials Science,2023,122306
+25,Materials Science,2024,125163
+26,Mathematics,2000,17308
+26,Mathematics,2001,18404
+26,Mathematics,2002,20009
+26,Mathematics,2003,22747
+26,Mathematics,2004,24649
+26,Mathematics,2005,26903
+26,Mathematics,2006,29518
+26,Mathematics,2007,32827
+26,Mathematics,2008,35986
+26,Mathematics,2009,38139
+26,Mathematics,2010,40265
+26,Mathematics,2011,44290
+26,Mathematics,2012,45869
+26,Mathematics,2013,51245
+26,Mathematics,2014,51438
+26,Mathematics,2015,50738
+26,Mathematics,2016,54220
+26,Mathematics,2017,51816
+26,Mathematics,2018,53946
+26,Mathematics,2019,57805
+26,Mathematics,2020,78639
+26,Mathematics,2021,80412
+26,Mathematics,2022,75093
+26,Mathematics,2023,75285
+26,Mathematics,2024,71742
+27,Medicine,2000,204562
+27,Medicine,2001,211483
+27,Medicine,2002,228492
+27,Medicine,2003,246706
+27,Medicine,2004,276833
+27,Medicine,2005,304118
+27,Medicine,2006,333491
+27,Medicine,2007,344182
+27,Medicine,2008,393614
+27,Medicine,2009,429777
+27,Medicine,2010,452393
+27,Medicine,2011,478264
+27,Medicine,2012,508414
+27,Medicine,2013,543833
+27,Medicine,2014,558669
+27,Medicine,2015,560723
+27,Medicine,2016,565406
+27,Medicine,2017,575615
+27,Medicine,2018,599111
+27,Medicine,2019,654797
+27,Medicine,2020,809816
+27,Medicine,2021,841132
+27,Medicine,2022,826556
+27,Medicine,2023,818630
+27,Medicine,2024,840372
+28,Neuroscience,2000,20238
+28,Neuroscience,2001,20127
+28,Neuroscience,2002,21125
+28,Neuroscience,2003,22638
+28,Neuroscience,2004,25167
+28,Neuroscience,2005,25390
+28,Neuroscience,2006,27920
+28,Neuroscience,2007,29430
+28,Neuroscience,2008,35301
+28,Neuroscience,2009,35519
+28,Neuroscience,2010,43195
+28,Neuroscience,2011,40018
+28,Neuroscience,2012,41800
+28,Neuroscience,2013,46003
+28,Neuroscience,2014,46502
+28,Neuroscience,2015,46968
+28,Neuroscience,2016,46541
+28,Neuroscience,2017,48375
+28,Neuroscience,2018,51950
+28,Neuroscience,2019,56346
+28,Neuroscience,2020,63854
+28,Neuroscience,2021,68330
+28,Neuroscience,2022,67350
+28,Neuroscience,2023,69786
+28,Neuroscience,2024,70438
+29,Nursing,2000,5606
+29,Nursing,2001,5412
+29,Nursing,2002,6259
+29,Nursing,2003,6491
+29,Nursing,2004,7128
+29,Nursing,2005,7623
+29,Nursing,2006,8350
+29,Nursing,2007,9073
+29,Nursing,2008,10108
+29,Nursing,2009,12108
+29,Nursing,2010,11541
+29,Nursing,2011,12478
+29,Nursing,2012,13579
+29,Nursing,2013,14665
+29,Nursing,2014,15280
+29,Nursing,2015,15398
+29,Nursing,2016,15357
+29,Nursing,2017,15874
+29,Nursing,2018,16316
+29,Nursing,2019,18130
+29,Nursing,2020,21252
+29,Nursing,2021,21144
+29,Nursing,2022,21027
+29,Nursing,2023,21083
+29,Nursing,2024,24760
+30,"Pharmacology, Toxicology and Pharmaceutics",2000,5030
+30,"Pharmacology, Toxicology and Pharmaceutics",2001,5351
+30,"Pharmacology, Toxicology and Pharmaceutics",2002,5663
+30,"Pharmacology, Toxicology and Pharmaceutics",2003,6052
+30,"Pharmacology, Toxicology and Pharmaceutics",2004,6692
+30,"Pharmacology, Toxicology and Pharmaceutics",2005,7677
+30,"Pharmacology, Toxicology and Pharmaceutics",2006,8600
+30,"Pharmacology, Toxicology and Pharmaceutics",2007,9508
+30,"Pharmacology, Toxicology and Pharmaceutics",2008,10720
+30,"Pharmacology, Toxicology and Pharmaceutics",2009,12061
+30,"Pharmacology, Toxicology and Pharmaceutics",2010,13292
+30,"Pharmacology, Toxicology and Pharmaceutics",2011,14646
+30,"Pharmacology, Toxicology and Pharmaceutics",2012,14949
+30,"Pharmacology, Toxicology and Pharmaceutics",2013,15858
+30,"Pharmacology, Toxicology and Pharmaceutics",2014,14675
+30,"Pharmacology, Toxicology and Pharmaceutics",2015,13572
+30,"Pharmacology, Toxicology and Pharmaceutics",2016,12329
+30,"Pharmacology, Toxicology and Pharmaceutics",2017,11825
+30,"Pharmacology, Toxicology and Pharmaceutics",2018,12363
+30,"Pharmacology, Toxicology and Pharmaceutics",2019,13141
+30,"Pharmacology, Toxicology and Pharmaceutics",2020,15044
+30,"Pharmacology, Toxicology and Pharmaceutics",2021,15320
+30,"Pharmacology, Toxicology and Pharmaceutics",2022,15405
+30,"Pharmacology, Toxicology and Pharmaceutics",2023,15583
+30,"Pharmacology, Toxicology and Pharmaceutics",2024,16690
+31,Physics and Astronomy,2000,57515
+31,Physics and Astronomy,2001,61405
+31,Physics and Astronomy,2002,63501
+31,Physics and Astronomy,2003,64844
+31,Physics and Astronomy,2004,70572
+31,Physics and Astronomy,2005,75617
+31,Physics and Astronomy,2006,78456
+31,Physics and Astronomy,2007,79203
+31,Physics and Astronomy,2008,82458
+31,Physics and Astronomy,2009,84216
+31,Physics and Astronomy,2010,84930
+31,Physics and Astronomy,2011,90709
+31,Physics and Astronomy,2012,93614
+31,Physics and Astronomy,2013,96805
+31,Physics and Astronomy,2014,97454
+31,Physics and Astronomy,2015,101304
+31,Physics and Astronomy,2016,105719
+31,Physics and Astronomy,2017,96784
+31,Physics and Astronomy,2018,99698
+31,Physics and Astronomy,2019,105755
+31,Physics and Astronomy,2020,115497
+31,Physics and Astronomy,2021,117592
+31,Physics and Astronomy,2022,126309
+31,Physics and Astronomy,2023,140905
+31,Physics and Astronomy,2024,130593
+32,Psychology,2000,23772
+32,Psychology,2001,24946
+32,Psychology,2002,26866
+32,Psychology,2003,28429
+32,Psychology,2004,31859
+32,Psychology,2005,34551
+32,Psychology,2006,38833
+32,Psychology,2007,42385
+32,Psychology,2008,47362
+32,Psychology,2009,50760
+32,Psychology,2010,56651
+32,Psychology,2011,60340
+32,Psychology,2012,63239
+32,Psychology,2013,69533
+32,Psychology,2014,72640
+32,Psychology,2015,76795
+32,Psychology,2016,78657
+32,Psychology,2017,79921
+32,Psychology,2018,83132
+32,Psychology,2019,92393
+32,Psychology,2020,114196
+32,Psychology,2021,125271
+32,Psychology,2022,119731
+32,Psychology,2023,122619
+32,Psychology,2024,133151
+33,Social Sciences,2000,86098
+33,Social Sciences,2001,98968
+33,Social Sciences,2002,107313
+33,Social Sciences,2003,120852
+33,Social Sciences,2004,134453
+33,Social Sciences,2005,151820
+33,Social Sciences,2006,166625
+33,Social Sciences,2007,183239
+33,Social Sciences,2008,200695
+33,Social Sciences,2009,215834
+33,Social Sciences,2010,232974
+33,Social Sciences,2011,255250
+33,Social Sciences,2012,257424
+33,Social Sciences,2013,269246
+33,Social Sciences,2014,275531
+33,Social Sciences,2015,289393
+33,Social Sciences,2016,298351
+33,Social Sciences,2017,300695
+33,Social Sciences,2018,321424
+33,Social Sciences,2019,355950
+33,Social Sciences,2020,410012
+33,Social Sciences,2021,429761
+33,Social Sciences,2022,420051
+33,Social Sciences,2023,464782
+33,Social Sciences,2024,489631
+34,Veterinary,2000,1827
+34,Veterinary,2001,2022
+34,Veterinary,2002,2020
+34,Veterinary,2003,2008
+34,Veterinary,2004,2217
+34,Veterinary,2005,2402
+34,Veterinary,2006,2714
+34,Veterinary,2007,2817
+34,Veterinary,2008,3142
+34,Veterinary,2009,3567
+34,Veterinary,2010,3601
+34,Veterinary,2011,3777
+34,Veterinary,2012,4270
+34,Veterinary,2013,4313
+34,Veterinary,2014,4778
+34,Veterinary,2015,4616
+34,Veterinary,2016,4641
+34,Veterinary,2017,4820
+34,Veterinary,2018,5100
+34,Veterinary,2019,5530
+34,Veterinary,2020,6275
+34,Veterinary,2021,6201
+34,Veterinary,2022,6183
+34,Veterinary,2023,6494
+34,Veterinary,2024,6467
+35,Dentistry,2000,3584
+35,Dentistry,2001,4019
+35,Dentistry,2002,4471
+35,Dentistry,2003,4869
+35,Dentistry,2004,5489
+35,Dentistry,2005,5806
+35,Dentistry,2006,6428
+35,Dentistry,2007,7180
+35,Dentistry,2008,8049
+35,Dentistry,2009,9669
+35,Dentistry,2010,10112
+35,Dentistry,2011,11362
+35,Dentistry,2012,12760
+35,Dentistry,2013,14007
+35,Dentistry,2014,14610
+35,Dentistry,2015,14957
+35,Dentistry,2016,14885
+35,Dentistry,2017,15279
+35,Dentistry,2018,15785
+35,Dentistry,2019,17361
+35,Dentistry,2020,22724
+35,Dentistry,2021,25116
+35,Dentistry,2022,23839
+35,Dentistry,2023,23731
+35,Dentistry,2024,24835
+36,Health Professions,2000,19298
+36,Health Professions,2001,21006
+36,Health Professions,2002,22693
+36,Health Professions,2003,24672
+36,Health Professions,2004,27109
+36,Health Professions,2005,30581
+36,Health Professions,2006,32691
+36,Health Professions,2007,36213
+36,Health Professions,2008,38560
+36,Health Professions,2009,42560
+36,Health Professions,2010,46193
+36,Health Professions,2011,49481
+36,Health Professions,2012,53469
+36,Health Professions,2013,58178
+36,Health Professions,2014,60550
+36,Health Professions,2015,62921
+36,Health Professions,2016,64097
+36,Health Professions,2017,65300
+36,Health Professions,2018,67164
+36,Health Professions,2019,75061
+36,Health Professions,2020,90048
+36,Health Professions,2021,87695
+36,Health Professions,2022,84970
+36,Health Professions,2023,89235
+36,Health Professions,2024,96997

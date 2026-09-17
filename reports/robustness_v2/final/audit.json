@@ -1,0 +1,10 @@
+{
+  "all_complete": true,
+  "catalog_sha256": "2e4ab4b3e0a9445f8456667979162998529da16498e2a26d3778fb1f19415437",
+  "figures": 7,
+  "parent_scientific_audit_verified": true,
+  "tables": 50,
+  "visual_review": "complete; seven final PNGs inspected",
+  "visual_review_file": "research/robustness_2026-09-17/final_visual_review.json",
+  "visual_review_sha256": "7d1eea686153fad1707b640badf177ff98675b2961c0fc469c9c1f56a6f3202e"
+}

@@ -1,0 +1,14 @@
+{
+  "purpose": "Preserve the closed pre-paper documents before the user-authorized initial GitHub commit/push. Scientific results remain unchanged.",
+  "previous_closure_sha256": "170c4eea57c42b0a51eaeb13b65262d5cc31b411140beb6eb888679a6c67c663",
+  "documents": {
+    "AGENTS.md": "d57c4dd6e4802f767c9c9e94b9d292d6dc2713a68d32bf83bf69e04110efbbd1",
+    "DECISIONS.md": "25a28e0afabfa11c14407dd7f2eb761571c9fd4c94de5c50b3ff20f091aad446",
+    "progress.md": "7962c761ebb7fc39f4dc264e3ab973ca07d5fb934917251fc5a85d42a1b8a0f1",
+    "task_plan.md": "6907930dff9f0433f67b42efd24d78996c1e2b3098a4eb717feee92e1616c829",
+    "NEXT_STEPS.md": "7654ee08c09ae75d996efb5537225599495b54cfb72309f313fd86960a883ce8",
+    "PREPAPER_REVIEW.md": "588fa2c8e730e315152c25879d36bffbef5d57828653953492a506edad88455b",
+    "docs/DATA_RELEASE.md": "2d4951dba65305acc5df7e5e2600904a681377a16606bd554e24dbd2e071ed68",
+    "docs/QSS_CHECK.md": "0c870ca84694bc43db7412e00b62601ae3f0ba0aef682ad3c679bc4fc803bdec"
+  }
+}

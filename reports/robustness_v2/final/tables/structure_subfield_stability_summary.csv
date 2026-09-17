@@ -1,0 +1,3 @@
+large_sample_equals_whole_group,comparisons,subfields,passed,alerts,max_width,max_median_change
+False,8235,183,5607,2628,0.1813043931150935,0.029769943268824872
+True,3060,68,2847,213,3.574918139293004e-14,0.09307071907681763

@@ -1,0 +1,116 @@
+{
+  "all_passed": true,
+  "checked_at": "2026-09-17T14:46:07.078477+00:00",
+  "final_catalog_sha256": "25dd837b607b8696e6ded1eff5d4270cc32e44c434164553ed702b031282ac6d",
+  "catalog_files_verified": 57,
+  "tables": 33,
+  "figures_per_format": 7,
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "current_scientific_sources_match_frozen_manifests": {
+    "config/checklist_v1.json": "f4ac5ce719da511f9f2e2da4396902a92ce181c22c2c81b8d406a2ffa7a23b55",
+    "config/embeddings_v1.json": "3f080d674ce8110c38933e64c605ce1a32762d9b9da2af7be94e6b143f6b5ae4",
+    "embed.sh": "e7090ae420a44acefd8736983353ee13737deda715adf90c91de58649bf30a39",
+    "requirements-embeddings.txt": "21f8aeb8a62715836d880fd01c5955ea68bf29c22f0d2369caba9eb01db7facf",
+    "research/feasibility_2026-09-14/requirements-benchmark.txt": "f81f109cfb7f406828ecdcc83518adf304c49ed69abc11f731c400a5e99fc363",
+    "sos_analysis/extra_embeddings.py": "ebab4a4d8b69a351b4730a20c9d26ddeec76ce7a8f1a127753a7d1b9bbb7a44b",
+    "sos_embed/__init__.py": "6cc23ebd81e5659a000156a5713b86577cb89c54e552dce4eada53fa7547073a",
+    "sos_embed/cli.py": "0560d54e50b6c3a4e75affadec95d3f93ad61eed3c51ad624e43cffbec5d267e",
+    "sos_embed/common_text.py": "de189a13fbf35db303e771e20015c50315606e7fc03b0830443dc350bc888199",
+    "sos_embed/models.py": "253563df8ef17d6d15931300730144375acf047eeb5468055a5d507b813dfb61",
+    "sos_embed/runner.py": "b54fbb028e7cdb849e7f0775cb1e4d22bb773bbd8061a4379061b8a2e0cd9645",
+    "sos_embed/storage.py": "491a889721e01333b75b2da181a3b280306aadeec42d4c428419c53668cb4fc2",
+    "sos_followup/input_embeddings.py": "248844ec8cc53f73725538229abeed17641ed75b10b3667f3b8df004b49a79ab",
+    "requirements-analysis.txt": "919b25106602dd975646999cf204e1b906e3eedd54bc29f1016d9667381b11a2",
+    "sos_analysis/geometry.py": "980f9b4c3d13023ead3d937a1d7d1355637afe0064c209f990a7c59b2fc00809",
+    "sos_analysis/neighbors.py": "67ee884a67009e26c080d8bb4e1256786baa41051d35fdbec9caec2d5e8d4016",
+    "sos_followup/input_analysis.py": "b976f42ee09f709eab98bc6e129904cb3c739972a74d648407e27dd2ae7d848a",
+    "sos_followup/pilot_statistics.py": "f13ed6804831c2374509b670435de1a5d808c4173d6421c7dc0370dad7c2a264",
+    "config/checklist_input_recipes_v1.json": "b9c86346a0e390cf07b041a3cfc2a95141f4be79b6b121050a55789efbdf8f4e",
+    "sos_followup/input_recipe_control.py": "f76e87f36c164b231be56068bbb1c71db89030cdae28358ef9d622a7631c62e2",
+    "sos_followup/existing_analysis_v2.py": "5b5f7a6c98a08c2adcf141d0558e1d3b6e3cab32abbe6aee161ce500a1c2e77a",
+    "sos_followup/candidate_check.py": "2d1445d6205df9b6b33946b8ada8cd4346cf59a5f6c6988ba08681d0feac2dc0"
+  },
+  "audit_source": "reports/checklist_v1/final/audit.json",
+  "existing_test_logs_passed": {
+    "tests_final.log": 6,
+    "recipe_tests.log": 1
+  },
+  "driver_completion_markers_verified": {
+    "input_run.log": "INPUT QUEUE COMPLETE; ORIGINAL CHECKPOINT UNCHANGED",
+    "finish_pilot.log": "PILOT FINISHED AND AUDITED",
+    "finish_recipes.log": "INPUT RECIPE SENSITIVITY FINISHED",
+    "report_final.log": "COMPLETE: True"
+  },
+  "active_scientific_processes": [],
+  "shape_stability_alerts_preserved": 31,
+  "old_separate_alerts_preserved": 50,
+  "local_markdown_links_checked": 97,
+  "documents_sha256": {
+    "AGENTS.md": "36b74efd0b5212df7c17aa3bed63dba8e20727313a53c5f46354aa75ad46d827",
+    "DECISIONS.md": "3926136158706817b280b1cad81fc302fdcbac4aa32b9df83067693c7c3aef2a",
+    "progress.md": "0783c877adec5e33232b63b1ac8af0ba42e90e2b54b2561d68ae571f53eab392",
+    "task_plan.md": "13fde81b17254448af62fa454eec270ddfc90251ee6683bf8cdb23e5fafdf8dc",
+    "findings.md": "9771ee182176d5b675460a515e272bcef3f1b3a913ff9474128ff7a081a27430",
+    "README.md": "d926897a74fd7289a9408e047dfe83eabfd58da15ebf616ffaa0d09933699b80",
+    "NEXT_STEPS.md": "ce1883d2e1d577f344a359d0dd00957e846fdb06ccea3e3e96611ee4ca465c1e",
+    "PAPER_OUTLINE.md": "7da7d779fb742f5e05e56f78202cf4dbc3a067a7c353ca58679279c1c907661b",
+    "DATA_CATALOG.md": "19eee3a2e0b7b93fbdfaa5502812376e8646b1509a19f2a6805d3867a9b12057",
+    "CHECKLIST_RESULTS.md": "385e5dd0db7ef292bc33581e1f425242f0596925eef530818dd5bbe2c2e25ec1",
+    "METHODS_CHECKLIST.md": "d9b0cd2ad4ed3e9ce26dc618eb80a78f2654249dafe67585c67b66390ec10672",
+    "CHECKLIST_PROTOCOL.md": "6f8c90c3a83f8af0b4847d050c36fa8d958dee4c7aa8e395cfb34fd083f0f80a",
+    "02_open_questions.md": "72a854b35bf3b84d703b0c4ed795d1ddb56dfe0b7592f2a070b919d89bafa007",
+    "ANALYSIS_RESULTS.md": "20571d826821324597d666535292eea36bee16143050e7d3450d2592d76aedbe",
+    "research/checklist_2026-09-17/MODEL_PROFILES.md": "8577a433fdbb69cc2f2e09c88ef10109204a1583de97ab0b7018c89b35f33e7b",
+    "research/checklist_2026-09-17/RELATED_INPUT_WORK.md": "9d05715f0b73e745a33b0187b32491a0067ff279868c055dda15f1ea49e77e6f"
+  },
+  "visual_reviews": [
+    {
+      "path": "reports/checklist_v1/final/figures/01_model_versus_input.png",
+      "sha256": "11d9f782e3f13a8c97e8541bca82e38bd2a354882ce9d78214516fac97642828",
+      "visually_inspected_this_task": true,
+      "inspection_stage": "final"
+    },
+    {
+      "path": "reports/checklist_v1/final/figures/02_time_and_candidate_size.png",
+      "sha256": "b05d385f8aa094ba1b13937f41f0654f638a2acfdde532a81d5462834e43916c",
+      "visually_inspected_this_task": true,
+      "same_as_inspected_preview_png": true
+    },
+    {
+      "path": "reports/checklist_v1/final/figures/03_medicine_and_biomedical_models.png",
+      "sha256": "5fd7667fc4673af43b0dcb2a5c59232e999bb76e3bf3b1761319cb7abd0de461",
+      "visually_inspected_this_task": true,
+      "same_as_inspected_preview_png": true
+    },
+    {
+      "path": "reports/checklist_v1/final/figures/04_training_objective_families.png",
+      "sha256": "58d04afc43c4e98c26b99d1c1e90d301e9ef586b4cd1ca478961202b8cfbcc13",
+      "visually_inspected_this_task": true,
+      "same_as_inspected_preview_png": true
+    },
+    {
+      "path": "reports/checklist_v1/final/figures/05_model_by_field_residuals.png",
+      "sha256": "d5164828159125406900f0b62ceed399094ad7922553095a49473f7fe1f8b333",
+      "visually_inspected_this_task": true,
+      "same_as_inspected_preview_png": true
+    },
+    {
+      "path": "reports/checklist_v1/final/figures/06_input_pilot_stability.png",
+      "sha256": "64ba5cef92d35a5d71d74c839a0b2261cdc835ae38ce5e8aad492080b9e86165",
+      "visually_inspected_this_task": true,
+      "inspection_stage": "final"
+    },
+    {
+      "path": "reports/checklist_v1/final/figures/07_input_by_pooling_recipe.png",
+      "sha256": "627472bd9e76df8d0ef251c301474c4e58bc9698bb52bcd0631eb1cfb1abbfe3",
+      "visually_inspected_this_task": true,
+      "inspection_stage": "final"
+    }
+  ],
+  "verifier_sha256": "fa33264a82b25063f1e475a4a05f6c886b9a864b5e71e898d3348c7c31f1a798",
+  "scope": "Delivery, sources, completion and handoff verification only. No new inference, neighbors or population claim."
+}

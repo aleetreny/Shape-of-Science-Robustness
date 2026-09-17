@@ -1,0 +1,5 @@
+{
+  "data/checklist_v1/inputs/title_abstract/minilm/shards/000000000-000001024/mean.npy": "63a75a628b6b07ce2be1f42b32490e5bc9e1a265cf6a5423b85ce5250186caa0",
+  "data/checklist_v1/inputs/title_abstract/minilm/shards/000000000-000001024/commit.json": "fe86506fcf30495e87e3eb5aca3884c3cdb34e32b0d6359d6b0d21a0b12bd25f",
+  "data/checklist_v1/inputs/title_abstract/minilm/shards/000000000-000001024/rows.parquet": "9be19f3708a6e63f24c326972bbb40033c2b35062179d76b7f4d3a463422aaee"
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "lamers_2021.pdf",
+    "url": "https://cris.unibo.it/retrieve/2c0cff25-3353-40be-ab3c-88559c822be9/Colavizza%20An%20appraisal%20of%20publication%20embedding%20techniques.pdf",
+    "checked_at": "2026-09-15T15:09:12.791555+00:00",
+    "curl_exit": 56
+  },
+  {
+    "name": "knowledge_cosmos_2025.pdf",
+    "url": "https://www.theknowledgecosmos.com/VISAP.pdf",
+    "checked_at": "2026-09-15T15:09:15.842753+00:00",
+    "curl_exit": 0,
+    "sha256": "51b169b5aa205b3a6f0ee25b12349b05470dace6ec3180a8f158a96e6f5ed170",
+    "pages": 10
+  },
+  {
+    "name": "interdisciplinary_2024.html",
+    "url": "https://www.nature.com/articles/s41599-024-03044-y",
+    "checked_at": "2026-09-15T15:09:19.829211+00:00",
+    "curl_exit": 0,
+    "sha256": "b2790a0e58a3e957b127d330f2d03ec7b4ead660655a7ac5075bba0d6a838de0"
+  },
+  {
+    "name": "bascur_2026.html",
+    "url": "https://metaror.org/article/use-of-diverse-data-sources-to-control-which-topics-emerge-in-a-science-map-2/",
+    "checked_at": "2026-09-15T15:09:23.198639+00:00",
+    "curl_exit": 0,
+    "sha256": "71b940955bfd43028bb19e58c2c24a6762f942fa39d084c11d0b0e940df0be8f"
+  },
+  {
+    "name": "qss_00168_crossref.json",
+    "url": "https://api.crossref.org/works/10.1162%2Fqss_a_00168",
+    "checked_at": "2026-09-15T15:09:24.148261+00:00",
+    "curl_exit": 0,
+    "sha256": "7edcdaf5a8378d0a0b7f6f6f2389bc9d58d4a603d02c8418967234ff4534b70c"
+  }
+]

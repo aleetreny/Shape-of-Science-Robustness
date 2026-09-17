@@ -1,0 +1,5 @@
+{
+  "data/embedding_pilot_v1/specter/shards/000000000-000001024/cls.npy": "bde93232129cfa254bd1f55739a21df302f0b7ad16a7050c6d4edb021bc5be6f",
+  "data/embedding_pilot_v1/specter/shards/000000000-000001024/commit.json": "83f5b20be9dfa337a828fd5769a07ea4fa714f99596fed3e64eebbc30dcb4b1f",
+  "data/embedding_pilot_v1/specter/shards/000000000-000001024/rows.parquet": "0413ef983db4e9fac687d7e0da873367fef46aec298830c5fd8e2eaaaf792888"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-17T07:14:17.349871+00:00",
+  "parent_design": "config/analysis_v1.json",
+  "backend": "CPU exact blocked cosine float64",
+  "score_decimals_for_ties": 12,
+  "query_batch_local": 128,
+  "query_batch_global": 32,
+  "overrides": "Only numerical backend and explicit roundoff tie handling; scientific k, candidates, anchors and summaries unchanged.",
+  "reason": "Synthetic cost probe predicts about 13 minutes for ten within-cell exact searches; use higher precision without approximate search or contending with control embeddings on MPS.",
+  "validation": "Independent scalar float64 cosine implementation on fixed queries, identical answers across batch sizes; ties by smaller global row_index."
+}

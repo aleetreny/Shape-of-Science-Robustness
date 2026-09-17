@@ -1,0 +1,13 @@
+test_all_rows_different_dimensions_and_read_only (test_analysis_reader.ReaderTests.test_all_rows_different_dimensions_and_read_only) ... ok
+test_changed_metadata_and_catalog_anchor_rejected (test_analysis_reader.ReaderTests.test_changed_metadata_and_catalog_anchor_rejected) ... ok
+test_filters_preserve_alignment_and_quality (test_analysis_reader.ReaderTests.test_filters_preserve_alignment_and_quality) ... ok
+test_gap_rejected (test_analysis_reader.ReaderTests.test_gap_rejected) ... ok
+test_invalid_selection_and_filter (test_analysis_reader.ReaderTests.test_invalid_selection_and_filter) ... ok
+test_invalid_vectors_rejected_with_matching_digests (test_analysis_reader.ReaderTests.test_invalid_vectors_rejected_with_matching_digests) ... ok
+test_modified_file_rejected (test_analysis_reader.ReaderTests.test_modified_file_rejected) ... ok
+test_wrong_ids_rejected_even_with_matching_digests (test_analysis_reader.ReaderTests.test_wrong_ids_rejected_even_with_matching_digests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.210s
+
+OK

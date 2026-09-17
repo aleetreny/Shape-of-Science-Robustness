@@ -1,0 +1,3 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+minilm512/minilm: 1,024/500,000; reutilizados 527; 3.2s
+{"rows": 1024, "target": 500000, "complete": false, "shards": 1, "seconds": 3.2321977089886786, "truncated_rows": 67, "updated_at": "2026-09-17T07:01:08.166487+00:00", "manifest_sha256": "df88fd2fd0eccb0109ff81443557ccddacf097a46b014b2c0a58f821ecf936ce"}

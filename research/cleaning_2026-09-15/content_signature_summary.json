@@ -1,0 +1,15 @@
+{
+  "pages_checked": 6138,
+  "matched_distinct_id_text_pairs": 461,
+  "counts": {
+    "acs_webpage_instead_of_abstract": 335,
+    "publisher_navigation_instead_of_abstract": 66,
+    "conference_front_matter": 16,
+    "withdrawal_notice_instead_of_abstract": 11,
+    "reproduction_front_matter_instead_of_abstract": 10,
+    "explicit_ieee_advertisement": 22,
+    "author_submission_instructions": 1
+  },
+  "final_exact_abstract_exclusions": 538,
+  "note": "This expands a known-error catalogue before final selection. It is not proof of exhaustive content quality."
+}

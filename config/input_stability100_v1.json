@@ -1,0 +1,11 @@
+{
+  "scope": "R01/R09: 100 paired finite-corpus subsamples at both 26k and 52k, preserving the first 20",
+  "fixed_before_new_results": "2026-09-17",
+  "repeats": 100,
+  "seed_formula": "20260917000 + 100*field_id + repeat",
+  "sample_fraction": 0.5,
+  "max_median_effect_change": 0.02,
+  "max_central95_width": 0.04,
+  "output": "data/robustness_v2/input_stability100",
+  "interpretation": "Variation within the same corpus, not population confidence intervals. Compare 20 with 20 and 100 with 100; do not attribute Monte Carlo tail differences to corpus size."
+}

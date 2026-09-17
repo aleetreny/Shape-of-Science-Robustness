@@ -1,0 +1,20 @@
+{
+  "audited_at": "2026-09-17T08:08:04.712723+00:00",
+  "control": "common",
+  "file_and_identity_validation": {
+    "complete": true,
+    "rows": 52000,
+    "seconds": 268.0141340830596,
+    "shards": 51,
+    "target": 52000,
+    "truncated_rows": 0
+  },
+  "input_sha256": "59895077b6a29ddb9304a43b1dfc343648c282567a653e54de595430756e46a0",
+  "manifest_sha256": "e43bf2891a28db6c22b1305288c743d25470a2eb5ebe2ec60aaeaaa098d5687c",
+  "model": "specter2",
+  "recomputed_rows": 25143,
+  "reused_rows_checked_bit_exact": 26857,
+  "rows": 52000,
+  "source_files_current_and_snapshot_match": true,
+  "truncated_rows_from_metadata": 0
+}

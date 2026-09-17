@@ -1,0 +1,13 @@
+....F.........
+======================================================================
+FAIL: test_newly_downloaded_webpage_is_rejected_without_prelisted_hash (tests.test_preparation_quality.QualityRules.test_newly_downloaded_webpage_is_rejected_without_prelisted_hash)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_preparation_quality.py", line 62, in test_newly_downloaded_webpage_is_rejected_without_prelisted_hash
+    self.assertIn('non_abstract:acs_webpage_instead_of_abstract',reasons_for(r,d,self.policy))
+AssertionError: 'non_abstract:acs_webpage_instead_of_abstract' not found in []
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.519s
+
+FAILED (failures=1)

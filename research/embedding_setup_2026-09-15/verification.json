@@ -1,0 +1,340 @@
+{
+  "status": "verified",
+  "models": [
+    {
+      "model": "specter",
+      "name": "SPECTER",
+      "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+      "dimension": 768,
+      "poolings": [
+        "cls"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 24.586715666995588,
+        "papers_per_second": 52.87408117486298,
+        "truncated": 64,
+        "output_bytes": 4167867,
+        "max_process_peak_rss_gib": 0.822723388671875,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 13.163887417002115,
+        "papers_per_second": 98.75502264786583,
+        "truncated": 0,
+        "output_bytes": 4213400,
+        "max_process_peak_rss_gib": 0.80865478515625,
+        "max_driver_gib_at_shard_end": 2.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "cls": 3.814697265625e-06
+      },
+      "full_500k_hours_extrapolated": 2.6267858618585027
+    },
+    {
+      "model": "specter2",
+      "name": "SPECTER2",
+      "revision": "3447645e1def9117997203454fa4495937bfbd83",
+      "dimension": 768,
+      "poolings": [
+        "cls"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 25.9640696259994,
+        "papers_per_second": 50.069192492775905,
+        "truncated": 55,
+        "output_bytes": 4167802,
+        "max_process_peak_rss_gib": 0.588958740234375,
+        "max_driver_gib_at_shard_end": 3.010009765625
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 13.187729957000556,
+        "papers_per_second": 98.57648012498996,
+        "truncated": 0,
+        "output_bytes": 4213232,
+        "max_process_peak_rss_gib": 0.575714111328125,
+        "max_driver_gib_at_shard_end": 1.01007080078125
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "cls": 1.9073486328125e-06
+      },
+      "full_500k_hours_extrapolated": 2.7739390626067735
+    },
+    {
+      "model": "scincl",
+      "name": "SciNCL",
+      "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+      "dimension": 768,
+      "poolings": [
+        "cls"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 24.37513583299733,
+        "papers_per_second": 53.33303612774753,
+        "truncated": 55,
+        "output_bytes": 4167800,
+        "max_process_peak_rss_gib": 0.5533294677734375,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 12.50957775000279,
+        "papers_per_second": 103.92037413091022,
+        "truncated": 0,
+        "output_bytes": 4213231,
+        "max_process_peak_rss_gib": 0.5386505126953125,
+        "max_driver_gib_at_shard_end": 1.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "cls": 2.86102294921875e-06
+      },
+      "full_500k_hours_extrapolated": 2.604181178739031
+    },
+    {
+      "model": "scibert",
+      "name": "SciBERT",
+      "revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1",
+      "dimension": 768,
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 24.411919917001796,
+        "papers_per_second": 53.25267346525288,
+        "truncated": 55,
+        "output_bytes": 12156077,
+        "max_process_peak_rss_gib": 0.8214874267578125,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 12.642988832998526,
+        "papers_per_second": 102.82378772707341,
+        "truncated": 0,
+        "output_bytes": 12202184,
+        "max_process_peak_rss_gib": 0.8083343505859375,
+        "max_driver_gib_at_shard_end": 1.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "mean": 1.9073486328125e-06,
+        "cls": 6.67572021484375e-06,
+        "sep": 5.7220458984375e-06
+      },
+      "full_500k_hours_extrapolated": 2.6081111022437815
+    },
+    {
+      "model": "bert",
+      "name": "BERT",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "dimension": 768,
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 24.832715332999214,
+        "papers_per_second": 52.35029607384422,
+        "truncated": 75,
+        "output_bytes": 12155754,
+        "max_process_peak_rss_gib": 0.5818634033203125,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 11.814839083999686,
+        "papers_per_second": 110.03112194397404,
+        "truncated": 0,
+        "output_bytes": 12201026,
+        "max_process_peak_rss_gib": 0.55926513671875,
+        "max_driver_gib_at_shard_end": 1.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "mean": 9.5367431640625e-07,
+        "cls": 5.9604644775390625e-06,
+        "sep": 3.5762786865234375e-06
+      },
+      "full_500k_hours_extrapolated": 2.653067877457181
+    },
+    {
+      "model": "mpnet",
+      "name": "MPNet",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+      "dimension": 768,
+      "poolings": [
+        "mean"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 20.008109875001537,
+        "papers_per_second": 64.97365358954978,
+        "truncated": 235,
+        "output_bytes": 4167663,
+        "max_process_peak_rss_gib": 0.549835205078125,
+        "max_driver_gib_at_shard_end": 2.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 12.558398583998496,
+        "papers_per_second": 103.51638318411217,
+        "truncated": 0,
+        "output_bytes": 4214606,
+        "max_process_peak_rss_gib": 0.531158447265625,
+        "max_driver_gib_at_shard_end": 1.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "mean": 1.862645149230957e-07
+      },
+      "full_500k_hours_extrapolated": 2.137618576389053
+    },
+    {
+      "model": "minilm",
+      "name": "MiniLM",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "dimension": 384,
+      "poolings": [
+        "mean"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 3.2943237079998653,
+        "papers_per_second": 394.6181721131739,
+        "truncated": 622,
+        "output_bytes": 2169867,
+        "max_process_peak_rss_gib": 0.5515594482421875,
+        "max_driver_gib_at_shard_end": 1.01629638671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 3.1166664580014185,
+        "papers_per_second": 417.1123273915018,
+        "truncated": 0,
+        "output_bytes": 2216514,
+        "max_process_peak_rss_gib": 0.5353546142578125,
+        "max_driver_gib_at_shard_end": 1.01629638671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "mean": 2.384185791015625e-07
+      },
+      "full_500k_hours_extrapolated": 0.35195766111109666
+    },
+    {
+      "model": "pubmedbert",
+      "name": "PubMedBERT / BiomedBERT",
+      "revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+      "dimension": 768,
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 25.317422374999296,
+        "papers_per_second": 51.34803933609518,
+        "truncated": 53,
+        "output_bytes": 12155513,
+        "max_process_peak_rss_gib": 0.821807861328125,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 12.768479166999896,
+        "papers_per_second": 101.81322168421177,
+        "truncated": 0,
+        "output_bytes": 12202230,
+        "max_process_peak_rss_gib": 0.826904296875,
+        "max_driver_gib_at_shard_end": 1.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "mean": 6.854534149169922e-06,
+        "cls": 5.841255187988281e-06,
+        "sep": 1.9073486328125e-06
+      },
+      "full_500k_hours_extrapolated": 2.704852817841805
+    },
+    {
+      "model": "biobert",
+      "name": "BioBERT",
+      "revision": "551ca18efd7f052c8dfa0b01c94c2a8e68bc5488",
+      "dimension": 768,
+      "poolings": [
+        "mean",
+        "cls",
+        "sep"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 27.814958291997755,
+        "papers_per_second": 46.7374420034275,
+        "truncated": 94,
+        "output_bytes": 12155856,
+        "max_process_peak_rss_gib": 0.828155517578125,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 14.05606762500247,
+        "papers_per_second": 92.4867491166308,
+        "truncated": 0,
+        "output_bytes": 12201745,
+        "max_process_peak_rss_gib": 0.8138580322265625,
+        "max_driver_gib_at_shard_end": 2.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "mean": 1.9073486328125e-06,
+        "cls": 1.9073486328125e-06,
+        "sep": 2.7418136596679688e-06
+      },
+      "full_500k_hours_extrapolated": 2.9716835782048885
+    },
+    {
+      "model": "simcse",
+      "name": "SimCSE",
+      "revision": "218baf6bc48c463a53f5b4e1c568299537fab124",
+      "dimension": 768,
+      "poolings": [
+        "cls"
+      ],
+      "native": {
+        "rows": 1300,
+        "seconds": 25.33360074999655,
+        "papers_per_second": 51.31524779398669,
+        "truncated": 75,
+        "output_bytes": 4168042,
+        "max_process_peak_rss_gib": 0.560302734375,
+        "max_driver_gib_at_shard_end": 3.00848388671875
+      },
+      "common": {
+        "rows": 1300,
+        "seconds": 11.92448929099919,
+        "papers_per_second": 109.01934399666595,
+        "truncated": 0,
+        "output_bytes": 4213314,
+        "max_process_peak_rss_gib": 0.537567138671875,
+        "max_driver_gib_at_shard_end": 1.00848388671875
+      },
+      "unchanged_fragment_max_abs_difference": {
+        "cls": 2.1457672119140625e-06
+      },
+      "full_500k_hours_extrapolated": 2.7065812767090334
+    }
+  ],
+  "source_input_sha256": "15f81305696c3a6f6692d849e1116f176940494d6d6f78225ead3ea72d710acf",
+  "native_pilot_rows_per_model": 1300,
+  "control_pilot_rows_per_model": 1300,
+  "identical_fragment_rows_compared": 678,
+  "first_shard_unchanged_after_resume": true,
+  "full_calculation_started": false,
+  "full_vectors_bytes": 26880000000,
+  "full_total_hours_extrapolated": 24.138778993161147,
+  "limitation": "Short balanced technical sample; extrapolated times are not a sustained full-corpus benchmark."
+}

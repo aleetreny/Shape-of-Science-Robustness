@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review.py", line 176, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review.py", line 170, in main
+    summary={'size':size_and_stability(),'paired_scopes':paired_scopes(),
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_deep/structural_review.py", line 32, in size_and_stability
+    for r in aggregate(subset,keys,column):output.append(dict(population=population,measure=measure,k='',**r))
+                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict() got multiple values for keyword argument 'k'

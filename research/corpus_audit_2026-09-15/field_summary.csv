@@ -1,0 +1,27 @@
+field_id,field_name,base,extra,total,minimum_period,non_en_top_label,non_en_top_label_pct
+11,Agricultural and Biological Sciences,18954,501,19455,2164,468,2.4056
+12,Arts and Humanities,10957,1891,12848,2164,668,5.1993
+13,"Biochemistry, Genetics and Molecular Biology",24346,0,24346,2719,184,0.7558
+14,"Business, Management and Accounting",11196,2090,13286,2164,347,2.6118
+15,Chemical Engineering,1194,9626,10820,2164,79,0.7301
+16,Chemistry,7302,3518,10820,2164,116,1.0721
+17,Computer Science,32867,0,32867,3288,617,1.8773
+18,Decision Sciences,3811,7009,10820,2164,144,1.3309
+19,Earth and Planetary Sciences,7216,3604,10820,2164,152,1.4048
+20,"Economics, Econometrics and Finance",8697,2849,11546,2164,363,3.1439
+21,Energy,2612,8208,10820,2164,101,0.9335
+22,Engineering,66794,0,66794,6944,635,0.9507
+23,Environmental Science,18590,427,19017,2164,367,1.9299
+24,Immunology and Microbiology,4421,6399,10820,2164,88,0.8133
+25,Materials Science,13288,906,14194,2164,112,0.7891
+26,Mathematics,4547,6273,10820,2164,88,0.8133
+27,Medicine,78373,0,78373,7085,946,1.207
+28,Neuroscience,6769,4051,10820,2164,75,0.6932
+29,Nursing,2096,8724,10820,2164,307,2.8373
+30,"Pharmacology, Toxicology and Pharmaceutics",1701,9119,10820,2164,97,0.8965
+31,Physics and Astronomy,14641,79,14720,2164,55,0.3736
+32,Psychology,10864,2220,13084,2164,274,2.0942
+33,Social Sciences,38116,0,38116,2789,1666,4.3709
+34,Veterinary,647,10173,10820,2164,196,1.8115
+35,Dentistry,2223,8595,10818,2163,126,1.1647
+36,Health Professions,7778,3738,11516,2163,273,2.3706

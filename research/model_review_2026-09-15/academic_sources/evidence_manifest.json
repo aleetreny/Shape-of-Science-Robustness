@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-15T15:13:21.451411+00:00",
+  "studies": 10,
+  "sbert_general_family_studies": [
+    "constantino_2025",
+    "huang_2025",
+    "imel_2025",
+    "interdisciplinary_2024",
+    "landscape_2024",
+    "nanoscience_2025"
+  ],
+  "exhaustive": false,
+  "files": {
+    "research/model_review_2026-09-15/academic_sources/knowledge_cosmos_2025.pdf": "51b169b5aa205b3a6f0ee25b12349b05470dace6ec3180a8f158a96e6f5ed170",
+    "research/model_review_2026-09-15/academic_sources/knowledge_cosmos_2025.pdf.txt": "5efed6308441bad50f1c95ea34dd6c317f22239a0d270e6e070550d1c3776086",
+    "research/model_review_2026-09-15/academic_sources/bascur_2026.html": "71b940955bfd43028bb19e58c2c24a6762f942fa39d084c11d0b0e940df0be8f",
+    "research/model_review_2026-09-15/academic_sources/qss_00168_crossref.json": "7edcdaf5a8378d0a0b7f6f6f2389bc9d58d4a603d02c8418967234ff4534b70c",
+    "research/model_review_2026-09-15/academic_sources/huang_vec_by_mpnet.py.txt": "3d9eb3cf908c935cd677ca80138e147c2b6bf97303574e50a02870b4394ca418",
+    "research/model_review_2026-09-15/academic_sources/huang_vec_by_bert.py.txt": "2a12edd7aac6c3772646fbbb4f764dc0ba804a6422335b16b882100d1571576e",
+    "research/model_review_2026-09-15/academic_sources/huang_code_access.json": "d2dbcaacfafedc06949fff19973c6be81f4ffe94103efbcc5cede5168a032a3d",
+    "research/model_review_2026-09-15/academic_sources/bascur_2026.html.txt": "0b53cf45cdbbad89c6cc9d25448919ce04cc3f2da4d18524d14e18d1070a5045",
+    "research/model_review_2026-09-15/academic_sources/retrieval_log.json": "56c531f4b1a8354adf3559172f206f8d2596b88be7cf07d2d95ce92d80e75428",
+    "research/model_review_2026-09-15/academic_sources/interdisciplinary_2024.html": "b2790a0e58a3e957b127d330f2d03ec7b4ead660655a7ac5075bba0d6a838de0",
+    "research/model_review_2026-09-15/academic_sources/liang_publication_metadata.json": "af4fe4aa97e2253255221bb064fa3ed88323bc91c5bc974613f1675bc56f0249",
+    "research/model_review_2026-09-15/academic_sources/studies.json": "900a12e36ced5e3940ebe8e069a96b27e31bd402984764768cdc4c9e17f594bd",
+    "research/model_review_2026-09-15/academic_sources/interdisciplinary_2024.html.txt": "a1ee628c2d3e5dea20cc5e3a07f780ab7b0749d90483423d1d107e5ac9cebeec",
+    "research/model_review_2026-09-15/academic_sources/model_occurrences.csv": "182c5c8e323e0ca8f46ec46193c715a89f523b4bac86a410f7e4b41c237a8ebc"
+  }
+}

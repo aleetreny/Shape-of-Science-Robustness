@@ -1,0 +1,7 @@
+{
+  "exact_text_candidates": 22118,
+  "vectors_located_and_checked": 22118,
+  "shards": 119,
+  "approved_for_final_experiments": false,
+  "reason": "Exact model/tokenizer/adapter revisions remain unresolved. No vectors copied or computed."
+}

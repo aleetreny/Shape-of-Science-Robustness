@@ -1,0 +1,67 @@
+{
+  "status": "prepared_and_verified",
+  "created_at": "2026-09-15T14:25:39.759839+00:00",
+  "rows": 500000,
+  "counts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "policy_path": "config/cleaning_v1.json",
+  "policy_sha256": "00c53633ed6a76a7a706b2a6839992853851fbea2ea425cffcbab150b0d10efc",
+  "source_original_sha256": "420d123ac4f1966d984fd58931034fd89dbb0fea601efdf0fe1a383263d45909",
+  "corpus_sha256": "b48bfd4344400d811953fff42832460ad711991f0bc7df8b8442807106b72abe",
+  "embedding_input_sha256": "15f81305696c3a6f6692d849e1116f176940494d6d6f78225ead3ea72d710acf",
+  "ordered_work_ids_sha256": "8131bee4bbb06139309aacb4f74d0899398b14c13920ca28713c6ef10d40348f",
+  "ordered_ids_text_hashes_sha256": "19380881460800eeaf0d254d49bc6bec018d5aded8808be8dd249136dd90619a",
+  "text_hash_definition": "SHA256(title + two newline characters + abstract), exact UTF-8 strings",
+  "ordering": "row_index from 0 to rows-1; selection_order=row_index+1; base before extra",
+  "raw_original_root": "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/data/corpus_500k",
+  "raw_references": "Original gzip pages are relative symlinks; retain original data directory.",
+  "model_runs_started": false,
+  "model_specific_formatting_and_versions": "pending",
+  "stats": {
+    "content_review_flag": 33,
+    "language_ambiguous": 9883,
+    "possible_mixed_language": 3002,
+    "possible_notice": 4,
+    "possible_access_message": 0,
+    "abstract_over_2000": 249,
+    "abstract_50_79": 42849,
+    "source_original": 499990,
+    "legacy_text_match": 22118,
+    "old_id_retained": 494101,
+    "old_extra_moved_to_base": 9,
+    "source_additional": 10
+  },
+  "original_records_not_reselected": 5899,
+  "original_removal_reason_counts": {
+    "non_abstract:reviewed_non_abstract_template": 780,
+    "clear_non_english_abstract": 4651,
+    "non_abstract:acs_webpage_instead_of_abstract": 291,
+    "non_abstract:publisher_navigation_instead_of_abstract": 14,
+    "reviewed:reviewed_title_abstract_mismatch_or_non_article_resource": 66,
+    "explicit_withdrawn_or_retracted_label": 5,
+    "non_abstract:reproduction_front_matter_instead_of_abstract": 4,
+    "non_abstract:explicit_ieee_advertisement": 2,
+    "reviewed:erratum_labeled_auxiliary_record": 1,
+    "non_abstract:author_submission_instructions": 1,
+    "non_abstract:conference_front_matter": 1,
+    "non_abstract:withdrawal_notice_instead_of_abstract": 2,
+    "reviewed:title_explicitly_marks_retracted_at_both_ends": 1,
+    "not_reselected_after_clean_base_and_reallocation": 123,
+    "reviewed:abstract_is_expression_of_concern_notice": 1
+  },
+  "additional_api_pages": 1,
+  "duplicates": {
+    "doi_groups": 7,
+    "exact_text_groups": 62,
+    "normalized_text_groups": 64,
+    "normalized_text_excess": 64
+  },
+  "limitations": [
+    "Language classification is imperfect; ambiguous and mixed-language records are retained and flagged.",
+    "Distinct OpenAlex IDs with matching DOI/text remain marked, not merged; unique study counts are not claimed.",
+    "Title/abstract retained verbatim. No translation, generated replacement or model-specific truncation.",
+    "No guarantee that all metadata/abstract errors have been detected."
+  ]
+}

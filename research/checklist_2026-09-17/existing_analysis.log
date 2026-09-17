@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_followup/existing_analysis.py", line 217, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_followup/existing_analysis.py", line 209, in main
+    result={'completed_at':utcnow(),'temporal':temporal(arrays),'discipline':disciplines(arrays,c),'families':families(arrays)}
+                                                                                                              ^^^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_followup/existing_analysis.py", line 177, in families
+    keep=np.array([m not in pair for pair in PAIRS]);b2,r22=fit(y[keep],x[keep]);deviations.append(b2)
+                                                            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/sos_followup/existing_analysis.py", line 149, in fit
+    if rank<x.shape[1]:raise ValueError('Rank deficient family design')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Rank deficient family design

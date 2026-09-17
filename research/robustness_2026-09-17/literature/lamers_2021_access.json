@@ -1,0 +1,9 @@
+{
+  "source": "https://www.issi-society.org/proceedings/issi_2021/Proceedings%20ISSI%202021.pdf",
+  "pdf_zero_based_first_page": 664,
+  "pages": 6,
+  "book_printed_pages": "633-638",
+  "extraction": "pdfplumber within visible page bbox; pypdf included invisible adjacent-page text and was replaced",
+  "full_book_bytes": 109688679,
+  "full_book_sha256": "296ddb74668fe64436490230bdba5fdcf9ba7dad3c6f853ee3f2ad753c0fe429"
+}

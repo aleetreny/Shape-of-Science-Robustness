@@ -1,0 +1,6 @@
+AUDIT specter title_abstract PASS
+AUDIT specter title PASS
+AUDIT specter abstract PASS
+AUDIT specter2 title_abstract PASS
+AUDIT specter2 title PASS
+AUDITS COMPLETE 5 /30

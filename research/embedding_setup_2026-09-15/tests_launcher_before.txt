@@ -1,0 +1,27 @@
+FF
+======================================================================
+FAIL: test_failure_is_not_hidden_by_logging (test_embedding_launcher.LauncherTests.test_failure_is_not_hidden_by_logging)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embedding_launcher.py", line 25, in test_failure_is_not_hidden_by_logging
+    def test_failure_is_not_hidden_by_logging(self):self.launch(7)
+                                                    ^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embedding_launcher.py", line 12, in launch
+    self.assertTrue(source.is_file(), 'Terminal launcher is missing')
+AssertionError: False is not true : Terminal launcher is missing
+
+======================================================================
+FAIL: test_success_is_logged (test_embedding_launcher.LauncherTests.test_success_is_logged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embedding_launcher.py", line 24, in test_success_is_logged
+    def test_success_is_logged(self):self.launch(0)
+                                     ^^^^^^^^^^^^^^
+  File "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tests/test_embedding_launcher.py", line 12, in launch
+    self.assertTrue(source.is_file(), 'Terminal launcher is missing')
+AssertionError: False is not true : Terminal launcher is missing
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

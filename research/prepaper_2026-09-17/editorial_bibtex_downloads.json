@@ -1,0 +1,26 @@
+[
+  {
+    "key": "ding2021",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/11743-/bibtex",
+    "status": 200,
+    "bibtex": true
+  },
+  {
+    "key": "williams2021",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/11985-/bibtex",
+    "status": 200,
+    "bibtex": true
+  },
+  {
+    "key": "kornblith2019",
+    "url": "https://proceedings.mlr.press/v97/kornblith19a.bib",
+    "status": 404,
+    "bibtex": false
+  },
+  {
+    "key": "williams2024",
+    "url": "https://proceedings.mlr.press/v285/williams24a.bib",
+    "status": 404,
+    "bibtex": false
+  }
+]

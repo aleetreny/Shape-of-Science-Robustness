@@ -1,0 +1,19 @@
+{
+  "all_pass": true,
+  "all_saved_poolings_checked": true,
+  "auditor_sha256": "af4fb55074e234427a21dda7099c702d495fdd064d80d8daea720b76a93fd0b8",
+  "completed_at": "2026-09-17T18:04:20.966407+00:00",
+  "condition": "abstract",
+  "input_sha256": "e2470811ae8af6cafc36459d4924a11db53363dc2af66c8be96990478bf627f0",
+  "lost_tokens": 640981,
+  "manifest_sha256": "a65d67c6388d0d863ce80183eb3034cc09a9e43e0cfee6ed00cdd29528c3f93f",
+  "model": "scincl",
+  "native_exact_reuse": 0,
+  "new_inference_rows": 26000,
+  "original_tokens": 12976195,
+  "pilot26k_exact_reuse": 26000,
+  "rows": 52000,
+  "source_identity_text_order_checked": true,
+  "token_sequences_checked": 52000,
+  "truncated_rows": 2177
+}

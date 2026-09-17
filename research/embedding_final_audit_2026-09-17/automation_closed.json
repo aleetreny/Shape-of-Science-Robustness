@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-09-17T05:06:04.676709+00:00",
+  "automations": {
+    "revisar-embeddings-y-preparar-siguiente-fase": {
+      "id": "revisar-embeddings-y-preparar-siguiente-fase",
+      "name": "Revisar embeddings y preparar siguiente fase",
+      "status": "PAUSED",
+      "rrule": "FREQ=HOURLY;INTERVAL=1"
+    },
+    "auditar-descarga-openalex": {
+      "id": "auditar-descarga-openalex",
+      "name": "Auditar descarga OpenAlex",
+      "status": "PAUSED",
+      "rrule": "FREQ=MINUTELY;INTERVAL=5"
+    }
+  }
+}

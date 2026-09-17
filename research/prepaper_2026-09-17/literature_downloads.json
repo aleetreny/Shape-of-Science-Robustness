@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-17",
+  "successful": [
+    {
+      "file": "literature/singh2022.pdf",
+      "url": "https://aclanthology.org/2022.findings-acl.249.pdf",
+      "bytes": 7672165,
+      "sha256": "37b2794945343ebcdf1c2de1753b7f627527ae200e082d7ac122d3fd55273c56"
+    },
+    {
+      "file": "literature/semcse_multi2026.pdf",
+      "url": "https://aclanthology.org/2026.acl-long.1884.pdf",
+      "bytes": 736828,
+      "sha256": "feace576d56dac59b64bc19e0d0b0b29584be9b66b117d37836dc85f0b57fa3c"
+    }
+  ],
+  "failed": [
+    {
+      "reference": "10.1016/j.joi.2021.101224",
+      "attempt": "Author-hosted Ballester and Penner PDF",
+      "error": "TLS certificate hostname validation failure; validation not bypassed",
+      "alternative": "Publisher-indexed methods/results; full-text PDF not claimed"
+    }
+  ],
+  "browser_only": [
+    "Bascur et al. 2025 publisher full text",
+    "Schumacher et al. 2026 publisher full text"
+  ],
+  "scope": "No complete transcript of browser calls; successful local files verified."
+}

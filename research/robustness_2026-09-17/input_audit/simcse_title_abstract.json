@@ -1,0 +1,19 @@
+{
+  "all_pass": true,
+  "all_saved_poolings_checked": true,
+  "auditor_sha256": "af4fb55074e234427a21dda7099c702d495fdd064d80d8daea720b76a93fd0b8",
+  "completed_at": "2026-09-17T18:10:14.077824+00:00",
+  "condition": "title_abstract",
+  "input_sha256": "6887123a3f7ae645bebfc0be6bfd6080471ac62287843f7f2f42ec4975fdc57d",
+  "lost_tokens": 829644,
+  "manifest_sha256": "5163812d00540b2833fdf315a4b4b92982f2db9922a0d5aab83e2c095c0baf9a",
+  "model": "simcse",
+  "native_exact_reuse": 52000,
+  "new_inference_rows": 0,
+  "original_tokens": 14791281,
+  "pilot26k_exact_reuse": 0,
+  "rows": 52000,
+  "source_identity_text_order_checked": true,
+  "token_sequences_checked": 52000,
+  "truncated_rows": 3348
+}

@@ -1,0 +1,11 @@
+{
+  "status": "ready_for_model_configuration",
+  "rows": 500000,
+  "counts": {
+    "base": 400000,
+    "extra": 100000
+  },
+  "input": "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/data/corpus_clean_v1/embedding_input.parquet",
+  "message": "Datos preparados. Antes de calcular: fijar modelos, versiones y formato de entrada de cada modelo.",
+  "models_started": false
+}

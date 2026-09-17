@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-09-17T21:22:27.720329+00:00",
+  "repository": "https://github.com/aleetreny/Shape-of-Science-Robustness",
+  "visibility": "PUBLIC",
+  "default_branch": "main",
+  "initial_study_commit": "8c1a9e3105a65f286622cc28284b05c6fcc4dbc2",
+  "initial_study_tree": "a8ebedae5750ec3ac860284f79d90bd82a014182",
+  "readme_blob_verified": "7a7b682e861c4134f1a7f617634eafdbf4f0c1fb",
+  "tracked_files_at_initial_commit": 851,
+  "main_matches_local": true,
+  "temporary_transfer_branches_removed": true,
+  "working_tree_clean_at_verification": true,
+  "recovery": "A full upload timed out with HTTP 408. Twelve bounded transfer batches and a 31458-byte Git receive-pack assembly preserved the original commit exactly. A tree API attempt returned HTTP 502 and made no referenced change. No force push or scientific-file modification.",
+  "scope": "Code, documentation, tables, figures and auxiliary evidence only. Corpus, embeddings, weights, environments and secrets excluded. This record precedes the small follow-up commit that records publication completion."
+}

@@ -349,3 +349,11 @@ Comprobación final aprobada: 23 copias históricas y 73 archivos de la entrega 
 - Verificación de publicación: comprobar que `main` local y `origin/main` coinciden, el árbol de trabajo está limpio y GitHub muestra este mismo commit. El primer commit no puede registrar su propio identificador dentro de sus archivos; consultarlo con `git log -1 --oneline` y `git ls-remote origin refs/heads/main`.
 
 Continuación: redacción cuando se solicite. El código y la entrega legible de esta versión están preparados para GitHub; compartir el corpus/vectores y crear un depósito permanente siguen siendo tareas separadas.
+
+### Publicación comprobada
+
+Commit inicial del estudio: `8c1a9e3105a65f286622cc28284b05c6fcc4dbc2`, árbol `a8ebedae5750ec3ac860284f79d90bd82a014182`, 851 archivos. GitHub confirmó exactamente esos identificadores y el README. `main` es la rama principal y sigue `origin/main`; carpeta limpia tras el envío. Registro: `research/github_release_2026-09-17/publication_verification.json`. Esta actualización posterior solo documenta el cierre.
+
+La transferencia completa fue muy lenta y terminó con HTTP 408. Se resolvió enviando doce lotes mediante ramas temporales y un paquete final de 31.458 bytes que reutilizó los archivos ya recibidos, conforme al [protocolo de Git](https://git-scm.com/docs/gitprotocol-pack). Se conservó el commit original sin modificar datos ni forzar historial. Un intento intermedio por la API de árboles devolvió HTTP 502 y no cambió ninguna referencia. Todas las ramas temporales se verificaron y retiraron después de comprobar `main`. Las credenciales existentes se usaron de forma privada y no se guardaron en archivos ni registros.
+
+El repositorio público contiene código y entregas legibles; no es todavía el depósito del corpus/embeddings necesario para repetir todo el estudio. El manuscrito sigue sin empezar.

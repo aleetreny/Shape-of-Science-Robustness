@@ -1,6 +1,6 @@
-# Entrega a GitHub antes del manuscrito
+# Tarea terminada: commit y push antes del manuscrito
 
-17-09-2026. Petición expresa de commit y push. Versionar código, documentación, tablas y figuras en `aleetreny/Shape-of-Science-Robustness`; conservar fuera de Git corpus, vectores, claves y material local excluido. Destino y permisos comprobados. Revisar el contenido preparado, crear el primer commit en `main`, enviarlo y confirmar coincidencia local/remota. No iniciar el texto del paper.
+17-09-2026. **Completado.** Primer commit científico `8c1a9e3` publicado y verificado en `main` de `aleetreny/Shape-of-Science-Robustness`: mismo identificador, contenido y README que en local. Ramas temporales retiradas; `main` sigue `origin/main`. Se incluyen código, documentación, tablas y figuras; corpus, vectores, claves y material local excluido permanecen fuera de Git. La actualización documental posterior registra este cierre. No se inició el texto del paper. Evidencia: `research/github_release_2026-09-17/publication_verification.json`.
 
 # Tarea terminada: revisión previa al manuscrito y atlas de casos concretos
 

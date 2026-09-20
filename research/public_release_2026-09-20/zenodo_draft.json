@@ -1,5 +1,5 @@
 {
-  "verified_at": "2026-09-20T20:07:54.696181+00:00",
+  "verified_at": "2026-09-20T20:17:41.534914+00:00",
   "draft_url": "https://zenodo.org/uploads/22863543",
   "record_id": 22863543,
   "doi": "10.5281/zenodo.22863543",
@@ -14,5 +14,13 @@
   "metadata_saved": true,
   "blocker": "Browser file chooser did not respond through documented upload controls; manual drag-and-drop required. No credentials inspected or created.",
   "publication_clicked": false,
-  "next_action": "Upload all files from output/zenodo, check the manifest, preview and publish."
+  "next_action": "Upload all files from output/zenodo, check the manifest, preview and publish.",
+  "keywords": [
+    "science mapping",
+    "document embeddings",
+    "robustness",
+    "scientometrics",
+    "OpenAlex"
+  ],
+  "description_persistence_verified_after_reload": true
 }

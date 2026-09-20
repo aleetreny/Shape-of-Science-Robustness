@@ -227,11 +227,16 @@
   },
   "isolated_summary_check_passed": true,
   "public_data_status": "Prepared and checked locally; draft saved, zero files uploaded; DOI only reserved.",
-  "git_status": "Awaiting commit/push verification, recorded separately.",
+  "git_status": "Code commit pushed and public files verified; later bookkeeping commit records this evidence.",
   "limits": [
     "Vector checks cover fixed conditions, not every supplementary analysis.",
     "Historical plaintext inputs and model weights excluded.",
     "No certified complete rerun of every original analysis.",
     "Availability text remains conditional until public deposit verified."
-  ]
+  ],
+  "code_commit": "cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+  "github_publication_evidence": "github_publication.json",
+  "code_archive_check_passed": true,
+  "upload_files": 32,
+  "upload_bytes": 51409871603
 }

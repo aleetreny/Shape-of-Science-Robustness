@@ -1,3 +1,13 @@
+## 20-09-2026 — Entrega preparada y GitHub actualizado
+
+- Tres párrafos de novedad EN/ES integrados; PDF de 24/25 páginas revisados; cifras y 522 archivos protegidos conservados. Ambos paquetes fuente reconstruyen exactamente los cuatro PDF.
+- MIT y CC BY 4.0 confirmadas/aplicadas. 19 ZIP numéricos (58.201 archivos) comprobados; resúmenes y cálculos desde vectores aprobados con alcance explícito. Sin inferencia ni experimentos nuevos.
+- GitHub actualizado en `cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f` y siete archivos clave verificados desde URLs públicas sin autenticación. ZIP de ese commit probado al extraer sus comprobadores. Evidencia: `research/public_release_2026-09-20/github_publication.json` y `code_archive_check.json`.
+- Carpeta `output/zenodo/`: 32 archivos, 51.409.871.603 bytes, inventario, código, datos, documentación y huellas. Borrador `22863543` guardado con DOI reservado, licencia, descripción y palabras clave; 75 GB disponibles, cero archivos subidos. El selector de archivos impidió automatizar la carga.
+- Entrega: `PUBLIC_RELEASE.md`; pasos exactos en `ZENODO_UPLOAD.md`. El autor carga/publica; después verificar acceso público y actualizar disponibilidad/cita/S8. No usar el DOI reservado como prueba de acceso ni volver a pedir licencias ya confirmadas. Sin envío a la revista.
+
+La nota de preparación que sigue es histórica y queda cerrada por esta entrega.
+
 ## 20-09-2026 — Preparación final de GitHub y Zenodo
 
 Tres párrafos de novedad integrados y PDF EN/ES verificados. Licencias confirmadas, datos numéricos empaquetados, comprobadores independientes ejecutados y documentos públicos preparados. Borrador Zenodo guardado, sin archivos por el límite del selector de carga. Próximo paso técnico: commit/push y ZIP del commit; después registrar su verificación. El autor deberá arrastrar los archivos de `output/zenodo/`, publicar y facilitar el enlace público para actualizar disponibilidad/cita/S8. El estado completo está en `PUBLIC_RELEASE.md`; no reabrir experimentos.

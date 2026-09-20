@@ -1,0 +1,59 @@
+{
+  "verified_at": "2026-09-20T20:15:42.036439+00:00",
+  "code_commit": "cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+  "remote_main": "cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+  "public_checks": [
+    {
+      "path": "README.md",
+      "http_status": 200,
+      "sha256": "8e783a97d9196c858f682556d4e9417e288d40ed1dc4355d49d0c6730474096f",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    },
+    {
+      "path": "LICENSE",
+      "http_status": 200,
+      "sha256": "df731442f4783072f12c6b01ffc6516dc47688ab0f2361b6fbf0730924122957",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    },
+    {
+      "path": "LICENSING.md",
+      "http_status": 200,
+      "sha256": "c228b9c98a09b23fa0e0f79bbbd40d55a36ba38794522ed6c5cfab3b7193a48e",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    },
+    {
+      "path": "reproducibility/check_vectors.py",
+      "http_status": 200,
+      "sha256": "8e4e87d491fe75c8c88c2359dcbc0ff03f38c725749ec243d1a9bd21b8cb140a",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    },
+    {
+      "path": "reproducibility/reproduce_summaries.py",
+      "http_status": 200,
+      "sha256": "6af1bf34ceb30cd4bb60a5ee8ec16745589781d73a20c6c31a44acb082ad2a25",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    },
+    {
+      "path": "output/pdf/main.pdf",
+      "http_status": 200,
+      "sha256": "ac65f39f0d7725b0f11ed31c70ae10e52c1f2cfe7355c9b0344c6ebfde84a205",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    },
+    {
+      "path": "output/pdf/es/main.pdf",
+      "http_status": 200,
+      "sha256": "f0625c23fd8a58ce7d298197b03d13ec2ababa5d020782f9dcbc87f65d525dd2",
+      "equals_local": true,
+      "access": "unauthenticated public raw URL"
+    }
+  ],
+  "data_public": false,
+  "zenodo_doi_status": "reserved, not published",
+  "upload_files": 32
+}

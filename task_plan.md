@@ -1,10 +1,12 @@
-# Tarea activa: novedad, GitHub y depósito reproducible
+# Entrega terminada: novedad, GitHub y preparación de Zenodo
 
 1. Integrar tres párrafos en ambos idiomas y verificar PDF: **complete**; 49 páginas revisadas, cifras y archivos protegidos intactos.
-2. Preparar datos numéricos, licencias, diccionario y comprobadores portables: **complete**; 19 ZIP/58.201 archivos.
-3. Probar la entrega desde archivos independientes y revisar exclusiones: **complete** dentro de la cobertura declarada, no repetición completa del estudio.
-4. Actualizar GitHub y guardar borrador Zenodo: **in progress**; borrador guardado con DOI reservado. Carga manual pendiente por selector no operativo.
-5. Verificar el commit público y entregar pasos finales: **pending**.
+2. Preparar datos numéricos, licencias, diccionario y comprobadores: **complete**; 19 ZIP y 58.201 archivos científicos.
+3. Probar la entrega independiente y revisar exclusiones: **complete** dentro de la cobertura declarada; no repetición completa del estudio.
+4. Actualizar GitHub y guardar borrador Zenodo: **complete** para código y metadatos. Código público verificado; registro de datos guardado con DOI reservado y cero archivos subidos.
+5. Crear el ZIP del commit, verificarlo y entregar pasos: **complete**; 32 archivos/51,41 GB listos en `output/zenodo/`.
+
+**Pendiente externo concreto:** el autor arrastra los 32 archivos al borrador y publica. El selector no permitió automatizar esa carga. Después comprobar el enlace público y actualizar disponibilidad, cita y Suplemento S8. Ver `PUBLIC_RELEASE.md` y `ZENODO_UPLOAD.md`. No hay nuevos experimentos pendientes ni envío a revista realizado.
 
 # Tarea terminada: novedad y vía de reproducción pública, 20-09-2026
 

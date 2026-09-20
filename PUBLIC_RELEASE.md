@@ -1,6 +1,6 @@
 # Novedad y entrega reproducible, 20-09-2026
 
-Los tres párrafos propuestos ya están integrados en el artículo, en inglés y español. El código, los documentos y el material numérico están preparados para la versión 1.0.0. El depósito de Zenodo sigue siendo un **borrador sin archivos subidos**; el DOI reservado aún no acredita acceso público.
+Los tres párrafos propuestos ya están integrados en el artículo, en inglés y español. [GitHub está actualizado y comprobado](https://github.com/aleetreny/Shape-of-Science-Robustness/commit/cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f). La versión de código archivada es `cc61517`; el paquete de Zenodo contiene **32 archivos y 51,41 GB**, incluido su ZIP de código. El depósito de Zenodo sigue siendo un **borrador sin archivos subidos**; el DOI reservado aún no acredita acceso público.
 
 ## Artículo actualizado
 
@@ -13,13 +13,14 @@ Cifras, resumen, título y 522 archivos protegidos permanecen iguales. Se han re
 
 ## Material preparado y comprobado
 
-Hay **19 ZIP de datos: 51.143.981.543 bytes (51,14 GB), con 58.201 archivos**. Incluyen vectores congelados, identificadores, selecciones exactas, candidatos, resultados por condición y copias de los programas que produjeron cada fase. El código de esta entrega se añade como un ZIP independiente al mismo registro de Zenodo.
+Hay **19 ZIP de datos: 51.143.981.543 bytes (51,14 GB), con 58.201 archivos**. Incluyen vectores congelados, identificadores, selecciones exactas, candidatos, resultados por condición y copias de los programas que produjeron cada fase. El código de esta entrega está en `shape-of-science-code-v1.0.0.zip`, preparado para el mismo registro de Zenodo. `CODE_VERSION.json` identifica el commit y su huella.
 
 | Comprobación | Resultado y alcance |
 | --- | --- |
 | Integridad | Los 19 ZIP y sus 58.201 archivos descomprimidos coinciden con las huellas guardadas. |
 | Resúmenes de las cuatro figuras principales | Recalculados desde medidas por condición. La prueba pequeña funciona aislada, sin datos locales adicionales ni acceso a Internet. |
 | Cálculos desde vectores | Comprobación independiente con diez modelos: 40 conjuntos de centros, 180 comparaciones de estructura, 60 casos geométricos y 13.500 recuentos exactos de vecinos, además de cinco contrastes de entrada/receta. |
+| Archivo de código | El ZIP del commit pasó su prueba de integridad y reproduce los resúmenes al extraer solo sus archivos de comprobación. |
 | Precisión | Error numérico máximo de 1,28 × 10⁻¹², por debajo de la tolerancia fijada de 10⁻⁸. Todos los recuentos enteros coinciden. |
 
 La comprobación desde vectores cubre condiciones fijadas de las cuatro figuras. **No es una repetición completa de todas las condiciones y análisis suplementarios.** Tampoco regenera los vectores desde los textos originales. Los ejecutores históricos y sus límites se conservan; el comprobador público es independiente de ellos.

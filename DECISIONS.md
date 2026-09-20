@@ -1,3 +1,7 @@
+## 20-09-2026 — Entrega pública de código cumplida; carga de datos pendiente
+
+El código autorizado está en GitHub, commit `cc61517`, verificado sin autenticación en siete archivos clave. El ZIP de esa versión y los datos quedan preparados en un único conjunto de 32 archivos/51,41 GB. La carga en Zenodo requiere arrastrar los archivos: el selector automático no respondió. El borrador y su DOI están guardados, no publicados. No se presenta una prueba acotada como repetición completa. Próximo paso después de publicar: verificar archivos públicos y actualizar disponibilidad, cita de datos y S8. No es autorización de envío a revista.
+
 ## 20-09-2026 — Integración de novedad y entrega pública autorizadas
 
 Petición directa: añadir los párrafos propuestos, actualizar GitHub y completar la preparación/subida posible. Aceptación expresa posterior de MIT para código propio y CC BY 4.0 para resultados/documentos, manteniendo CC0 en metadatos OpenAlex. Se preparan archivos numéricos con selección explícita y controles de integridad; no se redistribuyen pesos ni los resúmenes textuales históricos. No equivale a enviar el artículo a revista.

@@ -1,6 +1,6 @@
 # Shape of Science Robustness
 
-**Entrega 1.0.0, 20-09-2026:** [aportación aclarada y material reproducible preparado](PUBLIC_RELEASE.md). Párrafos integrados en ambos idiomas; licencias MIT/CC BY 4.0 aceptadas; comprobaciones independientes disponibles. Los 19 ZIP de datos están verificados, pero **Zenodo sigue como borrador sin archivos públicos**. [Pasos para terminar la carga](ZENODO_UPLOAD.md).
+**Entrega 1.0.0, 20-09-2026:** [aportación aclarada y material reproducible preparado](PUBLIC_RELEASE.md). Párrafos integrados en ambos idiomas; licencias MIT/CC BY 4.0 aceptadas; comprobaciones independientes disponibles. El código archivado corresponde al [commit cc61517](https://github.com/aleetreny/Shape-of-Science-Robustness/commit/cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f). Los 19 ZIP de datos están verificados, pero **Zenodo sigue como borrador sin archivos públicos**. [Pasos para terminar la carga](ZENODO_UPLOAD.md).
 
 **¿Cuánto del mapa de la ciencia se conserva cuando cambiamos el modelo que lo dibuja?**
 

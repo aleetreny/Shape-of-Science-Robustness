@@ -1,5 +1,13 @@
 # Dónde está cada cosa
 
+**Entrega pública preparada, 20-09-2026:** [paquete y comprobaciones](PUBLIC_RELEASE.md), [diccionario de archivos](reproducibility/DATA_DICTIONARY.md). Los 19 ZIP numéricos están verificados en `output/zenodo/`; su borrador aún no tiene archivos públicos. El catálogo histórico siguiente conserva las rutas originales.
+
+**Cierre vigente, 20-09-2026:** controles finales terminados y congelados; [informe para el autor](ROBUSTNESS_CLOSURE_REPORT.md) y [cambios del manuscrito](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md). El tono claro está aceptado. La revisión personal del contenido sigue pendiente.
+
+El cierre anterior de parejas se conserva como historial. Para la cobertura completa de centrado y alternativas, usar las rutas nuevas al final.
+
+**Último cierre, 18-09-2026:** [resumen de parejas](FIELD_PAIR_RESULTS.md), [métodos](METHODS_FIELD_PAIRS.md), `reports/field_pair_summary_v1/` (doce tablas y dos figuras) y `data/field_pair_summary_v1/` (manifiesto, contrastes guardados y auditorías). Son derivados de medidas existentes; no nuevos embeddings. Los cierres previos permanecen conservados.
+
 **Revisión previa al manuscrito, 17-09-2026:** [PREPAPER_REVIEW.md](PREPAPER_REVIEW.md), [atlas de casos](CASE_ATLAS.md), [biblioteca verificada](references/README.md) y `reports/prepaper_v1/` son la nueva entrada de revisión. Los cálculos científicos anteriores permanecen en sus rutas. [Índice de documentos](docs/INDEX.md) · [Cómo reproducir](docs/REPRODUCING.md) · [Disponibilidad todavía local](docs/DATA_RELEASE.md).
 
 **Material vigente, 17-09-2026:** corpus original de 500.000, entradas ampliadas a 52.000 y resultados de especialidades en `data/robustness_v2/`. Consultar el cierre en [NEXT_STEPS.md](NEXT_STEPS.md), la interpretación en [ROBUSTNESS_RESULTS.md](ROBUSTNESS_RESULTS.md) y las rutas nuevas al final de este catálogo. Se conservan todas las rutas originales; no se mueven ni duplican archivos grandes para ordenarlos.
@@ -172,3 +180,41 @@ La selección de entradas de 52k **no es** la del control de fragmento común de
 `control_review/` es un resumen anterior: no usar su promedio MiniLM que mezcla comparación consigo mismo y con otros. `structural_review/` y `structural_review_v2/` son intentos incompletos conservados; el vigente es `structural_review_v3/`. Las carpetas de vista provisional no sustituyen la entrega final.
 
 Los archivos grandes permanecen locales y fuera de Git. La copia de respuestas OpenAlex se recogió a lo largo del 15-09-2026; no es una instantánea global simultánea de la base. Reconstruir la presentación con el comando de [NEXT_STEPS.md](NEXT_STEPS.md) no repite inferencia ni búsqueda de vecinos.
+
+
+## Piloto separado de morfología, 18-09-2026
+
+| Material | Ruta | Contenido |
+| --- | --- | --- |
+| Diseño anterior a resultados | `MORPHOLOGY_PROTOCOL.md`, `config/morphology_pilot_v1.json` | Apertura, espectro y conexión; alternativas y controles. |
+| Selecciones | `data/morphology_pilot_v1/selections.npz`, `selection_audit.json` | 1.406 arrays emparejados; 52k principal y selecciones derivadas del mismo corpus. |
+| Cálculo completo | `data/morphology_pilot_v1/metrics.parquet`, `parts/` | 16.884 conjuntos, treinta bloques; no inferencia nueva. |
+| Auditorías | `data/morphology_pilot_v1/audit.json`, `independent_audit.json`, `synthetic/` | Completitud, fórmulas independientes y contraejemplos. |
+| Entrega | `reports/morphology_pilot_v1/` | Veinte tablas, cinco figuras en tres formatos, resumen y catálogo. |
+| Lectura | [MORPHOLOGY_RESULTS.md](MORPHOLOGY_RESULTS.md), [METHODS_MORPHOLOGY.md](METHODS_MORPHOLOGY.md) | Conclusiones condicionales, cuatro alertas PR y 51 de conexión conservadas. |
+
+Se leen los originales de 500k, las tres entradas 52k, el control de fragmento común y MiniLM512. No se mezclan las dos selecciones 52k ni se genera ningún embedding nuevo. Los IDs de las referencias gaussianas identifican la muestra de origen usada para ajustarlas; sus puntos sintéticos no son artículos representados. Los datos anteriores mantienen sus rutas.
+## Revisión de estructura y argumentación de QSS, 18-09-2026
+
+Material bibliográfico; no añade ni modifica datos del experimento.
+
+| Material | Ruta | Alcance |
+| --- | --- | --- |
+| Síntesis y propuesta | [QSS_STRUCTURE_REVIEW.md](QSS_STRUCTURE_REVIEW.md), [PAPER_OUTLINE.md](PAPER_OUTLINE.md) | Normas consultadas, prácticas y propuesta propia separadas |
+| Marco y selección | `research/qss_structure_2026-09-18/journal_inventory.json`, `article_matrix.csv` | 465 registros Crossref y 34 artículos seleccionados |
+| Notas y bibliografía | [READING_NOTES.md](research/qss_structure_2026-09-18/READING_NOTES.md), `qss_review.bib` | 33 lecturas estructurales, once con foco adicional; una parcial; versiones explícitas |
+| Evidencia local | `data/qss_structure_review_v1/` | Respuestas originales, copias de consulta y huellas; textos completos de terceros excluidos de Git |
+| Cierre y conservación | `research/qss_structure_2026-09-18/closure_audit.json`, `baseline_documents/` | Verificación de metadatos, enlaces, copias previas y fuentes científicas |
+
+
+## Cierre final de robustez, 20-09-2026
+
+| Material | Ruta | Contenido |
+| --- | --- | --- |
+| Resultados completos | `data/robustness_closure_v1/{centres,headline,morphology,quality}/` | Selecciones, índices, vectores de centros, búsquedas y resultados por condición; fuentes/configuración y huellas. |
+| Congelación de ramas | `data/robustness_closure_v1/summary/` | Manifiesto que enlaza las ramas completas; auditoría. |
+| Entrega ligera | `reports/robustness_closure_v1/` | 25 CSV, `summary.json` y catálogo de huellas. |
+| Semillas y entorno | `research/robustness_closure_2026-09-20/random_seeds.csv`, `execution_environment.json` | 190.884 pares de etiqueta y semilla; versiones y plataforma. |
+| Revisión numérica y editorial | `research/robustness_closure_2026-09-20/` | Auditoría previa, once afirmaciones, controles independientes, PDF y paquetes. |
+
+No se movieron corpus o embeddings. Las fuentes y los resultados nuevos están congelados; las figuras y tablas tipográficas son derivados separados de presentación. El ZIP del manuscrito reproduce los documentos, no todos los experimentos.

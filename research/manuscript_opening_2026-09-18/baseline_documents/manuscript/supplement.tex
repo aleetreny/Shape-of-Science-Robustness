@@ -1,0 +1,105 @@
+\documentclass[12pt]{article}
+\input{preamble}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\fancyhead[R]{\small Supplementary working layout}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Supplementary material\par}
+\medskip
+{\large Which conclusions about science maps survive a change of embedding model?\par}
+\medskip
+18 September 2026
+\end{center}
+\textbf{Status.} These tables and figures are generated from the saved results. Each numbered table is a group: the typeset summary below plus its complete, unrounded CSV files in the matching \nolinkurl{tables/data/Sxx/} directory. Display summaries do not replace those files. Introductory methods text remains to be drafted.
+
+\textbf{Interpretation.} Model agreement is not thematic correctness. Repeated selections belong to a fixed corpus and are not independent population samples. The alert families, source caveats and exploratory timing remain visible. No new model inference or scientific experiment was run to create this document.
+\clearpage
+{\small\setstretch{1}\tableofcontents}
+\clearpage
+
+\section{Corpus, models and provenance}
+\subsection{Eligibility, quotas and quality flags}
+\Plan{Describe the sampling frame, base and supplement, cleaning rules and source limitations. Tables S1--S2 contain the counts and frozen settings.}
+\input{tables/tex/S01}
+\clearpage
+\subsection{Checkpoints, input and truncation}
+\input{tables/tex/S02}
+\clearpage
+
+\section{Agreement measures and sampling stability}
+\subsection{Coverage and chronology}
+\input{tables/tex/S03}
+\subsection{Alternative measures and retained alerts}
+\input{tables/tex/S04}
+\clearpage
+
+\section{Text input, pooling and truncation}
+\subsection{Model-specific input effects}
+\input{tables/tex/S05}
+\clearpage
+\subsection{The 26k to 52k stability check}
+\input{tables/tex/S06}
+\PanelFigure{figure_S01}{Input stability alerts for nested samples. Counts are model--Field--input contrasts out of 520. The original 20-selection comparison and later 100-selection check use the same recorded thresholds, but their counts are not interchangeable. These are selection-sensitivity checks within the fixed corpus. The 52 Field-averaged contrasts are reported separately in Table S6.}{input-alerts}{1}
+\clearpage
+
+\section{Scale, neighbourhoods and concrete cases}
+\subsection{Matched scopes and candidate sizes}
+\input{tables/tex/S07}
+\clearpage
+\subsection{Subfield persistence}
+\PanelFigure{figure_S02}{Relative neighbourhood-agreement ranks for twelve rule-selected Subfield examples. Ranges span 27 combinations of candidate size, readout and neighbour count, using the same 183 eligible Subfields. The upper/lower six illustrate the recorded higher/lower agreement rule. These are sensitivity ranges, not confidence intervals; higher agreement does not imply better thematic accuracy.}{subfields}{1}
+\clearpage
+\subsection{Article and relation examples}
+\input{tables/tex/S08}
+\PanelFigure{figure_S03}{Most encoder-dependent eligible link for each of the twelve fixed article sources. Each cell counts selections in which the target is among the 25 nearest neighbours (0--10); both endpoints are always eligible within the 256-candidate design. Upper/lower six rows are high/low agreement sources. [a] Source or label caveat; [b] the selected target has an incomplete abstract. Full IDs, titles and caveats are retained in Table S8's files. Links were selected for maximal model disagreement, so this panel does not estimate its prevalence.}{relations}{1}
+\clearpage
+
+\section{Time, discipline composition and model traits}
+\subsection{Period contrasts and search opportunities}
+\input{tables/tex/S09}
+\PanelFigure{figure_S04}{Descriptive time patterns under candidate controls. Values are changes from 2000--04. Fields and fixed model pairs have equal weight. In (A), thin lines show the 26 Fields; the thick line is their mean. In (B), k25 overlap is compared with all candidates or 2,048 candidates. Changes in search opportunity can reverse the average sign. These are not causal historical trajectories.}{time}{1}
+\subsection{Medicine and Subfield composition}
+\input{tables/tex/S10}
+\PanelFigure{figure_S05}{Observed and balanced Subfield composition in four Fields. Each condition uses 2,048 articles per Field and identical date quotas. Bars are means and whiskers the range of ten selections, not confidence intervals. The eight-model panel excludes BioBERT and PubMedBERT. *Energy has one eligible Subfield. Balancing composition and omitting biomedical models do not isolate a unique causal explanation. All 26 Fields are retained in Table S10's files.}{medicine}{1}
+\subsection{Readout and apparent model families}
+\input{tables/tex/S11}
+\PanelFigure{figure_S06}{Pairwise shape agreement under three readout choices. Matrices show mean corrected CKA over the original 130 Field-period cells. Only BERT, SciBERT, BioBERT and PubMedBERT change readout; diagonal cells are identities. Model order in columns: 1 SPECTER, 2 SPECTER2, 3 SciNCL, 4 SciBERT, 5 BERT, 6 MPNet, 7 MiniLM, 8 PubMedBERT, 9 BioBERT, 10 SimCSE. Similarity patterns are not an isolated effect of shared training.}{families}{1}
+\clearpage
+
+\section{Geometric properties and construct checks}
+\subsection{Properties, alternatives and selection stability}
+\input{tables/tex/S12}
+\clearpage
+\subsection{Sample size}
+\PanelFigure{figure_S07}{Sample-size sensitivity of the three saved geometric properties. Each line shows one model's median relative change across the 26 Fields, compared with 2,000 articles per Field. Panels use different vertical scales. Connection uses the union-graph spectral gap with k = 25 fixed as n changes; the separate approximately fixed-fraction check is supplied in Table S13's files. These curves do not certify population precision.}{sample-size}{1}
+\clearpage
+\subsection{Representation and content controls}
+\PanelFigure{figure_S08}{Agreement of Field rankings before and after each matched control. Each point is a model's Spearman rank agreement; horizontal spans show their range. CLS/SEP change only the four word BERTs. The dashed line at 0.9 is a visual reference, not a pass/fail threshold. Global centring changes the representation. All saved controls, including additional point sensitivities, accompany Table S12.}{rank-controls}{1}
+\clearpage
+\subsection{Why connection is not general fragmentation}
+\input{tables/tex/S13}
+\PanelFigure{figure_S09}{All nine saved synthetic-cloud checks. (A) Spectral gap of the union k25 graph; smaller means weaker connection. (B) Ratio of radii at which the largest component contains 90\% and 50\% of points. (C) Maximum divided by median minimum-spanning-tree edge length. Orange marks the elongated, low-rank and outlier clouds: apparent weak connection or late merging need not mean separate thematic groups. These are controlled geometric examples, not a calibrated statistical null.}{counterexamples}{1}
+\clearpage
+
+\section{All Field-pair comparisons}
+\subsection{Directions and magnitude}
+\input{tables/tex/S14}
+\PanelFigure{figure_S10}{All 650 Field-pair/property classifications at zero minimum relative difference, using the 26 saved selection conditions. The upper triangle shows angular spread; the lower shows effective linear dimension (PR). Row labels and column numbers identify the same 26 Fields; names are shortened for display. Each triangle contains 325 pairs. Blue requires all ten models to agree persistently; orange requires at least two persistently opposing models; grey is unresolved. The diagonal is not a comparison. Full labels, model directions and magnitude checks are in Table S14's files.}{all-pairs}{1}
+\subsection{Alternative measures and model panels}
+\input{tables/tex/S15}
+\clearpage
+\subsection{Matched point controls}
+\input{tables/tex/S16}
+\clearpage
+
+\section{Reproducibility and access}
+\input{tables/tex/S17}
+\subsection{Rebuilding this display package}
+The repository command \nolinkurl{./manuscript/build.sh} compiles the included LaTeX into the main document and this supplement. It does not run models, searches or simulations. The compiler may download standard TeX support files on its first use. Re-exporting plots and table summaries is a separate presentation command, documented in the package README.
+
+\subsection{Before a submission}
+\Pending{Complete and review the prose, author details, declarations, current journal checks and persistent material release. This local display package is not a submission or an author-approved final manuscript.}
+\end{document}

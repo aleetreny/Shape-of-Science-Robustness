@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-09-18T10:34:32.222804+00:00",
+  "files": {
+    "01_conclusions_and_magnitude.pdf": "072729ba0de31a180d31e8296e7cdb3721d28a04f5e77870c2c202013b9c6c01",
+    "01_conclusions_and_magnitude.png": "4d5feef312d08b4d48a75bd210c5b73e71bc53bf09f3d1a3b76ef910908fa196",
+    "01_conclusions_and_magnitude.svg": "580683f72bf28d26efbd239e1b311eef12557413f41a56886b808ad7dba17253",
+    "02_all_field_pairs.pdf": "5f026843b6397d4d8cd1e3e3c1867ab09ea053b64c160395aa22241730f5e510",
+    "02_all_field_pairs.png": "ea2c15923b3e83edaf001b81ad3beff98c3e5a994567c0d13e3368f3d7dc6755",
+    "02_all_field_pairs.svg": "7e2f86e3de314763f3c3cfbdcf506ee0402e18636211a52be6c6cd4283d0af2c",
+    "alternative_metric_summary.csv": "6536b74de45b0b91c6a9e20ae76a87a0e2c09ca535e0ed05b5c58fafe6b8de00",
+    "alternative_support.csv": "6f1ec3886bf9eca6d5b8ecdf5a8087cc3d986e8dbc81ba4ded36de5771189904",
+    "classification_summary.csv": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+    "control_pairs.csv": "449d6fc028dea5940cf050bb2a42e05cbcdcd113848c7005ecef49ecadedc7ef",
+    "control_summary.csv": "eb6adf13f1c2925ee2115c28d22b39e4ddaac71167522901b7e62ea1afeb7ee2",
+    "example_art_medicine.csv": "b1254eea534c58c6d012e0b4a9a0156227c085d72431273e01c86261daec6cad",
+    "field_summary.csv": "c84dfb8f893141a634eeb6ae7b1aeb5c4731396825877bbd600fa137e5d712a1",
+    "model_pair_directions.csv": "1486ae83a2387762e86bcf3be070fa9639eeb036c478bc4731d77012cc647ece",
+    "model_pair_witnesses.csv": "301aafa75b82d0d43a4bc5c8622f9cc8e31231063b6cd6c949deebc91170e097",
+    "model_panel_summary.csv": "2eb20d1dbb9e03878474983a764c2acafa0763b180a835002cb660911772a539",
+    "pair_sensitivity.csv": "a48976316b608c474b9ef30819b6ab4711949a3f1ae971edf2d171656167b326",
+    "pair_summary.csv": "2b936795e76d5ca29b2231777ba0b67604c34a8985371031f1bbf568ea54a7fc",
+    "summary.json": "d586992645a9c07597688f1a2e1cf7d8aced09e3d68da0fe3782b53272c37b72"
+  },
+  "report_source_sha256": "57229161f28dee2fd70f323503d0015f653dcc47297ff21f3b6b98d8ca92a8b8",
+  "scientific_audit_sha256": "b915ad46221415f7e49ae8642f2aae42bbd24ab91683d851dd814a869c6573cd",
+  "independent_audit_sha256": "4558a2d23b06e2738e527db7c6a48e7a395ce076a541e928c673947b0a402f82"
+}

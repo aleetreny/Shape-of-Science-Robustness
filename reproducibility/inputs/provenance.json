@@ -1,0 +1,26 @@
+{
+  "centres.csv.gz": {
+    "source": "data/robustness_closure_v1/centres/repetitions.csv",
+    "source_sha256": "dd77bf1ae4bbc0de9171abb38649dc18b3a7540b828318348991e07fd633ec22"
+  },
+  "centres_expected.csv.gz": {
+    "source": "reports/robustness_closure_v1/centres_summary.csv",
+    "source_sha256": "295ad422033ffc62c686e1958cef2aeeab29749319ae4fa79fe08150c83715a6"
+  },
+  "scope.csv.gz": {
+    "source": "data/robustness_v2/paired_neighbor_scales/groups.csv",
+    "source_sha256": "4eadf2a66074a00759ed49c990c720e0184a9c1e941796a18f14384c6c63d387"
+  },
+  "scope_expected.csv.gz": {
+    "source": "reports/robustness_v2/final/tables/structure_paired_scope_summary.csv",
+    "source_sha256": "9dbb4767b7bed804f30abb73fb13393de1aec77301d7f01a19c0a93edc044f8b"
+  },
+  "headline.csv.gz": {
+    "source": "data/robustness_closure_v1/headline/field_repetitions.csv",
+    "source_sha256": "647394f94e5c5633e316a2e5048a1a3e08c4299a5cb8e0b85bcf3c09bd6b831c"
+  },
+  "headline_expected.csv.gz": {
+    "source": "reports/robustness_closure_v1/headline_summary.csv",
+    "source_sha256": "e596a4580ec42a32463873bf1db22f8a0b78db48bbacbe0aef260ec4b3add163"
+  }
+}

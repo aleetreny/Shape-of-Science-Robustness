@@ -1,4 +1,36 @@
+## 20-09-2026 — Preparación final de GitHub y Zenodo
+
+Tres párrafos de novedad integrados y PDF EN/ES verificados. Licencias confirmadas, datos numéricos empaquetados, comprobadores independientes ejecutados y documentos públicos preparados. Borrador Zenodo guardado, sin archivos por el límite del selector de carga. Próximo paso técnico: commit/push y ZIP del commit; después registrar su verificación. El autor deberá arrastrar los archivos de `output/zenodo/`, publicar y facilitar el enlace público para actualizar disponibilidad/cita/S8. El estado completo está en `PUBLIC_RELEASE.md`; no reabrir experimentos.
+
+## En curso, 20-09-2026 — Publicación reproducible y novedad
+
+Párrafos aprobados integrados en inglés y español. Licencias aceptadas expresamente. Compilación de ambos idiomas y construcción de archivos numéricos en marcha. GitHub y el depósito se verificarán antes del cierre; todavía no afirmar que hay datos públicos. Evidencia: `research/public_release_2026-09-20/`.
+
 # Registro de trabajo
+
+**Revisión de novedad y reproducción pública terminada, 20-09-2026:** [informe y recomendaciones](NOVELTY_AND_REPRODUCIBILITY.md). Ocho antecedentes contrastados con alcance de lectura explícito; versiones arXiv comprobadas y actualización editorial de Bascur 2026 identificada. Estado público verificado: `44c9410`, 852 archivos, sin fases del 18/20 ni licencia general. Inventario: 57,576 GB de carpetas relevantes, antes de separar duplicados/textos. Demostración de 672.054 bytes ejecutada en carpeta aislada con Python 3.12.14 y biblioteca estándar: ocho clasificaciones de 325 parejas y dos retenciones de modelos coinciden. Redacción EN/ES y especificación del paquete preparadas. Sin cambios al artículo, datos científicos o remoto. Continuación: propuestas del informe; paquete completo, licencias y depósito aún pendientes.
+
+**Entrega de primera lectura cerrada:** 49 páginas revisadas visualmente; 24 porcentajes y correspondencia de 80 bloques comprobados; 522 archivos protegidos intactos. Los dos paquetes editables reconstruyen sus artículos y suplementos exactamente. Ver [auditoría de cierre](research/first_reader_review_2026-09-20/closure_audit.json). Continuar con los comentarios del autor.
+
+**Revisión vigente para una primera lectura, 20-09-2026:** por petición expresa del autor, se ha releído y revisado el artículo completo para alguien sin contexto. Entrega: [FIRST_READER_REVIEW.md](FIRST_READER_REVIEW.md). Se conserva la voz aceptada; se explican los conceptos, el propósito y los artículos de cada prueba, y el significado de las cifras. Inglés: 6.567 palabras de cuerpo, 195 de resumen y 24 páginas. Español: 7.332, 211 y 25 páginas. Cifras científicas, figuras, bibliografía, declaraciones y suplementos conservados. Las revisiones que siguen son históricas; aprobación personal pendiente.
+
+**Revisión editorial más reciente, 20-09-2026:** los 38 comentarios del autor están aplicados en inglés y español; ver [MANUSCRIPT_EXPLANATIONS.md](MANUSCRIPT_EXPLANATIONS.md). Se explican selecciones, candidatos, alertas y casos sin resolver, con ejemplos y porcentajes comprobados. Inglés: 5.412 palabras de cuerpo, 200 de resumen y 21 páginas. Español: 6.090, 240 y 22 páginas. Suplementos intactos (39 y 41 páginas). El apartado de IA se ha retirado del borrador por petición expresa; el registro real de asistencia se conserva y las declaraciones exigidas se comprobarán antes del envío. Título y tono conservados; revisión personal pendiente. Los estados de edición que siguen son históricos.
+
+**Revisión editorial posterior, 20-09-2026:** abstract aclarado en ambos idiomas por petición del autor. Se conserva su comienzo y se explican disciplinas, centros, texto de entrada y comparación angular. Inglés: 200 palabras; español para revisión: 235. Cuerpo y suplemento intactos. Registro: [ABSTRACT_CLARITY.md](ABSTRACT_CLARITY.md). El cierre científico sigue vigente; aprobación personal pendiente.
+
+**Cierre vigente, 20-09-2026:** controles finales terminados y congelados; [informe para el autor](ROBUSTNESS_CLOSURE_REPORT.md) y [cambios del manuscrito](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md). El tono claro está aceptado. La revisión personal del contenido sigue pendiente.
+
+## Cierre de robustez: ejecución, 20-09-2026
+
+- Auditoría previa terminada, sin error científico encontrado. Centros originales reproducidos exactamente; filtro de calidad: 448.886; alertas locales: 2.628/8.235. Hallazgos en `research/robustness_closure_2026-09-20/PHASE0_AUDIT.md`.
+- `ROBUSTNESS_CLOSURE_PROTOCOL.md` y `config/robustness_closure_v1.json` fijados antes de las comparaciones nuevas. Cada rama conserva fuentes y huellas propias. No se ha editado el manuscrito.
+- Centros y comparación repetida de vecinos terminados numéricamente; morfología y calidad siguen calculándose en `data/robustness_closure_v1/`. Registros en `research/robustness_closure_2026-09-20/`. No iniciar otra instancia si sigue activa.
+- Ejecutores: `.venv-analysis/bin/python -m sos_closure.centres`, `headline`, `morphology`, `quality`; después `summarize`. Reanudación exige programas/configuraciones idénticos. Solo se usan vectores congelados.
+
+
+**Encargo vigente, 20-09-2026:** último cierre de robustez delegado, en curso. Petición y copias previas conservadas; auditoría de implementaciones iniciada. No hay cálculos nuevos activos todavía. Ver `ROBUSTNESS_CLOSURE_SCOPE.md`.
+
+**Punto vigente, 20-09-2026:** V2 elegida y reescritura clara entregada en inglés y español. Ver [MANUSCRIPT_CLARITY.md](MANUSCRIPT_CLARITY.md) y [NEXT_STEPS.md](NEXT_STEPS.md). Los bloques fechados que siguen son históricos; no reiniciar los cálculos que describían en marcha.
 
 ## 2026-09-14 — Inventario y recuentos locales
 
@@ -357,3 +389,191 @@ Commit inicial del estudio: `8c1a9e3105a65f286622cc28284b05c6fcc4dbc2`, árbol `
 La transferencia completa fue muy lenta y terminó con HTTP 408. Se resolvió enviando doce lotes mediante ramas temporales y un paquete final de 31.458 bytes que reutilizó los archivos ya recibidos, conforme al [protocolo de Git](https://git-scm.com/docs/gitprotocol-pack). Se conservó el commit original sin modificar datos ni forzar historial. Un intento intermedio por la API de árboles devolvió HTTP 502 y no cambió ninguna referencia. Todas las ramas temporales se verificaron y retiraron después de comprobar `main`. Las credenciales existentes se usaron de forma privada y no se guardaron en archivos ni registros.
 
 El repositorio público contiene código y entregas legibles; no es todavía el depósito del corpus/embeddings necesario para repetir todo el estudio. El manuscrito sigue sin empezar.
+
+
+## 18-09-2026 — Inicio del piloto de morfología
+
+Estado Git inicial limpio: `main` en `44c9410`, igual a remoto. Leídos planes, decisiones y medidas vigentes. Se aplican planning-with-files, paper-lookup y citation-management. El TFM contiene dispersión al centro, vecinos/hubness, espectro PCA y componentes de un grafo kNN; se inspeccionó solo como referencia. No se ejecuta ni modifica. Entorno existente de análisis: NumPy 2.5.3, SciPy 1.18.1, PyArrow 25.0.1; sin sklearn/networkx. Los 52k de entradas tienen 2.000 por área, 400 por período, con diez modelos y recetas ya guardadas. Se preparará un módulo separado, sin cambiar entornos congelados.
+
+
+### Piloto: ejecución derivada iniciada
+
+Protocolo y configuración fijados y copiados antes del primer cálculo real: `MORPHOLOGY_PROTOCOL.md`, `config/morphology_pilot_v1.json`. `sos_morphology/metrics.py`, `synthetic.py` y `run.py` separados y congelados en `data/morphology_pilot_v1/source_snapshot/`. Pruebas simuladas aprobadas numéricamente; fallos de interpretación preservados. Preparadas 1.406 selecciones, IDs cruzados con índice auditado, n=2.000 por Field/400 por período y tamaños/control definidos. Ejecutando `.venv-analysis/bin/python -m sos_morphology.run --stage all` con bibliotecas a un hilo; registro `data/morphology_pilot_v1/run.log`. No editar estos programas, configuración ni protocolo durante la ejecución. Solo se leen los vectores existentes.
+
+
+### Organización del cálculo del piloto
+
+Para usar el equipo sin cambiar fórmulas ni muestras, se sustituyó el ejecutor secuencial por tres procesos locales (un hilo numérico por proceso), cada uno encargado de modelos distintos. El proceso original se interrumpió **después de guardar y verificar el bloque nativo de SPECTER**; los bloques completos se reutilizan. Las funciones científicas congeladas permanecen idénticas. El coordinador separado `sos_morphology/parallel_run.py` guarda su propia huella/copia en `execution_manifest.json`; no se ejecutan dos coordinadores a la vez. Registro vigente: `data/morphology_pilot_v1/parallel.log`.
+
+
+### Auditoría independiente y bibliografía del piloto
+
+Auditoría matemática adicional sobre datos reales: tres modelos (SPECTER, BERT, MiniLM), dos áreas, 128 artículos por comprobación; ángulos por producto escalar, PR/entropía por SVD, brecha por matriz densa y conectividad por MST/componentes. Además, tres comprobaciones a 2.000 contra las cifras guardadas. Errores <1e−8; invariancia al añadir coordenadas nulas y rechazo de entradas degeneradas comprobados. Fuentes y padres congelados intactos. Evidencia: `data/morphology_pilot_v1/independent_audit.json`.
+
+Biblioteca canónica: 54 entradas, cero errores/duplicados y cinco avisos documentados. Nueve incorporaciones con DOI/exportación editorial y correcciones explícitas; lectura dirigida en `research/morphology_2026-09-18/LITERATURE.md`. Se conservaron doce documentos anteriores desde el commit `44c9410` en `baseline_documents/`. La ejecución sigue en marcha, sin editar sus fuentes.
+
+
+### Cálculo completo del piloto
+
+Diez modelos, 16.884 conjuntos de medidas: 7.290 nativos/tamaño/selección, 6.500 temporales y 3.094 de controles. Treinta bloques terminados con huellas y auditoría de rangos/identidades. Cálculo coordinado terminado con código 0; se conserva el bloque previo y no se rehicieron embeddings. Ahora se generan tablas/figuras y se contrastan las conclusiones; no declarar cerrada la interpretación por completar la ejecución.
+
+### Piloto de morfología cerrado, 18-09-2026
+
+- Entregados `MORPHOLOGY_RESULTS.md` y `METHODS_MORPHOLOGY.md`, veinte tablas CSV y cinco figuras en PNG/PDF/SVG. Figuras inspeccionadas; se separaron las escalas de tamaño y se precisó que CLS/SEP solo cambian los cuatro BERT. Huellas finales en `reports/morphology_pilot_v1/catalog.json` y revisión visual separada.
+- La recomendación es incluir apertura y reparto entre direcciones como propiedades del mapa, con el ejemplo ilustrativo de inversión Artes/Medicina. La conexión permanece como diagnóstico; no se presenta como fragmentación semántica. Cuatro alertas de PR y 51 de conexión siguen visibles y separadas de las anteriores.
+- Cerrados controles de medidas alternativas, selección, tamaño, entrada, receta, texto común, MiniLM512, centrado, marcas de calidad, extremos y referencias simuladas. Las limitaciones de interpretación y las comprobaciones añadidas después del protocolo se documentan sin cambiar criterios para aprobarlas.
+- Actualizados README, catálogo, guía de reproducción, índice, propuesta de figuras y continuidad. Quince documentos previos conservados desde `44c9410`, ampliando las doce copias iniciales. Biblioteca: 54 registros, cinco avisos sin inventar DOI o páginas ausentes.
+- Auditoría de cierre: `research/morphology_2026-09-18/closure_audit.json`. Comprueba fuentes/copiados/padres, 30 bloques, 16.884 conjuntos, cálculos independientes, simulaciones, referencias, tablas/cifras, enlaces y figuras. Corpus, vectores, TFM y programas previos conservados; no hay cálculos activos.
+- No se escribió el manuscrito ni se publicó esta ampliación. Git permanece en `44c9410` con los nuevos archivos/cambios locales. Automatizaciones pausadas; sin extracción, nuevos modelos o inferencia.
+
+**Punto exacto para continuar:** entregar al usuario las conclusiones del piloto; cuando pida redactar, usar `PAPER_OUTLINE.md` y los métodos/resultados actuales. La propuesta mantiene cuatro figuras principales y pasa el análisis temporal al suplemento. No reabrir cálculos completados por retomar el chat. La revisión técnica no demuestra verdad temática ni aceptación editorial.
+
+## 18-09-2026 — Inicio del último resumen aceptado
+
+El usuario acepta resumir las 325 parejas de Fields con los resultados de morfología ya guardados. Se aplica la planificación persistente existente. Verificados y copiados los documentos sellados del cierre previo en `research/field_pair_summary_2026-09-18/baseline_documents/`; originales/cierres conservados. Fijados `FIELD_PAIR_PROTOCOL.md` y `config/field_pairs_v1.json` antes de los nuevos recuentos. La inspección de cobertura encuentra las alternativas angulares en todas las selecciones; entropía/D80 solo en principal y repetición 0 de medias muestras/selecciones adicionales. No atribuir a estas últimas repeticiones que no existen.
+
+Siguiente paso: implementación separada `sos_pair_summary/`, prueba de reglas y cálculo exclusivamente a partir de medidas almacenadas. No se han generado nuevos embeddings ni ejecutado cálculos de morfología.
+
+Implementadas y comprobadas las reglas en `sos_pair_summary/`: once pruebas aprobadas, incluidas direcciones persistentes pero diminutas y el requisito de mantener los mismos modelos testigo en un control. Se registran 0/1/5/10% sin elegir por el resultado, alternativas con su cobertura real, panel de seis y exclusión de cada modelo por turno. Se inicia el resumen de medidas existentes; configuración/protocolo y fuentes se congelan antes de producir recuentos.
+
+Resumen completo en menos de un segundo de cálculo derivado. `data/field_pair_summary_v1/audit.json` registra doce tablas, 6.500 decisiones modelo–pareja–propiedad, 5.720 comprobaciones de alineamiento de controles y fuentes/padres congelados. `sos_pair_summary/audit.py` contrasta de forma independiente las reglas mediante cocientes B/A y comprueba 442.000 valores: aprobado. Dos figuras exportadas y revisadas; ajuste de orden vertical/rotulación en el exportador separado. Las cifras completas, alternativas y controles se conservan, incluidos cambios por centrado y magnitudes pequeñas.
+
+### Cierre del resumen final, 18-09-2026
+
+- Entregados `FIELD_PAIR_RESULTS.md`, `METHODS_FIELD_PAIRS.md`, doce tablas y dos figuras en tres formatos. Las 325 parejas aparecen completas para cada propiedad; las cifras son descriptivas del panel/corpus, sin pruebas de independencia ni interpretación semántica.
+- Apertura 42/262/21 y PR 54/221/50 (acuerdo de diez/oposición persistente/sin conclusión común). Se conservan 0/1/5/10%: a 5%, contradicciones 96/177; a 10%, 19/126. El criterio no se cambió al inspeccionar resultados. Alternativas conjuntas y seis modelos mantienen casos, con límites claros de cobertura y número de oportunidades.
+- Comprobación independiente y once pruebas aprobadas, fuentes/copiados/padres verificados. Figuras finales inspeccionadas: `visual_review.json`; cierre reproducible: `research/field_pair_summary_2026-09-18/closure_audit.json`. Los 36 archivos de presentación anteriores y 18 documentos archivados siguen intactos; no se sobrescribió ninguna auditoría histórica.
+- Actualizados README, `AGENTS.md`, decisiones, plan, catálogo, índice, guía y `NEXT_STEPS.md`. `PAPER_OUTLINE.md` propone usar recuentos/magnitudes como cuarta figura y conservar mapas y controles en suplemento; organización final pendiente de hablarla con el usuario.
+- Sin cálculos activos, nuevos embeddings, extracción, manuscrito o publicación. Los nuevos archivos son locales; Git sigue en `44c9410`. Automatizaciones previas pausadas.
+
+**Punto exacto de continuación:** conversar sobre la estructura del manuscrito con todas las entregas. La ampliación experimental acordada termina aquí; no ejecutar otros análisis por retomar. Mantener diferencias pequeñas, dependencia del centrado, alertas históricas y etiquetas erróneas como límites visibles.
+
+## 18-09-2026 — Inicio de revisión de estructura y lenguaje en QSS
+
+Verificados y copiados los 21 documentos del cierre previo. Próximo paso: catálogo de QSS, normas vigentes y selección transparente de artículos cercanos. Fuentes completas de terceros se guardarán solo en `data/` excluido de Git. No se han iniciado cálculos ni redacción.
+
+## 18-09-2026 — Revisión de estructura y argumentación de QSS completada
+
+- Recuperados 465 registros Crossref y seleccionados 34 trabajos de 2020–2026. Lectura estructural de 33 y acceso parcial a Donner/Henneken; once lecturas focales adicionales. Se documentan versiones de autor y pérdidas de extracción. Un cuerpo equivocado devuelto por recuperación se excluyó.
+- Entrega: `QSS_STRUCTURE_REVIEW.md`; matriz, notas por artículo, catálogo y bibliografía en `research/qss_structure_2026-09-18/`. Bibliografía separada: 34 entradas, cero errores/duplicados y un aviso por volumen ausente de Q34. Las 54 referencias canónicas se conservan.
+- `PAPER_OUTLINE.md` reemplaza el esquema anterior por una propuesta aplicada: tres preguntas, seis secciones, cuatro bloques de resultados, cuatro figuras y dos tablas, con presupuesto y correspondencia a salidas existentes. La versión anterior queda archivada. La organización no está todavía aceptada ni es un manuscrito.
+- Continuidad actualizada en README, guía, QSS_CHECK, AGENTS, catálogo, decisiones, hallazgos y plan. Normas consultadas mediante índice antiguo; comprobar en directo antes del envío.
+- No cálculos científicos, cambios a corpus/vectores/fuentes científicas, publicación o automatizaciones. Las copias completas de terceros solo están en `data/`, excluido de Git. Cierre verificable en `research/qss_structure_2026-09-18/closure_audit.json`.
+
+**Continuación exacta:** conversar sobre la estructura propuesta. Mantener visibles errores de OpenAlex, alertas, límites de interpretación, dependencia del centrado y magnitudes. Redactar solo cuando el usuario lo solicite.
+
+## 18-09-2026 — Inicio del plano de escritura y guía de voz
+
+Cierre editorial anterior verificado y archivado. Localizado el repositorio Portfolio con remoto exacto aleetreny/aleetreny.github.io. Su documentación indica contenido bilingüe con traducción automática durante la edición: hay que distinguir el texto original de traducciones antes de atribuir rasgos al autor. Investigación bibliográfica dirigida iniciada.
+
+## 18-09-2026 — Guía detallada de manuscrito y voz del autor
+
+Petición: detallar estructura y aprender el tono del autor de su repositorio público, investigando escritura que suena artificial. Preparación completada; no se redactó el artículo.
+
+- Conservados 16 documentos de estado y huella del cierre QSS en `research/writing_blueprint_2026-09-18/baseline_documents/` y `baseline_manifest.json`.
+- Leídas las 50 entradas españolas publicadas del portfolio, verificado commit remoto y equivalencia con los archivos locales consultados. Inventario, procedencia y notas completas guardados; portfolio de solo lectura. Copias completas y traducciones solo en `data/writing_blueprint_v1/`, fuera de Git.
+- Leídas secciones pertinentes de cuatro estudios primarios sobre lenguaje generado, variación y detectores. `STYLE_RESEARCH.md` separa hallazgos, límites y recomendaciones propias. BibTeX independiente validado; DOI y número de artículo completados con fuentes editoriales/Crossref.
+- Creados `AUTHOR_VOICE.md` y `MANUSCRIPT_BLUEPRINT.md`: 48 párrafos de trabajo, títulos de todas las secciones, ubicación y especificación de dos tablas/cuatro figuras, ocho bloques de suplemento, citas y límites. `build_support.py` prepara índices desde configuración/resultados guardados; no calcula ciencia.
+- Preparadas tablas de paneles/modelos, índice de elementos, presupuesto por párrafo y 23 registros de cifras trazables. Actualizados AGENTS, README, PAPER_OUTLINE, NEXT_STEPS, índice y continuidad. Cierre verificable en `research/writing_blueprint_2026-09-18/closure_audit.json`.
+
+Punto exacto de continuación: esperar a la petición de redacción; entonces leer plano y guía de voz, empezar por métodos/resultados y contrastar el registro inglés en el primer bloque. Título, lista real de autores/declaraciones, maquetación, depósito y envío siguen pendientes. Los resultados, corpus, vectores y cierres científicos se conservan; automatizaciones pausadas. No hubo commit/push.
+
+## 18-09-2026 - Inicio de la maqueta renderizada
+
+Se conserva y verifica el cierre del plano anterior. Se preparan copias de presentación en `manuscript/` y PDFs en `output/pdf/`. No se ejecutan inferencia ni comparaciones científicas. La consulta directa de QSS volvió a fallar; la guía indexada es antigua y requiere comprobación antes del envío.
+
+## 18-09-2026 — Maqueta, tablas y figuras terminadas
+
+- Entregados `manuscript/main.tex`, `supplement.tex`, formato compartido, bibliografía y comando `./manuscript/build.sh`. Los documentos renderizados están en `output/pdf/main.pdf` (14 páginas) y `supplement.pdf` (32 páginas). El texto pendiente se distingue de las leyendas y tablas reales.
+- Generadas dos tablas/cuatro figuras principales y 17 grupos de tablas/diez figuras suplementarias. Cada figura tiene PDF, SVG, PNG y TIFF a 300 dpi. Los 98 adjuntos CSV (82 de tablas y 16 de figuras) coinciden con sus fuentes, salvo los resúmenes de procedencia identificados como propios. Manifiestos, filtros y selección disponibles en `manuscript/`.
+- Inspeccionadas todas las páginas renderizadas y las figuras. Corregidos solo problemas de presentación: anchuras de tablas, leyenda temporal recortada, salto de índices y encabezados, y un porcentaje sin escapar que ocultaba parte de una nota. Compilación final sin referencias indefinidas ni texto desbordado. La nota de estabilidad vuelve a verse completa.
+- Paquete `output/manuscript_source.zip`: 183 archivos, unos 10,8 MB. Se extrajo a una carpeta separada y compiló sin el corpus; ambos PDF coinciden en contenido y huella con la entrega. No se realizó una carga o compilación remota en Overleaf. Tectonic está en una carpeta local excluida de Git; los entornos científicos no se modificaron.
+- Auditados paneles, modelos y versiones contra la configuración real, recuentos de las 650 comparaciones, alertas, fuentes y bibliografía. Los 13 documentos históricos copiados, 150 archivos de resultados y cierre anterior permanecen intactos. Evidencia: `research/manuscript_layout_2026-09-18/`.
+
+**Continuación exacta:** revisar la maqueta con el usuario y redactar los bloques que solicite, usando `MANUSCRIPT_BLUEPRINT.md` y `AUTHOR_VOICE.md`. No repetir experimentos por retomar. Título definitivo, autores, declaraciones, depósito, licencia y envío siguen pendientes. No hubo commit/push ni reactivación de automatizaciones.
+
+## 18-09-2026 — Inicio de introducción y antecedentes
+
+Leídas la guía de voz y las dos secciones correspondientes del plano; contrastados los antecedentes próximos con textos primarios y los resultados propios guardados. Se conserva la maqueta anterior y se verifican 150 archivos de resultados antes de editar. Se redactarán únicamente las dos secciones solicitadas, con un objetivo conjunto de unas 1.100 palabras. El PDF y el ZIP se actualizarán después; las auditorías históricas no se sobrescriben.
+
+## 18-09-2026 — Introducción y antecedentes entregados
+
+- `manuscript/main.tex`: dos secciones en prosa, 367 + 627 palabras sin títulos/citas, frente a las 1.550 del presupuesto inicial. Se mantiene el razonamiento de la guía de voz, sin forzar una longitud fija de párrafos. Métodos, resultados, discusión y resumen conservan sus planes.
+- `output/pdf/main.pdf`: 17 páginas; texto nuevo en las páginas 3–5. Revisadas las 17 páginas finales. Sin glifos ausentes, referencias indefinidas o texto desbordado. Corregidos un guion largo bibliográfico y una línea inicial de párrafo aislada. La prosa de las dos secciones se revisó contra sus fuentes; registro en `CLAIM_REVIEW.md`.
+- Ocho referencias únicas en la apertura, 17 incluyendo la tabla de modelos. Validación sin errores, avisos, duplicados ni claves pendientes. La biblioteca canónica permanece intacta; Held/Velden se añade desde la revisión QSS en `manuscript/context_references.bib`. El validador usa el entorno de auditoría existente, sin instalar dependencias.
+- ZIP actualizado de 184 archivos. Se recompiló desde una copia extraída; ambos PDF coinciden por contenido y huella. El suplemento no cambió. Se verificaron 180 archivos de presentación sin cambios, 150 resultados científicos y los 19 documentos históricos archivados; cierre anterior conservado.
+- Estado, guía de voz, plano, README e índices actualizados. Evidencia final en `research/manuscript_opening_2026-09-18/`. La maqueta previa y su ZIP permanecen archivados; sin nuevos experimentos, commit/push, publicación o automatizaciones.
+
+**Continuación exacta:** el autor revisa los dos bloques o pide el siguiente. La entrega no autoriza redactar automáticamente otras secciones. Conservar el estilo breve, la cronología exploratoria, las magnitudes y los límites temáticos en el resto del manuscrito.
+
+## 18-09-2026 — Inicio del manuscrito completo y revisión
+
+El usuario autoriza el resto del texto y una revisión editorial/visual completa. Borrador, fuentes de presentación y PDF/ZIP archivados; 150 archivos de resultados previos verificados intactos. Se revisan métodos y cifras antes de escribir. La consulta de datos personales no detiene el trabajo sobre el contenido científico.
+
+## 18-09-2026 — Manuscrito completo y revisión entregados
+
+- Completados `manuscript/main.tex` y `supplement.tex`: seis secciones principales, resumen, declaraciones y ocho bloques suplementarios. Cuerpo de 4.383 palabras, resumen de 190. Los controles y casos extensos quedan en el suplemento sin ocultar las limitaciones centrales.
+- Incorporadas las respuestas directas del autor: Alejandro Treny Ortega, investigador independiente, sin financiación externa ni conflictos. Asistencia de Codex declarada; no se inventan correo, ORCID, institución o aprobación personal del borrador.
+- Revisados tono, secuencia y repeticiones siguiendo `AUTHOR_VOICE.md`. Cifras contrastadas con 23 registros del plano, tres comprobaciones adicionales y los 217 puntos de la Figura 2. Veintiséis referencias citadas sin errores formales; fuentes y profundidad de lectura reales documentadas en `CLAIM_REVIEW.md`.
+- Ajustadas las Figuras 1–3, los resúmenes de tablas y la paginación. Se inspeccionaron las 14 figuras y todas las páginas finales: 19 del cuerpo con referencias y 33 de suplemento. Compilación sin desbordamientos, símbolos ausentes ni referencias indefinidas.
+- `output/manuscript_source.zip`: 184 archivos, unos 10,8 MB; extraído y recompilado en otra carpeta con ambos PDF idénticos por huella y texto. No hay carga o compilación remota en Overleaf. Se verificaron 98 adjuntos CSV, veinte documentos históricos archivados y 150 resultados científicos intactos.
+- Nueva entrada clara: `MANUSCRIPT_REVIEW.md`; actualizados estado, guía, plano, índices, instrucciones y decisiones. Evidencia completa en `research/manuscript_full_2026-09-18/`, sin sobrescribir los cierres anteriores.
+
+**Punto exacto de continuación:** lectura del borrador por Alejandro y cambios que solicite. Antes de enviar: correspondencia, depósito autorizado del material, licencia y comprobación final de normas QSS. No quedan tareas de redacción dentro de esta entrega. No hubo experimentos nuevos, modificaciones a programas científicos congelados, commit/push, depósito, envío o reactivación de automatizaciones.
+
+## 18-09-2026 — Traducción española entregada
+
+- Traducción completa en `manuscript_es/main.tex` y `supplement.tex`, con la misma organización del original. Incluye resumen, seis secciones, declaraciones y ocho bloques suplementarios. Términos principales aclarados en español, manteniendo el significado científico y sus límites.
+- Traducidos 19 grupos de tablas y los rótulos de 14 figuras. Programas separados de presentación; 98 CSV y manifiestos de valores sin cambios. Se verificaron cifras de prosa, tablas y notas, fórmulas, orden de citas y referencias internas.
+- PDF españoles en `output/pdf/es/`: 21 páginas principales y 35 suplementarias, todas inspeccionadas. Ajustados encabezados, anchuras, signos de interrogación y etiquetas de la Figura 1. Sin desbordamientos, símbolos ausentes o referencias indefinidas.
+- `output/manuscript_source_es.zip`: 188 archivos; extraído y recompilado con PDF idénticos por huella y texto. El original inglés, sus PDF/ZIP y el cierre editorial previo permanecen intactos: 188 archivos verificados.
+- Entrada para el autor: `MANUSCRIPT_SPANISH.md`. Auditoría en `research/manuscript_spanish_2026-09-18/`. Actualizados instrucciones, estado, índices y registro de decisiones; no hubo cálculos científicos, commit/push, publicación ni reactivación de automatizaciones.
+
+**Continuación exacta:** el autor lee la copia española y señala secciones o frases. Aplicar después los cambios que pida y mantener las dos versiones alineadas; no sustituir automáticamente el original inglés ni dar por aprobado el manuscrito.
+
+## 18-09-2026 — Cinco comentarios del autor incorporados
+
+- Título actualizado en portada, suplemento y metadatos, en inglés y español. Tabla 1 con separación entre filas; Tabla 2 con celdas centradas verticalmente y cifras a mitad del nombre de dos líneas.
+- Figura 1B sustituida por medias etiquetadas y dispersión descriptiva de las mismas comparaciones guardadas. Se mantienen escala 0–1, valores originales y límites. Pie sincronizado en ambos idiomas. Declaración de IA acortada a dos frases.
+- Revisadas todas las páginas de los artículos principales; portada de cada suplemento inspeccionada y resto de páginas idénticas píxel a píxel a las copias previas. Cuatro PDF: 19/33 páginas inglesas y 21/35 españolas, sin desbordamientos ni referencias indefinidas.
+- Los dos ZIP actualizados se extrajeron y recompilaron: 184 archivos ingleses y 188 españoles; cuatro PDF exactamente iguales a los entregados. Se conservan cifras, fórmulas, citas, tablas, 98 CSV por idioma y 211 archivos de informes científicos. Las 389 copias previas están archivadas.
+- Guía nueva: `MANUSCRIPT_COMMENTS.md`. Evidencia independiente en `research/manuscript_comments_2026-09-18/`; las auditorías anteriores mantienen su estado histórico. Documentos de continuidad sincronizados.
+
+**Continuación exacta:** el autor sigue revisando el texto. Los cinco comentarios están resueltos; la aprobación completa sigue pendiente. No se ejecutaron nuevos experimentos ni se publicó el material.
+
+## 19-09-2026 — Tres voces completas preparadas para elección
+
+- Título actual aceptado por el autor y conservado en las seis opciones.
+- Redactadas V1 directa y sobria, V2 razonamiento propio y V3 voz marcada y reflexiva, en inglés y español. Cada opción incluye el artículo principal completo; se reescriben 30/33/35 párrafos por idioma. El suplemento técnico es común.
+- PDF en output/pdf/voice_variants/: 19 páginas por versión inglesa y 21 por española. Revisadas las 120 páginas, las tablas y las cuatro figuras comunes. No se observaron pérdidas de texto, recortes o símbolos ausentes; algunas notas españolas continúan en otra página al cambiar la longitud.
+- Comprobadas cifras y fórmulas por párrafo, asociación de citas, estructura, traducción y declaraciones. Conservados 751 archivos previos del manuscrito, informes, bibliografía y entregas.
+- Paquete output/manuscript_voice_variants_source.zip: 93 archivos, 681.126 bytes. Extraído en otra carpeta y recompilado: seis PDF exactamente iguales a los entregados.
+- Guía para comparar: MANUSCRIPT_VOICES.md. Fuentes: manuscript_variants/. Auditorías y revisión del significado: research/manuscript_voices_2026-09-19/. Actualizados instrucciones, voz, plano, índices y continuidad.
+
+**Punto exacto de continuación:** elegir una opción o recoger cambios del autor. Se recomienda V2, pero no está elegida. Los originales siguen siendo canónicos; no se ha aprobado el manuscrito, publicado material ni ejecutado otros análisis.
+
+
+## 20-09-2026 — V2 elegida y explicación clara entregada
+
+- Decisión directa del autor: V2 es la orientación elegida. Pide claridad por encima de vocabulario culto o construcciones densas; queda registrada en AGENTS.md y AUTHOR_VOICE.md para cualquier continuación. No equivale a aprobación final.
+- Reescritas las seis secciones y el resumen en inglés y español. Cada comparación se presenta por su propósito; se explica la relación entre los 500.000 de partida, los 52.000 de texto con 26.000 incluidos y los otros 52.000 del fragmento común. La geometría reutiliza el conjunto del experimento de texto.
+- Tabla 1 organizada por finalidad; conceptos explicados antes de sus nombres; pies de figura más orientativos. El resumen explica el acuerdo local como unos ocho artículos de 25 y evita recuentos de parejas sin contexto. La fórmula PR sigue explícita en S6.
+- Inglés: 3.989 palabras de cuerpo y resumen de 192; 19 páginas. Español: 4.592 y 199; 20 páginas. Suplementos: 34/36 páginas. Se han revisado las 109 páginas, la correspondencia de cifras/fórmulas/citas y los límites.
+- Dos paquetes fuente de 186/190 archivos reproducen exactamente los cuatro PDF. Las tablas principales conservan su nueva explicación al reexportar; comprobados también los 19 grupos de tablas españoles en una copia separada.
+- Conservados 393 archivos de la edición anterior y 472 archivos protegidos de resultados, referencias y alternativas. Datos de presentación, figuras y bibliografías sin cambios. No se ejecutaron experimentos, descarga, inferencia, publicación ni automatización.
+- Entrega: MANUSCRIPT_CLARITY.md; evidencia en research/manuscript_clarity_2026-09-20/. Continuar con los comentarios sobre la lectura, sin volver a pedir una elección de voz.
+
+
+## 20-09-2026 — Cierre final de robustez entregado
+
+- Cinco bloques de análisis derivados en `sos_closure/` y `data/robustness_closure_v1/`; 25 tablas CSV finales, catálogo y resumen. No hubo nuevas descargas ni inferencia. Semillas, selecciones, versiones y huellas conservadas.
+- Auditoría numérica independiente: 78.000 direcciones, 900 selecciones de centros/referencias, medias originales de vecinos reproducidas; 446 archivos científicos anteriores y 452 copias archivadas intactos.
+- Actualizados `manuscript/` y `manuscript_es/`, Figura 1A, Figura 4, Tabla S15, S9 y Tablas S18–S20; añadida Figura S11. Exportadores completos comprobados. Declaraciones, bibliografía, título y voz conservados.
+- Revisadas 122 páginas: inglés 20 + 39; español 22 + 41. 129 CSV idénticos entre idiomas; tablas, cifras, citas y fórmulas contrastadas. Paquetes ZIP extraídos reconstruyen los cuatro PDF exactamente.
+- Informe para el autor y registro de cambios explican qué se refuerza y qué se limita. Evidencia en `research/robustness_closure_2026-09-20/closure_audit.json`.
+- Siguiente paso exacto: lectura personal, correspondencia y depósito/licencia del material antes de autorizar el envío. No hay experimento adicional pendiente dentro de este encargo. Sin commit/push, depósito, envío o automatización.
+
+
+## Abstract aclarado y comprobado, 20-09-2026
+
+Solo se reescriben los abstracts de `manuscript/main.tex` y `manuscript_es/main.tex`. Comienzo conservado; 200/235 palabras. La revisión visual abarca las páginas afectadas, y se verifica que todas las demás se renderizan idénticas a las anteriores. Los paquetes extraídos reproducen los PDF; los suplementos y 457 archivos protegidos no cambian. Registro: `research/abstract_clarity_2026-09-20/closure_audit.json`. Continuar con los comentarios del autor al texto; ningún experimento nuevo.

@@ -1,0 +1,17 @@
+{
+  "filepath": "research/writing_blueprint_2026-09-18/writing_research.bib",
+  "total_entries": 4,
+  "valid_entries": 4,
+  "errors": [],
+  "warnings": [],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": 4,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

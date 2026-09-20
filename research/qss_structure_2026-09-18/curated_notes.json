@@ -1,0 +1,274 @@
+[
+  {
+    "study_id": "Q01",
+    "version_group": "autor",
+    "paper_type": "clasificación",
+    "section_flow_normalized": "Introducción → estudio previo → marco → especialidades → datos/métodos → resultados y discusión → conclusiones",
+    "rhetorical_lesson": "Definir la escala de análisis antes de ajustar una clasificación; añadir casos después de la comparación general.",
+    "limit": "La correspondencia entre revistas y especialidades es un supuesto, no una validación de nuestras etiquetas."
+  },
+  {
+    "study_id": "Q02",
+    "version_group": "editorial",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → datos de redes → diferencias entre redes → comunidades → discusión y conclusiones",
+    "rhetorical_lesson": "Ordenar resultados por niveles de comparación y cerrar con su sentido para la organización científica.",
+    "limit": "Redes de editores/autores/cocitación; no prueba nada sobre nuestros encoders."
+  },
+  {
+    "study_id": "Q03",
+    "version_group": "autor",
+    "paper_type": "medición",
+    "section_flow_normalized": "Introducción → unidad → medidas → resultados → discusión → conclusiones",
+    "rhetorical_lesson": "Distinguir acuerdo agregado de cambios de orden entre áreas; vincular medidas con el concepto.",
+    "limit": "Su crítica fuerte a indicadores de interdisciplinariedad no autoriza a declarar inválidos todos los mapas."
+  },
+  {
+    "study_id": "Q04",
+    "version_group": "autor",
+    "paper_type": "clasificación",
+    "section_flow_normalized": "Introducción → propuesta → datos/métodos → validación → extensión → discusión y conclusión",
+    "rhetorical_lesson": "Delimitar el uso previsto y separar pruebas con finalidades distintas.",
+    "limit": "Clasificación por referencias; no trasladar sus garantías a nuestros vectores."
+  },
+  {
+    "study_id": "Q05",
+    "version_group": "editorial",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → datos/métodos → resultados → discusión y conclusiones",
+    "rhetorical_lesson": "Comparar alternativas bajo un criterio explícito y discutir coincidencias y diferencias con estudios previos.",
+    "limit": "Emplea MeSH para evaluación; nuestro consenso no tiene esa función externa."
+  },
+  {
+    "study_id": "Q06",
+    "version_group": "editorial",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción/antecedentes → fuentes → datos/métodos → análisis y discusión → limitaciones → conclusión",
+    "rhetorical_lesson": "Conectar diferencias de cobertura con consecuencias en rankings y declarar el alcance de la comprobación.",
+    "limit": "Los resultados dependen de fuentes y fechas; no trasladar sus cifras a OpenAlex actual."
+  },
+  {
+    "study_id": "Q07",
+    "version_group": "autor",
+    "paper_type": "medición",
+    "section_flow_normalized": "Introducción → metodología → medidas → resultados → conclusiones; demostraciones en apéndices",
+    "rhetorical_lesson": "Explicitar cuándo una comparación evalúa acuerdo y cuándo pretende evaluar precisión.",
+    "limit": "La interpretación de precisión necesita supuestos de referencia e independencia que nosotros no verificamos."
+  },
+  {
+    "study_id": "Q08",
+    "version_group": "editorial",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → métodos → resultados → discusión, con retos y cierre",
+    "rhetorical_lesson": "Pasar de discrepancias en selección a consecuencias de uso; hacer visibles interpretaciones alternativas.",
+    "limit": "Dos enfoques ODS, sin garantizar una única clasificación correcta."
+  },
+  {
+    "study_id": "Q09",
+    "version_group": "editorial",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → antecedentes → métodos → datos → resultados → discusión",
+    "rhetorical_lesson": "Una evaluación agregada parecida puede coexistir con mapas de pertenencia distintos.",
+    "limit": "Antecedente directo: no presentar la dependencia del mapa como descubrimiento nuevo."
+  },
+  {
+    "study_id": "Q10",
+    "version_group": "editorial",
+    "paper_type": "clasificación",
+    "section_flow_normalized": "Introducción → clasificación usada → fuentes → métodos → resultados → discusión → conclusión",
+    "rhetorical_lesson": "Justificar el problema de clasificación antes del modelo; separar validación de etiquetas y rendimiento.",
+    "limit": "Tiene etiquetas y validación experta; nosotros no hemos realizado esa validación temática."
+  },
+  {
+    "study_id": "Q11",
+    "version_group": "autor",
+    "paper_type": "método",
+    "section_flow_normalized": "Introducción → datos → métodos → experimentos → discusión → conclusiones",
+    "rhetorical_lesson": "Partir de una definición de tema y explicar por qué exige un tipo de agrupación.",
+    "limit": "Un caso de relaciones internacionales; el autor limita la generalización entre disciplinas."
+  },
+  {
+    "study_id": "Q12",
+    "version_group": "anticipada",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → antecedentes → contexto → clasificaciones → métodos/limitaciones → resultados → discusión",
+    "rhetorical_lesson": "Separar similitud del perfil general, números absolutos y proporciones; discutir el contexto de las categorías.",
+    "limit": "Una diferencia de clasificación no identifica por sí sola cuál es errónea."
+  },
+  {
+    "study_id": "Q13",
+    "version_group": "versión_no_confirmada",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → fuentes → emparejamiento → cobertura → calidad de citas → conclusiones → límites",
+    "rhetorical_lesson": "Comparar sobre registros emparejados y delimitar las dimensiones efectivamente estudiadas.",
+    "limit": "Texto recuperado por DOI; no certificada su versión tipográfica ni todos los niveles de encabezado."
+  },
+  {
+    "study_id": "Q14",
+    "version_group": "editorial",
+    "paper_type": "contexto_retórico",
+    "section_flow_normalized": "Introducción/antecedentes → métodos → resultados → discusión → límites → conclusión",
+    "rhetorical_lesson": "El nombre de la sección y su función no siempre coinciden; evitar una plantilla rígida.",
+    "limit": "Es un estudio de artículos de varios editores, no una norma ni un censo de estructura de QSS."
+  },
+  {
+    "study_id": "Q15",
+    "version_group": "editorial",
+    "paper_type": "recurso",
+    "section_flow_normalized": "Introducción → recurso → tres mejoras con evaluación → provisión/estadísticas → conclusión",
+    "rhetorical_lesson": "La estructura por componentes se justifica cuando el producto central es infraestructura.",
+    "limit": "No copiar esa estructura modular para convertir nuestro paper en inventario de programas."
+  },
+  {
+    "study_id": "Q16",
+    "version_group": "editorial",
+    "paper_type": "método",
+    "section_flow_normalized": "Introducción → materiales/métodos → resultados y discusión → conclusiones",
+    "rhetorical_lesson": "Conectar una propiedad propuesta de comunidades con operaciones y pruebas concretas.",
+    "limit": "Centro/periferia en una red; no equivale a fragmentación temática universal."
+  },
+  {
+    "study_id": "Q17",
+    "version_group": "editorial",
+    "paper_type": "interpretación",
+    "section_flow_normalized": "Introducción → antecedentes/validación → datos/métodos → resultados → discusión → conclusiones",
+    "rhetorical_lesson": "Distinguir perspectivas de un mapa y problemas de interpretación, con casos situados.",
+    "limit": "Cuenta con contexto de dominio; nuestros ejemplos no sustituyen una validación externa."
+  },
+  {
+    "study_id": "Q18",
+    "version_group": "editorial",
+    "paper_type": "conceptual",
+    "section_flow_normalized": "Introducción → enfoque → concepto de tema → propiedades → análisis → discusión → conclusiones",
+    "rhetorical_lesson": "Definir primero qué propiedad científica pretende representar la herramienta.",
+    "limit": "Nuestro piloto describe geometría; no valida un concepto sociológico de tema."
+  },
+  {
+    "study_id": "Q19",
+    "version_group": "editorial",
+    "paper_type": "clasificación",
+    "section_flow_normalized": "Introducción → pregunta → objetivo → contribución → datos/métodos → resultados → discusión",
+    "rhetorical_lesson": "La pregunta puede ser muy explícita; la revista admite varias formas de organizarla.",
+    "limit": "No imitar la fragmentación de pregunta/objetivo/contribución como tres secciones obligatorias."
+  },
+  {
+    "study_id": "Q20",
+    "version_group": "editorial",
+    "paper_type": "software",
+    "section_flow_normalized": "Introducción → paquete → publicaciones/citas → grupos → redes → resumen y discusión",
+    "rhetorical_lesson": "El artículo de software organiza demostraciones alrededor de sus funciones.",
+    "limit": "Nuestro repositorio apoya los resultados; no es la contribución central que proponemos."
+  },
+  {
+    "study_id": "Q21",
+    "version_group": "editorial",
+    "paper_type": "aplicación",
+    "section_flow_normalized": "Introducción → datos/métodos → resultados sobre especialidades, difusión y colaboración → discusión",
+    "rhetorical_lesson": "Los resultados responden a preguntas sustantivas, no enumeran algoritmos.",
+    "limit": "No trasladar inferencias históricas sobre IA a nuestros cambios temporales entre modelos."
+  },
+  {
+    "study_id": "Q22",
+    "version_group": "editorial",
+    "paper_type": "método",
+    "section_flow_normalized": "Introducción → definición de tema → algoritmo → experimentos → resultados → discusión → conclusiones",
+    "rhetorical_lesson": "Separar exploración estructural y validación como reconstrucción de temas.",
+    "limit": "El propio cierre deja preguntas sobre correspondencia temática y umbrales."
+  },
+  {
+    "study_id": "Q23",
+    "version_group": "editorial",
+    "paper_type": "método",
+    "section_flow_normalized": "Introducción → antecedentes → metodología → datos → experimentos/resultados → discusión y conclusión",
+    "rhetorical_lesson": "Ordenar resultados según preguntas y cerrar con implicaciones, usos y límites.",
+    "limit": "Desplazamiento de embeddings a través del tiempo no es nuestra comparación de encoders."
+  },
+  {
+    "study_id": "Q24",
+    "version_group": "autor",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → datos/métodos → resultados → discusión",
+    "rhetorical_lesson": "Explicar el fin de la comparación, el papel de las etiquetas y los límites de disponibilidad del texto.",
+    "limit": "Física y etiquetas PACS; no demuestra una superioridad universal ni causas del rendimiento."
+  },
+  {
+    "study_id": "Q25",
+    "version_group": "parcial",
+    "paper_type": "método",
+    "section_flow_normalized": "No codificada: acceso a resumen e inicio, sin cuerpo fiable",
+    "rhetorical_lesson": "El resumen anuncia evaluación de cocitación y similitud con varias referencias externas.",
+    "limit": "Cuerpo incorrecto devuelto por recuperación; excluido de inferencias sobre estructura."
+  },
+  {
+    "study_id": "Q26",
+    "version_group": "editorial",
+    "paper_type": "revisión",
+    "section_flow_normalized": "Introducción → antecedentes → método de revisión → análisis → retos → amenazas a validez → conclusiones",
+    "rhetorical_lesson": "Separar evidencia, retos y amenazas a validez; recursos de consulta trazables.",
+    "limit": "Artículo de revisión; su longitud y organización no son la plantilla de nuestro estudio empírico."
+  },
+  {
+    "study_id": "Q27",
+    "version_group": "editorial",
+    "paper_type": "clasificación",
+    "section_flow_normalized": "Introducción → clasificación jerárquica → datos → etiquetas/textos → sistema → evaluación → aplicación → conclusión",
+    "rhetorical_lesson": "El rendimiento técnico se acompaña de una aplicación con sentido bibliométrico.",
+    "limit": "No convertir nuestras descripciones geométricas en una medida validada de interdisciplinariedad."
+  },
+  {
+    "study_id": "Q28",
+    "version_group": "versión_no_confirmada",
+    "paper_type": "evaluación",
+    "section_flow_normalized": "Introducción → antecedentes → método de evaluación → diseño → resultados y discusión → conclusiones",
+    "rhetorical_lesson": "Evaluar la representación en relación con el uso; separar relevancia, novedad y diversidad.",
+    "limit": "Incluye criterios de evaluación externos a nuestros acuerdos. URL editorial; versión del cuerpo no certificada."
+  },
+  {
+    "study_id": "Q29",
+    "version_group": "anticipada",
+    "paper_type": "medición",
+    "section_flow_normalized": "Introducción → antecedentes → definición/cálculo → alternativas → datos → validación → resultados → conclusiones",
+    "rhetorical_lesson": "Justificar la medida mediante un concepto y comprobar varias escalas.",
+    "limit": "Probabilidades de navegación no equivalen a interés psicológico real; el artículo limita esa lectura."
+  },
+  {
+    "study_id": "Q30",
+    "version_group": "editorial",
+    "paper_type": "calidad_datos",
+    "section_flow_normalized": "Introducción → antecedentes → datos/métodos → cobertura/completitud/precisión → conclusiones",
+    "rhetorical_lesson": "Separar cobertura, ausencia de metadatos y errores, porque no son la misma calidad.",
+    "limit": "Corpus africano y conjuntos concretos; no estima nuestros errores de Field."
+  },
+  {
+    "study_id": "Q31",
+    "version_group": "editorial",
+    "paper_type": "calidad_datos",
+    "section_flow_normalized": "Introducción → antecedentes → datos/métodos → resultados y discusión → conclusión → limitaciones",
+    "rhetorical_lesson": "Fechar la base y explicar que sus cambios posteriores limitan reproducción e interpretación.",
+    "limit": "Muestra compartida y falta de referencia externa; no usar las tipologías como verdad perfecta."
+  },
+  {
+    "study_id": "Q32",
+    "version_group": "autor",
+    "paper_type": "comparación",
+    "section_flow_normalized": "Introducción → reclasificación → distribución e indicadores → caso Matemáticas → conclusión",
+    "rhetorical_lesson": "Mostrar el efecto de una decisión de clasificación sobre conclusiones sustantivas.",
+    "limit": "Manuscrito HAL v1 previo a publicación; títulos extraídos con pérdidas, orden descrito por función."
+  },
+  {
+    "study_id": "Q33",
+    "version_group": "autor_aceptado",
+    "paper_type": "aplicación",
+    "section_flow_normalized": "Introducción → datos/métodos → estructura del mapa → casos de uso → discusión",
+    "rhetorical_lesson": "Ir del mapa general a usos concretos y precisar qué significa global y qué queda fuera.",
+    "limit": "Grants de la UE; un mapa amplio no representa financiación mundial ni valida todas las similitudes."
+  },
+  {
+    "study_id": "Q34",
+    "version_group": "autor",
+    "paper_type": "método",
+    "section_flow_normalized": "Teaser → introducción/marco → resultados → discusión → materiales/métodos",
+    "rhetorical_lesson": "Separar contenido de citas y reconocer la simplificación de las categorías del modelo.",
+    "limit": "Preprint v1 con métodos al final; no es prueba del orden editorial definitivo ni de una excepción a la guía."
+  }
+]

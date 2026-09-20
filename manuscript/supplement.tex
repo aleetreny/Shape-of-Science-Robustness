@@ -1,0 +1,240 @@
+\documentclass[12pt]{article}
+\input{preamble}
+\clubpenalty=10000
+\widowpenalty=10000
+\let\OriginalPanelFigure\PanelFigure
+\renewcommand{\PanelFigure}[4]{\OriginalPanelFigure{#1}{#2}{#3}{#4}\FloatBarrier}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\fancyhead[R]{\small Supplementary material}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Supplementary material\par}
+\medskip
+{\large How much does the map of science depend on the embedding model?\par}
+\medskip
+Alejandro Treny Ortega \textbullet{} Independent researcher\par
+\smallskip
+20 September 2026
+\end{center}
+
+This supplement supplies definitions, checks and complete result files. Each table has a printed summary and unrounded CSV files in \nolinkurl{tables/data/Sxx/}. Figure data are in \nolinkurl{figures/data/}. Summaries do not replace those files.
+
+\textbf{Which articles belong to which check?}
+The 500,000 records are the starting collection. The text experiment uses 52,000 of them to compare title, abstract and both; its earlier 26,000-paper trial is included, not added. The geometric analysis in S6--S7 reuses that same set of 52,000. A different set of 52,000 is used for the shared-passage check in S1. The matched searches in S4 follow 10,850 starting papers while changing the papers available around them. These are overlapping uses of one collection, not separate downloads.
+
+Here, Field means one of the 26 broad research areas and Subfield means a narrower specialty. The main article introduces the comparisons in that order; this supplement keeps the database names and technical definitions so that the calculations can be checked.
+
+\medskip
+{\small\setstretch{1}\setcounter{tocdepth}{1}\tableofcontents}
+\clearpage
+
+\section{Corpus, models and provenance}
+\subsection{Eligibility, quotas and quality flags}
+OpenAlex's core catalogue was queried for 2000--2024 records of type article, review or conference-paper, with an English language label, an abstract, no retraction or paratext flag and a known primary Field. Local preparation required a non-empty title and at least 50 regex words in the reconstructed abstract. It preserved literal content rather than translating or generating missing summaries. The unit was a distinct OpenAlex work ID, not a deduplicated intellectual work.
+
+Seeded random request blocks supplied the general cohort. Saved candidates were processed in their recorded order until 400,000 eligible, distinct IDs were retained. The 100,000-record supplement was assigned to the smallest of the 130 Field-period groups, with deterministic Field/year tie-breaking. This raised minimum coverage without reducing the larger groups. Exact year counts were retained rather than forcing equal quotas within each five-year period. Raw retrieval ended on 15 September 2026; API responses were collected over time, so the corpus is not a simultaneous database snapshot. Saved responses, ID order and content hashes are required to reconstruct it; seeds alone would not reproduce a changing API.
+
+Cleaning rejected recognised non-abstract content, explicit withdrawal/retraction titles and clear language failures. For language, fastText's lid.176 model was applied to the whole abstract and three consecutive parts. A record was excluded only if the whole text had a non-English top label with score at least 0.9 and all three parts agreed on that language with scores at least 0.8. These are conservative operational scores, not calibrated probabilities or independent tests. Remaining uncertainty, possible mixed language, 50--79-word or unusually long abstracts, possible notices and duplicate DOI/text were marked. Content rules were developed by inspecting the downloaded corpus before embedding; they were not preregistered before extraction.
+
+The final corpus retains 9,883 abstracts with language uncertainty, including 3,002 flagged as potentially mixed. These sets overlap. It also includes 42,849 abstracts of 50--79 words and 249 over 2,000 words. Subsequent analysis uses the flags for sensitivity rather than silently changing the corpus. Source checks establish agreement with downloaded records, not that every record is correct. Table S1 supplies the distribution and the full flag tables.
+\clearpage
+\input{tables/tex/S01}
+\FloatBarrier
+\subsection{Checkpoints, input and truncation}
+All ten models use the same ordered IDs and original title/abstract text. The customary separators, full model revisions and any adapter revisions are listed in Table S2. Outputs were saved as 32-bit vectors; subsequent geometric calculations use 64-bit arithmetic. Missing or degenerate outputs were checked, and each run records code, configuration, file and environment hashes.
+
+Mean pooling averages every non-padding last-layer position, including model-added special tokens. CLS is the first-position state before any pooler; SEP is the final non-padding position, rather than the separator between title and abstract. Only BERT, SciBERT, BioBERT and PubMedBERT change under the CLS/SEP scenarios. SimCSE uses its pre-pooler CLS state; SPECTER2 uses its proximity adapter. MPNet and MiniLM retain their sentence-transformer mean-pooling configuration. Readout scenarios are not additional independently trained models.
+
+The common-fragment comparison finds a shared prefix of content characters that fits every model, keeping each tokenizer and its customary separators. It uses a separate 52,000-ID panel and compares that fragment with the native representation of those same IDs. It does not equate token sequences between vocabularies. MiniLM's separate 512-token check uses its supported architectural limit; vectors for texts unaffected by the original truncation are reused exactly. Neither check demonstrates that longer input gives better thematic representations.
+\clearpage
+\input{tables/tex/S02}
+\FloatBarrier
+
+\section{Agreement measures and sampling stability}
+This section explains how agreement between two models is calculated, then checks how much the result changes when other articles are selected. Those are two different questions.
+
+\subsection{Coverage and chronology}
+\input{tables/tex/S03}
+\subsection{Alignment and neighbour definitions}
+For each comparison, rows of $X$ and $Y$ identify the same articles. Vectors are scaled to unit length, and columns are then centred for CKA and Procrustes. Let $n$ be the row count and define
+\begin{align*}
+S_{XY}&=\lVert X^\top Y\rVert_F^2, &
+R_{XY}&=\sum_i\lVert X_i\rVert^2\lVert Y_i\rVert^2,\\
+T_X&=\sum_i\lVert X_i\rVert^2, &
+H_{XY}&=S_{XY}-\frac{n}{n-2}R_{XY}
++\frac{T_XT_Y}{(n-1)(n-2)}.
+\end{align*}
+The reported corrected alignment is
+\[
+\mathrm{CKA}_{\mathrm{corr}}(X,Y)=\frac{H_{XY}}{\sqrt{H_{XX}H_{YY}}}.
+\]
+The common HSIC factor cancels. Negative corrected values are retained, and degenerate inputs are rejected. The implementation was checked independently using relation matrices with zero diagonals. The correction addresses finite-sample inflation \citep{pmlr-v97-kornblith19a,refa961d84a4e}; the complete ratio is not asserted to be exactly unbiased.
+
+Procrustes similarity is $\lVert X^\top Y\rVert_*/\sqrt{T_XT_Y}$, where the numerator is the sum of singular values. Its arccosine gives the reported angular distance. Rotation/reflection and a global scale can be aligned; an arbitrary deformation cannot. Unequal embedding dimensions can be understood by adding zero coordinates to the smaller representation. Normalisation precedes centring, so this procedure does not imply invariance to translating the original vectors and normalising them again \citep{NEURIPS2021_252a3dba}.
+
+The distance-rank check correlates cosine distances for 20,000 distinct article pairs selected with a recorded seed, identically in both representations. Ties receive average ranks. These pair observations and the alternative alignment measures are not treated as independent replications \citep{pmlr-v285-williams24a}.
+
+For query $i$ and models $a,b$, neighbour overlap is
+\[
+O_k(i;a,b)=\frac{|N_k^a(i)\cap N_k^b(i)|}{k}.
+\]
+The query is excluded by ID. In the core exact search, similarities are computed in 64-bit blocks and rounded to twelve decimal places for deterministic tie resolution by global row order. Independent sorting checks verify the stored lists. The combinatorial reference for independent uniform lists among $M$ eligible candidates is $k/M$; the adjusted overlap is $(O_k-k/M)/(1-k/M)$. This reference does not remove density, popular-neighbour or composition effects. The primary results therefore retain raw overlap alongside explicitly matched candidate pools.
+
+\subsection{Selection screens and retained alerts}
+The original screen uses twenty selections at each of 1,024 and 2,048 articles per Field-period group, paired between models. It flags an absolute median shift above 0.02 or a central 95\% selection width above 0.04 at the larger size. A row permutation per model/group provides an alignment diagnostic rather than a permutation-test $p$-value. The quality sensitivity retains one representative per connected duplicate DOI/text component and excludes specified flags, leaving 448,886 records. It changes the operational population and does not replace the main corpus.
+
+Subfield screens use twenty nested selections up to 256/512 articles, subject to availability. Groups below eight articles lack a two-size diagnosis. If the larger draw equals the full group, its zero selection width is explicitly marked and cannot establish precision for a wider population. Table S4 keeps these cases separate from the original Field-period alerts.
+\input{tables/tex/S04}
+\FloatBarrier
+
+\section{Text input, pooling and truncation}
+This experiment keeps the papers fixed and changes what each model reads. The main question is whether that change matters more or less than choosing another model.
+
+\subsection{Model-specific input effects}
+The title/abstract experiment uses 52,000 articles: 400 per Field-period group and 2,000 per Field, selected by a fixed ID-based order. The first trial used 26,000; all those IDs remain in the larger set. For each model, the model-change effect is one minus mean agreement with the other nine models on title plus abstract. The input-change effect is one minus agreement between that model's combined input and its title-only or abstract-only input. Their difference is positive when model change is larger. Neighbour changes use the same 2,000 candidates per Field; self is excluded.
+
+A symmetric summary of input transitions checks dependence on the combined-input reference. Mean, CLS and SEP scenarios cross all three inputs; only the four word-level BERTs change readout, which also changes the cross-model reference. Saved combined-input and pilot vectors were reused with exact ID/text alignment and bitwise checks. The analysis makes a practical comparison of input conditions, not a causal decomposition of architecture and content.
+\input{tables/tex/S05}
+\FloatBarrier
+\subsection{The 26k to 52k stability check}
+Both sizes were assessed with 20 and then 100 selections without replacement, using 500 articles per Field in the pilot and 1,000 in the expansion, balanced across dates. The first twenty repeats reproduce the earlier diagnostic. The same 0.02 median-shift and 0.04 central-width rules apply to the principal shape contrast. Retaining the original 31 keys distinguishes persistent, resolved and newly appearing alerts. The 100-selection comparison yields 72 to five alerts, while the historical twenty-selection comparison yields 31 to four. These counts must not be substituted for one another. They do not extend automatically to every readout or neighbour analysis.
+\input{tables/tex/S06}
+\PanelFigure{figure_S01}{Input stability alerts for nested samples. Counts are model--Field--input contrasts out of 520. The original 20-selection comparison and later 100-selection check use the same recorded thresholds, but their counts are not interchangeable. These are selection-sensitivity checks within the fixed corpus. The 52 Field-averaged contrasts are reported separately in Table S6.}{input-alerts}{1}
+\FloatBarrier
+
+\section{Scale, neighbourhoods and concrete cases}
+These checks move from broad areas to specialties and individual papers. They separate a change in search scope from a change in the number of available papers.
+
+\subsection{Matched scopes and candidate sizes}
+Within-group comparisons use 128, 256 and 512 articles, with nested ID-based selections and the same 183 eligible Subfields at all three sizes. The native analysis retains all 252 Subfields where the measure is defined; groups with exactly $k+1$ articles have uninformative complete neighbour lists and are marked accordingly. A separate time comparison retains the same 125 Subfields with at least 128 articles in every period.
+
+Centre comparisons average unit article vectors and scale each centre to unit length before corrected CKA. Direct and weighted-Subfield reconstructions of Field centres were checked for equality. The original matched centres contain 256 articles per group. Its twenty restricted selections change which Subfield represents each Field, not the articles within those Subfields. The repeated centre, size, matched-random and omission analyses now reported in the main text are specified in S9. Random references retain cross-model article correspondence; they are not null tests of independence.
+
+The paired search fixes 50 queries per eligible Subfield, with 256 candidates in each scope and ten selections. The same 50 queries are included in both candidate sets; only the other 206 positions change scope. Date counts match. One query per model, selection, group and scope was independently sorted, giving 43,400 checks. Results for those 10,850 queries have repeated candidate controls; local scores for all 500,000 records do not.
+\input{tables/tex/S07}
+\FloatBarrier
+\subsection{Subfield persistence}
+The atlas compares ranks among the same 183 Subfields under 27 combinations of three candidate sizes, three readouts and three neighbour counts. Example rules were fixed after the overall results but before reading selected article titles. The six upper and six lower examples are descriptive extremes under those rules. Their rank ranges locate persistent relative agreement, not semantically correct or incorrect Subfields.
+\PanelFigure{figure_S02}{Relative neighbourhood-agreement ranks for twelve rule-selected Subfield examples. Ranges span 27 combinations of candidate size, readout and neighbour count, using the same 183 eligible Subfields. The upper/lower six illustrate the recorded higher/lower agreement rule. These are sensitivity ranges, not confidence intervals; higher agreement does not imply better thematic accuracy.}{subfields}{1}
+\FloatBarrier
+\subsection{Article and relation examples}
+The article atlas uses ten candidate selections for the fixed queries. Link comparisons are restricted to 531,650 directed relations whose endpoints remain eligible, avoiding the error of treating an unavailable target as a rejected neighbour. For each displayed source, both persistent and model-dependent targets are retained in the accompanying files. Figure S3 selects the eligible relation with maximal model disagreement for that source; it cannot estimate how common disagreement is.
+
+The examples were inspected against saved OpenAlex records. The history-book, infection/politics and announcement cases remain visible, as does one target with an incomplete abstract. A diagnostic for 82 generic titles removes five fixed queries and barely changes the overall query mean (45.344\% to 45.349\%). That narrow check neither estimates the prevalence of thematic classification errors nor cleans all candidates.
+\input{tables/tex/S08}
+\PanelFigure{figure_S03}{Most encoder-dependent eligible link for each of the twelve fixed article sources. Each cell counts selections in which the target is among the 25 nearest neighbours (0--10); both endpoints are always eligible within the 256-candidate design. Upper/lower six rows are high/low agreement sources. [a] Source or label caveat; [b] the selected target has an incomplete abstract. Full IDs, titles and caveats are retained in Table S8's files. Links were selected for maximal model disagreement, so this panel does not estimate its prevalence.}{relations}{1}
+\FloatBarrier
+
+\section{Time, discipline composition and model traits}
+These additional comparisons ask where agreement differs: across publication periods, areas and groups of models. Their controls assess possible explanations without identifying a single cause.
+
+\subsection{Period contrasts and search opportunities}
+Period summaries give equal weight to Fields and fixed model pairs. Endpoint differences compare 2020--24 with 2000--04; the full five-period sequence determines whether the trajectory is monotone. Native candidate pools and 2,048-candidate pools are reported separately. A later identical-query comparison separates changes in selected queries from candidate count. Publications are represented by the same present-day models across all dates; differences may reflect coverage, writing, composition, text length or model exposure rather than historical changes in scientific organisation.
+\input{tables/tex/S09}
+\PanelFigure{figure_S04}{Descriptive time patterns under candidate controls. Values are changes from 2000--04. Fields and fixed model pairs have equal weight. In (A), thin lines show the 26 Fields; the thick line is their mean. In (B), k25 overlap is compared with all candidates or 2,048 candidates. Changes in search opportunity can reverse the average sign. These are not causal historical trajectories.}{time}{1}
+\subsection{Medicine and Subfield composition}
+Composition controls draw 2,048 articles per Field with identical date quotas under observed or balanced Subfield composition, repeated ten times. They are also summarised after excluding BioBERT and PubMedBERT. Energy has only one eligible Subfield in this control, so its composition does not change in the same way as Medicine's. Balancing and model omission are descriptive sensitivities, not interventions isolating independent causes. The complete 26-Field results accompany the four displayed examples.
+\input{tables/tex/S10}
+\PanelFigure{figure_S05}{Observed and balanced Subfield composition in four Fields. Each condition uses 2,048 articles per Field and identical date quotas. Bars are means and whiskers the range of ten selections, not confidence intervals. The eight-model panel excludes BioBERT and PubMedBERT. *Energy has one eligible Subfield. Balancing composition and omitting biomedical models do not isolate a unique causal explanation. All 26 Fields are retained in Table S10's files.}{medicine}{1}
+\subsection{Readout and apparent model families}
+Recorded model traits cover broad training-domain and objective groups. Pairwise models, leave-one-model checks and readout scenarios assess their descriptive association with agreement. Shared model membership makes the 45 pairs dependent. Some traits are linked in this panel, and coefficients can become non-identifiable under omission; for example, the SEP scenario without SimCSE retains the missing coefficients rather than reporting spurious estimates. The heatmaps show how apparent families depend on the representation recipe.
+\input{tables/tex/S11}
+\PanelFigure{figure_S06}{Pairwise shape agreement under three readout choices. Matrices show mean corrected CKA over the original 130 Field-period cells. Only BERT, SciBERT, BioBERT and PubMedBERT change readout; diagonal cells are identities. Model order in columns: 1 SPECTER, 2 SPECTER2, 3 SciNCL, 4 SciBERT, 5 BERT, 6 MPNet, 7 MiniLM, 8 PubMedBERT, 9 BioBERT, 10 SimCSE. Similarity patterns are not an isolated effect of shared training.}{families}{1}
+\FloatBarrier
+
+\section{Geometric properties and construct checks}
+These checks ask what a numerical property actually describes. A measure can repeat reliably and still fail to distinguish separate groups from an elongated cloud or a few extreme points.
+
+\subsection{Properties, alternatives and selection stability}
+The geometric analysis reuses the 52,000-article input panel, with 2,000 articles per Field and equal period counts. All vectors have unit length and calculations use 64-bit arithmetic. For distinct vectors $u_i,u_j$, angular spread uses the median pairwise chord distance, converted to degrees as $2\arcsin(q_{0.5}(\lVert u_i-u_j\rVert)/2)$. The saved implementation interpolates distance quantiles before this monotone conversion; the same convention is retained throughout. Alternatives are its 10th/90th percentiles and the median angle to the centre direction. They describe spread rather than semantic diversity or isotropy \citep{rudman-etal-2022-isoscore}.
+
+After centring the unit-vector cloud, let $\lambda_j$ be the covariance eigenvalues and $p_j=\lambda_j/\sum_l\lambda_l$. The participation ratio is $\mathrm{PR}=1/\sum_j p_j^2=(\mathrm{tr}\,C)^2/\mathrm{tr}(C^2)$, where $C$ is the centred covariance matrix. This is the main measure of effective linear dimension. The entropy alternative is $\exp(-\sum_j p_j\log p_j)$, applied to the covariance spectrum \citep{roy_2007_40328}. D80 counts the smallest number of descending eigenvalues containing 80\% of variance. These quantities are unchanged by adding zero coordinates, so the 384- versus 768-coordinate comparison is not normalised by ambient dimension. They describe linear variation, not nonlinear intrinsic dimension or a count of topics.
+
+Twenty half samples contain 1,000 articles per Field, and five further equal-size selections contain 2,000, all drawn from the fixed corpus with matched IDs across models. Central 90\% ranges and absolute median shifts are divided by the primary value. Operational thresholds are 5\% for angular spread, 10\% for PR and 20\% for connection. With five repeats, quantiles are coarse; individual values are retained. Passing those selections does not erase the four PR half-sample alerts. The complete analysis contains 16,884 sets of measures, including time, size and representation controls; not every alternative was repeated under every selection.
+\input{tables/tex/S12}
+\FloatBarrier
+\subsection{Sample size}
+This check varies the number of articles per area while keeping the model and measure fixed. Figure S7 shows how far each value is from the result at 2,000 articles per area.
+
+\PanelFigure{figure_S07}{Sample-size sensitivity of the three saved geometric properties. Each line shows one model's median relative change across the 26 Fields, compared with 2,000 articles per Field. Panels use different vertical scales. Connection uses the union-graph spectral gap with k = 25 fixed as n changes; the separate approximately fixed-fraction check is supplied in Table S13's files. These curves do not certify population precision.}{sample-size}{1}
+\FloatBarrier
+\subsection{Representation and content controls}
+Controls vary quality flags, title/abstract input, readout, common content, extreme points, global centring and the MiniLM token limit. The quality comparison replenishes each period to its specified size after applying recorded flags. The extreme-point control removes the ten points farthest from the centre in each period of the initial half sample; removing ten random points per period supplies its equal-size reference. It does not presume that extreme points are erroneous.
+
+Global centring subtracts the mean of the balanced 52,000 unit vectors and then normalises each result again. This changes the representation and is distinct from centring a covariance matrix for PR. Three Gaussian clouds per model--Field case provide geometric references with matching mean/covariance only in expectation before unit normalisation. Their realised moments are checked; these references are neither exact matched-moment controls nor calibrated statistical null distributions. The point controls in Figure S8 and Table S16 have their own matched references and must not be treated as another complete set of repeated selections.
+\PanelFigure{figure_S08}{Agreement of Field rankings before and after each matched control. Each point is a model's Spearman rank agreement; horizontal spans show their range. CLS/SEP change only the four word BERTs. The dashed line at 0.9 is a visual reference, not a pass/fail threshold. Global centring changes the representation. All saved controls, including additional point sensitivities, accompany Table S12.}{rank-controls}{1}
+\FloatBarrier
+\subsection{Why connection is not general fragmentation}
+Connection uses the second-smallest eigenvalue of the normalised graph Laplacian $L=I-D^{-1/2}AD^{-1/2}$ on the unweighted union of directed nearest-neighbour links. The value is zero for a disconnected graph. Primary $k=25$ is checked at 10 and 50, with a weighted local-scale graph and mutual-neighbour components as alternatives. Spectral-clustering theory motivates the construction \citep{vonLuxburg2007tutorial}; it does not establish that a small gap means separate scientific themes. Eigenvalue residuals and independent dense calculations were checked.
+
+Single-linkage merging supplies the radii at which the largest component reaches specified fractions of the cloud. Radius ratios and the maximum-to-median minimum-spanning-tree edge ratio provide different connection descriptions. Nine synthetic clouds, followed by Gaussian references and article controls, exposed non-equivalent responses to elongation, isolated outliers and separated components. Fixed $k$ also changes its fraction of candidates as sample size grows. The approximately fixed-fraction comparison was added during execution and is identified as a later sensitivity. These failures are why connection is excluded from the manuscript's interpretation of Field fragmentation.
+\input{tables/tex/S13}
+\PanelFigure{figure_S09}{All nine saved synthetic-cloud checks. (A) Spectral gap of the union k25 graph; smaller means weaker connection. (B) Ratio of radii at which the largest component contains 90\% and 50\% of points. (C) Maximum divided by median minimum-spanning-tree edge length. Orange marks the elongated, low-rank and outlier clouds: apparent weak connection or late merging need not mean separate thematic groups. These are controlled geometric examples, not a calibrated statistical null.}{counterexamples}{1}
+\FloatBarrier
+
+\section{All Field-pair comparisons}
+Here, a pair is simply two different research areas, such as Medicine and Energy. The 325 pairs cover every such comparison among the 26 areas. The calculation asks which area has the larger geometric value, and whether changing the model reverses that answer.
+
+\subsection{Directions and magnitude}
+All unordered Field pairs are enumerated by ascending OpenAlex ID. For each model and property, the 26 saved conditions are the primary selection, twenty half samples and five additional equal-size selections, with repeat indices matched across the two Fields. If $d_r=2(B_r-A_r)/(A_r+B_r)$, direction is positive when $\min_r d_r>t+10^{-10}$ and negative when $\max_r d_r<-t-10^{-10}$. Otherwise it is unresolved. The minima $t\in\{0,0.01,0.05,0.10\}$ were specified before the pair counts, after the morphology results. They are magnitude sensitivities, not tests of significance.
+
+All-ten agreement requires every model to have the same persistent direction. Opposition requires at least one persistently positive and one persistently negative model. All remaining pairs are unresolved, including partial agreement. These classes are exhaustive and disjoint. The full range, rather than a favourable central interval, determines persistence; the overlapping selections do not constitute independent replications.
+\input{tables/tex/S14}
+\PanelFigure{figure_S10}{All 650 Field-pair/property classifications at zero minimum relative difference, using the 26 saved selection conditions. The upper triangle shows angular spread; the lower shows effective linear dimension (PR). Row labels and column numbers identify the same 26 Fields; names are shortened for display. Each triangle contains 325 pairs. Blue requires all ten models to agree persistently; orange requires at least two persistently opposing models; grey is unresolved. The diagonal is not a comparison. Full labels, model directions and magnitude checks are in Table S14's files.}{all-pairs}{1}
+\subsection{Alternative measures and model panels}
+An opposing model pair is retained under alternatives only when those same two models preserve their original directions in every alternative. Angular alternatives, entropy dimension and D80 now all cover the primary selection, twenty half samples and five additional selections: 26 conditions each. The original three-condition dimension check is preserved as history; Table S15 uses the completed coverage. D80 is discrete and ties remain unresolved. At positive cutoffs, PR must exceed the stated minimum; its alternatives must preserve nonzero direction. Models are not replaced with different witnesses to preserve a count. Ten leave-one-model panels and the six similarity-oriented models test panel dependence; smaller panels offer fewer opportunities for opposition.
+\input{tables/tex/S15}
+\FloatBarrier
+\subsection{Matched point controls}
+Each of the eleven point controls is compared with its appropriate equal-size reference. Changing quality, extremes or sample size changes IDs by design; other matched controls verify identical IDs. The summary distinguishes a changed class from survival of the same original opposing models and directions in both reference and variant. One favourable controlled comparison does not demonstrate persistence across 26 new selections. The saved differences were independently audited through equivalent ratio inequalities, covering 442,000 contrasts without importing the classification function.
+\input{tables/tex/S16}
+\FloatBarrier
+
+\section{Reproducibility and access}
+\input{tables/tex/S17}
+\subsection{Rebuilding this display package}
+The repository command \nolinkurl{./manuscript/build.sh} compiles the included LaTeX into the main document and this supplement. It does not run models, searches or simulations. The compiler may download standard TeX support files on its first use. Re-exporting plots and table summaries is a separate presentation command, documented in the package README.
+
+\subsection{Access limits of this draft}
+The package provides the editable manuscript, figures, descriptive tables and their source summaries. It excludes corpus text, vectors, model weights, secrets and copies of third-party full texts. It can therefore reproduce the two displayed PDFs without reproducing the entire scientific pipeline. The latter requires the frozen inputs and execution materials listed above. A versioned public release and any necessary data permissions/licence must be settled before claiming full public reproducibility. No persistent deposit has yet been made.
+
+The author has confirmed sole authorship as an independent researcher, no external funding and no competing interests. The current prose and scientific interpretations remain a draft for author review. Correspondence details and final journal formatting should be completed at submission; they have not been invented here.
+
+\clearpage
+\section{Final targeted robustness checks}
+These checks were specified after the previous results and the draft, before their new outcomes were inspected. They reuse the frozen vectors, preserve all earlier outputs and address the remaining selection, processing and source-quality questions. They add no model training or corpus extraction. Tables S18--S20 are accompanied by unrounded CSV summaries; the repository's \nolinkurl{data/robustness_closure_v1/} holds selections, source snapshots and per-part checksums. \nolinkurl{ROBUSTNESS_CLOSURE_PROTOCOL.md} records the design. The source package reproduces this display, not the unavailable corpus.
+
+\subsection{Repeated centres and direct neighbour contrasts}
+The 256-article centre check uses fifty selections of the same 26 Fields and 217 Subfields. Within each group, selection preserves the original five period counts. The size check fixes 26 Fields and 183 Subfields at 128, 256 and 512 articles; each has fifty repetitions. Period quotas derive from the original 512-article prefix, with nested largest-remainder rounding for smaller sizes. Thus its 256-article quotas differ from the first check. One within-period reassignment accompanies every selection, using exactly the same articles across observed/random groups and models.
+
+The restricted comparison selects one eligible Subfield per Field fifty times, then selects articles ten times within each choice. Between-choice standard deviation of the observed mean is 0.01205; mean within-choice standard deviation is 0.00157. These are descriptive components, not independent population variances. The old restricted random reference drew 26 centres from a reassignment across all 217 Subfields; the new reference instead shuffles exactly the selected 26 groups' articles. Omitting each Field from the original centres changes mean CKA by at most 0.00687, for Mathematics; the largest individual model-pair shift is 0.02355 for MiniLM--BioBERT. All omissions are also calculated across the fifty new selections.
+
+For direct neighbour stability, each of fifty selections draws 200 papers per Field and period from the text experiment: 1,000 candidates per Field. Queries and candidates coincide; self matches are excluded. Full exact candidate rankings can be restricted to these subsets without changing the search. Independent direct sorting checks 4,680 queries, in addition to synthetic checks with tied vectors. The contrast averages the ten same-model title changes and the 45 between-model title-plus-abstract changes, weighting Fields equally. A model-specific reference averages its nine model comparisons. Main k values are 10, 25 and 50; CLS/SEP affect only the four word BERTs and are checked at k25. Model-specific mean contrasts range from $-14.04$ to $+16.59$ percentage points; Field means range from $-4.43$ to $+5.63$. The grand mean is not a universal ordering or an equivalence test.
+\input{tables/tex/S18}
+\FloatBarrier
+\PanelFigure{figure_S11}{Additional selection checks. (A) Centre agreement at three article counts; solid lines show observed groups and dashed lines show matched random groups. Shading spans 2.5th--97.5th percentiles of fifty selection means. The same 183 Subfields are used throughout. (B) Each point is one of fifty balanced selections in the direct neighbour test. Positive values mean that removing the abstract changes more neighbours than changing models; negative values mean the reverse. Black marks are medians. Main uses the primary recipes; CLS/SEP change only the four word BERTs. Neither panel supplies population confidence intervals.}{closure}{1}
+\FloatBarrier
+
+\subsection{Quality filtering with matched queries}
+The existing strict filter removes seven flagged categories and retains the lowest row index in each connected component of identical nonempty DOI or normalised text. This is not a new near-duplicate detector. It retains 448,886 records. Full searches compare every surviving query against original and filtered candidates in its Field-period group. At k25, the original all-query mean is 30.29\%; restricting queries alone gives 30.58\%, and filtering their candidates gives 31.43\%. The matched-query gain is 0.85 points, or 0.77 after the existing chance adjustment.
+
+The equal-count controls include the same 100 clean queries in both candidate pools, filling remaining places by deterministic random order. All 130 cells support 1,024 candidates; only 63 support 2,048. The largest Field-average change in full searches is 2.72 points in Mathematics. Across model pairs, the largest mean gain is 1.43 points for SPECTER2--SciBERT. The 52,000-paper text panel has at least 235 clean papers per Field-period cell. It supports 200 candidates and twenty clean queries per period in both arms, or 1,000 candidates and 100 queries per Field. Thus candidate counts, dates and queries stay matched. All k values retain substantial model disagreement. The filter's limited coverage prevents concluding that all source errors are harmless.
+\input{tables/tex/S19}
+\FloatBarrier
+
+\subsection{Complete processing and dimension checks}
+For each model, the global mean is calculated once from its 52,000 unit vectors. Every original unit vector in each saved selection has that mean subtracted, then is normalised again. The mean is not recalculated per Field or repetition. Covariance centring alone would leave PR unchanged; the subsequent row normalisation makes this a different representation. Spread and PR use the original main selection, twenty halves and five further equal-size selections. Entropy dimension and D80 are completed on those same 26 original selections. No selection or magnitude cutoff is changed.
+
+The classes and fixed-model direction rules remain those of S7. At zero cutoff, 142 original angular oppositions keep the opposition class after centring, but only 128 keep an original model pair with both directions unchanged; nine new oppositions give 151 in total. PR retains 204 original oppositions and adds seven, giving 211. The same-direction requirement also retains only five of the original 54 all-ten PR agreements jointly under entropy and D80; many comparisons cannot satisfy a rule requiring every model to retain a nonzero ordering. D80 ties stay unresolved. All class transitions, reversed witness directions and magnitude checks are included, not just favourable retentions.
+\input{tables/tex/S20}
+\FloatBarrier
+
+The numerical audit independently reproduces 78,000 model-specific directions using equivalent ratio inequalities, reproduces the saved original neighbour means to numerical precision, and verifies all 900 centre selections and matched references. None of these checks establishes thematic accuracy, independence of overlapping selections or population precision. The main text therefore distinguishes stable averages from 2,628 local selection alerts among 8,235 Subfield--model-pair comparisons.
+
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references,context_references}
+\end{document}

@@ -1,0 +1,995 @@
+{
+  "cell_counts": [
+    {
+      "all": 2166,
+      "clean": 1869,
+      "field_id": 11,
+      "input_clean": 347,
+      "period": 2000
+    },
+    {
+      "all": 2528,
+      "clean": 2201,
+      "field_id": 11,
+      "input_clean": 351,
+      "period": 2005
+    },
+    {
+      "all": 3940,
+      "clean": 3571,
+      "field_id": 11,
+      "input_clean": 361,
+      "period": 2010
+    },
+    {
+      "all": 4298,
+      "clean": 4020,
+      "field_id": 11,
+      "input_clean": 366,
+      "period": 2015
+    },
+    {
+      "all": 6491,
+      "clean": 6216,
+      "field_id": 11,
+      "input_clean": 385,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1553,
+      "field_id": 12,
+      "input_clean": 287,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1611,
+      "field_id": 12,
+      "input_clean": 307,
+      "period": 2005
+    },
+    {
+      "all": 2186,
+      "clean": 1812,
+      "field_id": 12,
+      "input_clean": 342,
+      "period": 2010
+    },
+    {
+      "all": 2732,
+      "clean": 2410,
+      "field_id": 12,
+      "input_clean": 351,
+      "period": 2015
+    },
+    {
+      "all": 3380,
+      "clean": 2980,
+      "field_id": 12,
+      "input_clean": 344,
+      "period": 2020
+    },
+    {
+      "all": 2739,
+      "clean": 2516,
+      "field_id": 13,
+      "input_clean": 364,
+      "period": 2000
+    },
+    {
+      "all": 4071,
+      "clean": 3735,
+      "field_id": 13,
+      "input_clean": 364,
+      "period": 2005
+    },
+    {
+      "all": 5251,
+      "clean": 4885,
+      "field_id": 13,
+      "input_clean": 370,
+      "period": 2010
+    },
+    {
+      "all": 5596,
+      "clean": 5330,
+      "field_id": 13,
+      "input_clean": 379,
+      "period": 2015
+    },
+    {
+      "all": 6840,
+      "clean": 6582,
+      "field_id": 13,
+      "input_clean": 384,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1667,
+      "field_id": 14,
+      "input_clean": 313,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1715,
+      "field_id": 14,
+      "input_clean": 309,
+      "period": 2005
+    },
+    {
+      "all": 2186,
+      "clean": 1900,
+      "field_id": 14,
+      "input_clean": 340,
+      "period": 2010
+    },
+    {
+      "all": 2660,
+      "clean": 2480,
+      "field_id": 14,
+      "input_clean": 378,
+      "period": 2015
+    },
+    {
+      "all": 4040,
+      "clean": 3872,
+      "field_id": 14,
+      "input_clean": 383,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1831,
+      "field_id": 15,
+      "input_clean": 324,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1881,
+      "field_id": 15,
+      "input_clean": 343,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1930,
+      "field_id": 15,
+      "input_clean": 364,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 2003,
+      "field_id": 15,
+      "input_clean": 373,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2058,
+      "field_id": 15,
+      "input_clean": 378,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1643,
+      "field_id": 16,
+      "input_clean": 291,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1643,
+      "field_id": 16,
+      "input_clean": 308,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1731,
+      "field_id": 16,
+      "input_clean": 320,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 1784,
+      "field_id": 16,
+      "input_clean": 342,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 1904,
+      "field_id": 16,
+      "input_clean": 343,
+      "period": 2020
+    },
+    {
+      "all": 3310,
+      "clean": 2540,
+      "field_id": 17,
+      "input_clean": 298,
+      "period": 2000
+    },
+    {
+      "all": 5594,
+      "clean": 4412,
+      "field_id": 17,
+      "input_clean": 303,
+      "period": 2005
+    },
+    {
+      "all": 7094,
+      "clean": 5961,
+      "field_id": 17,
+      "input_clean": 333,
+      "period": 2010
+    },
+    {
+      "all": 6858,
+      "clean": 6275,
+      "field_id": 17,
+      "input_clean": 374,
+      "period": 2015
+    },
+    {
+      "all": 9972,
+      "clean": 9517,
+      "field_id": 17,
+      "input_clean": 382,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1741,
+      "field_id": 18,
+      "input_clean": 324,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1782,
+      "field_id": 18,
+      "input_clean": 330,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1895,
+      "field_id": 18,
+      "input_clean": 345,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 1978,
+      "field_id": 18,
+      "input_clean": 365,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2053,
+      "field_id": 18,
+      "input_clean": 376,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1872,
+      "field_id": 19,
+      "input_clean": 341,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1919,
+      "field_id": 19,
+      "input_clean": 368,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1958,
+      "field_id": 19,
+      "input_clean": 366,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 2017,
+      "field_id": 19,
+      "input_clean": 366,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2083,
+      "field_id": 19,
+      "input_clean": 381,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1689,
+      "field_id": 20,
+      "input_clean": 296,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1760,
+      "field_id": 20,
+      "input_clean": 331,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1872,
+      "field_id": 20,
+      "input_clean": 350,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 1979,
+      "field_id": 20,
+      "input_clean": 365,
+      "period": 2015
+    },
+    {
+      "all": 2845,
+      "clean": 2678,
+      "field_id": 20,
+      "input_clean": 380,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1685,
+      "field_id": 21,
+      "input_clean": 310,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1760,
+      "field_id": 21,
+      "input_clean": 316,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1882,
+      "field_id": 21,
+      "input_clean": 341,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 2021,
+      "field_id": 21,
+      "input_clean": 374,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2095,
+      "field_id": 21,
+      "input_clean": 390,
+      "period": 2020
+    },
+    {
+      "all": 6990,
+      "clean": 5450,
+      "field_id": 22,
+      "input_clean": 322,
+      "period": 2000
+    },
+    {
+      "all": 11310,
+      "clean": 9042,
+      "field_id": 22,
+      "input_clean": 320,
+      "period": 2005
+    },
+    {
+      "all": 15203,
+      "clean": 13005,
+      "field_id": 22,
+      "input_clean": 330,
+      "period": 2010
+    },
+    {
+      "all": 14738,
+      "clean": 13594,
+      "field_id": 22,
+      "input_clean": 369,
+      "period": 2015
+    },
+    {
+      "all": 18907,
+      "clean": 18152,
+      "field_id": 22,
+      "input_clean": 385,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1873,
+      "field_id": 23,
+      "input_clean": 344,
+      "period": 2000
+    },
+    {
+      "all": 2876,
+      "clean": 2543,
+      "field_id": 23,
+      "input_clean": 355,
+      "period": 2005
+    },
+    {
+      "all": 4005,
+      "clean": 3646,
+      "field_id": 23,
+      "input_clean": 364,
+      "period": 2010
+    },
+    {
+      "all": 4018,
+      "clean": 3803,
+      "field_id": 23,
+      "input_clean": 378,
+      "period": 2015
+    },
+    {
+      "all": 5919,
+      "clean": 5699,
+      "field_id": 23,
+      "input_clean": 392,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 2033,
+      "field_id": 24,
+      "input_clean": 381,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 2019,
+      "field_id": 24,
+      "input_clean": 370,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 2070,
+      "field_id": 24,
+      "input_clean": 376,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 2068,
+      "field_id": 24,
+      "input_clean": 384,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2083,
+      "field_id": 24,
+      "input_clean": 384,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1812,
+      "field_id": 25,
+      "input_clean": 334,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1878,
+      "field_id": 25,
+      "input_clean": 347,
+      "period": 2005
+    },
+    {
+      "all": 2962,
+      "clean": 2647,
+      "field_id": 25,
+      "input_clean": 370,
+      "period": 2010
+    },
+    {
+      "all": 3152,
+      "clean": 2912,
+      "field_id": 25,
+      "input_clean": 371,
+      "period": 2015
+    },
+    {
+      "all": 3787,
+      "clean": 3603,
+      "field_id": 25,
+      "input_clean": 382,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1375,
+      "field_id": 26,
+      "input_clean": 248,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1379,
+      "field_id": 26,
+      "input_clean": 235,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1413,
+      "field_id": 26,
+      "input_clean": 265,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 1494,
+      "field_id": 26,
+      "input_clean": 255,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 1709,
+      "field_id": 26,
+      "input_clean": 312,
+      "period": 2020
+    },
+    {
+      "all": 7128,
+      "clean": 6536,
+      "field_id": 27,
+      "input_clean": 376,
+      "period": 2000
+    },
+    {
+      "all": 10946,
+      "clean": 10025,
+      "field_id": 27,
+      "input_clean": 370,
+      "period": 2005
+    },
+    {
+      "all": 15771,
+      "clean": 14651,
+      "field_id": 27,
+      "input_clean": 373,
+      "period": 2010
+    },
+    {
+      "all": 18629,
+      "clean": 17589,
+      "field_id": 27,
+      "input_clean": 380,
+      "period": 2015
+    },
+    {
+      "all": 26195,
+      "clean": 25097,
+      "field_id": 27,
+      "input_clean": 385,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 2040,
+      "field_id": 28,
+      "input_clean": 374,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 2041,
+      "field_id": 28,
+      "input_clean": 382,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 2070,
+      "field_id": 28,
+      "input_clean": 381,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 2091,
+      "field_id": 28,
+      "input_clean": 385,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2106,
+      "field_id": 28,
+      "input_clean": 389,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1975,
+      "field_id": 29,
+      "input_clean": 362,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1976,
+      "field_id": 29,
+      "input_clean": 367,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 2010,
+      "field_id": 29,
+      "input_clean": 370,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 2046,
+      "field_id": 29,
+      "input_clean": 379,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2116,
+      "field_id": 29,
+      "input_clean": 396,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1860,
+      "field_id": 30,
+      "input_clean": 344,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1909,
+      "field_id": 30,
+      "input_clean": 349,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1982,
+      "field_id": 30,
+      "input_clean": 365,
+      "period": 2010
+    },
+    {
+      "all": 2166,
+      "clean": 1984,
+      "field_id": 30,
+      "input_clean": 356,
+      "period": 2015
+    },
+    {
+      "all": 2166,
+      "clean": 2041,
+      "field_id": 30,
+      "input_clean": 376,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1751,
+      "field_id": 31,
+      "input_clean": 331,
+      "period": 2000
+    },
+    {
+      "all": 2704,
+      "clean": 2233,
+      "field_id": 31,
+      "input_clean": 323,
+      "period": 2005
+    },
+    {
+      "all": 3094,
+      "clean": 2649,
+      "field_id": 31,
+      "input_clean": 337,
+      "period": 2010
+    },
+    {
+      "all": 3388,
+      "clean": 3037,
+      "field_id": 31,
+      "input_clean": 365,
+      "period": 2015
+    },
+    {
+      "all": 3470,
+      "clean": 3212,
+      "field_id": 31,
+      "input_clean": 371,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 1850,
+      "field_id": 32,
+      "input_clean": 351,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1869,
+      "field_id": 32,
+      "input_clean": 347,
+      "period": 2005
+    },
+    {
+      "all": 2166,
+      "clean": 1965,
+      "field_id": 32,
+      "input_clean": 371,
+      "period": 2010
+    },
+    {
+      "all": 2577,
+      "clean": 2417,
+      "field_id": 32,
+      "input_clean": 375,
+      "period": 2015
+    },
+    {
+      "all": 3970,
+      "clean": 3827,
+      "field_id": 32,
+      "input_clean": 385,
+      "period": 2020
+    },
+    {
+      "all": 2776,
+      "clean": 2151,
+      "field_id": 33,
+      "input_clean": 309,
+      "period": 2000
+    },
+    {
+      "all": 4893,
+      "clean": 3903,
+      "field_id": 33,
+      "input_clean": 313,
+      "period": 2005
+    },
+    {
+      "all": 7110,
+      "clean": 6071,
+      "field_id": 33,
+      "input_clean": 338,
+      "period": 2010
+    },
+    {
+      "all": 8891,
+      "clean": 8002,
+      "field_id": 33,
+      "input_clean": 361,
+      "period": 2015
+    },
+    {
+      "all": 13879,
+      "clean": 13027,
+      "field_id": 33,
+      "input_clean": 373,
+      "period": 2020
+    },
+    {
+      "all": 2166,
+      "clean": 2010,
+      "field_id": 34,
+      "input_clean": 376,
+      "period": 2000
+    },
+    {
+      "all": 2166,
+      "clean": 1983,
+      "field_id": 34,
+      "input_clean": 368,
+      "period": 2005
+    },
+    {
+      "all": 2165,
+      "clean": 2022,
+      "field_id": 34,
+      "input_clean": 368,
+      "period": 2010
+    },
+    {
+      "all": 2165,
+      "clean": 2069,
+      "field_id": 34,
+      "input_clean": 385,
+      "period": 2015
+    },
+    {
+      "all": 2165,
+      "clean": 2119,
+      "field_id": 34,
+      "input_clean": 390,
+      "period": 2020
+    },
+    {
+      "all": 2165,
+      "clean": 2001,
+      "field_id": 35,
+      "input_clean": 375,
+      "period": 2000
+    },
+    {
+      "all": 2165,
+      "clean": 2036,
+      "field_id": 35,
+      "input_clean": 376,
+      "period": 2005
+    },
+    {
+      "all": 2165,
+      "clean": 2042,
+      "field_id": 35,
+      "input_clean": 378,
+      "period": 2010
+    },
+    {
+      "all": 2165,
+      "clean": 2061,
+      "field_id": 35,
+      "input_clean": 385,
+      "period": 2015
+    },
+    {
+      "all": 2165,
+      "clean": 2090,
+      "field_id": 35,
+      "input_clean": 387,
+      "period": 2020
+    },
+    {
+      "all": 2165,
+      "clean": 1811,
+      "field_id": 36,
+      "input_clean": 338,
+      "period": 2000
+    },
+    {
+      "all": 2165,
+      "clean": 1854,
+      "field_id": 36,
+      "input_clean": 339,
+      "period": 2005
+    },
+    {
+      "all": 2165,
+      "clean": 1933,
+      "field_id": 36,
+      "input_clean": 361,
+      "period": 2010
+    },
+    {
+      "all": 2165,
+      "clean": 1994,
+      "field_id": 36,
+      "input_clean": 369,
+      "period": 2015
+    },
+    {
+      "all": 2833,
+      "clean": 2693,
+      "field_id": 36,
+      "input_clean": 384,
+      "period": 2020
+    }
+  ],
+  "centre_original": {
+    "matched_field/random_period_preserved": {
+      "mean": 0.6309830080624478,
+      "rows": 900
+    },
+    "matched_field/real": {
+      "mean": 0.9390644716053103,
+      "rows": 45
+    },
+    "matched_subfield/random_period_preserved": {
+      "mean": 0.639321775335843,
+      "rows": 900
+    },
+    "matched_subfield/real": {
+      "mean": 0.9110821830679933,
+      "rows": 45
+    },
+    "native_field/real": {
+      "mean": 0.9422768616185689,
+      "rows": 45
+    },
+    "native_subfield/real": {
+      "mean": 0.9065559093553058,
+      "rows": 45
+    },
+    "one_subfield_per_field/random_period_preserved": {
+      "mean": 0.6292619835943908,
+      "rows": 900
+    },
+    "one_subfield_per_field/real": {
+      "mean": 0.9024575266717532,
+      "rows": 900
+    }
+  },
+  "centroid_random_checks": {
+    "field": {
+      "period_exact": true,
+      "random_allocations": 20,
+      "rows": 6656,
+      "unique": 6656
+    },
+    "subfield": {
+      "period_exact": true,
+      "random_allocations": 20,
+      "rows": 55552,
+      "unique": 55552
+    }
+  },
+  "group_counts": {
+    "field": {
+      "eligible256": 26,
+      "eligible512": 26,
+      "groups": 26
+    },
+    "subfield": {
+      "eligible256": 217,
+      "eligible512": 183,
+      "groups": 252
+    }
+  },
+  "kernel_feature_cka_error": 7.632783294297951e-17,
+  "metadata_sha256": "2bb609933b73d106dcceb723bb62ef4f4150b22ff8230b2a9a96a3aad1dffcca",
+  "packages": {
+    "matplotlib": "3.11.2",
+    "numba": null,
+    "numpy": "2.5.3",
+    "pandas": null,
+    "pyarrow": "25.0.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": null
+  },
+  "quality_flags": [
+    "language_ambiguous",
+    "possible_mixed_language",
+    "abstract_50_79",
+    "content_review_flag",
+    "possible_notice",
+    "possible_access_message",
+    "abstract_over_2000"
+  ],
+  "quality_retained": 448886
+}

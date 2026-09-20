@@ -1,0 +1,892 @@
+We are approaching the final robustness freeze of the Shape of Science Robustness paper.
+
+Your task is to perform the remaining robustness analyses, audit the existing implementation, integrate the results into the scientific manuscript and supplement, and produce a separate author-facing report explaining what changed and whether any conclusions became stronger, weaker, or need qualification.
+
+IMPORTANT SCIENTIFIC RULES
+
+1. Do not optimise analyses to preserve the current story.
+2. Do not silently change definitions, thresholds, model panels, samples, or metrics after seeing results.
+3. If a robustness test weakens a manuscript conclusion, modify the conclusion accordingly.
+4. If a result materially contradicts the current manuscript, report that clearly.
+5. Preserve all previous outputs. Create new versioned output directories.
+6. Reuse frozen embeddings and existing article IDs wherever possible.
+7. All cross-model comparisons must use exactly matched article IDs.
+8. Record every random seed, configuration, selection hash and relevant software/script version.
+9. Distinguish:
+   - within-corpus selection stability,
+   - sample-size sensitivity,
+   - representation sensitivity,
+   - metric sensitivity,
+   - population/statistical inference.
+   Do not describe one as another.
+10. Do not turn descriptive sensitivity ranges into confidence intervals.
+11. Do not invent statistical significance tests merely to make results look rigorous.
+12. Avoid adding unnecessary robustness analyses beyond those requested unless an audit reveals a genuine implementation issue.
+13. The goal is to CLOSE robustness gaps, not endlessly expand the project.
+
+CURRENT MANUSCRIPT CONTEXT
+
+The manuscript currently reports, among other results:
+
+- centre-level corrected CKA using 256 papers per centre;
+- approximately 0.939 mean corrected CKA for 26 Field centres;
+- approximately 0.911 for 217 Subfield centres;
+- approximately 0.902 for a restricted 26-Subfield comparison;
+- random matched groups around 0.63–0.64;
+- within-group CKA around 0.63–0.64 at n = 128, 256 and 512;
+- approximately 30.3% overlap among k=25 nearest neighbours within Field-period searches;
+- a headline comparison where changing model replaces about 68.8% of neighbours and removing the abstract about 70.7%;
+- 262 persistent Field-pair oppositions for angular spread and 221 for PR at zero magnitude threshold;
+- existing point controls showing that global centring retains only 145/262 original angular-spread oppositions but 218/221 PR oppositions;
+- alternative angular/spectral morphology metrics;
+- a quality-filtered corpus of approximately 448,886 records;
+- 2,628 selection alerts among 8,235 Subfield/model-pair comparisons in one Subfield stability screen.
+
+Audit the current repository and manuscript sources before doing anything so these numbers are not blindly assumed if newer outputs exist.
+
+============================================================
+PHASE 0 — REPOSITORY AND PROVENANCE AUDIT
+============================================================
+
+Before running new experiments:
+
+1. Identify exactly:
+   - scripts generating Figure 1A and 1B;
+   - scripts generating neighbour agreement results;
+   - scripts generating the 52k input experiment;
+   - morphology scripts;
+   - Field-pair persistence scripts;
+   - quality-filter / dedup logic;
+   - manuscript and supplement source files;
+   - current result catalogues/manifests.
+
+2. Verify that:
+   - article vectors are unit-normalised where intended;
+   - corrected CKA uses the documented implementation;
+   - model pairs use matched IDs;
+   - current random groups preserve the documented date/size constraints;
+   - current 26-Subfield centre experiment is understood correctly.
+
+3. Specifically audit the current “26 Subfield centres” analysis and answer:
+   - Are the twenty selections twenty different Subfields-per-Field?
+   - Are article IDs inside each Subfield also resampled?
+   - Is the reported value a mean over those twenty selections or one selection?
+   - What variability is currently captured versus not captured?
+
+4. Save an audit note before starting new analyses.
+
+Do not change scientific results during this phase unless you find an actual bug.
+
+If you find a bug:
+- stop that analysis branch;
+- document it;
+- fix it transparently;
+- recompute all affected downstream results;
+- distinguish bug fixes from new robustness analyses.
+
+============================================================
+PHASE 1 — CENTRE ROBUSTNESS
+============================================================
+
+The current centre analysis uses 256 papers per centre. We need to establish whether the result depends on:
+- which particular papers are selected;
+- choosing 256 rather than another reasonable size;
+- a small number of Fields;
+- one random allocation baseline.
+
+------------------------------------------------------------
+1A. Repeated article-selection stability
+------------------------------------------------------------
+
+For each group, repeatedly select articles and rebuild the centre.
+
+Use exactly the current centre recipe:
+1. existing article embedding;
+2. article-level unit normalisation as currently defined;
+3. mean vector for the group;
+4. exactly the same corrected-CKA implementation.
+
+FIELD CENTRES
+
+Run at least 50 deterministic repeated selections with:
+
+- 26 Fields;
+- n = 256 papers per Field;
+- existing period/date composition constraints preserved;
+- identical article IDs across all embedding models for each replicate.
+
+For every replicate save:
+
+- seed;
+- selected article IDs or cryptographic selection hash;
+- centre vectors if practical;
+- all 45 model-pair corrected CKA values;
+- mean across model pairs;
+- median;
+- min/max;
+- relevant distribution summaries.
+
+Report:
+
+- median across repetitions;
+- mean;
+- 2.5th and 97.5th percentiles;
+- minimum and maximum;
+- largest deviation from the manuscript value;
+- model-pair-specific sensitivity.
+
+SUBFIELD CENTRES
+
+Repeat the same logic for the eligible Subfield panel used in the current centre analysis.
+
+Keep exactly the same set of Subfields across repetitions.
+
+Do not allow changing eligibility to create artificial stability.
+
+------------------------------------------------------------
+1B. Centre sample-size sensitivity
+------------------------------------------------------------
+
+Repeat centre construction using:
+
+n = 128
+n = 256
+n = 512
+
+Use at least 20 repeated selections per n.
+
+For Fields:
+- use the same 26 Fields.
+
+For Subfields:
+- use one common eligibility panel with sufficient articles at all three sizes;
+- preferably reuse the existing 183-Subfield common panel if scientifically compatible.
+
+Preserve date composition.
+
+Compare:
+
+- mean corrected CKA;
+- median corrected CKA;
+- distribution of the 45 model-pair values;
+- model-pair rankings;
+- repeated-selection variability.
+
+Explicitly answer:
+
+Does the conclusion that broad group-centre organisation is highly shared survive n = 128, 256 and 512?
+
+------------------------------------------------------------
+1C. Repeated matched-random baseline
+------------------------------------------------------------
+
+The existing random groups are a useful averaging control but should not rely on a single allocation.
+
+For each centre-selection design, construct at least 50 deterministic matched-random allocations.
+
+Random groups must:
+
+- use the same number of articles as observed groups;
+- preserve relevant period/date counts;
+- preserve cross-model article correspondence;
+- ignore observed Field/Subfield labels.
+
+Compute corrected CKA under exactly the same pipeline.
+
+Report distributions for:
+
+- observed Field centres;
+- random Field centres;
+- observed Subfield centres;
+- random Subfield centres.
+
+Also report:
+
+- separation between observed and random distributions;
+- whether any random allocation reaches the central observed range;
+- whether any random allocation exceeds individual observed repeats.
+
+Do NOT call this a formal null distribution unless the design genuinely supports that interpretation.
+
+Describe it as a matched averaging/reference control.
+
+------------------------------------------------------------
+1D. Leave-one-Field-out influence
+------------------------------------------------------------
+
+The Field-centre analysis has only 26 centres.
+
+For each Field:
+
+- remove it;
+- recompute corrected CKA using the remaining 25 centres;
+- do this for all 45 model pairs.
+
+Report:
+
+- full-data result;
+- range under leave-one-Field-out;
+- largest absolute change;
+- Field producing largest influence;
+- model pairs most sensitive to omission.
+
+Do not interpret this as population inference.
+
+------------------------------------------------------------
+1E. Decompose the 26-Subfield variability
+------------------------------------------------------------
+
+For the restricted “one Subfield per Field” comparison, separate:
+
+A. variability from WHICH Subfield is chosen;
+B. variability from WHICH ARTICLES are chosen inside that Subfield.
+
+Use a nested repeated design if computationally reasonable.
+
+For example:
+
+- multiple Subfield selections per Field;
+- multiple article selections inside each selected Subfield.
+
+Report these two sources separately.
+
+============================================================
+PHASE 2 — ROBUSTNESS OF THE HEADLINE NEIGHBOUR RESULT
+============================================================
+
+One of the manuscript’s main statements is that removing the abstract changes nearest neighbours about as much as changing embedding model.
+
+The existing 26k→52k repeated-selection screen does not automatically establish stability for every neighbour analysis.
+
+We therefore need a direct robustness test.
+
+------------------------------------------------------------
+2A. Repeated balanced article/candidate selections
+------------------------------------------------------------
+
+For the headline comparison:
+
+A. change embedding model while keeping title+abstract;
+B. keep model but remove abstract (title-only);
+
+run at least 50 deterministic repeated balanced selections.
+
+Preserve:
+
+- Field balance;
+- period balance;
+- matched IDs;
+- identical candidate pools for comparisons where required.
+
+For every repetition calculate:
+
+- model-change neighbour replacement;
+- title-only neighbour replacement;
+- difference:
+
+    title_only_change - model_change
+
+Do this for:
+
+k = 10
+k = 25
+k = 50
+
+Report:
+
+- grand-mean distribution;
+- Field-level distribution;
+- model-level distribution;
+- model-pair information where relevant;
+- median difference;
+- 2.5th–97.5th percentile range;
+- proportion of repetitions where the sign reverses.
+
+The goal is not to prove equivalence.
+
+The goal is to determine whether:
+
+“removing the abstract changes neighbours about as much as changing the model”
+
+is a stable descriptive statement.
+
+------------------------------------------------------------
+2B. Readout sensitivity
+------------------------------------------------------------
+
+Where compatible with the existing design, repeat the principal k=25 comparison under:
+
+- primary readout;
+- CLS;
+- SEP;
+
+for the models affected by readout choice.
+
+Do not pretend CLS/SEP create new independently trained models.
+
+Report whether the qualitative model-vs-input comparison changes.
+
+------------------------------------------------------------
+2C. If results weaken the headline
+------------------------------------------------------------
+
+If repeated selections show that:
+
+- the sign often reverses;
+- Field heterogeneity is large;
+- the grand mean hides strongly different model behaviour;
+
+then modify:
+
+- abstract;
+- Results section;
+- Discussion;
+- Conclusion;
+
+to use an appropriately qualified statement.
+
+Do not preserve wording merely because it is currently catchy.
+
+============================================================
+PHASE 3 — FULL GLOBAL-CENTRING MORPHOLOGY ROBUSTNESS
+============================================================
+
+This is potentially the most important outstanding sensitivity.
+
+The current point-control results indicate that after global centring + unit renormalisation:
+
+- angular spread retains only about 145/262 original persistent oppositions;
+- PR retains about 218/221.
+
+However, the current control is not a full repeated-selection persistence analysis.
+
+We need to run the complete persistence pipeline under global centring.
+
+------------------------------------------------------------
+3A. Define transformation
+------------------------------------------------------------
+
+Use the existing documented transformation:
+
+1. start from the balanced representation panel;
+2. subtract the global mean vector;
+3. unit-normalise the transformed article vectors again.
+
+Do not redefine this transformation.
+
+------------------------------------------------------------
+3B. Full 26-condition persistence pipeline
+------------------------------------------------------------
+
+For both:
+
+- angular spread;
+- effective linear dimension / PR;
+
+run:
+
+- primary selection;
+- twenty half samples;
+- five additional equal-size selections;
+
+using the same logic as the original Field-pair persistence analysis.
+
+For all:
+
+- 26 Fields;
+- 325 unordered Field pairs;
+- ten models.
+
+At magnitude cutoffs:
+
+0%
+1%
+5%
+10%
+
+classify each Field pair into:
+
+- all ten agree;
+- persistent opposition;
+- unresolved.
+
+------------------------------------------------------------
+3C. Compare original vs globally centred classifications
+------------------------------------------------------------
+
+Report:
+
+- original persistent oppositions;
+- globally centred persistent oppositions;
+- original oppositions that remain;
+- original oppositions that disappear;
+- original oppositions that reverse;
+- new oppositions;
+- original unanimous cases that remain;
+- cases moving to unresolved;
+- whether the same witness model pairs retain their directions.
+
+Do this separately for:
+
+- angular spread;
+- PR.
+
+Also report magnitude-cutoff behaviour.
+
+------------------------------------------------------------
+3D. Interpretation
+------------------------------------------------------------
+
+Be explicit.
+
+If angular-spread disagreement is highly dependent on global centring, manuscript wording must reflect that.
+
+Possible interpretation, only if supported:
+
+“Model-dependent Field comparisons are themselves sensitive to representation preprocessing, particularly to the choice of global origin.”
+
+Do NOT force that wording if the results imply something else.
+
+If global centring largely preserves the conclusion, state that instead.
+
+============================================================
+PHASE 4 — FULL REPEATED ALTERNATIVE-DIMENSION CHECKS
+============================================================
+
+The primary PR analysis has the full persistence pipeline.
+
+The spectral alternatives currently have fewer saved repeated-selection conditions.
+
+Bring the alternatives onto an equivalent robustness footing where computationally feasible.
+
+For effective dimension run the alternative measures already defined in the supplement, including:
+
+- entropy-based effective dimension;
+- D80;
+
+using the same:
+
+- primary sample;
+- twenty half samples;
+- five additional equal-size selections.
+
+Do not introduce new dimensionality metrics unless needed to resolve an implementation problem.
+
+For every Field pair determine:
+
+- direction under PR;
+- direction under each alternative;
+- persistence across selections;
+- whether the same opposing model witnesses retain direction.
+
+Report:
+
+- number of PR persistent oppositions;
+- number preserved by entropy dimension;
+- number preserved by D80;
+- number preserved by all alternatives;
+- magnitude-cutoff versions if meaningful under the existing protocol.
+
+Remember:
+D80 is discrete and ties must remain unresolved.
+
+Update manuscript/supplement claims about alternative-measure robustness based on the new full-coverage results.
+
+============================================================
+PHASE 5 — QUALITY / DEDUP ROBUSTNESS OF NEAREST NEIGHBOURS
+============================================================
+
+Nearest-neighbour analyses may be especially sensitive to:
+
+- duplicate versions;
+- near-duplicate text;
+- flagged records;
+- questionable source content.
+
+The repository already contains a quality-filtered/deduplicated corpus.
+
+Use the EXISTING quality rule.
+Do not invent a new cleaning rule after seeing neighbour results.
+
+Repeat the principal neighbour-agreement analyses on the quality-filtered corpus.
+
+At minimum report:
+
+k = 10
+k = 25
+k = 50
+
+for:
+
+A. original Field-period neighbour searches;
+
+B. equal-size candidate searches, e.g. 2,048 candidates, where compatible;
+
+C. the 52k input experiment if a scientifically clean matched filtered panel can be constructed.
+
+For every relevant comparison report:
+
+- original overlap/replacement;
+- quality-filtered overlap/replacement;
+- absolute percentage-point change;
+- Field-level changes;
+- model-pair changes;
+- any Fields/models disproportionately affected.
+
+Explicitly answer:
+
+Are duplicate/flagged records materially responsible for the reported neighbour disagreement?
+
+If not, say so quantitatively.
+
+If yes, revise manuscript claims accordingly.
+
+============================================================
+PHASE 6 — SUBFIELD AGGREGATE VS LOCAL STABILITY TRANSPARENCY
+============================================================
+
+The manuscript currently highlights that mean within-group CKA changes little between:
+
+128
+256
+512
+
+articles.
+
+However, the supplement reports substantial selection alerts among individual Subfield/model-pair comparisons.
+
+Audit the current number and confirm the latest value.
+
+If the existing result remains approximately:
+
+2,628 alerts / 8,235 comparisons
+
+make this distinction visible in the MAIN MANUSCRIPT.
+
+The manuscript should clearly distinguish:
+
+AGGREGATE STABILITY:
+mean CKA changes little with sample size.
+
+from:
+
+LOCAL SELECTION SENSITIVITY:
+many specific Subfield × model-pair comparisons remain sensitive to article selection.
+
+Do not present these as contradictory.
+
+This actually fits the paper’s conceptual distinction between broad structure and local detail.
+
+Add concise wording in Results and/or Discussion.
+
+Do not overload Figure 1 unless a small addition genuinely improves clarity.
+
+============================================================
+PHASE 7 — CROSS-CHECK ALL HEADLINE CLAIMS
+============================================================
+
+After all new analyses are complete, create a claim-audit table.
+
+For every major manuscript claim, record:
+
+- exact claim;
+- supporting analysis;
+- robustness checks;
+- whether new analyses:
+    STRENGTHEN
+    SUPPORT
+    QUALIFY
+    WEAKEN
+    CONTRADICT
+  the claim;
+- required manuscript change.
+
+At minimum audit:
+
+1. broad group-centre arrangement is highly shared;
+2. centre agreement exceeds averaging-only/random reference;
+3. within-group agreement is substantially lower than centre agreement;
+4. neighbour sets change substantially across models;
+5. removing the abstract matters about as much as changing model;
+6. Field-pair morphology comparisons can reverse across models;
+7. those reversals persist under article reselection;
+8. morphology conclusions survive alternative measures;
+9. morphology conclusions survive reasonable representation preprocessing;
+10. source-quality/duplicate issues do not dominate neighbour conclusions;
+11. aggregate stability does not imply local stability.
+
+============================================================
+PHASE 8 — UPDATE MANUSCRIPT AND SUPPLEMENT
+============================================================
+
+ONLY AFTER all results are frozen:
+
+Update the scientific manuscript and supplementary material.
+
+Do not merely append a “robustness” dump.
+
+Integrate results where scientifically appropriate.
+
+Likely locations include:
+
+MAIN MANUSCRIPT
+
+- Methods:
+  sampling/repeated-selection design;
+  centre robustness;
+  global-centred morphology sensitivity;
+  quality-filter neighbour sensitivity.
+
+- Figure 1 / Results 4.1:
+  centre repeated-selection and size robustness;
+  aggregate-vs-local Subfield distinction.
+
+- Results 4.2:
+  quality-filter neighbour results if relevant.
+
+- Results 4.3:
+  repeated-selection robustness of model-vs-input neighbour result.
+
+- Results 4.4:
+  full global-centering persistence;
+  full alternative-dimensionality persistence.
+
+- Discussion:
+  explicitly discuss any newly demonstrated sensitivities.
+
+- Abstract:
+  change only if a headline conclusion changes materially.
+
+- Conclusion:
+  maintain consistency with actual robustness results.
+
+SUPPLEMENT
+
+Add detailed:
+- sample designs;
+- seeds;
+- full distributions;
+- tables;
+- additional figures;
+- control descriptions;
+- exact result counts.
+
+Do not move a materially adverse result only to the supplement if it qualifies a headline claim.
+
+============================================================
+PHASE 9 — FIGURES
+============================================================
+
+Add only figures that materially improve communication.
+
+Strong candidates:
+
+FIGURE A
+Centre corrected CKA versus centre sample size:
+128 / 256 / 512
+
+Show repeated-selection distribution/range.
+
+FIGURE B
+Observed vs matched-random centre CKA distributions.
+
+FIGURE C, supplementary if needed
+Original vs globally centred Field-pair classification counts.
+
+FIGURE D, supplementary if needed
+Repeated distribution of:
+title-only neighbour change minus model-change neighbour change.
+
+Avoid figure proliferation.
+
+============================================================
+PHASE 10 — AUTHOR-FACING RESULTS REPORT
+============================================================
+
+Create a separate Markdown file, e.g.:
+
+ROBUSTNESS_CLOSURE_REPORT.md
+
+This file is for the author, NOT journal prose.
+
+Make it readable and candid.
+
+Start with:
+
+# Executive conclusion
+
+Answer:
+
+1. Did any new robustness test materially weaken the paper?
+2. Did any headline result fail?
+3. Does the current paper remain defensible for QSS?
+4. Which claims changed wording?
+5. Are there any unresolved robustness issues important enough to block submission?
+
+Then use one section per robustness issue.
+
+For each issue provide:
+
+## Question
+
+What potential weakness were we testing?
+
+## What we did
+
+Exact design.
+
+## Result
+
+Actual numbers.
+
+## Interpretation
+
+Plain-English explanation.
+
+## Impact on manuscript
+
+- no change;
+- minor qualification;
+- material qualification;
+- claim removed;
+- claim strengthened.
+
+## Files changed
+
+List relevant outputs and manuscript source files.
+
+============================================================
+PHASE 11 — CHANGELOG
+============================================================
+
+Create:
+
+ROBUSTNESS_MANUSCRIPT_CHANGELOG.md
+
+For every manuscript modification record:
+
+- section;
+- previous claim;
+- new claim;
+- reason;
+- supporting new result.
+
+This is especially important if:
+
+- the abstract changes;
+- Figure 1 changes;
+- the model-vs-input conclusion changes;
+- morphology wording changes.
+
+============================================================
+PHASE 12 — FINAL SCIENTIFIC AUDIT
+============================================================
+
+Before declaring completion:
+
+1. Rebuild the main PDF and supplement from source.
+
+2. Verify every number in:
+   - abstract;
+   - main text;
+   - figure labels;
+   - figure captions;
+   - tables;
+   - supplement;
+   against machine-readable results.
+
+3. Search for stale numbers from previous analyses.
+
+4. Search for unsupported language such as:
+   - proves
+   - validates
+   - unbiased
+   - true structure
+   - statistically significant
+   unless explicitly justified.
+
+5. Confirm that:
+   - centre sample sizes are correctly described;
+   - repetitions are not called independent if they overlap;
+   - random references are not called formal nulls;
+   - sensitivity ranges are not confidence intervals;
+   - global centring is described as a changed representation;
+   - D80 ties remain unresolved;
+   - all model panels are correctly identified.
+
+6. Run manuscript consistency checks.
+
+7. Confirm that main and supplement compile cleanly.
+
+============================================================
+FINAL RESPONSE TO ME
+============================================================
+
+When everything is finished, do NOT just say “done”.
+
+Return a concise but substantive summary with:
+
+A. CENTRES
+- old result;
+- repeated-selection result;
+- n=128/256/512 result;
+- random baseline result;
+- leave-one-Field-out result.
+
+B. HEADLINE INPUT VS MODEL RESULT
+- stability across repeats;
+- k10/k25/k50;
+- whether wording changed.
+
+C. GLOBAL CENTRING
+- original angular opposition count;
+- globally centred count;
+- retention;
+- PR result;
+- whether morphology interpretation changed.
+
+D. DIMENSIONALITY ALTERNATIVES
+- PR vs entropy vs D80 persistence.
+
+E. QUALITY / DEDUP
+- effect on neighbour agreement.
+
+F. SUBFIELD STABILITY
+- aggregate stability;
+- local alert rate;
+- how manuscript now describes this distinction.
+
+G. CLAIMS THAT CHANGED
+List every substantive wording/conclusion change.
+
+H. SUBMISSION READINESS
+Choose one:
+
+READY
+READY WITH MINOR CAVEATS
+NOT READY
+
+Do not base this label on publication probability.
+Base it solely on whether there is a remaining methodological/robustness issue that should be fixed before submission.
+
+If NOT READY, specify the exact blocker.
+
+Finally give me links/paths to:
+
+- updated main manuscript PDF;
+- updated supplement PDF;
+- ROBUSTNESS_CLOSURE_REPORT.md;
+- ROBUSTNESS_MANUSCRIPT_CHANGELOG.md;
+- main machine-readable robustness result directories.
+
+============================================================
+STOPPING RULE
+============================================================
+
+Once these analyses are completed and integrated:
+
+DO NOT invent further robustness analyses simply because more tests are possible.
+
+Only recommend another experiment if one of the requested analyses reveals a specific unresolved methodological problem capable of changing a headline conclusion.
+
+The goal is to reach a defensible frozen manuscript, not an infinite robustness loop.

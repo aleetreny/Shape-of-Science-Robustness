@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-18T16:21:06.713594+00:00",
+  "complete": true,
+  "method": "Visual inspection of every page rendered at 90 dpi in four-page contact sheets; individual figure previews and enlarged final pages for the model table and full Field-pair matrix.",
+  "documents": {
+    "main": {
+      "sha256": "ac00e2e32c998a4af40492cce02314bc97b736fb3ebe9ec54d7049a9e2026154",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "contact_sheets_viewed": [
+        "tmp/pdfs/final_main_sheet_01.png",
+        "tmp/pdfs/final_main_sheet_02.png",
+        "tmp/pdfs/final_main_sheet_03.png",
+        "tmp/pdfs/final_main_sheet_04.png"
+      ],
+      "result": "No clipping, overlap or orphan section headings found in final rendered pages."
+    },
+    "supplement": {
+      "sha256": "10e64fae2124d0efcff7b4e92f03361ef51122c813b016b0517cdd59def0200b",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "contact_sheets_viewed": [
+        "tmp/pdfs/final_supplement_sheet_01.png",
+        "tmp/pdfs/final_supplement_sheet_02.png",
+        "tmp/pdfs/final_supplement_sheet_03.png",
+        "tmp/pdfs/final_supplement_sheet_04.png",
+        "tmp/pdfs/final_supplement_sheet_05.png",
+        "tmp/pdfs/final_supplement_sheet_06.png",
+        "tmp/pdfs/final_supplement_sheet_07.png",
+        "tmp/pdfs/final_supplement_sheet_08.png"
+      ],
+      "result": "No clipping, overlap or orphan section headings found in final rendered pages."
+    }
+  },
+  "corrections_before_final_review": [
+    "Wrapped checkpoint labels and constrained table widths",
+    "Restored clipped temporal legend",
+    "Escaped a percent character that suppressed a stability note",
+    "Kept both contents lists to one page and section headings with their contents"
+  ],
+  "interpretation": "Presentation review, not scientific validation or final journal compliance."
+}

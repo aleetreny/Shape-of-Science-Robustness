@@ -1,0 +1,21 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Descriptive model-trait fits and identifiability.}\label{tab:S11}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.5cm}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{1.8cm}>{\raggedright\arraybackslash}p{4.3cm}@{}}
+\toprule
+\textbf{Outcome} & \textbf{Rank} & \textbf{Condition no.} & \textbf{R squared} & \textbf{Unidentified coefficients after omission} \\
+\midrule
+CKA / primary & 7/7 & 7.91 & 0.741 & 0 \\
+CKA / 2,048 articles & 7/7 & 7.91 & 0.741 & 0 \\
+CKA / quality filter & 7/7 & 7.91 & 0.752 & 0 \\
+CKA / CLS & 7/7 & 18.59 & 0.459 & 14 \\
+CKA / SEP & 7/7 & 8.33 & 0.258 & 7 \\
+Neighbours k25 / mean & 7/7 & 7.91 & 0.759 & 0 \\
+Neighbours k25 / CLS & 7/7 & 18.59 & 0.507 & 14 \\
+Neighbours k25 / SEP & 7/7 & 8.33 & 0.442 & 7 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Ten fixed models yield 45 overlapping pairs. R squared describes these pairs, not predictive validity. The final column counts unavailable coefficient rows across the ten leave-one-model checks, not independent models or tests. In the SEP design, omitting SimCSE makes coefficients non-identifiable; those values remain missing. Architecture, lineage, final corpus, objective, domain and readout are correlated traits. Full trait definitions, source URLs, coefficients, pair-label permutation references and omissions accompany this table. No causal training effect is claimed.\par}

@@ -1,0 +1,89 @@
+[
+  {
+    "type": "doi",
+    "entry_type": "article",
+    "doi": "10.1007/s11222-007-9033-z",
+    "title": "A tutorial on spectral clustering",
+    "authors": "von Luxburg, Ulrike",
+    "editors": "",
+    "year": "2007",
+    "journal": "Statistics and Computing",
+    "volume": "17",
+    "issue": "4",
+    "pages": "395-416",
+    "publisher": "Springer Science and Business Media LLC",
+    "isbn": "",
+    "issn": "0960-3174",
+    "url": "https://doi.org/10.1007/s11222-007-9033-z",
+    "citation_key": "vonLuxburg2007tutorial",
+    "bibtex": "@article{vonLuxburg2007tutorial,\n  author  = {von Luxburg, Ulrike},\n  title   = {A tutorial on spectral clustering},\n  journal = {Statistics and Computing},\n  year    = {2007},\n  volume  = {17},\n  number  = {4},\n  pages   = {395--416},\n  doi     = {10.1007/s11222-007-9033-z},\n  issn    = {0960-3174}\n}"
+  },
+  {
+    "type": "doi",
+    "entry_type": "article",
+    "doi": "10.1038/s41598-019-53549-9",
+    "title": "Intrinsic dimension estimation for locally undersampled data",
+    "authors": "Erba, Vittorio and Gherardi, Marco and Rotondo, Pietro",
+    "editors": "",
+    "year": "2019",
+    "journal": "Scientific Reports",
+    "volume": "9",
+    "issue": "1",
+    "pages": "",
+    "publisher": "Springer Science and Business Media LLC",
+    "isbn": "",
+    "issn": "2045-2322",
+    "url": "https://doi.org/10.1038/s41598-019-53549-9",
+    "citation_key": "Erba2019intrinsic",
+    "bibtex": "@article{Erba2019intrinsic,\n  author  = {Erba, Vittorio and Gherardi, Marco and Rotondo, Pietro},\n  title   = {Intrinsic dimension estimation for locally undersampled data},\n  journal = {Scientific Reports},\n  year    = {2019},\n  volume  = {9},\n  number  = {1},\n  doi     = {10.1038/s41598-019-53549-9},\n  issn    = {2045-2322}\n}"
+  },
+  {
+    "label": "isoscore",
+    "source": "https://aclanthology.org/2022.findings-acl.262.bib",
+    "status": "official BibTeX verified format"
+  },
+  {
+    "label": "rolle",
+    "source": "https://www.jmlr.org/papers/v25/21-1185.bib",
+    "status": "official BibTeX verified format"
+  },
+  {
+    "label": "hubness",
+    "source": "https://www.jmlr.org/papers/v11/radovanovic10a.bib",
+    "status": "official BibTeX verified format"
+  },
+  {
+    "label": "roy",
+    "source": "https://zenodo.org/records/40328/export/bibtex",
+    "status": "official BibTeX verified format"
+  },
+  {
+    "label": "local_scale",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Bibtex.bib",
+    "status": "official BibTeX verified format"
+  },
+  {
+    "type": "doi",
+    "entry_type": "article",
+    "doi": "10.1073/pnas.0605965104",
+    "title": "Resolution limit in community detection",
+    "authors": "Fortunato, Santo and Barthélemy, Marc",
+    "editors": "",
+    "year": "2007",
+    "journal": "Proceedings of the National Academy of Sciences",
+    "volume": "104",
+    "issue": "1",
+    "pages": "36-41",
+    "publisher": "National Academy of Sciences",
+    "isbn": "",
+    "issn": "0027-8424",
+    "url": "https://doi.org/10.1073/pnas.0605965104",
+    "citation_key": "Fortunato2007resolution",
+    "bibtex": "@article{Fortunato2007resolution,\n  author  = {Fortunato, Santo and Barthélemy, Marc},\n  title   = {Resolution limit in community detection},\n  journal = {Proceedings of the National Academy of Sciences},\n  year    = {2007},\n  volume  = {104},\n  number  = {1},\n  pages   = {36--41},\n  doi     = {10.1073/pnas.0605965104},\n  issn    = {0027-8424}\n}"
+  },
+  {
+    "label": "Kleinberg",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2002/file/43e4e6a6f341e00671e123714de019a8-Bibtex.bib",
+    "status": "official BibTeX; pages empty in export"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "version": "field_pairs_v1",
+  "date": "2026-09-18",
+  "authorization": "User accepts the final 325-pair summary using saved results before organizing the manuscript.",
+  "parent": "data/morphology_pilot_v1/metrics.parquet",
+  "primary_metrics": ["angle_p50", "pr"],
+  "alternatives": {"angle_p50": ["angle_p10", "angle_p90", "center_angle_p50"], "pr": ["erank", "d80"]},
+  "relative_difference": "2*(B-A)/(A+B)",
+  "relative_tolerance": 1e-10,
+  "minimum_relative_differences": [0.0, 0.01, 0.05, 0.10],
+  "primary_repeats": {"primary": [0], "half": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19], "external": [0,1,2,3,4]},
+  "alternative_repeats": {"angle_p50": "all_primary_repeats", "pr": {"primary": [0], "half": [0], "external": [0]}},
+  "models": ["specter","specter2","scincl","scibert","bert","mpnet","minilm","pubmedbert","biobert","simcse"],
+  "word_bert_models": ["bert","scibert","biobert","pubmedbert"],
+  "similarity_models": ["specter","specter2","scincl","mpnet","minilm","simcse"],
+  "controls": [
+    {"condition":"title", "reference":"half"},
+    {"condition":"abstract", "reference":"half"},
+    {"condition":"pool_cls", "reference":"half"},
+    {"condition":"pool_sep", "reference":"half"},
+    {"condition":"common", "reference":"common_native"},
+    {"condition":"global_centered", "reference":"half"},
+    {"condition":"quality", "reference":"half"},
+    {"condition":"trim_extreme", "reference":"trim_random"},
+    {"condition":"minilm512", "reference":"primary"},
+    {"condition":"size500", "reference":"primary"},
+    {"condition":"size4000", "reference":"primary"}
+  ],
+  "class_rule": "all models persistent same sign => unanimous; at least one persistent positive and one negative => contradiction; remaining => unresolved",
+  "interpretation": "Descriptive finite-panel persistence, not confidence intervals, semantic accuracy, or independent model/field observations."
+}

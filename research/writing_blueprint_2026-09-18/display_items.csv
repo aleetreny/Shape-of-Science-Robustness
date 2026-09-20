@@ -1,0 +1,17 @@
+item,title,after_paragraph,source,status,scope
+Table 1,Corpus and analytical panels,M12,research/writing_blueprint_2026-09-18/table1_panels.csv,Prepared content; journal typesetting pending,main
+Table 2,Embedding models and primary representation settings,M21,research/writing_blueprint_2026-09-18/table2_models.csv,Prepared content; full hashes in supplementary table,main
+Figure 1,Agreement between group centres and within groups,R12,reports/robustness_v2/final/figures/02_scales.pdf,Existing figure; final numbering and caption pending,main
+Figure 2,Neighbour agreement in matched Field and Subfield searches,R22,reports/robustness_v2/final/figures/03_paired_neighbors.pdf,Existing figure; final numbering and caption pending,main
+Figure 3,Changes associated with the encoder and text input,R32,reports/robustness_v2/final/figures/01_input_effect.pdf,Existing figure; final numbering and caption pending,main
+Figure 4,"Persistence, reversal and magnitude of field comparisons",R42,reports/field_pair_summary_v1/01_conclusions_and_magnitude.pdf,Existing figure; Spanish labels require English presentation copy,main
+Figure S1,Input stability alerts,S3.4,reports/robustness_v2/final/figures/07_input_alerts.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S2,Subfield persistence,S4.3,reports/prepaper_v1/figures/01_subfield_persistence.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S3,Dependence of specific relations,S4.3,reports/prepaper_v1/figures/02_relation_dependence.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S4,Time and candidate controls,S5.1,reports/robustness_v2/final/figures/04_time_controls.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S5,Medicine and composition,S5.2,reports/robustness_v2/final/figures/05_medicine_composition.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S6,Pooling and model families,S5.3,reports/robustness_v2/final/figures/06_recipe_families.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S7,Sample size and geometric properties,S6.2,reports/morphology_pilot_v1/03_sample_size.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S8,Control rank agreement,S6.3,reports/morphology_pilot_v1/05_control_rank_agreement.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S9,Counterexamples to fragmentation,S6.4,reports/morphology_pilot_v1/04_fragmentation_counterexamples.pdf,Existing base; supplementary layout not yet produced,supplement
+Figure S10,All field-pair comparisons,S7.1,reports/field_pair_summary_v1/02_all_field_pairs.pdf,Existing base; supplementary layout not yet produced,supplement

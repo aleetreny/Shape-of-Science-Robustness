@@ -1,0 +1,63 @@
+{
+  "completed_at": "2026-09-20T15:59:08.645781+00:00",
+  "all_complete": true,
+  "comments_applied": 38,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "protected_files_verified": 491,
+  "previous_files_archived": 24,
+  "documents": {
+    "en": {
+      "path": "output/pdf/main.pdf",
+      "pages": 21,
+      "sha256": "4c71dc968d6b53ea222489c5594ec3688d996d2a58851c71906b2900974f8dfc",
+      "abstract_words": 200,
+      "body_words": 5412
+    },
+    "es": {
+      "path": "output/pdf/es/main.pdf",
+      "pages": 22,
+      "sha256": "9d17fa5a4015d5329135d487d031757bbee3dd3bc4825d319894c40c8a7937bc",
+      "abstract_words": 240,
+      "body_words": 6090
+    }
+  },
+  "bilingual_numeric_blocks": 66,
+  "percentage_conversions_verified": 24,
+  "visual_review_pages": 43,
+  "portable_packages": {
+    "en": {
+      "path": "output/manuscript_source.zip",
+      "sha256": "a036afdd2be15cc4675b7aac888c0e04d423dada26b08f2098a817676a43c5ba",
+      "files": 226,
+      "both_PDFs_reproduced_exactly": true
+    },
+    "es": {
+      "path": "output/manuscript_source_es.zip",
+      "sha256": "d57900ab9e37258134534e1fc2d91329e077a564bee2f789e070db8bcb3b4e40",
+      "files": 230,
+      "both_PDFs_reproduced_exactly": true
+    }
+  },
+  "unchanged": [
+    "scientific programs and saved result tables",
+    "all figure assets",
+    "bibliography sources and citations",
+    "supplement sources and PDFs",
+    "title"
+  ],
+  "authorised_declaration_change": "AI-use section and its cross-reference removed from both draft articles at author request; all other declaration text preserved. Genuine work history retained. Requirements to be checked before submission.",
+  "new_experiments": false,
+  "publication_submission_or_push": false,
+  "author_final_approval": false,
+  "evidence_sha256": {
+    "text_audit.json": "fb80adfb7af2c0eaae0ecd0a9a873f6ce21e6a33921d185ece082fe2d5f59383",
+    "numeric_audit.json": "58ce3e187bbc2d16862e2ef4fca945af08b58779d9e248ccff7ea2ca39d68c64",
+    "render_manifest.json": "4eef52dc240be08ddbaa6159559ad277dc00a8a5afd6dcb20f420493d8dcf803",
+    "visual_review.json": "3f1c7430e03f61a01738839f55f3a1154ab48e1dcc30b1ffcb2fd734aac09a29",
+    "portable_source_audit.json": "a98f3896b99e7820f55029c0739dfc54531bd84e5eee77d9eb1d57e6856894a0",
+    "comment_coverage.json": "faaee86a962a4fd4ab5d1b5902d37a756bb7e1e4a284798e7db6d9d83d552637"
+  }
+}

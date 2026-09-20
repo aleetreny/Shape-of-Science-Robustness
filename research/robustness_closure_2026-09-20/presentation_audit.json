@@ -1,0 +1,87 @@
+{
+  "completed_at": "2026-09-20T13:49:41.552290+00:00",
+  "passed": true,
+  "protected_files": 446,
+  "archived_files": 452,
+  "scientific_branches": {
+    "centres": {
+      "files": 205,
+      "audit_sha256": "46569aecef8567bc89de1d6ed9b88fe8f5650ded5205d319862f0b68bcbd8790"
+    },
+    "headline": {
+      "files": 213,
+      "audit_sha256": "06f0142e876a63cca92636a80650081dde883886c0131ad851711c73a442cd7d"
+    },
+    "morphology": {
+      "files": 552,
+      "audit_sha256": "6fce2f8da7a2fae47dedf245bd791b2d025aea63c46e6bea612a6fc0f00bd632"
+    },
+    "quality": {
+      "files": 2749,
+      "audit_sha256": "743fa77519f242274981c9bc61a0d68603815e9c1408521fc473cd46a70994a8"
+    },
+    "summary": {
+      "files": 1,
+      "audit_sha256": "9c5fbdf93f042a053ffbd220f272edacb40ad96e7813a7d1611399854fc0e36d"
+    }
+  },
+  "inherited_claim_source_checks": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E23"
+  ],
+  "source_attachments_verified": 246,
+  "new_typeset_numeric_rows_checked": 50,
+  "claim_checks": {
+    "claims": 11,
+    "old_partial_counts_absent_from_main": true,
+    "inference_limits_explicit": true,
+    "remaining_heritage_numbers": "Unchanged results and tables retain their frozen sources and the checked claim/evidence register; new cells and plotted summaries checked separately above."
+  },
+  "scientific_recomputation": false,
+  "publication_or_deposit": false,
+  "pdf_pages": 122,
+  "pdf_documents": {
+    "en_main": {
+      "pages": 20,
+      "sha256": "179764c668402086f6b3a9d03436101e424a93a1b13d417d13ca98c1a555cccc",
+      "body_words": 4570,
+      "abstract_words": 192
+    },
+    "es_main": {
+      "pages": 22,
+      "sha256": "663f7cca35e7e407a17c9c0163b84e157182b29de6d664dfe83904d1d75a199e",
+      "body_words": 5249,
+      "abstract_words": 196
+    },
+    "en_supplement": {
+      "pages": 39,
+      "sha256": "a5bcc19e90156378325139f0dcca5edf7e35c6951ee40b98b21389e1651350fc"
+    },
+    "es_supplement": {
+      "pages": 41,
+      "sha256": "4d929a630183257d8c4a4013edee01ba665acd0b4b31ccdec9a7b084d5423bd1"
+    }
+  },
+  "csv_files_bilingually_identical": 129
+}

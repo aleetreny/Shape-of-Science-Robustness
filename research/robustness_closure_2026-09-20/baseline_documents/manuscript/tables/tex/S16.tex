@@ -1,0 +1,24 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Point controls: retention of the original opposing models.}\label{tab:S16}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{3.35cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}@{}}
+\toprule
+\textbf{Control} & \textbf{Matched reference} & \textbf{Models changed} & \textbf{Spread retained} & \textbf{PR retained} \\
+\midrule
+Title only & half & 10 & 246/262 & 193/221 \\
+Abstract only & half & 10 & 262/262 & 221/221 \\
+Word BERTs: CLS & half & 4 & 253/262 & 210/221 \\
+Word BERTs: SEP & half & 4 & 257/262 & 201/221 \\
+Common fragment & common\_native & 10 & 262/262 & 216/221 \\
+Global centring & half & 10 & 145/262 & 218/221 \\
+Quality flags & half & 10 & 262/262 & 221/221 \\
+Extreme-point removal & trim\_random & 10 & 262/262 & 221/221 \\
+MiniLM 512 & primary & 1 & 262/262 & 221/221 \\
+n = 500 & primary & 10 & 262/262 & 219/221 \\
+n = 4,000 & primary & 10 & 262/262 & 221/221 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Numerators retain the same original model pair with its original signs in both matched reference and variant. Denominators are the original persistent oppositions (262 angular spread; 221 PR). Values are not new 26-condition stability tests. The common fragment uses its own matched panel; extreme-point removal compares with random removal at equal size. Quality/extreme/size controls change IDs as specified; other matched controls retain IDs. All magnitudes and all 7,150 point pair records are included.\par}

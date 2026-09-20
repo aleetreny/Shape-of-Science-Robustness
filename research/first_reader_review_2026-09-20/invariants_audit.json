@@ -1,0 +1,33 @@
+{
+  "documents": {
+    "en": {
+      "declarations_unchanged": true,
+      "citation_order_unchanged": true,
+      "math_unchanged": true,
+      "all_written_numeric_values_present_in_baseline": true,
+      "new_source_sha256": "4395b2ccbd2099177996056bfec69f7b6879daae6799f7242b5953ba1b2ea233"
+    },
+    "es": {
+      "declarations_unchanged": true,
+      "citation_order_unchanged": true,
+      "math_unchanged": true,
+      "all_written_numeric_values_present_in_baseline": true,
+      "new_source_sha256": "3e97c4ec259f9eec12848be5ebbab168e2ea5fe8e1ee290f4bbb9a64c7951a03"
+    }
+  },
+  "tables": {
+    "en/T01": {
+      "all_numeric_tokens_and_citations_unchanged": true
+    },
+    "en/T02": {
+      "all_numeric_tokens_and_citations_unchanged": true
+    },
+    "es/T01": {
+      "all_numeric_tokens_and_citations_unchanged": true
+    },
+    "es/T02": {
+      "all_numeric_tokens_and_citations_unchanged": true
+    }
+  },
+  "new_scientific_values": false
+}

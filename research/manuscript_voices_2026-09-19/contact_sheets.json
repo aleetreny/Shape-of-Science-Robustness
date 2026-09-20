@@ -1,0 +1,299 @@
+{
+  "v1_en": [
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_en_01.jpg",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_en_02.jpg",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_en_03.jpg",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_en_04.jpg",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_en_05.jpg",
+      "pages": [
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "v1_es": [
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_es_01.jpg",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_es_02.jpg",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_es_03.jpg",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_es_04.jpg",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_es_05.jpg",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v1_es_06.jpg",
+      "pages": [
+        21
+      ]
+    }
+  ],
+  "v2_en": [
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_en_01.jpg",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_en_02.jpg",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_en_03.jpg",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_en_04.jpg",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_en_05.jpg",
+      "pages": [
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "v2_es": [
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_es_01.jpg",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_es_02.jpg",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_es_03.jpg",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_es_04.jpg",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_es_05.jpg",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v2_es_06.jpg",
+      "pages": [
+        21
+      ]
+    }
+  ],
+  "v3_en": [
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_en_01.jpg",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_en_02.jpg",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_en_03.jpg",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_en_04.jpg",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_en_05.jpg",
+      "pages": [
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "v3_es": [
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_es_01.jpg",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_es_02.jpg",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_es_03.jpg",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_es_04.jpg",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_es_05.jpg",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "path": "tmp/pdfs/voices/sheets/v3_es_06.jpg",
+      "pages": [
+        21
+      ]
+    }
+  ]
+}

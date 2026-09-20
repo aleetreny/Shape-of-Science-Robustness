@@ -1,0 +1,140 @@
+{
+  "all_verified": true,
+  "archives": [
+    {
+      "archive": "analysis_ready_v1.zip",
+      "files": 1,
+      "bytes": 44681504,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "analysis_v1.zip",
+      "files": 11455,
+      "bytes": 4660361783,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "checklist_v1.zip",
+      "files": 3502,
+      "bytes": 4163451981,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_bert.zip",
+      "files": 2449,
+      "bytes": 4354753976,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_biobert.zip",
+      "files": 2449,
+      "bytes": 4349008141,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_minilm.zip",
+      "files": 1471,
+      "bytes": 778753906,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_mpnet.zip",
+      "files": 1471,
+      "bytes": 1493222345,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_pubmedbert.zip",
+      "files": 2449,
+      "bytes": 4355136633,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_scibert.zip",
+      "files": 2449,
+      "bytes": 4353369913,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_scincl.zip",
+      "files": 1471,
+      "bytes": 1489515013,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_simcse.zip",
+      "files": 1471,
+      "bytes": 1493862235,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_source_snapshot.zip",
+      "files": 9,
+      "bytes": 15851,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_specter.zip",
+      "files": 1471,
+      "bytes": 1491500821,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "embeddings_specter2.zip",
+      "files": 1471,
+      "bytes": 1492954779,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "field_pair_summary_v1.zip",
+      "files": 10,
+      "bytes": 3351676,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "morphology_pilot_v1.zip",
+      "files": 79,
+      "bytes": 12262219,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "prepaper_v1.zip",
+      "files": 27,
+      "bytes": 5072276,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "robustness_closure_v1.zip",
+      "files": 3773,
+      "bytes": 7021431917,
+      "sha256_verified": true,
+      "all_members_verified": true
+    },
+    {
+      "archive": "robustness_v2.zip",
+      "files": 20723,
+      "bytes": 9581274574,
+      "sha256_verified": true,
+      "all_members_verified": true
+    }
+  ],
+  "files": 58201,
+  "bytes": 51143981543
+}

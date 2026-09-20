@@ -1,0 +1,75 @@
+{
+  "en_main": {
+    "pdf": "output/pdf/main.pdf",
+    "sha256": "4c71dc968d6b53ea222489c5594ec3688d996d2a58851c71906b2900974f8dfc",
+    "pages": 21,
+    "renders": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-01.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-02.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-03.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-04.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-05.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-06.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-07.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-08.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-09.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-10.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-11.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-12.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-13.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-14.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-15.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-16.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-17.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-18.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-19.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-20.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/page-21.png"
+    ],
+    "sheets": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/sheet-01.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/sheet-02.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/sheet-03.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/sheet-04.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/sheet-05.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/en_main/sheet-06.jpg"
+    ]
+  },
+  "es_main": {
+    "pdf": "output/pdf/es/main.pdf",
+    "sha256": "9d17fa5a4015d5329135d487d031757bbee3dd3bc4825d319894c40c8a7937bc",
+    "pages": 22,
+    "renders": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-01.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-02.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-03.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-04.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-05.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-06.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-07.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-08.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-09.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-10.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-11.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-12.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-13.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-14.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-15.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-16.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-17.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-18.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-19.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-20.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-21.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/page-22.png"
+    ],
+    "sheets": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/sheet-01.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/sheet-02.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/sheet-03.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/sheet-04.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/sheet-05.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/explanations_review/es_main/sheet-06.jpg"
+    ]
+  }
+}

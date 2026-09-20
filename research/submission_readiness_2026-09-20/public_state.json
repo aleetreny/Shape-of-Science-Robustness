@@ -1,0 +1,20 @@
+{
+  "url": "https://github.com/aleetreny/Shape-of-Science-Robustness",
+  "private": false,
+  "head": "44c941019ecc34417641929ada97da79bf12fe58",
+  "committed_at": "2026-09-17T21:23:13Z",
+  "license": null,
+  "tree_truncated": false,
+  "tracked_files": 852,
+  "important_paths": {
+    "manuscript/main.tex": false,
+    "sos_morphology/run.py": false,
+    "sos_pair_summary/analyze.py": false,
+    "sos_closure/morphology.py": false,
+    "sos_closure/centres.py": false,
+    "sos_closure/headline.py": false,
+    "sos_closure/quality.py": false,
+    "LICENSE": false,
+    "CITATION.cff": false
+  }
+}

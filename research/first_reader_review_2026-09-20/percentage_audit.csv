@@ -1,0 +1,25 @@
+description,numerator,denominator,percent,source
+"angle_p50, minimum difference 0.0, contradiction",262,325,80.6,reports/robustness_closure_v1/morphology_classification.csv
+"angle_p50, minimum difference 0.0, unanimous",42,325,12.9,reports/robustness_closure_v1/morphology_classification.csv
+"angle_p50, minimum difference 0.0, unresolved",21,325,6.5,reports/robustness_closure_v1/morphology_classification.csv
+"angle_p50, minimum difference 0.05, contradiction",96,325,29.5,reports/robustness_closure_v1/morphology_classification.csv
+"angle_p50, minimum difference 0.1, contradiction",19,325,5.8,reports/robustness_closure_v1/morphology_classification.csv
+"pr, minimum difference 0.0, contradiction",221,325,68.0,reports/robustness_closure_v1/morphology_classification.csv
+"pr, minimum difference 0.0, unanimous",54,325,16.6,reports/robustness_closure_v1/morphology_classification.csv
+"pr, minimum difference 0.0, unresolved",50,325,15.4,reports/robustness_closure_v1/morphology_classification.csv
+"pr, minimum difference 0.05, contradiction",177,325,54.5,reports/robustness_closure_v1/morphology_classification.csv
+"pr, minimum difference 0.1, contradiction",126,325,38.8,reports/robustness_closure_v1/morphology_classification.csv
+centred angular opposition,151,325,46.5,reports/robustness_closure_v1/morphology_classification.csv
+same angular opposing pair under alternatives,225,262,85.9,reports/robustness_closure_v1/model_panel_summary_full_alternatives.csv
+"six models, angle_p50",231,325,71.1,reports/robustness_closure_v1/model_panel_summary_full_alternatives.csv
+"six models, pr",160,325,49.2,reports/robustness_closure_v1/model_panel_summary_full_alternatives.csv
+PR opposition retained by erank,209,221,94.6,reports/robustness_closure_v1/dimension_alternative_retention.csv
+PR opposition retained by d80,190,221,86.0,reports/robustness_closure_v1/dimension_alternative_retention.csv
+PR opposition retained by both,190,221,86.0,reports/robustness_closure_v1/dimension_alternative_retention.csv
+"same opposing pair after centring, angle_p50",128,262,48.9,reports/robustness_closure_v1/morphology_centering_summary.csv
+"same opposing pair after centring, pr",204,221,92.3,reports/robustness_closure_v1/morphology_centering_summary.csv
+PR half-sample alerts,4,260,1.5,reports/morphology_pilot_v1/selection_stability.csv
+scope lower,127,217,58.5,baseline/manuscript/main.tex
+scope higher,90,217,41.5,baseline/manuscript/main.tex
+input pilot alerts,72,520,13.8,baseline/manuscript/main.tex
+input expanded alerts,5,520,1.0,baseline/manuscript/main.tex

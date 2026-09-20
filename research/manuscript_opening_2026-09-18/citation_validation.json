@@ -1,0 +1,35 @@
+{
+  "filepath": "data/manuscript_opening_v1/cited_references.bib",
+  "total_entries": 17,
+  "valid_entries": 17,
+  "errors": [],
+  "warnings": [],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": true,
+    "manuscript_filepath": "data/manuscript_opening_v1/validation_flattened.tex",
+    "cited_keys": [
+      "singh-singh-2022-inefficiency",
+      "ref6da178065c",
+      "reimers-gurevych-2019-sentence",
+      "gao-etal-2021-simcse",
+      "cohan-etal-2020-specter",
+      "reff9ebfb9307",
+      "singh-etal-2023-scirepeval",
+      "devlin-etal-2019-bert",
+      "beltagy-etal-2019-scibert",
+      "ref4f3e28932e",
+      "ref4e1e0d5582",
+      "ref6a2f5912bc",
+      "refbe130e2973",
+      "ostendorff-etal-2022-neighborhood",
+      "refa0d2d707e6",
+      "QSSreviewQ17",
+      "refc0e2cc29e0"
+    ],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

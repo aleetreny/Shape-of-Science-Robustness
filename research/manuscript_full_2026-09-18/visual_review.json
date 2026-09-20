@@ -1,0 +1,421 @@
+{
+  "created_at": "2026-09-18T17:28:29.039784+00:00",
+  "method": "Visual inspection of every final pdftoppm-rendered page using 2x2 sheets, with earlier individual-page and full-figure inspection. Automated text checks were separate.",
+  "render_dpi": 105,
+  "documents": {
+    "main": {
+      "pdf": "output/pdf/main.pdf",
+      "sha256": "48f925977d292c4c703250cf98d3cf2483a8bd0ed2a8cc5a29c9236528e6e914",
+      "all_pages_inspected": true,
+      "pages": [
+        {
+          "page": 1,
+          "render": "tmp/pdfs/delivered_review/main/page-01.png",
+          "render_sha256": "9c0babf7deeef4619792a58ebafba916358d714cc0cbf9742b84996775dff07a",
+          "note": "Cover, author, 190-word abstract and opening: clear; no placeholders."
+        },
+        {
+          "page": 2,
+          "render": "tmp/pdfs/delivered_review/main/page-02.png",
+          "render_sha256": "c8ed6733ca8c20c11ebc56e973aa60198fbb2296becc0057a1374e5129f284a0",
+          "note": "Introduction and background: continuous text, readable headings."
+        },
+        {
+          "page": 3,
+          "render": "tmp/pdfs/delivered_review/main/page-03.png",
+          "render_sha256": "e62ed3d79149d7b329a540c221bb283a32e2622f0a44cd00a7a301f80cbd7196",
+          "note": "Background and first research question: no clipping."
+        },
+        {
+          "page": 4,
+          "render": "tmp/pdfs/delivered_review/main/page-04.png",
+          "render_sha256": "51b000de84d332cb26663559fbc8f4654bb8ac2ef5539a303419e445cf997da6",
+          "note": "Remaining questions and corpus methods: hierarchy clear."
+        },
+        {
+          "page": 5,
+          "render": "tmp/pdfs/delivered_review/main/page-05.png",
+          "render_sha256": "35049caf9e0ac9c7213f9de0647f0b3de8a028e8d1a96876b3bba9f080a83178",
+          "note": "Table 1 and model methods: full table and notes visible."
+        },
+        {
+          "page": 6,
+          "render": "tmp/pdfs/delivered_review/main/page-06.png",
+          "render_sha256": "3210a238744cf99053332a2ebe09f9acbc8d18fe1ce420bac71a5d9138a7cb26",
+          "note": "Table 2 and measures: ten models fit; readable notes."
+        },
+        {
+          "page": 7,
+          "render": "tmp/pdfs/delivered_review/main/page-07.png",
+          "render_sha256": "1c9254186b9ec52aae34e09a4fbc01ba3385aea081d78c19c9cad28bc3f2b406",
+          "note": "Measures and matched design: equations and denominators readable."
+        },
+        {
+          "page": 8,
+          "render": "tmp/pdfs/delivered_review/main/page-08.png",
+          "render_sha256": "4b0fd94682980fd9fba4e30a89708b463e6fb09db4176115d6d6d07762d93a41",
+          "note": "Chronology and start of results: headings and flow clear."
+        },
+        {
+          "page": 9,
+          "render": "tmp/pdfs/delivered_review/main/page-09.png",
+          "render_sha256": "e60affea7500c26f530090eeb13aa501e058f8201d3c74b96d7030ddc4f52947",
+          "note": "Figure 1: common 0–1 scale; within-group lines nearly coincide as in data."
+        },
+        {
+          "page": 10,
+          "render": "tmp/pdfs/delivered_review/main/page-10.png",
+          "render_sha256": "4f81196ba1d6ead279eee8f035f67cde46a263e5216ad8b4f4af454a47d338c6",
+          "note": "Figure 2: 217 points, diagonal and direction legend complete."
+        },
+        {
+          "page": 11,
+          "render": "tmp/pdfs/delivered_review/main/page-11.png",
+          "render_sha256": "dac4b710474cee5768069f76ff27a3fe42820f07a1dda23cb9ff61ddce1e408f",
+          "note": "Figure 3: same action labels in text and figure; both panels and caption complete."
+        },
+        {
+          "page": 12,
+          "render": "tmp/pdfs/delivered_review/main/page-12.png",
+          "render_sha256": "b4725aa176a0c803140e65acb3a4811a4a6690ca8ee34b9d13f9793758fa8069",
+          "note": "Input checks and geometric results: text and boundaries clear."
+        },
+        {
+          "page": 13,
+          "render": "tmp/pdfs/delivered_review/main/page-13.png",
+          "render_sha256": "f2c071bfc88cd97160a25cfddb339b5cb49ce66bd998287c5de74344ccde72e3",
+          "note": "Figure 4: all 325 pairs represented per row; small segment text remains readable."
+        },
+        {
+          "page": 14,
+          "render": "tmp/pdfs/delivered_review/main/page-14.png",
+          "render_sha256": "3e9f5a386608c443cd8d26230fab10706cbf4c39f1bb4e3a2c7113289a000f3a",
+          "note": "Geometric limits and discussion: transition follows final result."
+        },
+        {
+          "page": 15,
+          "render": "tmp/pdfs/delivered_review/main/page-15.png",
+          "render_sha256": "1a4c5afabe5bd7d67aee223d897c398ad8ea5c0ee08ed8c0bd3495b0fa6d4900",
+          "note": "Implications and limits: no table or figure intrusions."
+        },
+        {
+          "page": 16,
+          "render": "tmp/pdfs/delivered_review/main/page-16.png",
+          "render_sha256": "5edd9d56470bbb4088d2cc7a43eee3decb9e9edb2726a6c058b9a6fa7115cab5",
+          "note": "Conclusion and five declarations: confirmed author data; no fabricated contact details."
+        },
+        {
+          "page": 17,
+          "render": "tmp/pdfs/delivered_review/main/page-17.png",
+          "render_sha256": "a1f0f9c30840721a8b071b05524ed3571d8e9138877b50f7b464dfad6969eba6",
+          "note": "References: first page, DOI/URL line breaks within width."
+        },
+        {
+          "page": 18,
+          "render": "tmp/pdfs/delivered_review/main/page-18.png",
+          "render_sha256": "d377c8b4e18b30f75bd7a89cc326bb2cc9539dac7bd4bd8456dc95f02f139c1e",
+          "note": "References: second page; continuing reference flows to next page."
+        },
+        {
+          "page": 19,
+          "render": "tmp/pdfs/delivered_review/main/page-19.png",
+          "render_sha256": "acdb5626665236f9916d40a9c9e32c4f9a3d6673bf2bdf4b78c58a195a3c3b76",
+          "note": "References: final page complete, no placeholder or blank extra page."
+        }
+      ]
+    },
+    "supplement": {
+      "pdf": "output/pdf/supplement.pdf",
+      "sha256": "1e77112ed14f31a23ec611fe9c5e9c6b8f4954dff7833baea3f92a303cb41e57",
+      "all_pages_inspected": true,
+      "pages": [
+        {
+          "page": 1,
+          "render": "tmp/pdfs/delivered_review/supplement/page-01.png",
+          "render_sha256": "c9b3d8e1de65ed16f0026a8059749e6b0a9cf5357f8cc39f2c6e25ce1bc38f9f",
+          "note": "Cover, author and eight-item contents: clean single page."
+        },
+        {
+          "page": 2,
+          "render": "tmp/pdfs/delivered_review/supplement/page-02.png",
+          "render_sha256": "b94c3a700d6eeb3717a0c8056f0abbc0cbd647caa6b1686d2e12627e49271069",
+          "note": "S1 eligibility and quality flags: complete prose."
+        },
+        {
+          "page": 3,
+          "render": "tmp/pdfs/delivered_review/supplement/page-03.png",
+          "render_sha256": "1e749dee6ac42ae9906154408d354a74606727914503526f2f49cfae1bc76356",
+          "note": "Table S1: all 26 Fields and total on one page; numeric text readable at full page."
+        },
+        {
+          "page": 4,
+          "render": "tmp/pdfs/delivered_review/supplement/page-04.png",
+          "render_sha256": "84c4b5dc8afc3f09b823aded1842446a981f49bdc84e950edb20e1b424b6ba1b",
+          "note": "S1 checkpoints and input explanation: readable paragraphs."
+        },
+        {
+          "page": 5,
+          "render": "tmp/pdfs/delivered_review/supplement/page-05.png",
+          "render_sha256": "49a61f7619290c7a5a7f8d582b90c878cfa597e6443cefe8179385d65d0a47aa",
+          "note": "Table S2: all ten checkpoints together; long revisions wrap within cells."
+        },
+        {
+          "page": 6,
+          "render": "tmp/pdfs/delivered_review/supplement/page-06.png",
+          "render_sha256": "f7c12a81b02552d0abea42f44a6eb303c43111cd7ac27523bfd4ac577a3e43f3",
+          "note": "S2 table note continues naturally; Table S3 chronology rows together."
+        },
+        {
+          "page": 7,
+          "render": "tmp/pdfs/delivered_review/supplement/page-07.png",
+          "render_sha256": "90df9b6bcf138588a84546be6eb739834f023d2d02d017a71838001871ef2b9b",
+          "note": "Chronology note followed by definitions: all equations rendered."
+        },
+        {
+          "page": 8,
+          "render": "tmp/pdfs/delivered_review/supplement/page-08.png",
+          "render_sha256": "e71cb7538fbc0d43bd6280e89e8098f2c7a166bffad58881eade27f9ce80ba3e",
+          "note": "Table S4 three rows intact; original and Subfield alert denominators visible."
+        },
+        {
+          "page": 9,
+          "render": "tmp/pdfs/delivered_review/supplement/page-09.png",
+          "render_sha256": "71d7b029e992b219c723d5e282b3ce68b59b6b97b2ba86e154c8048a1f122e3d",
+          "note": "Table S5 ten models and recipe contrasts: no clipped columns."
+        },
+        {
+          "page": 10,
+          "render": "tmp/pdfs/delivered_review/supplement/page-10.png",
+          "render_sha256": "d2ce9446802c524e3622f322fbb871b1fd95eee22ba8256850904fa3649a01a2",
+          "note": "Table S6 four scopes together; five remaining alert examples visible."
+        },
+        {
+          "page": 11,
+          "render": "tmp/pdfs/delivered_review/supplement/page-11.png",
+          "render_sha256": "995b6996e20e948a818f304e8a730335b21a87b5114d9ed56e47a429705cc7d4",
+          "note": "Figure S1 counts and legend complete; matched search methods below."
+        },
+        {
+          "page": 12,
+          "render": "tmp/pdfs/delivered_review/supplement/page-12.png",
+          "render_sha256": "a19c2edd6ee9eb6d34deecd154e8ad5a5af0f1761b20486bfc4bf804aa5f5d60",
+          "note": "Table S7 complete for k10/k25/k50; Subfield persistence explained."
+        },
+        {
+          "page": 13,
+          "render": "tmp/pdfs/delivered_review/supplement/page-13.png",
+          "render_sha256": "589aa9c1702cfaa2bec99458fb292e95068ae1c921bd58445fd3e80adcfed83d",
+          "note": "Figure S2: all twelve labels and ranges visible; atlas methods below."
+        },
+        {
+          "page": 14,
+          "render": "tmp/pdfs/delivered_review/supplement/page-14.png",
+          "render_sha256": "f8679fdb085a8ba618cfe540d2e53fe0e0060ff7f9a729d432807e815a729a29",
+          "note": "Table S8: first six examples with IDs, source caveats and continuation label."
+        },
+        {
+          "page": 15,
+          "render": "tmp/pdfs/delivered_review/supplement/page-15.png",
+          "render_sha256": "0548ec94c062c78f79fea939860ef32d8933fe0c54a8c8426782ef659b7e6304",
+          "note": "Table S8: repeated headers, six further examples and complete notes."
+        },
+        {
+          "page": 16,
+          "render": "tmp/pdfs/delivered_review/supplement/page-16.png",
+          "render_sha256": "81578edd7f1d4d7f94ea98c6d4e89a3c2f6622230f6050d1b9286d1f8640172c",
+          "note": "Figure S3: all twelve rows, ten models and cell values visible."
+        },
+        {
+          "page": 17,
+          "render": "tmp/pdfs/delivered_review/supplement/page-17.png",
+          "render_sha256": "7722ee38ef79d79aeb4a1a6198af1f48ca9d9104f2ef667903600fc248a14c9f",
+          "note": "Table S9 and Figure S4: both time trends and complete legend visible."
+        },
+        {
+          "page": 18,
+          "render": "tmp/pdfs/delivered_review/supplement/page-18.png",
+          "render_sha256": "74770b2ced18dccc36d51d1108a041340df1be6389eaa5efaaf78823e0295a28",
+          "note": "Table S10: all eight display rows and caveat for Energy fit."
+        },
+        {
+          "page": 19,
+          "render": "tmp/pdfs/delivered_review/supplement/page-19.png",
+          "render_sha256": "8d0312a90b81cbd5061c57b46fc2e74f590afa2c3a7bafb40db2c3d1fab00eaf",
+          "note": "Figure S5: four disciplines, both panels, legend and range caption complete."
+        },
+        {
+          "page": 20,
+          "render": "tmp/pdfs/delivered_review/supplement/page-20.png",
+          "render_sha256": "bf568c96c7a25778bb02d2377debc926b3ac2ce93911e0696f24f8b471249459",
+          "note": "Table S11: plain labels and non-identifiability note readable."
+        },
+        {
+          "page": 21,
+          "render": "tmp/pdfs/delivered_review/supplement/page-21.png",
+          "render_sha256": "c1299bc4d31d92a65c32a27ffe8321e343bc61604a0e6f103bc8adba03eaac2e",
+          "note": "Figure S6: same scale across all three readouts; model key supplied."
+        },
+        {
+          "page": 22,
+          "render": "tmp/pdfs/delivered_review/supplement/page-22.png",
+          "render_sha256": "8321838363b22d2260bf615e736d19ac4bbd422ed3d4b0cbd4666d215e5e358d",
+          "note": "Table S12: half/equal-size cases distinguished, four and 51 alerts retained."
+        },
+        {
+          "page": 23,
+          "render": "tmp/pdfs/delivered_review/supplement/page-23.png",
+          "render_sha256": "2d6bb853a9fb7e77545c72a6b441688f9287291f26736ab5709ddab174fbe56a",
+          "note": "Figure S7: three axes with differing scales explicitly noted; complete legend."
+        },
+        {
+          "page": 24,
+          "render": "tmp/pdfs/delivered_review/supplement/page-24.png",
+          "render_sha256": "4fa9f9024e577d7401f65b08975b03e60fb59dc207c9be43f5a139f004a2dbef",
+          "note": "Figure S8: all seven control rows and three properties visible."
+        },
+        {
+          "page": 25,
+          "render": "tmp/pdfs/delivered_review/supplement/page-25.png",
+          "render_sha256": "a3677aab773046907401349bfeee8f6ec10d4b30aff8a05258203afba706c647",
+          "note": "Table S13: nine synthetic clouds complete; Gaussian limits visible."
+        },
+        {
+          "page": 26,
+          "render": "tmp/pdfs/delivered_review/supplement/page-26.png",
+          "render_sha256": "b853e25febe5c72b574d055f7d8f666eefd3de585d9a768fbb6790d38c85f251",
+          "note": "Figure S9: all counterexamples shown; field-pair rules follow."
+        },
+        {
+          "page": 27,
+          "render": "tmp/pdfs/delivered_review/supplement/page-27.png",
+          "render_sha256": "81b07f2d5d9aded978dc09734b0478ac7615b3babcd9d1d6e374297a31d2a2b0",
+          "note": "Table S14: eight threshold/property rows, all 325 pairs retained."
+        },
+        {
+          "page": 28,
+          "render": "tmp/pdfs/delivered_review/supplement/page-28.png",
+          "render_sha256": "7867b4093819b179facf6be1f52316c48fb5aef21a8b93e382023cbf6df1089f",
+          "note": "Figure S10: complete 26-by-26 matrix, both triangles and legend readable."
+        },
+        {
+          "page": 29,
+          "render": "tmp/pdfs/delivered_review/supplement/page-29.png",
+          "render_sha256": "d747fda1643d9a68c62774f15ff47663f54d754541e881ec328ca9cf0099fb60",
+          "note": "Table S15: all panels and omissions together, alternatives coverage explained."
+        },
+        {
+          "page": 30,
+          "render": "tmp/pdfs/delivered_review/supplement/page-30.png",
+          "render_sha256": "54c84e7c99d911c0f9c7d762a5fadf2fe423e49dd8ffb1f593f2c2c9f077b6af",
+          "note": "Table S16: eleven controls and denominators complete."
+        },
+        {
+          "page": 31,
+          "render": "tmp/pdfs/delivered_review/supplement/page-31.png",
+          "render_sha256": "a8d90a2066ad90af91a7edce493bb7923b864deef87f3ba1a82e3cd2138a32e8",
+          "note": "Table S17: object paths and hashes wrap inside cells; access limits visible."
+        },
+        {
+          "page": 32,
+          "render": "tmp/pdfs/delivered_review/supplement/page-32.png",
+          "render_sha256": "b4c3c451c967ed228c95e4a92ee48c3d171c4d828b84fb3eb7f5a47944ff90ed",
+          "note": "Reconstruction, access and author status explained; references start."
+        },
+        {
+          "page": 33,
+          "render": "tmp/pdfs/delivered_review/supplement/page-33.png",
+          "render_sha256": "939abc5fe2686db33b5c611b657c157e28623ba9bbaf96d2a2764a90213aa282",
+          "note": "Final references complete, no blank extra page."
+        }
+      ]
+    }
+  },
+  "figures": {
+    "figure_01": {
+      "full_figure_inspected": true,
+      "sha256": "b26a4f617ba7860fcde3e593281bfb3806bdd4ad87f5c311f9cb81a5df96cd02",
+      "note": "Shared vertical scale; observed/random centres and within-group comparison separated."
+    },
+    "figure_02": {
+      "full_figure_inspected": true,
+      "sha256": "049191989ca04d93797edb8270c385d648636f53dab4a371057694546dc52b65",
+      "note": "Higher/lower Subfield overlap distinguished by colour and shape; 90/127 correct."
+    },
+    "figure_03": {
+      "full_figure_inspected": true,
+      "sha256": "69482c10d3cce8887c308d1b37813531bd211ec861f26a61c79d6813fed67cb3",
+      "note": "Input operations explicit; distributions and 1.5-IQR whiskers described, not confidence intervals."
+    },
+    "figure_04": {
+      "full_figure_inspected": true,
+      "sha256": "81e6256eb6939c920d967a89e1bb896a7f1ca1168dddaa032ff26c1ae41be5e1",
+      "note": "Direction and magnitude counts retained, unresolved visible at each threshold."
+    },
+    "figure_S01": {
+      "full_figure_inspected": true,
+      "sha256": "7f6ca5d5d689aed4718479bfd37a1a3ca05f7b5ca879d3404cece3f55dc4188c",
+      "note": "Original 20 and additional 100 selections labelled separately."
+    },
+    "figure_S02": {
+      "full_figure_inspected": true,
+      "sha256": "8d6a69f02dcba63c16d49083fcf477946efd999010e71c0154fde70c157ac788",
+      "note": "All twelve selected examples and full rank ranges visible."
+    },
+    "figure_S03": {
+      "full_figure_inspected": true,
+      "sha256": "ac7d4bbff8c2f90ba78d5240a6cece2b284f568c37cc82a968f09e73f06cc9ec",
+      "note": "Ten-model eligible-link support shown with source/target caveat markers."
+    },
+    "figure_S04": {
+      "full_figure_inspected": true,
+      "sha256": "120c04b28c905ad7b2cec4417e95afb97af05bb6c2976c06ba610d84124814aa",
+      "note": "Search opportunity reverses mean neighbour trend; both lines and scale visible."
+    },
+    "figure_S05": {
+      "full_figure_inspected": true,
+      "sha256": "c1a01c925c593e871bcff63bb7d1c4adc24a133911c3d964810480dc21febd57",
+      "note": "Same controls, complete legend and Energy caveat retained."
+    },
+    "figure_S06": {
+      "full_figure_inspected": true,
+      "sha256": "5595d3def4fa2bce932499144d7b55dfb32afd368675ba45c0d7dd21850fced0",
+      "note": "Common scale and explicit model order for mean/CLS/SEP heatmaps."
+    },
+    "figure_S07": {
+      "full_figure_inspected": true,
+      "sha256": "1186c99a78ed3d48227fcae3e4d1dbe217128ddcd2d15e7677b52d1235b64631",
+      "note": "Distinct vertical scales and sample-size reference stated."
+    },
+    "figure_S08": {
+      "full_figure_inspected": true,
+      "sha256": "3de77d3ac3c96a42a1c562118314e94584bc031e44b02dac00cbfe188dbf307c",
+      "note": "Complete point control comparisons; no claim of repeated-selection validation."
+    },
+    "figure_S09": {
+      "full_figure_inspected": true,
+      "sha256": "c5616474b87c988cf5e1cb5bcd481727c24597f6ddeeefca28491fd4bae903f6",
+      "note": "Synthetic counterexamples retained; three connection measures distinguished."
+    },
+    "figure_S10": {
+      "full_figure_inspected": true,
+      "sha256": "7189a4b1a927cda860d9de4ab87be0de7441e21b4f46065d5913820362aa93d3",
+      "note": "All 650 classes shown in two triangles with Field key and full legend."
+    }
+  },
+  "unresolved_clipping_or_missing_content": false,
+  "editorial_changes": [
+    "Common scale in Figure 1",
+    "Direction colours and shapes in Figure 2",
+    "Explicit input operations in Figure 3",
+    "Compact main model table",
+    "Legible S11 labels",
+    "Whole finite tables; S8 continuation headers",
+    "Header glyph corrected",
+    "Float placement and compact contents"
+  ],
+  "limitations": [
+    "Journal house style and current submission rules still need final verification.",
+    "Long checkpoint table notes continue onto following page; rows remain together.",
+    "Visual clarity is not thematic validation or author approval."
+  ]
+}

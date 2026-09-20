@@ -1,0 +1,19 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Selection stability of the geometric properties.}\label{tab:S12}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.5cm}>{\raggedright\arraybackslash}p{3.7cm}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{1.2cm}>{\raggedright\arraybackslash}p{2.5cm}>{\raggedright\arraybackslash}p{2.6cm}@{}}
+\toprule
+\textbf{Property} & \textbf{Selection design} & \textbf{Cases} & \textbf{Alerts} & \textbf{Median width} & \textbf{Maximum width} \\
+\midrule
+Angular spread & 20 half samples & 260 & 0 & 0.79\% & 1.81\% \\
+Angular spread & 5 equal-size selections & 260 & 0 & 0.49\% & 1.85\% \\
+Effective linear dimension & 20 half samples & 260 & 4 & 4.06\% & 12.84\% \\
+Effective linear dimension & 5 equal-size selections & 260 & 0 & 2.60\% & 7.53\% \\
+Connection & 20 half samples & 260 & 258 & 18.62\% & 423.07\% \\
+Connection & 5 equal-size selections & 260 & 51 & 10.59\% & 289.69\% \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small A case is one model-Field combination. Width is the central 90\% range divided by the primary value; the screen also checks median shift. Thresholds: 5\% angular spread, 10\% PR, 20\% connection. These are operational sensitivity thresholds, not journal standards or population precision. The four PR half-sample alerts remain visible even though the five equal-size selections pass. PR is effective linear dimension, not number of topics. Spectral alternatives share the same covariance spectrum and do not independently validate thematic meaning.\par}

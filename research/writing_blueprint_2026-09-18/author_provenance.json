@@ -1,0 +1,26 @@
+{
+  "retrieved_on": "2026-09-18",
+  "repository": "https://github.com/aleetreny/aleetreny.github.io",
+  "revision": "5361e0354dd8419b4cf72089b7e8e51124830cfb",
+  "published_entries_read": 50,
+  "spanish_narrative_words_whitespace": 12823,
+  "entry_types": {
+    "experience": 13,
+    "education": 3,
+    "project": 27,
+    "note": 7
+  },
+  "scope": "All 50 published entries in the repository fixture; Spanish narrative text and lists. Captions inspected; translations, code, docs and linked external sites excluded as voice evidence. Authorship follows user identification, not a forensic attribution test. Live database not queried.",
+  "snapshot_hashes": {
+    "fixtures/demo-content.json": "5f1eeb143bc85019c419ed53e4f78855ab79fe3d1874ec8534baac31badc37b1",
+    "content/source/board-spec.mjs": "983fdce283c07113a06074f6b430c6a596979e113dc2883508ce6b5106cfecfa",
+    "content/source/desk-data.mjs": "f7d45eb36a9b5febdf2a5cf6cec927634f5523ed85788e3dbbef254226715083",
+    "scripts/content/build-fixtures.mjs": "a9660526159745bcd3bd788f5a73607f5797d8060b8e4c325cc9ccd884c99b04"
+  },
+  "local_portfolio_readonly_hashes": {
+    "fixtures/demo-content.json": "5f1eeb143bc85019c419ed53e4f78855ab79fe3d1874ec8534baac31badc37b1",
+    "content/source/board-spec.mjs": "983fdce283c07113a06074f6b430c6a596979e113dc2883508ce6b5106cfecfa",
+    "content/source/desk-data.mjs": "f7d45eb36a9b5febdf2a5cf6cec927634f5523ed85788e3dbbef254226715083",
+    "scripts/content/build-fixtures.mjs": "a9660526159745bcd3bd788f5a73607f5797d8060b8e4c325cc9ccd884c99b04"
+  }
+}

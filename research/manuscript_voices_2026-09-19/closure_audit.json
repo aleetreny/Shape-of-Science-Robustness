@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-09-19T08:33:42.288151+00:00",
+  "status": "complete_as_three_author_options",
+  "accepted_title": "How much does the map of science depend on the embedding model?",
+  "selected_voice": null,
+  "editorial_recommendation": "v2",
+  "complete_main_articles": 6,
+  "total_pdf_pages_reviewed": 120,
+  "canonical_and_scientific_files_verified_unchanged": 751,
+  "audit_sha256": {
+    "text_audit.json": "c39565d3835c8bcc03b6bba5dff702a7c44eb0811c7c591806c6eb8f2aaffe0b",
+    "visual_review.json": "78cad5a0df28355ab26aa38becfa6f9b15dbd117086069c765f7ec22a31e7aee",
+    "portable_source_audit.json": "55d45ab107a77b2d641c29f04a55a6fdcd2e420a4bc76c1cca84e2d739dd040a"
+  },
+  "delivered_pdfs": {
+    "v1_en": {
+      "path": "output/pdf/voice_variants/v1_en.pdf",
+      "sha256": "4801337a901416128810440a86c228cf08a33276e5d7c77eb3044580d2ecf1e1"
+    },
+    "v1_es": {
+      "path": "output/pdf/voice_variants/v1_es.pdf",
+      "sha256": "7baa939a9b6cda3b33de067146b569d069825a14e6d2f404d92b672fcb64b8ac"
+    },
+    "v2_en": {
+      "path": "output/pdf/voice_variants/v2_en.pdf",
+      "sha256": "076283b5e4e87d1a5112d4f1078c5e24e6190554d8b260caa2a670162749210a"
+    },
+    "v2_es": {
+      "path": "output/pdf/voice_variants/v2_es.pdf",
+      "sha256": "e9dd8e5c9ae36b5de8c4b67ed0647022c183e7991737a97bb0778514f60e81f8"
+    },
+    "v3_en": {
+      "path": "output/pdf/voice_variants/v3_en.pdf",
+      "sha256": "3bfa7012bc825d324aa44abd0b259a1c86364ac5a67f7a45691055ece3e5c6ec"
+    },
+    "v3_es": {
+      "path": "output/pdf/voice_variants/v3_es.pdf",
+      "sha256": "1a6ebbcf9d0860b2c1f69ebdb5b6ae9684d37132579e5f7218e10e5f47941f06"
+    }
+  },
+  "source_package": "output/manuscript_voice_variants_source.zip",
+  "source_package_sha256": "ec1b7592a9bb4a7f3ded5c2c701be7789231c06b394dcc7dccb785c0062d900d",
+  "source_package_file_count": 93,
+  "all_six_portable_rebuilds_byte_identical": true,
+  "comparison_excerpts_verified_literal": true,
+  "new_scientific_computation": false,
+  "canonical_manuscript_replaced": false,
+  "commit_push_or_publication": false,
+  "author_approval_pending": true,
+  "next_step": "Author chooses a voice or requests specific changes."
+}

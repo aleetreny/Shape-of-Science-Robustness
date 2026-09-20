@@ -1,0 +1,2792 @@
+[
+  {
+    "id": 0,
+    "doi": "10.1162/qss_a_00001",
+    "year": 2020,
+    "title": "A supervised machine learning approach to trace doctorate recipients’ employment trajectories"
+  },
+  {
+    "id": 1,
+    "doi": "10.1162/qss_a_00002",
+    "year": 2020,
+    "title": "Concentration or dispersal of research funding?"
+  },
+  {
+    "id": 2,
+    "doi": "10.1162/qss_a_00003",
+    "year": 2020,
+    "title": "Large publishing consortia produce higher citation impact research but coauthor contributions are hard to evaluate"
+  },
+  {
+    "id": 3,
+    "doi": "10.1162/qss_a_00004",
+    "year": 2020,
+    "title": "Granularity of algorithmically constructed publication-level classifications of research publications: Identification of specialties"
+  },
+  {
+    "id": 4,
+    "doi": "10.1162/qss_a_00005",
+    "year": 2020,
+    "title": "h-Type indices, partial sums and the majorization order"
+  },
+  {
+    "id": 5,
+    "doi": "10.1162/qss_a_00006",
+    "year": 2020,
+    "title": "Intellectual and social similarity among scholarly journals: An exploratory comparison of the networks of editors, authors and co-citations"
+  },
+  {
+    "id": 6,
+    "doi": "10.1162/qss_a_00007",
+    "year": 2020,
+    "title": "Co-citations in context: Disciplinary heterogeneity is relevant"
+  },
+  {
+    "id": 7,
+    "doi": "10.1162/qss_a_00008",
+    "year": 2020,
+    "title": "Does the hα-index reinforce the Matthew effect in science? The introduction of agent-based simulations into scientometrics"
+  },
+  {
+    "id": 8,
+    "doi": "10.1162/qss_a_00009",
+    "year": 2020,
+    "title": "On the topicality and research impact of special issues"
+  },
+  {
+    "id": 9,
+    "doi": "10.1162/qss_a_00010",
+    "year": 2020,
+    "title": "Mendeley reader counts for US computer science conference papers and journal articles"
+  },
+  {
+    "id": 10,
+    "doi": "10.1162/qss_a_00011",
+    "year": 2020,
+    "title": "Consistency and validity of interdisciplinarity measures"
+  },
+  {
+    "id": 11,
+    "doi": "10.1162/qss_a_00012",
+    "year": 2020,
+    "title": "Bibliometrics-based decision trees (BBDTs) based on bibliometrics-based heuristics (BBHs): Visualized guidelines for the use of bibliometrics in research evaluation"
+  },
+  {
+    "id": 12,
+    "doi": "10.1162/qss_a_00014",
+    "year": 2020,
+    "title": "Practical method to reclassify Web of Science articles into unique subject categories and broad disciplines"
+  },
+  {
+    "id": 13,
+    "doi": "10.1162/qss_a_00016",
+    "year": 2020,
+    "title": "The pricing of open access journals: Diverse niches and sources of value in academic publishing"
+  },
+  {
+    "id": 14,
+    "doi": "10.1162/qss_a_00013",
+    "year": 2020,
+    "title": "Comparing institutional-level bibliometric research performance indicator values based on different affiliation disambiguation systems"
+  },
+  {
+    "id": 15,
+    "doi": "10.1162/qss_a_00015",
+    "year": 2020,
+    "title": "Article processing charges: Mirroring the citation impact or legacy of the subscription-based model?"
+  },
+  {
+    "id": 16,
+    "doi": "10.1162/qss_a_00017",
+    "year": 2020,
+    "title": "The Multidimensional Research Agendas Inventory—Revised (MDRAI-R): Factors shaping researchers’ research agendas in all fields of knowledge"
+  },
+  {
+    "id": 17,
+    "doi": "10.1162/qss_a_00018",
+    "year": 2020,
+    "title": "Web of Science as a data source for research on scientific and scholarly activity"
+  },
+  {
+    "id": 18,
+    "doi": "10.1162/qss_a_00019",
+    "year": 2020,
+    "title": "Scopus as a curated, high-quality bibliometric data source for academic research in quantitative science studies"
+  },
+  {
+    "id": 19,
+    "doi": "10.1162/qss_a_00020",
+    "year": 2020,
+    "title": "Dimensions: Bringing down barriers between scientometricians and data"
+  },
+  {
+    "id": 20,
+    "doi": "10.1162/qss_a_00021",
+    "year": 2020,
+    "title": "Microsoft Academic Graph: When experts are not enough"
+  },
+  {
+    "id": 21,
+    "doi": "10.1162/qss_a_00022",
+    "year": 2020,
+    "title": "Crossref: The sustainable source of community-owned scholarly metadata"
+  },
+  {
+    "id": 22,
+    "doi": "10.1162/qss_a_00023",
+    "year": 2020,
+    "title": "OpenCitations, an infrastructure organization for open scholarship"
+  },
+  {
+    "id": 23,
+    "doi": "10.1162/qss_e_00024",
+    "year": 2020,
+    "title": "In memoriam Judit Bar-Ilan"
+  },
+  {
+    "id": 24,
+    "doi": "10.1162/qss_e_00025",
+    "year": 2020,
+    "title": "Opening science: The rebirth of a scholarly journal"
+  },
+  {
+    "id": 25,
+    "doi": "10.1162/qss_e_00026",
+    "year": 2020,
+    "title": "Special issue on bibliographic data sources"
+  },
+  {
+    "id": 26,
+    "doi": "10.1162/qss_a_00036",
+    "year": 2020,
+    "title": "Who are the acknowledgees? An analysis of gender and academic status"
+  },
+  {
+    "id": 27,
+    "doi": "10.1162/qss_a_00037",
+    "year": 2020,
+    "title": "Impact factor volatility due to a single paper: A comprehensive analysis"
+  },
+  {
+    "id": 28,
+    "doi": "10.1162/qss_a_00027",
+    "year": 2020,
+    "title": "Enhancing direct citations: A comparison of relatedness measures for community detection in a large set of PubMed publications"
+  },
+  {
+    "id": 29,
+    "doi": "10.1162/qss_a_00028",
+    "year": 2020,
+    "title": "Transfer of knowledge through international scientific mobility: Introduction of a network-based bibliometric approach to study different knowledge types"
+  },
+  {
+    "id": 30,
+    "doi": "10.1162/qss_a_00038",
+    "year": 2020,
+    "title": "Gender differences in citation impact for 27 fields and six English-speaking countries 1996–2014"
+  },
+  {
+    "id": 31,
+    "doi": "10.1162/qss_a_00039",
+    "year": 2020,
+    "title": "Might Europe one day again be a global scientific powerhouse? Analysis of ERC publications suggests it will not be possible without changes in research policy"
+  },
+  {
+    "id": 32,
+    "doi": "10.1162/qss_a_00040",
+    "year": 2020,
+    "title": "The relationship between journal citation impact and citation sentiment: A study of 32 million citances in PubMed Central"
+  },
+  {
+    "id": 33,
+    "doi": "10.1162/qss_a_00041",
+    "year": 2020,
+    "title": "How common are explicit research questions in journal articles?"
+  },
+  {
+    "id": 34,
+    "doi": "10.1162/qss_a_00042",
+    "year": 2020,
+    "title": "Google Books, Scopus, Microsoft Academic, and Mendeley for impact assessment of doctoral dissertations: A multidisciplinary analysis of the UK"
+  },
+  {
+    "id": 35,
+    "doi": "10.1162/qss_a_00029",
+    "year": 2020,
+    "title": "Citation concept analysis (CCA) of Robert K. Merton’s book Social Theory and Social Structure: How often are certain concepts from the book cited in subsequent publications?"
+  },
+  {
+    "id": 36,
+    "doi": "10.1162/qss_a_00030",
+    "year": 2020,
+    "title": "Recommending research articles to consumers of online vaccination information"
+  },
+  {
+    "id": 37,
+    "doi": "10.1162/qss_a_00031",
+    "year": 2020,
+    "title": "Comparison of bibliographic data sources: Implications for the robustness of university rankings"
+  },
+  {
+    "id": 38,
+    "doi": "10.1162/qss_a_00032",
+    "year": 2020,
+    "title": "Can altmetrics reflect societal impact considerations?: Exploring the potential of altmetrics in the context of a sustainability science research center"
+  },
+  {
+    "id": 39,
+    "doi": "10.1162/qss_a_00033",
+    "year": 2020,
+    "title": "Methodological considerations for identifying questionable publishing in a national context: The case of Swedish Higher Education Institutions"
+  },
+  {
+    "id": 40,
+    "doi": "10.1162/qss_a_00034",
+    "year": 2020,
+    "title": "Connected from the outside: The role of U.S. regions in promoting the integration of the European research system"
+  },
+  {
+    "id": 41,
+    "doi": "10.1162/qss_a_00035",
+    "year": 2020,
+    "title": "A principled methodology for comparing relatedness measures for clustering publications"
+  },
+  {
+    "id": 42,
+    "doi": "10.1162/qss_a_00043",
+    "year": 2020,
+    "title": "The relationship between bioRxiv preprints, citations and altmetrics"
+  },
+  {
+    "id": 43,
+    "doi": "10.1162/qss_a_00044",
+    "year": 2020,
+    "title": "How much research shared on Facebook happens outside of public pages and groups? A comparison of public and private online activity around PLOS ONE papers"
+  },
+  {
+    "id": 44,
+    "doi": "10.1162/qss_a_00068",
+    "year": 2020,
+    "title": "Are disruption index indicators convergently valid? The comparison of several indicator variants with assessments by peers"
+  },
+  {
+    "id": 45,
+    "doi": "10.1162/qss_a_00050",
+    "year": 2020,
+    "title": "A gender equality paradox in academic publishing: Countries with a higher proportion of female first-authored journal articles have larger first-author gender disparities between fields"
+  },
+  {
+    "id": 46,
+    "doi": "10.1162/qss_a_00051",
+    "year": 2020,
+    "title": "Informed peer review for publication assessments: Are improved impact measures worth the hassle?"
+  },
+  {
+    "id": 47,
+    "doi": "10.1162/qss_a_00052",
+    "year": 2020,
+    "title": "A longitudinal analysis of university rankings"
+  },
+  {
+    "id": 48,
+    "doi": "10.1162/qss_a_00066",
+    "year": 2020,
+    "title": "COVID-19 publications: Database coverage, citations, readers, tweets, news, Facebook walls, Reddit posts"
+  },
+  {
+    "id": 49,
+    "doi": "10.1162/qss_a_00067",
+    "year": 2020,
+    "title": "Proposal success in Horizon 2020: A study of the influence of consortium characteristics"
+  },
+  {
+    "id": 50,
+    "doi": "10.1162/qss_a_00069",
+    "year": 2020,
+    "title": "Greater female first author citation advantages do not associate with reduced or reducing gender disparities in academia"
+  },
+  {
+    "id": 51,
+    "doi": "10.1162/qss_a_00045",
+    "year": 2020,
+    "title": "Highly prestigious international academic awards and their impact on university rankings"
+  },
+  {
+    "id": 52,
+    "doi": "10.1162/qss_a_00046",
+    "year": 2020,
+    "title": "National policies as drivers of organizational change in universities: A string of reinforcing reforms"
+  },
+  {
+    "id": 53,
+    "doi": "10.1162/qss_a_00047",
+    "year": 2020,
+    "title": "Large-scale identification and characterization of scholars on Twitter"
+  },
+  {
+    "id": 54,
+    "doi": "10.1162/qss_a_00048",
+    "year": 2020,
+    "title": "A validation of coauthorship credit models with empirical data from the contributions of PhD candidates"
+  },
+  {
+    "id": 55,
+    "doi": "10.1162/qss_a_00049",
+    "year": 2020,
+    "title": "Using supervised learning to classify metadata of research data by field of study"
+  },
+  {
+    "id": 56,
+    "doi": "10.1162/qss_a_00070",
+    "year": 2020,
+    "title": "Recency predicts bursts in the evolution of author citations"
+  },
+  {
+    "id": 57,
+    "doi": "10.1162/qss_a_00076",
+    "year": 2020,
+    "title": "Pandemic publishing: Medical journals strongly speed up their publication process for COVID-19"
+  },
+  {
+    "id": 58,
+    "doi": "10.1162/qss_a_00071",
+    "year": 2020,
+    "title": "Mapping scholarly publications related to the Sustainable Development Goals: Do independent bibliometric approaches get the same results?"
+  },
+  {
+    "id": 59,
+    "doi": "10.1162/qss_a_00072",
+    "year": 2020,
+    "title": "All downhill from the PhD? The typical impact trajectory of U.S. academic careers"
+  },
+  {
+    "id": 60,
+    "doi": "10.1162/qss_a_00073",
+    "year": 2020,
+    "title": "Longitudinal variation in national research publication portfolios: Steps required to index balance and evenness"
+  },
+  {
+    "id": 61,
+    "doi": "10.1162/qss_a_00074",
+    "year": 2020,
+    "title": "Noncumulative measures of researcher citation impact"
+  },
+  {
+    "id": 62,
+    "doi": "10.1162/qss_a_00075",
+    "year": 2020,
+    "title": "Frequently cocited publications: Features and kinetics"
+  },
+  {
+    "id": 63,
+    "doi": "10.1162/qss_a_00077",
+    "year": 2020,
+    "title": "Concentration of Danish research funding on individual researchers and research topics: Patterns and potential drivers"
+  },
+  {
+    "id": 64,
+    "doi": "10.1162/qss_a_00079",
+    "year": 2020,
+    "title": "A typology of scientific breakthroughs"
+  },
+  {
+    "id": 65,
+    "doi": "10.1162/qss_a_00057",
+    "year": 2020,
+    "title": "Gender, science, and academic rank: Key issues and approaches"
+  },
+  {
+    "id": 66,
+    "doi": "10.1162/qss_a_00064",
+    "year": 2020,
+    "title": "The impact of J. D. Bernal’s thoughts in the science of science upon China: Implications for today’s quantitative studies of science"
+  },
+  {
+    "id": 67,
+    "doi": "10.1162/qss_a_00078",
+    "year": 2020,
+    "title": "Pot, kettle: Nonliteral titles aren’t (natural) science"
+  },
+  {
+    "id": 68,
+    "doi": "10.1162/qss_a_00053",
+    "year": 2020,
+    "title": "Whose text, whose mining, and to whose benefit?"
+  },
+  {
+    "id": 69,
+    "doi": "10.1162/qss_a_00054",
+    "year": 2020,
+    "title": "Numbers or no numbers in science studies"
+  },
+  {
+    "id": 70,
+    "doi": "10.1162/qss_a_00055",
+    "year": 2020,
+    "title": "Beyond networks: Aligning qualitative and computational science studies"
+  },
+  {
+    "id": 71,
+    "doi": "10.1162/qss_a_00056",
+    "year": 2020,
+    "title": "Against method: Exploding the boundary between qualitative and quantitative studies of science"
+  },
+  {
+    "id": 72,
+    "doi": "10.1162/qss_a_00058",
+    "year": 2020,
+    "title": "Geography of scientific knowledge: A proximity approach"
+  },
+  {
+    "id": 73,
+    "doi": "10.1162/qss_a_00059",
+    "year": 2020,
+    "title": "Quantitative science studies should be framed with middle-range theories and concepts from the social sciences"
+  },
+  {
+    "id": 74,
+    "doi": "10.1162/qss_a_00060",
+    "year": 2020,
+    "title": "Powerful numbers: Exemplary quantitative studies of science that had policy impact"
+  },
+  {
+    "id": 75,
+    "doi": "10.1162/qss_a_00062",
+    "year": 2020,
+    "title": "From indicators to indicating interdisciplinarity: A participatory mapping methodology for research communities in-the-making"
+  },
+  {
+    "id": 76,
+    "doi": "10.1162/qss_a_00063",
+    "year": 2020,
+    "title": "Past as prologue: Approaches to the study of confirmation in science"
+  },
+  {
+    "id": 77,
+    "doi": "10.1162/qss_a_00065",
+    "year": 2020,
+    "title": "Is “the time ripe” for quantitative research on misconduct in science?"
+  },
+  {
+    "id": 78,
+    "doi": "10.1162/qss_a_00080",
+    "year": 2020,
+    "title": "COVID-19 research in Wikipedia"
+  },
+  {
+    "id": 79,
+    "doi": "10.1162/qss_a_00081",
+    "year": 2020,
+    "title": "Author name disambiguation of bibliometric data: A comparison of several unsupervised approaches"
+  },
+  {
+    "id": 80,
+    "doi": "10.1162/qss_e_00061",
+    "year": 2020,
+    "title": "Bridging the divide between qualitative and quantitative science studies"
+  },
+  {
+    "id": 81,
+    "doi": "10.1162/qss_a_00084",
+    "year": 2020,
+    "title": "Open access at the national level: A comprehensive analysis of publications by Finnish researchers"
+  },
+  {
+    "id": 82,
+    "doi": "10.1162/qss_a_00083",
+    "year": 2020,
+    "title": "Coronavirus research before 2020 is more relevant than ever, especially when interpreted for COVID-19"
+  },
+  {
+    "id": 83,
+    "doi": "10.1162/qss_a_00085",
+    "year": 2020,
+    "title": "A comparison of large-scale science models based on textual, direct citation and hybrid relatedness"
+  },
+  {
+    "id": 84,
+    "doi": "10.1162/qss_a_00086",
+    "year": 2020,
+    "title": "Using web content analysis to create innovation indicators—What do we really measure?"
+  },
+  {
+    "id": 85,
+    "doi": "10.1162/qss_a_00087",
+    "year": 2020,
+    "title": "A new approach for estimating research impact: An application to French cancer research"
+  },
+  {
+    "id": 86,
+    "doi": "10.1162/qss_a_00088",
+    "year": 2020,
+    "title": "Analyzing academic mobility of U.S. professors based on ORCID data and the Carnegie Classification"
+  },
+  {
+    "id": 87,
+    "doi": "10.1162/qss_a_00089",
+    "year": 2020,
+    "title": "How can citation impact in bibliometrics be normalized? A new approach combining citing-side normalization and citation percentiles"
+  },
+  {
+    "id": 88,
+    "doi": "10.1162/qss_a_00090",
+    "year": 2020,
+    "title": "Authorship in top-ranked mathematical and physical journals: Role of gender on self-perceptions and bibliographic evidence"
+  },
+  {
+    "id": 89,
+    "doi": "10.1162/qss_a_00091",
+    "year": 2020,
+    "title": "Who’s writing open access (OA) articles? Characteristics of OA authors at Ph.D.-granting institutions in the United States"
+  },
+  {
+    "id": 90,
+    "doi": "10.1162/qss_a_00092",
+    "year": 2020,
+    "title": "Citations driven by social connections? A multi-layer representation of coauthorship networks"
+  },
+  {
+    "id": 91,
+    "doi": "10.1162/qss_a_00096",
+    "year": 2021,
+    "title": "Research network propagation: The impact of PhD students’ temporary international mobility"
+  },
+  {
+    "id": 92,
+    "doi": "10.1162/qss_a_00095",
+    "year": 2021,
+    "title": "Finding scientific communities in citation graphs: Articles and authors"
+  },
+  {
+    "id": 93,
+    "doi": "10.1162/qss_a_00097",
+    "year": 2021,
+    "title": "Investigating the division of scientific labor using the Contributor Roles Taxonomy (CRediT)"
+  },
+  {
+    "id": 94,
+    "doi": "10.1162/qss_a_00093",
+    "year": 2020,
+    "title": "h-Index manipulation by undoing merges"
+  },
+  {
+    "id": 95,
+    "doi": "10.1162/qss_e_00094",
+    "year": 2020,
+    "title": "Erratum"
+  },
+  {
+    "id": 96,
+    "doi": "10.1162/qss_a_00106",
+    "year": 2021,
+    "title": "Fine-grained classification of social science journal articles using textual data: A comparison of supervised machine learning approaches"
+  },
+  {
+    "id": 97,
+    "doi": "10.1162/qss_a_00108",
+    "year": 2021,
+    "title": "Topics as clusters of citation links to highly cited sources: The case of research on international relations"
+  },
+  {
+    "id": 98,
+    "doi": "10.1162/qss_a_00109",
+    "year": 2021,
+    "title": "A multidimensional framework for characterizing the citation impact of scientific publications"
+  },
+  {
+    "id": 99,
+    "doi": "10.1162/qss_a_00107",
+    "year": 2021,
+    "title": "An analysis of the development of Chinese STM journals in the past 30 years"
+  },
+  {
+    "id": 100,
+    "doi": "10.1162/qss_a_00110",
+    "year": 2021,
+    "title": "Tracing the context in disciplinary classifications: A bibliometric pairwise comparison of five classifications of journals in the social sciences and humanities"
+  },
+  {
+    "id": 101,
+    "doi": "10.1162/qss_a_00111",
+    "year": 2021,
+    "title": "Evaluating the scientific impact of research infrastructures: The role of current research information systems"
+  },
+  {
+    "id": 102,
+    "doi": "10.1162/qss_a_00098",
+    "year": 2021,
+    "title": "Analyzing China’s research collaboration with the United States in high-impact and high-technology research"
+  },
+  {
+    "id": 103,
+    "doi": "10.1162/qss_a_00099",
+    "year": 2021,
+    "title": "The dominance of big teams in China’s scientific output"
+  },
+  {
+    "id": 104,
+    "doi": "10.1162/qss_a_00100",
+    "year": 2021,
+    "title": "Profiling and predicting the problem-solving patterns in China’s research systems: A methodology of intelligent bibliometrics and empirical insights"
+  },
+  {
+    "id": 105,
+    "doi": "10.1162/qss_a_00112",
+    "year": 2021,
+    "title": "Large-scale comparison of bibliographic data sources: Scopus, Web of Science, Dimensions, Crossref, and Microsoft Academic"
+  },
+  {
+    "id": 106,
+    "doi": "10.1162/qss_a_00103",
+    "year": 2021,
+    "title": "A comprehensive analysis of the journal evaluation system in China"
+  },
+  {
+    "id": 107,
+    "doi": "10.1162/qss_e_00113",
+    "year": 2021,
+    "title": "Understanding Chinese science: New scientometric perspectives"
+  },
+  {
+    "id": 108,
+    "doi": "10.1162/qss_a_00101",
+    "year": 2021,
+    "title": "The rank boost by inconsistency in university rankings: Evidence from 14 rankings of Chinese universities"
+  },
+  {
+    "id": 109,
+    "doi": "10.1162/qss_a_00102",
+    "year": 2021,
+    "title": "Toward internationalization: A bibliometric analysis of the social sciences in Mainland China from 1979 to 2018"
+  },
+  {
+    "id": 110,
+    "doi": "10.1162/qss_a_00104",
+    "year": 2021,
+    "title": "The institutionalized stratification of the Chinese higher education system"
+  },
+  {
+    "id": 111,
+    "doi": "10.1162/qss_a_00105",
+    "year": 2021,
+    "title": "Wikipedia citations: A comprehensive data set of citations with identifiers extracted from English Wikipedia"
+  },
+  {
+    "id": 112,
+    "doi": "10.1162/qss_a_00122",
+    "year": 2021,
+    "title": "Improvement on the association strength: Implementing a probabilistic measure based on combinations without repetition"
+  },
+  {
+    "id": 113,
+    "doi": "10.1162/qss_a_00124",
+    "year": 2021,
+    "title": "The reinstrumentalization of the Diagnostic and Statistical Manual of Mental Disorders ( DSM ) in psychological publications: A citation context analysis"
+  },
+  {
+    "id": 114,
+    "doi": "10.1162/qss_a_00123",
+    "year": 2021,
+    "title": "Towards automated analysis of research methods in library and information science"
+  },
+  {
+    "id": 115,
+    "doi": "10.1162/qss_e_00121",
+    "year": 2021,
+    "title": "Which aspects of the Open Science agenda are most relevant to scientometric research and publishing? An opinion paper"
+  },
+  {
+    "id": 116,
+    "doi": "10.1162/qss_a_00125",
+    "year": 2021,
+    "title": "Textual analysis of artificial intelligence manuscripts reveals features associated with peer review outcome"
+  },
+  {
+    "id": 117,
+    "doi": "10.1162/qss_a_00126",
+    "year": 2021,
+    "title": "Attracting new users or business as usual? A case study of converting academic subscription-based journals to open access"
+  },
+  {
+    "id": 118,
+    "doi": "10.1162/qss_a_00127",
+    "year": 2021,
+    "title": "Universality of citation distributions: A new understanding"
+  },
+  {
+    "id": 119,
+    "doi": "10.1162/qss_a_00128",
+    "year": 2021,
+    "title": "Inferring the causal effect of journals on citations"
+  },
+  {
+    "id": 120,
+    "doi": "10.1162/qss_a_00129",
+    "year": 2021,
+    "title": "Matthew effects in science and the serial diffusion of ideas: Testing old ideas with new methods"
+  },
+  {
+    "id": 121,
+    "doi": "10.1162/qss_a_00130",
+    "year": 2021,
+    "title": "Total number of papers and in a single percentile fully describes research impact—Revisiting concepts and applications"
+  },
+  {
+    "id": 122,
+    "doi": "10.1162/qss_e_00115",
+    "year": 2021,
+    "title": "Understanding gender differences in science requires a diversity of perspectives, including controversial ones"
+  },
+  {
+    "id": 123,
+    "doi": "10.1162/qss_c_00118",
+    "year": 2021,
+    "title": "Female contributions to high-energy physics in a wider context: Commentary on an article by Strumia"
+  },
+  {
+    "id": 124,
+    "doi": "10.1162/qss_c_00116",
+    "year": 2021,
+    "title": "Analyzing data is one thing, interpreting it another"
+  },
+  {
+    "id": 125,
+    "doi": "10.1162/qss_a_00119",
+    "year": 2021,
+    "title": "Selective referencing and questionable evidence in Strumia’s paper on “Gender issues in fundamental physics”"
+  },
+  {
+    "id": 126,
+    "doi": "10.1162/qss_a_00117",
+    "year": 2021,
+    "title": "Gender issues in fundamental physics: Strumia’s bibliometric analysis fails to account for key confounders and confuses correlation with causation"
+  },
+  {
+    "id": 127,
+    "doi": "10.1162/qss_c_00120",
+    "year": 2021,
+    "title": "Reply to commentaries about “Gender issues in fundamental physics: A bibliometric analysis”"
+  },
+  {
+    "id": 128,
+    "doi": "10.1162/qss_a_00114",
+    "year": 2021,
+    "title": "Gender issues in fundamental physics: A bibliometric analysis"
+  },
+  {
+    "id": 129,
+    "doi": "10.1162/qss_a_00131",
+    "year": 2021,
+    "title": "A quantitative view of the structure of institutional scientific collaborations using the example of Berlin"
+  },
+  {
+    "id": 130,
+    "doi": "10.1162/qss_a_00132",
+    "year": 2021,
+    "title": "Domestic researchers with longer careers generate higher average citation impact but it does not increase over time"
+  },
+  {
+    "id": 131,
+    "doi": "10.1162/qss_a_00133",
+    "year": 2021,
+    "title": "An international, multistakeholder survey about metadata awareness, knowledge, and use in scholarly communications"
+  },
+  {
+    "id": 132,
+    "doi": "10.1162/qss_a_00135",
+    "year": 2021,
+    "title": "An analysis of form and function of a research article between and within publishers and journals"
+  },
+  {
+    "id": 133,
+    "doi": "10.1162/qss_a_00134",
+    "year": 2021,
+    "title": "Performance-based publisher ratings and the visibility/impact of books: Small fish in a big pond, or big fish in a small pond?"
+  },
+  {
+    "id": 134,
+    "doi": "10.1162/qss_a_00136",
+    "year": 2021,
+    "title": "Comprehensive mapping of local and diaspora scientists: A database and analysis of 63,951 Greek scientists"
+  },
+  {
+    "id": 135,
+    "doi": "10.1162/qss_a_00137",
+    "year": 2021,
+    "title": "A large-scale validation of the relationship between cross-disciplinary research and its uptake in policy-related documents, using the novel Overton altmetrics database"
+  },
+  {
+    "id": 136,
+    "doi": "10.1162/qss_c_00138",
+    "year": 2021,
+    "title": "A tipping point for open citation data"
+  },
+  {
+    "id": 137,
+    "doi": "10.1162/qss_a_00139",
+    "year": 2021,
+    "title": "All the research that’s fit to print: Open access and the news media"
+  },
+  {
+    "id": 138,
+    "doi": "10.1162/qss_a_00140",
+    "year": 2021,
+    "title": "How cumulative is technological knowledge?"
+  },
+  {
+    "id": 139,
+    "doi": "10.1162/qss_a_00141",
+    "year": 2021,
+    "title": "Counting methods introduced into the bibliometric research literature 1970–2018: A review"
+  },
+  {
+    "id": 140,
+    "doi": "10.1162/qss_a_00142",
+    "year": 2021,
+    "title": "Uncited papers are not useless"
+  },
+  {
+    "id": 141,
+    "doi": "10.1162/qss_a_00143",
+    "year": 2021,
+    "title": "Peer-making: The interconnections between PhD thesis committee membership and copublishing"
+  },
+  {
+    "id": 142,
+    "doi": "10.1162/qss_a_00145",
+    "year": 2021,
+    "title": "Which types of online evidence show the nonacademic benefits of research? Websites cited in UK impact case studies"
+  },
+  {
+    "id": 143,
+    "doi": "10.1162/qss_a_00144",
+    "year": 2021,
+    "title": "“Garbage in, garbage out” revisited: What do machine learning application papers report about human-labeled training data?"
+  },
+  {
+    "id": 144,
+    "doi": "10.1162/qss_a_00146",
+    "year": 2021,
+    "title": "scite: A smart citation index that displays the context of citations and classifies their intent using deep learning"
+  },
+  {
+    "id": 145,
+    "doi": "10.1162/qss_a_00147",
+    "year": 2021,
+    "title": "A Bayesian hurdle quantile regression model for citation analysis with mass points at lower values"
+  },
+  {
+    "id": 146,
+    "doi": "10.1162/qss_a_00148",
+    "year": 2021,
+    "title": "The gender gap in highly prestigious international research awards, 2001–2020"
+  },
+  {
+    "id": 147,
+    "doi": "10.1162/qss_a_00151",
+    "year": 2021,
+    "title": "Credibility of scientific information on social media: Variation by platform, genre and presence of formal credibility cues"
+  },
+  {
+    "id": 148,
+    "doi": "10.1162/qss_a_00152",
+    "year": 2021,
+    "title": "Identifying constitutive articles of cumulative dissertation theses by bilingual text similarity. Evaluation of similarity methods on a new short text task"
+  },
+  {
+    "id": 149,
+    "doi": "10.1162/qss_a_00150",
+    "year": 2021,
+    "title": "Productivity and interdisciplinary impacts of Organized Research Units"
+  },
+  {
+    "id": 150,
+    "doi": "10.1162/qss_a_00149",
+    "year": 2021,
+    "title": "Analyzing scientific mobility and collaboration in the Middle East and North Africa"
+  },
+  {
+    "id": 151,
+    "doi": "10.1162/qss_a_00154",
+    "year": 2021,
+    "title": "Diversity in citations to a single study: A citation context network analysis of how evidence from a prospective cohort study was cited"
+  },
+  {
+    "id": 152,
+    "doi": "10.1162/qss_a_00155",
+    "year": 2021,
+    "title": "Continued use of retracted papers: Temporal trends in citations and (lack of) awareness of retractions shown in citation contexts in biomedicine"
+  },
+  {
+    "id": 153,
+    "doi": "10.1162/qss_a_00156",
+    "year": 2021,
+    "title": "Analyzing sentiments in peer review reports: Evidence from two science funding agencies"
+  },
+  {
+    "id": 154,
+    "doi": "10.1162/qss_a_00158",
+    "year": 2021,
+    "title": "Applied usage and performance of statistical matching in bibliometrics: The comparison of milestone and regular papers with multiple measurements of disruptiveness as an empirical example"
+  },
+  {
+    "id": 155,
+    "doi": "10.1162/qss_a_00157",
+    "year": 2021,
+    "title": "Assessing the effect of article processing charges on the geographic diversity of authors using Elsevier’s “Mirror Journal” system"
+  },
+  {
+    "id": 156,
+    "doi": "10.1162/qss_a_00159",
+    "year": 2021,
+    "title": "A meta-analysis of semantic classification of citations"
+  },
+  {
+    "id": 157,
+    "doi": "10.1162/qss_a_00161",
+    "year": 2021,
+    "title": "The data set knowledge graph: Creating a linked open data source for data sets"
+  },
+  {
+    "id": 158,
+    "doi": "10.1162/qss_a_00162",
+    "year": 2021,
+    "title": "AIDA: A knowledge graph about research dynamics in academia and industry"
+  },
+  {
+    "id": 159,
+    "doi": "10.1162/qss_a_00166",
+    "year": 2021,
+    "title": "Data citation and the citation graph"
+  },
+  {
+    "id": 160,
+    "doi": "10.1162/qss_a_00169",
+    "year": 2021,
+    "title": "BIP4COVID19: Releasing impact measures for articles relevant to COVID-19"
+  },
+  {
+    "id": 161,
+    "doi": "10.1162/qss_c_00153",
+    "year": 2021,
+    "title": "L’Affaire Strumia reveals troubling gatekeeping values and outcomes at Quantitative Science Studies"
+  },
+  {
+    "id": 162,
+    "doi": "10.1162/qss_a_00163",
+    "year": 2021,
+    "title": "Mapping and impact assessment of phenomenon-oriented research fields: The example of migration research"
+  },
+  {
+    "id": 163,
+    "doi": "10.1162/qss_a_00164",
+    "year": 2021,
+    "title": "Covid-on-the-Web: Exploring the COVID-19 scientific literature through visualization of linked data from entity and argument mining"
+  },
+  {
+    "id": 164,
+    "doi": "10.1162/qss_a_00165",
+    "year": 2021,
+    "title": "Further improvements on estimating the popularity of recently published papers"
+  },
+  {
+    "id": 165,
+    "doi": "10.1162/qss_a_00167",
+    "year": 2021,
+    "title": "A framework for creating knowledge graphs of scientific software metadata"
+  },
+  {
+    "id": 166,
+    "doi": "10.1162/qss_a_00168",
+    "year": 2021,
+    "title": "Investigating dissemination of scientific information on Twitter: A study of topic networks in opioid publications"
+  },
+  {
+    "id": 167,
+    "doi": "10.1162/qss_a_00170",
+    "year": 2021,
+    "title": "Towards establishing a research lineage via identification of significant citations"
+  },
+  {
+    "id": 168,
+    "doi": "10.1162/qss_e_00160",
+    "year": 2021,
+    "title": "New trends in scientific knowledge graphs and research impact assessment"
+  },
+  {
+    "id": 169,
+    "doi": "10.1162/qss_a_00172",
+    "year": 2022,
+    "title": "Just an artifact? The concordance between peer review and bibliometrics in economics and statistics in the Italian research assessment exercise"
+  },
+  {
+    "id": 170,
+    "doi": "10.1162/qss_a_00171",
+    "year": 2022,
+    "title": "“I updated the &amp;lt;ref&amp;gt;”: The evolution of references in the English Wikipedia and the implications for altmetrics"
+  },
+  {
+    "id": 171,
+    "doi": "10.1162/qss_a_00173",
+    "year": 2022,
+    "title": "Researching women and men 1996–2020: Is androcentrism still dominant?"
+  },
+  {
+    "id": 172,
+    "doi": "10.1162/qss_a_00175",
+    "year": 2022,
+    "title": "The prevalence and impact of university affiliation discrepancies between four bibliographic databases—Scopus, Web of Science, Dimensions, and Microsoft Academic"
+  },
+  {
+    "id": 173,
+    "doi": "10.1162/qss_a_00177",
+    "year": 2022,
+    "title": "Scopus 1900–2020: Growth in articles, abstracts, countries, fields, and journals"
+  },
+  {
+    "id": 174,
+    "doi": "10.1162/qss_a_00176",
+    "year": 2022,
+    "title": "Covid-19 refereeing duration and impact in major medical journals"
+  },
+  {
+    "id": 175,
+    "doi": "10.1162/qss_a_00174",
+    "year": 2022,
+    "title": "Scientometric engineering: Exploring citation dynamics via arXiv eprints"
+  },
+  {
+    "id": 176,
+    "doi": "10.1162/qss_a_00179",
+    "year": 2022,
+    "title": "Identifying scientific publications countrywide and measuring their open access: The case of the French Open Science Barometer (BSO)"
+  },
+  {
+    "id": 177,
+    "doi": "10.1162/qss_a_00180",
+    "year": 2022,
+    "title": "Predicting the impact of American Economic Review articles by author characteristics"
+  },
+  {
+    "id": 178,
+    "doi": "10.1162/qss_a_00181",
+    "year": 2022,
+    "title": "The structural shift and collaboration capacity in GenBank Networks: A longitudinal study"
+  },
+  {
+    "id": 179,
+    "doi": "10.1162/qss_a_00182",
+    "year": 2022,
+    "title": "German cities with universities: Socioeconomic position and university performance"
+  },
+  {
+    "id": 180,
+    "doi": "10.1162/qss_a_00183",
+    "year": 2022,
+    "title": "The Microsoft Academic Knowledge Graph enhanced: Author name disambiguation, publication classification, and embeddings"
+  },
+  {
+    "id": 181,
+    "doi": "10.1162/qss_a_00184",
+    "year": 2022,
+    "title": "Center–periphery structure in research communities"
+  },
+  {
+    "id": 182,
+    "doi": "10.1162/qss_a_00185",
+    "year": 2022,
+    "title": "Can the quality of published academic journal articles be assessed with machine learning?"
+  },
+  {
+    "id": 183,
+    "doi": "10.1162/qss_a_00186",
+    "year": 2022,
+    "title": "See further upon the giants: Quantifying intellectual lineage in science"
+  },
+  {
+    "id": 184,
+    "doi": "10.1162/qss_a_00187",
+    "year": 2022,
+    "title": "Funding CRISPR: Understanding the role of government and philanthropic institutions in supporting academic research within the CRISPR innovation system"
+  },
+  {
+    "id": 185,
+    "doi": "10.1162/qss_c_00178",
+    "year": 2022,
+    "title": "Towards a moralization of bibliometrics? A response to Kyle Siler"
+  },
+  {
+    "id": 186,
+    "doi": "10.1162/qss_a_00188",
+    "year": 2022,
+    "title": "Research coauthorship 1900–2020: Continuous, universal, and ongoing expansion"
+  },
+  {
+    "id": 187,
+    "doi": "10.1162/qss_a_00189",
+    "year": 2022,
+    "title": "The confirmation of scientific theories using Bayesian causal networks and citation sentiments"
+  },
+  {
+    "id": 188,
+    "doi": "10.1162/qss_a_00190",
+    "year": 2022,
+    "title": "Generic instruments in a synchrotron radiation facility"
+  },
+  {
+    "id": 189,
+    "doi": "10.1162/qss_a_00191",
+    "year": 2022,
+    "title": "Do women undertake interdisciplinary research more than men, and do self-citations bias observed differences?"
+  },
+  {
+    "id": 190,
+    "doi": "10.1162/qss_a_00192",
+    "year": 2022,
+    "title": "The effect of academic mobility on research performance: The case of Italy"
+  },
+  {
+    "id": 191,
+    "doi": "10.1162/qss_a_00193",
+    "year": 2022,
+    "title": "The emergence of graphene research topics through interactions within and beyond"
+  },
+  {
+    "id": 192,
+    "doi": "10.1162/qss_a_00195",
+    "year": 2022,
+    "title": "Towards theorizing peer review"
+  },
+  {
+    "id": 193,
+    "doi": "10.1162/qss_a_00194",
+    "year": 2022,
+    "title": "How to interpret algorithmically constructed topical structures of scientific fields? A case study of citation-based mappings of the research specialty of invasion biology"
+  },
+  {
+    "id": 194,
+    "doi": "10.1162/qss_a_00198",
+    "year": 2022,
+    "title": "Unveiling the distinctive traits of a nation’s research performance: The case of Italy and Norway"
+  },
+  {
+    "id": 195,
+    "doi": "10.1162/qss_e_00196",
+    "year": 2022,
+    "title": "Erratum"
+  },
+  {
+    "id": 196,
+    "doi": "10.1162/qss_c_00197",
+    "year": 2022,
+    "title": "Values matter in science, so do facts: Response to Gingras"
+  },
+  {
+    "id": 197,
+    "doi": "10.1162/qss_a_00199",
+    "year": 2022,
+    "title": "Are link-based and citation-based journal metrics correlated? An Open Access megapublisher case study"
+  },
+  {
+    "id": 198,
+    "doi": "10.1162/qss_a_00200",
+    "year": 2022,
+    "title": "Unsub Extender: A Python-based web application for visualizing Unsub data"
+  },
+  {
+    "id": 199,
+    "doi": "10.1162/qss_a_00201",
+    "year": 2022,
+    "title": "Heavy-tailed distribution of the number of papers within scientific journals"
+  },
+  {
+    "id": 200,
+    "doi": "10.1162/qss_a_00202",
+    "year": 2022,
+    "title": "An improved practical approach to forecasting exceptional growth in research"
+  },
+  {
+    "id": 201,
+    "doi": "10.1162/qss_a_00206",
+    "year": 2022,
+    "title": "Measuring and interpreting the differences of the nations’ scientific specialization indexes by output and by input"
+  },
+  {
+    "id": 202,
+    "doi": "10.1162/qss_a_00203",
+    "year": 2022,
+    "title": "Open bibliographic data and the Italian National Scientific Qualification: Measuring coverage of academic fields"
+  },
+  {
+    "id": 203,
+    "doi": "10.1162/qss_a_00205",
+    "year": 2022,
+    "title": "Visualizing academic descendants using modified Pavlo diagrams: Results based on five researchers in biomechanics and biomedicine"
+  },
+  {
+    "id": 204,
+    "doi": "10.1162/qss_a_00204",
+    "year": 2022,
+    "title": "Overton: A bibliometric database of policy document citations"
+  },
+  {
+    "id": 205,
+    "doi": "10.1162/qss_a_00207",
+    "year": 2022,
+    "title": "Peer reviewer topic choice and its impact on interrater reliability: A mixed-method study"
+  },
+  {
+    "id": 206,
+    "doi": "10.1162/qss_a_00208",
+    "year": 2022,
+    "title": "A converging global research system"
+  },
+  {
+    "id": 207,
+    "doi": "10.1162/qss_a_00209",
+    "year": 2022,
+    "title": "Subdivisions and crossroads: Identifying hidden community structures in a data archive’s citation network"
+  },
+  {
+    "id": 208,
+    "doi": "10.1162/qss_a_00210",
+    "year": 2022,
+    "title": "The availability and completeness of open funder metadata: Case study for publications funded by the Dutch Research Council"
+  },
+  {
+    "id": 209,
+    "doi": "10.1162/qss_a_00211",
+    "year": 2022,
+    "title": "Assessing the quality of bibliographic data sources for measuring international research collaboration"
+  },
+  {
+    "id": 210,
+    "doi": "10.1162/qss_a_00212",
+    "year": 2022,
+    "title": "Funding COVID-19 research: Insights from an exploratory analysis using open data infrastructures"
+  },
+  {
+    "id": 211,
+    "doi": "10.1162/qss_a_00215",
+    "year": 2022,
+    "title": "A comparison of different methods of identifying publications related to the United Nations Sustainable Development Goals: Case study of SDG 13—Climate Action"
+  },
+  {
+    "id": 212,
+    "doi": "10.1162/qss_a_00217",
+    "year": 2022,
+    "title": "Know thy tools! Limits of popular algorithms used for topic reconstruction"
+  },
+  {
+    "id": 213,
+    "doi": "10.1162/qss_a_00218",
+    "year": 2022,
+    "title": "Gender gap among highly cited researchers, 2014–2021"
+  },
+  {
+    "id": 214,
+    "doi": "10.1162/qss_a_00216",
+    "year": 2022,
+    "title": "Improving overlay maps of science: Combining overview and detail"
+  },
+  {
+    "id": 215,
+    "doi": "10.1162/qss_a_00219",
+    "year": 2022,
+    "title": "Can the presence of an author photograph and biography have an impact on article citations? The case of chemistry and chemical engineering"
+  },
+  {
+    "id": 216,
+    "doi": "10.1162/qss_a_00220",
+    "year": 2022,
+    "title": "Researchers and their data: A study based on the use of the word data in scholarly articles"
+  },
+  {
+    "id": 217,
+    "doi": "10.1162/qss_a_00221",
+    "year": 2022,
+    "title": "Understanding knowledge role transitions: A perspective of knowledge codification"
+  },
+  {
+    "id": 218,
+    "doi": "10.1162/qss_a_00222",
+    "year": 2022,
+    "title": "A quantitative and qualitative open citation analysis of retracted articles in the humanities"
+  },
+  {
+    "id": 219,
+    "doi": "10.1162/qss_a_00213",
+    "year": 2022,
+    "title": "Predatory publishing in Scopus: Evidence on cross-country differences"
+  },
+  {
+    "id": 220,
+    "doi": "10.1162/qss_e_00214",
+    "year": 2022,
+    "title": "The challenges of scientometric studies of predatory publishing"
+  },
+  {
+    "id": 221,
+    "doi": "10.1162/qss_a_00223",
+    "year": 2022,
+    "title": "AI for AI: Using AI methods for classifying AI science documents"
+  },
+  {
+    "id": 222,
+    "doi": "10.1162/qss_a_00225",
+    "year": 2022,
+    "title": "When standard network measures fail to rank journals: A theoretical and empirical analysis"
+  },
+  {
+    "id": 223,
+    "doi": "10.1162/qss_a_00224",
+    "year": 2022,
+    "title": "Indicators of research quality, quantity, openness, and responsibility in institutional review, promotion, and tenure policies across seven countries"
+  },
+  {
+    "id": 224,
+    "doi": "10.1162/qss_a_00226",
+    "year": 2022,
+    "title": "Wikinformetrics: Construction and description of an open Wikipedia knowledge graph data set for informetric purposes"
+  },
+  {
+    "id": 225,
+    "doi": "10.1162/qss_a_00227",
+    "year": 2022,
+    "title": "AOC: Assembling overlapping communities"
+  },
+  {
+    "id": 226,
+    "doi": "10.1162/qss_a_00228",
+    "year": 2022,
+    "title": "Recalibrating the scope of scholarly publishing: A modest step in a vast decolonization process"
+  },
+  {
+    "id": 227,
+    "doi": "10.1162/qss_e_00234",
+    "year": 2023,
+    "title": "Latmétricas: Special issue on developments of S&amp;T indicators in Latin America"
+  },
+  {
+    "id": 228,
+    "doi": "10.1162/qss_a_00235",
+    "year": 2023,
+    "title": "Interview with Dr. Fernanda Beigel: Latin America wants to strengthen regional science through new global open access configurations"
+  },
+  {
+    "id": 229,
+    "doi": "10.1162/qss_a_00237",
+    "year": 2023,
+    "title": "Impact of the 2022 OSTP memo: A bibliometric analysis of US federally funded publications, 2017–2021"
+  },
+  {
+    "id": 230,
+    "doi": "10.1162/qss_a_00236",
+    "year": 2023,
+    "title": "How reliable are unsupervised author disambiguation algorithms in the assessment of research organization performance?"
+  },
+  {
+    "id": 231,
+    "doi": "10.1162/qss_a_00230",
+    "year": 2023,
+    "title": "The management of scientific and technological infrastructures: The case of the Mexican National Laboratories"
+  },
+  {
+    "id": 232,
+    "doi": "10.1162/qss_a_00233",
+    "year": 2023,
+    "title": "Bayesian history of science: The case of Watson and Crick and the structure of DNA"
+  },
+  {
+    "id": 233,
+    "doi": "10.1162/qss_a_00231",
+    "year": 2023,
+    "title": "Mapping the use of Google Scholar in evaluative bibliometric or scientometric studies: A bibliometric review"
+  },
+  {
+    "id": 234,
+    "doi": "10.1162/qss_a_00232",
+    "year": 2023,
+    "title": "Field, capital, and habitus: The impact of Pierre Bourdieu on bibliometrics"
+  },
+  {
+    "id": 235,
+    "doi": "10.1162/qss_a_00229",
+    "year": 2023,
+    "title": "Indicators of research circulation: Localization and internationalization under scrutiny—The Cuyo Manual and its exploratory case study in Argentina"
+  },
+  {
+    "id": 236,
+    "doi": "10.1162/qss_a_00238",
+    "year": 2023,
+    "title": "Predicting mobility and research performance of the faculty members in the economics departments at Turkish public universities"
+  },
+  {
+    "id": 237,
+    "doi": "10.1162/qss_a_00239",
+    "year": 2023,
+    "title": "The transformation of medical research in Mexico: A structural analysis of thematic domains, institutional affiliations, authors’ cohorts, and possible correlations"
+  },
+  {
+    "id": 238,
+    "doi": "10.1162/qss_a_00240",
+    "year": 2023,
+    "title": "Crossref as a bibliographic discovery tool in the arts and humanities"
+  },
+  {
+    "id": 239,
+    "doi": "10.1162/qss_a_00241",
+    "year": 2023,
+    "title": "Citation metrics covary with researchers’ assessments of the quality of their works"
+  },
+  {
+    "id": 240,
+    "doi": "10.1162/qss_a_00243",
+    "year": 2023,
+    "title": "The spread of retracted research into policy literature"
+  },
+  {
+    "id": 241,
+    "doi": "10.1162/qss_a_00244",
+    "year": 2023,
+    "title": "Recategorising research: Mapping from FoR 2008 to FoR 2020 in Dimensions"
+  },
+  {
+    "id": 242,
+    "doi": "10.1162/qss_a_00242",
+    "year": 2023,
+    "title": "Are papers published in predatory journals worthless? A geopolitical dimension revealed by content-based analysis of citations"
+  },
+  {
+    "id": 243,
+    "doi": "10.1162/qss_a_00245",
+    "year": 2023,
+    "title": "The APC-barrier and its effect on stratification in open access publishing"
+  },
+  {
+    "id": 244,
+    "doi": "10.1162/qss_a_00247",
+    "year": 2023,
+    "title": "Who influences policy labs in the European Union? A social network approach"
+  },
+  {
+    "id": 245,
+    "doi": "10.1162/qss_a_00246",
+    "year": 2023,
+    "title": "Field-level differences in paper and author characteristics across all fields of science in Web of Science, 2000–2020"
+  },
+  {
+    "id": 246,
+    "doi": "10.1162/qss_a_00248",
+    "year": 2023,
+    "title": "Impact of geographic diversity on citation of collaborative research"
+  },
+  {
+    "id": 247,
+    "doi": "10.1162/qss_a_00249",
+    "year": 2023,
+    "title": "Science and research landscapes across D-8 organization member countries from a historical perspective: The policy context and collective agendas"
+  },
+  {
+    "id": 248,
+    "doi": "10.1162/qss_a_00250",
+    "year": 2023,
+    "title": "An open data set of scholars on Twitter"
+  },
+  {
+    "id": 249,
+    "doi": "10.1162/qss_a_00251",
+    "year": 2023,
+    "title": "Proscription lists and predatory publishers: Pointing to careful certifications"
+  },
+  {
+    "id": 250,
+    "doi": "10.1162/qss_a_00253",
+    "year": 2023,
+    "title": "Which factors are associated with Open Access publishing? A Springer Nature case study"
+  },
+  {
+    "id": 251,
+    "doi": "10.1162/qss_a_00252",
+    "year": 2023,
+    "title": "Consistency pays off in science"
+  },
+  {
+    "id": 252,
+    "doi": "10.1162/qss_a_00255",
+    "year": 2023,
+    "title": "No deal: German researchers’ publishing and citing behaviors after Big Deal negotiations with Elsevier"
+  },
+  {
+    "id": 253,
+    "doi": "10.1162/qss_a_00254",
+    "year": 2023,
+    "title": "Is research funding always beneficial? A cross-disciplinary analysis of U.K. research 2014–20"
+  },
+  {
+    "id": 254,
+    "doi": "10.1162/qss_a_00258",
+    "year": 2023,
+    "title": "Predicting article quality scores with machine learning: The U.K. Research Excellence Framework"
+  },
+  {
+    "id": 255,
+    "doi": "10.1162/qss_a_00256",
+    "year": 2023,
+    "title": "Open access and international coauthorship: A longitudinal study of the United Arab Emirates research output"
+  },
+  {
+    "id": 256,
+    "doi": "10.1162/qss_a_00257",
+    "year": 2023,
+    "title": "COVID-19 publications in top-ranked public health journals during the first phase of the pandemic"
+  },
+  {
+    "id": 257,
+    "doi": "10.1162/qss_a_00260",
+    "year": 2023,
+    "title": "Reproducible science of science at scale: pySciSci"
+  },
+  {
+    "id": 258,
+    "doi": "10.1162/qss_a_00259",
+    "year": 2023,
+    "title": "The h a-index: The average citation h -index"
+  },
+  {
+    "id": 259,
+    "doi": "10.1162/qss_a_00261",
+    "year": 2023,
+    "title": "The Arabic Citation Index: Toward a better understanding of Arab scientific literature"
+  },
+  {
+    "id": 260,
+    "doi": "10.1162/qss_a_00262",
+    "year": 2023,
+    "title": "How research programs come apart: The example of supersymmetry and the disunity of physics"
+  },
+  {
+    "id": 261,
+    "doi": "10.1162/qss_a_00263",
+    "year": 2023,
+    "title": "Gender bias in funding evaluation: A randomized experiment"
+  },
+  {
+    "id": 262,
+    "doi": "10.1162/qss_a_00264",
+    "year": 2023,
+    "title": "Tracing data: A survey investigating disciplinary differences in data citation"
+  },
+  {
+    "id": 263,
+    "doi": "10.1162/qss_a_00265",
+    "year": 2023,
+    "title": "Interdisciplinary research: Motivations and challenges for researcher careers"
+  },
+  {
+    "id": 264,
+    "doi": "10.1162/qss_a_00266",
+    "year": 2023,
+    "title": "The quantification of open scholarship—a mapping review"
+  },
+  {
+    "id": 265,
+    "doi": "10.1162/qss_a_00267",
+    "year": 2023,
+    "title": "A meso-scale cartography of the AI ecosystem"
+  },
+  {
+    "id": 266,
+    "doi": "10.1162/qss_a_00268",
+    "year": 2023,
+    "title": "A half-century of global collaboration in science and the “Shrinking World”"
+  },
+  {
+    "id": 267,
+    "doi": "10.1162/qss_c_00269",
+    "year": 2023,
+    "title": "Interdisciplinarity, gender, and the hierarchy of the sciences"
+  },
+  {
+    "id": 268,
+    "doi": "10.1162/qss_c_00274",
+    "year": 2023,
+    "title": "Scientific reform, citation politics and the bureaucracy of oblivion"
+  },
+  {
+    "id": 269,
+    "doi": "10.1162/qss_a_00273",
+    "year": 2023,
+    "title": "Measuring university size: A comparison of academic personnel versus scientific talent pool data"
+  },
+  {
+    "id": 270,
+    "doi": "10.1162/qss_a_00272",
+    "year": 2023,
+    "title": "The oligopoly’s shift to open access: How the big five academic publishers profit from article processing charges"
+  },
+  {
+    "id": 271,
+    "doi": "10.1162/qss_a_00275",
+    "year": 2023,
+    "title": "Retracted articles use less free and open-source software and cite it worse"
+  },
+  {
+    "id": 272,
+    "doi": "10.1162/qss_a_00270",
+    "year": 2023,
+    "title": "Novel utilization of a paper-level classification system for the evaluation of journal impact: An update of the CAS Journal Ranking"
+  },
+  {
+    "id": 273,
+    "doi": "10.1162/qss_a_00271",
+    "year": 2023,
+    "title": "New methodologies for the digital age? How methods (re-)organize research using social media data"
+  },
+  {
+    "id": 274,
+    "doi": "10.1162/qss_a_00278",
+    "year": 2023,
+    "title": "Sociocultural factors and academic openness of world countries"
+  },
+  {
+    "id": 275,
+    "doi": "10.1162/qss_a_00280",
+    "year": 2023,
+    "title": "The rise of responsible metrics as a professional reform movement: A collective action frames account"
+  },
+  {
+    "id": 276,
+    "doi": "10.1162/qss_a_00279",
+    "year": 2023,
+    "title": "Scope and limitations of library metrics for the assessment of ebook usage: COUNTER R5 and link resolver"
+  },
+  {
+    "id": 277,
+    "doi": "10.1162/qss_a_00281",
+    "year": 2024,
+    "title": "Technological impact of funded research: A case study of nonpatent references"
+  },
+  {
+    "id": 278,
+    "doi": "10.1162/qss_a_00282",
+    "year": 2024,
+    "title": "Unreviewed science in the news: The evolution of preprint media coverage from 2014–2021"
+  },
+  {
+    "id": 279,
+    "doi": "10.1162/qss_a_00277",
+    "year": 2023,
+    "title": "Disappearing repositories: Taking an infrastructure perspective on the long-term availability of research data"
+  },
+  {
+    "id": 280,
+    "doi": "10.1162/qss_a_00276",
+    "year": 2023,
+    "title": "Young male and female scientists: A quantitative exploratory study of the changing demographics of the global scientific workforce"
+  },
+  {
+    "id": 281,
+    "doi": "10.1162/qss_a_00283",
+    "year": 2024,
+    "title": "Individual and gender inequality in computer science: A career study of cohorts from 1970 to 2000"
+  },
+  {
+    "id": 282,
+    "doi": "10.1162/qss_a_00284",
+    "year": 2024,
+    "title": "The challenge of assessing academic books: The U.K. and Lithuanian cases through the ISBN lens"
+  },
+  {
+    "id": 283,
+    "doi": "10.1162/qss_a_00285",
+    "year": 2024,
+    "title": "Large-scale text analysis using generative language models: A case study in discovering public value expressions in AI patents"
+  },
+  {
+    "id": 284,
+    "doi": "10.1162/qss_a_00286",
+    "year": 2024,
+    "title": "Completeness degree of publication metadata in eight free-access scholarly databases"
+  },
+  {
+    "id": 285,
+    "doi": "10.1162/qss_a_00287",
+    "year": 2024,
+    "title": "Exploring evidence selection with the inclusion network"
+  },
+  {
+    "id": 286,
+    "doi": "10.1162/qss_a_00288",
+    "year": 2024,
+    "title": "Examining the quality of the corresponding authorship field in Web of Science and Scopus"
+  },
+  {
+    "id": 287,
+    "doi": "10.1162/qss_a_00290",
+    "year": 2024,
+    "title": "Anatomy of the top 1% most highly cited publications: An empirical comparison of two approaches"
+  },
+  {
+    "id": 288,
+    "doi": "10.1162/qss_a_00291",
+    "year": 2024,
+    "title": "Highly Ranked Scholars and the influence of countries and regions in research fields, disciplines, and specialties"
+  },
+  {
+    "id": 289,
+    "doi": "10.1162/qss_c_00289",
+    "year": 2024,
+    "title": "Losing objectivity: The questionable use of surveys in the Global Ranking of Academic Subjects"
+  },
+  {
+    "id": 290,
+    "doi": "10.1162/qss_a_00296",
+    "year": 2024,
+    "title": "Do you cite what you tweet? Investigating the relationship between tweeting and citing research articles"
+  },
+  {
+    "id": 291,
+    "doi": "10.1162/qss_a_00295",
+    "year": 2024,
+    "title": "The policy is dead, long live the policy—Revealing science, technology, and innovation policy priorities and government transitions via network analysis"
+  },
+  {
+    "id": 292,
+    "doi": "10.1162/qss_a_00293",
+    "year": 2024,
+    "title": "Keeping a close watch on Innovation Studies: Opening the black box of journal editorships"
+  },
+  {
+    "id": 293,
+    "doi": "10.1162/qss_a_00294",
+    "year": 2024,
+    "title": "The use of linear models in quantitative research"
+  },
+  {
+    "id": 294,
+    "doi": "10.1162/qss_c_00300",
+    "year": 2024,
+    "title": "The gendered structure of science does not transpire in an experimental vacuum"
+  },
+  {
+    "id": 295,
+    "doi": "10.1162/qss_a_00297",
+    "year": 2024,
+    "title": "Author mentions in science news reveal widespread disparities across name-inferred ethnicities"
+  },
+  {
+    "id": 296,
+    "doi": "10.1162/qss_a_00299",
+    "year": 2024,
+    "title": "Scholarly publications and data set evidence for the Human Reference Atlas"
+  },
+  {
+    "id": 297,
+    "doi": "10.1162/qss_a_00298",
+    "year": 2024,
+    "title": "Second-order citations in altmetrics: A case study analyzing the audiences of COVID-19 research in the news and on social media"
+  },
+  {
+    "id": 298,
+    "doi": "10.1162/qss_a_00292",
+    "year": 2024,
+    "title": "OpenCitations Meta"
+  },
+  {
+    "id": 299,
+    "doi": "10.1162/qss_a_00301",
+    "year": 2024,
+    "title": "Operationalizing open and restricted-access data—Formulating verifiable criteria for the openness of data sets mentioned in biomedical research articles"
+  },
+  {
+    "id": 300,
+    "doi": "10.1162/qss_a_00302",
+    "year": 2024,
+    "title": "Public engagement with COVID-19 preprints: Bridging the gap between scientists and society"
+  },
+  {
+    "id": 301,
+    "doi": "10.1162/qss_a_00303",
+    "year": 2024,
+    "title": "On the shoulders of fallen giants: What do references to retracted research tell us about citation behaviors?"
+  },
+  {
+    "id": 302,
+    "doi": "10.1162/qss_c_00305",
+    "year": 2024,
+    "title": "Are open access fees a good use of taxpayers’ money?"
+  },
+  {
+    "id": 303,
+    "doi": "10.1162/qss_a_00304",
+    "year": 2024,
+    "title": "Evaluating approaches to identifying research supporting the United Nations Sustainable Development Goals"
+  },
+  {
+    "id": 304,
+    "doi": "10.1162/qss_a_00306",
+    "year": 2024,
+    "title": "A matter of time? Gender and ethnic inequality in the academic publishing careers of Dutch Ph.D.s"
+  },
+  {
+    "id": 305,
+    "doi": "10.1162/qss_a_00307",
+    "year": 2024,
+    "title": "Hyperauthored papers disproportionately amplify important egocentric network metrics"
+  },
+  {
+    "id": 306,
+    "doi": "10.1162/qss_a_00308",
+    "year": 2024,
+    "title": "Twenty years of the Open Access movement: A retrospective study on the relationship between publishing strategies and scientific capital of Brazilian researchers in biological science"
+  },
+  {
+    "id": 307,
+    "doi": "10.1162/qss_a_00310",
+    "year": 2024,
+    "title": "A critical review of large language models: Sensitivity, bias, and the path toward specialized AI"
+  },
+  {
+    "id": 308,
+    "doi": "10.1162/qss_a_00309",
+    "year": 2024,
+    "title": "A multilevel analysis of data quality for formal software citation"
+  },
+  {
+    "id": 309,
+    "doi": "10.1162/qss_a_00311",
+    "year": 2024,
+    "title": "Linking science with media and policy: The case of academics in Flanders, Belgium"
+  },
+  {
+    "id": 310,
+    "doi": "10.1162/qss_a_00312",
+    "year": 2024,
+    "title": "Talent hat, cross-border mobility, and career development in China"
+  },
+  {
+    "id": 311,
+    "doi": "10.1162/qss_a_00313",
+    "year": 2024,
+    "title": "Latent variable modeling of scientific impact: Estimation of the Q model parameters with structural equation models"
+  },
+  {
+    "id": 312,
+    "doi": "10.1162/qss_a_00314",
+    "year": 2024,
+    "title": "Exploring publication networks with a local cohesion-maximizing algorithm"
+  },
+  {
+    "id": 313,
+    "doi": "10.1162/qss_a_00315",
+    "year": 2024,
+    "title": "Research funding in different SCI disciplines: A comparison analysis based on Web of Science"
+  },
+  {
+    "id": 314,
+    "doi": "10.1162/qss_a_00317",
+    "year": 2024,
+    "title": "University rankings in the context of research evaluation: A state-of-the-art review"
+  },
+  {
+    "id": 315,
+    "doi": "10.1162/qss_a_00316",
+    "year": 2024,
+    "title": "Real influence: A novel approach to characterize the visibility of journals and publications"
+  },
+  {
+    "id": 316,
+    "doi": "10.1162/qss_a_00320",
+    "year": 2024,
+    "title": "The development of a research intelligence tool for rare disease research in the Netherlands"
+  },
+  {
+    "id": 317,
+    "doi": "10.1162/qss_a_00318",
+    "year": 2024,
+    "title": "Impact of peer review type and editor gender on women authorships in mathematics"
+  },
+  {
+    "id": 318,
+    "doi": "10.1162/qss_a_00319",
+    "year": 2024,
+    "title": "Researcher profile system adoption and use across discipline and rank: A case study at the University of Manitoba"
+  },
+  {
+    "id": 319,
+    "doi": "10.1162/qss_a_00321",
+    "year": 2024,
+    "title": "Explicit or implicit digital humanities? An examination of search strategies to retrieve digital humanities publications from large-scale scholarly databases"
+  },
+  {
+    "id": 320,
+    "doi": "10.1162/qss_a_00322",
+    "year": 2024,
+    "title": "Challenges in building scholarly knowledge graphs for research assessment in open science"
+  },
+  {
+    "id": 321,
+    "doi": "10.1162/qss_a_00323",
+    "year": 2024,
+    "title": "Dynamic patterns of the disruptive and consolidating knowledge flows in Nobel-winning scientific breakthroughs"
+  },
+  {
+    "id": 322,
+    "doi": "10.1162/qss_a_00325",
+    "year": 2024,
+    "title": "Developing an index of national research capacity"
+  },
+  {
+    "id": 323,
+    "doi": "10.1162/qss_a_00326",
+    "year": 2024,
+    "title": "Auditing citation polarization during the early COVID-19 pandemic"
+  },
+  {
+    "id": 324,
+    "doi": "10.1162/qss_a_00324",
+    "year": 2024,
+    "title": "Open access in Ukraine: Characteristics and evolution from 2012 to 2021"
+  },
+  {
+    "id": 325,
+    "doi": "10.1162/qss_a_00328",
+    "year": 2024,
+    "title": "Dimensions: Calculating disruption indices at scale"
+  },
+  {
+    "id": 326,
+    "doi": "10.1162/qss_a_00327",
+    "year": 2024,
+    "title": "The strain on scientific publishing"
+  },
+  {
+    "id": 327,
+    "doi": "10.1162/qss_a_00330",
+    "year": 2024,
+    "title": "Gender differences in the patterns and consequences of changing research directions in scientific careers"
+  },
+  {
+    "id": 328,
+    "doi": "10.1162/qss_c_00331",
+    "year": 2024,
+    "title": "We need to rethink the way we identify diamond open access journals in quantitative science studies"
+  },
+  {
+    "id": 329,
+    "doi": "10.1162/qss_a_00329",
+    "year": 2024,
+    "title": "Interdisciplinary research in artificial intelligence: Lessons from COVID-19"
+  },
+  {
+    "id": 330,
+    "doi": "10.1162/qss_a_00332",
+    "year": 2024,
+    "title": "Incorporating costs and benefits to the evaluation of uncertain research results: Applications to cancer research funding"
+  },
+  {
+    "id": 331,
+    "doi": "10.1162/qss_a_00333",
+    "year": 2024,
+    "title": "The disruption index is biased by citation inflation"
+  },
+  {
+    "id": 332,
+    "doi": "10.1162/qss_a_00334",
+    "year": 2024,
+    "title": "Faculty mobility and research dynamics at Historically Black Colleges and Universities"
+  },
+  {
+    "id": 333,
+    "doi": "10.1162/qss_a_00335",
+    "year": 2024,
+    "title": "Female-led teams produce more innovative ideas yet receive less scientific impact"
+  },
+  {
+    "id": 334,
+    "doi": "10.1162/qss_a_00336",
+    "year": 2025,
+    "title": "Multivariate dynamics of Ecuadorian public universities and their research trends, according to Web of Science (pre-COVID period)"
+  },
+  {
+    "id": 335,
+    "doi": "10.1162/qss_a_00337",
+    "year": 2025,
+    "title": "Open Science at the generative AI turn: An exploratory analysis of challenges and opportunities"
+  },
+  {
+    "id": 336,
+    "doi": "10.1162/qss_a_00338",
+    "year": 2025,
+    "title": "Open access journals lack image accessibility guidelines"
+  },
+  {
+    "id": 337,
+    "doi": "10.1162/qss_a_00339",
+    "year": 2025,
+    "title": "Using bibliometrics to detect questionable authorship and affiliation practices and their impact on global research metrics: A case study of 14 universities"
+  },
+  {
+    "id": 338,
+    "doi": "10.1162/qss_a_00343",
+    "year": 2025,
+    "title": "The transformative relation between publishers and editors: Research quality and academic autonomy at stake"
+  },
+  {
+    "id": 339,
+    "doi": "10.1162/qss_a_00340",
+    "year": 2025,
+    "title": "Have public universities in Germany become more isomorphic? Methodology and empirical test, 1995–2020"
+  },
+  {
+    "id": 340,
+    "doi": "10.1162/qss_a_00342",
+    "year": 2025,
+    "title": "Exploration and exploitation: Which research strategy are you better at?"
+  },
+  {
+    "id": 341,
+    "doi": "10.1162/qss_a_00341",
+    "year": 2025,
+    "title": "Global mobility of the recent STEM postdoctoral workforce registered in ORCID"
+  },
+  {
+    "id": 342,
+    "doi": "10.1162/qss_a_00344",
+    "year": 2025,
+    "title": "A framework for demonstrating, forecasting, and explaining topic evolution by analyzing geometrical motion of topic embeddings"
+  },
+  {
+    "id": 343,
+    "doi": "10.1162/qss_a_00346",
+    "year": 2025,
+    "title": "Teaching counts! Open Educational Resources as an object of measurement for scientometric analysis"
+  },
+  {
+    "id": 344,
+    "doi": "10.1162/qss_c_00347",
+    "year": 2025,
+    "title": "On the limits of causal theory for studying inequalities in science"
+  },
+  {
+    "id": 345,
+    "doi": "10.1162/qss_a_00345",
+    "year": 2025,
+    "title": "A long and winding road: Research impact evaluation over public policies"
+  },
+  {
+    "id": 346,
+    "doi": "10.1162/qss_a_00348",
+    "year": 2025,
+    "title": "How open are hybrid journals included in transformative agreements?"
+  },
+  {
+    "id": 347,
+    "doi": "10.1162/qss_a_00350",
+    "year": 2025,
+    "title": "The effect of public funding on long-term relocation of experienced researchers: An analysis of the Marie Curie Career Integration Grant"
+  },
+  {
+    "id": 348,
+    "doi": "10.1162/qss_a_00349",
+    "year": 2025,
+    "title": "Representing the disciplinary structure of physics: A comparative evaluation of graph and text embedding methods"
+  },
+  {
+    "id": 349,
+    "doi": "10.1162/qss_a_00351",
+    "year": 2025,
+    "title": "Highly Cited Researchers: Anatomy of a list"
+  },
+  {
+    "id": 350,
+    "doi": "10.1162/qss_a_00353",
+    "year": 2025,
+    "title": "The retraction gender gap: Are mixed teams more vulnerable?"
+  },
+  {
+    "id": 351,
+    "doi": "10.1162/qss_a_00354",
+    "year": 2025,
+    "title": "Measuring the impact of the COVID-19 pandemic on the activeness, efficiency, and international collaboration of clinical trials"
+  },
+  {
+    "id": 352,
+    "doi": "10.1162/qss_a_00355",
+    "year": 2025,
+    "title": "Screening articles by citation reputation"
+  },
+  {
+    "id": 353,
+    "doi": "10.1162/qss_a_00352",
+    "year": 2025,
+    "title": "Metrics and peer review agreement at the institutional level"
+  },
+  {
+    "id": 354,
+    "doi": "10.1162/qss_a_00356",
+    "year": 2025,
+    "title": "Historical development and global standings: Charting the cartography of humanities and social sciences research in East Asia"
+  },
+  {
+    "id": 355,
+    "doi": "10.1162/qss_a_00357",
+    "year": 2025,
+    "title": "On author self-citations as carriers of scientific topic structure information"
+  },
+  {
+    "id": 356,
+    "doi": "10.1162/qss_a_00358",
+    "year": 2025,
+    "title": "Dissecting the global peer review ecosystem: Skewness, homophily, and diversity dynamics"
+  },
+  {
+    "id": 357,
+    "doi": "10.1162/qss_a_00359",
+    "year": 2025,
+    "title": "Political hegemony, imitation isomorphism, and project familiarity: Instrumental variables to understand funding impact on scholar performance"
+  },
+  {
+    "id": 358,
+    "doi": "10.1162/qss_a_00360",
+    "year": 2025,
+    "title": "Transforming role classification in scientific teams using LLMs and advanced predictive analytics"
+  },
+  {
+    "id": 359,
+    "doi": "10.1162/qss_a_00361",
+    "year": 2025,
+    "title": "Categorization of scientometric data in a Benfordian context"
+  },
+  {
+    "id": 360,
+    "doi": "10.1162/qss_a_00363",
+    "year": 2025,
+    "title": "A survey of knowledge organization systems of research fields: Resources and challenges"
+  },
+  {
+    "id": 361,
+    "doi": "10.1162/qss_a_00362",
+    "year": 2025,
+    "title": "Two definitions to characterize the relations between columns in a given scholarly metadata data set"
+  },
+  {
+    "id": 362,
+    "doi": "10.1162/qss_a_00365",
+    "year": 2025,
+    "title": "Research topic choice: Motivations, strategies, and consequences"
+  },
+  {
+    "id": 363,
+    "doi": "10.1162/qss_a_00364",
+    "year": 2025,
+    "title": "Prevalence of Registered Reports in experimental psychology journals: A bibliometric study"
+  },
+  {
+    "id": 364,
+    "doi": "10.1162/qss_a_00366",
+    "year": 2025,
+    "title": "The “Network Society” moves in mysterious ways: 25 years in the reception of a core concept"
+  },
+  {
+    "id": 365,
+    "doi": "10.1162/qss_a_00367",
+    "year": 2025,
+    "title": "The use of informetric methods to study diversity in the scientific workforce: A literature review"
+  },
+  {
+    "id": 366,
+    "doi": "10.1162/qss_a_00368",
+    "year": 2025,
+    "title": "Where there’s a will there’s a way: ChatGPT is used more for science in countries where it is prohibited"
+  },
+  {
+    "id": 367,
+    "doi": "10.1162/qss.a.1",
+    "year": 2025,
+    "title": "Examining the geographic and linguistic coverage of gold and diamond open access journals in OpenAlex, Scopus, and Web of Science"
+  },
+  {
+    "id": 368,
+    "doi": "10.1162/qss.a.2",
+    "year": 2025,
+    "title": "Hierarchical classification of research fields in the MAG science network using deep learning"
+  },
+  {
+    "id": 369,
+    "doi": "10.1162/qss.a.3",
+    "year": 2025,
+    "title": "Words connecting communities: Representing the polysemy of argumentation"
+  },
+  {
+    "id": 370,
+    "doi": "10.1162/qss.a.4",
+    "year": 2025,
+    "title": "Unpacking the connection between funding configurations and research teams’ interdisciplinary practices"
+  },
+  {
+    "id": 371,
+    "doi": "10.1162/qss.a.5",
+    "year": 2025,
+    "title": "Gender disparity in funding rates in double-blind grant peer review: The case of the Villum Experiment"
+  },
+  {
+    "id": 372,
+    "doi": "10.1162/qss.a.6",
+    "year": 2025,
+    "title": "Mathematical reflections on modified fractional counting"
+  },
+  {
+    "id": 373,
+    "doi": "10.1162/qss.a.7",
+    "year": 2025,
+    "title": "Evolution of ESG-focused DLT research: An NLP analysis of the literature"
+  },
+  {
+    "id": 374,
+    "doi": "10.1162/qss.a.8",
+    "year": 2025,
+    "title": "The funding configuration method: Tracing and visualizing all research grants of individual researchers"
+  },
+  {
+    "id": 375,
+    "doi": "10.1162/qss.a.9",
+    "year": 2025,
+    "title": "Facilitating interdisciplinary knowledge transfer with research paper recommender systems"
+  },
+  {
+    "id": 376,
+    "doi": "10.1162/qss.a.11",
+    "year": 2025,
+    "title": "Race science in mainstream psychology, 1960–2010"
+  },
+  {
+    "id": 377,
+    "doi": "10.1162/qss.a.12",
+    "year": 2025,
+    "title": "Guidance for the reporting of bibliometric analyses: A scoping review"
+  },
+  {
+    "id": 378,
+    "doi": "10.1162/qss.a.14",
+    "year": 2025,
+    "title": "Mapping the publisher types and collaborations behind Web of Science indexed journals"
+  },
+  {
+    "id": 379,
+    "doi": "10.1162/qss.a.13",
+    "year": 2025,
+    "title": "Measuring research interest similarity with transition probabilities"
+  },
+  {
+    "id": 380,
+    "doi": "10.1162/qss.a.15",
+    "year": 2025,
+    "title": "Does citation context information enhance the validity of citation analysis for measuring research quality? An empirical comparison of peer assessments and enriched citations"
+  },
+  {
+    "id": 381,
+    "doi": "10.1162/qss.a.16",
+    "year": 2025,
+    "title": "Quantifying lifetime productivity changes: A longitudinal study of 320,000 late-career scientists"
+  },
+  {
+    "id": 382,
+    "doi": "10.1162/qss.a.17",
+    "year": 2025,
+    "title": "On the open road to universal indexing: OpenAlex and Open Journal Systems"
+  },
+  {
+    "id": 383,
+    "doi": "10.1162/qss.a.18",
+    "year": 2025,
+    "title": "Research funding during COVID-19 inflated gender differences: Systematic analysis of nationwide data from Denmark"
+  },
+  {
+    "id": 384,
+    "doi": "10.1162/qss.a.19",
+    "year": 2025,
+    "title": "Using peer review to evaluate the societal relevance of humanities research"
+  },
+  {
+    "id": 385,
+    "doi": "10.1162/qss.a.20",
+    "year": 2025,
+    "title": "The data infrastructure of the German Kompetenznetzwerk Bibliometrie : An enabling intermediary between raw data and analysis"
+  },
+  {
+    "id": 386,
+    "doi": "10.1162/qss.a.21",
+    "year": 2025,
+    "title": "Searching for gendered use of modality in grant proposals: A comparative study"
+  },
+  {
+    "id": 387,
+    "doi": "10.1162/qss.a.22",
+    "year": 2025,
+    "title": "Academic freedom and international research collaboration: A longitudinal analysis of global network evolution"
+  },
+  {
+    "id": 388,
+    "doi": "10.1162/qss.a.23",
+    "year": 2025,
+    "title": "A supervised machine learning approach for assessing grant peer review reports"
+  },
+  {
+    "id": 389,
+    "doi": "10.1162/qss.a.24",
+    "year": 2025,
+    "title": "Tracking transformative agreements through open metadata: Method and validation using Dutch Research Council NWO funded papers"
+  },
+  {
+    "id": 390,
+    "doi": "10.1162/qss.x.10",
+    "year": 2025,
+    "title": "Erratum: Are open access fees a good use of taxpayers’ money?"
+  },
+  {
+    "id": 391,
+    "doi": "10.1162/qss.a.392",
+    "year": 2025,
+    "title": "Modeling the evolution of the gold open access market for the equilibrium article processing charge of journals with a Hotelling duopoly game"
+  },
+  {
+    "id": 392,
+    "doi": "10.1162/qss.a.393",
+    "year": 2025,
+    "title": "Implicit and explicit research quality score probabilities from ChatGPT"
+  },
+  {
+    "id": 393,
+    "doi": "10.1162/qss.a.394",
+    "year": 2025,
+    "title": "A review of annual statements on research integrity from U.K. institutions in 2023–2024, with a focus on research fraud"
+  },
+  {
+    "id": 394,
+    "doi": "10.1162/qss.a.396",
+    "year": 2025,
+    "title": "Coverage and metadata completeness and accuracy of African research publications in OpenAlex: A comparative analysis"
+  },
+  {
+    "id": 395,
+    "doi": "10.1162/qss.a.395",
+    "year": 2025,
+    "title": "Reliability and validity of a high-profile peer review study: Probing Wennerås and Wold’s data in Nature"
+  },
+  {
+    "id": 396,
+    "doi": "10.1162/qss.a.397",
+    "year": 2026,
+    "title": "The Matilda Effect in Soviet scientometrics? Nalimov, Mulchenko, and the origins of Naukometriya"
+  },
+  {
+    "id": 397,
+    "doi": "10.1162/qss.a.401",
+    "year": 2026,
+    "title": "Wikipedia citations: Reproducible citation extraction from multilingual Wikipedia"
+  },
+  {
+    "id": 398,
+    "doi": "10.1162/qss.a.400",
+    "year": 2026,
+    "title": "Widespread reference missingness disparities in open scholarly metadata"
+  },
+  {
+    "id": 399,
+    "doi": "10.1162/qss.a.398",
+    "year": 2026,
+    "title": "Support for open science is equally high in opt-in versus representative samples of scientists from a research-focused US university"
+  },
+  {
+    "id": 400,
+    "doi": "10.1162/qss.a.399",
+    "year": 2026,
+    "title": "Divergent characteristics of biomedical research across publication types: A quantitative analysis on the aging-related research"
+  },
+  {
+    "id": 401,
+    "doi": "10.1162/qss.a.402",
+    "year": 2026,
+    "title": "Bridging the divide? Labor division and researcher mobility in international collaboration"
+  },
+  {
+    "id": 402,
+    "doi": "10.1162/qss.a.403",
+    "year": 2026,
+    "title": "Derivation of nonstationary Lotka-type distributions without divergence of moments"
+  },
+  {
+    "id": 403,
+    "doi": "10.1162/qss.a.404",
+    "year": 2026,
+    "title": "Previous Nobel prize winners cite newer laureates"
+  },
+  {
+    "id": 404,
+    "doi": "10.1162/qss.a.407",
+    "year": 2026,
+    "title": "How permanent are metadata for research data? Understanding changes in DataCite metadata"
+  },
+  {
+    "id": 405,
+    "doi": "10.1162/qss.a.406",
+    "year": 2026,
+    "title": "Analysis of the publication and document types in OpenAlex, Web of Science, Scopus, PubMed and Semantic Scholar"
+  },
+  {
+    "id": 406,
+    "doi": "10.1162/qss.a.405",
+    "year": 2026,
+    "title": "Introduction to structural causal models in science studies"
+  },
+  {
+    "id": 407,
+    "doi": "10.1162/qss.a.409",
+    "year": 2026,
+    "title": "The Disruption Index measures displacement between a paper and its most cited reference"
+  },
+  {
+    "id": 408,
+    "doi": "10.1162/qss.a.408",
+    "year": 2026,
+    "title": "Rethinking altmetrics as process-based indicators: A conceptual framework for construct clarity"
+  },
+  {
+    "id": 409,
+    "doi": "10.1162/qss.a.410",
+    "year": 2026,
+    "title": "The relationship between prior international collaboration and international mobility: Global patterns across regions and income groups"
+  },
+  {
+    "id": 410,
+    "doi": "10.1162/qss.a.411",
+    "year": 2026,
+    "title": "From brain drain to brain circulation: International researcher mobility in Brazilian health and life sciences (2005–2020)"
+  },
+  {
+    "id": 411,
+    "doi": "10.1162/qss.a.412",
+    "year": 2026,
+    "title": "Research Intelligence: An emerging concept"
+  },
+  {
+    "id": 412,
+    "doi": "10.1162/qss.a.414",
+    "year": 2026,
+    "title": "Unpacking gender disparities in grant-seeking behavior at the University of Cambridge: Analysis by discipline and seniority"
+  },
+  {
+    "id": 413,
+    "doi": "10.1162/qss.a.457",
+    "year": 2026,
+    "title": "Quantifying (mis)alignment between reader focus and editor citation in scholarly biomedical topics in Wikipedia"
+  },
+  {
+    "id": 414,
+    "doi": "10.1162/qss.a.456",
+    "year": 2026,
+    "title": "Improving methodological consistency in selecting Highly Cited Researchers to address field and regional disparities"
+  },
+  {
+    "id": 415,
+    "doi": "10.1162/qss.a.458",
+    "year": 2026,
+    "title": "Individual, institutional, and systemic factors contributing to academic research production: Comparing traditional and multilevel models"
+  },
+  {
+    "id": 416,
+    "doi": "10.1162/qss.a.459",
+    "year": 2026,
+    "title": "Mapping inequalities in the academic research ecosystem: A systematic literature review"
+  },
+  {
+    "id": 417,
+    "doi": "10.1162/qss.a.461",
+    "year": 2026,
+    "title": "Constructing BERT models: How team dynamics and focus shape AI model impact"
+  },
+  {
+    "id": 418,
+    "doi": "10.1162/qss.a.460",
+    "year": 2026,
+    "title": "A global south strategy for evaluating research value with ChatGPT"
+  },
+  {
+    "id": 419,
+    "doi": "10.1162/qss.a.463",
+    "year": 2026,
+    "title": "The emergence of computational social science: Intellectual integration or persistent fragmentation?"
+  },
+  {
+    "id": 420,
+    "doi": "10.1162/qss.a.462",
+    "year": 2026,
+    "title": "Is groundbreaking research disruptive? The covariation of disruption indices with researchers’ self-assessments"
+  },
+  {
+    "id": 421,
+    "doi": "10.1162/qss.a.464",
+    "year": 2026,
+    "title": "Who are tweeting about academic publications? A systematic review and meta-analysis of altmetric studies"
+  },
+  {
+    "id": 422,
+    "doi": "10.1162/qss.a.465",
+    "year": 2026,
+    "title": "Code contribution and credit in science"
+  },
+  {
+    "id": 423,
+    "doi": "10.1162/qss.a.467",
+    "year": 2026,
+    "title": "United States–China rivalry and scientific nationalism in nanotechnology"
+  },
+  {
+    "id": 424,
+    "doi": "10.1162/qss.a.466",
+    "year": 2026,
+    "title": "Charting the landscape of Italian Diamond Open Access publishing"
+  },
+  {
+    "id": 425,
+    "doi": "10.1162/qss.a.468",
+    "year": 2026,
+    "title": "Double-blind peer review and unconventional research: A comparative study of the SNSF Spark pilot"
+  },
+  {
+    "id": 426,
+    "doi": "10.1162/qss.a.470",
+    "year": 2026,
+    "title": "Evaluating open access advantages for citations and altmetrics (2011–2021): A dynamic and evolving relationship"
+  },
+  {
+    "id": 427,
+    "doi": "10.1162/qss.a.469",
+    "year": 2026,
+    "title": "Investigating the perception of peer review quality—A German–Swiss vignette study"
+  },
+  {
+    "id": 428,
+    "doi": "10.1162/qss.a.471",
+    "year": 2026,
+    "title": "Global shifts in the geopolitics of chemical discovery: China’s rise and the decline of US influence"
+  },
+  {
+    "id": 429,
+    "doi": "10.1162/qss.a.472",
+    "year": 2026,
+    "title": "Evolution of public funding for collaborative health research towards higher level patient-oriented research: A comparison of the European Union Framework Programmes to the program funding by the United States National Institutes of Health"
+  },
+  {
+    "id": 430,
+    "doi": "10.1162/qss.a.473",
+    "year": 2026,
+    "title": "Serendipity and scientific styles: An ordinary language analysis of disciplinary divergence"
+  },
+  {
+    "id": 431,
+    "doi": "10.1162/qss.a.474",
+    "year": 2026,
+    "title": "Cumulative advantage of brokerage in physics"
+  },
+  {
+    "id": 432,
+    "doi": "10.1162/qss.a.475",
+    "year": 2026,
+    "title": "Introducing multiverse analysis to bibliometrics: The case of team size effects on disruptive research"
+  },
+  {
+    "id": 433,
+    "doi": "10.1162/qss.a.476",
+    "year": 2026,
+    "title": "Trends in equal-contribution authorship: A large-scale bibliometric analysis of biomedical literature"
+  },
+  {
+    "id": 434,
+    "doi": "10.1162/qss.a.478",
+    "year": 2026,
+    "title": "Considerable inequality in faculty hiring networks of German universities: Placement power in psychology and political science"
+  },
+  {
+    "id": 435,
+    "doi": "10.1162/qss.a.477",
+    "year": 2026,
+    "title": "A stock-flow framework for editorial board dynamics: The case of economics journals, 1866–2019"
+  },
+  {
+    "id": 436,
+    "doi": "10.1162/qss.a.479",
+    "year": 2026,
+    "title": "The varying perceptions of a statistician’s value, from “critical” to “not needed for 99.9% of applications”: A study of human research ethics committees in Australia"
+  },
+  {
+    "id": 437,
+    "doi": "10.1162/qss.a.480",
+    "year": 2026,
+    "title": "From Merton to market: Normative tensions in Canadian science"
+  },
+  {
+    "id": 438,
+    "doi": "10.1162/qss.a.483",
+    "year": 2026,
+    "title": "Data by experience: A survey investigating differences in data citation practices according to researchers’ career stages"
+  },
+  {
+    "id": 439,
+    "doi": "10.1162/qss.a.482",
+    "year": 2026,
+    "title": "A probabilistic model of hype reveals a rhetorical shift in biomedicine"
+  },
+  {
+    "id": 440,
+    "doi": "10.1162/qss.a.484",
+    "year": 2026,
+    "title": "Epistemic choices, struggles and inequalities in scientific publishing: A mixed-methods study focusing on African forest governance researchers"
+  },
+  {
+    "id": 441,
+    "doi": "10.1162/qss.a.485",
+    "year": 2026,
+    "title": "Impact of a reclassification of Web of Science articles on bibliometric indicators"
+  },
+  {
+    "id": 442,
+    "doi": "10.1162/qss.a.486",
+    "year": 2026,
+    "title": "Institutional cooperations in Austrian research: An analysis of shared researchers"
+  },
+  {
+    "id": 443,
+    "doi": "10.1162/qss.a.490",
+    "year": 2026,
+    "title": "The role of preprints in neuroscience scholarly communication: A citation analysis"
+  },
+  {
+    "id": 444,
+    "doi": "10.1162/qss.a.488",
+    "year": 2026,
+    "title": "Have we reached the beginning of the end for review papers?"
+  },
+  {
+    "id": 445,
+    "doi": "10.1162/qss.a.489",
+    "year": 2026,
+    "title": "A global map of science according to a topic model of EU grants"
+  },
+  {
+    "id": 446,
+    "doi": "10.1162/qss.a.481",
+    "year": 2026,
+    "title": "Academic publishing business models: Self-citations and the selectivity–reputation trade-off"
+  },
+  {
+    "id": 447,
+    "doi": "10.1162/qss.a.491",
+    "year": 2026,
+    "title": "Triangulating outcomes, timeframes, and estimation methods in quasi-experimental research funding evaluation: A case from Poland"
+  },
+  {
+    "id": 448,
+    "doi": "10.1162/qss.a.492",
+    "year": 2026,
+    "title": "Authorship inequality and elite dominance in management and organizational research: A review of six decades"
+  },
+  {
+    "id": 449,
+    "doi": "10.1162/qss.a.493",
+    "year": 2026,
+    "title": "Assessing scientific knowledge in patents: A large language model approach"
+  },
+  {
+    "id": 450,
+    "doi": "10.1162/qss.a.494",
+    "year": 2026,
+    "title": "Testing experimental theories: A Bayesian analysis of Robert Millikan’s measurements of the fundamental electric charge"
+  },
+  {
+    "id": 451,
+    "doi": "10.1162/qss.a.487",
+    "year": 2026,
+    "title": "An analysis of the effects of open science indicators on citations in the French Open Science Monitor"
+  },
+  {
+    "id": 452,
+    "doi": "10.1162/qss.a.495",
+    "year": 2026,
+    "title": "Beyond tradition: Successful career paths to full professorship"
+  },
+  {
+    "id": 453,
+    "doi": "10.1162/qss.a.496",
+    "year": 2026,
+    "title": "Implicit reporting standards in bibliometric research: What can reviewers’ comments tell us about reporting completeness?"
+  },
+  {
+    "id": 454,
+    "doi": "10.1162/qss.a.497",
+    "year": 2026,
+    "title": "Asymmetric returns from basic-to-applied career shifts"
+  },
+  {
+    "id": 455,
+    "doi": "10.1162/qss.a.498",
+    "year": 2026,
+    "title": "Small research ecosystems in large international public policies: Tracing an infrastructurally mediated pathway from CroRIS to Overton"
+  },
+  {
+    "id": 456,
+    "doi": "10.1162/qss.a.499",
+    "year": 2026,
+    "title": "It takes a village to raise a scientist: Social network predictors of satisfaction for academic trainees in Canada"
+  },
+  {
+    "id": 457,
+    "doi": "10.1162/qss.a.500",
+    "year": 2026,
+    "title": "Φ index: A standardized scale-independent and field-normalized citation indicator"
+  },
+  {
+    "id": 458,
+    "doi": "10.1162/qss.a.501",
+    "year": 2026,
+    "title": "Pattern, perception, and performance: Tripartite phrases in academic paper titles"
+  },
+  {
+    "id": 459,
+    "doi": "10.1162/qss.a.502",
+    "year": 2026,
+    "title": "How deep do large language models internalize scientific literature and citation practices?"
+  },
+  {
+    "id": 460,
+    "doi": "10.1162/qss.a.503",
+    "year": 2026,
+    "title": "Funding, authorship patterns, and citation impact of articles funded by Ukrainian agencies before and during Russia’s full-scale war (2020–2023)"
+  },
+  {
+    "id": 461,
+    "doi": "10.1162/qss.a.504",
+    "year": 2026,
+    "title": "The Field-Specificity of Data Practices and the Public Sharing of Research Data (Part 1): Evidence from a Survey of Researchers at German Universities"
+  },
+  {
+    "id": 462,
+    "doi": "10.1162/qss.a.505",
+    "year": 2026,
+    "title": "Following the evidence: Mapping the cited scientific base of Brazil’s public health guidelines"
+  },
+  {
+    "id": 463,
+    "doi": "10.1162/qss.a.506",
+    "year": 2026,
+    "title": "Turning Citation Networks Inside Out: Studying Science Using Content-Based Knowledge Graphs from LLM-Derived Taxonomies"
+  },
+  {
+    "id": 464,
+    "doi": "10.1162/qss.a.507",
+    "year": 2026,
+    "title": "The field-specificity of data practices and the public sharing of research data (Part 2): How patterns of data sharing and reuse reflect epistemic practices of research"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-20T18:49:08.172875+00:00",
+  "protected_files": 522,
+  "bilingual_paragraphs": 80,
+  "documents": {
+    "en": {
+      "path": "output/pdf/main.pdf",
+      "pages": 24,
+      "sha256": "1dd57238fe469cecfc66d0caa670a9e49f4304f6d0bb4973dc7ee3acf7f4af5d",
+      "abstract_words": 195,
+      "body_words": 6567
+    },
+    "es": {
+      "path": "output/pdf/es/main.pdf",
+      "pages": 25,
+      "sha256": "954b6305d39b6ba107cfb4d84e86e0d63ce3ad0e5eba4b641f42015c9acecc89",
+      "abstract_words": 211,
+      "body_words": 7332
+    }
+  }
+}

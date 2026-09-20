@@ -1,4 +1,22 @@
+## 20-09-2026 — Aportación integrada y archivos públicos preparados
+
+Evidencia en `research/public_release_2026-09-20/closure_audit.json`. Tres párrafos EN/ES integrados, 49 páginas inspeccionadas, 522 archivos protegidos intactos y cuatro PDF reconstruidos exactamente. Los 19 ZIP numéricos pasan verificación de todos sus 58.201 archivos. Resúmenes de las cuatro figuras reproducidos desde carpeta aislada; comprobador independiente desde vectores aprobado para las condiciones declaradas (13.500 intersecciones exactas). Sin repetición completa de todos los análisis ni inferencia. Borrador Zenodo guardado con DOI reservado y 75 GB; no pudo automatizarse la carga y no hay archivos publicados. Ver `PUBLIC_RELEASE.md` y `ZENODO_UPLOAD.md`.
+
 # Evidencia y fuentes
+
+**Novedad y acceso público, 20-09-2026:** la aportación defendible se concentra en seguir comparaciones entre áreas que persisten al cambiar artículos pero pueden invertirse entre modelos o procesamiento. La distinción general entre similitud y estabilidad tiene antecedentes; no afirmar prioridad. [Informe, matriz y fuentes](NOVELTY_AND_REPRODUCIBILITY.md). La comprobación remota muestra que el repositorio público aún no corresponde al artículo final. QSS directo devuelve 403; la normativa se recoge con esa limitación. El inventario y la demostración local están en `research/submission_readiness_2026-09-20/`; solo el ejemplo de agregación de Figura 4 se ha probado de forma autónoma en esta fase.
+
+**Revisión vigente para una primera lectura, 20-09-2026:** por petición expresa del autor, se ha releído y revisado el artículo completo para alguien sin contexto. Entrega: [FIRST_READER_REVIEW.md](FIRST_READER_REVIEW.md). Se conserva la voz aceptada; se explican los conceptos, el propósito y los artículos de cada prueba, y el significado de las cifras. Inglés: 6.567 palabras de cuerpo, 195 de resumen y 24 páginas. Español: 7.332, 211 y 25 páginas. Cifras científicas, figuras, bibliografía, declaraciones y suplementos conservados. Las revisiones que siguen son históricas; aprobación personal pendiente.
+
+**Revisión editorial más reciente, 20-09-2026:** los 38 comentarios del autor están aplicados en inglés y español; ver [MANUSCRIPT_EXPLANATIONS.md](MANUSCRIPT_EXPLANATIONS.md). Se explican selecciones, candidatos, alertas y casos sin resolver, con ejemplos y porcentajes comprobados. Inglés: 5.412 palabras de cuerpo, 200 de resumen y 21 páginas. Español: 6.090, 240 y 22 páginas. Suplementos intactos (39 y 41 páginas). El apartado de IA se ha retirado del borrador por petición expresa; el registro real de asistencia se conserva y las declaraciones exigidas se comprobarán antes del envío. Título y tono conservados; revisión personal pendiente. Los estados de edición que siguen son históricos.
+
+**Revisión editorial posterior, 20-09-2026:** abstract aclarado en ambos idiomas por petición del autor. Se conserva su comienzo y se explican disciplinas, centros, texto de entrada y comparación angular. Inglés: 200 palabras; español para revisión: 235. Cuerpo y suplemento intactos. Registro: [ABSTRACT_CLARITY.md](ABSTRACT_CLARITY.md). El cierre científico sigue vigente; aprobación personal pendiente.
+
+**Cierre vigente, 20-09-2026:** controles finales terminados y congelados; [informe para el autor](ROBUSTNESS_CLOSURE_REPORT.md) y [cambios del manuscrito](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md). El tono claro está aceptado. La revisión personal del contenido sigue pendiente.
+
+**Auditoría vigente del nuevo cierre, 20-09-2026:** ver `research/robustness_closure_2026-09-20/PHASE0_AUDIT.md`. Los centros se normalizan después de promediar. Las veinte selecciones antiguas de 26 subáreas solo cambiaban las subáreas, no sus artículos. Ya existían veinte asignaciones aleatorias con fechas conservadas. El filtro deja solo 63/130 celdas con 2.048 candidatos; el nuevo control añade 1.024 en todas las celdas. No hay resultados nuevos interpretados todavía.
+
+**Punto vigente, 20-09-2026:** V2 elegida y reescritura clara entregada en inglés y español. Ver [MANUSCRIPT_CLARITY.md](MANUSCRIPT_CLARITY.md) y [NEXT_STEPS.md](NEXT_STEPS.md). Los bloques fechados que siguen son históricos; no reiniciar los cálculos que describían en marcha.
 
 ## Revisión vigente antes del manuscrito, 17-09-2026
 
@@ -260,3 +278,145 @@ Se conservan 50 alertas iniciales y todos los diagnósticos de Subfields. Corpus
 Las normas oficiales de QSS recuperadas mediante el índice del editor piden compartir los datos esenciales en repositorio persistente; el acceso directo devuelve 403. No confundir las normas de otras revistas devueltas por búsquedas amplias. La copia indexada puede ir retrasada: se revalidará antes del envío. Nuevo antecedente próximo: Schumacher, Reichelt y Strohmaier, Applied Network Science, 13-09-2026, DOI 10.1007/s41109-026-00830-2, sobre estabilidad de embeddings de nodos y dimensiones, no nuestro experimento de documentos científicos. También debe distinguirse coincidencia entre representaciones de corrección semántica.
 
 Inventariados 33 identificadores bibliográficos explícitos en documentos pertinentes; algunos son referencias históricas erróneas o contrastes secundarios que no deben pasar sin selección a la bibliografía final. Protocolo de casos escrito antes de inspeccionar nuevos ejemplos. Una relación solo puede fallar si su candidato estaba disponible: por eso se usarán pares de consultas fijas para la repetición de vecinos.
+
+
+## 18-09-2026 — Antecedentes iniciales de morfología
+
+- El TFM ya separaba dispersión, vecinos/hubness, espectro PCA y conectividad. Sus valores SPECTER2 no deben mezclarse con estos vectores nuevos. Se reutiliza el planteamiento, no sus resultados.
+- IsoScore (Rudman et al., 2022, Findings ACL, https://aclanthology.org/2022.findings-acl.262/) advierte que coseno medio no mide por sí mismo isotropía. Separar apertura angular de reparto de varianza.
+- Roy y Vetterli (2007, https://www.eurasip.org/Proceedings/Eusipco/Eusipco2007/Papers/a5p-h05.pdf) proponen rango efectivo por entropía; especificar si se aplica a la matriz de datos o su covarianza.
+- Imel y Hafen (2025, https://arxiv.org/abs/2506.23366) ya estudian densidad/asimetría en literatura científica: morfología no es una aportación inédita por sí misma.
+- Rolle y Scoccola (JMLR 2024, https://www.jmlr.org/papers/v25/21-1185.html) distinguen estabilidad del objeto y estabilidad de un procedimiento/recorte de agrupación. No asumir que escoger una medida topológica elimina parámetros o ruido.
+- El sesgo por tamaño afecta al espectro y a estimadores locales de dimensión. Se evitará llamar dimensión intrínseca verdadera a una dimensión efectiva lineal estimada.
+
+
+### Piloto: pruebas simuladas previas a datos reales
+
+Nueve nubes y quince referencias. Rotar coordenadas cambia las medidas <1,5e−14; multiplicar vectores por una constante positiva no las cambia. Fórmulas espectrales comprobadas por SVD y conectividad por MST/componentes independientes. La nube alargada tiene brecha de conexión 0,091 frente a 0,499 para la redonda, aun sin separar grupos. El cociente de radios 90%/50% marca 1,589 para una sola nube de pocas direcciones, pero solo 1,003 para cuatro grupos separados. Unos pocos puntos extremos disparan la arista máxima. **Estos indicadores no pasan como medidas generales de fragmentación**; se mantienen como diagnósticos con nombres literales. Datos en `data/morphology_pilot_v1/synthetic/` y fuentes en `sos_morphology/`. No se habían calculado nuevos resultados reales.
+
+
+### Revisión de medidas y primera comprobación real
+
+Lectura dirigida y matriz de decisiones en `research/morphology_2026-09-18/LITERATURE.md`. Grafos unión/mutuos y escalas locales describen conexiones diferentes; máxima arista de enlace simple es sensible a extremos. Antecedentes y exclusiones quedan argumentados. Biblioteca ampliada inicialmente a 52 registros verificados, sin errores/duplicados; avisos por identificadores/páginas ausentes se conservan.
+
+Primer bloque real SPECTER completo: las 26 áreas tienen un único componente en el grafo unión k25, aunque la brecha de conexión varía entre 0,0147 y 0,1160. Es evidencia de saturación del recuento simple en este modelo, no ausencia de grupos temáticos. Todavía no es la comparación final de diez modelos.
+
+## 18-09-2026 — Resultados completos del piloto de morfología
+
+Entrega y cifras comprobadas: `MORPHOLOGY_RESULTS.md`, `METHODS_MORPHOLOGY.md` y `reports/morphology_pilot_v1/`. Diez modelos, 26 áreas, 52k principales y 16.884 conjuntos de medidas con controles. Se reutilizaron vectores, sin extracción/inferencia.
+
+- Apertura y PR repiten bien el orden de áreas al cambiar artículos (0,992/0,989 a igual tamaño), pero los modelos difieren (0,319/0,552). El ejemplo posterior Artes/Medicina invierte el signo con SPECTER/BERT y persiste en veinte medias muestras, cinco selecciones adicionales y tres alternativas angulares. No equivale a corrección semántica.
+- Al duplicar 2.000 a 4.000, apertura cambia una mediana de −0,03% y PR +1,14%; máximo absoluto de PR 4,07%. Cuatro alertas internas de PR permanecen: PubMedBERT en Economía/Psicología y BioBERT en Economía/Inmunología. Las cinco muestras externas pasan, con menos capacidad de descubrir colas.
+- PR/entropía/D80 concuerdan ampliamente sin dar el mismo puesto exacto. La receta CLS/SEP y el centrado global alteran conclusiones; el texto común no elimina el desacuerdo. Los controles de calidad no validan los Fields de OpenAlex.
+- Conexión no identifica por sí sola fragmentación: simulaciones exhiben contraejemplos, unión k10/25/50 satura en un componente en 260 casos. Quedan 51 alertas entre selecciones externas. Duplicar n con k25 cambia la mediana −22,2%; duplicar también k a 50, +3,3%. La comprobación adicional está declarada.
+- Frente a 780 referencias gaussianas, la conexión observada es siempre menor; esas referencias no igualan exactamente PR tras normalizar (error máximo +19,8%). No prueba temas separados ni produce un valor p.
+- Tiempo es exploratorio: bajan apertura/PR en 203/207 casos de 260, pero no se aislaron cambios de composición/texto/cobertura para esos rasgos. No inferir estrechamiento histórico.
+
+Las medidas tienen antecedentes; Imel/Hafen ya estudian propiedades de densidad científica. La aportación propuesta es la fiabilidad de afirmaciones concretas frente a decisiones de representación, no métricas nuevas ni prioridad absoluta. Biblioteca actual de 54 registros, sin errores/duplicados y cinco avisos editoriales documentados. Revisión dirigida en `research/morphology_2026-09-18/LITERATURE.md`.
+
+## 18-09-2026 — Cobertura comprobada para resumir parejas
+
+Hay 325 parejas únicas de los 26 Fields. Principal, veinte medias muestras y cinco selecciones adicionales están presentes para los diez modelos y ambas propiedades. Las tres alternativas angulares están guardadas en todas esas selecciones; las alternativas de espectro (entropía/D80), solo en principal y primera repetición de cada diseño. Controles de texto, receta, calidad, centrado, extremos y tamaño son puntuales; no tienen repeticiones propias. `FIELD_PAIR_PROTOCOL.md` distingue esas coberturas antes de extraer frecuencias nuevas y separa persistencia numérica de tamaño de efecto y validez temática.
+
+### Resumen calculado y comprobación independiente
+
+Principal: apertura 42 acuerdos de diez / 262 contradicciones persistentes / 21 sin conclusión común; PR 54 / 221 / 50. Contradicción exige dos modelos con direcciones opuestas persistentes, no los diez en oposición. A 5% relativo simétrico: 96 y 177 contradicciones; a 10%, 19 y 126. No ocultar que parte de la apertura corresponde a diferencias pequeñas.
+
+Los mismos modelos testigo conservan direcciones bajo alternativas en 225/262 y 196/221 casos. Con seis modelos de similitud quedan 231/325 y 160/325 contradicciones; a 5%, 80 y 114. Menos modelos también ofrecen menos oportunidades de oposición. El centrado global conserva los mismos testigos en 145/262 aperturas frente a 218/221 PR; no elevar apertura a propiedad independiente del procesamiento. Controles puntuales, sin replicación propia.
+
+Verificación independiente por razones B/A frente a la fórmula de diferencias simétricas: 10.400 filas de sensibilidad, 6.500 decisiones, 7.150 controles por pareja, 442.000 contrastes, 96 resúmenes de panel; originales y 18 documentos previos intactos. No se calcularon nuevos embeddings. Primera inspección de figuras: colores/etiquetas y matriz de áreas legibles; se corrige el orden vertical de umbrales compartidos y se añaden cifras en segmentos pequeños, sin tocar resultados científicos.
+
+## 18-09-2026 — Revisión editorial de QSS: punto de partida
+
+La consulta inicial localiza artículos muy cercanos (Constantino et al., comparación de embeddings; cartografía mesoscópica de IA) y confirma ISSN 2641-3337. El índice web de la guía oficial es antiguo; no tratarlo como verificación fresca del reglamento. Se distinguirán normas oficiales, patrones de una selección temática y decisiones de presentación propias.
+
+La guía oficial indexada especifica expresamente que no impone una estructura única; métodos deben aparecer al principio y permite IMRaD sin exigirlo. Resumen hasta 200 palabras; artículos típicamente 5.000–8.000. Acceso directo 403 y caché antigua: revalidar antes de enviar. Primer inventario Crossref: 465 registros hasta 18-09-2026. El cursor no admite orden por publicación (400); se cambia a orden estable por DOI.
+
+Inventario recuperado: 465/465 registros Crossref (dos páginas, sin truncado). Primera selección temática: 34 artículos de 2020–2026. OpenAlex devuelve 36 registros para 34 DOI por duplicados de qss_a_00035 y qss.a.406: deduplicar por DOI y reunir ubicaciones, no contar como estudios distintos. PDFs editoriales MIT directos devuelven 403; se buscan copias públicas de autores/repositorios y se identificará su versión. La búsqueda detecta dos trabajos recientes de 2026 (mapa de proyectos europeos; taxonomías de contenido), pertinentes para actualizar la comparación.
+
+Exa permitió recuperar 14 textos editoriales completos de la selección, incluyendo Boyack/Klavans, Held, Velden, Huang y los análisis recientes de OpenAlex; se conservan los textos fuera de Git. Se añaden copias de autor/repositorio donde falta la editorial. El índice de QSS revela estructuras diversas: IMRaD, resultados/discusión unidos y artículos organizados por problemas. Esto descarta imponer un molde universal.
+## Lectura editorial QSS, 18-09-2026
+
+- Marco recuperado: 465 registros Crossref del ISSN 2641-3337; selección dirigida de 34 trabajos. Hay 33 copias largas para lectura estructural y un acceso parcial (Donner/Henneken). No se han leído 465 artículos ni replicado los 34 estudios.
+- Se observa diversidad de organización: resultados/discusión unidos, discusión/conclusión unidos, antecedentes propios y artículos organizados por componentes. La guía indexada no impone IMRaD. La función de cada sección importa más que su rótulo.
+- La comparación de métodos y la dependencia de conclusiones tienen antecedentes claros: Wang/Schneider, Boyack/Klavans, Armitage, Sīle, Held/Velden, Constantino y otros. La propuesta debe centrarse en qué conclusiones se conservan bajo cambios controlados, sin prometer una primera demostración de dependencia del método.
+- Verificación de acceso: una respuesta de búsqueda para Donner/Henneken traía el cuerpo de otro artículo; se rechazó. Se distingue versión editorial, publicación anticipada, manuscrito de autor y texto cuya versión tipográfica no pudo certificarse. El preprint de Kim coloca métodos al final: no usarlo como prueba de la estructura editorial final ni para contradecir la guía.
+- Las copias completas de terceros permanecen en `data/qss_structure_review_v1/`, excluido de Git. El informe y la matriz citarán DOI y fuente real; no incluirán esos textos.
+
+## Voz personal: precaución de procedencia, 18-09-2026
+
+El README del portfolio describe traducción automática entre español e inglés. La interfaz se alimenta de contenido editable y no basta con leer el README, demos o textos de documentación para caracterizar al autor. Se localizarán artículos originales y su idioma antes de cerrar la guía.
+
+## 18-09-2026 — Voz y plano de escritura: evidencia final
+
+- El repositorio público y los cuatro archivos de contenido consultados coinciden con la copia local del portfolio. `fixtures/demo-content.json` es la copia inicial de contenido que utiliza el sitio, no una ficción inferida del nombre. Hay 50 entradas publicadas: 27 proyectos, 13 experiencias, tres de formación y siete notas; unas 12.800 palabras españolas de prosa/listas. Se leyeron todas. No se consultó la base de datos viva ni todos los proyectos externos enlazados.
+- Rasgos observados: contexto práctico antes del método; cadena de operaciones y ejemplos; primera persona en decisiones; límites y fallos concretos; alternancia de explicación extensa y cierre breve. Las historias laborales y los proyectos del laboratorio tienen registros diferentes. No imitar indiscriminadamente informalidad, muletillas o afirmaciones antiguas de objetividad. Detalles y ejemplos en `AUTHOR_VOICE.md`.
+- Kobak 2025, Bagdasarov/Alves 2025, Tripto 2025 y Liang 2023 aportan evidencia acotada sobre vocabulario de estilo, sintaxis, variación y detectores. Los rasgos dependen del contexto; diversidad léxica no es siempre menor en generación automática. No son pruebas individuales de autoría ni recomendaciones de evasión. Bibliografía de cuatro entradas, sin errores/duplicados/avisos.
+- `MANUSCRIPT_BLUEPRINT.md` mantiene el hilo aprobado para desarrollar: relaciones amplias → vecinos → entrada/receta → comparaciones geométricas. Las cifras de 23 registros se enlazan a celdas guardadas, con filtros/columnas y huellas. Las tablas de paneles/modelos están preparadas, sin inferencia o análisis nuevo. La figura de parejas requiere traducir rótulos en una futura copia de presentación.
+
+## Maquetación QSS, 18-09-2026
+
+La [guía oficial indexada](https://direct.mit.edu/qss/pages/submission-guidelines) admite Word/PDF integrado y formato flexible en primera entrega; LaTeX está contemplado. No se localizó plantilla oficial específica. El acceso directo no funcionó y el índice indica rastreo de hace unos 1,3 años: límite conservado. Se hará una maqueta propia de una columna, numerada, con referencias autor-año. Los límites de resumen y palabras clave se conservan del chequeo previo; no se inventan autores, DOI, licencia o declaraciones.
+
+### Comprobaciones de la entrega renderizada
+
+La maquetación final tiene 14 páginas principales y 32 suplementarias, todas inspeccionadas visualmente. La comprobación automática confirma 19 grupos de tablas, 14 figuras en cuatro formatos, 98 adjuntos CSV trazables y modelos/versiones iguales a la configuración congelada. La Figura S10 muestra las 650 clasificaciones en dos triángulos, sin descartar parejas. Los resúmenes de tablas no sustituyen sus archivos completos.
+
+La copia extraída del ZIP produce los mismos PDF por huella y texto. Esto comprueba la compilación local portátil; no prueba una carga en Overleaf ni cumplimiento editorial definitivo. Los originales científicos y las alertas no cambian. `package_audit.json`, `visual_review.json` y `portable_source_audit.json` separan integridad, revisión visual y compilación portátil.
+
+## Apertura del manuscrito, 18-09-2026
+
+Primer borrador de introducción y antecedentes: 994 palabras de prosa. Las afirmaciones se contrastaron con ocho antecedentes próximos y las entregas científicas locales; la cobertura y lectura real de cada fuente están en `research/manuscript_opening_2026-09-18/CLAIM_REVIEW.md`. Se reutilizaron copias verificadas de QSS cuando el acceso directo volvió a fallar. Caspari e Imel/Hafen continúan identificados como preprints.
+
+La apertura no afirma primacía absoluta, descenso universal de acuerdo con la escala, causalidad del entrenamiento o validez temática por consenso. Distingue el corpus de 500k de los subconjuntos emparejados, y la extensión geométrica se declara posterior. Las 17 citas del PDF, incluida la tabla de modelos, pasan la validación bibliográfica; esto no sustituye la comprobación del contenido.
+
+PDF de 17 páginas revisado; nuevas secciones en 3–5, ZIP portátil verificado. Se conserva el suplemento de 32 páginas y los originales científicos. Las declaraciones y la revisión personal del autor siguen pendientes; no hubo nuevos experimentos.
+
+## Manuscrito completo y revisión, 18-09-2026
+
+La entrega vigente contiene 4.383 palabras de cuerpo y 190 de resumen, dos tablas y cuatro figuras principales. El desarrollo de métodos y controles ocupa un suplemento de ocho secciones. Los PDF finales tienen 19 y 33 páginas, todas inspeccionadas. El cambio de extensión respecto a la apertura/maqueta refleja la prosa y sus ajustes; los informes científicos siguen siendo los mismos.
+
+El contraste confirmó la necesidad de distinguir los dos paneles de 52k, los tres universos de vecinos (30,3/31,9/17,5%), el diseño condicionado de 256 candidatos y la cobertura desigual de los controles geométricos. La apertura ahora describe registros etiquetados English por OpenAlex, sin afirmar que el filtro certifica todo el idioma. Se mantienen cronología exploratoria, alertas, errores de fuente y límites causales/temáticos.
+
+Validación formal de las 26 referencias citadas sin errores, avisos o claves ausentes. La revisión de contenido y su profundidad se registran aparte en `research/manuscript_full_2026-09-18/CLAIM_REVIEW.md`; no equivale a leer cada fuente completa de nuevo. La biblioteca canónica de 54 permanece intacta. Se añaden dos referencias de contexto sobre OpenAlex a la colección del manuscrito.
+
+La copia extraída del ZIP reproduce ambos PDF byte por byte con los 184 archivos incluidos. Esto demuestra la reconstrucción local de la presentación, no el acceso público a corpus, vectores o todas las ejecuciones. Los 98 adjuntos y 150 archivos científicos previos están comprobados. Autoría independiente, ausencia de financiación y de conflictos confirmadas por el usuario; revisión personal, datos de correspondencia, depósito/licencia y normas vigentes siguen pendientes antes del envío.
+
+## Traducción española comprobada, 18-09-2026
+
+Artículo y suplemento traducidos íntegramente para revisión personal, con numeración equivalente al inglés. Las comprobaciones verifican cifras, fórmulas, citas y referencias internas, 19 grupos de tablas con notas, 14 manifiestos de figuras idénticos y 98 CSV intactos. Los 188 archivos del original inglés incluidos en el registro previo no cambiaron.
+
+Se inspeccionaron las 56 páginas finales y se recompilaron los 188 archivos del ZIP extraído, obteniendo los mismos PDF. Solo se ajustó presentación a la longitud española; se conservan el carácter exploratorio, las alertas y los límites. Evidencia: `research/manuscript_spanish_2026-09-18/`. La comprobación automática de fidelidad numérica no sustituye la lectura personal del autor.
+
+## Comentarios del PDF, 18-09-2026
+
+La Figura 1B original mostraba medias casi constantes; su nuevo diseño hace visible también la dispersión entre comparaciones de grupo y pareja de modelos. Los seis rangos descriptivos proceden del CSV existente y no añaden un análisis de incertidumbre. Media y dispersión responden a preguntas distintas; no se interpretan las líneas como intervalos poblacionales ni se borran las alertas del estudio.
+
+La alineación de la fila de dos nombres se verificó en los PDF de ambos idiomas: cifras centradas entre las dos líneas con diferencia inferior a 0,001 puntos. Las filas de la Tabla 1 tienen separación adicional sin alterar sus celdas. El título plantea dependencia del modelo, sin convertir el acuerdo en porcentaje de corrección.
+
+La política general de MIT Press exige declarar la ayuda de IA; no obliga al párrafo largo que tenía el borrador. La guía específica de QSS no pudo leerse directamente. Fuentes y alcance exacto en `MANUSCRIPT_COMMENTS.md`. Texto breve fiel, sin afirmar una revisión personal ya terminada. La evidencia de esta entrega está en `research/manuscript_comments_2026-09-18/`.
+
+## Alternativas de voz comprobadas, 19-09-2026
+
+La personalidad puede aumentar haciendo explícito el razonamiento y el criterio interpretativo, sin aumentar la fuerza de los resultados. La opción 1 mantiene una exposición impersonal concreta; la 2 incorpora primera persona en decisiones e interpretación; la 3 abre con la posibilidad de invertir una comparación y desarrolla más la posición del autor. La recomendación editorial es V2 y sigue sin aceptar.
+
+Las seis versiones mantienen cifras, fórmulas y claves de citas por párrafo; las traducciones conservan su correspondencia. La lectura del significado mantiene separados acuerdo, persistencia y validez; también preserva muestras distintas, candidatos condicionados, magnitudes, controles fallidos y cronología exploratoria. EDITORIAL_REVIEW.md registra ese contraste y el alcance de las lecturas de voz/QSS reutilizadas.
+
+Los PDF contienen 19 páginas por inglés y 21 por español. Se inspeccionaron las 120 páginas y se reconstruyeron los seis PDF byte por byte desde el paquete extraído. Los 751 archivos protegidos permanecen intactos. Estas comprobaciones acreditan conservación y presentación; no equivalen a aprobación del autor o de la revista ni a una prueba de autoría.
+
+
+## 20-09-2026 — Claridad del manuscrito
+
+La dificultad señalada por el autor se debía al orden de la explicación y a mezclar cifras de muestras antes de indicar su finalidad. Se ha rehecho el recorrido completo sobre V2: problema, comparación, concepto y resultado. No se ha usado una puntuación automática de legibilidad o un detector como prueba de calidad o autoría.
+
+La [revisión de afirmaciones](research/manuscript_clarity_2026-09-20/CLAIM_REVIEW.md) conserva los significados y límites. La [auditoría de texto](research/manuscript_clarity_2026-09-20/text_audit.json) comprueba traducción, títulos, declaraciones y materiales previos. La [revisión visual](research/manuscript_clarity_2026-09-20/visual_review.json) cubre 109 páginas. La [reproducción de los paquetes](research/manuscript_clarity_2026-09-20/portable_source_audit.json) obtiene PDF idénticos. Estas comprobaciones no sustituyen la lectura y aprobación del autor. No hay nuevos resultados científicos.
+
+
+## Cierre de robustez del 20-09-2026
+
+- Centros: acuerdo medio 0,940/0,911/0,904, estable frente a selección/tamaño/omisión; las distribuciones de medias aleatorias quedan separadas. El control restringido separa elección de especialidades de elección de artículos.
+- Texto/modelo: diferencias medias principales +1,97/+1,56/+1,04 puntos en k10/25/50; CLS/SEP invierten el orden. Diferencias por modelo −14,04 a +16,59 puntos. No equivalencia universal.
+- Centrado: apertura 262→151 (mismos modelos/direcciones 128); PR 221→211 (204). El efecto de apertura es fuerte, sobre todo con mínimo 5 %: 96→11. Este límite está en el cuerpo y en la Figura 4.
+- Alternativas completas: entropía retiene 209 oposiciones PR, D80 y ambas 190/221. Solo cinco de 54 acuerdos de los diez mantienen su dirección bajo ambas; no declarar equivalencia entre medidas. Empates sin resolver.
+- Calidad: 30,58→31,43 % de acuerdo k25 con las mismas consultas; +0,28/+0,19 puntos con 1.024/2.048 candidatos. El filtro probado no explica la mayor parte del desacuerdo ni certifica toda la fuente.
+- Las 2.628/8.235 alertas locales siguen visibles. Rangos de selecciones solapadas no son intervalos poblacionales. Ver el informe y sus CSV para definiciones, denominadores y límites completos.

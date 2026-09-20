@@ -1,0 +1,31 @@
+{
+  "review_complete": true,
+  "scope": "Novelty positioning and public reproducibility investigation, not a full data release.",
+  "editorial_files_unchanged": 7,
+  "prior_protected_files_unchanged": 522,
+  "local_document_links_checked": 11,
+  "demo_zip_files": 5,
+  "demo_verified_from_isolated_extract": true,
+  "demo_stdout": "PASS: 8 classifications of 325 pairs and 2 model-witness retention checks.\nRecomputed from 13,520 measurements; no network or project imports.\n",
+  "manuscript_changes": false,
+  "scientific_recalculation": false,
+  "public_deposit_created": false,
+  "license_selected": false,
+  "full_public_reproduction_verified": false,
+  "qss_direct_access": "HTTP 403; official indexed page used with explicit age caveat",
+  "pending": [
+    "author review of positioning",
+    "complete release packaging and rights decisions",
+    "full isolated reproduction",
+    "authorised persistent public deposit",
+    "submission"
+  ],
+  "documents": {
+    "NOVELTY_AND_REPRODUCIBILITY.md": "90933ce910ba059b7fba0797ea384e8b99eff8209b1b8f6c7819d5d7fd4d5a26",
+    "research/submission_readiness_2026-09-20/README.md": "7299c077e473ca65420498156662bd4c423516941012b0cd24d719f7f2521061",
+    "research/submission_readiness_2026-09-20/SOURCES.md": "87cb685d7f08db2c3bdbf856532d4cd6b7f284c57f5afd9ccaf5f3790db7f83e",
+    "research/submission_readiness_2026-09-20/RELEASE_SPEC.md": "f0b060d74e335af09cbeebabb0914736384b046ac5617066307ba778746eeac8",
+    "research/submission_readiness_2026-09-20/MANUSCRIPT_POSITIONING_DRAFT.md": "a70273e8bc5a067b26e4a55eda72383d643a504583564490110fd0b1c2ae1523",
+    "research/submission_readiness_2026-09-20/replication_demo/README.md": "03b638a4e64f6a128af2da5b87bd2c39f612bf8bdee6242eb82c72f7f0e31b9d"
+  }
+}

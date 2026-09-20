@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-09-18T16:20:30.859112+00:00",
+  "package": "output/manuscript_source.zip",
+  "files": 183,
+  "bytes": 10750645,
+  "sha256": "c9ce39d9f8dd62c7afdec372f9f89bdc58aafb8c6a92bb6a9f5b7b5d625d969f",
+  "zip_integrity": true,
+  "extracted_files_match": true,
+  "compiled_from_extracted_sources": true,
+  "documents": {
+    "main": {
+      "pages": 14,
+      "identical_extracted_text": true,
+      "sha256": "ac00e2e32c998a4af40492cce02314bc97b736fb3ebe9ec54d7049a9e2026154"
+    },
+    "supplement": {
+      "pages": 32,
+      "identical_extracted_text": true,
+      "sha256": "10e64fae2124d0efcff7b4e92f03361ef51122c813b016b0517cdd59def0200b"
+    }
+  },
+  "overleaf_upload_or_remote_compile": false
+}

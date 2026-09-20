@@ -1,0 +1,46 @@
+{
+  "verified_at": "2026-09-19T08:29:31.862157+00:00",
+  "status": "passed",
+  "package": "output/manuscript_voice_variants_source.zip",
+  "package_sha256": "ec1b7592a9bb4a7f3ded5c2c701be7789231c06b394dcc7dccb785c0062d900d",
+  "source_files_verified": 93,
+  "versions": {
+    "v1_en": {
+      "delivered_pdf": "output/pdf/voice_variants/v1_en.pdf",
+      "rebuilt_pdf": "tmp/pdfs/voices_portable_build/v1_en.pdf",
+      "sha256": "4801337a901416128810440a86c228cf08a33276e5d7c77eb3044580d2ecf1e1",
+      "byte_identical": true
+    },
+    "v1_es": {
+      "delivered_pdf": "output/pdf/voice_variants/v1_es.pdf",
+      "rebuilt_pdf": "tmp/pdfs/voices_portable_build/v1_es.pdf",
+      "sha256": "7baa939a9b6cda3b33de067146b569d069825a14e6d2f404d92b672fcb64b8ac",
+      "byte_identical": true
+    },
+    "v2_en": {
+      "delivered_pdf": "output/pdf/voice_variants/v2_en.pdf",
+      "rebuilt_pdf": "tmp/pdfs/voices_portable_build/v2_en.pdf",
+      "sha256": "076283b5e4e87d1a5112d4f1078c5e24e6190554d8b260caa2a670162749210a",
+      "byte_identical": true
+    },
+    "v2_es": {
+      "delivered_pdf": "output/pdf/voice_variants/v2_es.pdf",
+      "rebuilt_pdf": "tmp/pdfs/voices_portable_build/v2_es.pdf",
+      "sha256": "e9dd8e5c9ae36b5de8c4b67ed0647022c183e7991737a97bb0778514f60e81f8",
+      "byte_identical": true
+    },
+    "v3_en": {
+      "delivered_pdf": "output/pdf/voice_variants/v3_en.pdf",
+      "rebuilt_pdf": "tmp/pdfs/voices_portable_build/v3_en.pdf",
+      "sha256": "3bfa7012bc825d324aa44abd0b259a1c86364ac5a67f7a45691055ece3e5c6ec",
+      "byte_identical": true
+    },
+    "v3_es": {
+      "delivered_pdf": "output/pdf/voice_variants/v3_es.pdf",
+      "rebuilt_pdf": "tmp/pdfs/voices_portable_build/v3_es.pdf",
+      "sha256": "1a6ebbcf9d0860b2c1f69ebdb5b6ae9684d37132579e5f7218e10e5f47941f06",
+      "byte_identical": true
+    }
+  },
+  "scope": "Local rebuild using only extracted presentation sources and the specified Tectonic compiler. No scientific analyses are rerun."
+}

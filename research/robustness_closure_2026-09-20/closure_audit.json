@@ -1,0 +1,142 @@
+{
+  "completed_at": "2026-09-20T13:51:47.001708+00:00",
+  "all_complete": true,
+  "scope": "Final robustness closure explicitly delegated by the author on 20 September 2026.",
+  "stages": {
+    "0_provenance": {
+      "status": "complete",
+      "evidence": "phase0_audit.json and PHASE0_AUDIT.md, before new results; addendum explains the old restricted random pool."
+    },
+    "1_centres": {
+      "status": "complete",
+      "evidence": "50 repetitions per fixed/size design; 50 x 10 nested repetitions; matched random groups and omissions."
+    },
+    "2_direct_neighbors": {
+      "status": "complete",
+      "evidence": "50 matched balanced repetitions; k10/25/50; mean/CLS/SEP; all per-model/area results retained."
+    },
+    "3_centered_morphology": {
+      "status": "complete",
+      "evidence": "All 26 conditions, 325 pairs, ten models and four cutoffs; fixed-witness directions and transitions."
+    },
+    "4_dimension_alternatives": {
+      "status": "complete",
+      "evidence": "Entropy and discrete D80 on all 26 conditions; ties unresolved; PR cutoffs distinguished from alternative directions."
+    },
+    "5_quality": {
+      "status": "complete",
+      "evidence": "Existing 448886-record rule; matched queries; all candidates, 1024 in 130 cells, 2048 in 63 eligible cells; matched input control."
+    },
+    "6_local_alerts": {
+      "status": "complete",
+      "evidence": "2628/8235 confirmed and visible in main Results; separate whole-group cases retained."
+    },
+    "7_claim_audit": {
+      "status": "complete",
+      "evidence": "Eleven claims assessed against frozen results; material qualifications retained."
+    },
+    "8_manuscripts": {
+      "status": "complete",
+      "evidence": "English and Spanish main/supplement updated after scientific freeze, title/declarations/references retained."
+    },
+    "9_figures": {
+      "status": "complete",
+      "evidence": "Figure 1A and 4 updated; S11 added; all plotted numbers and source hashes checked."
+    },
+    "10_author_report": {
+      "status": "complete",
+      "evidence": "ROBUSTNESS_CLOSURE_REPORT.md, candid executive conclusion and A-H result coverage."
+    },
+    "11_changelog": {
+      "status": "complete",
+      "evidence": "ROBUSTNESS_MANUSCRIPT_CHANGELOG.md plus exact bilingual before/after records."
+    },
+    "12_final_verification": {
+      "status": "complete",
+      "evidence": "Four PDFs rebuilt, all 122 pages inspected, 246 source attachments checked, 50 new typeset numeric rows checked, 129 bilingual CSV copies identical; extracted ZIPs reproduce PDFs byte for byte."
+    }
+  },
+  "methodological_readiness": "READY WITH MINOR CAVEATS",
+  "remaining_methodological_blockers_within_requested_scope": [],
+  "material_qualifications": [
+    "Angular-spread oppositions depend strongly on global centring plus row renormalisation; adverse result remains in abstract, main Results, Figure 4, Discussion and Conclusion.",
+    "The grand mean of model versus text changes is not equivalence; model-specific differences and pooling reversals remain explicit.",
+    "Full alternatives preserve 190/221 same-witness PR oppositions, replacing the historical partial-coverage count of 196.",
+    "Within-corpus overlapping selections do not establish population precision or thematic correctness."
+  ],
+  "scientific_results_frozen_before_manuscript_edits": true,
+  "source_report_catalog_sha256": "781e3d904d9f94e691b8e975e89df1576d1dd412dec266222289cc1515739ab0",
+  "evidence": {
+    "phase0_audit.json": "fe56ab4a188b614f23e6a037475eaffaa590aef7eea33e0cdbbf78c702c62caf",
+    "phase0_restricted_reference_addendum.json": "066e1853508415db7b4bb2630ef627c07efbf773b99b525429df5ca632654390",
+    "independent_scientific_audit.json": "80aa71ac65cfca7c1f49aedc4305ae02a11e6a901909e3964155799414a50c3c",
+    "text_audit.json": "813e462246318cabf4daf491cde228a316ea31f81bb3e263d0e283163ac27cb6",
+    "visual_review.json": "da529d83ea1095c5312af6f9d6cf94445877d8d1017e61fda053b113ce9119fb",
+    "portable_source_audit.json": "8c23d356ed26c2b849655d916248fbcd0f17da769bfbac46cdec359123ff67b0",
+    "presentation_audit.json": "42fd8eb58a9c0ad510c9d5240ecfdefb87ecfbd90cc257f3740c1d7825de441e"
+  },
+  "seed_registry": {
+    "file": "research/robustness_closure_2026-09-20/random_seeds.csv",
+    "rows": 190884,
+    "sha256": "1ce1f8e606a5dc9fec916898619ce952d4fb9bcea653cd7959ac9c839539e2bb"
+  },
+  "environment_record_sha256": "2d23160d676d250175b4fdf5128e4543289d9f5365c8ac689baf9db59913a9fe",
+  "editorial_records": {
+    "AGENTS.md": "fce09829ca3d5f01c2e6db6cf91ee84a1861e1575df5e3214a8e3390e761badb",
+    "DECISIONS.md": "a32d3d98921716587d6693cc65583bb601060e776425f2c11afe63f1f62c85aa",
+    "progress.md": "2e963409dda6034aca9e553525f8f3140538474543da1a64b7a06518efd8af26",
+    "task_plan.md": "a4240dd5862511f3f9a174aac15f8db605c5ec5e2d918ee6700d155e0758739d",
+    "findings.md": "2770672505311f629e88142eb4a1e68c6b2ff87c44a58d5e560de7677554e6b1",
+    "NEXT_STEPS.md": "44f1b2097a8177611741fd8ac3fddd88d6c096f0131d6275d462013d8d6f8c5c",
+    "README.md": "f2019613140dafd9fb0f950c81b797c60eb58330740c4e9c4fa45b2793ff4765",
+    "DATA_CATALOG.md": "908b52c8a23aad004cc7c7ac6f0a2429ab1ec56c41b5188c352de0081c7800b7",
+    "AUTHOR_VOICE.md": "a4e8490f03911c1f9ce35df7b74f50745b24bedb52d9535df19ababd1d3bce3e",
+    "MANUSCRIPT_CLARITY.md": "dd280a405e5fc203682f0f39d03897f76a8fa710942ce983ad746da6f3280d7f",
+    "MANUSCRIPT_SPANISH.md": "a911397df03c2f846407be52d5c4e94d1f5d61f552f262a386f8461dd59fcf7f",
+    "ROBUSTNESS_CLOSURE_SCOPE.md": "ced79a4d8f425314827635bc51f3ec89c0a32c8c42682d6139e3ca4a2d8e28a4",
+    "ROBUSTNESS_CLOSURE_REPORT.md": "0dbd39c65b88c40f5e46a943d0570df141ae1503a277cfbd1b015d9d02aab77d",
+    "ROBUSTNESS_MANUSCRIPT_CHANGELOG.md": "2666b769ba1c523ff5878bb38d5de7e45760831ad9ae82ff3f07e54983996302",
+    "docs/INDEX.md": "45031cb75c67a00536e8745cbcf96367b25263814109511cf0948798f43bc598",
+    "docs/REPRODUCING.md": "70509b9842bba05d3ba62ba6621fd9ff03eab76aa19e1d1889c8eda62708c696",
+    "docs/QSS_CHECK.md": "09b8f2ccbbff0c79f98d5a46a6ee4624ae769c17a7a7cb295c99b9d591f9be3d"
+  },
+  "outputs": {
+    "en_main": {
+      "pages": 20,
+      "sha256": "179764c668402086f6b3a9d03436101e424a93a1b13d417d13ca98c1a555cccc",
+      "body_words": 4570,
+      "abstract_words": 192
+    },
+    "es_main": {
+      "pages": 22,
+      "sha256": "663f7cca35e7e407a17c9c0163b84e157182b29de6d664dfe83904d1d75a199e",
+      "body_words": 5249,
+      "abstract_words": 196
+    },
+    "en_supplement": {
+      "pages": 39,
+      "sha256": "a5bcc19e90156378325139f0dcca5edf7e35c6951ee40b98b21389e1651350fc"
+    },
+    "es_supplement": {
+      "pages": 41,
+      "sha256": "4d929a630183257d8c4a4013edee01ba665acd0b4b31ccdec9a7b084d5423bd1"
+    }
+  },
+  "preservation": {
+    "protected_old_scientific_files": 446,
+    "archived_baseline_files": 452
+  },
+  "process_state": "No closure, inference, download or manuscript build process active at final check.",
+  "no_new_inference_or_extraction": true,
+  "no_commit_push_deposit_or_submission": true,
+  "no_new_automation": true,
+  "author_approval": false,
+  "remaining_before_actual_submission": [
+    "Personal author review and final approval.",
+    "Correspondence information.",
+    "Authorised essential-material deposit, license and public reproduction check.",
+    "Fresh verification of journal submission requirements."
+  ],
+  "stopping_rule": "The requested analyses are complete; do not add experiments simply because further checks are possible.",
+  "review_limit": "Numerical independent-formulation checks and assistant visual review are not external expert peer review."
+}

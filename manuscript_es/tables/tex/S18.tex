@@ -1,0 +1,36 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\captionof{table}{Centros repetidos y contraste directo de vecinos entre entrada y modelo.}\label{tab:S18}
+\textbf{A. Centros}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+\textbf{Grupos} & \textbf{Artículos} & \textbf{Media} & \textbf{Rango de selección} & \textbf{Media aleatoria} \\
+\midrule
+26 áreas & 256 & 0,940 & 0,937--0,943 & 0,627 \\[2pt]
+217 especialidades & 256 & 0,911 & 0,910--0,912 & 0,636 \\[2pt]
+26 especialidades & 256 & 0,904 & 0,878--0,926 & 0,660 \\[2pt]
+Áreas: tamaño & 128 & 0,938 & 0,934--0,942 & 0,618 \\[2pt]
+Áreas: tamaño & 256 & 0,940 & 0,937--0,943 & 0,626 \\[2pt]
+Áreas: tamaño & 512 & 0,941 & 0,939--0,943 & 0,647 \\[2pt]
+183 especialidades & 128 & 0,913 & 0,911--0,914 & 0,617 \\[2pt]
+183 especialidades & 256 & 0,914 & 0,913--0,915 & 0,629 \\[2pt]
+183 especialidades & 512 & 0,915 & 0,914--0,915 & 0,661 \\[2pt]
+\bottomrule
+\end{tabular*}
+
+\par\medskip\textbf{B. Sustitución de vecinos}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+\textbf{Regla} & \textbf{k} & \textbf{\shortstack{Cambio de\\modelo (\%)}} & \textbf{\shortstack{Solo título\\(\%)}} & \textbf{\shortstack{Diferencia\\(pp)}} & \textbf{Rango (pp)} \\
+\midrule
+Principal & 10 & 70,20 & 72,17 & 1,97 & 1,85 a 2,08 \\[2pt]
+Principal & 25 & 64,93 & 66,49 & 1,56 & 1,44 a 1,69 \\[2pt]
+Principal & 50 & 60,11 & 61,15 & 1,04 & 0,94 a 1,18 \\[2pt]
+CLS & 25 & 72,82 & 69,70 & -3,13 & -3,22 a -3,03 \\[2pt]
+SEP & 25 & 69,15 & 67,15 & -2,00 & -2,10 a -1,88 \\[2pt]
+\bottomrule
+\end{tabular*}
+\par\smallskip{\small Rangos entre percentiles 2,5--97,5 de selecciones, no intervalos de confianza. A: 50 selecciones por fila, salvo 26 especialidades (50 elecciones de especialidades y diez selecciones de artículos en cada una). Las pruebas de tamaño tienen sus propias cuotas fijas por período. Los grupos aleatorios usan los mismos artículos y fechas. B: 50 selecciones, 1.000 candidatos por área; diferencia = sustitución con solo título menos sustitución al cambiar modelo. La media no cambia de signo dentro de una regla. CLS/SEP solo cambian cuatro BERT de palabras.\par}
+\end{minipage}\par

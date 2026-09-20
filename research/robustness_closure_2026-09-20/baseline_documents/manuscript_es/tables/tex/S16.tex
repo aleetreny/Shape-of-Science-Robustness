@@ -1,0 +1,24 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Controles puntuales: conservación de los modelos opuestos originales.}\label{tab:S16}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{3.35cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{2.3cm}@{}}
+\toprule
+\textbf{Control} & \textbf{Referencia emparejada} & \textbf{Modelos cambiados} & \textbf{Apertura conservada} & \textbf{PR conservada} \\
+\midrule
+Solo título & Media muestra & 10 & 246/262 & 193/221 \\
+Solo resumen & Media muestra & 10 & 262/262 & 221/221 \\
+BERT de palabras: CLS & Media muestra & 4 & 253/262 & 210/221 \\
+BERT de palabras: SEP & Media muestra & 4 & 257/262 & 201/221 \\
+Fragmento común & Entrada habitual del panel común & 10 & 262/262 & 216/221 \\
+Centrado global & Media muestra & 10 & 145/262 & 218/221 \\
+Marcas de calidad & Media muestra & 10 & 262/262 & 221/221 \\
+Retirada de extremos & Retirada aleatoria & 10 & 262/262 & 221/221 \\
+MiniLM 512 & Principal & 1 & 262/262 & 221/221 \\
+n = 500 & Principal & 10 & 262/262 & 219/221 \\
+n = 4.000 & Principal & 10 & 262/262 & 221/221 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Los numeradores conservan la misma pareja original de modelos y sus signos tanto en la referencia como en la variante. Los denominadores son las oposiciones persistentes originales: 262 de apertura y 221 de PR. No son nuevas pruebas de estabilidad de 26 condiciones. El fragmento común utiliza su muestra emparejada propia; retirar extremos se compara con retirar al azar a igual tamaño. Calidad, extremos y tamaño cambian identificadores según lo especificado; los demás controles los conservan. Se incluyen todas las magnitudes y los 7.150 registros de parejas de controles puntuales.\par}

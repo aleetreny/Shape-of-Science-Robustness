@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-09-20T20:07:54.696181+00:00",
+  "draft_url": "https://zenodo.org/uploads/22863543",
+  "record_id": 22863543,
+  "doi": "10.5281/zenodo.22863543",
+  "doi_status": "reserved, not published/registered",
+  "resource_type": "dataset",
+  "version": "1.0.0",
+  "creator": "Alejandro Treny Ortega",
+  "affiliation": "Independent researcher",
+  "license": "CC-BY-4.0; own software MIT; OpenAlex metadata CC0; third-party rights unchanged",
+  "quota_GB": 75,
+  "files_uploaded": 0,
+  "metadata_saved": true,
+  "blocker": "Browser file chooser did not respond through documented upload controls; manual drag-and-drop required. No credentials inspected or created.",
+  "publication_clicked": false,
+  "next_action": "Upload all files from output/zenodo, check the manifest, preview and publish."
+}

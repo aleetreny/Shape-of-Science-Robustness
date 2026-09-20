@@ -1,0 +1,8 @@
+{
+  "version": "tectonic@0.17.0",
+  "source": "https://github.com/tectonic-typesetting/tectonic/releases/download/tectonic%400.17.0/tectonic-0.17.0-aarch64-apple-darwin.tar.gz",
+  "bytes": 21704674,
+  "sha256": "a3f1cac7c5678f01661a92212f58480ae3b0634115d880dbc59e2953ded45667",
+  "release_digest": "sha256:a3f1cac7c5678f01661a92212f58480ae3b0634115d880dbc59e2953ded45667",
+  "installation": "Local ignored directory; no global installation"
+}

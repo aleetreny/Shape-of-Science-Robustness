@@ -1,0 +1,24 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Cambios de entrada por modelo, con el mismo peso para las 26 áreas.}\label{tab:S05}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{3.1cm}@{}}
+\toprule
+\textbf{Modelo} & \textbf{Título: forma} & \textbf{Resumen: forma} & \textbf{Título: vecinos} & \textbf{Resumen: vecinos} \\
+\midrule
+SPECTER & 0,208 & 0,044 & 61,1\% & 31,3\% \\
+SPECTER2 & 0,203 & 0,048 & 60,6\% & 31,3\% \\
+SciNCL & 0,205 & 0,028 & 57,3\% & 23,9\% \\
+SciBERT & 0,532 & 0,014 & 84,2\% & 15,8\% \\
+BERT & 0,418 & 0,013 & 83,6\% & 18,0\% \\
+MPNet & 0,189 & 0,022 & 51,7\% & 17,7\% \\
+MiniLM & 0,246 & 0,031 & 58,1\% & 21,5\% \\
+PubMedBERT & 0,526 & 0,017 & 82,9\% & 16,2\% \\
+BioBERT & 0,636 & 0,024 & 83,4\% & 19,2\% \\
+SimCSE & 0,496 & 0,028 & 83,8\% & 26,3\% \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Mismos 52.000 identificadores y 2.000 candidatos por área. Cambio de forma: 1 menos CKA corregida. Cambio de vecinos: fracción de los 25 vecinos sustituidos. Título o resumen comparan cada modelo con su propia entrada completa. Los CSV incluyen medias del cambio de modelo, valores por área y cruce completo de reglas. Son cambios prácticos de entrada con límites propios, no una separación causal de modelo y longitud.\par}
+\par\smallskip{\small Contraste cambio de modelo menos cambio de entrada de solo título (positivo: cambiar modelo tiene mayor efecto medio): MEDIA, forma = 0,0042; MEDIA, vecinos = -0,0191; CLS, forma = 0,0363; CLS, vecinos = 0,0304; SEP, forma = 0,0627; SEP, vecinos = 0,0171. Solo cambian los cuatro BERT de palabras en CLS/SEP. Medias próximas no demuestran equivalencia.\par}

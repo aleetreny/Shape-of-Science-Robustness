@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-20T20:07:38.612859+00:00",
+  "candidate_files": 2303,
+  "scanned_objects_including_zip_members": 5066,
+  "zip_members": 2763,
+  "secret_pattern_hits": [],
+  "json_abstract_paths": [
+    "reports/checklist_v1/final/summary.json",
+    "research/analysis_2026-09-17/sources/arxiv_records.json",
+    "research/corpus_audit_2026-09-15/final_validation.json",
+    "research/corpus_audit_2026-09-15/summary.json",
+    "research/model_review_2026-09-15/academic_sources/qss_00168_crossref.json",
+    "research/prepaper_2026-09-17/reference_verification.json",
+    "research/robustness_2026-09-17/literature/arxiv_named.json",
+    "research/robustness_2026-09-17/literature/xie_waltman_doi.json",
+    "research/robustness_2026-09-17/pooling_trace.json",
+    "research/submission_readiness_2026-09-20/arxiv_metadata.json"
+  ],
+  "files_over_50_MiB": [],
+  "forbidden_data_paths": [],
+  "quality_mask": {
+    "shape": [
+      500000
+    ],
+    "dtype": "bool",
+    "kind": "own boolean source-quality diagnostic, not vectors"
+  }
+}

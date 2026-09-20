@@ -1,0 +1,21 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Temporal endpoint changes and Field heterogeneity.}\label{tab:S09}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{6.0cm}>{\raggedright\arraybackslash}p{2.4cm}>{\raggedright\arraybackslash}p{2.15cm}>{\raggedright\arraybackslash}p{2.15cm}>{\raggedright\arraybackslash}p{2.15cm}@{}}
+\toprule
+\textbf{Measure / candidate design} & \textbf{Mean change} & \textbf{Positive} & \textbf{Negative} & \textbf{Non-monotone} \\
+\midrule
+CKA, native groups & 0.0207 & 23 & 3 & 22 \\
+CKA, 2,048 per group & 0.0206 & 24 & 2 & 22 \\
+Distance ranks, native & 0.0304 & 22 & 4 & 19 \\
+Procrustes, native & 0.0019 & 15 & 11 & 24 \\
+k25, all candidates & -0.0087 & 10 & 16 & 22 \\
+k25, 2,048 / mean & 0.0091 & 20 & 6 & 20 \\
+k25, 2,048 / CLS & 0.0034 & 16 & 10 & 22 \\
+k25, 2,048 / SEP & 0.0138 & 21 & 5 & 20 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small End minus start: 2020--24 versus 2000--04. Each row describes 26 Fields with equal weight; neighbour changes are fractions, so multiply by 100 for percentage points. Five periods are used to classify monotonicity. Full k10/k25/k50, recipe, identical-query and pair-level checks are in the CSVs. Candidate counts can change the sign. These are descriptive period contrasts, not causal historical convergence.\par}

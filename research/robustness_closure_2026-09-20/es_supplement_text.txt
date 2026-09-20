@@ -1,0 +1,1751 @@
+Shape of Science Robustness Suplemento en español
+Material suplementario
+¿Cuánto depende el mapa de la ciencia del modelo de embeddings?
+Alejandro Treny Ortega • Investigador independiente
+20 de septiembre de 2026
+Este suplemento aporta deﬁniciones, comprobaciones y archivos completos de resultados.
+Cada tabla tiene un resumen impreso y archivos CSV sin redondear en tables/data/Sxx/.
+Los datos de las ﬁguras están en figures/data/. Los resúmenes no sustituyen esos archivos.
+Qué artículos se usan en cada comprobación. Los 500.000 registros son la colección de
+partida. El experimento de texto utiliza 52.000 para comparar título, resumen y ambos; la
+primera prueba de 26.000 está incluida, no se suma. El análisis geométrico de S6–S7 reutiliza
+esos mismos 52.000. Otro conjunto distinto de 52.000 se utiliza para la comprobación del
+fragmento común en S1. Las búsquedas emparejadas de S4 siguen 10.850 artículos de partida
+y cambian los artículos disponibles a su alrededor. Son usos que se solapan dentro de una
+colección, no descargas separadas.
+Field signiﬁca una de las 26 áreas amplias de investigación y Subﬁeld una especialidad más
+estrecha. El artículo principal introduce las comparaciones en ese orden; este suplemento
+conserva los nombres de la base de datos y las deﬁniciones técnicas para poder comprobar
+los cálculos.
+Índice
+S1. Corpus, modelos y procedencia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+S2. Medidas de acuerdo y estabilidad del muestreo . . . . . . . . . . . . . . . . . . . . . . . 7
+S3. Texto de entrada, combinación de salidas y recorte . . . . . . . . . . . . . . . . . . . . . 10
+S4. Escala, vecinos y casos concretos . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+S5. Tiempo, composición disciplinar y características de los modelos . . . . . . . . . . . . . . 19
+S6. Propiedades geométricas y comprobación de su signiﬁcado . . . . . . . . . . . . . . . . . 24
+S7. Todas las comparaciones entre parejas de áreas . . . . . . . . . . . . . . . . . . . . . . . 29
+S8. Reproducción y acceso . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
+S9. Últimas comprobaciones dirigidas de robustez . . . . . . . . . . . . . . . . . . . . . . . . 36
+1
+Shape of Science Robustness Suplemento en español
+S1. Corpus, modelos y procedencia
+S1.1. Criterios de inclusión, cuotas y marcas de calidad
+Se consultó el catálogo principal de OpenAlex para obtener registros de 2000–2024 de tipo
+artículo, revisión o trabajo de congreso, etiquetados como ingleses, con resumen, sin marca de
+retractación o paratexto y con un área principal conocida. La preparación local exigía título
+no vacío y al menos 50 palabras, contadas mediante una expresión regular, en el resumen
+reconstruido. Se conservó el contenido literal, sin traducirlo ni generar resúmenes ausentes.
+La unidad era un identiﬁcador distinto de trabajo de OpenAlex, no una obra intelectual
+única tras eliminar todas sus posibles versiones.
+Los bloques de consultas aleatorias con semillas registradas proporcionaron la muestra gene-
+ral. Los candidatos guardados se procesaron en el orden registrado hasta conservar 400.000
+identiﬁcadores distintos y válidos. El complemento de 100.000 registros se asignó al menor
+de los 130 grupos de área y período, resolviendo los empates de forma determinista por área
+y año. Así se aumentó la cobertura mínima sin reducir los grupos grandes. Se conservaron
+las cantidades exactas por año, sin imponer cuotas iguales dentro de cada período de cinco
+años. La descarga original terminó el 15 de septiembre de 2026; las respuestas de la API se
+recogieron a lo largo del tiempo, por lo que el corpus no es una fotografía simultánea de la
+base de datos. Reconstruirlo requiere las respuestas guardadas, el orden de identiﬁcadores y
+las huellas del contenido; las semillas por sí solas no reproducirían una API que cambia.
+La limpieza rechazó contenido reconocido como ajeno a un resumen, títulos explícitos de
+retirada o retractación y fallos claros de idioma. Para el idioma se aplicó el modelo lid.176
+de fastText al resumen completo y a tres partes consecutivas. Solo se excluyó un registro
+cuando la etiqueta más probable del texto completo no era inglés, con puntuación de al
+menos 0,9, y las tres partes coincidían en ese idioma con puntuaciones de al menos 0,8. Son
+puntuaciones operativas conservadoras, no probabilidades calibradas ni pruebas independien-
+tes. Se marcaron la incertidumbre restante, la posible mezcla de idiomas, los resúmenes de
+50–79 palabras o inusualmente largos, los posibles avisos y los DOI o textos duplicados. Las
+reglas de contenido se desarrollaron al inspeccionar el corpus descargado antes de calcular
+embeddings; no se prerregistraron antes de la extracción.
+El corpus ﬁnal conserva 9.883 resúmenes con incertidumbre de idioma, incluidos 3.002 mar-
+cados como posiblemente mixtos. Estos conjuntos se solapan. También incluye 42.849 resú-
+menes de 50–79 palabras y 249 de más de 2.000. Los análisis posteriores usan las marcas para
+comprobar sensibilidad, sin cambiar el corpus silenciosamente. Veriﬁcar la fuente demuestra
+coincidencia con los registros descargados, no que todos sean correctos. La Tabla S1 recoge
+la distribución y las tablas completas de marcas.
+2
+Shape of Science Robustness Suplemento en español
+T abla S1: Corpus limpio por área, período y muestra.
+Área 2000-
+04
+2005-
+09
+2010-
+14
+2015-
+19
+2020-
+24
+Base Extra
+Ciencias agrícolas y biológicas 2.166 2.528 3.940 4.298 6.491 18.920 503
+Artes y humanidades 2.166 2.166 2.186 2.732 3.380 10.696 1.934
+Bioquímica, genética y biología
+molecular
+2.739 4.071 5.251 5.596 6.840 24.497 0
+Negocios, gestión y contabilidad 2.166 2.166 2.186 2.660 4.040 11.137 2.081
+Ingeniería química 2.166 2.166 2.166 2.166 2.166 1.195 9.635
+Química 2.166 2.166 2.166 2.166 2.166 7.290 3.540
+Informática 3.310 5.594 7.094 6.858 9.972 32.828 0
+Ciencias de la decisión 2.166 2.166 2.166 2.166 2.166 3.817 7.013
+Ciencias de la Tierra y planetarias 2.166 2.166 2.166 2.166 2.166 7.256 3.574
+Economía, econometría y ﬁnanzas 2.166 2.166 2.166 2.166 2.845 8.620 2.889
+Energía 2.166 2.166 2.166 2.166 2.166 2.617 8.213
+Ingeniería 6.990 11.310 15.203 14.738 18.907 67.148 0
+Ciencias ambientales 2.166 2.876 4.005 4.018 5.919 18.569 415
+Inmunología y microbiología 2.166 2.166 2.166 2.166 2.166 4.456 6.374
+Ciencia de materiales 2.166 2.166 2.962 3.152 3.787 13.335 898
+Matemáticas 2.166 2.166 2.166 2.166 2.166 4.581 6.249
+Medicina 7.128 10.946 15.771 18.629 26.195 78.669 0
+Neurociencia 2.166 2.166 2.166 2.166 2.166 6.824 4.006
+Enfermería 2.166 2.166 2.166 2.166 2.166 2.077 8.753
+Farmacología, toxicología y
+farmacia
+2.166 2.166 2.166 2.166 2.166 1.715 9.115
+Física y astronomía 2.166 2.704 3.094 3.388 3.470 14.772 50
+Psicología 2.166 2.166 2.166 2.577 3.970 10.816 2.229
+Ciencias sociales 2.776 4.893 7.110 8.891 13.879 37.549 0
+Veterinaria 2.166 2.166 2.165 2.165 2.165 642 10.185
+Odontología 2.165 2.165 2.165 2.165 2.165 2.238 8.587
+Profesiones sanitarias 2.165 2.165 2.165 2.165 2.833 7.736 3.757
+T otal 68.427 83.908 101.289 107.858 138.518 400.000 100.000
+Total: 500.000 identiﬁcadores distintos de OpenAlex. Las columnas de períodos contienen base y
+refuerzo; las dos últimas reparten esos mismos artículos y no se vuelven a sumar. Catálogo principal;
+años 2000–2024; artículos, revisiones y congresos; etiqueta inglesa de OpenAlex, título no vacío,
+resumen reconstruible de al menos 50 palabras según expresión regular, área principal conocida
+y sin marca de retractación o paratexto. La limpieza adicional rechaza fallos claros de idioma o
+contenido y marca casos ambiguos. No se aﬁrma que todos los resúmenes sean exclusivamente
+ingleses o estén bien etiquetados. Los CSV incluyen cantidades anuales, muestras y marcas de
+calidad; la descarga original terminó el 15 de septiembre de 2026. No es una fotografía simultánea
+de la base de datos.
+3
+Shape of Science Robustness Suplemento en español
+S1.2. Versiones de los modelos, entrada y recorte
+Los diez modelos utilizan los mismos identiﬁcadores ordenados y el texto original del título
+y resumen. La Tabla S2 recoge los separadores habituales, las versiones completas de los
+modelos y las de sus adaptadores, cuando existen. Las salidas se guardaron como vectores de
+32 bits; los cálculos geométricos posteriores usan aritmética de 64 bits. Se comprobaron las
+salidas ausentes o degeneradas, y cada ejecución registra huellas del código, conﬁguración,
+archivos y entorno.
+La regla de media combina todas las posiciones de la última capa que no son relleno, incluidos
+los símbolos especiales añadidos por el modelo. CLS es el estado de la primera posición, antes
+de cualquier pooler; SEP es la última posición sin relleno, no el separador entre título y resu-
+men. Solo BERT, SciBERT, BioBERT y PubMedBERT cambian en los escenarios CLS/SEP.
+SimCSE utiliza su estado CLS anterior al pooler; SPECTER2 usa su adaptador de proxi-
+midad. MPNet y MiniLM mantienen su conﬁguración de media de sentence-transformers.
+Estos escenarios no son modelos adicionales entrenados de forma independiente.
+La comparación de fragmento común encuentra un mismo preﬁjo de caracteres que cabe
+en todos los modelos, manteniendo cada tokenizador y sus separadores habituales. Usa otra
+muestra de 52.000 identiﬁcadores y compara ese fragmento con la representación habitual
+de esos mismos artículos. No iguala las secuencias de tokens entre vocabularios. El control
+separado de MiniLM con 512 tokens utiliza el límite admitido por su arquitectura; los vectores
+de textos no afectados por el recorte original se reutilizan exactamente. Ninguno de estos
+controles demuestra que una entrada más larga produzca mejores representaciones temáticas.
+4
+Shape of Science Robustness Suplemento en español
+T abla S2: Versiones ﬁjas, formatos de texto y recorte habitual.
+Modelo Modelo y versión completa Entrada / recorte
+SPECTER allenai/specter
+Versión: 81cbfb43d4fc2e728d5b4201ce14987db8d0
+854c
+Título [SEP] resumen
+Límite: 512
+Recortado: 5,66 %
+SPECTER2 allenai/specter2_base
+Versión: 3447645e1def9117997203454fa4495937bf
+bd83
+Adaptador: allenai/specter2
+2081559630a80fc5851d8f798a05ba81e9468089
+Título [SEP] resumen
+Límite: 512
+Recortado: 5,00 %
+SciNCL malteos/scincl
+Versión: ebc5348d184ba2fc9beee69b4e394263fce5
+7b2e
+Título [SEP] resumen
+Límite: 512
+Recortado: 5,00 %
+SciBERT allenai/scibert_scivocab_uncased
+Versión: 24f92d32b1bfb0bcaf9ab193ff3ad01e8773
+2fc1
+Título, línea vacía,
+resumen
+Límite: 512
+Recortado: 4,96 %
+BERT google-bert/bert-base-uncased
+Versión: 86b5e0934494bd15c9632b12f734a8a67f72
+3594
+Título, línea vacía,
+resumen
+Límite: 512
+Recortado: 6,87 %
+MPNet sentence-transformers/all-mpnet-base-v2
+Versión: e8c3b32edf5434bc2275fc9bab85f82640a1
+9130
+Título, línea vacía,
+resumen
+Límite: 384
+Recortado: 20,16 %
+MiniLM sentence-transformers/all-MiniLM-L6-v2
+Versión: 1110a243fdf4706b3f48f1d95db1a4f5529b
+4d41
+Título, línea vacía,
+resumen
+Límite: 256
+Recortado: 49,58 %
+PubMedBERT microsoft/BiomedNLP-BiomedBERT-base-uncased
+-abstract-fulltext
+Versión: e1354b7a3a09615f6aba48dfad4b7a613eef
+7062
+Título, línea vacía,
+resumen
+Límite: 512
+Recortado: 4,75 %
+BioBERT dmis-lab/biobert-v1.1
+Versión: 551ca18efd7f052c8dfa0b01c94c2a8e68bc
+5488
+Título, línea vacía,
+resumen
+Límite: 512
+Recortado: 9,00 %
+SimCSE princeton-nlp/unsup-simcse-bert-base-uncas
+ed
+Versión: 218baf6bc48c463a53f5b4e1c568299537fa
+b124
+Título, línea vacía,
+resumen
+Límite: 512
+Recortado: 6,87 %
+5
+Shape of Science Robustness Suplemento en español
+El recorte se mide en los 500.000 artículos con título y resumen y no es una tasa de error. MiniLM
+mantiene 256 tokens como principal; la variante de 512 es un control separado. CLS/SEP solo se
+aplican como alternativas a BERT, SciBERT, BioBERT y PubMedBERT. SEP toma la última
+posición sin relleno, no el separador del título. Igualar tokens no igualaría el texto porque los
+tokenizadores diﬁeren. Los CSV contienen enlaces a las ﬁchas de los modelos y todas las versiones.
+6
+Shape of Science Robustness Suplemento en español
+S2. Medidas de acuerdo y estabilidad del muestreo
+Este apartado explica cómo se calcula el acuerdo entre dos modelos y después comprueba
+cuánto cambia el resultado al elegir otros artículos. Son dos preguntas diferentes.
+S2.1. Cobertura y cronología
+T abla S3: Cobertura y cronología de los bloques de comparación.
+Bloque Cobertura Cuándo se ﬁjó Interpretación
+Comparación
+inicial
+Corpus de 500.000; 130
+grupos; 45 parejas ﬁjas
+de modelos
+Antes de conocer
+los acuerdos de esta
+fase
+Vectores normalizados; CKA
+corregida, k25; controles
+CLS/SEP y de tamaño.
+Fragmento
+común
+52.000 identiﬁcadores
+emparejados, distintos
+de la muestra de
+entradas
+Antes de la primera
+comparación
+cientíﬁca
+Mismos caracteres de
+contenido; tokenizadores y
+separadores propios.
+Centros /
+grupos
+aleatorios
+256 por centro;
+26/217/26 centros
+Añadido tras los
+resultados iniciales
+Fechas y tamaños iguales;
+comprueba el promedio de
+centros, no la validez
+temática.
+Ampliación de
+entradas
+De 26.000 a 52.000
+identiﬁcadores anidados
+Después del piloto;
+antes del resultado
+ampliado
+Tres entradas cruzadas con
+reglas de representación; 100
+selecciones comparables.
+Búsquedas
+locales
+emparejadas
+217 grupos, 50
+consultas, diez
+selecciones
+Diseño de la fase
+ampliada
+256 candidatos por ámbito,
+con consultas idénticas y
+fechas iguales.
+Atlas 217 especialidades; 183
+en controles de
+sensibilidad; 12
+artículos de ejemplo
+Tras los resultados
+globales; antes de
+leer los títulos
+seleccionados
+Ejemplos elegidos por una
+regla; errores de la fuente
+conservados.
+Morfología 52.000 identiﬁcadores;
+medidas alternativas y
+nubes sintéticas
+Ampliación
+exploratoria tras los
+resultados
+principales
+Protocolo anterior a las
+nuevas medidas con datos
+reales. Control de fracción de
+vecinos añadido durante la
+ejecución.
+Parejas de
+áreas
+325 parejas por
+propiedad; 26
+condiciones guardadas
+Después de los
+resultados de
+morfología
+Reglas de dirección y
+magnitud anteriores a los
+nuevos recuentos; sin
+inferencia nueva.
+7
+Shape of Science Robustness Suplemento en español
+Es una secuencia de fases documentadas, no un estudio prerregistrado. Fuentes: ANALY-
+SIS_PROTOCOL, ROBUSTNESS_PROTOCOL, CASE_ATLAS_PROTOCOL, MORPHO-
+LOGY_PROTOCOL y FIELD_PAIR_PROTOCOL, con sus decisiones fechadas. Los controles
+posteriores no se presentan como hipótesis iniciales.
+S2.2. Deﬁniciones de alineación y vecinos
+En cada comparación, las ﬁlas de X e Y identiﬁcan los mismos artículos. Primero se ajustan
+los vectores a longitud uno y después se centran sus columnas para CKA y Procrustes. Sea
+n el número de ﬁlas. Se deﬁnen
+SXY = ∥X ⊤ Y ∥2
+F , RXY =
+∑
+i
+∥Xi∥2∥Yi∥2,
+TX =
+∑
+i
+∥Xi∥2, HXY = SXY − n
+n − 2RXY + TXTY
+(n − 1)(n − 2).
+La alineación corregida que se presenta es
+CKAcorr(X, Y ) = HXY√ HXX HY Y
+.
+El factor común de HSIC se cancela. Se conservan los valores corregidos negativos y se
+rechazan las entradas degeneradas. La implementación se comprobó de manera independiente
+mediante matrices de relaciones con diagonal cero. La corrección trata el aumento artiﬁcial
+debido al tamaño ﬁnito de muestra ( Kornblith et al., 2019; Murphy et al., 2024); no se aﬁrma
+que el cociente completo sea exactamente insesgado.
+La similitud de Procrustes es ∥X ⊤ Y ∥∗/ √ TXTY , donde el numerador suma los valores singula-
+res. Su arcocoseno da la distancia angular presentada. Permite alinear rotaciones, reﬂexiones
+y una escala global, pero no una deformación arbitraria. Las diferencias de dimensión se
+pueden entender añadiendo coordenadas cero a la representación menor. La normalización
+precede al centrado, por lo que el procedimiento no implica invariancia frente a desplazar los
+vectores originales y volver a normalizarlos ( Williams et al. , 2021).
+El control de rangos de distancias correlaciona distancias del coseno para 20.000 parejas
+distintas de artículos, seleccionadas con una semilla registrada y de manera idéntica en ambas
+representaciones. Los empates reciben rangos medios. Estas observaciones por parejas y las
+medidas alternativas de alineación no se tratan como repeticiones independientes ( Williams,
+2024).
+Para la consulta i y los modelos a, b , la coincidencia de vecinos es
+Ok(i; a, b ) = |N a
+k (i) ∩ N b
+k(i)|
+k .
+8
+Shape of Science Robustness Suplemento en español
+La propia consulta se excluye por identiﬁcador. En la búsqueda exacta principal, las simi-
+litudes se calculan en bloques de 64 bits y se redondean a doce decimales para resolver los
+empates de forma determinista según el orden global de ﬁlas. Ordenaciones independientes
+comprueban las listas guardadas. La referencia combinatoria para listas uniformes indepen-
+dientes entre M candidatos válidos es k/M ; la coincidencia ajustada es (Ok− k/M )/ (1− k/M ).
+Esta referencia no elimina los efectos de densidad, popularidad de ciertos vecinos o compo-
+sición. Por ello, los resultados principales conservan la coincidencia sin ajustar junto con
+conjuntos de candidatos explícitamente emparejados.
+S2.3. Controles de selección y alertas conservadas
+El control original usa veinte selecciones en cada tamaño de 1.024 y 2.048 artículos por
+grupo de área y período, emparejadas entre modelos. Marca un desplazamiento absoluto de
+la mediana superior a 0,02 o una amplitud central del 95 % de las selecciones superior a 0,04
+en el tamaño mayor. Una permutación de ﬁlas por modelo y grupo aporta un diagnóstico
+de alineación, no un valor p de una prueba de permutación. El control de calidad conserva
+un representante por componente conectado de DOI o texto duplicado y excluye las marcas
+especiﬁcadas, dejando 448.886 registros. Cambia la población operativa y no sustituye el
+corpus principal.
+Los controles de especialidades usan veinte selecciones anidadas de hasta 256 y 512 artículos,
+según disponibilidad. Los grupos con menos de ocho artículos no tienen diagnóstico entre
+dos tamaños. Si la selección mayor abarca todo el grupo, su amplitud de selección cero queda
+marcada explícitamente y no demuestra precisión para una población más amplia. La Tabla
+S4 mantiene estos casos separados de las alertas originales por área y período.
+T abla S4: Acuerdo de medidas alternativas y alertas de estabilidad conservadas.
+Medidas comparadas Grupos Acuerdo medio
+de rangos
+Mínimo Máximo
+CKA corregida / Procrustes 130 0,891 0,793 0,960
+CKA corregida / Rangos de
+distancias
+130 0,881 0,777 0,963
+Procrustes / Rangos de
+distancias
+130 0,789 0,649 0,893
+El panel presenta correlaciones descriptivas de Spearman del acuerdo entre parejas de modelos
+dentro de cada uno de los 130 grupos de área y período. Comparan medidas, no validan el conte-
+nido temático. La tabla se acompaña de los 41 resúmenes guardados y todas las alertas originales
+individuales.
+Control original de área y período: 50 alertas entre 5.850 comparaciones; mayor ampli-
+tud central del 95 % entre los casos marcados: 0,064.
+9
+Shape of Science Robustness Suplemento en español
+La muestra mayor no abarca todo el grupo: 2.628 alertas / 8.235 comparaciones; 183
+especialidades.
+La muestra mayor abarca todo el grupo: 213 alertas / 3.060 comparaciones; 68 espe-
+cialidades.
+Una amplitud cero al usar todo el grupo no demuestra estabilidad con menos artículos. Son controles
+dentro del corpus, no intervalos de conﬁanza poblacionales. Las alertas de diseños diferentes se
+mantienen separadas.
+S3. Texto de entrada, combinación de salidas y recorte
+Este experimento mantiene los artículos y cambia lo que lee cada modelo. La pregunta
+principal es si ese cambio importa más o menos que elegir otro modelo.
+S3.1. Efectos de entrada por modelo
+El experimento de título y resumen utiliza 52.000 artículos: 400 por grupo de área y período
+y 2.000 por área, seleccionados mediante un orden ﬁjo basado en identiﬁcadores. La primera
+prueba utilizó 26.000; todos esos identiﬁcadores se conservan en el conjunto ampliado. Para
+cada modelo, el efecto de cambiar de modelo es uno menos su acuerdo medio con los otros
+nueve al usar título y resumen. El efecto de cambiar la entrada es uno menos el acuerdo entre
+la entrada combinada de ese modelo y su entrada de solo título o solo resumen. La diferencia
+entre ambos es positiva cuando el cambio de modelo tiene mayor efecto. Los cambios de
+vecinos usan los mismos 2.000 candidatos por área y excluyen el propio artículo.
+Un resumen simétrico de las transiciones entre entradas comprueba la dependencia de la
+entrada combinada como referencia. Los escenarios de media, CLS y SEP se cruzan con
+las tres entradas; solo los cuatro BERT de palabras cambian la regla de representación,
+lo que también cambia la referencia entre modelos. Los vectores combinados y del piloto
+se reutilizaron con alineación exacta de identiﬁcadores y texto y comprobaciones bit a bit.
+El análisis compara usos prácticos de las entradas, no separa causalmente arquitectura y
+contenido.
+10
+Shape of Science Robustness Suplemento en español
+T abla S5: Cambios de entrada por modelo, con el mismo peso para las 26 áreas.
+Modelo Título: forma Resumen:
+forma
+Título: vecinos Resumen:
+vecinos
+SPECTER 0,208 0,044 61,1 % 31,3 %
+SPECTER2 0,203 0,048 60,6 % 31,3 %
+SciNCL 0,205 0,028 57,3 % 23,9 %
+SciBERT 0,532 0,014 84,2 % 15,8 %
+BERT 0,418 0,013 83,6 % 18,0 %
+MPNet 0,189 0,022 51,7 % 17,7 %
+MiniLM 0,246 0,031 58,1 % 21,5 %
+PubMedBERT 0,526 0,017 82,9 % 16,2 %
+BioBERT 0,636 0,024 83,4 % 19,2 %
+SimCSE 0,496 0,028 83,8 % 26,3 %
+Mismos 52.000 identiﬁcadores y 2.000 candidatos por área. Cambio de forma: 1 menos CKA corre-
+gida. Cambio de vecinos: fracción de los 25 vecinos sustituidos. Título o resumen comparan cada
+modelo con su propia entrada completa. Los CSV incluyen medias del cambio de modelo, valores
+por área y cruce completo de reglas. Son cambios prácticos de entrada con límites propios, no una
+separación causal de modelo y longitud.
+Contraste cambio de modelo menos cambio de entrada de solo título (positivo: cambiar modelo
+tiene mayor efecto medio): MEDIA, forma = 0,0042; MEDIA, vecinos = -0,0191; CLS, forma =
+0,0363; CLS, vecinos = 0,0304; SEP, forma = 0,0627; SEP, vecinos = 0,0171. Solo cambian los
+cuatro BERT de palabras en CLS/SEP. Medias próximas no demuestran equivalencia.
+S3.2. Comprobación de estabilidad de 26.000 a 52.000 artículos
+Ambos tamaños se evaluaron con 20 y después 100 selecciones sin reemplazo, usando 500
+artículos por área en el piloto y 1.000 en la ampliación, equilibrados por fechas. Las primeras
+veinte repeticiones reproducen el diagnóstico anterior. Las mismas reglas de 0,02 para el
+desplazamiento de la mediana y 0,04 para la amplitud central se aplican al contraste principal
+de forma. Conservar las 31 claves originales permite distinguir alertas persistentes, resueltas
+y nuevas. La comparación de 100 selecciones pasa de 72 a cinco alertas; la comparación
+histórica de veinte pasa de 31 a cuatro. Estos recuentos no deben sustituirse entre sí ni
+extenderse automáticamente a todas las reglas de representación o análisis de vecinos.
+11
+Shape of Science Robustness Suplemento en español
+T abla S6: Transición de alertas de entrada entre las muestras anidadas de 26.000 y 52.000.
+Selecciones /
+ámbito
+Contrastes Alertas
+26k
+Alertas
+52k
+Persisten Resueltas Nuevas
+20 / modelo-área 520 31 4 3 28 1
+20 / Media de
+áreas
+52 0 0 0 0 0
+100 /
+modelo-área
+520 72 5 5 67 0
+100 / Media de
+áreas
+52 0 0 0 0 0
+Las cinco alertas restantes de modelo, área y entrada con 100 selecciones son: BioBERT / Ciencias
+agrícolas y biológicas / resumen (amplitud 0,047); BioBERT / Ciencias de la Tierra y planetarias
+/ resumen (0,045); BioBERT / Economía, econometría y ﬁnanzas / resumen (0,042); BioBERT
+/ Inmunología y microbiología / resumen (0,063); PubMedBERT / Profesiones sanitarias / títu-
+lo (0,040). No tener alerta no implica un efecto distinto de cero. Los recuentos originales de 20
+selecciones y posteriores de 100 se mantienen separados.
+20 selecciones
+Control original
+100 selecciones
+Control adicional
+0
+10
+20
+30
+40
+50
+60
+70
+80Contrastes de entrada con alerta (de 520)
+31
+72
+4 5
+26k
+52k
+Figura S1: Alertas de estabilidad de entrada en muestras anidadas. Los recuentos son contrastes
+de modelo, área y entrada sobre 520. La comparación original de 20 selecciones y la posterior de
+100 usan los mismos umbrales registrados, pero sus recuentos no son intercambiables. Son
+controles de sensibilidad a la selección dentro del corpus ﬁjo. Los 52 contrastes promediados por
+área se presentan por separado en la Tabla S6.
+12
+Shape of Science Robustness Suplemento en español
+S4. Escala, vecinos y casos concretos
+Estas comprobaciones pasan de las áreas amplias a las especialidades y los artículos indivi-
+duales. Separan un cambio del alcance de búsqueda de un cambio en la cantidad de artículos
+disponibles.
+S4.1. Ámbitos emparejados y cantidades de candidatos
+Las comparaciones internas usan 128, 256 y 512 artículos, con selecciones anidadas basadas
+en identiﬁcadores y las mismas 183 especialidades válidas en los tres tamaños. El análisis con
+tamaños propios conserva las 252 especialidades donde la medida está deﬁnida; los grupos
+con exactamente k+1 artículos tienen listas completas de vecinos que no aportan información
+y se marcan como tales. Otra comparación temporal conserva las mismas 125 especialidades
+con al menos 128 artículos en cada período.
+Las comparaciones de centros promedian vectores de artículos de longitud uno y ajustan tam-
+bién cada centro a longitud uno antes de calcular la CKA corregida. Se comprobó la igualdad
+entre los centros de áreas calculados directamente y reconstruidos a partir de especialidades
+ponderadas. Los centros originales igualados contienen 256 artículos por grupo. Sus veinte
+selecciones restringidas cambian qué especialidad representa a cada área, no los artículos
+dentro de esas especialidades. S9 describe las pruebas repetidas de centros, tamaños, grupos
+aleatorios emparejados y omisiones que se presentan ahora en el artículo. Las referencias
+aleatorias mantienen la correspondencia de artículos entre modelos; no son pruebas nulas de
+independencia.
+La búsqueda emparejada ﬁja 50 consultas por especialidad válida, con 256 candidatos en
+cada ámbito y diez selecciones. Las mismas 50 consultas se incluyen en ambos conjuntos; solo
+cambian de ámbito las otras 206 posiciones. Las cantidades por fecha coinciden. Se ordenó
+independientemente una consulta por modelo, selección, grupo y ámbito, lo que produjo
+43.400 comprobaciones. Los resultados de esas 10.850 consultas tienen controles repetidos de
+candidatos; los valores locales de los 500.000 registros no.
+T abla S7: Búsquedas emparejadas de vecinos en áreas y especialidades.
+k Coincidencia
+en área
+Coincidencia
+en
+especialidad
+Diferencia (pp) Menor /
+mayor
+Especialidades
+10 38,7 % 36,9 % -1,73 145 / 72 217
+25 46,7 % 45,3 % -1,35 127 / 90 217
+50 54,5 % 53,7 % -0,79 109 / 108 217
+Diferencia: especialidad menos área. Cada ámbito contiene 256 candidatos, incluidas las mismas 50
+consultas, con fechas iguales; el propio artículo se excluye al buscar. Medias de diez selecciones de
+13
+Shape of Science Robustness Suplemento en español
+candidatos. La comparación amplia está condicionada por las consultas, no son 256 artículos del
+área seleccionados libremente. Las 217 especialidades están en el diseño emparejado; 183 cumplen
+todos los tamaños del control separado de 128/256/512. Se adjuntan los resultados completos de
+tamaño, regla de representación y k.
+S4.2. Persistencia de las especialidades
+El atlas compara posiciones entre las mismas 183 especialidades en 27 combinaciones de
+tres tamaños de candidatos, tres reglas de representación y tres cantidades de vecinos. Las
+reglas de selección de ejemplos se ﬁjaron después de los resultados generales, pero antes de
+leer los títulos seleccionados. Los seis ejemplos superiores y los seis inferiores son extremos
+descriptivos bajo esas reglas. Sus rangos de posición identiﬁcan acuerdo relativo persistente,
+no especialidades semánticamente correctas o incorrectas.
+14
+Shape of Science Robustness Suplemento en español
+0 25 50 75 100
+Posición relativa de acuerdo (%)
+De menor a mayor acuerdo
+T ecnología de medios
+Edificación y construcción
+Energía renovable, sostenibilidad
+y medio ambiente
+T oxicología
+Ingeniería del automóvil
+Ciencia y tecnología del agua
+Álgebra y teoría de números
+Estudios religiosos
+Análisis numérico
+Historia
+Literatura y teoría literaria
+Geometría y topología
+Figura S2: Posiciones relativas de acuerdo de vecinos para doce especialidades seleccionadas por
+la regla registrada. Los rangos abarcan 27 combinaciones de tamaño de candidatos, regla de
+representación y número de vecinos, con las mismas 183 especialidades válidas. Los seis ejemplos
+superiores e inferiores ilustran la regla de mayor y menor acuerdo. Son rangos de sensibilidad, no
+intervalos de conﬁanza; más acuerdo no implica mayor precisión temática.
+S4.3. Ejemplos de artículos y relaciones
+El atlas de artículos usa diez selecciones de candidatos para las consultas ﬁjas. Las compa-
+raciones de relaciones se restringen a 531.650 relaciones dirigidas cuyos dos extremos siguen
+siendo válidos, evitando tratar un destino no disponible como vecino rechazado. Para cada
+artículo de origen mostrado, los archivos adjuntos conservan destinos persistentes y destinos
+dependientes del modelo. La Figura S3 selecciona la relación válida con mayor desacuerdo
+entre modelos para ese origen; no permite estimar lo frecuente que es el desacuerdo.
+Los ejemplos se inspeccionaron frente a los registros guardados de OpenAlex. Se mantienen
+visibles los casos del libro de historia, infección y política, y el anuncio, además de un destino
+con resumen incompleto. Un diagnóstico de 82 títulos genéricos elimina cinco consultas ﬁjas
+15
+Shape of Science Robustness Suplemento en español
+y apenas cambia la media global de consultas, del 45,344 % al 45,349 %. Esta comproba-
+ción acotada no estima la frecuencia de errores de clasiﬁcación temática ni limpia todos los
+candidatos.
+T abla S8: Los doce artículos seleccionados por la regla, con sus advertencias de fuente.
+Artículo e identiﬁcador
+de OpenAlex
+Etiqueta de
+especialidad
+Media Rango de
+selección
+Nota de
+inspección
+SIRT6 overexpression
+induces massive apoptosis in
+cancer cells but not in
+normal cells
+W2022976570; 2011
+Geriatría y
+gerontología
+79,3 % 76,7 %–
+82,4 %
+Sin problema claro
+en esta inspección
+limitada; no es
+validación experta.
+Comparison of The
+Eﬀectiveness of Scientiﬁc
+Approach and
+Problem-Solving Approach
+in Problem-Based Learning
+in Class IX of SMP Negeri 3
+Pangsid
+W2998141762; 2019
+Matemáticas
+aplicadas
+84,1 % 75,1 %–
+87,4 %
+Enseñanza de
+matemáticas bajo
+Matemáticas
+aplicadas; etiqueta
+administrativa.
+A systematic analysis on the
+managerial non-eﬃciency of
+the state-owned businesses
+W2359252036; 2002
+Ciencias de la
+decisión generales
+76,9 % 74,7 %–
+78,8 %
+Sin problema claro
+en esta inspección
+limitada; no es
+validación experta.
+Application of multi-agent
+approach to development of
+the petrol dispatching
+system of gas stations
+network
+W3107610255; 2020
+Matemáticas
+discretas y
+combinatoria
+78,2 % 74,0 %–
+82,4 %
+Sin problema claro
+en esta inspección
+limitada; no es
+validación experta.
+Persuasive Talk, Delegation,
+and Announcements
+W2252942328; 2012
+Investigación en
+seguridad
+78,2 % 72,1 %–
+83,3 %
+Economía de la
+persuasión bajo
+Investigación en
+seguridad;
+advertencia de
+etiqueta.
+Continúa en la página siguiente
+16
+Shape of Science Robustness Suplemento en español
+Tabla S8 (continuación)
+Artículo e identiﬁcador
+de OpenAlex
+Etiqueta de
+especialidad
+Media Rango de
+selección
+Nota de
+inspección
+Road risk-perception and
+pedestrian injuries among
+students at Ain Shams
+University, Cairo, Egypt
+W2081778888; 2011
+Seguridad, riesgo,
+ﬁabilidad y
+calidad
+76,4 % 70,8 %–
+85,2 %
+Sin problema claro
+en esta inspección
+limitada; no es
+validación experta.
+Invasion Strategy
+W2011180849; 2003
+Ciencia política y
+relaciones
+internacionales
+18,7 % 16,1 %–
+21,0 %
+Resumen de
+infección bacteriana
+etiquetado como
+política.
+Beyond the witch trials:
+Witchcraft and magic in
+Enlightenment Europe
+W7045581866; 2004
+Física nuclear y
+de altas energías
+21,4 % 19,2 %–
+23,7 %
+Descripción de libro
+de historia
+etiquetada como
+física; advertencia de
+tipo.
+Optical properties of cobalt
+clusters implanted in thin
+silica layers
+W1966552042; 2006
+Cerámica y
+materiales
+compuestos
+23,2 % 21,3 %–
+24,4 %
+Abundante código
+de fórmulas en el
+resumen; advertencia
+de entrada.
+Announcement
+W4234898602; 2010
+Oftalmología 22,2 % 19,9 %–
+25,8 %
+Anuncio detectado
+al revisar el atlas; no
+por el ﬁltro original
+de avisos.
+Conversion of a rule based to
+an object oriented expert
+system
+W2117277818; 2002
+Software 25,0 % 22,8 %–
+26,0 %
+Sin problema claro
+en esta inspección
+limitada; no es
+validación experta.
+‘Thare is na leid on life of
+lordship hym like’: linguistic
+means of depicting king
+arthur in the poem Golagros
+and Gawain
+W3110667008; 2020
+Estudios clásicos 25,5 % 24,4 %–
+26,3 %
+Sin problema claro
+en esta inspección
+limitada; no es
+validación experta.
+Los valores son coincidencias k25 promediadas sobre 45 parejas de modelos; los rangos abarcan diez
+selecciones de candidatos. Los seis primeros y últimos ejemplos proceden de orígenes con alto y bajo
+acuerdo según la regla registrada. Los títulos se leyeron después de seleccionar y se conservan en su
+idioma original para identiﬁcarlos. Los CSV contienen identiﬁcadores, títulos y apoyos por modelo
+de orígenes y destinos para ambos tipos de relación. Se seleccionó la relación más dependiente
+17
+Shape of Science Robustness Suplemento en español
+del modelo para cada origen; no estima frecuencia. También se conserva un resumen de destino
+incompleto, marcado en la Figura S3. Ningún control valida las etiquetas de OpenAlex.
+SPECTERSPECTER2
+SciNCL SciBERT
+BERT MPNet MiniLM
+PubMedBERT
+BioBERTSimCSE
+SIRT6 / cáncer [b]
+Enseñanza matemática [a]
+Empresas estatales
+Distribución de combustible
+Persuasión [a]
+Lesiones de peatones
+Estrategia de invasión [a]
+Juicios de brujería [a]
+Cobalto / capas de sílice
+Anuncio [a]
+Conversión de sistema experto
+Poesía artúrica
+10 9 10 10 10 10 10 0 1 10
+4 7 4 0 8 5 7 0 7 10
+9 2 3 10 10 8 0 10 10 10
+10 1 0 10 10 2 7 10 10 10
+4 10 10 10 4 8 4 10 0 10
+10 8 3 10 10 1 0 10 10 9
+0 10 10 0 10 10 10 0 3 0
+0 10 0 10 10 10 0 10 10 10
+10 10 10 0 0 10 10 0 0 10
+0 0 8 10 10 0 0 10 0 10
+0 0 0 10 10 10 10 10 10 1
+0 0 10 10 10 9 10 10 10 10
+Figura S3: Relación válida más dependiente del modelo para cada uno de los doce artículos de
+origen ﬁjos. Cada celda cuenta las selecciones en que el destino está entre los 25 vecinos más
+próximos (0–10); ambos extremos siempre están disponibles en el diseño de 256 candidatos. Las
+seis ﬁlas superiores e inferiores son orígenes con alto y bajo acuerdo. [a] Advertencia sobre la
+fuente o la etiqueta; [b] el destino elegido tiene resumen incompleto. Los identiﬁcadores, títulos y
+advertencias completos se conservan en los archivos de la Tabla S8. Se eligieron relaciones con
+máximo desacuerdo entre modelos, por lo que el panel no estima su frecuencia.
+18
+Shape of Science Robustness Suplemento en español
+S5. Tiempo, composición disciplinar y características
+de los modelos
+Estas comparaciones adicionales preguntan dónde cambia el acuerdo: entre períodos de pu-
+blicación, áreas y grupos de modelos. Sus controles examinan posibles explicaciones sin iden-
+tiﬁcar una causa única.
+S5.1. Contrastes entre períodos y oportunidades de búsqueda
+Los resúmenes temporales dan el mismo peso a las áreas y a las parejas ﬁjas de modelos. Las
+diferencias entre extremos comparan 2020–24 con 2000–04; la secuencia de cinco períodos
+determina si la trayectoria es monótona, es decir, si siempre sigue la misma dirección. Los
+conjuntos propios de candidatos y los de 2.048 se presentan por separado. Una comparación
+posterior con consultas idénticas separa el cambio de consultas del número de candidatos.
+Las publicaciones de todas las fechas se representan con los mismos modelos actuales; las
+diferencias pueden reﬂejar cobertura, redacción, composición, longitud del texto o exposición
+del modelo, en lugar de cambios históricos en la organización cientíﬁca.
+T abla S9: Cambios entre períodos extremos y diferencias entre áreas.
+Medida / diseño de candidatos Cambio
+medio
+Positivo Negativo No
+monótono
+CKA, grupos propios 0,0207 23 3 22
+CKA, 2.048 por grupo 0,0206 24 2 22
+Rangos de distancias, propio 0,0304 22 4 19
+Procrustes, propio 0,0019 15 11 24
+k25, todos los candidatos -0,0087 10 16 22
+k25, 2.048 / media 0,0091 20 6 20
+k25, 2.048 / CLS 0,0034 16 10 22
+k25, 2.048 / SEP 0,0138 21 5 20
+Final menos inicio: 2020–24 frente a 2000–04. Cada ﬁla describe 26 áreas con igual peso; los cambios
+de vecinos son fracciones, por lo que se multiplican por 100 para obtener puntos porcentuales. Se
+usan cinco períodos para clasiﬁcar la monotonicidad. Los CSV incluyen controles k10/k25/k50,
+reglas, consultas idénticas y parejas. El número de candidatos puede cambiar el signo. Son contrastes
+descriptivos entre períodos, no convergencia histórica causal.
+19
+Shape of Science Robustness Suplemento en español
+2000-04 2005-09 2010-14 2015-19 2020-24
+-0,02
+0
+0,02
+0,04
+0,06
+0,08
+Cambio desde 2000-04
+A  Forma
+2000-04 2005-09 2010-14 2015-19 2020-24
+-0,0075
+-0,005
+-0,0025
+0
+0,0025
+0,005
+0,0075
+0,01
+Cambio desde 2000-04
+B  Vecinos
+T amaño igualado 2.048 candidatos T odos los candidatos
+Figura S4: Patrones temporales descriptivos con controles de candidatos. Los valores son
+cambios respecto a 2000–04. Áreas y parejas ﬁjas de modelos tienen el mismo peso. En (A), las
+líneas ﬁnas muestran las 26 áreas y la gruesa su media. En (B), la coincidencia con k25 se
+compara usando todos los candidatos o 2.048. Cambiar las oportunidades de búsqueda puede
+invertir el signo medio. No son trayectorias históricas causales.
+S5.2. Medicina y composición por especialidades
+Los controles de composición seleccionan 2.048 artículos por área con cuotas de fechas idén-
+ticas, bajo una composición observada o equilibrada de especialidades, y repiten el proceso
+diez veces. También se resumen tras excluir BioBERT y PubMedBERT. Energía solo tiene
+una especialidad válida en este control, por lo que su composición no cambia igual que la de
+Medicina. Equilibrar y omitir modelos son controles descriptivos de sensibilidad, no interven-
+ciones que aíslen causas independientes. Los resultados completos de las 26 áreas acompañan
+a los cuatro ejemplos mostrados.
+20
+Shape of Science Robustness Suplemento en español
+T abla S10: Acuerdo por disciplina con composición observada y equilibrada de especialidades.
+Área Modelos CKA obs. CKA equil. k25 obs. k25 equil.
+Medicina Diez 0,546 0,543 29,0 % 29,2 %
+Medicina Ocho 0,564 0,562 29,5 % 29,9 %
+Energía Diez 0,772 0,772 33,2 % 33,2 %
+Energía Ocho 0,774 0,774 33,4 % 33,4 %
+Matemáticas Diez 0,671 0,644 29,4 % 28,8 %
+Matemáticas Ocho 0,691 0,675 30,8 % 30,3 %
+Física y astronomía Diez 0,663 0,674 33,0 % 34,1 %
+Física y astronomía Ocho 0,665 0,671 33,3 % 34,3 %
+Ocho excluye BioBERT y PubMedBERT. 2.048 artículos por área con cuotas idénticas por fecha;
+media de diez selecciones. Energía tiene una especialidad válida, por lo que equilibrarla no genera un
+cambio comparable de composición. Se muestran las cuatro áreas de la Figura S5; se proporcionan
+las 26 y sus contrastes emparejados. Composición y entrenamiento biomédico no son explicaciones
+causales aisladas.
+21
+Shape of Science Robustness Suplemento en español
+Medicina Energía* Matemáticas Física
+0
+0,2
+0,4
+0,6
+0,8
+A  Forma: CKA corregida
+Medicina Energía* Matemáticas Física
+0
+0,1
+0,2
+0,3
+0,4
+B  Coincidencia de vecinos con k = 25
+Observada / diez modelos
+Equilibrada / diez modelos
+Observada / ocho modelos
+Equilibrada / ocho modelos
+Figura S5: Composición observada y equilibrada de especialidades en cuatro áreas. Cada
+condición usa 2.048 artículos por área y cuotas idénticas de fechas. Las barras son medias y los
+bigotes el rango de diez selecciones, no intervalos de conﬁanza. El conjunto de ocho modelos
+excluye BioBERT y PubMedBERT. *Energía tiene una especialidad válida. Equilibrar la
+composición y omitir modelos biomédicos no aísla una explicación causal única. Los archivos de la
+Tabla S10 conservan las 26 áreas.
+S5.3. Regla de representación y familias aparentes de modelos
+Las características registradas de los modelos cubren grupos amplios de dominio y objetivo de
+entrenamiento. Los modelos por parejas, las comprobaciones que omiten un modelo cada vez
+y las reglas alternativas de representación evalúan su asociación descriptiva con el acuerdo.
+Compartir modelos hace que las 45 parejas sean dependientes. Algunas características están
+ligadas en este conjunto y sus coeﬁcientes pueden dejar de ser identiﬁcables al omitir modelos;
+por ejemplo, el escenario SEP sin SimCSE conserva los coeﬁcientes ausentes en lugar de
+presentar estimaciones espurias. Los mapas de calor muestran cómo las familias aparentes
+dependen de la regla de representación.
+22
+Shape of Science Robustness Suplemento en español
+T abla S11: Ajustes descriptivos de características de modelos e identiﬁcabilidad.
+Resultado Rango N.ž de
+condición
+R
+cuadrado
+Coeﬁcientes no
+identiﬁcables tras
+omisión
+CKA / principal 7/7 7,91 0,741 0
+CKA / 2.048 artículos 7/7 7,91 0,741 0
+CKA / ﬁltro de calidad 7/7 7,91 0,752 0
+CKA / CLS 7/7 18,59 0,459 14
+CKA / SEP 7/7 8,33 0,258 7
+Vecinos k25 / media 7/7 7,91 0,759 0
+Vecinos k25 / CLS 7/7 18,59 0,507 14
+Vecinos k25 / SEP 7/7 8,33 0,442 7
+Diez modelos ﬁjos producen 45 parejas solapadas. R cuadrado describe esas parejas, no validez
+predictiva. La última columna cuenta ﬁlas de coeﬁcientes no disponibles en las diez omisiones
+de un modelo, no modelos o pruebas independientes. En SEP, omitir SimCSE impide identiﬁcar
+coeﬁcientes; esos valores siguen ausentes. Arquitectura, origen, corpus ﬁnal, objetivo, dominio y
+regla de representación son características correlacionadas. Se adjuntan deﬁniciones, enlaces de
+fuentes, coeﬁcientes, referencias de permutación de etiquetas de parejas y omisiones. No se aﬁrma
+un efecto causal del entrenamiento.
+23
+Shape of Science Robustness Suplemento en español
+1 2 3 4 5 6 7 8 9 10
+SPECTER
+SPECTER2
+SciNCL
+SciBERT
+BERT
+MPNet
+MiniLM
+PubMedBERT
+BioBERT
+SimCSE
+A  Media
+1 2 3 4 5 6 7 8 9 10
+B  CLS
+1 2 3 4 5 6 7 8 9 10
+C  SEP
+0 0,2 0,4 0,6 0,8 1
+CKA corregida
+Figura S6: Acuerdo de forma por parejas con tres reglas de representación. Las matrices
+muestran la CKA corregida media en los 130 grupos originales de área y período. Solo BERT,
+SciBERT, BioBERT y PubMedBERT cambian la regla; la diagonal compara cada modelo consigo
+mismo. Orden de columnas: 1 SPECTER, 2 SPECTER2, 3 SciNCL, 4 SciBERT, 5 BERT, 6
+MPNet, 7 MiniLM, 8 PubMedBERT, 9 BioBERT, 10 SimCSE. Los patrones de similitud no son
+un efecto aislado de compartir entrenamiento.
+S6. Propiedades geométricas y comprobación de su sig-
+niﬁcado
+Estas comprobaciones preguntan qué describe realmente una propiedad numérica. Una me-
+dida puede repetirse y, aun así, no distinguir grupos separados de una nube alargada o de
+unos pocos puntos extremos.
+S6.1. Propiedades, alternativas y estabilidad de selección
+El análisis geométrico reutiliza la muestra de entrada de 52.000 artículos, con 2.000 por
+área y las mismas cantidades por período. Todos los vectores tienen longitud uno y los
+cálculos usan aritmética de 64 bits. Para vectores distintos ui, u j, la apertura angular utiliza
+la mediana de la distancia entre pares, convertida a grados como 2 arcsin(q0,5(∥ui − uj∥)/ 2).
+La implementación guardada interpola los cuantiles de distancia antes de esta conversión
+monótona; se mantiene la misma convención en todo el análisis. Sus alternativas son los
+percentiles 10 y 90 y la mediana del ángulo respecto a la dirección del centro. Describen
+apertura, no diversidad semántica o isotropía ( Rudman et al. , 2022).
+24
+Shape of Science Robustness Suplemento en español
+Tras centrar la nube de vectores unitarios, sean λj los autovalores de la covarianza y pj =
+λj/
+∑
+l λl. La razón de participación es PR = 1 /
+∑
+j p2
+j = (tr C)2/ tr(C 2), donde C es la matriz
+de covarianza centrada. Es la medida principal de dimensión lineal efectiva. La alternativa de
+entropía es exp(−
+∑
+j pj log pj), aplicada al espectro de covarianza ( Roy and Vetterli , 2007).
+D80 cuenta el menor número de autovalores, ordenados de mayor a menor, que contiene el
+80 % de la varianza. Estas cantidades no cambian al añadir coordenadas cero, por lo que
+la comparación de 384 y 768 coordenadas no se normaliza por la dimensión del espacio.
+Describen variación lineal, no dimensión intrínseca no lineal ni cantidad de temas.
+Veinte medias muestras contienen 1.000 artículos por área y otras cinco selecciones de igual
+tamaño contienen 2.000, todas del corpus ﬁjo y con identiﬁcadores emparejados entre mode-
+los. Los rangos centrales del 90 % y los desplazamientos absolutos de la mediana se dividen
+por el valor principal. Los umbrales operativos son 5 % para apertura angular, 10 % para
+PR y 20 % para conexión. Con cinco repeticiones, los cuantiles tienen poca resolución; se
+conservan los valores individuales. Superar esas selecciones no elimina las cuatro alertas de
+PR en medias muestras. El análisis completo contiene 16.884 conjuntos de medidas, inclui-
+dos controles de tiempo, tamaño y representación; no todas las alternativas se repitieron en
+todas las selecciones.
+T abla S12: Estabilidad de las propiedades geométricas ante la selección.
+Propiedad Diseño de
+selección
+Casos Alertas Amplitud
+mediana
+Amplitud
+máxima
+Apertura angular 20 medias muestras 260 0 0,79 % 1,81 %
+Apertura angular 5 selecciones de
+igual tamaño
+260 0 0,49 % 1,85 %
+Dimensión lineal
+efectiva
+20 medias muestras 260 4 4,06 % 12,84 %
+Dimensión lineal
+efectiva
+5 selecciones de
+igual tamaño
+260 0 2,60 % 7,53 %
+Conexión 20 medias muestras 260 258 18,62 % 423,07 %
+Conexión 5 selecciones de
+igual tamaño
+260 51 10,59 % 289,69 %
+Un caso combina modelo y área. La amplitud es el rango central del 90 % dividido por el valor
+principal; también se comprueba el desplazamiento de la mediana. Umbrales: 5 % apertura, 10 %
+PR, 20 % conexión. Son umbrales operativos de sensibilidad, no normas de la revista ni precisión
+poblacional. Las cuatro alertas de PR en medias muestras siguen visibles aunque pasen las cinco
+selecciones de igual tamaño. PR es dimensión lineal efectiva, no cantidad de temas. Las alternativas
+espectrales comparten el espectro de covarianza y no validan independientemente el signiﬁcado
+temático.
+25
+Shape of Science Robustness Suplemento en español
+S6.2. Tamaño de muestra
+Esta comprobación cambia la cantidad de artículos por área y mantiene el modelo y la
+medida. La Figura S7 muestra cuánto se aleja cada valor del resultado con 2.000 artículos
+por área.
+500 1k 2k 4k
+Artículos por área
+-0,2
+-0,1
+0
+0,1
+0,2
+0,3
+Cambio respecto a n = 2.000 (%)
+A  Apertura angular
+500 1k 2k 4k
+Artículos por área
+-8
+-6
+-4
+-2
+0
+2
+B  Dimensión lineal
+500 1k 2k 4k
+Artículos por área
+-20
+0
+20
+40
+60
+80
+100
+C  Conexión
+SPECTER
+SPECTER2
+SciNCL
+SciBERT
+BERT
+MPNet
+MiniLM
+PubMedBERT
+BioBERT
+SimCSE
+Figura S7: Sensibilidad al tamaño de muestra de las tres propiedades geométricas guardadas.
+Cada línea muestra, para un modelo, la mediana del cambio relativo entre las 26 áreas respecto a
+2.000 artículos por área. Los paneles usan distintas escalas verticales. La conexión usa la brecha
+espectral del grafo de unión con k = 25 ﬁjo mientras cambia n; los archivos de la Tabla S13
+incluyen el control separado de fracción aproximadamente ﬁja. Estas curvas no certiﬁcan precisión
+poblacional.
+S6.3. Controles de representación y contenido
+Los controles cambian las marcas de calidad, el uso de título o resumen, la regla de represen-
+tación, el contenido común, los puntos extremos, el centrado global y el límite de tokens de
+MiniLM. La comparación de calidad repone cada período hasta su tamaño ﬁjado tras aplicar
+las marcas registradas. El control de extremos elimina los diez puntos más alejados del cen-
+tro en cada período de la media muestra inicial; eliminar diez puntos aleatorios por período
+proporciona su referencia de igual tamaño. No presupone que los extremos sean errores.
+El centrado global resta la media de los 52.000 vectores unitarios equilibrados y vuelve a
+normalizar cada resultado. Cambia la representación y es distinto de centrar la matriz de
+covarianza para PR. Tres nubes gaussianas por caso de modelo y área aportan referencias
+26
+Shape of Science Robustness Suplemento en español
+geométricas que igualan media y covarianza solo en esperanza antes de normalizar a longitud
+uno. Se comprueban sus momentos realizados; no son controles con momentos exactamente
+iguales ni distribuciones nulas estadísticas calibradas. Los controles puntuales de la Figura
+S8 y la Tabla S16 tienen sus propias referencias emparejadas y no deben tratarse como otro
+conjunto completo de selecciones repetidas.
+-1 0 1
+Marcas de calidad
+Fragmento común
+Solo resumen
+Solo título
+BERT de palabras: CLS
+BERT de palabras: SEP
+Centrado global
+A  Apertura
+-1 0 1
+B  Dimensión
+-1 0 1
+C  Conexión
+Acuerdo de rangos de áreas (Spearman)
+Figura S8: Acuerdo de las ordenaciones de áreas antes y después de cada control emparejado.
+Cada punto es la correlación de rangos de Spearman de un modelo; los tramos horizontales
+muestran el rango entre modelos. CLS/SEP solo cambian los cuatro BERT de palabras. La línea
+discontinua en 0,9 es una referencia visual, no un umbral de aprobado o fallo. El centrado global
+cambia la representación. Todos los controles guardados, incluidas otras sensibilidades puntuales,
+acompañan a la Tabla S12.
+S6.4. Por qué conexión no equivale a fragmentación general
+La conexión usa el segundo menor autovalor de la matriz laplaciana normalizada del grafo,
+L = I − D−1/2AD−1/2, sobre la unión no ponderada de enlaces dirigidos a vecinos próximos.
+El valor es cero si el grafo está desconectado. El valor principal k = 25 se comprueba con
+10 y 50; como alternativas se usan un grafo ponderado por escala local y componentes de
+vecinos mutuos. La teoría de agrupación espectral motiva esta construcción ( von Luxburg ,
+2007), pero no demuestra que una brecha pequeña signiﬁque temas cientíﬁcos separados. Se
+comprobaron los residuos de autovalores y cálculos densos independientes.
+La fusión por enlace simple proporciona los radios en los que el componente mayor alcanza
+fracciones concretas de la nube. Los cocientes de radios y el cociente entre la arista má-
+27
+Shape of Science Robustness Suplemento en español
+xima y la mediana del árbol de expansión mínima describen otras facetas de la conexión.
+Nueve nubes sintéticas, seguidas de referencias gaussianas y controles con artículos, mostra-
+ron respuestas no equivalentes al alargamiento, a puntos atípicos aislados y a componentes
+separados. Mantener k ﬁjo también cambia su proporción de candidatos al aumentar la mues-
+tra. La comparación con fracción aproximadamente ﬁja se añadió durante la ejecución y se
+identiﬁca como una sensibilidad posterior. Estos fallos explican por qué no se interpreta la
+conexión como fragmentación de las áreas en el manuscrito.
+T abla S13: Comprobación del signiﬁcado de las medidas en las nueve nubes sintéticas.
+Nube Brecha k25 Radio 90/50 Arista máx. /
+mediana
+Componente
+mayor
+mutuo
+Nube redonda 0,499 1,121 1,371 96,6 %
+Nube estrecha 0,503 1,132 1,400 95,5 %
+Nube ancha 0,487 1,084 1,262 99,8 %
+Nube alargada 0,091 1,115 1,299 99,1 %
+Nube de rango bajo 0,098 1,589 4,913 99,9 %
+Dos grupos separados 0,000 1,766 2,253 49,5 %
+Cuatro grupos separados 0,000 1,003 1,587 24,9 %
+Dos grupos con puentes 0,007 1,005 1,428 97,8 %
+Nube con puntos atípicos 0,499 1,123 4,770 95,7 %
+Cada nube guardada contiene 1.000 puntos. Una brecha menor puede aparecer sin grupos separados;
+los cocientes de radios y aristas pueden responder a puntos atípicos o nubes alargadas. El grafo
+de unión k25 está conectado en los 260 casos principales de modelo y área. La conexión describe
+el grafo y no queda validada como fragmentación temática general. Las cinco selecciones de igual
+tamaño conservan 51 alertas de conexión (Tabla S12).
+Se incluyen las 780 ﬁlas de referencias gaussianas. Sus errores respecto a lo observado van de -
+4,69 % a 4,60 % en apertura y de -10,47 % a 19,78 % en PR. Los muestreos gaussianos conservan
+los momentos ajustados solo en esperanza antes de renormalizar; no son pruebas nulas calibradas.
+Se adjuntan controles n/k completos; el de fracción ﬁja de vecinos se añadió durante la ejecución.
+28
+Shape of Science Robustness Suplemento en español
+0 0,2 0,4
+Nube redonda
+Nube estrecha
+Nube ancha
+Nube alargada
+Nube de rango bajo
+Dos grupos separados
+Cuatro grupos separados
+Dos grupos con puentes
+Nube con puntos atípicos
+A  Brecha espectral
+0 0,5 1 1,5
+B  Cociente de radios
+0 2 4
+C  Cociente de aristas
+Figura S9: Las nueve comprobaciones guardadas con nubes sintéticas. (A) Brecha espectral del
+grafo de unión k25; un valor menor indica conexión más débil. (B) Cociente de los radios en que
+el componente mayor contiene el 90 % y el 50 % de los puntos. (C) Arista máxima dividida por la
+mediana de las aristas del árbol de expansión mínima. El naranja identiﬁca las nubes alargada, de
+rango bajo y con puntos atípicos: una conexión aparentemente débil o una fusión tardía no
+implican grupos temáticos separados. Son ejemplos geométricos controlados, no una referencia
+nula estadística calibrada.
+S7. Todas las comparaciones entre parejas de áreas
+Aquí, una pareja son simplemente dos áreas distintas, como Medicina y Energía. Las 325
+parejas incluyen todas las comparaciones posibles entre las 26 áreas. El cálculo pregunta qué
+área tiene el valor geométrico mayor y si cambiar el modelo invierte esa respuesta.
+S7.1. Direcciones y magnitud
+Se enumeran todas las parejas no ordenadas de áreas por identiﬁcador ascendente de OpenA-
+lex. Para cada modelo y propiedad, las 26 condiciones guardadas son la selección principal,
+veinte medias muestras y cinco selecciones adicionales de igual tamaño, con índices de repe-
+tición emparejados entre ambas áreas. Si dr = 2(Br − Ar)/ (Ar + Br), la dirección es positiva
+cuando m ´ ınr dr > t + 10−10 y negativa cuando m´ axr dr < − t − 10−10. En otro caso queda sin
+resolver. Los mínimos t ∈ {0, 0, 01, 0, 05, 0, 10} se ﬁjaron antes de contar las parejas, después
+de los resultados de morfología. Son sensibilidades a la magnitud, no pruebas de signiﬁcación.
+29
+Shape of Science Robustness Suplemento en español
+El acuerdo de los diez exige que todos los modelos tengan la misma dirección persistente.
+La oposición requiere al menos un modelo persistentemente positivo y otro persistentemente
+negativo. Las demás parejas quedan sin resolver, incluido el acuerdo parcial. Las clases
+cubren todos los casos y no se solapan. La persistencia se determina con el rango completo,
+no con un intervalo central favorable; las selecciones solapadas no constituyen repeticiones
+independientes.
+T abla S14: Conclusiones de todas las parejas con cuatro diferencias relativas mínimas.
+Propiedad Mínimo Acuerdo de
+los diez
+Oposición Sin resolver Parejas
+Apertura angular 0 % 42 262 21 325
+Apertura angular 1 % 30 238 57 325
+Apertura angular 5 % 10 96 219 325
+Apertura angular 10 % 0 19 306 325
+Dimensión lineal 0 % 54 221 50 325
+Dimensión lineal 1 % 50 213 62 325
+Dimensión lineal 5 % 36 177 112 325
+Dimensión lineal 10 % 26 126 173 325
+Cada propiedad usa las 325 parejas de áreas y diez modelos. La dirección debe persistir en las 26
+condiciones: muestra principal, veinte mitades y cinco selecciones de igual tamaño. La oposición
+necesita al menos dos modelos ﬁjos persistentemente opuestos; la unanimidad, los diez. Los demás
+casos quedan sin resolver, no son iguales. La diferencia simétrica con signo es 2(B − A)/(A + B);
+el mínimo es un corte operativo de magnitud, no signiﬁcación estadística ni proporción de ciencia
+correctamente representada. Se adjuntan las 650 ﬁlas de pareja y propiedad y las 6.500 direcciones
+por modelo.
+30
+Shape of Science Robustness Suplemento en español
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+01  Agricultura / biología
+02  Artes / humanidades
+03  Bioquímica / genética
+04  Negocios / gestión
+05  Ingeniería química
+06  Química
+07  Informática
+08  Ciencias de la decisión
+09  Tierra / planetas
+10  Economía / finanzas
+11  Energía
+12  Ingeniería
+13  Ciencias ambientales
+14  Inmunología / microbiología
+15  Ciencia de materiales
+16  Matemáticas
+17  Medicina
+18  Neurociencia
+19  Enfermería
+20  Farmacología / toxicología
+21  Física / astronomía
+22  Psicología
+23  Ciencias sociales
+24  Veterinaria
+25  Odontología
+26  Profesiones sanitarias
+Triángulo superior: apertura angular
+Triángulo inferior: dimensión lineal efectiva
+Acuerdo de los diez Oposición persistente Sin resolver
+Figura S10: Las 650 clasiﬁcaciones de pareja de áreas y propiedad con diferencia relativa
+mínima cero, usando las 26 condiciones de selección guardadas. El triángulo superior muestra
+apertura angular; el inferior, dimensión lineal efectiva (PR). Las etiquetas de ﬁlas y los números
+de columnas identiﬁcan las mismas 26 áreas, con nombres abreviados. Cada triángulo contiene
+325 parejas. El azul exige acuerdo persistente de los diez modelos; el naranja, al menos dos
+modelos persistentemente opuestos; el gris indica casos sin resolver. La diagonal no es una
+comparación. Las etiquetas completas, direcciones por modelo y controles de magnitud están en
+los archivos de la Tabla S14.
+31
+Shape of Science Robustness Suplemento en español
+S7.2. Medidas alternativas y conjuntos de modelos
+Una pareja de modelos opuestos se conserva con las alternativas solo cuando esos mismos
+dos modelos mantienen sus direcciones originales en todas ellas. Las alternativas angulares,
+la dimensión por entropía y D80 cubren ahora la selección principal, veinte mitades y cinco
+selecciones adicionales: 26 condiciones cada una. La comprobación original de dimensión con
+tres condiciones se conserva como historial; la Tabla S15 usa la cobertura completa. D80
+es discreta y sus empates quedan sin resolver. Con cortes positivos, PR debe superar el
+mínimo indicado; sus alternativas deben conservar dirección no nula. No se sustituyen los
+modelos por otros para mantener un recuento. Diez conjuntos que omiten un modelo y los
+seis modelos de similitud comprueban la dependencia del conjunto; los conjuntos pequeños
+ofrecen menos oportunidades de oposición.
+T abla S15: Oposición persistente con cobertura completa de medidas alternativas.
+Modelos N Apertura
+Apertura +
+alternativas PR
+PR +
+alternativas
+Los diez 10 262 225 221 190
+Seis de similitud 6 231 190 160 115
+Sin SPECTER 9 234 182 212 174
+Sin SPECTER2 9 251 205 211 173
+Sin SciNCL 9 259 217 215 182
+Sin SciBERT 9 258 222 218 187
+Sin BERT 9 261 223 211 176
+Sin MPNet 9 262 223 218 186
+Sin MiniLM 9 259 223 221 188
+Sin PubMedBERT 9 261 220 206 187
+Sin BioBERT 9 259 217 212 169
+Sin SimCSE 9 259 217 217 183
+Recuentos sobre 325 con magnitud mínima cero. Todas las alternativas angulares y de dimensión
+cubren ahora las 26 selecciones. Los mismos modelos opuestos deben conservar sus direcciones;
+no se sustituyen por otros. Los empates de D80 quedan sin resolver. Los seis modelos son SPEC-
+TER, SPECTER2, SciNCL, MPNet, MiniLM y SimCSE. Los CSV conservan cortes y direcciones
+completos.
+32
+Shape of Science Robustness Suplemento en español
+S7.3. Controles puntuales emparejados
+Cada uno de los once controles puntuales se compara con su referencia adecuada de igual
+tamaño. Cambiar calidad, extremos o tamaño modiﬁca los identiﬁcadores por diseño; los de-
+más controles emparejados veriﬁcan identiﬁcadores idénticos. El resumen distingue cambiar
+de clase de conservar los mismos modelos opuestos originales y sus direcciones tanto en la
+referencia como en la variante. Una comparación controlada favorable no demuestra persis-
+tencia en 26 selecciones nuevas. Las diferencias guardadas se auditaron independientemente
+mediante desigualdades equivalentes de cocientes, con 442.000 contrastes y sin importar la
+función de clasiﬁcación.
+T abla S16: Controles puntuales: conservación de los modelos opuestos originales.
+Control Referencia
+emparejada
+Modelos
+cambiados
+Apertura
+conservada
+PR
+conservada
+Solo título Media muestra 10 246/262 193/221
+Solo resumen Media muestra 10 262/262 221/221
+BERT de palabras: CLS Media muestra 4 253/262 210/221
+BERT de palabras: SEP Media muestra 4 257/262 201/221
+Fragmento común Entrada habitual
+del panel común
+10 262/262 216/221
+Centrado global Media muestra 10 145/262 218/221
+Marcas de calidad Media muestra 10 262/262 221/221
+Retirada de extremos Retirada aleatoria 10 262/262 221/221
+MiniLM 512 Principal 1 262/262 221/221
+n = 500 Principal 10 262/262 219/221
+n = 4.000 Principal 10 262/262 221/221
+Los numeradores conservan la misma pareja original de modelos y sus signos tanto en la referencia
+como en la variante. Los denominadores son las oposiciones persistentes originales: 262 de apertura
+y 221 de PR. No son nuevas pruebas de estabilidad de 26 condiciones. El fragmento común utiliza
+su muestra emparejada propia; retirar extremos se compara con retirar al azar a igual tamaño.
+Calidad, extremos y tamaño cambian identiﬁcadores según lo especiﬁcado; los demás controles los
+conservan. Se incluyen todas las magnitudes y los 7.150 registros de parejas de controles puntuales.
+33
+Shape of Science Robustness Suplemento en español
+S8. Reproducción y acceso
+T abla S17: Versiones y situación de acceso de los materiales de origen.
+Material Maniﬁesto / SHA-256 Acceso
+Corpus limpio data/corpus_clean_v1/embedding_manifest.json
+d8b48bccda4196063535ed6a8b3029481feddb7642e4a3
+f9eb146a772c71cde5
+500.000
+identiﬁcadores;
+local
+Auditoría de
+embeddings
+research/embedding_final_audit_2026-09-17/full_ver
+ification.json
+6e43e878f4409b73b07a74b2ad8f4d9bdf03022c98e4aa
+d91ba7424ea4c47770
+Diez modelos;
+vectores locales
+Informe
+principal
+reports/analysis_v1/final/catalog.json
+1309c1458b441962b9b2f5400c074f67c54a0c108a3e04
+decf84bcc709687bac
+Tablas / ﬁguras;
+versión base
+pública
+Informe
+ampliado
+reports/robustness_v2/final/catalog.json
+2e4ab4b3e0a9445f8456667979162998529da16498e2a2
+6d3778fb1f19415437
+Tablas / ﬁguras;
+versión base
+pública
+Atlas de casos reports/prepaper_v1/catalog.json
+0e75af65da14a98cc86daf9a30305a858e2034bc922d3b
+b208b9bcbb30ebcfe8
+Ejemplos; versión
+base pública
+Morfología reports/morphology_pilot_v1/catalog.json
+8584ef7d693a1d28bc2f4cab60d47f8ab7c7edd5a2f9a6
+1a44f0e11582ac8e2d
+Ampliación local;
+sin depósito de
+datos
+Parejas de
+áreas
+reports/field_pair_summary_v1/catalog.json
+8c009fcadc76702ca84a22389f863f64e1cd068df6be8b
+6f719cf3715f62305d
+Ampliación local;
+sin depósito de
+datos
+Plano de
+escritura
+research/writing_blueprint_2026-09-18/closure_audi
+t.json
+6f1890922b57893cbb7dcbff23e1e5ad84dae233f6bd4d
+61f0fbcfa4b17acfa8
+Plan editorial
+local
+Robustez ﬁnal reports/robustness_closure_v1/catalog.json
+781e3d904d9f94e691b8e975e89df1576d1dd412dec266
+222289cc1515739ab0
+Ampliación local;
+sin depósito de
+datos
+Las huellas identiﬁcan los bytes del maniﬁesto o catálogo indicado, no directamente toda la carpeta;
+cada catálogo registra sus archivos. La reproducción local es más amplia que el acceso público. No
+se aﬁrma un depósito persistente, licencia general o nueva publicación. El paquete excluye corpus,
+vectores, pesos, claves de API y textos completos de terceros. Los dos PDF pueden reconstruirse
+con el LaTeX y las ﬁguras y tablas incluidos, sin el corpus. Reproducir todos los experimentos sigue
+requiriendo el plan de publicación de datos autorizado por separado.
+34
+Shape of Science Robustness Suplemento en español
+S8.1. Reconstrucción de estos documentos
+El comando del repositorio ./manuscript_es/build.sh compila el LaTeX incluido en
+el documento principal y este suplemento en español. No ejecuta modelos, búsquedas o
+simulaciones. El compilador puede descargar archivos habituales de TeX en su primer uso.
+Volver a exportar gráﬁcos y resúmenes de tablas es una operación de presentación separada,
+documentada en el README del paquete.
+S8.2. Límites de acceso de este borrador
+El paquete incluye el manuscrito editable, las ﬁguras, las tablas descriptivas y sus resúmenes
+de origen. Excluye textos del corpus, vectores, pesos de modelos, secretos y copias de textos
+completos de terceros. Por tanto, permite reconstruir los dos PDF mostrados sin reproducir
+todo el proceso cientíﬁco. Este último requiere las entradas ﬁjas y los materiales de ejecución
+indicados antes. Antes de aﬁrmar una reproducción pública completa deben resolverse una
+publicación versionada y los permisos o la licencia necesarios. Todavía no se ha realizado un
+depósito persistente.
+El autor ha conﬁrmado autoría única como investigador independiente, ausencia de ﬁnancia-
+ción externa y ausencia de conﬂictos de interés. La prosa y las interpretaciones cientíﬁcas
+actuales siguen siendo un borrador para su revisión. Los datos de correspondencia y el for-
+mato ﬁnal de la revista deben completarse al enviar; no se han inventado aquí.
+35
+Shape of Science Robustness Suplemento en español
+S9. Últimas comprobaciones dirigidas de robustez
+Estas pruebas se deﬁnieron después de los resultados anteriores y del borrador, antes de
+inspeccionar sus nuevos resultados. Reutilizan los vectores congelados, conservan las salidas
+anteriores y responden a las cuestiones pendientes de selección, procesamiento y calidad de
+origen. No añaden entrenamiento ni extracción. Los archivos CSV de las Tablas S18–S20
+incluyen resúmenes sin redondear; data/robustness_closure_v1/ conserva selecciones,
+copias de programas y huellas por parte. ROBUSTNESS_CLOSURE_PROTOCOL.md registra el
+diseño. El paquete fuente reproduce esta presentación, no el corpus que no se distribuye.
+S9.1. Centros repetidos y contrastes directos de vecinos
+La prueba de centros con 256 artículos utiliza cincuenta selecciones de las mismas 26 áreas
+y 217 especialidades. Cada grupo conserva sus cinco recuentos originales por período. La
+prueba de tamaño ﬁja 26 áreas y 183 especialidades con 128, 256 y 512 artículos, y cincuenta
+repeticiones. Las cuotas por período proceden del preﬁjo original de 512 artículos y se re-
+dondean de forma anidada por restos mayores para los tamaños menores. Por eso sus cuotas
+de 256 artículos diﬁeren de las de la primera prueba. Cada selección tiene una reasignación
+dentro de períodos, con exactamente los mismos artículos entre grupos observados/aleatorios
+y modelos.
+La comparación restringida elige una especialidad elegible por área cincuenta veces, y después
+selecciona artículos diez veces dentro de cada elección. La desviación típica entre medias de
+elecciones de especialidades es 0,01205; la desviación típica media dentro de cada elección
+es 0,00157. Son componentes descriptivos, no varianzas poblacionales independientes. La
+referencia aleatoria restringida antigua tomaba 26 centros de una reasignación de las 217
+especialidades; la nueva mezcla exactamente los artículos de los 26 grupos elegidos. Omitir
+cada área de los centros originales cambia la CKA media como máximo 0,00687, al omitir
+Matemáticas; el mayor cambio de una pareja de modelos es 0,02355 para MiniLM–BioBERT.
+También se calculan todas las omisiones en las cincuenta selecciones nuevas.
+Para comprobar directamente los vecinos, cada una de cincuenta selecciones toma 200 ar-
+tículos por área y período del experimento de texto: 1.000 candidatos por área. Consultas y
+candidatos coinciden; se excluye el propio artículo. El orden completo y exacto de candida-
+tos puede restringirse a estos subconjuntos sin cambiar la búsqueda. Una ordenación directa
+independiente comprueba 4.680 consultas, además de pruebas artiﬁciales con vectores em-
+patados. El contraste promedia los diez cambios de título dentro de cada modelo y los 45
+cambios entre modelos con título y resumen, dando el mismo peso a cada área. La referencia
+de cada modelo promedia sus nueve comparaciones con otros. Los valores principales de k
+son 10, 25 y 50; CLS/SEP solo afectan a los cuatro BERT de palabras y se comprueban
+con k25. Las diferencias medias por modelo van de − 14, 04 a +16, 59 puntos porcentuales;
+36
+Shape of Science Robustness Suplemento en español
+las medias por área, de − 4, 43 a +5, 63. La media general no es un orden universal ni una
+prueba de equivalencia.
+T abla S18: Centros repetidos y contraste directo de vecinos entre entrada y modelo.
+A. Centros
+Grupos Artículos Media Rango de selección Media aleatoria
+26 áreas 256 0,940 0,937–0,943 0,627
+217 especialidades 256 0,911 0,910–0,912 0,636
+26 especialidades 256 0,904 0,878–0,926 0,660
+Áreas: tamaño 128 0,938 0,934–0,942 0,618
+Áreas: tamaño 256 0,940 0,937–0,943 0,626
+Áreas: tamaño 512 0,941 0,939–0,943 0,647
+183 especialidades 128 0,913 0,911–0,914 0,617
+183 especialidades 256 0,914 0,913–0,915 0,629
+183 especialidades 512 0,915 0,914–0,915 0,661
+B. Sustitución de vecinos
+Regla k
+Cambio de
+modelo ( %)
+Solo título
+( %)
+Diferencia
+(pp) Rango (pp)
+Principal 10 70,20 72,17 1,97 1,85 a 2,08
+Principal 25 64,93 66,49 1,56 1,44 a 1,69
+Principal 50 60,11 61,15 1,04 0,94 a 1,18
+CLS 25 72,82 69,70 -3,13 -3,22 a -3,03
+SEP 25 69,15 67,15 -2,00 -2,10 a -1,88
+Rangos entre percentiles 2,5–97,5 de selecciones, no intervalos de conﬁanza. A: 50 selecciones por
+ﬁla, salvo 26 especialidades (50 elecciones de especialidades y diez selecciones de artículos en cada
+una). Las pruebas de tamaño tienen sus propias cuotas ﬁjas por período. Los grupos aleatorios usan
+los mismos artículos y fechas. B: 50 selecciones, 1.000 candidatos por área; diferencia = sustitución
+con solo título menos sustitución al cambiar modelo. La media no cambia de signo dentro de una
+regla. CLS/SEP solo cambian cuatro BERT de palabras.
+37
+Shape of Science Robustness Suplemento en español
+128 256 512
+Artículos por centro
+0
+0,2
+0,4
+0,6
+0,8
+1
+CKA corregida
+Continua: observados; discontinua: aleatorios
+A  T amaño de los centros
+26 áreas
+183 especialidades
+Base
+k10
+Base
+k25
+Base
+k50
+CLS
+k25
+SEP
+k25
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+Solo título menos cambio de modelo
+(puntos porcentuales)
+Cada punto: una de 50 selecciones
+B  T exto frente a modelo
+Figura S11: Comprobaciones adicionales de selección. (A) Acuerdo entre centros con tres
+cantidades de artículos; las líneas continuas representan grupos observados y las discontinuas,
+grupos aleatorios emparejados. El sombreado abarca los percentiles 2,5–97,5 de cincuenta medias
+de selección. Se mantienen las mismas 183 especialidades. (B) Cada punto es una de cincuenta
+selecciones equilibradas en la prueba directa de vecinos. Un valor positivo signiﬁca que quitar el
+resumen cambia más vecinos que cambiar modelo; uno negativo signiﬁca lo contrario. Las marcas
+negras son medianas. Base usa las reglas principales; CLS/SEP solo cambian los cuatro BERT de
+palabras. Ningún panel ofrece intervalos de conﬁanza poblacionales.
+S9.2. Filtro de calidad con consultas emparejadas
+El ﬁltro estricto existente excluye siete categorías marcadas y conserva el menor índice de
+ﬁla de cada componente conectado por DOI no vacío o texto normalizado idéntico. No es
+un detector nuevo de textos casi duplicados. Conserva 448.886 registros. Las búsquedas
+completas comparan cada consulta conservada con candidatos originales y ﬁltrados de su
+grupo de área y período. Con k25, la media original de todas las consultas es 30,29 %;
+restringir solo las consultas da 30,58 %, y ﬁltrar sus candidatos da 31,43 %. La subida con
+las mismas consultas es de 0,85 puntos, o 0,77 con el ajuste por azar existente.
+Los controles de cantidad igual incluyen las mismas 100 consultas limpias en ambos conjun-
+tos y completan los candidatos por orden aleatorio determinista. Las 130 celdas permiten
+1.024 candidatos; solo 63 permiten 2.048. El mayor cambio medio por área en las búsquedas
+completas es de 2,72 puntos en Matemáticas. Entre parejas de modelos, la mayor subida
+media es de 1,43 puntos para SPECTER2–SciBERT. El panel de texto de 52.000 artículos
+tiene al menos 235 artículos limpios por celda de área y período. Permite usar 200 candidatos
+38
+Shape of Science Robustness Suplemento en español
+y veinte consultas limpias por período en ambos grupos: 1.000 candidatos y 100 consultas
+por área. Así se mantienen iguales cantidades, fechas y consultas. Todos los valores de k
+conservan un desacuerdo importante entre modelos. La cobertura limitada del ﬁltro impide
+concluir que todos los errores de origen sean inocuos.
+T abla S19: Sensibilidad a la calidad con los mismos artículos de partida.
+Candidatos Grupos k Original ( %) Filtrado ( %) Cambio (pp)
+Todos 130 10 26,41 27,07 0,66
+Todos 130 25 30,58 31,43 0,85
+Todos 130 50 34,24 35,28 1,04
+1024 130 10 30,71 30,91 0,20
+1024 130 25 36,01 36,29 0,28
+1024 130 50 40,80 41,11 0,31
+2048 63 10 27,68 27,83 0,16
+2048 63 25 32,06 32,25 0,19
+2048 63 50 35,90 36,13 0,24
+Control de entrada emparejado: vecinos sustituidos
+k Modelo: original Modelo: ﬁltrado Título: original Título: ﬁltrado
+10 69,71 69,56 72,11 72,04
+25 64,57 64,27 66,49 66,45
+50 59,83 59,47 61,23 61,17
+Todos los valores salvo cambios son porcentajes. El ﬁltro conserva 448.886 artículos. El primer
+bloque mantiene las mismas consultas antes y después del ﬁltro; es distinto de la media original con
+todas las consultas, 30,29 % con k25. Las búsquedas de tamaño ﬁjo incluyen 100 consultas limpias
+en ambos conjuntos. Solo 63 grupos conservan 2.048 candidatos; los 130 permiten 1.024. El control
+de entrada usa 100 consultas y 1.000 candidatos equilibrados por fechas en cada área, del panel de
+texto guardado. No comprueba todo posible error de origen o texto casi duplicado.
+S9.3. Comprobaciones completas de procesamiento y dimensión
+La media global se calcula una sola vez por modelo a partir de sus 52.000 vectores unitarios.
+A cada vector unitario original de cada selección guardada se le resta esa media y después
+se vuelve a normalizar. La media no se recalcula por área ni repetición. Centrar solo la co-
+varianza dejaría PR igual; normalizar después cada ﬁla produce una representación distinta.
+Apertura y PR usan la selección principal original, veinte mitades y cinco selecciones adicio-
+nales del mismo tamaño. La dimensión por entropía y D80 se completan en esas mismas 26
+selecciones originales. No cambia ninguna selección ni corte de magnitud.
+39
+Shape of Science Robustness Suplemento en español
+Se mantienen las clases y reglas de dirección por modelo de S7. Con corte cero, 142 oposiciones
+angulares originales conservan la clase de oposición tras centrar, pero solo 128 conservan una
+pareja de modelos original con ambas direcciones iguales; nueve oposiciones nuevas dan 151
+en total. PR conserva 204 oposiciones originales y añade siete, para un total de 211. Exigir la
+misma dirección también conserva solo cinco de los 54 acuerdos originales de los diez modelos
+en PR con entropía y D80 a la vez; muchas comparaciones no pueden cumplir una regla que
+exige un orden no nulo en cada modelo. Los empates de D80 quedan sin resolver. Se incluyen
+todas las transiciones, inversiones de los modelos concretos y cortes de magnitud, no solo las
+conservaciones favorables.
+T abla S20: Persistencia completa tras centrar y con alternativas de dimensión.
+Propiedad Corte Original Centrada
+Mismos modelos
+y respuestas Nuevas
+Ahora sin
+resolver
+Apertura 0 % 262 151 128 9 53
+Apertura 1 % 238 113 78 12 112
+Apertura 5 % 96 11 1 6 91
+Apertura 10 % 19 1 0 1 19
+PR 0 % 221 211 204 7 16
+PR 1 % 213 201 194 6 17
+PR 5 % 177 156 151 4 24
+PR 10 % 126 106 100 4 23
+Oposiciones de PR conservadas por las alternativas
+Corte de PR PR original Entropía D80 Ambas
+0 % 221 209 190 190
+1 % 213 202 180 180
+5 % 177 173 151 151
+10 % 126 126 114 114
+Todas las condiciones usan las 26 selecciones y 325 parejas de áreas. Primer bloque: origi-
+nal/centrada son oposiciones totales; mismos modelos y respuestas exige que una pareja concreta
+original conserve ambas direcciones. Las oposiciones nuevas no lo eran antes. Ahora sin resolver
+cuenta oposiciones originales que pasan a esa clase. Con corte cero, 142 parejas angulares y 204 de
+PR conservan la clase de oposición; con los mismos modelos y direcciones son 128 y 204. Ambas
+direcciones se invierten en 19 parejas de modelos de diez parejas de áreas para apertura, y en nin-
+guna para PR; estos recuentos pueden solaparse con otras categorías. Segundo bloque: el corte se
+aplica a PR; las alternativas deben conservar dirección no nula en cada selección. Los empates de
+D80 quedan sin resolver. Los CSV contienen todas las transiciones e identidades.
+40
+Shape of Science Robustness Suplemento en español
+La auditoría numérica reproduce de forma independiente 78.000 direcciones especíﬁcas de
+modelos mediante desigualdades equivalentes entre cocientes, reproduce las medias originales
+de vecinos con precisión numérica y veriﬁca las 900 selecciones de centros y sus referencias
+emparejadas. Ninguna prueba demuestra corrección temática, independencia entre seleccio-
+nes solapadas o precisión poblacional. Por eso el artículo distingue medias estables de 2.628
+alertas locales entre 8.235 comparaciones de especialidad y pareja de modelos.
+Referencias
+Simon Kornblith, Mohammad Norouzi, Honglak Lee, and Geoﬀrey Hinton. Similarity of neural
+network representations revisited. In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors,
+Proceedings of the 36th International Conference on Machine Learning , volume 97 of Proceedings
+of Machine Learning Research , pages 3519–3529. PMLR, 09–15 Jun 2019. URL https://proc
+eedings.mlr.press/v97/kornblith19a.html.
+Alex Murphy, Joel Zylberberg, and Alona Fyshe. Correcting biased centered kernel alignment
+measures in biological and artiﬁcial neural networks. arXiv:2405.01012, 2024. URL https:
+//arxiv.org/abs/2405.01012. Preprint.
+Olivier Roy and Martin Vetterli. The eﬀective rank: a measure of eﬀective dimensionality. In
+15th European Signal Processing Conference (EUSIPCO) , pages 606–610. EURASIP, 2007. URL
+https://www.eurasip.org/Proceedings/Eusipco/Eusipco2007/Papers/a5p-h05.pdf .
+Open copy also archived at doi:10.5281/zenodo.40328.
+William Rudman, Nate Gillman, Taylor Rayne, and Carsten Eickhoﬀ. IsoScore: Measuring the
+uniformity of embedding space utilization. In Smaranda Muresan, Preslav Nakov, and Aline
+Villavicencio, editors, Findings of the Association for Computational Linguistics: ACL 2022 ,
+pages 3325–3339, Dublin, Ireland, may 2022. Association for Computational Linguistics. doi:
+10.18653/v1/2022.findings-acl.262. URL https://aclanthology.org/2022.findings-acl.2
+62/.
+Ulrike von Luxburg. A tutorial on spectral clustering. Statistics and Computing , 17(4):395–416,
+2007. ISSN 0960-3174. doi: 10.1007/s11222-007-9033-z.
+Alex H Williams. Equivalence between representational similarity analysis, centered kernel align-
+ment, and canonical correlations analysis. In Marco Fumero, Clementine Domine, Zorah Lähner,
+Donato Crisostomi, Luca Moschella, and Kimberly Stachenfeld, editors, Proceedings of UniReps:
+the Second Edition of the Workshop on Unifying Representations in Neural Models , volume
+285 of Proceedings of Machine Learning Research , pages 10–23. PMLR, 14 Dec 2024. URL
+https://proceedings.mlr.press/v285/williams24a.html.
+Alex H Williams, Erin Kunz, Simon Kornblith, and Scott Linderman. Generalized shape metrics on
+neural representations. In M. Ranzato, A. Beygelzimer, Y. Dauphin, P.S. Liang, and J. Wortman
+Vaughan, editors, Advances in Neural Information Processing Systems , volume 34, pages 4738–
+4750. Curran Associates, Inc., 2021. URL https://proceedings.neurips.cc/paper_files/p
+aper/2021/file/252a3dbaeb32e7690242ad3b556e626b-Paper.pdf.
+41

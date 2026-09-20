@@ -1,0 +1,14 @@
+{
+  "taxonomy_example": [
+    [
+      "Medicine",
+      "Cardiology and Cardiovascular Medicine"
+    ]
+  ],
+  "global_query_source": "METHODS_ANALYSIS.md:57",
+  "global_queries_per_area_period": 100,
+  "global_query_groups": 130,
+  "paired_search_candidates": 256,
+  "paired_fixed_queries": 50,
+  "paired_other_candidates": 206
+}

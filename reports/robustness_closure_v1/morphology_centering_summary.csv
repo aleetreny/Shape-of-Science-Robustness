@@ -1,0 +1,9 @@
+metric,cutoff,original_oppositions,centered_oppositions,retained_opposition_class,lost_opposition_class,new_oppositions,same_fixed_witness_directions_retained,at_least_one_fixed_witness_both_reversed,original_witness_model_pairs,witness_model_pairs_same_directions,witness_model_pairs_both_reversed,unanimous_class_retained,unanimous_same_direction_retained,original_oppositions_now_unresolved
+angle_p50,0.0,262,151,142,120,9,128,10,3932,955,19,27,27,53
+pr,0.0,221,211,204,17,7,204,0,2908,2372,0,48,48,16
+angle_p50,0.01,238,113,101,137,12,78,1,2424,360,1,16,16,112
+pr,0.01,213,201,195,18,6,194,0,2616,2085,0,45,45,17
+angle_p50,0.05,96,11,5,91,6,1,0,338,1,0,4,4,91
+pr,0.05,177,156,152,25,4,151,0,1619,1202,0,34,34,24
+angle_p50,0.1,19,1,0,19,1,0,0,47,0,0,0,0,19
+pr,0.1,126,106,102,24,4,100,0,809,513,0,23,23,23

@@ -1,0 +1,420 @@
+[
+  {
+    "comment": 1,
+    "topic": "Ejemplo de búsquedas emparejadas",
+    "change": "Se usan 50 artículos de Cardiología en dos conjuntos de 256: especialidad y Medicina.",
+    "location": "3.3",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 2,
+    "topic": "Diez selecciones",
+    "change": "Los 50 artículos de partida siguen fijos; se eligen diez veces los otros 206. Se excluye el propio artículo al buscar sus vecinos.",
+    "location": "3.3",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 3,
+    "topic": "Qué significa CKA",
+    "change": "Se explica el parecido entre patrones de relaciones, sin convertirlo en porcentaje de acierto.",
+    "location": "3.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 4,
+    "topic": "Para qué se vuelven a elegir artículos",
+    "change": "Se indica que se eligen para recalcular la posición media de cada disciplina.",
+    "location": "Resumen",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 5,
+    "topic": "Título como entrada del modelo",
+    "change": "Se dice qué texto recibe el modelo: solo título frente a título y resumen.",
+    "location": "Resumen",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 6,
+    "topic": "Final del resumen",
+    "change": "Se explica el propósito positivo: identificar relaciones compartidas y decisiones de las que dependen.",
+    "location": "Resumen",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 7,
+    "topic": "Tabla de muestras",
+    "change": "Seis preguntas concretas; columnas de comparación y artículos; se separan organización general y vecinos. La colección inicial pasa a la nota.",
+    "location": "Tabla 1",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 8,
+    "topic": "Sin resolver",
+    "change": "Se definen las dos reglas y el caso restante. Un empate no cuenta como dirección persistente; no basta con que un modelo empate para invalidar la oposición de otros dos.",
+    "location": "3.5",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 9,
+    "topic": "Qué es una selección",
+    "change": "Definición temprana y explicación de conjuntos solapados dentro de la colección fija.",
+    "location": "2.2 y 3.5",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 10,
+    "topic": "Alerta de selección",
+    "change": "Resultado sensible a cambiar artículos o tamaño según la tolerancia registrada; no error de un registro.",
+    "location": "3.5 y 4.1",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 11,
+    "topic": "26 especialidades de la figura",
+    "change": "Una por cada una de las 26 áreas; 50 elecciones, con diez elecciones de artículos para cada una.",
+    "location": "Figura 1",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 12,
+    "topic": "2.048 candidatos comunes",
+    "change": "Misma cantidad por grupo; mismos identificadores entre modelos dentro del grupo, no entre disciplinas.",
+    "location": "4.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 13,
+    "topic": "Búsqueda global",
+    "change": "100 artículos de partida por cada uno de 130 grupos; sus vecinos se buscan entre 400.000 registros.",
+    "location": "4.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 14,
+    "topic": "Dos cambios a la vez",
+    "change": "Se amplían disciplinas/períodos y cantidad de candidatos; no se separan sus efectos.",
+    "location": "4.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 15,
+    "topic": "Filtro de calidad",
+    "change": "Se retiran las marcas indicadas y se conserva un representante por grupo de duplicados. Antes y después son unos ocho vecinos compartidos de 25.",
+    "location": "4.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 16,
+    "topic": "Cambiar el alcance",
+    "change": "Se explica si las listas coinciden más o menos, con 58,5% frente a 41,5% de especialidades y el reparto casi igual con 50 vecinos.",
+    "location": "4.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 17,
+    "topic": "Área amplia",
+    "change": "Se identifica como el área que contiene la especialidad, con Medicina como ejemplo.",
+    "location": "Figura 2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 18,
+    "topic": "Especialidad",
+    "change": "Se identifica como rama más concreta, con Cardiología y Medicina Cardiovascular como ejemplo.",
+    "location": "Figura 2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 19,
+    "topic": "Casos y errores de origen",
+    "change": "Se cuenta qué se revisó y cómo se comprobó contra los registros descargados. Los ejemplos no estiman la frecuencia del problema.",
+    "location": "4.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 20,
+    "topic": "Tres entradas",
+    "change": "Cada uno de los mismos 52.000 artículos se representa con título, resumen y ambos; se distinguen las dos comparaciones con la referencia combinada.",
+    "location": "4.3",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 21,
+    "topic": "Reglas de combinación",
+    "change": "Media frente a primera o última salida; se nombran los cuatro BERT afectados y se explica que se recalculan ambas comparaciones.",
+    "location": "4.3",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 22,
+    "topic": "De 26.000 a 52.000",
+    "change": "Se explica que se añaden 26.000 con el mismo diseño y se conserva el primer conjunto dentro del total.",
+    "location": "4.3",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 23,
+    "topic": "Alertas geométricas",
+    "change": "Se distinguen veinte medias muestras de 1.000 y cinco selecciones de 2.000; cuatro alertas equivalen al 1,5% de 260 casos.",
+    "location": "4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 24,
+    "topic": "Un área por encima de otra",
+    "change": "Mayor valor de la medida, no posición en un dibujo ni calidad de la investigación.",
+    "location": "4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 25,
+    "topic": "Recuentos de parejas",
+    "change": "Se presentan porcentajes de las 325 parejas para oposición, unanimidad, casos sin resolver y cortes de magnitud. Los recuentos permanecen en figura y tablas.",
+    "location": "4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 26,
+    "topic": "Medidas alternativas",
+    "change": "Se recuerdan entropía y D80, sus empates y los denominadores. Conservar una oposición exige al menos una misma pareja de modelos en las mismas direcciones.",
+    "location": "4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 27,
+    "topic": "Punto de referencia",
+    "change": "Media común de 52.000 vectores por modelo, resta a cada vector y reajuste de longitud.",
+    "location": "3.5 y 4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 28,
+    "topic": "Efecto del centrado",
+    "change": "Se distinguen proporción total de parejas opuestas y conservación de parejas originales; cifras completas remitidas a S20.",
+    "location": "4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 29,
+    "topic": "Por qué se probó la fragmentación",
+    "change": "Se explica la posible utilidad y por qué una conexión geométrica débil no quedó validada como división temática.",
+    "location": "4.4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 30,
+    "topic": "Veinte mitades y cinco selecciones",
+    "change": "26 condiciones: principal de 2.000, veinte mitades de 1.000 y cinco elecciones adicionales de 2.000 por área.",
+    "location": "Figura 4",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 31,
+    "topic": "Repetir artículos no es cambiar modelo",
+    "change": "Ejemplo de A mayor que B en un modelo y orden contrario en otro, aun repitiendo artículos.",
+    "location": "5.1",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 32,
+    "topic": "Qué controlan los centros",
+    "change": "Recalcular medias con otros artículos, con tres tamaños y omitiendo cada área.",
+    "location": "5.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 33,
+    "topic": "Calidad, entrada y medias",
+    "change": "Se explica el cambio pequeño del filtro y los comportamientos distintos que reúne la media de entrada.",
+    "location": "5.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 34,
+    "topic": "Matiz repetido sobre corrección",
+    "change": "Se retira la frase repetitiva y se conserva la distinción general entre acuerdo y evidencia externa donde corresponde.",
+    "location": "5.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 35,
+    "topic": "Consecuencia del procesamiento",
+    "change": "La comparación de dispersión debe indicar representación, punto de referencia y medida.",
+    "location": "5.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 36,
+    "topic": "Medicina, familias y tiempo",
+    "change": "Se explican los controles de composición y modelos biomédicos, los límites de causa y el cambio de signo al igualar candidatos.",
+    "location": "5.2",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 37,
+    "topic": "Conclusión",
+    "change": "Se formula una consecuencia concreta: comprobar la relación que se quiere sostener y mostrar cuánto cambia.",
+    "location": "6",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  },
+  {
+    "comment": 38,
+    "topic": "Retirar sección de IA",
+    "change": "Se retira de ambos artículos y se elimina la remisión que quedaría sin destino. El historial real de asistencia permanece.",
+    "location": "Declaraciones",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "status": "applied"
+  }
+]

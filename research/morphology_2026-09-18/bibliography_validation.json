@@ -1,0 +1,53 @@
+{
+  "filepath": "references/references.bib",
+  "total_entries": 54,
+  "valid_entries": 54,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry klabunde2025: Missing recommended field \"pages\"",
+      "entry": "klabunde2025"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "doi",
+      "severity": "medium",
+      "message": "Entry JMLR:v25:21-1185: Missing recommended field \"doi\"",
+      "entry": "JMLR:v25:21-1185"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "doi",
+      "severity": "medium",
+      "message": "Entry JMLR:v11:radovanovic10a: Missing recommended field \"doi\"",
+      "entry": "JMLR:v11:radovanovic10a"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry NIPS2004_40173ea4: Missing recommended field \"pages\"",
+      "entry": "NIPS2004_40173ea4"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry NIPS2002_43e4e6a6: Missing recommended field \"pages\"",
+      "entry": "NIPS2002_43e4e6a6"
+    }
+  ],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

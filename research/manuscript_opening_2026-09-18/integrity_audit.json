@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "archived_documents": 19,
+  "unchanged_research_outputs": 150,
+  "unchanged_presentation_sources": 180,
+  "changed_presentation_sources": [
+    "manuscript/references.bib",
+    "manuscript/main.tex",
+    "manuscript/README.md"
+  ],
+  "later_sections_unchanged": true,
+  "canonical_library_unchanged": true,
+  "supplement_pdf_unchanged": true,
+  "old_closure_unchanged": true,
+  "main_pdf_sha256": "0df1561e7076651c93627ea25345ab642390a15663752e02e002b2c6c8371467",
+  "main_pdf_pages": 17,
+  "latex_warnings": false
+}

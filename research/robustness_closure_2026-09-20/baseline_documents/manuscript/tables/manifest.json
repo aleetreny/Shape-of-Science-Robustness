@@ -1,0 +1,847 @@
+{
+  "T01": {
+    "sources": [
+      {
+        "source": "research/writing_blueprint_2026-09-18/table1_panels.csv",
+        "included": "tables/data/T01/table1_panels.csv",
+        "sha256": "3fa0fd15a7a292c98dd7f3bd472d79c4f868ccdd8918442ab5ebc6ea9376c93c",
+        "rows": 6
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "What each comparison asks and which articles it uses.",
+        "headers": [
+          "Purpose",
+          "Articles used",
+          "What is compared"
+        ],
+        "rows": 6
+      }
+    ],
+    "editorial_source": {
+      "path": "tables/editorial/T01.tex",
+      "sha256": "62bf0f7c63cae96dbb66d5cd3b8d7c15abb6565bf786c3a553b041e78b6d392a"
+    },
+    "summary_rule": "Question-first explanation reviewed on 20 September 2026; sizes and model settings are unchanged. Detailed group-size controls remain in main methods and S1--S4."
+  },
+  "T02": {
+    "sources": [
+      {
+        "source": "research/writing_blueprint_2026-09-18/table2_models.csv",
+        "included": "tables/data/T02/table2_models.csv",
+        "sha256": "8cd649f21b27354c6b360d63f4e2c5f1be8ff0c67c78d228a0b2de52beaa8af9",
+        "rows": 10
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Embedding models and primary representation settings.",
+        "headers": [
+          "Model",
+          "Vector size",
+          "Token limit",
+          "Paper vector",
+          "Reference"
+        ],
+        "rows": 10
+      }
+    ],
+    "editorial_source": {
+      "path": "tables/editorial/T02.tex",
+      "sha256": "044b7ca3e163baa10f989b154bd4e0dcfbe978765b4b97876c8f578851e51913"
+    },
+    "summary_rule": "Question-first explanation reviewed on 20 September 2026; sizes and model settings are unchanged. Detailed group-size controls remain in main methods and S1--S4."
+  },
+  "S01": {
+    "sources": [
+      {
+        "source": "research/cleaning_2026-09-15/field_period_counts.csv",
+        "included": "tables/data/S01/field_period_counts.csv",
+        "sha256": "908375c997659d0b1339ed1f5ce6fbd67746b33f30ca45083f28188ee44e42b8",
+        "rows": 130
+      },
+      {
+        "source": "research/cleaning_2026-09-15/field_summary.csv",
+        "included": "tables/data/S01/field_summary.csv",
+        "sha256": "43d7ca5f0302c852f4acb21db042c97a4534068c629843387ca78e1e00badf63",
+        "rows": 26
+      },
+      {
+        "source": "research/cleaning_2026-09-15/field_year_counts.csv",
+        "included": "tables/data/S01/field_year_counts.csv",
+        "sha256": "fa93a55ae5c4bde658b5fc5bc90059c16d22b2db23775439bd4ea8e3b1e06b8b",
+        "rows": 1050
+      },
+      {
+        "source": "research/cleaning_2026-09-15/quality_by_field_period.csv",
+        "included": "tables/data/S01/quality_by_field_period.csv",
+        "sha256": "fdface36beb70c1d6781d7c61ffd7ffb2c0a7fa73f36373e4587f63da5e0f36a",
+        "rows": 210
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/controls_quality_flags.csv",
+        "included": "tables/data/S01/controls_quality_flags.csv",
+        "sha256": "f64c1da719ff22bfdee45fcee3c306792a30572e19b851dc35abb67ab8126121",
+        "rows": 9
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Clean corpus by Field, period and cohort.",
+        "headers": [
+          "Field",
+          "2000-04",
+          "2005-09",
+          "2010-14",
+          "2015-19",
+          "2020-24",
+          "Base",
+          "Extra"
+        ],
+        "rows": 27
+      }
+    ],
+    "summary_rule": "Every Field and every period, with base/extra totals; full yearly/cell quality tables included."
+  },
+  "S02": {
+    "sources": [
+      {
+        "source": "research/writing_blueprint_2026-09-18/table2_models.csv",
+        "included": "tables/data/S02/table2_models.csv",
+        "sha256": "8cd649f21b27354c6b360d63f4e2c5f1be8ff0c67c78d228a0b2de52beaa8af9",
+        "rows": 10
+      },
+      {
+        "source": "research/embedding_final_audit_2026-09-17/truncation_by_model.csv",
+        "included": "tables/data/S02/truncation_by_model.csv",
+        "sha256": "e11a504041beaf0fa4ef8cea6b94b21fc3a59c7e603da65a394675c644fc400c",
+        "rows": 10
+      },
+      {
+        "source": "research/embedding_final_audit_2026-09-17/truncation_by_field_period_cohort.csv",
+        "included": "tables/data/S02/truncation_by_field_period_cohort.csv",
+        "sha256": "7a9bfff2a6f7b4179445714dddf690e9d1db18bd4bbf2baa93e6194bfca6d305",
+        "rows": 2100
+      },
+      {
+        "source": "research/embedding_final_audit_2026-09-17/full_text_coverage_by_field_period.csv",
+        "included": "tables/data/S02/full_text_coverage_by_field_period.csv",
+        "sha256": "582b3ee40bc26b4bc872d9534cb9bedf9686bf21ed5694586de4447ebfd83129",
+        "rows": 130
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Frozen checkpoints, text formats and native truncation.",
+        "headers": [
+          "Model",
+          "Checkpoint and full revision",
+          "Input / truncation"
+        ],
+        "rows": 10
+      }
+    ],
+    "summary_rule": "All model revisions, exact separators and full-corpus truncation rates; native limits unchanged."
+  },
+  "S03": {
+    "sources": [
+      {
+        "source": "Dated protocols and DECISIONS.md; explicit synthesis",
+        "included": "tables/data/S03/chronology.csv",
+        "sha256": "055f137d8c6f18e3a21182e444f5e32bb309c9ed0a95396f5b48d4d550cdfe30",
+        "rows": 8
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Coverage and chronology of the comparison blocks.",
+        "headers": [
+          "Block",
+          "Coverage",
+          "When specified",
+          "Interpretation"
+        ],
+        "rows": 8
+      }
+    ],
+    "summary_rule": "Complete descriptive chronology; manually condensed from dated protocols, not inferred from results."
+  },
+  "S04": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/controls_metric_consistency_summary.csv",
+        "included": "tables/data/S04/controls_metric_consistency_summary.csv",
+        "sha256": "4df73d9df39add3c22802a3610b428c5abe069069bcf83f97c7b3cbd470121d9",
+        "rows": 41
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/controls_original_50_alerts.csv",
+        "included": "tables/data/S04/controls_original_50_alerts.csv",
+        "sha256": "aa17f518518bce59809275b03ac580579d8dd6f594988ff714027a03b62a654b",
+        "rows": 50
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/controls_original_stability_reconstructed.csv",
+        "included": "tables/data/S04/controls_original_stability_reconstructed.csv",
+        "sha256": "9fa40f9f1a45c865af519d1a40611e2eee17ea14dddf852fae5066c720f08edf",
+        "rows": 5850
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/controls_control_magnitudes.csv",
+        "included": "tables/data/S04/controls_control_magnitudes.csv",
+        "sha256": "c65820f1a25465c3985abc98498b7eac9e2c8b6f17052b9d3e25d9c4e3d7913c",
+        "rows": 34
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/controls_paper_shuffle_reference.csv",
+        "included": "tables/data/S04/controls_paper_shuffle_reference.csv",
+        "sha256": "71529f061dddd032e0c495ce3fa600c79ebba92f2ec05d2462b365688486f620",
+        "rows": 3
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_subfield_stability_summary.csv",
+        "included": "tables/data/S04/structure_subfield_stability_summary.csv",
+        "sha256": "ea166023206c07b6efcb0b62a176a84ea13542e46c7bddf818fe4619af9207b3",
+        "rows": 2
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_subfield_stability_alerts.csv",
+        "included": "tables/data/S04/structure_subfield_stability_alerts.csv",
+        "sha256": "35ca5bb4ee5e4887f518278515fb31998895b3e4ffff9feb1d2b6136d593f9ac",
+        "rows": 2841
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Agreement of alternative measures and retained stability alerts.",
+        "headers": [
+          "Measures compared",
+          "Cells",
+          "Mean rank agreement",
+          "Minimum",
+          "Maximum"
+        ],
+        "rows": 3
+      }
+    ],
+    "summary_rule": "Top panel: all three native Field-period metric comparisons; alerts from complete saved screens, not discarded."
+  },
+  "S05": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/input_input_effect_by_model.csv",
+        "included": "tables/data/S05/input_input_effect_by_model.csv",
+        "sha256": "d3a598b78cda3ddae9ea6441cb2b9f6aef198b650dcc7a32b78ad48748be3a56",
+        "rows": 180
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_input_effect_by_field.csv",
+        "included": "tables/data/S05/input_input_effect_by_field.csv",
+        "sha256": "605523566989d46c77a5a85b410afb1ea215cd160854518a1ae91bf5fa8ab72d",
+        "rows": 468
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+        "included": "tables/data/S05/input_input_effect_summary.csv",
+        "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+        "rows": 18
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_recipe_effect_summary.csv",
+        "included": "tables/data/S05/input_recipe_effect_summary.csv",
+        "sha256": "b288ec50715929aebd489ae5840b43a9b01832cb290cf30e31ced5cad551677e",
+        "rows": 72
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_recipe_sensitivity_all_cases.csv",
+        "included": "tables/data/S05/input_recipe_sensitivity_all_cases.csv",
+        "sha256": "59aa51069088d3af8bb9d6e26e36fcdba7cfb9ed8abdaa676a77ec2315aa9d46",
+        "rows": 4160
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_recipe_sign_changes.csv",
+        "included": "tables/data/S05/input_recipe_sign_changes.csv",
+        "sha256": "73a116513d949eb32b9436017fc614df7603cc88d786aef3b035c19f51159ffb",
+        "rows": 32
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Input changes by model, averaged equally over the 26 Fields.",
+        "headers": [
+          "Model",
+          "Title: shape",
+          "Abstract: shape",
+          "Title: neighbours",
+          "Abstract: neighbours"
+        ],
+        "rows": 10
+      }
+    ],
+    "summary_rule": "Ten model-specific input effects; all Field, recipe and original-precision summaries in attachments."
+  },
+  "S06": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/input_alert_transition_counts.csv",
+        "included": "tables/data/S06/input_alert_transition_counts.csv",
+        "sha256": "ba3ce523c2bbfa4ce86fab5e999c87ef0d997e16c9e940a691b8a20e412cf1be",
+        "rows": 4
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_current52_alerts.csv",
+        "included": "tables/data/S06/input_current52_alerts.csv",
+        "sha256": "bbedd48fdae0404063db9115294b352900a58fb8a14f6bc92620db913a871437",
+        "rows": 9
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_original31_tracking.csv",
+        "included": "tables/data/S06/input_original31_tracking.csv",
+        "sha256": "196964be6a164128a60c6619a981e1553fff7bb1c96bc4ebd8a5c86f259bc288",
+        "rows": 62
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/input_nested_sample_effect_changes.csv",
+        "included": "tables/data/S06/input_nested_sample_effect_changes.csv",
+        "sha256": "0c806b2f679fd119c1c8ee66e4543f84f3bf80197510f52151b9d8615c8dedae",
+        "rows": 1560
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Input-alert transitions for the nested 26k and 52k panels.",
+        "headers": [
+          "Selections / scope",
+          "Contrasts",
+          "26k alerts",
+          "52k alerts",
+          "Persist",
+          "Resolved",
+          "New"
+        ],
+        "rows": 4
+      }
+    ],
+    "summary_rule": "All four transition rows and all five current 100-selection alerts; original 31 identities retained in CSV."
+  },
+  "S07": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/structure_paired_scope_summary.csv",
+        "included": "tables/data/S07/structure_paired_scope_summary.csv",
+        "sha256": "9dbb4767b7bed804f30abb73fb13393de1aec77301d7f01a19c0a93edc044f8b",
+        "rows": 3
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_paired_scope_subfield_summary.csv",
+        "included": "tables/data/S07/structure_paired_scope_subfield_summary.csv",
+        "sha256": "c50d46c96d9538c2fed4d17704c357b5462442b96b11a526d4377d46c8245618",
+        "rows": 651
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_paired_scope_field_summary.csv",
+        "included": "tables/data/S07/structure_paired_scope_field_summary.csv",
+        "sha256": "2789888105a944c35a6f114d647ece9e3a1be4d8ce2d8843f2b233bee0f0b8cb",
+        "rows": 78
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_matched_size_agreement.csv",
+        "included": "tables/data/S07/structure_matched_size_agreement.csv",
+        "sha256": "cf6ad386ceafd22f643264399075f6fa5dd8053134210bb8e425da5a12593bf6",
+        "rows": 144
+      },
+      {
+        "source": "reports/prepaper_v1/subfields.csv",
+        "included": "tables/data/S07/subfields.csv",
+        "sha256": "154a9fad2cd01cf82d5149bda323652b22a5e4f3202a8f6591ab1da7314a81e3",
+        "rows": 217
+      },
+      {
+        "source": "reports/prepaper_v1/subfield_sensitivity_panels.csv",
+        "included": "tables/data/S07/subfield_sensitivity_panels.csv",
+        "sha256": "9368ac50265a06f7312a4f6c999a753135ebdc102b7cd9cc3530bfb26ae836c3",
+        "rows": 4941
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Matched Field/Subfield neighbour searches.",
+        "headers": [
+          "k",
+          "Field overlap",
+          "Subfield overlap",
+          "Difference (pp)",
+          "Lower / higher",
+          "Subfields"
+        ],
+        "rows": 3
+      }
+    ],
+    "summary_rule": "All three k values; complete group-size and Subfield sensitivity attachments."
+  },
+  "S08": {
+    "sources": [
+      {
+        "source": "reports/prepaper_v1/paper_examples_readable.csv",
+        "included": "tables/data/S08/paper_examples_readable.csv",
+        "sha256": "29d3d7c5c9de09f6840b0cc9bc759fa4274d143af4a76fa8d55630ac2ad7b636",
+        "rows": 12
+      },
+      {
+        "source": "reports/prepaper_v1/article_relations_readable.csv",
+        "included": "tables/data/S08/article_relations_readable.csv",
+        "sha256": "1aee4e0c40c5d8327716982976d7afaea21b12409bc635e7c1bc95785f42d33f",
+        "rows": 24
+      },
+      {
+        "source": "reports/prepaper_v1/subfield_relation_examples.csv",
+        "included": "tables/data/S08/subfield_relation_examples.csv",
+        "sha256": "e70a73060a93251d751e23ea3d8d8f3cb60e3c0b78e9afd9bf60398e630d585c",
+        "rows": 16
+      },
+      {
+        "source": "reports/prepaper_v1/subfield_examples.csv",
+        "included": "tables/data/S08/subfield_examples.csv",
+        "sha256": "988feabe279a4ee619d25e610aa785495952afa1d7a3ccf6a41c595f4173a611",
+        "rows": 12
+      },
+      {
+        "source": "reports/prepaper_v1/paper_example_pairs.csv",
+        "included": "tables/data/S08/paper_example_pairs.csv",
+        "sha256": "ff4292f57e15fde427514391502276d107432ca3d76a8f49d7956311a11fa67c",
+        "rows": 540
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "All twelve rule-selected article examples, including source caveats.",
+        "headers": [
+          "Article and OpenAlex ID",
+          "Subfield label",
+          "Mean",
+          "Selection range",
+          "Inspection note"
+        ],
+        "rows": 12
+      }
+    ],
+    "summary_rule": "All 12 fixed sources, not cherry-picked again for layout; all 24 article and 16 centre-relation examples included."
+  },
+  "S09": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/time_heterogeneity.csv",
+        "included": "tables/data/S09/time_heterogeneity.csv",
+        "sha256": "e2487a48362e11899ec26dab0b07701aafcadbd9a11f2b378d3638b3fed394be",
+        "rows": 40
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/time_control_consistency.csv",
+        "included": "tables/data/S09/time_control_consistency.csv",
+        "sha256": "c7544b32b737de81c1a5076e7a8e7611e438ee46d2a8ece374f4372e8e2c961d",
+        "rows": 36
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/time_fields.csv",
+        "included": "tables/data/S09/time_fields.csv",
+        "sha256": "53747700138dc697007ddb2707e4b5c8e7b5e1f8851c769b038185e019c8d54a",
+        "rows": 520
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/time_pairs.csv",
+        "included": "tables/data/S09/time_pairs.csv",
+        "sha256": "748360811f304d6d0f768fd9cff93259d138e84ed909159468925a59fb9a2b5a",
+        "rows": 900
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/subfield_time_fixed128.csv",
+        "included": "tables/data/S09/subfield_time_fixed128.csv",
+        "sha256": "c71667b8dbac269641af3d9af8dcf52cd9bb872648dfa9a23a4c5355a768b534",
+        "rows": 500
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Temporal endpoint changes and Field heterogeneity.",
+        "headers": [
+          "Measure / candidate design",
+          "Mean change",
+          "Positive",
+          "Negative",
+          "Non-monotone"
+        ],
+        "rows": 8
+      }
+    ],
+    "summary_rule": "Eight named primary/size/recipe outcomes at Field level; all 40 saved summaries and matched controls included."
+  },
+  "S10": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/structure_medicine_composition_summary.csv",
+        "included": "tables/data/S10/structure_medicine_composition_summary.csv",
+        "sha256": "bfde2384a7e8468459dfa53e922d617d0f9a896b0070fc382ec4bbffd51081be",
+        "rows": 1040
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_medicine_composition_change_summary.csv",
+        "included": "tables/data/S10/structure_medicine_composition_change_summary.csv",
+        "sha256": "24fdf8751142d08213ae7655e4efbdaf59eeae86dd0410022ec18b695327d676",
+        "rows": 520
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_medicine_field_contrast_summary.csv",
+        "included": "tables/data/S10/structure_medicine_field_contrast_summary.csv",
+        "sha256": "8897bdc857dfb716c6a3906c4aca1b888e484154c73e584f215b8410e7d47266",
+        "rows": 120
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_medicine_paired_field_contrasts.csv",
+        "included": "tables/data/S10/structure_medicine_paired_field_contrasts.csv",
+        "sha256": "24ba2949fbc8252a2af3af9c4913101d17d8c6b7bed9cd51c10b9d47002bf086",
+        "rows": 1200
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_composition_diversity.csv",
+        "included": "tables/data/S10/structure_composition_diversity.csv",
+        "sha256": "49a0224973d30eb6a66cd407cca685fdd165c938e7c9b715b69dba6a49649827",
+        "rows": 520
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_diversity_associations.csv",
+        "included": "tables/data/S10/structure_diversity_associations.csv",
+        "sha256": "6c4f129c74fcf99ceb68a60369270e8e9fece22904a00f592e1c0d3afb8f2521",
+        "rows": 5
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_within_subfields_biomedical.csv",
+        "included": "tables/data/S10/structure_within_subfields_biomedical.csv",
+        "sha256": "251e792ef26c7f525d523ae13c39be2f788ae4233acb74ffd40cbe2d6f6b9d9b",
+        "rows": 104
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Discipline agreement with observed and balanced Subfield composition.",
+        "headers": [
+          "Field",
+          "Models",
+          "CKA obs.",
+          "CKA bal.",
+          "k25 obs.",
+          "k25 bal."
+        ],
+        "rows": 8
+      }
+    ],
+    "summary_rule": "All conditions for the four preselected display Fields and ten/eight model panels; complete 26-Field data included."
+  },
+  "S11": {
+    "sources": [
+      {
+        "source": "reports/robustness_v2/final/tables/families_model_traits.csv",
+        "included": "tables/data/S11/families_model_traits.csv",
+        "sha256": "157116affcc80367f9383ee9e9dc1f78bc22b042d428c83d4fff69cd249256d0",
+        "rows": 10
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/families_identifiability.csv",
+        "included": "tables/data/S11/families_identifiability.csv",
+        "sha256": "6de163017a39ea583d4c14824eee34da27a0ad8e84e8f2ba007162e576fcf66f",
+        "rows": 8
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/families_coefficients.csv",
+        "included": "tables/data/S11/families_coefficients.csv",
+        "sha256": "527c043022205c76ed5090da20d0ebea5198156bf709a84948c347fe8e03fd29",
+        "rows": 56
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/families_leave_one_model.csv",
+        "included": "tables/data/S11/families_leave_one_model.csv",
+        "sha256": "d9cf82ec07eedb07d9c05824e87ffa308fd278b1150032c926fafbbc6189f4f5",
+        "rows": 560
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/families_marginal_associations.csv",
+        "included": "tables/data/S11/families_marginal_associations.csv",
+        "sha256": "a0d1b1f519e2305fe72da164d48ac685cea00f2f00458a4bf8579ded1724a5c0",
+        "rows": 48
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/families_permutation_reference.csv",
+        "included": "tables/data/S11/families_permutation_reference.csv",
+        "sha256": "eea259ff13ed697db3e109cd5a99422f859766c1286a40611b9f63bdaf8e76cc",
+        "rows": 8
+      },
+      {
+        "source": "reports/robustness_v2/final/tables/structure_family_trait_omission_ranges.csv",
+        "included": "tables/data/S11/structure_family_trait_omission_ranges.csv",
+        "sha256": "fc7efdfa34f696ed5c94919a710ab7554008b8eedc1a954c2a3147619467dd86",
+        "rows": 56
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Descriptive model-trait fits and identifiability.",
+        "headers": [
+          "Outcome",
+          "Rank",
+          "Condition no.",
+          "R squared",
+          "Unidentified coefficients after omission"
+        ],
+        "rows": 8
+      }
+    ],
+    "summary_rule": "All eight model-trait fits; source outcome keys expanded into readable labels. Counts of saved non-identifiable omission coefficients; all model traits included."
+  },
+  "S12": {
+    "sources": [
+      {
+        "source": "reports/morphology_pilot_v1/selection_stability.csv",
+        "included": "tables/data/S12/selection_stability.csv",
+        "sha256": "c6c9563f16d1f7daf4cc92c3348e7192f679bd9bd6a2d35cb807a2ebbcff5ab0",
+        "rows": 1560
+      },
+      {
+        "source": "reports/morphology_pilot_v1/primary_metrics.csv",
+        "included": "tables/data/S12/primary_metrics.csv",
+        "sha256": "c8445a5bffa813ba2529aa2ea6698aba0008b867a5bc449d104fc9c61d43ba0c",
+        "rows": 260
+      },
+      {
+        "source": "reports/morphology_pilot_v1/alternative_metric_agreement.csv",
+        "included": "tables/data/S12/alternative_metric_agreement.csv",
+        "sha256": "bac47eea664180c73f318e70e136832efb4d42975ebd6a9da0d62d36ab65fea4",
+        "rows": 468
+      },
+      {
+        "source": "reports/morphology_pilot_v1/between_model_field_ranks.csv",
+        "included": "tables/data/S12/between_model_field_ranks.csv",
+        "sha256": "70077ba7167fde64b947bae20c5a671dcf89c66a1cd0f03bd48d77a954a9178f",
+        "rows": 135
+      },
+      {
+        "source": "reports/morphology_pilot_v1/rank_stability.csv",
+        "included": "tables/data/S12/rank_stability.csv",
+        "sha256": "bd512d05b136c5ff5e53adefb40dafb0c013c8f1020770326e239eb4d5b073ee",
+        "rows": 750
+      },
+      {
+        "source": "reports/morphology_pilot_v1/control_rank_stability.csv",
+        "included": "tables/data/S12/control_rank_stability.csv",
+        "sha256": "7293fd0dca95d4b352fa0ca5240504d4e63907d7150f98738bb41bba6e9cefe1",
+        "rows": 207
+      },
+      {
+        "source": "reports/morphology_pilot_v1/paired_controls.csv",
+        "included": "tables/data/S12/paired_controls.csv",
+        "sha256": "c0c436b1a2bd3391cbaf2a6969208a1616dab2ad54efe18db1658b712388b20e",
+        "rows": 5382
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Selection stability of the geometric properties.",
+        "headers": [
+          "Property",
+          "Selection design",
+          "Cases",
+          "Alerts",
+          "Median width",
+          "Maximum width"
+        ],
+        "rows": 6
+      }
+    ],
+    "summary_rule": "All three properties and both selection designs, counting passes from saved Boolean flags; full individual cases included."
+  },
+  "S13": {
+    "sources": [
+      {
+        "source": "data/morphology_pilot_v1/synthetic/clouds.csv",
+        "included": "tables/data/S13/clouds.csv",
+        "sha256": "48ae947ac72845891791ce9b298b1e622e91417d67c6cd2a7dae19a3109a1001",
+        "rows": 9
+      },
+      {
+        "source": "reports/morphology_pilot_v1/sample_size.csv",
+        "included": "tables/data/S13/sample_size.csv",
+        "sha256": "7b98a737d310193072e3d00100289d6ed58fbd8332eeef284b46d0a97167bfe6",
+        "rows": 3120
+      },
+      {
+        "source": "reports/morphology_pilot_v1/connectivity_fixed_fraction.csv",
+        "included": "tables/data/S13/connectivity_fixed_fraction.csv",
+        "sha256": "3e93195268348d234502e3755833899fe2059cb76a9cef3a24dbe410abc7a7c1",
+        "rows": 780
+      },
+      {
+        "source": "reports/morphology_pilot_v1/gaussian_reference_diagnostics.csv",
+        "included": "tables/data/S13/gaussian_reference_diagnostics.csv",
+        "sha256": "a4dc8bc928d3c7bc5898bcc55b0bc22b4e0c09fed6b79f335833bf215f064bbf",
+        "rows": 780
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Construct checks on all nine saved synthetic clouds.",
+        "headers": [
+          "Cloud",
+          "Gap k25",
+          "Radius 90/50",
+          "Max/median edge",
+          "Mutual giant"
+        ],
+        "rows": 9
+      }
+    ],
+    "summary_rule": "All nine saved simulation rows; complete size/fraction/Gaussian tables included; no new simulation."
+  },
+  "S14": {
+    "sources": [
+      {
+        "source": "reports/field_pair_summary_v1/classification_summary.csv",
+        "included": "tables/data/S14/classification_summary.csv",
+        "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+        "rows": 32
+      },
+      {
+        "source": "reports/field_pair_summary_v1/pair_summary.csv",
+        "included": "tables/data/S14/pair_summary.csv",
+        "sha256": "2b936795e76d5ca29b2231777ba0b67604c34a8985371031f1bbf568ea54a7fc",
+        "rows": 650
+      },
+      {
+        "source": "reports/field_pair_summary_v1/pair_sensitivity.csv",
+        "included": "tables/data/S14/pair_sensitivity.csv",
+        "sha256": "a48976316b608c474b9ef30819b6ab4711949a3f1ae971edf2d171656167b326",
+        "rows": 10400
+      },
+      {
+        "source": "reports/field_pair_summary_v1/model_pair_directions.csv",
+        "included": "tables/data/S14/model_pair_directions.csv",
+        "sha256": "1486ae83a2387762e86bcf3be070fa9639eeb036c478bc4731d77012cc647ece",
+        "rows": 6500
+      },
+      {
+        "source": "reports/field_pair_summary_v1/field_summary.csv",
+        "included": "tables/data/S14/field_summary.csv",
+        "sha256": "c84dfb8f893141a634eeb6ae7b1aeb5c4731396825877bbd600fa137e5d712a1",
+        "rows": 52
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "All Field-pair conclusions under four minimum relative differences.",
+        "headers": [
+          "Property",
+          "Minimum",
+          "All ten agree",
+          "Opposition",
+          "Unresolved",
+          "Pairs"
+        ],
+        "rows": 8
+      }
+    ],
+    "summary_rule": "Eight exhaustive counts, all_saved rule, all four thresholds. Full pair and model decisions included."
+  },
+  "S15": {
+    "sources": [
+      {
+        "source": "reports/field_pair_summary_v1/model_panel_summary.csv",
+        "included": "tables/data/S15/model_panel_summary.csv",
+        "sha256": "2eb20d1dbb9e03878474983a764c2acafa0763b180a835002cb660911772a539",
+        "rows": 96
+      },
+      {
+        "source": "reports/field_pair_summary_v1/alternative_support.csv",
+        "included": "tables/data/S15/alternative_support.csv",
+        "sha256": "6f1ec3886bf9eca6d5b8ecdf5a8087cc3d986e8dbc81ba4ded36de5771189904",
+        "rows": 650
+      },
+      {
+        "source": "reports/field_pair_summary_v1/alternative_metric_summary.csv",
+        "included": "tables/data/S15/alternative_metric_summary.csv",
+        "sha256": "6536b74de45b0b91c6a9e20ae76a87a0e2c09ca535e0ed05b5c58fafe6b8de00",
+        "rows": 7
+      },
+      {
+        "source": "reports/field_pair_summary_v1/model_pair_witnesses.csv",
+        "included": "tables/data/S15/model_pair_witnesses.csv",
+        "sha256": "301aafa75b82d0d43a4bc5c8622f9cc8e31231063b6cd6c949deebc91170e097",
+        "rows": 90
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Persistent opposition and identical witnesses across alternatives and model panels.",
+        "headers": [
+          "Model panel",
+          "Models",
+          "Spread",
+          "Spread + alternatives",
+          "PR",
+          "PR + alternatives"
+        ],
+        "rows": 12
+      }
+    ],
+    "summary_rule": "All 12 panels at t=0 with same-witness alternatives; full 96 panel rows and 90 witness summaries included."
+  },
+  "S16": {
+    "sources": [
+      {
+        "source": "reports/field_pair_summary_v1/control_summary.csv",
+        "included": "tables/data/S16/control_summary.csv",
+        "sha256": "eb6adf13f1c2925ee2115c28d22b39e4ddaac71167522901b7e62ea1afeb7ee2",
+        "rows": 88
+      },
+      {
+        "source": "reports/field_pair_summary_v1/control_pairs.csv",
+        "included": "tables/data/S16/control_pairs.csv",
+        "sha256": "449d6fc028dea5940cf050bb2a42e05cbcdcd113848c7005ecef49ecadedc7ef",
+        "rows": 7150
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Point controls: retention of the original opposing models.",
+        "headers": [
+          "Control",
+          "Matched reference",
+          "Models changed",
+          "Spread retained",
+          "PR retained"
+        ],
+        "rows": 11
+      }
+    ],
+    "summary_rule": "All 11 controls at zero threshold, same original witness pairs; complete thresholds included."
+  },
+  "S17": {
+    "sources": [
+      {
+        "source": "Current source catalogues, read-only",
+        "included": "tables/data/S17/provenance.csv",
+        "sha256": "bee9a037d45ae83b7150ad115720c793aa7d007a177875c4dc28218624013ea6",
+        "rows": 8
+      }
+    ],
+    "rendered_parts": [
+      {
+        "caption": "Versions and access status of the source objects.",
+        "headers": [
+          "Object",
+          "Manifest / SHA-256",
+          "Access"
+        ],
+        "rows": 8
+      }
+    ],
+    "summary_rule": "Eight manifest SHA-256 values and truthful access states; this is an inventory, not a new data release."
+  }
+}

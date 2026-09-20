@@ -1,0 +1,21 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Cobertura y cronología de los bloques de comparación.}\label{tab:S03}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.6cm}>{\raggedright\arraybackslash}p{4.1cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{5.05cm}@{}}
+\toprule
+\textbf{Bloque} & \textbf{Cobertura} & \textbf{Cuándo se fijó} & \textbf{Interpretación} \\
+\midrule
+Comparación inicial & Corpus de 500.000; 130 grupos; 45 parejas fijas de modelos & Antes de conocer los acuerdos de esta fase & Vectores normalizados; CKA corregida, k25; controles CLS/SEP y de tamaño. \\
+Fragmento común & 52.000 identificadores emparejados, distintos de la muestra de entradas & Antes de la primera comparación científica & Mismos caracteres de contenido; tokenizadores y separadores propios. \\
+Centros / grupos aleatorios & 256 por centro; 26/217/26 centros & Añadido tras los resultados iniciales & Fechas y tamaños iguales; comprueba el promedio de centros, no la validez temática. \\
+Ampliación de entradas & De 26.000 a 52.000 identificadores anidados & Después del piloto; antes del resultado ampliado & Tres entradas cruzadas con reglas de representación; 100 selecciones comparables. \\
+Búsquedas locales emparejadas & 217 grupos, 50 consultas, diez selecciones & Diseño de la fase ampliada & 256 candidatos por ámbito, con consultas idénticas y fechas iguales. \\
+Atlas & 217 especialidades; 183 en controles de sensibilidad; 12 artículos de ejemplo & Tras los resultados globales; antes de leer los títulos seleccionados & Ejemplos elegidos por una regla; errores de la fuente conservados. \\
+Morfología & 52.000 identificadores; medidas alternativas y nubes sintéticas & Ampliación exploratoria tras los resultados principales & Protocolo anterior a las nuevas medidas con datos reales. Control de fracción de vecinos añadido durante la ejecución. \\
+Parejas de áreas & 325 parejas por propiedad; 26 condiciones guardadas & Después de los resultados de morfología & Reglas de dirección y magnitud anteriores a los nuevos recuentos; sin inferencia nueva. \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Es una secuencia de fases documentadas, no un estudio prerregistrado. Fuentes: ANALYSIS\_PROTOCOL, ROBUSTNESS\_PROTOCOL, CASE\_ATLAS\_PROTOCOL, MORPHOLOGY\_PROTOCOL y FIELD\_PAIR\_PROTOCOL, con sus decisiones fechadas. Los controles posteriores no se presentan como hipótesis iniciales.\par}

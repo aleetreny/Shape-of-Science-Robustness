@@ -1,0 +1,33 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\captionof{table}{Quality sensitivity with the same starting papers.}\label{tab:S19}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+\textbf{Candidates} & \textbf{Groups} & \textbf{k} & \textbf{Original (\%)} & \textbf{Filtered (\%)} & \textbf{Change (pp)} \\
+\midrule
+All & 130 & 10 & 26.41 & 27.07 & 0.66 \\[2pt]
+All & 130 & 25 & 30.58 & 31.43 & 0.85 \\[2pt]
+All & 130 & 50 & 34.24 & 35.28 & 1.04 \\[2pt]
+1024 & 130 & 10 & 30.71 & 30.91 & 0.20 \\[2pt]
+1024 & 130 & 25 & 36.01 & 36.29 & 0.28 \\[2pt]
+1024 & 130 & 50 & 40.80 & 41.11 & 0.31 \\[2pt]
+2048 & 63 & 10 & 27.68 & 27.83 & 0.16 \\[2pt]
+2048 & 63 & 25 & 32.06 & 32.25 & 0.19 \\[2pt]
+2048 & 63 & 50 & 35.90 & 36.13 & 0.24 \\[2pt]
+\bottomrule
+\end{tabular*}
+
+\par\medskip\textbf{Matched input check: neighbours replaced}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+\textbf{k} & \textbf{Model: original} & \textbf{Model: filtered} & \textbf{Title: original} & \textbf{Title: filtered} \\
+\midrule
+10 & 69.71 & 69.56 & 72.11 & 72.04 \\[2pt]
+25 & 64.57 & 64.27 & 66.49 & 66.45 \\[2pt]
+50 & 59.83 & 59.47 & 61.23 & 61.17 \\[2pt]
+\bottomrule
+\end{tabular*}
+\par\smallskip{\small All values except changes are percentages. The filter retains 448,886 articles. The first block holds queries identical before and after filtering; it is distinct from the original all-query mean of 30.29\% at k25. Fixed-size searches use 100 clean queries included in both pools. Only 63 groups retain 2,048 candidates; all 130 support 1,024. The input check uses 100 queries and 1,000 date-balanced candidates per area, drawn from the saved text panel. It does not test every possible source error or near duplicate.\par}
+\end{minipage}\par

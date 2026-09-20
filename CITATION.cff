@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the archived release used for your analysis. The repository contains a manuscript under author review."
+type: software
+title: "Shape of Science Robustness: analysis software and reproducibility materials"
+authors:
+  - family-names: "Treny Ortega"
+    given-names: "Alejandro"
+    affiliation: "Independent researcher"
+version: "1.0.0"
+date-released: "2026-09-20"
+repository-code: "https://github.com/aleetreny/Shape-of-Science-Robustness"
+license: MIT
+keywords:
+  - science mapping
+  - document embeddings
+  - robustness
+  - reproducibility

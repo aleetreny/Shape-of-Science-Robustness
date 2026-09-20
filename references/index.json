@@ -349,5 +349,68 @@
     "title": "An appraisal of publication embedding techniques in the context of conventional bibliometric relatedness measures",
     "status": "official full text; no DOI located",
     "source": "https://www.issi-society.org/proceedings/issi_2021/Proceedings%20ISSI%202021.pdf"
+  },
+  {
+    "identifier": "doi:10.1007/s11222-007-9033-z",
+    "citation_key": "vonLuxburg2007tutorial",
+    "title": "A tutorial on spectral clustering",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://doi.org/10.1007/s11222-007-9033-z"
+  },
+  {
+    "identifier": "doi:10.1038/s41598-019-53549-9",
+    "citation_key": "Erba2019intrinsic",
+    "title": "Intrinsic dimension estimation for locally undersampled data",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://doi.org/10.1038/s41598-019-53549-9"
+  },
+  {
+    "identifier": "doi:10.18653/v1/2022.findings-acl.262",
+    "citation_key": "rudman-etal-2022-isoscore",
+    "title": "{I}so{S}core: Measuring the Uniformity of Embedding Space Utilization",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://aclanthology.org/2022.findings-acl.262/"
+  },
+  {
+    "identifier": "https://jmlr.org/papers/v25/21-1185.html",
+    "citation_key": "JMLR:v25:21-1185",
+    "title": "Stable and Consistent Density-Based Clustering via Multiparameter Persistence",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://jmlr.org/papers/v25/21-1185.html"
+  },
+  {
+    "identifier": "https://jmlr.org/papers/v11/radovanovic10a.html",
+    "citation_key": "JMLR:v11:radovanovic10a",
+    "title": "Hubs in Space: Popular Nearest Neighbors in High-Dimensional Data",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://jmlr.org/papers/v11/radovanovic10a.html"
+  },
+  {
+    "identifier": "https://www.eurasip.org/Proceedings/Eusipco/Eusipco2007/Papers/a5p-h05.pdf",
+    "citation_key": "roy_2007_40328",
+    "title": "The Effective Rank: a Measure of Effective Dimensionality",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://www.eurasip.org/Proceedings/Eusipco/Eusipco2007/Papers/a5p-h05.pdf"
+  },
+  {
+    "identifier": "https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf",
+    "citation_key": "NIPS2004_40173ea4",
+    "title": "Self-Tuning Spectral Clustering",
+    "status": "verified morphology pilot metadata; reading depth and gaps in research/morphology_2026-09-18/LITERATURE.md",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf"
+  },
+  {
+    "identifier": "doi:10.1073/pnas.0605965104",
+    "citation_key": "Fortunato2007resolution",
+    "title": "Resolution limit in community detection",
+    "source": "https://doi.org/10.1073/pnas.0605965104",
+    "status": "verified metadata; used to discuss limits, not computed"
+  },
+  {
+    "identifier": "https://proceedings.neurips.cc/paper_files/paper/2002/file/43e4e6a6f341e00671e123714de019a8-Paper.pdf",
+    "citation_key": "NIPS2002_43e4e6a6",
+    "title": "An Impossibility Theorem for Clustering",
+    "source": "https://proceedings.neurips.cc/paper_files/paper/2002/file/43e4e6a6f341e00671e123714de019a8-Bibtex.bib",
+    "status": "verified metadata; pages absent in official export; theorem scope only"
   }
 ]

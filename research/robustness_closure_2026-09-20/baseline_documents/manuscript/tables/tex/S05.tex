@@ -1,0 +1,24 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Input changes by model, averaged equally over the 26 Fields.}\label{tab:S05}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{3.0cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{3.1cm}>{\raggedright\arraybackslash}p{3.1cm}@{}}
+\toprule
+\textbf{Model} & \textbf{Title: shape} & \textbf{Abstract: shape} & \textbf{Title: neighbours} & \textbf{Abstract: neighbours} \\
+\midrule
+SPECTER & 0.208 & 0.044 & 61.1\% & 31.3\% \\
+SPECTER2 & 0.203 & 0.048 & 60.6\% & 31.3\% \\
+SciNCL & 0.205 & 0.028 & 57.3\% & 23.9\% \\
+SciBERT & 0.532 & 0.014 & 84.2\% & 15.8\% \\
+BERT & 0.418 & 0.013 & 83.6\% & 18.0\% \\
+MPNet & 0.189 & 0.022 & 51.7\% & 17.7\% \\
+MiniLM & 0.246 & 0.031 & 58.1\% & 21.5\% \\
+PubMedBERT & 0.526 & 0.017 & 82.9\% & 16.2\% \\
+BioBERT & 0.636 & 0.024 & 83.4\% & 19.2\% \\
+SimCSE & 0.496 & 0.028 & 83.8\% & 26.3\% \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Same 52,000 IDs and 2,000 candidates per Field. Shape change: 1 minus corrected CKA. Neighbour change: fraction of the 25 neighbours replaced. Title/abstract conditions compare each model with its own full input. Model-choice means and all Field-specific values are included as CSVs, alongside the full recipe cross. These are practical input changes with native text limits, not a causal separation of encoder and text length.\par}
+\par\smallskip{\small Title-only model-minus-input contrast (positive: changing model has the larger mean effect): MEAN, shape = 0.0042; MEAN, neighbours = -0.0191; CLS, shape = 0.0363; CLS, neighbours = 0.0304; SEP, shape = 0.0627; SEP, neighbours = 0.0171. Only the four word BERTs change readout in CLS/SEP. Close means do not establish equivalence.\par}

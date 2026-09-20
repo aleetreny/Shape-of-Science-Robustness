@@ -1,0 +1,735 @@
+{
+  "checked_at": "2026-09-20T19:01:50.488806+00:00",
+  "sizes_are": "logical uncompressed bytes; directory totals include intermediate duplicates and text",
+  "groups": {
+    "data/corpus_clean_v1": {
+      "files": 6180,
+      "bytes": 4279898057,
+      "by_suffix": {
+        ".csv": 23277,
+        ".json": 1448664,
+        ".sqlite": 2920398848,
+        ".sqlite-shm": 32768,
+        ".sqlite-wal": 0,
+        ".lock": 0,
+        ".parquet": 725521067,
+        ".txt": 235,
+        ".sh": 154,
+        ".gz": 632352990,
+        ".py": 120054
+      },
+      "by_child": {
+        "field_period_counts.csv": 4031,
+        "source_snapshot_manifest.json": 2456,
+        "field_year_counts.csv": 19246,
+        "quality.sqlite": 291045376,
+        "config.json": 556,
+        "content_templates_evidence.json": 973229,
+        "state.sqlite-shm": 32768,
+        "state.sqlite-wal": 0,
+        "embedding_manifest.json": 3207,
+        "validation.json": 860,
+        "state.sqlite": 2629353472,
+        "download.lock": 0,
+        "progress.json": 1055,
+        "corpus.parquet": 404163648,
+        "preparation_identity.json": 237863,
+        "embedding_input.parquet": 321357419,
+        "source_snapshot": 349881,
+        "raw": 632352990
+      },
+      "largest_files": [
+        {
+          "path": "data/corpus_clean_v1/state.sqlite",
+          "bytes": 2629353472,
+          "suffix": ".sqlite",
+          "group": "data/corpus_clean_v1"
+        },
+        {
+          "path": "data/corpus_clean_v1/corpus.parquet",
+          "bytes": 404163648,
+          "suffix": ".parquet",
+          "group": "data/corpus_clean_v1"
+        },
+        {
+          "path": "data/corpus_clean_v1/embedding_input.parquet",
+          "bytes": 321357419,
+          "suffix": ".parquet",
+          "group": "data/corpus_clean_v1"
+        },
+        {
+          "path": "data/corpus_clean_v1/quality.sqlite",
+          "bytes": 291045376,
+          "suffix": ".sqlite",
+          "group": "data/corpus_clean_v1"
+        }
+      ]
+    },
+    "data/analysis_ready_v1": {
+      "files": 1,
+      "bytes": 45397498,
+      "by_suffix": {
+        ".parquet": 45397498
+      },
+      "by_child": {
+        "metadata.parquet": 45397498
+      },
+      "largest_files": [
+        {
+          "path": "data/analysis_ready_v1/metadata.parquet",
+          "bytes": 45397498,
+          "suffix": ".parquet",
+          "group": "data/analysis_ready_v1"
+        }
+      ]
+    },
+    "data/embeddings_v1": {
+      "files": 18633,
+      "bytes": 27533305342,
+      "by_suffix": {
+        ".lock": 0,
+        ".json": 3584608,
+        ".txt": 613,
+        ".sh": 368,
+        ".npy": 26881126656,
+        ".parquet": 648560763,
+        ".py": 32334
+      },
+      "by_child": {
+        ".run.lock": 0,
+        "minilm": 832775864,
+        "specter2": 1601301432,
+        "biobert": 4673541804,
+        "scincl": 1601301186,
+        "specter": 1601306550,
+        "bert": 4673518357,
+        "queue": 0,
+        "source_snapshot": 33315,
+        "simcse": 1601311201,
+        "scibert": 4673497810,
+        "pubmedbert": 4673492371,
+        "mpnet": 1601225452
+      },
+      "largest_files": [
+        {
+          "path": "data/embeddings_v1/specter2/shards/000220160-000221184/cls.npy",
+          "bytes": 3145856,
+          "suffix": ".npy",
+          "group": "data/embeddings_v1"
+        },
+        {
+          "path": "data/embeddings_v1/specter2/shards/000486400-000487424/cls.npy",
+          "bytes": 3145856,
+          "suffix": ".npy",
+          "group": "data/embeddings_v1"
+        },
+        {
+          "path": "data/embeddings_v1/specter2/shards/000304128-000305152/cls.npy",
+          "bytes": 3145856,
+          "suffix": ".npy",
+          "group": "data/embeddings_v1"
+        },
+        {
+          "path": "data/embeddings_v1/specter2/shards/000165888-000166912/cls.npy",
+          "bytes": 3145856,
+          "suffix": ".npy",
+          "group": "data/embeddings_v1"
+        }
+      ]
+    },
+    "data/analysis_v1": {
+      "files": 11473,
+      "bytes": 5994991984,
+      "by_suffix": {
+        ".json": 121341209,
+        ".lock": 0,
+        ".txt": 1664,
+        ".py": 231620,
+        ".npy": 5662934296,
+        ".parquet": 210482459,
+        ".sh": 736
+      },
+      "by_child": {
+        "shape": 65958907,
+        "centroid_random_groups": 414674,
+        "robustness_controls": 990641649,
+        "macro_controls": 15954140,
+        "neighbors": 1147130815,
+        "controls": 3774891799
+      },
+      "largest_files": [
+        {
+          "path": "data/analysis_v1/robustness_controls/equal2048_neighbors/arrays/minilm/mean/neighbors.npy",
+          "bytes": 53248128,
+          "suffix": ".npy",
+          "group": "data/analysis_v1"
+        },
+        {
+          "path": "data/analysis_v1/robustness_controls/equal2048_neighbors/arrays/specter2/cls/neighbors.npy",
+          "bytes": 53248128,
+          "suffix": ".npy",
+          "group": "data/analysis_v1"
+        },
+        {
+          "path": "data/analysis_v1/robustness_controls/equal2048_neighbors/arrays/biobert/mean/neighbors.npy",
+          "bytes": 53248128,
+          "suffix": ".npy",
+          "group": "data/analysis_v1"
+        },
+        {
+          "path": "data/analysis_v1/robustness_controls/equal2048_neighbors/arrays/biobert/sep/neighbors.npy",
+          "bytes": 53248128,
+          "suffix": ".npy",
+          "group": "data/analysis_v1"
+        }
+      ]
+    },
+    "data/checklist_v1": {
+      "files": 3518,
+      "bytes": 4671785666,
+      "by_suffix": {
+        ".json": 760000,
+        ".csv": 26934013,
+        ".py": 148259,
+        ".lock": 0,
+        ".parquet": 169464279,
+        ".txt": 1051,
+        ".npy": 4474477696,
+        ".sh": 368
+      },
+      "by_child": {
+        "existing_v2": 6750745,
+        "input_recipes": 132608658,
+        "input_comparisons": 161142865,
+        "text_profile": 8334,
+        "existing": 5331630,
+        "candidate_check": 2342758,
+        "inputs": 4363600676
+      },
+      "largest_files": [
+        {
+          "path": "data/checklist_v1/inputs/abstract_input.parquet",
+          "bytes": 17170484,
+          "suffix": ".parquet",
+          "group": "data/checklist_v1"
+        },
+        {
+          "path": "data/checklist_v1/inputs/title_input.parquet",
+          "bytes": 17168532,
+          "suffix": ".parquet",
+          "group": "data/checklist_v1"
+        },
+        {
+          "path": "data/checklist_v1/inputs/native_input.parquet",
+          "bytes": 16256068,
+          "suffix": ".parquet",
+          "group": "data/checklist_v1"
+        },
+        {
+          "path": "data/checklist_v1/input_comparisons/fields/32/neighbors.npy",
+          "bytes": 6000128,
+          "suffix": ".npy",
+          "group": "data/checklist_v1"
+        }
+      ]
+    },
+    "data/robustness_v2": {
+      "files": 20754,
+      "bytes": 11487717822,
+      "by_suffix": {
+        ".json": 3343128,
+        ".lock": 0,
+        ".npz": 314094008,
+        ".npy": 10614173046,
+        ".csv": 163846358,
+        ".parquet": 391703446,
+        ".py": 556198,
+        ".txt": 1270,
+        ".sh": 368
+      },
+      "by_child": {
+        "structural_review": 24923,
+        "centroid_scales": 324974287,
+        "temporal_review": 4421201,
+        "input_stability100": 50347725,
+        "subfields_native": 1081880486,
+        "subfield_controls": 150117797,
+        "control_review_v2": 5438542,
+        "family_traits": 474623,
+        "input_recipes": 257416908,
+        "medicine_composition": 30051820,
+        "provenance": 2300343,
+        "input_comparisons": 317358397,
+        "regions_native": 52363875,
+        "input_review": 870735,
+        "final_audit": 16072,
+        "structural_review_v2": 1532915,
+        "structural_review_v3": 1543749,
+        "control_review": 5437052,
+        "inputs": 8726616094,
+        "paired_neighbor_scales": 474530278
+      },
+      "largest_files": [
+        {
+          "path": "data/robustness_v2/regions_native/paper_agreement.parquet",
+          "bytes": 51798036,
+          "suffix": ".parquet",
+          "group": "data/robustness_v2"
+        },
+        {
+          "path": "data/robustness_v2/paired_neighbor_scales/models/minilm/neighbors.npy",
+          "bytes": 43400128,
+          "suffix": ".npy",
+          "group": "data/robustness_v2"
+        },
+        {
+          "path": "data/robustness_v2/paired_neighbor_scales/models/specter2/neighbors.npy",
+          "bytes": 43400128,
+          "suffix": ".npy",
+          "group": "data/robustness_v2"
+        },
+        {
+          "path": "data/robustness_v2/paired_neighbor_scales/models/biobert/neighbors.npy",
+          "bytes": 43400128,
+          "suffix": ".npy",
+          "group": "data/robustness_v2"
+        }
+      ]
+    },
+    "data/prepaper_v1": {
+      "files": 29,
+      "bytes": 19493088,
+      "by_suffix": {
+        ".json": 285623,
+        ".parquet": 2444920,
+        ".csv": 452467,
+        ".lock": 0,
+        ".npy": 16275128,
+        ".py": 31043,
+        ".md": 3907
+      },
+      "by_child": {
+        "source_quality": 40559,
+        "case_atlas": 19452529
+      },
+      "largest_files": [
+        {
+          "path": "data/prepaper_v1/case_atlas/anchored_edge_counts.npy",
+          "bytes": 16275128,
+          "suffix": ".npy",
+          "group": "data/prepaper_v1"
+        },
+        {
+          "path": "data/prepaper_v1/case_atlas/article_relations_k25.parquet",
+          "bytes": 1647922,
+          "suffix": ".parquet",
+          "group": "data/prepaper_v1"
+        },
+        {
+          "path": "data/prepaper_v1/case_atlas/papers.parquet",
+          "bytes": 437198,
+          "suffix": ".parquet",
+          "group": "data/prepaper_v1"
+        },
+        {
+          "path": "data/prepaper_v1/case_atlas/subfield_sensitivity_panels.csv",
+          "bytes": 390250,
+          "suffix": ".csv",
+          "group": "data/prepaper_v1"
+        }
+      ]
+    },
+    "data/morphology_pilot_v1": {
+      "files": 95,
+      "bytes": 33210905,
+      "by_suffix": {
+        ".json": 26216534,
+        ".parquet": 3971383,
+        ".log": 22860,
+        ".npz": 2924735,
+        ".lock": 0,
+        ".bib": 2248,
+        ".csv": 18217,
+        ".md": 7565,
+        ".py": 47363
+      },
+      "by_child": {
+        "audit.json": 4506,
+        "metrics.parquet": 3971383,
+        "report.log": 7105,
+        "parallel.log": 9095,
+        "run.log": 3153,
+        "independent_audit.log": 3507,
+        "inspected_pngs.json": 501,
+        "execution_manifest.json": 292,
+        "selections.npz": 2924735,
+        "manifest.json": 6775,
+        ".run.lock": 0,
+        "progress.json": 286,
+        "independent_audit.json": 3507,
+        "selection_audit.json": 130047,
+        "literature": 16537,
+        "synthetic": 18494,
+        "parts": 26051325,
+        "source_snapshot": 59657
+      },
+      "largest_files": [
+        {
+          "path": "data/morphology_pilot_v1/metrics.parquet",
+          "bytes": 3971383,
+          "suffix": ".parquet",
+          "group": "data/morphology_pilot_v1"
+        },
+        {
+          "path": "data/morphology_pilot_v1/selections.npz",
+          "bytes": 2924735,
+          "suffix": ".npz",
+          "group": "data/morphology_pilot_v1"
+        },
+        {
+          "path": "data/morphology_pilot_v1/parts/native__pubmedbert.json",
+          "bytes": 1071065,
+          "suffix": ".json",
+          "group": "data/morphology_pilot_v1"
+        },
+        {
+          "path": "data/morphology_pilot_v1/parts/native__biobert.json",
+          "bytes": 1067475,
+          "suffix": ".json",
+          "group": "data/morphology_pilot_v1"
+        }
+      ]
+    },
+    "data/field_pair_summary_v1": {
+      "files": 10,
+      "bytes": 3391198,
+      "by_suffix": {
+        ".json": 27929,
+        ".npz": 3331075,
+        ".md": 7446,
+        ".py": 24748
+      },
+      "by_child": {
+        "audit.json": 2340,
+        "contrast_index.json": 18559,
+        "contrasts.npz": 3331075,
+        "manifest.json": 4348,
+        "independent_audit.json": 769,
+        "source_snapshot": 34107
+      },
+      "largest_files": [
+        {
+          "path": "data/field_pair_summary_v1/contrasts.npz",
+          "bytes": 3331075,
+          "suffix": ".npz",
+          "group": "data/field_pair_summary_v1"
+        },
+        {
+          "path": "data/field_pair_summary_v1/source_snapshot/sos_pair_summary/analyze.py",
+          "bytes": 21587,
+          "suffix": ".py",
+          "group": "data/field_pair_summary_v1"
+        },
+        {
+          "path": "data/field_pair_summary_v1/contrast_index.json",
+          "bytes": 18559,
+          "suffix": ".json",
+          "group": "data/field_pair_summary_v1"
+        },
+        {
+          "path": "data/field_pair_summary_v1/source_snapshot/FIELD_PAIR_PROTOCOL.md",
+          "bytes": 7446,
+          "suffix": ".md",
+          "group": "data/field_pair_summary_v1"
+        }
+      ]
+    },
+    "data/robustness_closure_v1": {
+      "files": 3778,
+      "bytes": 7786289967,
+      "by_suffix": {
+        ".json": 6128108,
+        ".csv": 56313840,
+        ".lock": 0,
+        ".npy": 11382432,
+        ".parquet": 1227962,
+        ".dylib": 33536,
+        ".npz": 7710980256,
+        ".md": 34525,
+        ".py": 185434,
+        ".c": 3874
+      },
+      "by_child": {
+        "centres": 6733079365,
+        "quality": 997640088,
+        "headline": 49046743,
+        "morphology": 6435246,
+        "technical": 33914,
+        "summary": 54611
+      },
+      "largest_files": [
+        {
+          "path": "data/robustness_closure_v1/centres/models/specter2/nested26.npz",
+          "bytes": 159744514,
+          "suffix": ".npz",
+          "group": "data/robustness_closure_v1"
+        },
+        {
+          "path": "data/robustness_closure_v1/centres/models/biobert/nested26.npz",
+          "bytes": 159744514,
+          "suffix": ".npz",
+          "group": "data/robustness_closure_v1"
+        },
+        {
+          "path": "data/robustness_closure_v1/centres/models/scincl/nested26.npz",
+          "bytes": 159744514,
+          "suffix": ".npz",
+          "group": "data/robustness_closure_v1"
+        },
+        {
+          "path": "data/robustness_closure_v1/centres/models/specter/nested26.npz",
+          "bytes": 159744514,
+          "suffix": ".npz",
+          "group": "data/robustness_closure_v1"
+        }
+      ]
+    },
+    "reports": {
+      "files": 395,
+      "bytes": 104387289,
+      "by_suffix": {
+        ".csv": 80097437,
+        ".json": 433467,
+        ".png": 6819508,
+        ".pdf": 1311457,
+        ".svg": 2550297,
+        ".md": 12886,
+        ".py": 83323,
+        ".parquet": 13078914
+      },
+      "by_child": {
+        "field_pair_summary_v1": 4047224,
+        "prepaper_v1": 1111984,
+        "morphology_pilot_v1": 3722399,
+        "robustness_closure_v1": 8179695,
+        "analysis_v1": 53003038,
+        "checklist_v1": 27395206,
+        "robustness_v2": 6927743
+      },
+      "largest_files": [
+        {
+          "path": "reports/analysis_v1/preview/article_neighbor_stability.parquet",
+          "bytes": 6539457,
+          "suffix": ".parquet",
+          "group": "reports"
+        },
+        {
+          "path": "reports/analysis_v1/final/article_neighbor_stability.parquet",
+          "bytes": 6539457,
+          "suffix": ".parquet",
+          "group": "reports"
+        },
+        {
+          "path": "reports/robustness_closure_v1/morphology_directions.csv",
+          "bytes": 6190854,
+          "suffix": ".csv",
+          "group": "reports"
+        },
+        {
+          "path": "reports/analysis_v1/preview/tables/centroid_control_distances.csv",
+          "bytes": 4108464,
+          "suffix": ".csv",
+          "group": "reports"
+        }
+      ]
+    },
+    "manuscript": {
+      "files": 228,
+      "bytes": 41035802,
+      "by_suffix": {
+        ".bib": 28347,
+        ".tex": 142371,
+        ".md": 8399,
+        ".sh": 869,
+        ".json": 227023,
+        ".tiff": 4563690,
+        ".svg": 531381,
+        ".pdf": 300534,
+        ".png": 2130509,
+        ".py": 91950,
+        ".csv": 32966431,
+        ".pyc": 44298
+      },
+      "by_child": {
+        "context_references.bib": 1119,
+        "preamble.tex": 2250,
+        "references.bib": 27228,
+        "supplement.tex": 38501,
+        "main.tex": 49842,
+        "README.md": 8399,
+        "build.sh": 869,
+        "tables": 23651094,
+        "figures": 17120252,
+        "scripts": 136248
+      },
+      "largest_files": [
+        {
+          "path": "manuscript/tables/data/S20/morphology_directions.csv",
+          "bytes": 6190854,
+          "suffix": ".csv",
+          "group": "manuscript"
+        },
+        {
+          "path": "manuscript/tables/data/S15/morphology_directions.csv",
+          "bytes": 6190854,
+          "suffix": ".csv",
+          "group": "manuscript"
+        },
+        {
+          "path": "manuscript/figures/data/figure_S04/trajectories.csv",
+          "bytes": 4218339,
+          "suffix": ".csv",
+          "group": "manuscript"
+        },
+        {
+          "path": "manuscript/figures/data/figure_S06/shape_all_stages.csv",
+          "bytes": 3612551,
+          "suffix": ".csv",
+          "group": "manuscript"
+        }
+      ]
+    },
+    "manuscript_es": {
+      "files": 231,
+      "bytes": 41042477,
+      "by_suffix": {
+        ".bib": 28347,
+        ".tex": 157871,
+        ".md": 5298,
+        ".sh": 872,
+        ".json": 234037,
+        ".tiff": 4590992,
+        ".svg": 531587,
+        ".pdf": 270837,
+        ".png": 2142214,
+        ".py": 93438,
+        ".csv": 32966431,
+        ".pyc": 20553
+      },
+      "by_child": {
+        "context_references.bib": 1119,
+        "preamble.tex": 2291,
+        "references.bib": 27228,
+        "supplement.tex": 44271,
+        "main.tex": 56353,
+        "README.md": 5298,
+        "build.sh": 872,
+        "tables": 23654981,
+        "figures": 17136073,
+        "scripts": 113991
+      },
+      "largest_files": [
+        {
+          "path": "manuscript_es/tables/data/S20/morphology_directions.csv",
+          "bytes": 6190854,
+          "suffix": ".csv",
+          "group": "manuscript_es"
+        },
+        {
+          "path": "manuscript_es/tables/data/S15/morphology_directions.csv",
+          "bytes": 6190854,
+          "suffix": ".csv",
+          "group": "manuscript_es"
+        },
+        {
+          "path": "manuscript_es/figures/data/figure_S04/trajectories.csv",
+          "bytes": 4218339,
+          "suffix": ".csv",
+          "group": "manuscript_es"
+        },
+        {
+          "path": "manuscript_es/figures/data/figure_S06/shape_all_stages.csv",
+          "bytes": 3612551,
+          "suffix": ".csv",
+          "group": "manuscript_es"
+        }
+      ]
+    },
+    "config": {
+      "files": 21,
+      "bytes": 272079,
+      "by_suffix": {
+        ".json": 272079
+      },
+      "by_child": {
+        "medicine_composition_v1.json": 1336,
+        "field_pairs_v1.json": 1913,
+        "robustness_closure_v1.json": 1284,
+        "input52_recipes_v1.json": 1105,
+        "input52_v1.json": 4836,
+        "analysis_v1.json": 3463,
+        "corpus.json": 425,
+        "scale_checks_v1.json": 1030,
+        "checklist_v1.json": 4633,
+        "embeddings_v1.json": 6454,
+        "checklist_input_recipes_v1.json": 1033,
+        "family_traits_v2.json": 3033,
+        "subfield_controls_v1.json": 873,
+        "case_atlas_v1.json": 2682,
+        "neighbors_v1.json": 747,
+        "cleaning_v1.json": 229013,
+        "input_stability100_v1.json": 565,
+        "paired_neighbor_scales_v1.json": 810,
+        "smoke.json": 549,
+        "morphology_pilot_v1.json": 4729,
+        "subfields_native_v1.json": 1566
+      },
+      "largest_files": [
+        {
+          "path": "config/cleaning_v1.json",
+          "bytes": 229013,
+          "suffix": ".json",
+          "group": "config"
+        },
+        {
+          "path": "config/embeddings_v1.json",
+          "bytes": 6454,
+          "suffix": ".json",
+          "group": "config"
+        },
+        {
+          "path": "config/input52_v1.json",
+          "bytes": 4836,
+          "suffix": ".json",
+          "group": "config"
+        },
+        {
+          "path": "config/morphology_pilot_v1.json",
+          "bytes": 4729,
+          "suffix": ".json",
+          "group": "config"
+        }
+      ]
+    }
+  },
+  "public": {
+    "url": "https://github.com/aleetreny/Shape-of-Science-Robustness",
+    "private": false,
+    "head": "44c941019ecc34417641929ada97da79bf12fe58",
+    "committed_at": "2026-09-17T21:23:13Z",
+    "license": null,
+    "tree_truncated": false,
+    "tracked_files": 852,
+    "important_paths": {
+      "manuscript/main.tex": false,
+      "sos_morphology/run.py": false,
+      "sos_pair_summary/analyze.py": false,
+      "sos_closure/morphology.py": false,
+      "sos_closure/centres.py": false,
+      "sos_closure/headline.py": false,
+      "sos_closure/quality.py": false,
+      "LICENSE": false,
+      "CITATION.cff": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "robustness_closure_v1",
+  "seed": "sos-final-closure-2026-09-20-v1",
+  "output": "data/robustness_closure_v1",
+  "reports": "reports/robustness_closure_v1",
+  "models": ["specter", "specter2", "scincl", "scibert", "bert", "mpnet", "minilm", "pubmedbert", "biobert", "simcse"],
+  "word_models": ["scibert", "bert", "pubmedbert", "biobert"],
+  "fields": [11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36],
+  "periods": [2000,2005,2010,2015,2020],
+  "centres": {"repeats": 50, "sizes": [128,256,512], "primary_size": 256, "nested_outer": 50, "nested_inner": 10},
+  "headline": {"repeats": 50, "per_period": 200, "k": [10,25,50], "alternative_readout_k": 25, "score_decimals": 12},
+  "morphology": {"conditions": 26, "floors": [0.0,0.01,0.05,0.10], "tolerance": 1e-10, "metrics": ["angle_p50","pr"], "alternatives": ["erank","d80"]},
+  "quality": {"rule": "sos_analysis.run_shape.strict_quality", "expected_retained": 448886, "fixed_candidate_counts": [1024,2048], "fixed_queries": 100, "input_per_period": 200, "input_queries_per_period": 20, "k": [10,25,50]},
+  "interpretation": "Descriptive within-corpus sensitivity, not population confidence intervals, formal randomisation tests, independent model observations or thematic accuracy."
+}

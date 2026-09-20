@@ -1,3 +1,242 @@
+# Tarea activa: novedad, GitHub y depósito reproducible
+
+1. Integrar tres párrafos en ambos idiomas y verificar PDF: **complete**; 49 páginas revisadas, cifras y archivos protegidos intactos.
+2. Preparar datos numéricos, licencias, diccionario y comprobadores portables: **complete**; 19 ZIP/58.201 archivos.
+3. Probar la entrega desde archivos independientes y revisar exclusiones: **complete** dentro de la cobertura declarada, no repetición completa del estudio.
+4. Actualizar GitHub y guardar borrador Zenodo: **in progress**; borrador guardado con DOI reservado. Carga manual pendiente por selector no operativo.
+5. Verificar el commit público y entregar pasos finales: **pending**.
+
+# Tarea terminada: novedad y vía de reproducción pública, 20-09-2026
+
+1. Contrastar la aportación con antecedentes y versiones actuales: **complete**; búsqueda dirigida con límites de lectura registrados.
+2. Comprobar política QSS y opciones de depósito: **complete** dentro del acceso disponible; guía oficial indexada, acceso directo 403.
+3. Auditar estado público y archivos locales: **complete**; remoto `44c9410` y tamaños guardados.
+4. Preparar redacción EN/ES y especificación de paquete: **complete**; son propuestas separadas, no cambios ya aprobados al artículo.
+5. Comprobar un ejemplo autónomo de reproducción: **complete** para parte de Figura 4. El paquete científico completo sigue **pending**, igual que licencias, depósito y envío.
+
+Entrega: [NOVELTY_AND_REPRODUCIBILITY.md](NOVELTY_AND_REPRODUCIBILITY.md). No hubo experimentos nuevos, modificación del manuscrito, commit/push o publicación.
+
+---
+
+# Tarea terminada: revisión completa para una primera lectura, 20-09-2026
+
+Petición: releer todo el artículo sin asumir contexto y entregar una versión más comprensible conservando la personalidad.
+
+1. Leer artículo completo, tablas y pies; identificar conceptos y transiciones sin explicación: **complete**.
+2. Revisar inglés y español, con nombres de conjuntos, ejemplos y significado de cifras: **complete**.
+3. Comprobar correspondencia, cifras y archivos científicos conservados: **complete**.
+4. Compilar e inspeccionar ambos PDF; reconstruir paquetes editables: **complete**. 49 páginas inspeccionadas, 522 archivos protegidos intactos y ambos paquetes reproducen exactamente sus PDF. Cierre: `research/first_reader_review_2026-09-20/closure_audit.json`.
+
+Entrega: `FIRST_READER_REVIEW.md`. Continuación: comentarios del autor; no reabrir experimentos.
+
+---
+
+# Tarea terminada: aclarar los 38 comentarios del PDF, 20-09-2026
+
+1. Contrastar ejemplos con metadatos y resultados guardados: **complete**.
+2. Revisar artículo y Tabla 1 en ambos idiomas: **complete**.
+3. Compilar, comprobar cifras/referencias y revisar 43 páginas: **complete**.
+4. Actualizar registros y paquetes editables: **complete**; comprobación final en `research/manuscript_explanations_2026-09-20/closure_audit.json`.
+
+Entrega: `MANUSCRIPT_EXPLANATIONS.md`. Título y tono conservados. Apartado de IA retirado por petición expresa, con historial real conservado y requisitos de envío pendientes de comprobar. Sin nuevos experimentos, publicación, commit/push ni cambios al suplemento. Continuar con los comentarios personales del autor.
+
+---
+
+# Tarea terminada: aclarar el abstract, 20-09-2026
+
+Petición editorial explícita. Mantener el comienzo que gusta al autor y explicar qué se hace en cada comparación. No reabrir decisiones científicas.
+
+1. Reescribir abstract inglés y español, manteniendo alcance y resultados: **complete**.
+2. Compilar, verificar cambios limitados al abstract y revisar maquetación: **complete**. Solo cambian visualmente las páginas 1–2 inglesas y la 1 española; inspeccionadas. Las demás páginas son imágenes idénticas a las ya revisadas.
+3. Actualizar paquetes y registros; entregar texto legible en el chat: **complete**. Ambos ZIP reconstruyen exactamente sus documentos. 457 archivos protegidos intactos; original conservado. Entrega en `ABSTRACT_CLARITY.md`.
+
+---
+
+# Tarea terminada: último cierre de robustez, 20-09-2026
+
+Alcance delegado: `ROBUSTNESS_CLOSURE_SCOPE.md`. Tono claro aceptado. Entrega: `ROBUSTNESS_CLOSURE_REPORT.md` y `ROBUSTNESS_MANUSCRIPT_CHANGELOG.md`.
+
+1. Auditoría previa y protocolo reproducible: **complete**.
+2. Centros, tamaños, referencias y omisiones; contraste directo modelo/entrada: **complete**.
+3. Centrado global y alternativas completas; calidad y vecinos: **complete**.
+4. Auditoría de once afirmaciones y congelación numérica: **complete**.
+5. Ambos idiomas, figuras, informes, cuatro PDF y paquetes reproducibles: **complete**. 122 páginas revisadas; 22 grupos de tablas y 15 figuras. Inglés: 4,570 palabras de cuerpo y 192 de resumen.
+
+No quedan cálculos activos. Los originales están archivados, los programas científicos sellados y las automatizaciones siguen pausadas. Continuar con la lectura personal del autor; no repetir pruebas ni publicar por retomar.
+
+---
+
+# Tarea terminada: reescritura clara sobre la voz 2, 20-09-2026
+
+El autor elige la voz 2 y pide rehacer la explicación: vocabulario sencillo, conceptos definidos antes de usarlos, comparaciones identificables y un resumen comprensible. Autoriza actualizar el manuscrito principal en inglés y español y las explicaciones comunes necesarias del suplemento. Se conservan las versiones anteriores y los resultados científicos.
+
+1. Leer el texto y localizar los saltos de explicación: **complete**.
+2. Reescribir el artículo, explicar la función de cada muestra y simplificar resumen, tablas y pies: **complete**. Seis secciones en ambos idiomas; suplemento con guía de lectura. Inglés: 3.989 palabras de cuerpo y 192 de resumen.
+3. Mantener trazabilidad de cifras, límites y fuentes; revisar traducción y PDF: **complete**. Afirmaciones, cifras, fórmulas y citas comprobadas; 109 páginas inspeccionadas. Resultados y seis alternativas anteriores intactos.
+4. Actualizar fuentes, paquetes y continuidad; entregar para lectura personal: **complete**. Dos ZIP de 186/190 archivos reconstruyen exactamente los cuatro PDF. Reexportación de tablas comprobada. AGENTS y AUTHOR_VOICE recogen la petición de claridad.
+
+La versión 2 queda aceptada como orientación de voz, no como aprobación del contenido completo. Entrega vigente: `MANUSCRIPT_CLARITY.md`. Continuar con la lectura y los comentarios del autor; no ejecutar nuevos análisis ni publicar.
+
+---
+
+# Tarea terminada: tres versiones con más voz de autor, 19-09-2026
+
+El autor conserva el título actual y pide tres redacciones completas, con identidad creciente, en inglés y español. Se preparan seis alternativas del artículo principal; las tablas, figuras, declaraciones y el suplemento técnico son comunes. El borrador canónico se conserva hasta que el autor elija. No se modifican resultados, controles ni decisiones científicas.
+
+1. Leer la guía de voz, el estudio de QSS y el texto vigente; fijar los tres registros: **complete**.
+2. Redactar tres versiones completas en dos idiomas, con contenido científico equivalente: **complete**. Se reescriben 30/33/35 párrafos por idioma, con todas las secciones presentes y métodos comunes precisos.
+3. Contrastar cifras, citas, límites y traducción; compilar y revisar los seis PDF: **complete**. 120 páginas inspeccionadas, 751 archivos previos intactos y seis PDF reproducidos exactamente desde el ZIP extraído.
+4. Entregar una comparación breve, recomendar una opción y registrar continuidad: **complete**. MANUSCRIPT_VOICES.md compara las voces. Se recomienda V2; la elección sigue pendiente.
+
+Entrega: seis PDF en output/pdf/voice_variants/, fuentes en manuscript_variants/ y paquete editable de 93 archivos. Inglés: 4.250/4.339/4.462 palabras de cuerpo y 19 páginas por versión; español: 21 páginas por versión. El título está aceptado, los originales se conservan y no hay nuevos cálculos científicos. Continuar con la elección o comentarios del autor.
+
+---
+
+# Tarea terminada: cinco comentarios del autor sobre el PDF, 18-09-2026
+
+Petición directa: mejorar alineación y separación de filas en tablas, reconsiderar título y utilidad del panel de forma interna, y acortar la declaración de IA comprobando las normas. Cambios editoriales sincronizados en inglés y español; sin nuevos cálculos científicos.
+
+1. Conservar entregas previas y verificar política editorial: **complete**.
+2. Aplicar cambios concretos de tablas, título, figura y declaración: **complete**.
+3. Compilar ambas versiones, revisar páginas y verificar datos/fuentes: **complete**.
+4. Registrar respuesta a cada comentario y entregar: **complete**.
+
+
+Entrega: `MANUSCRIPT_COMMENTS.md`; cuatro PDF revisados y dos paquetes fuente recompilados exactamente. Las cinco correcciones están sincronizadas; resultados científicos y auditorías anteriores conservados. Seguir con la revisión personal del autor.
+
+---
+
+# Tarea terminada: versión española para revisión personal, 18-09-2026
+
+Petición directa: disponer del texto en español para revisarlo en la lengua materna del autor. Se prepara una traducción completa del artículo y suplemento en una carpeta separada, conservando cifras, fórmulas, citas, límites y originales ingleses. No autoriza otros análisis o publicación.
+
+1. Conservar e identificar los originales: **complete**.
+2. Traducir texto, tablas y rótulos de presentación: **complete**. Artículo y suplemento íntegros, 19 grupos de tablas y 14 figuras.
+3. Compilar y revisar fidelidad y todas las páginas: **complete**. 21 y 35 páginas inspeccionadas; cifras, fórmulas, citas y 98 CSV comprobados; 188 archivos del original inglés conservados.
+4. Entregar PDF y fuente de revisión; registrar continuidad: **complete**. `MANUSCRIPT_SPANISH.md`; ZIP de 188 archivos recompilado con PDF idénticos. La revisión personal del autor queda pendiente.
+
+Continuación: recoger los comentarios del autor usando los mismos números de sección, tabla y figura. Trasladar solo los cambios solicitados al inglés; no rehacer el estudio ni interpretar la traducción como aprobación del borrador. Evidencia en `research/manuscript_spanish_2026-09-18/`.
+
+---
+
+# Tarea terminada: manuscrito completo y revisión editorial/visual, 18-09-2026
+
+Petición directa: redactar el resto y revisar tono, coherencia, interés, extensión, tablas y todas las gráficas. Autoriza completar el cuerpo y suplemento, revisar también la apertura y mejorar la presentación de resultados guardados. No autoriza nuevos experimentos, cambios de criterios, publicación o declaraciones personales supuestas. Datos de autoría/afiliación/financiación/intereses consultados sin detener la redacción independiente.
+
+1. Verificar métodos, resultados y fuentes; conservar el borrador anterior: **complete**. Veinte documentos archivados y 150 archivos de informes científicos intactos.
+2. Completar cuerpo, resumen, conclusión y explicaciones del suplemento: **complete**. 4.383 palabras de cuerpo y 190 de resumen; ocho secciones suplementarias. Autoría, trabajo independiente, ausencia de financiación y de conflictos confirmados directamente.
+3. Revisar las 14 figuras y 19 grupos de tablas; mejorar claridad y legibilidad sin alterar la evidencia: **complete**. Escalas, etiquetas, distinción de direcciones y paginación ajustadas; 98 adjuntos CSV comprobados.
+4. Editar el texto completo por voz, coherencia y repetición; contrastar cifras y citas: **complete**. Menor extensión que el presupuesto, hilo único, límites visibles; 26 referencias sin errores formales y afirmaciones revisadas contra fuentes.
+5. Compilar, inspeccionar todas las páginas, comprobar paquete y actualizar continuidad: **complete**. 19 páginas principales y 33 suplementarias inspeccionadas; ZIP de 184 archivos recompilado con PDF idénticos. Evidencia en `research/manuscript_full_2026-09-18/`.
+
+Objetivo de extensión: unas 4.500–5.000 palabras de cuerpo, como guía propia, sin rellenar hasta una cifra. Primera copia conservada en `research/manuscript_full_2026-09-18/baseline_documents/` y `data/manuscript_full_v1/baseline/`. Los informes y programas científicos siguen congelados.
+
+Entrega: `MANUSCRIPT_REVIEW.md`, `manuscript/`, `output/pdf/` y `output/manuscript_source.zip`. Continuación: lectura personal del autor y cambios que solicite. Antes de enviar quedan correspondencia, depósito/licencia y revisión de normas. No hubo nuevos experimentos, commit/push, depósito ni envío.
+
+---
+
+# Tarea terminada: introducción y antecedentes del manuscrito, 18-09-2026
+
+El usuario pide redactar `Introduction` y `Background and research questions`, con su voz y sin alargar el artículo. Esta petición sustituye para estos dos bloques la recomendación anterior de empezar por métodos/resultados. Por el contexto, la frase final se interpreta como evitar una estructura rígida que parezca artificial; se ha explicitado esta interpretación al usuario. No autoriza escribir automáticamente las demás secciones ni cambiar el estudio.
+
+1. Revisar voz, plano, fuentes próximas y límites: **complete**.
+2. Escribir los dos bloques en inglés claro, con unas 1.100 palabras conjuntas: **complete**. Primer borrador de 994 palabras de prosa (367 + 627).
+3. Comprobar afirmaciones/citas y actualizar PDF y fuentes editables: **complete**. Ocho antecedentes en la apertura; 17 referencias únicas incluyendo la tabla de modelos, sin errores de validación. ZIP recompilado, idéntico al PDF entregado.
+4. Revisar lectura y presentación; dejar constancia y entregar: **complete**. Apertura en páginas 3–5; 17 páginas principales revisadas. Resultados, figuras, tablas, secciones posteriores y suplemento conservados.
+
+La maqueta anterior, sus documentos y su paquete se conservan en `research/manuscript_opening_2026-09-18/baseline_documents/` y `data/manuscript_opening_v1/baseline/`. Los resultados y elementos gráficos permanecen intactos.
+
+Entrega: `manuscript/main.tex`, `output/pdf/main.pdf`, ZIP actualizado y `research/manuscript_opening_2026-09-18/CLAIM_REVIEW.md`. Continuar con la revisión del autor o los bloques que solicite; no escribir automáticamente el resto.
+
+---
+
+# Tarea terminada: tablas, figuras y maqueta LaTeX para QSS, 18-09-2026
+
+El usuario pide generar todos los elementos del plano y ver la estructura renderizada. Autoriza presentación y esqueleto editable, no redacción íntegra, nuevos análisis, depósito o envío. Se conserva el cierre anterior en `research/manuscript_layout_2026-09-18/baseline_documents/`.
+
+1. Confirmar formato y preservar procedencia: **complete**.
+2. Exportar 2 tablas y 4 figuras principales, 17 grupos de tablas y 10 figuras suplementarias, con datos trazables: **complete**.
+3. Montar LaTeX editable, compilar manuscrito y suplemento: **complete**.
+4. Revisar todas las páginas, cifras, referencias y conservación; entregar PDF y comando: **complete**.
+
+La guía QSS indexada admite formato flexible en primera entrega. No se ha localizado una plantilla oficial específica. Usar una maqueta propia identificada como tal; mantener los campos personales pendientes y señalar el texto de planificación.
+
+Entrega: `MANUSCRIPT_LAYOUT.md`, `manuscript/`, dos PDF de 14 y 32 páginas en `output/pdf/` y paquete editable `output/manuscript_source.zip`. Todas las páginas revisadas; 98 adjuntos CSV trazables, 14 figuras en cuatro formatos y 19 grupos de tablas comprobados. El ZIP extraído compila y produce PDF idénticos a los entregados. Auditorías en `research/manuscript_layout_2026-09-18/`. Los 150 archivos de resultados previos y el cierre anterior permanecen intactos. Prosa completa, datos personales y envío pendientes; sin cálculos científicos nuevos ni publicación.
+
+---
+
+# Tarea actual: guía detallada de escritura y voz del autor, 18-09-2026
+
+El usuario acepta avanzar sobre la propuesta y pide secciones, nombres, contenido y posición de tablas/figuras, junto con una guía de voz basada en sus artículos del repositorio aleetreny.github.io. Autoriza esta preparación y la investigación bibliográfica sobre estilo; todavía no pide redactar el manuscrito completo, recalcular resultados ni publicar.
+
+1. Identificar y leer todos los artículos de autor disponibles; separar traducciones, muestras y documentación automática: **complete**.
+2. Contrastar estudios primarios sobre rasgos de escritura asistida y límites de identificación: **complete**.
+3. Preparar guía de voz con ejemplos trazables y adaptación al registro académico: **complete**.
+4. Detallar el manuscrito hasta párrafos, tablas, figuras, citas, evidencias y suplemento: **complete**.
+5. Comprobar consistencia, enlaces y conservación; actualizar continuidad: **complete**.
+
+No se promete autoría detectable o indetectable; el objetivo es una voz propia, clara y fiel a la evidencia. No se modifica el portfolio ni se usa su documentación técnica como muestra personal. El cierre previo está conservado en `research/writing_blueprint_2026-09-18/baseline_documents/`.
+
+
+Entrega: `MANUSCRIPT_BLUEPRINT.md`, `AUTHOR_VOICE.md` y `research/writing_blueprint_2026-09-18/`. Leídas 50 entradas españolas, contrastadas cuatro fuentes primarias, preparadas dos tablas y 23 registros de evidencia para cifras. Plano de 48 párrafos/6.750 palabras previstas, cuatro figuras principales y suplemento numerado. Cierre de integridad en `closure_audit.json`; todavía no se ha redactado el manuscrito.
+
+---
+
+# Tarea actual: estudiar la estructura y el lenguaje de QSS, 18-09-2026
+
+El usuario pide una revisión amplia de artículos publicados en QSS cercanos a nuestro estudio y una propuesta concreta de organización. Se autoriza investigar y proponer la estructura; no redactar el manuscrito ni iniciar nuevos cálculos científicos, depósitos o publicaciones. El cierre anterior está conservado en `research/qss_structure_2026-09-18/baseline_documents/`.
+
+1. Fijar cobertura y criterios; consultar normas oficiales y catálogo de la revista: **complete**.
+2. Seleccionar estudios pertinentes y revisar sus textos completos, organización y forma de argumentar: **complete**.
+3. Separar normas, prácticas observadas y recomendaciones; documentar fuentes, cobertura y límites: **complete**.
+4. Aplicar los hallazgos a nuestro estudio: preguntas, secciones, figuras, límites y suplemento: **complete**.
+5. Verificar evidencia y enlaces; actualizar continuidad y entregar propuesta: **complete**.
+
+Criterio: no confundir artículos aceptados con reglas editoriales, ni fichas bibliográficas con lectura completa. La revisión será amplia y delimitada, sin afirmar que se ha leído todo lo publicado en la revista. Conservar todos los resultados y alertas científicos previos.
+
+Entregas: `QSS_STRUCTURE_REVIEW.md`, `PAPER_OUTLINE.md`, matriz de 34 artículos y notas de versiones/lectura. Comprobaciones en `research/qss_structure_2026-09-18/closure_audit.json`. Revisión terminada; propuesta pendiente de conversar.
+
+---
+
+# Tarea terminada: resumen final de las 325 parejas de áreas, 18-09-2026
+
+El usuario acepta este último resumen y después decidir cómo organizar el manuscrito. Reutilizar resultados guardados; no ejecutar inferencia, nuevos índices o extracción. Cierre previo conservado en `research/field_pair_summary_2026-09-18/baseline_documents/`.
+
+1. Fijar reglas, cobertura, controles y límite antes de los nuevos recuentos: **complete**. `FIELD_PAIR_PROTOCOL.md`, `config/field_pairs_v1.json`.
+2. Implementar resumen separado y comprobar reglas con casos conocidos: **complete**. Once pruebas: acuerdo/oposición, empates, cambio de signo, diferencias pequeñas, inversión de áreas, escala, permutación y testigos idénticos.
+3. Calcular todas las parejas, alternativas, tamaños mínimos y controles disponibles: **complete**. 650 comparaciones área–propiedad y 6.500 decisiones por modelo; doce tablas.
+4. Contrastar recuentos de forma independiente y preparar tablas/figuras legibles: **complete**. Verificados 442.000 contrastes guardados y reglas por cocientes independientes; dos figuras inspeccionadas.
+5. Cerrar resultados, límites, propuesta de integración y continuidad: **complete**. `FIELD_PAIR_RESULTS.md`, `METHODS_FIELD_PAIRS.md`, catálogo, índice y propuesta de figuras actualizados; evidencia de cierre en `research/field_pair_summary_2026-09-18/closure_audit.json`.
+
+## Incidencias de esta fase
+
+- La primera lectura conjunta superó el límite de salida; se acotaron las siguientes lecturas. No cambió ningún dato ni se calcularon recuentos antes del protocolo.
+- La primera exportación invertía dos veces un eje compartido: se corrigió solo el orden visual de los mínimos. Se ajustó la letra del segmento de diez parejas para que cupiera; sin cambios de cifras o reglas.
+
+---
+
+# Tarea terminada: piloto de morfología, 18-09-2026
+
+El usuario pide explorar qué propiedades concretas de la forma cambian entre modelos/áreas, con alternativas y controles de estabilidad. Delega las decisiones necesarias de este piloto. Se conserva el cierre científico anterior y el commit publicado `44c9410`. No se inicia manuscrito, nueva inferencia, extracción ni publicación.
+
+1. Revisar medidas, antecedentes y reutilización; fijar protocolo antes de ver los nuevos resultados: **complete**.
+2. Implementar medidas separadas; pruebas matemáticas, nubes simuladas y controles negativos: **complete**. Nueve nubes y quince referencias; se rechaza interpretar conexión como fragmentación genérica.
+3. Ejecutar comparación emparejada de diez modelos y 26 áreas, con controles de tamaño, selección, receta, texto y período acotados: **complete**. 16.884 conjuntos de medidas, diez modelos y controles completados. Protocolo y fuentes congelados; 1.406 selecciones deterministas preparadas.
+4. Evaluar concordancia entre medidas, límites y aporte al paper; presentar tablas y figuras verificadas: **complete**. `MORPHOLOGY_RESULTS.md`, veinte tablas y cinco figuras. Apertura/PR aprovechables con límites; conexión no validada como fragmentación temática.
+5. Auditar procedencia/cálculos/entrega y actualizar continuidad: **complete**. Auditoría independiente y simulada; cierre y revisión visual en `research/morphology_2026-09-18/`. Fuentes originales intactas, cuatro alertas de PR y 51 de conexión conservadas; biblioteca de 54 referencias y continuidad actualizadas.
+
+Criterio: distinguir extensión, número de direcciones y separación en grupos. No equiparar una métrica estable con validez temática, ni seleccionar la medida que produzca diferencias mayores. No se garantiza aceptación editorial.
+
+## Incidencias del piloto
+
+- Interrupción deliberada del ejecutor secuencial tras un bloque completo para distribuir modelos entre tres procesos; fuentes científicas intactas y bloque verificado reutilizado.
+- El visor web no leyó un BibTeX de JMLR por tipo de contenido; se obtuvo con peticiones HTTP y se verificó. La página de Nature pidió cookies en una consulta posterior; se conserva lectura previa y se comprueban metadatos por DOI.
+
+- Lecturas iniciales demasiado extensas truncaron la salida; se repitieron solo los fragmentos necesarios. Sin cambios de datos ni cálculos científicos.
+- El validador bibliográfico requiere requests, ausente en el entorno numérico. Se ejecutó en el entorno de consultas ya existente, sin instalar dependencias ni modificar entornos congelados; 54 entradas comprobadas.
+
+---
+
 # Tarea terminada: commit y push antes del manuscrito
 
 17-09-2026. **Completado.** Primer commit científico `8c1a9e3` publicado y verificado en `main` de `aleetreny/Shape-of-Science-Robustness`: mismo identificador, contenido y README que en local. Ramas temporales retiradas; `main` sigue `origin/main`. Se incluyen código, documentación, tablas y figuras; corpus, vectores, claves y material local excluido permanecen fuera de Git. La actualización documental posterior registra este cierre. No se inició el texto del paper. Evidencia: `research/github_release_2026-09-17/publication_verification.json`.

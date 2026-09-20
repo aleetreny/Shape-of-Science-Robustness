@@ -1,0 +1,20 @@
+{
+  "commit": "44c941019ecc34417641929ada97da79bf12fe58",
+  "files": {
+    "references/references.bib": "17733d5bd4641164cd2190338904ea3df744ea2c84257e70b87a4544384cafc3",
+    "references/index.json": "e7b8cd29e5b2c6ac190acf2705265851297d162df2d2b9d276000e89ed665b1c",
+    "references/README.md": "a1d26ba6a75c5e953cb52c5a84a6524e7ae4c365458a60f1f4e89e232e7e2a6c",
+    "references/RELATED_WORK.md": "45504276fb89b53caa8425f9406dee710b39fe2684c21aaa8ae566c0eda86939",
+    "README.md": "3608df689643887f8c80911407d385651f802d704bbb848edb2bee18fbdd38f5",
+    "AGENTS.md": "368594c60b24eccd76c5a9ceaa9fdef97db817a78cfb0b03984f030f27935ed3",
+    "task_plan.md": "fb693fbf1711ae1a8d739066a106846b5c73baff2cc801dd438eae8a04bd98a8",
+    "progress.md": "3a24596493d9c2b23b77edca913566a75b2cd5bca4d625b81162b7e851851acf",
+    "DECISIONS.md": "8a5a45b698cc0a4fcfac2a47af77a085d18865cfaf994317927af844d91505ea",
+    "findings.md": "7f20108eb19f0d4f18586cd5ea5ad0c6f485ba5e2467850a8824d93830177ef9",
+    "NEXT_STEPS.md": "9a3c2c73f56eac33e5ab007dc0958a43843155384d804ec2b994d067cae4f28f",
+    "docs/INDEX.md": "12b9f78a5734ecbb3178013180f5939f5324fbe23dbfaf71dc0d67433dee8788",
+    "PAPER_OUTLINE.md": "3c4346dda941ec13c692aa46fded6e2b307350fdabc7cdcacc570734fd526bd3",
+    "DATA_CATALOG.md": "86d9025d3750ccd4bb14f887982c998315ccd38f682ec6d2c7322274746c5a66",
+    "docs/REPRODUCING.md": "dbcf7ee57c6c4a6f78b215424f1ef01882fdd58115cea67674ff5baa793c1e2f"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "selected": 34,
+  "full_reading_copies": 33,
+  "depth": {
+    "estructural": 22,
+    "focal": 11,
+    "parcial": 1
+  },
+  "version_groups": {
+    "autor": 8,
+    "editorial": 20,
+    "anticipada": 2,
+    "versión_no_confirmada": 2,
+    "parcial": 1,
+    "autor_aceptado": 1
+  },
+  "years": {
+    "2020": 9,
+    "2021": 5,
+    "2022": 5,
+    "2023": 2,
+    "2024": 1,
+    "2025": 8,
+    "2026": 4
+  },
+  "missing_pages": [],
+  "bibliography_formatter": "/Users/alejandrotreny/.codex/skills/citation-management/scripts/extract_metadata.py",
+  "bibliography_formatter_sha256": "d4922e47d21e38e8b414bfa9772eeac8c3df856b7179f33cd45f89ff777d4422"
+}

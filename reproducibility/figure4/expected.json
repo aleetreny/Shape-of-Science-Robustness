@@ -1,0 +1,86 @@
+{
+  "models": 10,
+  "fields": 26,
+  "pairs": 325,
+  "conditions": 26,
+  "counts": [
+    {
+      "representation": "original",
+      "metric": "angle_p50",
+      "cutoff": 0.0,
+      "unanimous": 42,
+      "contradiction": 262,
+      "unresolved": 21
+    },
+    {
+      "representation": "original",
+      "metric": "angle_p50",
+      "cutoff": 0.05,
+      "unanimous": 10,
+      "contradiction": 96,
+      "unresolved": 219
+    },
+    {
+      "representation": "original",
+      "metric": "pr",
+      "cutoff": 0.0,
+      "unanimous": 54,
+      "contradiction": 221,
+      "unresolved": 50
+    },
+    {
+      "representation": "original",
+      "metric": "pr",
+      "cutoff": 0.05,
+      "unanimous": 36,
+      "contradiction": 177,
+      "unresolved": 112
+    },
+    {
+      "representation": "global_centered",
+      "metric": "angle_p50",
+      "cutoff": 0.0,
+      "unanimous": 105,
+      "contradiction": 151,
+      "unresolved": 69
+    },
+    {
+      "representation": "global_centered",
+      "metric": "angle_p50",
+      "cutoff": 0.05,
+      "unanimous": 4,
+      "contradiction": 11,
+      "unresolved": 310
+    },
+    {
+      "representation": "global_centered",
+      "metric": "pr",
+      "cutoff": 0.0,
+      "unanimous": 63,
+      "contradiction": 211,
+      "unresolved": 51
+    },
+    {
+      "representation": "global_centered",
+      "metric": "pr",
+      "cutoff": 0.05,
+      "unanimous": 39,
+      "contradiction": 156,
+      "unresolved": 130
+    }
+  ],
+  "centering_retention": [
+    {
+      "metric": "angle_p50",
+      "retained_opposition_class": 142,
+      "same_fixed_witness_directions_retained": 128,
+      "new_oppositions": 9
+    },
+    {
+      "metric": "pr",
+      "retained_opposition_class": 204,
+      "same_fixed_witness_directions_retained": 204,
+      "new_oppositions": 7
+    }
+  ]
+}

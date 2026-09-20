@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-09-20T11:44:01.603240+00:00",
+  "documents": {
+    "en_main": {
+      "path": "output/pdf/main.pdf",
+      "sha256": "86efd3a3b135e9886972cacabb8230326e55babf77800d6ae26eb426b84d61c8",
+      "pages": 19,
+      "body_words": 3989,
+      "abstract_words": 192,
+      "sections": {
+        "Introduction": 316,
+        "Background and research questions": 429,
+        "Data and methods": 1441,
+        "Results": 1187,
+        "Discussion": 519,
+        "Conclusion": 97
+      },
+      "title_and_declarations_unchanged": true,
+      "citation_key_set_unchanged": true
+    },
+    "en_supplement": {
+      "path": "output/pdf/supplement.pdf",
+      "sha256": "2bf29c00b5be22a7e9732991416c38630706c79e4bb60dc09e0fbc34e1f3e68b",
+      "pages": 34
+    },
+    "es_main": {
+      "path": "output/pdf/es/main.pdf",
+      "sha256": "4e4a97bd17a10f914e23aa700696c78e7025b4e231c6695bf3ceab7b7885fcd0",
+      "pages": 20,
+      "body_words": 4592,
+      "abstract_words": 199,
+      "sections": {
+        "Introducción": 328,
+        "Antecedentes y preguntas de investigación": 480,
+        "Datos y métodos": 1680,
+        "Resultados": 1387,
+        "Discusión": 621,
+        "Conclusión": 96
+      },
+      "title_and_declarations_unchanged": true,
+      "citation_key_set_unchanged": true
+    },
+    "es_supplement": {
+      "path": "output/pdf/es/supplement.pdf",
+      "sha256": "eee3596e3c8bb7cf460c141a3f34883213788ab200295d6e65485a92ee859e03",
+      "pages": 36
+    }
+  },
+  "archive_files": 393,
+  "protected_files": 472,
+  "scientific_exhibits_unchanged": 349,
+  "bilingual_paragraphs_checked": 60,
+  "bilingual_numeric_formula_citation_alignment": true,
+  "supplement_bilingual_numbers_formulas_citations_refs_inputs_aligned": true,
+  "word_count_method": "Same pure helper as earlier editions; excludes headings, captions, tables, citations, math and declarations.",
+  "limits": "Formal checks supplement an editorial claim review. They do not certify readability, scientific truth, human authorship or author approval."
+}

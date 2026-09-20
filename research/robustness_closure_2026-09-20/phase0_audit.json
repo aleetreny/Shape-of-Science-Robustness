@@ -1,0 +1,39 @@
+{
+  "cells_eligible2048": 63,
+  "kernel_feature_error": 7.632783294297951e-17,
+  "minimum_clean_cell": 1375,
+  "minimum_input_clean_cell": 235,
+  "prior_audits": {
+    "data/field_pair_summary_v1": {
+      "audit_sha256": "b915ad46221415f7e49ae8642f2aae42bbd24ab91683d851dd814a869c6573cd",
+      "files_verified": 16
+    },
+    "data/morphology_pilot_v1": {
+      "audit_sha256": "9827f2855280e46cf3adb5fcc6912e468a5692d64f62ab9df28dc38ec39b942d",
+      "files_verified": 34
+    },
+    "data/robustness_v2/centroid_scales": {
+      "audit_sha256": "46000969fc6a4eea6fbe99513d70a25c6c26c17d9806d77adca806f452318980",
+      "files_verified": 18
+    },
+    "data/robustness_v2/input_comparisons": {
+      "audit_sha256": "e85f77b7930e6b749239420fd731536ad343e699827f133ec8b08c0d3d1691f9",
+      "files_verified": 6
+    },
+    "data/robustness_v2/input_recipes": {
+      "audit_sha256": "6ad9fd36fe8eb270d7e361543b12c9bdc35bc36e07ca1f9e521fb36be719f4bd",
+      "files_verified": 3
+    }
+  },
+  "reporting_omission": "Article unit vectors are averaged; centres are unit-normalised again before corrected CKA. Frozen config documents this, main methods should state it explicitly.",
+  "restricted_subfield_article_resampling": false,
+  "restricted_subfield_repetitions": 20,
+  "restricted_subfield_reported_reduction": "mean over 20 selections x 45 model pairs",
+  "saved_centre_reproduction_max_errors": {
+    "matched_field": 0.0,
+    "matched_subfield": 0.0
+  },
+  "status": "passed_no_scientific_bug_found",
+  "subfield_local_alerts": 2628,
+  "subfield_local_comparisons": 8235
+}

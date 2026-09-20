@@ -1,0 +1,131 @@
+{
+  "created_at": "2026-09-20T11:45:15.287464+00:00",
+  "status": "complete_for_author_reading",
+  "scope": "Author chose V2 and requested a clear full rewrite in both languages. Main articles rewritten; supplemental explanations added. No new science.",
+  "author_choice": "V2 accepted as voice orientation; full manuscript approval remains pending.",
+  "documents": {
+    "en_main": {
+      "path": "output/pdf/main.pdf",
+      "sha256": "86efd3a3b135e9886972cacabb8230326e55babf77800d6ae26eb426b84d61c8",
+      "pages": 19,
+      "body_words": 3989,
+      "abstract_words": 192,
+      "sections": {
+        "Introduction": 316,
+        "Background and research questions": 429,
+        "Data and methods": 1441,
+        "Results": 1187,
+        "Discussion": 519,
+        "Conclusion": 97
+      },
+      "title_and_declarations_unchanged": true,
+      "citation_key_set_unchanged": true
+    },
+    "en_supplement": {
+      "path": "output/pdf/supplement.pdf",
+      "sha256": "2bf29c00b5be22a7e9732991416c38630706c79e4bb60dc09e0fbc34e1f3e68b",
+      "pages": 34
+    },
+    "es_main": {
+      "path": "output/pdf/es/main.pdf",
+      "sha256": "4e4a97bd17a10f914e23aa700696c78e7025b4e231c6695bf3ceab7b7885fcd0",
+      "pages": 20,
+      "body_words": 4592,
+      "abstract_words": 199,
+      "sections": {
+        "Introducción": 328,
+        "Antecedentes y preguntas de investigación": 480,
+        "Datos y métodos": 1680,
+        "Resultados": 1387,
+        "Discusión": 621,
+        "Conclusión": 96
+      },
+      "title_and_declarations_unchanged": true,
+      "citation_key_set_unchanged": true
+    },
+    "es_supplement": {
+      "path": "output/pdf/es/supplement.pdf",
+      "sha256": "eee3596e3c8bb7cf460c141a3f34883213788ab200295d6e65485a92ee859e03",
+      "pages": 36
+    }
+  },
+  "archives_preserved": 393,
+  "protected_files_preserved": 472,
+  "scientific_exhibits_unchanged": 349,
+  "numeric_formula_citation_alignment": true,
+  "supplement_alignment": true,
+  "visual_pages_inspected": 109,
+  "editable_packages": {
+    "en": {
+      "path": "output/manuscript_source.zip",
+      "sha256": "fe224a225aed52b3487d173c1427cac5d37ac2f75f45838c936ba331072017b9",
+      "files": 186,
+      "documents": {
+        "main": {
+          "path": "output/pdf/main.pdf",
+          "sha256": "86efd3a3b135e9886972cacabb8230326e55babf77800d6ae26eb426b84d61c8",
+          "pages": 19,
+          "byte_identical": true
+        },
+        "supplement": {
+          "path": "output/pdf/supplement.pdf",
+          "sha256": "2bf29c00b5be22a7e9732991416c38630706c79e4bb60dc09e0fbc34e1f3e68b",
+          "pages": 34,
+          "byte_identical": true
+        }
+      }
+    },
+    "es": {
+      "path": "output/manuscript_source_es.zip",
+      "sha256": "ea7c77fefc037f2d7587a4fc8f503d6784f40b8ed216f171d38a1d202cfd8de4",
+      "files": 190,
+      "documents": {
+        "main": {
+          "path": "output/pdf/es/main.pdf",
+          "sha256": "4e4a97bd17a10f914e23aa700696c78e7025b4e231c6695bf3ceab7b7885fcd0",
+          "pages": 20,
+          "byte_identical": true
+        },
+        "supplement": {
+          "path": "output/pdf/es/supplement.pdf",
+          "sha256": "eee3596e3c8bb7cf460c141a3f34883213788ab200295d6e65485a92ee859e03",
+          "pages": 36,
+          "byte_identical": true
+        }
+      }
+    }
+  },
+  "presentation_tables_reexported_in_separate_copy": true,
+  "documents_updated": {
+    "AGENTS.md": "4c333cacd2565abc6cca10e7be552eab29dc4e89641fade60324cc91dec3c362",
+    "AUTHOR_VOICE.md": "6f0533444af7a9bc364fa23abdf85abb6e4b351a4093cebfce9fc089c698e862",
+    "MANUSCRIPT_VOICES.md": "449e2b39c4401e244665ee75d661cc95207d9e490dc3a24482067c2a38dd1191",
+    "MANUSCRIPT_CLARITY.md": "46b1bdf7d867f67b24759a92a5a191d759656f9da4ec4cac4d505a1d3e74d3d0",
+    "NEXT_STEPS.md": "bdf0bf39030de234f14e92e32447661496ede75302e9478fdb6eac191056f667",
+    "README.md": "de8e9f2cc93f09e4f3fdd41a6aaa378a1aeaa7be157239d2a617ae80cded1e48",
+    "docs/INDEX.md": "a6c73cd7628b6a01964060e3fc8926e7956a3f9bb10a4d7c04d49c1b9409dab2",
+    "MANUSCRIPT_BLUEPRINT.md": "c012d14cc6944dc75bdd4157701b9a0a768f7ae0f6f872695c4e5f626da79421",
+    "MANUSCRIPT_LAYOUT.md": "b005921d6cef8780fd3ff0da40641f7474c75c710f314834764109603f3d667a",
+    "MANUSCRIPT_REVIEW.md": "d7c861ac25524c131626597fdc3d34c9df250708438d4d32f0d25d9bae60d0b4",
+    "MANUSCRIPT_SPANISH.md": "a707d9b21317063826c1a866367885fed50d6d752d892d79e1f6de9e54f776aa",
+    "MANUSCRIPT_COMMENTS.md": "b87161625dfb6081725a6367cf9cb25cb1173a7f2e78b904c2df2a407572a3bf",
+    "DECISIONS.md": "05bedf67c25d95d3242c18ef342172c5e63d16307454c70e2edab00764b8b13c",
+    "progress.md": "2dee901b4e95a51954a64ffc846548fbfc9e03433bdbf9c1c781192146d0197b",
+    "findings.md": "6fb031d415039b8749dafb5a5c3da68a105041edf4707e79e924dac8bf9d56a6",
+    "task_plan.md": "be32d3150c1085378d2ee4f76349105e6f43009fbb17b32d78d3280bc9020c86"
+  },
+  "local_links_checked": 152,
+  "evidence": {
+    "CLAIM_REVIEW.md": "01b728d969063001fead7ff6f8871084b80b6c25450b478d5fe48b5c1080a06f",
+    "text_audit.json": "d5da4990c960c871cc656eeddd6f7bbb8c33b8da48ea0e9b7f52cd3fea0982fd",
+    "visual_review.json": "71c1eef2f86014be08ae42c3cf0e8cd157ccd4e887315eca8d36d0a727fe02ef",
+    "portable_source_audit.json": "4d85ec253d1771f40bb97a0e1be1673d0564fd2e701c2a335a1884e831189a1c",
+    "presentation_export_audit.json": "4f25a17b414fdd25b9a1662c22c120bfe807426bd0b95fd4cb7851bc0d7fe7df",
+    "baseline_manifest.json": "bf81535c916207a4ed2f0cd95da42b8781e2e6cf76de6c842daa6b9d2628e129"
+  },
+  "scientific_computation": false,
+  "publication_or_submission": false,
+  "automation": false,
+  "limits": "Formal alignment and visual review do not certify scientific interpretation or readability for the author. Journal requirements have not been newly researched in this editorial revision.",
+  "next_step": "Author reads and comments on the clearer manuscript. Keep both languages synchronised; do not reopen voice choice or start experiments."
+}

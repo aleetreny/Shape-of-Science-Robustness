@@ -1,0 +1,1005 @@
+Shape of Science Robustness Borrador en español
+¿Cuánto depende el mapa de la ciencia del
+modelo de embeddings?
+Alejandro Treny Ortega
+Investigador independiente
+Versión española para revisión personal • 20 de septiembre de 2026
+Resumen
+Los mapas de la ciencia describen relaciones entre artículos. Los modelos de em-
+beddings de texto construyen esas relaciones al convertir el texto de un artículo en una
+lista de números que le da una posición. ¿Otro modelo daría la misma imagen? Compa-
+ro diez modelos con los títulos y resúmenes de 500.000 publicaciones de 2000–2024 del
+catálogo bibliográﬁco OpenAlex, repartidas en 26 disciplinas, como Medicina o Física.
+Representar cada disciplina mediante la posición media de sus artículos produce una
+organización parecida entre modelos, también al elegir otros artículos. Sin embargo,
+dentro de una disciplina y período, dos modelos comparten, en promedio, solo ocho
+de los 25 artículos más cercanos a un mismo trabajo. Darles solo los títulos también
+cambia buena parte de esa lista, con efectos que varían entre modelos. Los modelos
+también pueden discrepar sobre qué disciplina tiene sus artículos más dispersos. Cuan-
+do medimos esa dispersión mediante ángulos desde un punto común, mover ese punto
+puede cambiar la comparación, incluso cuando elegir otros artículos no la cambia. Es-
+tas pruebas distinguen el acuerdo entre modelos de la estabilidad al elegir artículos. La
+organización general puede mantenerse mientras las respuestas sobre artículos cercanos
+y diferencias entre disciplinas dependen del modelo, del texto que recibe y de cómo se
+procesa su salida.
+Palabras clave: mapas de la ciencia; embeddings de documentos; robustez; acuerdo de
+vecindarios; comparaciones geométricas.
+1. Introducción
+Un mapa de la ciencia puede ayudar a encontrar artículos relacionados o a comparar áreas de
+investigación. Su utilidad depende de las relaciones que muestra. Cuando un modelo obtiene
+esas relaciones a partir del texto, elegir el modelo también forma parte de elegir el mapa. Dos
+modelos pueden llevar al lector a artículos distintos cerca de un mismo trabajo, o discrepar
+sobre lo dispersos que están los artículos de un área. En este estudio pregunto cuánto cambia
+la respuesta si mantenemos los artículos y usamos otro modelo para representarlos.
+1
+Shape of Science Robustness Borrador en español
+Los modelos de este estudio leen el título y el resumen de un artículo y convierten ese
+texto en una lista de números, llamada vector o embedding. Los números funcionan como
+coordenadas: juntos dan al artículo una posición desde la que podemos calcular distancias
+a otros artículos. Los que quedan cerca se consideran relacionados. Este procedimiento se
+ha usado para cartograﬁar la literatura biomédica y la estructura de la física ( González-
+Márquez et al. , 2024; Constantino et al. , 2025). Pero la posición la produce el modelo. No es
+una relación observada con independencia de él, y el título y el resumen no contienen todo
+lo que dice el artículo.
+Esta preocupación tiene una trayectoria en los estudios de mapas de la ciencia. Gläser et al.
+(2017) preguntaron cuánto reﬂeja una estructura temática reconstruida el conocimiento cien-
+tíﬁco y cuánto reﬂeja el método utilizado para recuperarla. Boyack and Klavans (2020)
+encontraron que distintos métodos podían lograr una precisión global parecida y, al mismo
+tiempo, asignar artículos diferentes a cada grupo. Por tanto, una puntuación general pue-
+de dejar sin respuesta una pregunta importante: ¿otro método respaldaría la comparación
+concreta que quiere hacer el lector?
+Utilizo diez modelos y una colección ﬁja de 500.000 publicaciones para examinar tres pregun-
+tas. La primera trata sobre las relaciones compartidas: ¿conservan los modelos la organización
+general de las áreas y encuentran los mismos artículos cercanos? La segunda pregunta cuánto
+del cambio viene de lo que lee el modelo: ¿importa dar solo el título tanto como cambiar
+de modelo? La tercera, añadida como una exploración posterior, trata sobre una descripción
+que podríamos extraer del mapa: ¿coinciden los modelos en que los artículos de un área están
+más dispersos que los de otra? Repetir cada tipo de comparación con otras selecciones de
+artículos permite ver también si la respuesta depende de los trabajos concretos elegidos.
+2. Antecedentes y preguntas de investigación
+2.1. Qué aportan las comparaciones anteriores
+Los trabajos previos evalúan los embeddings cientíﬁcos con varios criterios útiles. Constan-
+tino et al. (2025) los comparan con clasiﬁcaciones disciplinares de física; González-Márquez
+et al. (2024) examinan artículos biomédicos relacionados y sus etiquetas. Estas comproba-
+ciones preguntan si una representación coincide con información sobre la literatura. Este
+estudio plantea una pregunta complementaria: ¿qué relaciones se mantienen cuando cambia
+la representación?
+Elegir el modelo es solo una de las decisiones. El texto de entrada es el que le damos para
+que lo lea: un título solo ofrece menos información que un título seguido de su resumen.
+Los modelos también admiten textos de distinta longitud y utilizan reglas distintas para
+producir un único vector. Singh and Singh (2022) muestran que la búsqueda académica
+2
+Shape of Science Robustness Borrador en español
+puede ser sensible a cómo se redactan las consultas cortas. Por eso, el texto entregado al
+modelo forma parte de la comparación junto con el propio modelo.
+Comparar tanto la estructura general como los artículos cercanos tampoco es nuevo. Caspari
+et al. (2024) combinan comparaciones geométricas y de vecinos, mientras que Imel and Hafen
+(2025) estudian propiedades de los espacios de embeddings cientíﬁcos junto con relaciones
+de citación. Parto de estos enfoques y mantengo los mismos artículos entre modelos, cambio
+de forma explícita el texto y las decisiones de procesamiento, y compruebo comparaciones
+concretas entre áreas con otras selecciones de artículos y otras medidas.
+2.2. Qué permite aﬁrmar el acuerdo
+Conviene separar dos cambios. Para medir el acuerdo, mantengo los artículos y comparo
+modelos. Para comprobar la estabilidad ante la selección , mantengo el modelo y elijo otros
+artículos con las mismas reglas. Una selección de artículos es un conjunto elegido de la
+colección existente; repetirla no signiﬁca descargar trabajos nuevos. Un resultado puede
+repetirse con otros artículos en cada modelo y, aun así, los modelos pueden dar siempre
+respuestas opuestas.
+Ninguna de estas dos propiedades demuestra que la respuesta sea correcta sobre la investi-
+gación. Los modelos pueden compartir un error, y un patrón que se repite puede ser difícil
+de interpretar. En un estudio de biología de invasiones, Held and Velden (2022) muestran
+por qué las agrupaciones temáticas necesitan una interpretación que vaya más allá de las
+comprobaciones numéricas. Aquí, el acuerdo indica que un resultado se mantiene al cambiar
+de modelo; no demuestra que describa correctamente los temas.
+La palabra mapa necesita otra precisión. Comparo las posiciones numéricas, cada una con
+cientos de coordenadas, antes de reducirlas a un dibujo. Un gráﬁco de dos dimensiones
+añadiría una transformación que podría cambiar las distancias aparentes. Llamo estructura
+al patrón de relaciones entre los objetos que comparamos, sean artículos o resúmenes de áreas.
+La dispersión describe cuánto se separan las representaciones dentro de un área. Dos modelos
+pueden compartir buena parte de la estructura general sin coincidir sobre la dispersión de
+cada área.
+3
+Shape of Science Robustness Borrador en español
+2.3. Preguntas de investigación
+PI1. Al cambiar de modelo, ¿qué se mantiene de la organización de las áreas y de los artículos
+que quedan cerca unos de otros?
+PI2. ¿Cuánto importa cambiar el texto de entrada, o la regla para obtener un único vector
+por artículo, en comparación con cambiar de modelo?
+PI3. ¿Coinciden los modelos sobre qué área tiene sus representaciones más dispersas, o sobre
+si esa dispersión se concentra en pocas direcciones o se reparte entre muchas? ¿Se repiten
+estas comparaciones con otros artículos?
+La tercera pregunta se añadió después de las comparaciones iniciales y es exploratoria. Las
+tres se reﬁeren a una colección y un conjunto de modelos concretos. No buscan elegir un
+modelo ganador ni estimar la estructura de toda la literatura cientíﬁca.
+3. Datos y métodos
+3.1. Una colección, varias preguntas
+OpenAlex es un catálogo bibliográﬁco que proporciona títulos, resúmenes y otros datos
+de publicaciones ( Priem et al. , 2022). La colección de partida, o corpus, contiene 500.000
+identiﬁcadores distintos de trabajos descargados y limpiados hasta el 15 de septiembre de
+2026. Los registros estaban etiquetados como artículos, revisiones o trabajos de congreso en
+inglés, publicados entre 2000 y 2024. Cada uno debía tener título, un resumen de al menos
+50 palabras reconstruido a partir del formato que guarda OpenAlex y un área principal. Se
+excluyeron retractaciones, material accesorio y fallos claros de contenido. Los casos menos
+seguros y las posibles versiones duplicadas se conservaron con marcas de revisión. Esas marcas
+registran una duda para las comprobaciones posteriores; no certiﬁcan que todos los registros
+conservados sean correctos. El Suplemento S1 recoge las reglas y los recuentos.
+OpenAlex asigna los artículos a áreas amplias, llamadas Fields, y a categorías más estrechas,
+llamadas Subﬁelds, a partir de información del texto, las citas y las revistas ( OpenAlex, 2026).
+Aquí las denomino áreas y especialidades. Por ejemplo, Medicina es un área; Cardiología y
+Medicina Cardiovascular es una de sus especialidades. Las 26 áreas son las unidades princi-
+pales de comparación. Estas etiquetas de la base de datos permiten organizar el análisis; no
+son descripciones de cada artículo veriﬁcadas de forma independiente.
+La colección tiene dos partes. Las peticiones aleatorias a OpenAlex, con las elecciones regis-
+tradas para poder repetirlas, proporcionaron 400.000 registros que cumplían los requisitos.
+Otros 100.000 reforzaron los grupos que inicialmente tenían pocos artículos de una misma
+área y período de cinco años. Por ejemplo, Medicina en 2000–04 es uno de esos grupos. Los
+cinco períodos son 2000–04, 2005–09, 2010–14, 2015–19 y 2020–24. Al combinarlos con las
+4
+Shape of Science Robustness Borrador en español
+26 áreas obtenemos 130 grupos de área y período, cada uno con al menos 2.165 artículos.
+Las búsquedas en toda la colección general utilizan los 400.000 registros iniciales; las compa-
+raciones dentro de áreas pueden usar ambas partes. El refuerzo facilita comparar los grupos
+pequeños, pero cambia su peso en la colección. Ni ese peso ni una media que da la misma
+importancia a cada área estiman las proporciones de la producción cientíﬁca mundial.
+Los diez modelos representan los 500.000 artículos mediante sus títulos y resúmenes, pero
+cada pregunta posterior utiliza los artículos que necesita. El experimento de texto compara
+títulos, resúmenes y ambos juntos en los mismos 52.000 artículos: 2.000 por área, con 400 de
+cada período. Incluyen los 26.000 de la primera prueba más pequeña. El estudio posterior de
+la dispersión dentro de las áreas reutiliza este conjunto y sus vectores de título más resumen.
+La comprobación de fragmento común utiliza otro conjunto distinto de 52.000 artículos para
+que todos los modelos lean exactamente el mismo fragmento, suﬁcientemente corto para
+caber en todos. Así se distingue una elección sobre el contenido de otra sobre su longitud.
+La Tabla 1 sirve de guía para estas comparaciones; sus ﬁlas se solapan y no deben sumarse.
+Dentro de cada comparación, los modelos siempre representan los mismos identiﬁcadores de
+artículos.
+3.2. Cómo representa cada modelo un artículo
+Los diez modelos de la Tabla 2 ya estaban entrenados antes de este estudio. Utilizo sus ver-
+siones publicadas para convertir texto en vectores, sin volver a entrenarlos con esta colección.
+Abarcan documentos cientíﬁcos, semejanza entre frases de uso general y lenguaje cientíﬁco o
+biomédico. Se eligieron por su uso para representar literatura académica y por sus distintas
+formas de entrenamiento. Son un conjunto ﬁjo de comparación, no una muestra aleatoria
+de modelos ni una clasiﬁcación de los sistemas más recientes. Las versiones, los formatos de
+entrada y la conﬁguración de los programas se ﬁjaron antes de calcular los vectores.
+La entrada principal es el título seguido del resumen, con el formato habitual de cada modelo.
+Los modelos dividen el texto en piezas pequeñas llamadas tokens, que pueden ser palabras
+enteras o partes de palabras. Un límite de tokens no equivale, por tanto, a un límite de
+palabras. Con su conﬁguración habitual, MiniLM lee como máximo 256 tokens y MPNet
+384; el texto que sobrepasa ese límite se recorta. Esto afecta al 49,58 % y al 20,16 % de los
+artículos, respectivamente. Mantengo esas conﬁguraciones y pruebo MiniLM con 512 tokens
+por separado. La comprobación de fragmento común aborda la diferencia en lo que pueden
+leer: todos reciben el mismo contenido, aunque cada modelo lo divida en tokens a su manera.
+Otra decisión es cómo obtiene el modelo un único vector para todo el artículo. BERT, Sci-
+BERT, BioBERT y PubMedBERT producen un vector de salida en cada posición de token,
+pero no se entrenaron especíﬁcamente para comparar documentos completos. La regla prin-
+cipal calcula la media de esas salidas una vez que el modelo ha terminado de procesar el
+texto. Este paso se llama pooling por media. El promedio incluye los símbolos especiales que
+5
+Shape of Science Robustness Borrador en español
+T abla 1: Preguntas, comparaciones y conjuntos de artículos.
+Pregunta Qué se compara Artículos utilizados
+¿Se conserva la
+organización general?
+Diez modelos: relaciones entre
+grupos, resumidos por sus
+posiciones medias, y entre
+artículos dentro de los grupos.
+256 artículos por grupo para
+calcular su centro; elecciones
+repetidas y controles con 128 y
+512.
+¿Encuentran los
+modelos los mismos
+artículos cercanos?
+Cuántos de los 25 artículos más
+cercanos aparecen en las listas
+de ambos modelos.
+Todos los artículos de cada área y
+período; otro control ﬁja 2.048
+candidatos por grupo. Búsqueda
+global: 13.000 artículos de partida
+entre 400.000 candidatos.
+¿Importa cambiar el
+texto de entrada?
+El mismo modelo lee solo el
+título, solo el resumen o ambos.
+52.000: 2.000 por área, 400 por
+período. Incluye la primera
+prueba de 26.000.
+¿Importa que todos
+lean el mismo
+fragmento?
+La entrada habitual de cada
+modelo frente a un fragmento
+común que cabe en todos.
+Otro conjunto de 52.000, con 400
+por área y período.
+¿Coinciden los modelos
+sobre la dispersión
+dentro de áreas?
+Ángulos entre vectores de
+artículos y reparto de su
+variación entre direcciones; las
+325 parejas de áreas, con diez
+modelos.
+Los mismos 52.000 del
+experimento de texto; otras
+elecciones de artículos
+comprueban si las comparaciones
+se repiten.
+¿Importa limitar la
+búsqueda a una
+especialidad?
+Por ejemplo, Cardiología y
+Medicina Cardiovascular frente
+a Medicina, con 256 candidatos
+en cada búsqueda.
+50 artículos de partida ﬁjos por
+especialidad; diez elecciones de los
+otros 206 candidatos. En total,
+10.850 artículos de partida en 217
+especialidades.
+Todos los conjuntos proceden de la misma colección de 500.000 artículos: 400.000 registros generales
+y 100.000 para reforzar grupos pequeños de área y período. Las ﬁlas no se suman. Los modelos usan
+los mismos identiﬁcadores en cada comparación. Los candidatos son los artículos disponibles para
+buscar vecinos. En la comparación de alcance, ambos conjuntos incluyen los mismos 50 artículos
+de partida. Los métodos y los Suplementos S1–S4 y S9 detallan los controles. Los 1.300 artículos
+de prueba del programa no son otra muestra cientíﬁca.
+delimitan el texto y excluye las posiciones vacías añadidas como relleno. Dos alternativas
+toman solo la salida de la primera posición de símbolo especial (CLS) o la de la última po-
+sición sin relleno (SEP). Estas salidas han procesado el texto que las rodea; no representan
+solo la primera o la última palabra. La regla de la media se ﬁjó antes de las comparaciones
+principales y se mantuvo tras las primeras comprobaciones, sin elegirla para maximizar el
+acuerdo. Los otros seis modelos utilizan sus reglas documentadas. La Tabla 2 y el Suplemento
+S1 precisan la conﬁguración exacta.
+6
+Shape of Science Robustness Borrador en español
+T abla 2: Modelos de embeddings y reglas principales de representación.
+Modelo T amaño
+Límite
+de
+tokens
+V ector del
+artículo Referencia
+SPECTER 768 512 CLS (Cohan et al. , 2020)
+SPECTER2 768 512 CLS + adaptador ( Singh et al. , 2023)
+SciNCL 768 512 CLS (Ostendorﬀ et al. , 2022)
+SciBER T 768 512 Media (Beltagy et al. , 2019)
+BER T 768 512 Media (Devlin et al. , 2019)
+MPNet 768 384 Media (Reimers and Gurevych ,
+2019)
+MiniLM 384 256 Media (Reimers and Gurevych ,
+2019)
+PubMedBER T /
+BiomedBER T 768 512 Media (Gu et al. , 2022)
+BioBER T 768 512 Media (Lee et al. , 2020)
+SimCSE 768 512 CLS (Gao et al. , 2021)
+Tamaño indica cuántas coordenadas contiene el vector, no cuántas palabras lee el modelo. MPNet
+y MiniLM utilizan all-mpnet-base-v2 y all-MiniLM-L6-v2, respectivamente. Los límites cuentan
+tokens, las piezas en que el modelo divide el texto, incluidos sus símbolos especiales. Media promedia
+las salidas ﬁnales de tokens (la última capa), con símbolos especiales y sin posiciones vacías de
+relleno. CLS usa la salida de la primera posición antes de la transformación adicional llamada pooler.
+SPECTER2 utiliza también su adaptador de proximidad, un componente adicional entrenado. En
+MPNet/MiniLM, la referencia describe el marco Sentence-BERT, no el entrenamiento exacto de
+esas versiones. Las reglas alternativas no son modelos adicionales. Versiones, formatos y recorte:
+Tabla S2.
+3.3. Del conjunto de áreas a los artículos individuales
+Podemos imaginar un vector como una ﬂecha que va desde un punto común hasta la posición
+del artículo. Antes de comparar, ajusto todas las ﬂechas a longitud uno, conservando hacia
+dónde apuntan. Esta operación se llama normalización; evita que las diferencias de longitud
+de los vectores determinen la cercanía. Para resumir un área, calculo la media de los vectores
+de sus artículos y ajusto también el resultado a longitud uno. Llamo centro a ese resumen.
+Comparar los centros pregunta si los modelos sitúan las áreas en relaciones parecidas entre sí.
+Comparar los artículos individuales de un área pregunta cuánto comparten de su organización
+interna.
+La primera comparación de centros ﬁja 256 artículos por grupo, para que las diferencias de
+tamaño entre grupos no determinen la comparación. Considera las 26 áreas, las 217 especia-
+lidades y un conjunto reducido con una especialidad de cada área. Para comprobar cuánto
+7
+Shape of Science Robustness Borrador en español
+importa qué artículos elegimos, repito la selección cincuenta veces, conservando los recuentos
+de los cinco períodos de publicación dentro de cada grupo. Para comprobar cuánto importa
+el tamaño, utilizo 128, 256 y 512 artículos en las mismas 26 áreas y las 183 especialidades
+que tienen suﬁcientes trabajos en los tres tamaños. Son condiciones de comparación, no una
+aﬁrmación de que un tamaño sea suﬁciente en cualquier estudio.
+Cada selección aporta también una referencia: redistribuyo al azar los mismos artículos entre
+grupos, conservando el tamaño y los recuentos por período de cada grupo. Así podemos ver
+cuánto acuerdo queda entre modelos cuando los grupos dejan de seguir las etiquetas de
+área o especialidad. Otras pruebas retiran un área cada vez y, en el conjunto reducido de
+especialidades, separan la elección de una especialidad de la elección de sus artículos. El
+Suplemento S9 detalla estas comprobaciones de centros.
+3.4. Cómo se buscan y comparan los artículos cercanos
+Los vecinos de un artículo son los artículos que quedan más cerca de él. El artículo de partida
+es aquel para el que buscamos vecinos; los candidatos son todos los artículos entre los que
+podemos buscarlos. Cada modelo devuelve los 25 más cercanos, y el acuerdo es la fracción
+que aparece en las listas de ambos modelos. Las listas de 10 y 50 sirven de comprobación. La
+cercanía se mide con la similitud coseno: las ﬂechas que apuntan en direcciones más parecidas
+cuentan como más cercanas. El artículo de partida no puede ser su propio vecino. Las listas
+se calculan de forma exacta y se comprueban mediante una ordenación independiente.
+Una búsqueda depende de los artículos que tiene disponibles. Buscar entre todos los de una
+misma área y período ofrece cantidades distintas de candidatos según el grupo. Otra compro-
+bación ﬁja 2.048 candidatos por grupo para eliminar esa diferencia de cantidad. Dentro de un
+grupo, todos los modelos buscan entre los mismos artículos. Una búsqueda adicional utiliza
+los 400.000 registros generales, sin limitar área ni período. Estas comparaciones responden
+a preguntas distintas; por eso, cada resultado indica su conjunto de candidatos.
+La comprobación de calidad pregunta si los registros marcados y los duplicados explican el
+desacuerdo entre modelos. Aplicar las marcas de revisión y la regla de duplicados existentes
+deja 448.886 registros. Comparo las listas de vecinos de los mismos artículos de partida
+conservados antes y después de ﬁltrar los candidatos. Quitar registros también reduce el
+tamaño de búsqueda; por eso, otras pruebas lo mantienen ﬁjo: 1.024 candidatos en los 130
+grupos y 2.048 en los 63 que siguen teniendo suﬁcientes artículos tras el ﬁltro. Los conjuntos
+de antes y después incluyen los mismos 100 artículos de partida limpios por grupo. Aquí,
+limpios signiﬁca que pasan el ﬁltro registrado; no signiﬁca que se haya descartado todo
+posible error de origen.
+Para separar el alcance de la búsqueda de su tamaño, comparo una especialidad con su área
+usando la misma cantidad de candidatos y fechas emparejadas. Pensemos en 50 artículos de
+partida ﬁjos de Cardiología y Medicina Cardiovascular. Para cada uno, buscamos entre 256
+8
+Shape of Science Robustness Borrador en español
+artículos de esa especialidad y entre 256 de Medicina. Ambos conjuntos incluyen los mismos
+50 artículos de partida; quedan 206 plazas para otros trabajos. Al ordenar los vecinos, se
+excluye el artículo para el que estamos buscando. Elijo los otros 206 diez veces, manteniendo
+ﬁjos los 50 y el mismo reparto de períodos entre ambas búsquedas. El procedimiento abarca
+217 especialidades: 10.850 artículos de partida en total. También incluye deliberadamente
+los 50 artículos de la especialidad en el conjunto amplio. Por tanto, el resultado corresponde
+a esta comparación emparejada, no a una selección aleatoria sin restricciones dentro de
+Medicina.
+3.5. Cómo se mide la estructura compartida
+Para medir la estructura compartida, comparo el patrón de relaciones entre los mismos
+objetos según dos modelos. Los objetos pueden ser artículos individuales o los centros que
+resumen áreas. La medida principal es la alineación lineal de núcleos centrados con corrección,
+abreviada CKA ( Kornblith et al. , 2019; Murphy et al. , 2024). Compara esos patrones sin
+exigir que una coordenada de un modelo signiﬁque lo mismo que una coordenada de otro.
+Un valor cercano a uno, como 0,9, indica que los patrones se parecen mucho según esta
+medida. No signiﬁca que ese porcentaje de la ciencia esté representado correctamente. La
+corrección reduce una elevación artiﬁcial conocida de la puntuación cuando se usan muestras
+ﬁnitas; no elimina todo el sesgo estadístico.
+Otras dos medidas comprueban aspectos distintos de la estructura compartida. La alineación
+de Procrustes permite girar y cambiar de escala las representaciones antes de compararlas.
+La comprobación del orden de distancias pregunta si las parejas de artículos siguen un orden
+parecido, desde las más cercanas hasta las más alejadas. Estas medidas no tienen por qué
+dar respuestas idénticas ( Williams et al. , 2021; Williams, 2024). Sus fórmulas aparecen en el
+Suplemento S2.
+3.6. Cómo se describe la dispersión dentro de un área
+Otra pregunta distinta trata sobre la forma que dibujan los artículos dentro de cada área.
+Describo dos propiedades. La apertura angular resume los ángulos entre sus vectores, con
+la regla de distancia mediana del Suplemento S6. Podemos imaginar ﬂechas trazadas desde
+un punto común hasta los artículos: ángulos mayores indican que las ﬂechas apuntan en
+direcciones más separadas.
+La dimensión lineal efectiva describe cómo se extiende esa nube de posiciones de artículos
+entre distintas direcciones. Aquí, variación signiﬁca diferencias entre las coordenadas de los
+artículos. Una nube concentrada a lo largo de una línea varía sobre todo en una dirección;
+otra extendida sobre un plano varía en más. La razón de participación, o PR, lleva esta
+idea al espacio completo de los vectores y admite valores entre números enteros. Un PR
+9
+Shape of Science Robustness Borrador en español
+mayor indica que la variación está menos concentrada en unas pocas direcciones. Ni PR ni
+la apertura angular cuentan temas de investigación o establecen diversidad temática.
+Otras formas de resumir los ángulos y medir la dimensión comprueban cuánto depende la
+respuesta de la fórmula. Para dimensión, la alternativa basada en entropía mide cómo se
+reparte la variación. D80 cuenta el menor número de direcciones necesarias para explicar el
+80 % de esa variación. Como estas alternativas describen la misma variación de partida, que
+coincidan no validaría de forma independiente una interpretación temática. Probé también
+otra idea: si los enlaces débiles entre artículos cercanos podían revelar un área dividida en
+grupos separados. Los ejemplos artiﬁciales mostraron problemas para leer esa señal como
+fragmentación temática. El Suplemento S6 recoge las deﬁniciones y los controles.
+3.7. Cómo se comprueba si una comparación se repite
+Con 26 áreas hay 325 formas de elegir dos áreas distintas, contando cada pareja una sola vez.
+Para cada propiedad, cada modelo da un valor al área A y otro al área B. Pregunto si la misma
+área conserva el valor mayor cuando elegimos otros artículos. El cálculo principal utiliza
+2.000 artículos por área. Lo repito con veinte medias muestras de 1.000 y cinco selecciones
+adicionales de 2.000. Un orden es persistente solo si se mantiene en las 26 condiciones. Esto
+se reﬁere al orden de los dos valores medidos, no a la dirección en la que apunta un vector.
+Las alternativas de dimensión usan las mismas condiciones.
+Otra comprobación cambia el punto común desde el que trazamos las ﬂechas. Para cada
+modelo, calculo la media de los 52.000 vectores de longitud uno del experimento de texto,
+equilibrados por área y período, la resto a cada vector y vuelvo a ajustar su longitud a
+uno. Esta operación se llama centrado global seguido de normalización . El nuevo origen es la
+posición media de este conjunto. Después vuelvo a calcular apertura y dimensión para ver
+si las comparaciones entre áreas dependen de esa elección. El Suplemento S6 distingue este
+cambio de los vectores del centrado interno que ya utiliza la fórmula de PR.
+Los resultados se agrupan en tres clases. Hay acuerdo unánime si los diez modelos dan de
+forma persistente el valor mayor a la misma área. Hay oposición si al menos dos modelos
+concretos mantienen órdenes opuestos. En los demás casos, la comparación queda sin resolver.
+Por ejemplo, algunos modelos pueden cambiar de orden con otros artículos y ninguna pareja
+ﬁja mantener respuestas contrarias. Sin resolver no signiﬁca iguales. Tampoco un empate en
+un modelo deja necesariamente toda la comparación sin resolver: otros dos modelos pueden
+mantener órdenes opuestos.
+También pregunto si las diferencias tienen suﬁciente tamaño numérico. Además de cualquier
+diferencia distinta de cero, exijo diferencias mínimas del 1, 5 y 10 % del valor medio de las dos
+áreas. El orden de un modelo solo cuenta con un corte determinado si su diferencia supera
+ese corte en todas las selecciones. Después se vuelven a aplicar las tres reglas de clasiﬁcación.
+Estos porcentajes describen el tamaño de una diferencia medida; son distintos del porcentaje
+10
+Shape of Science Robustness Borrador en español
+de las 325 parejas que acaba en una clase. Son comprobaciones de sensibilidad, no umbrales
+universales de importancia cientíﬁca.
+Otro diagnóstico distinto, la alerta de selección , señala un resultado que cambia más de
+lo permitido por una tolerancia registrada al elegir otros artículos o usar otro tamaño de
+los probados. Identiﬁca un resultado cuya sensibilidad a la elección de artículos conviene
+examinar; no es un error en un registro ni una de las tres clases de parejas de áreas anteriores.
+Cada comprobación tiene su propia regla y recuento, conservados en el suplemento.
+Las selecciones se solapan porque proceden de la misma colección ﬁja. Sus rangos describen
+cambios entre los artículos disponibles, no intervalos de conﬁanza para toda la literatura
+cientíﬁca. Un rango central del 95 % de las selecciones deja fuera el 2,5 % inferior y el 2,5 %
+superior de los resultados registrados. Las comparaciones también reutilizan modelos y áreas;
+por eso describo sus patrones sin tratarlas como observaciones independientes en pruebas de
+signiﬁcación.
+El trabajo se desarrolló por etapas. Las primeras comparaciones de estructura y vecinos
+precedieron a la ampliación del experimento de texto y a las búsquedas por especialidad. El
+análisis geométrico fue una exploración posterior, y el resumen de las 325 parejas de áreas
+se hizo después de conocer sus primeros ejemplos. Las reglas se registraron antes de los
+nuevos cálculos correspondientes, con resultados anteriores ya conocidos; algunos controles
+se añadieron durante el proceso. El Suplemento S2 documenta esta secuencia. El estudio
+completo no se registró previamente en un servicio externo, por lo que estas comprobaciones
+posteriores no deben leerse como predicciones formuladas antes de ver ningún resultado.
+4. Resultados
+4.1. La organización general se comparte más que el detalle
+Los modelos comparten una organización parecida de los centros de áreas, y elegir otros
+artículos cambia poco esa conclusión. Cada media reúne las 45 formas de emparejar los diez
+modelos. En la selección original, la CKA corregida media es 0,939 para centros de áreas
+y 0,911 para centros de especialidades. Con cincuenta selecciones, las medias son 0,940 y
+0,911, con rangos centrales del 95 % de 0,937–0,943 y 0,910–0,912 (Figura 1A). Los grupos
+redistribuidos al azar dan medias de 0,627 y 0,636. Ninguna media de sus selecciones alcanza
+la menor media de las selecciones observadas. Por tanto, los grupos deﬁnidos por las etiquetas
+producen más estructura compartida que estas referencias aleatorias.
+La organización también cambia poco cuando los centros utilizan más artículos. Con 128,
+256 y 512 artículos, las medias de los centros de áreas son 0,938, 0,940 y 0,941; las mismas
+183 especialidades con suﬁcientes trabajos dan 0,913, 0,914 y 0,915. Retirar un área cada
+vez da valores entre 0,933 y 0,946 en la comparación original, por lo que ninguna explica
+11
+Shape of Science Robustness Borrador en español
+por sí sola el alto acuerdo. Cuando una sola especialidad representa cada área, la media es
+0,904. En esta comparación reducida, cambiar qué especialidad representa un área importa
+más que cambiar los artículos elegidos dentro de ella (Tabla S18).
+26
+áreas
+217
+especial.
+26
+especial.
+0
+0,2
+0,4
+0,6
+0,8
+1
+CKA corregida
+A  Entre centros
+Grupos observados Grupos aleatorios
+0 0,2 0,4 0,6 0,8 1
+CKA corregida
+128
+256
+512Artículos por grupo
+0,632
+0,629
+0,630
+0,636
+0,636
+0,636
+B  Dentro de los grupos
+26 áreas
+Mismas 183 especialidades
+Figura 1: Acuerdo sobre centros de grupos y artículos individuales. Una CKA corregida mayor
+indica más acuerdo entre modelos. (A) Cada centro resume 256 artículos. Los resultados de áreas
+y especialidades promedian cincuenta selecciones de artículos. La condición de 26 especialidades
+elige una de cada una de las 26 áreas, repite esa elección cincuenta veces y elige diez conjuntos de
+artículos dentro de cada elección. Los grupos aleatorios redistribuyen los mismos artículos,
+conservando tamaños y fechas. Las líneas abarcan el 95 % central de las medias entre selecciones.
+(B) Acuerdo entre artículos individuales dentro de 26 áreas y las mismas 183 especialidades, con
+tres cantidades de artículos. Los puntos muestran medias; las líneas abarcan el 95 % central de los
+resultados de grupo y pareja de modelos: 1.170 para áreas y 8.235 para especialidades. El panel A
+compara relaciones entre resúmenes de grupos; el B, relaciones entre artículos dentro de grupos.
+Sus rangos describen fuentes distintas de variación y no son intervalos de conﬁanza.
+El acuerdo es menor cuando comparamos los artículos individuales dentro de un grupo. La
+CKA media se mantiene alrededor de 0,63 dentro de áreas y 0,64 dentro de las mismas
+183 especialidades al pasar de 128 a 512 artículos (Figura 1B). Esa media estable oculta
+comparaciones concretas que cambian más. De las 8.235 combinaciones de una especialidad
+y una pareja de modelos, 2.628 activan la alerta de selección (31,9 %): su acuerdo cambia
+más de lo permitido por la tolerancia registrada al elegir artículos o variar el tamaño entre
+los probados. Por tanto, una media estable no vuelve estable cada resultado de especialidad.
+La comparación con centros también utiliza objetos distintos: resúmenes de grupos frente a
+artículos individuales. No permite aislar el efecto de la escala por sí solo.
+12
+Shape of Science Robustness Borrador en español
+Las medidas alternativas de estructura coinciden en buena parte sobre qué parejas de modelos
+se parecen más. Dentro de cada uno de los 130 grupos originales de área y período, ordeno
+las parejas de modelos de menor a mayor acuerdo y comparo esos órdenes. Sus correlaciones
+medias de rangos con la CKA corregida son 0,891 para Procrustes y 0,881 para el orden de
+distancias; los valores más cercanos a uno indican órdenes más parecidos. La coincidencia no
+es completa. La comprobación original de selección de artículos conserva además 50 alertas
+entre 5.850 comparaciones, correspondientes a 45 parejas de modelos en cada uno de los 130
+grupos (Tabla S4). Es una comprobación distinta de las alertas de especialidades anteriores,
+con sus propios tamaños y tolerancias.
+4.2. Cambiar el modelo cambia qué artículos aparecen cerca
+Cuando todos los artículos de una misma área y período están disponibles como candidatos,
+dos modelos comparten en promedio el 30,3 % de los 25 vecinos más próximos: unos ocho
+artículos de 25. La media da el mismo peso a cada grupo de área y período y a cada pareja
+de modelos. Fijar la cantidad de candidatos en 2.048 por grupo da un acuerdo del 31,9 %. La
+cantidad es común entre grupos; los artículos concretos son comunes entre modelos dentro
+de cada grupo, no entre disciplinas.
+La búsqueda en la colección general plantea una pregunta más amplia. Toma 100 artículos
+de partida de cada uno de los 130 grupos, 13.000 en total, y busca entre los 400.000 registros
+generales. El acuerdo es del 17,5 %. Esta búsqueda admite otras disciplinas y períodos y, a
+la vez, ofrece muchos más candidatos. Como ambas cosas cambian juntas, la comparación
+no permite saber cuánto del menor acuerdo procede de cada cambio.
+Filtrar las marcas de origen y los duplicados cambia poco este panorama. Para que la compa-
+ración de antes y después sea justa, ambas medias utilizan solo los artículos de partida que
+sobreviven al ﬁltro. Su acuerdo inicial es del 30,58 %, algo distinto del 30,3 % anterior para
+todos los artículos de partida, y sube al 31,43 % tras ﬁltrar los candidatos. La ganancia es de
+0,85 puntos porcentuales. Ambas medias siguen equivalendo a unos ocho artículos compar-
+tidos de 25. Mantener ﬁja la cantidad de candidatos reduce la ganancia a 0,28 puntos con
+1.024 candidatos y 0,19 con 2.048. Los problemas eliminados por este ﬁltro explican poco
+del desacuerdo general, aunque algunas áreas cambian más que otras (Tabla S19).
+Las búsquedas emparejadas de especialidades permiten acotar mejor el cambio de alcance dis-
+ciplinar: ambas tienen 256 candidatos, los mismos artículos de partida y fechas emparejadas
+(Figura 2). Buscar dentro de la especialidad hace que los modelos compartan menos de sus 25
+vecinos en 127 de 217 especialidades (58,5 %), pero más en las otras 90 (41,5 %). El cambio
+medio respecto a buscar en el área amplia es de −1, 35 puntos porcentuales. Con listas de 50
+vecinos, el reparto es casi igual: 109 especialidades bajan y 108 suben. Por tanto, estrechar
+la búsqueda no tiene el mismo efecto en todas partes. Estos resultados describen cuánto
+coinciden las listas de los modelos; no evalúan lo útiles que son los artículos encontrados.
+13
+Shape of Science Robustness Borrador en español
+30% 40% 50% 60% 70%
+Coincidencia de vecinos en el área
+30%
+40%
+50%
+60%
+70%Coincidencia de vecinos en la especialidad
+Mayor en especialidad (90)
+Menor en especialidad (127)
+Figura 2: ¿Cambia el acuerdo al buscar dentro de una especialidad? Cada punto representa una
+de 217 especialidades. El eje horizontal muestra la fracción de vecinos compartidos por los
+modelos al buscar en el área amplia, como Medicina. El vertical muestra esa fracción dentro de su
+especialidad, como Cardiología y Medicina Cardiovascular. Por encima de la diagonal, los modelos
+comparten más vecinos en la búsqueda estrecha; por debajo, menos. Ambos conjuntos tienen 256
+candidatos, incluidos los mismos 50 artículos de partida, con fechas emparejadas. Los valores
+promedian parejas de modelos y diez elecciones de los otros 206 candidatos. El conjunto del área
+amplia siempre incluye esos 50 artículos de la especialidad. Las diferencias entre puntos describen
+especialidades, no intervalos de conﬁanza.
+Las parejas de modelos que coinciden más en la estructura general también tienden a com-
+partir más vecinos. Ordenar las 45 parejas de modelos según cada tipo de acuerdo da una
+correlación de rangos de 0,920. Esta asociación no vuelve intercambiables las dos compro-
+baciones: una pareja puede conservar las relaciones generales y sustituir muchos vecinos
+individuales. Además, las parejas reutilizan modelos, por lo que la asociación es descriptiva
+y no evidencia procedente de 45 observaciones independientes.
+El Suplemento S4 pasa de las medias a artículos concretos: comprueba si un artículo conserva
+sus vecinos al cambiar el tamaño de muestra, la regla que forma su vector o la longitud de la
+lista de vecinos. Leer esos ejemplos también permitió detectar problemas de origen. Un libro
+de historia aparece en Física, un texto sobre infección bacteriana en Política y otro registro
+14
+Shape of Science Robustness Borrador en español
+es un anuncio. Los contrasté con los registros descargados de OpenAlex: esas etiquetas y
+contenidos ya estaban allí; no surgieron al confundir artículos entre las salidas de los modelos.
+Los ejemplos permanecen en el análisis. Como se eligieron casos concretos para examinarlos,
+su número no estima la frecuencia de esos problemas en la colección.
+4.3. Medias parecidas ocultan comportamientos distintos entre
+modelos
+El experimento de texto cambia ahora lo que lee el modelo. Utiliza los mismos 52.000 artículos
+para tres entradas: solo título, solo resumen y título más resumen. Aquí, cada área aporta
+2.000 candidatos que reúnen sus cinco períodos. Es una búsqueda distinta de las anteriores
+dentro de una sola área y período.
+Partiendo de título más resumen, comparo mantener el texto y cambiar de modelo con
+mantener el modelo y darle solo el título. El primer cambio sustituye, en promedio, el 68,8 %
+de los 25 vecinos; el segundo, el 70,7 % (Figura 3). Son fracciones sustituidas, por lo que un
+valor mayor signiﬁca menos acuerdo. Los cambios de estructura correspondientes son 0,370
+y 0,366, medidos como uno menos CKA: restar el acuerdo de uno hace que aquí también los
+valores mayores signiﬁquen más cambio. Los dos cambios medios se parecen, pero no tienen
+por qué parecerse en cada modelo.
+Conservar el resumen y retirar solo el título cambia menos: 0,027 para estructura y el 22,1 %
+de los vecinos. Los títulos solos también afectan de forma distinta a cada modelo: sustituyen
+el 51,7 % de los vecinos de MPNet y el 84,2 % de los de SciBERT (Tabla S5). Por tanto,
+el parecido entre las medias generales no debe leerse como una equivalencia general entre
+cambiar el texto y cambiar de modelo.
+Para ver si esa comparación media se repite, elijo cincuenta conjuntos equilibrados de 1.000
+candidatos por área, la mitad de la cantidad del experimento completo. En estas búsquedas
+más pequeñas, cambiar de modelo sustituye el 64,93 % de los 25 vecinos y usar solo títulos, el
+66,49 %. Los títulos solos sustituyen, por tanto, 1,56 puntos porcentuales más, con un rango
+central del 95 % entre selecciones de 1,44–1,69. La diferencia general se mantiene positiva en
+todas las repeticiones. Su media es de 1,97 puntos con 10 vecinos y 1,04 con 50.
+Los resultados de cada modelo son menos uniformes. Las diferencias van de −14, 04 puntos
+para MPNet a +16, 59 para SciBERT. Un valor negativo signiﬁca que los títulos solos cam-
+bian menos vecinos que cambiar de modelo; uno positivo signiﬁca que cambian más. Así, una
+media general positiva que se repite reúne modelos en los que ambos cambios tienen efectos
+relativos opuestos (Suplemento S9).
+Cambiar la regla que forma el vector del artículo también puede invertir el resultado gene-
+ral. Para los cuatro modelos de palabras —BERT, SciBERT, BioBERT y PubMedBERT—
+sustituyo la media de las salidas de tokens por la salida CLS o SEP deﬁnida antes. Los otros
+15
+Shape of Science Robustness Borrador en español
+Cambiar
+modelo
+Quitar
+resumen
+Quitar
+título
+0
+0,1
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+0,81 - CKA corregida
+A  Cambio de forma
+Cambiar
+modelo
+Quitar
+resumen
+Quitar
+título
+0
+0,2
+0,4
+0,6
+0,8
+1
+Fracción de 25 vecinos sustituidos
+B  Cambio de vecinos
+Figura 3: Cambiar de modelo o cambiar su entrada. Todas las comparaciones utilizan los mismos
+52.000 artículos, con 2.000 por área repartidos entre cinco períodos. La entrada inicial es título
+más resumen. El cambio de modelo compara modelos con esa entrada; el cambio de texto
+mantiene el modelo y utiliza solo el título o solo el resumen. Los valores mayores indican más
+cambio: (A) uno menos CKA corregida; (B) fracción de 25 vecinos sustituidos entre los 2.000
+candidatos del área. Cada punto es una media de área. La línea de cada caja es la mediana; la
+caja abarca la mitad central de los valores de áreas. Las líneas exteriores llegan hasta los valores
+situados a menos de 1,5 alturas de caja de sus bordes. Estas distribuciones describen diferencias
+entre áreas, no intervalos de conﬁanza. Los modelos conservan sus límites habituales de texto.
+seis mantienen sus reglas habituales. Se vuelven a calcular los dos lados de la comparación:
+el efecto de cambiar de modelo y el de dar solo títulos. Con 25 vecinos, los títulos solos
+sustituyen ahora 3,13 puntos porcentuales menos con CLS y 2,00 menos con SEP, en todas
+las repeticiones. El orden depende, por tanto, de esta decisión de procesamiento. Son compa-
+raciones de formas prácticas de usar los modelos; no aíslan la contribución causal del texto,
+del diseño del modelo o de un único paso de procesamiento.
+La ampliación de los primeros 26.000 artículos a 52.000 también redujo la sensibilidad a la
+selección en la comparación de estructura. Aplicar la misma comprobación con 100 selecciones
+repetidas en cada tamaño reduce las alertas de 72 entre 520 contrastes de modelo, área y
+entrada (13,8 %) a cinco entre 520 (1,0 %). Menos contrastes superan, por tanto, la tolerancia
+registrada. Esto no demuestra estabilidad para cada comparación de vecinos. El Suplemento
+S3 conserva por separado la comprobación anterior de veinte selecciones. Las pruebas de
+fragmento común y de MiniLM con 512 tokens tratan, en cambio, sobre la longitud de
+entrada; no revelan un error de programación en el límite original de MiniLM.
+16
+Shape of Science Robustness Borrador en español
+4.4. Comparar dos áreas puede dar la respuesta contraria con otro
+modelo
+El último análisis pregunta si los modelos respaldan la misma descripción de un área. Reuti-
+liza los 52.000 artículos del experimento de texto y sus vectores de título más resumen. Por
+ejemplo, ¿apuntan más separadas las ﬂechas que representan los artículos de un área que las
+de otra? Antes de comparar áreas, compruebo si el valor medido en cada una cambia mucho
+al elegir otros artículos.
+Diez modelos y 26 áreas dan 260 casos que comprobar. La apertura angular no tiene alertas
+de selección ni en la prueba de medias muestras ni en la de igual tamaño. PR tiene cuatro
+alertas (1,5 %) con veinte medias muestras de 1.000 artículos por área y ninguna con cinco
+selecciones adicionales de 2.000. Estas pruebas utilizan tamaños y cantidades de repeticiones
+distintos. Pasar la segunda no elimina la sensibilidad detectada por la primera.
+Que los valores se repitan dentro de un modelo no garantiza el acuerdo entre modelos. Entre
+las 325 parejas de áreas, el 80,6 % tiene respuestas opuestas persistentes de al menos dos
+modelos para apertura angular, y el 68,0 % para PR (Figura 4). Por ejemplo, un modelo
+concreto da al área A mayor apertura angular que a B en todas las selecciones de artículos,
+mientras otro da mayor apertura a B en todas ellas. No hace falta que los demás modelos
+discrepen todos entre sí. Mayor se reﬁere a la propiedad medida, no a una posición más alta
+en un dibujo ni a mejor investigación.
+El acuerdo unánime es menos frecuente: los diez modelos dan de forma persistente el valor
+mayor a la misma área en el 12,9 % de las parejas para apertura angular y el 16,6 % para PR.
+El 6,5 % y el 15,4 % restantes no cumplen ni la regla de acuerdo unánime ni la de oposición.
+Quedan sin resolver con esas reglas.
+Muchas inversiones corresponden a diferencias pequeñas entre áreas. Exigir que cada orden
+persistente supere una diferencia del 5 %, respecto al promedio de los dos valores medidos,
+reduce la oposición al 29,5 % de las 325 parejas para apertura angular y al 54,5 % para
+PR. Con una diferencia mínima del 10 %, las proporciones bajan al 5,8 % y al 38,8 %. El
+primer porcentaje de cada comparación es una exigencia sobre el tamaño de la diferencia;
+el porcentaje resultante indica cuántas parejas siguen cumpliéndola. Una inversión con una
+diferencia mínima y otra con una diferencia mayor no deberían interpretarse igual.
+Las fórmulas alternativas suelen conservar el desacuerdo, aunque no en todos los casos. Solo
+cuento una oposición como conservada si al menos una de las parejas de modelos original-
+mente opuestos mantiene los mismos órdenes entre áreas. Las medidas angulares alternativas
+conservan con esta regla el 85,9 % de las oposiciones angulares originales (225/262). En las
+mismas 26 condiciones de artículos, la dimensión por entropía conserva el 94,6 % de las opo-
+siciones originales de PR y D80, el 86,0 %; el 86,0 % se mantiene con ambas alternativas
+(190/221). Estos denominadores son las parejas originalmente opuestas, no todas las parejas
+17
+Shape of Science Robustness Borrador en español
+0 100 200 325
+0%  Original
+0%  Centrada
+5%  Original
+5%  Centrada
+42
+105
+10
+262
+151
+96
+11
+21
+69
+219
+310
+A  Apertura angular
+0 100 200 325
+Parejas de áreas (325 por propiedad)
+0%  Original
+0%  Centrada
+5%  Original
+5%  Centrada
+54
+63
+36
+39
+221
+211
+177
+156
+50
+51
+112
+130
+B  Dimensión lineal efectiva (PR)
+Acuerdo de los diez Oposición persistente Sin resolver
+Figura 4: Cómo cambia el acuerdo entre modelos al cambiar la representación. Cada barra
+abarca las 325 parejas de áreas. Azul: los diez modelos dan de forma persistente el valor mayor a
+la misma área. Naranja: al menos dos modelos concretos mantienen órdenes opuestos. Gris: no se
+cumple ninguna de las dos reglas. Cada orden debe mantenerse en 26 condiciones: los 2.000
+artículos principales por área, veinte medias muestras de 1.000 y cinco selecciones adicionales de
+2.000. Las representaciones original y centrada usan los mismos artículos. El centrado lleva el
+origen a la media de los 52.000 vectores de longitud uno, equilibrados por área y período, de cada
+modelo; después reajusta los vectores resultantes a longitud uno. El corte del 5 % exige una
+diferencia mayor que el 5 % del promedio de los dos valores de áreas en todas las condiciones; el
+corte 0 exige una diferencia distinta de cero. La Tabla S20 recoge los cuatro cortes y si los mismos
+modelos conservan los mismos órdenes opuestos entre áreas.
+de áreas. Como D80 devuelve números enteros, puede dar empates que no aportan un orden
+persistente.
+Los cuatro modelos de palabras tampoco explican toda la oposición. Conservar solo los seis
+modelos entrenados para similitud sigue dejando respuestas contrarias en el 71,1 % de las
+325 parejas para apertura angular y el 49,2 % para PR (Tablas S14–S15).
+Las comparaciones angulares cambian mucho más al mover el punto común de referencia a la
+posición media de los 52.000 artículos equilibrados (Figura 4). Después de restar esa media
+y reajustar la longitud de los vectores a uno, la oposición baja del 80,6 % al 46,5 % de las 325
+18
+Shape of Science Robustness Borrador en español
+parejas: de 262 a 151. Pero el nuevo total no dice qué desacuerdos originales permanecen.
+Solo el 48,9 % de las oposiciones originales conserva al menos una de las mismas parejas
+de modelos opuestos con los mismos órdenes entre áreas (128/262). La Tabla S20 separa
+estas de las oposiciones nuevas o respaldadas por otras parejas de modelos. Con la regla de
+diferencia mínima del 5 %, quedan solo 11 parejas opuestas en vez de 96.
+PR es menos sensible a esta transformación. Las parejas opuestas bajan de 221 a 211, y el
+92,3 % de las oposiciones originales conserva al menos una de las mismas parejas de modelos
+opuestos y los mismos órdenes entre áreas (204/221). Por tanto, una comparación angular
+que se repite con otros artículos puede seguir dependiendo mucho del origen desde el que
+medimos los ángulos.
+El intento de identiﬁcar grupos separados mediante enlaces entre artículos cercanos llegó a
+otro límite. Unas conexiones débiles podrían parecer señal de un área dividida en temas de
+investigación. Sin embargo, las nubes artiﬁciales alargadas y los puntos extremos aislados
+producen esa señal sin que haya grupos temáticos. Además, cambia con el tamaño de muestra
+y con la regla que enlaza vecinos, con alertas de selección en 51 de 260 casos. El Suplemento
+S6 conserva esta comprobación fallida porque muestra un problema que la repetición, por sí
+sola, no resuelve: una señal geométrica puede no describir la característica de la investigación
+que queremos estudiar.
+5. Discusión
+5.1. Qué conviene comprobar antes de utilizar un mapa
+Una puntuación general de acuerdo alta deja abiertas algunas preguntas prácticas. Los mo-
+delos pueden compartir la organización amplia de las áreas y, a la vez, llevar al lector hacia
+artículos distintos o dar comparaciones opuestas entre áreas. Supongamos que un modelo
+da al área A mayor apertura angular que a B y el resultado se repite con otros artículos.
+Eso muestra estabilidad ante la selección dentro de ese modelo. Si otro modelo invierte el
+orden de forma persistente, hacer más selecciones con el primero no resuelve el desacuerdo.
+La aﬁrmación necesita comprobarse cambiando también de modelo, además de artículos.
+Esta preocupación continúa trabajos anteriores sobre la dependencia de los mapas respecto
+al método ( Gläser et al. , 2017; Boyack and Klavans , 2020) y complementa las evaluaciones
+con clasiﬁcaciones y relaciones externas ( González-Márquez et al. , 2024; Constantino et al. ,
+2025). Combinar estructura y vecinos también tiene antecedentes ( Caspari et al. , 2024). La
+aportación aquí es la comparación controlada entre niveles, decisiones de texto y compara-
+ciones repetidas de áreas, incluidos los casos en que un resultado se mantiene dentro de cada
+modelo y se invierte entre modelos.
+19
+Shape of Science Robustness Borrador en español
+La interpretación también depende de lo que describe la medida. Unos ángulos mayores
+indican que los vectores apuntan más separados; una dimensión lineal efectiva mayor indica
+que su variación está menos concentrada en unas pocas direcciones. Son descripciones de
+la representación. Llamar a un área más diversa en temas o más interdisciplinar exigiría
+establecer otra relación entre esas propiedades numéricas y la investigación. Otros trabajos
+sobre geometría de embeddings advierten del riesgo de atribuir un signiﬁcado amplio a una
+medida cómoda ( Rudman et al. , 2022). La comprobación fallida de fragmentación muestra
+por qué: incluso una diferencia geométrica que se repite puede sostener una explicación
+equivocada.
+5.2. Qué cambian las comprobaciones adicionales
+Las comprobaciones adicionales acotan las explicaciones de los resultados principales. La or-
+ganización compartida de los centros de áreas no depende de un único conjunto de artículos,
+de elegir 128 en vez de 256 o 512, ni de incluir un área concreta. El ﬁltro de calidad registrado
+tampoco elimina la mayor parte del bajo acuerdo entre vecinos: tras excluir registros marca-
+dos y duplicados, dos modelos siguen compartiendo unos ocho artículos en una lista de 25.
+Estas pruebas refuerzan esas observaciones dentro de la colección estudiada, sin establecer
+que las relaciones compartidas sean correctas.
+En el experimento de texto, las selecciones repetidas conservan un resultado medio que oculta
+comportamientos distintos. Dar solo títulos cambia menos vecinos que cambiar de modelo
+en unos modelos, y más en otros. Sustituir la media por la primera o la última salida que ha
+procesado el contexto, en los cuatro modelos de palabras, también invierte el orden general.
+La consecuencia práctica es indicar tanto qué texto lee el modelo como la regla que convierte
+sus salidas en un vector por artículo. Aﬁrmar que el texto y el modelo importan por igual
+iría más allá de estos resultados.
+Para la apertura angular, el punto común de referencia es otra decisión relevante. Moverlo
+a la media del conjunto equilibrado de artículos y reajustar los vectores cambia muchas
+respuestas sobre qué área tiene mayor dispersión. Repetir la selección de artículos no elimina
+esa dependencia ni establece que una representación sea la correcta. PR cambia menos,
+aunque las fórmulas alternativas de dimensión tampoco conservan todas las comparaciones.
+Por eso, una aﬁrmación sobre dispersión debe identiﬁcar la representación, la medida y el
+tamaño de la diferencia.
+Las comprobaciones por disciplina examinan una diferencia concreta: con la regla principal,
+los modelos coinciden menos sobre las relaciones entre artículos de Medicina que entre ar-
+tículos de Energía (Suplemento S5). Esto no signiﬁca que Medicina sea menos coherente, y
+tampoco tiene siempre el menor acuerdo de vecinos. La diferencia de estructura persiste al
+equilibrar la contribución de las especialidades dentro de cada área y al excluir los dos mo-
+delos biomédicos, BioBERT y PubMedBERT. Ninguna de las dos explicaciones probadas da
+20
+Shape of Science Robustness Borrador en español
+cuenta de toda la diferencia. Los modelos con entrenamientos relacionados también producen
+a veces resultados parecidos, pero esas aparentes familias cambian con la regla que forma los
+vectores. Con diez modelos que diﬁeren a la vez en los textos de entrenamiento, el diseño
+interno y la tarea para la que se entrenaron, estas asociaciones no permiten identiﬁcar una
+de esas características como la causa.
+La comparación temporal aplica los mismos modelos actuales a artículos de períodos de
+publicación antiguos y recientes. El acuerdo de estructura aumenta ligeramente en promedio.
+El acuerdo de vecinos baja 0,87 puntos porcentuales cuando cada grupo ofrece todos sus
+artículos disponibles, pero sube 0,91 puntos cuando todos ofrecen 2.048 candidatos. Por
+tanto, la tendencia aparente depende de si permitimos tamaños de búsqueda distintos entre
+los grupos antiguos y recientes. Describe el acuerdo entre representaciones actuales de esos
+artículos; por sí sola, no muestra que la ciencia haya convergido históricamente.
+5.3. Qué queda abierto
+La colección exige registros etiquetados como ingleses y con resúmenes utilizables. Reforzar
+los grupos pequeños de área y período ayuda a compararlos, pero cambia las proporciones.
+Persisten errores de origen, y la limpieza no certiﬁca cada registro. Repetir las selecciones no
+puede reparar la falta de cobertura ni hacer que estos resultados representen todo el trabajo
+cientíﬁco.
+Los diez modelos también ﬁjan un límite. Cuatro no se entrenaron especíﬁcamente para
+comparar documentos. La prueba con seis muestra que el desacuerdo no se limita a esos
+cuatro, pero no hace que este conjunto represente todos los modelos de embeddings. Para
+decidir qué orden entre áreas o qué relación entre artículos tiene mejor respaldo, necesitamos
+evidencia externa a estos vectores, como evaluaciones independientes de los trabajos.
+Varias ampliaciones y controles también se hicieron después de conocer resultados anteriores.
+Registrar sus reglas antes de los nuevos cálculos permite seguir las decisiones, pero no las
+convierte en predicciones formuladas antes de empezar el estudio. Un siguiente paso útil
+sería contrastar una aﬁrmación concreta extraída del mapa con juicios independientes en un
+área de investigación. Añadir modelos, por sí solo, no resolvería qué signiﬁca su geometría
+compartida o contradictoria.
+21
+Shape of Science Robustness Borrador en español
+6. Conclusión
+Cambiar el modelo de embeddings puede conservar la organización general de la ciencia y
+cambiar qué artículos aparecen cerca y qué área tiene representaciones más dispersas. Dar al
+modelo solo títulos también puede producir cambios grandes, con efectos que dependen del
+modelo y de la regla que forma el vector del artículo. Elegir otros artículos comprueba una
+fuente de dependencia; cambiar de modelo o de punto de referencia comprueba otras. Antes
+de usar un mapa para sostener una relación concreta, conviene comprobar esa relación con
+las decisiones que pueden afectarla y mostrar cuánto cambia. El acuerdo entre los modelos
+probados indica qué comparten sus representaciones. Decidir si esa relación describe bien la
+investigación sigue necesitando evidencia independiente.
+Declaraciones
+Contribuciones del autor. Alejandro Treny Ortega concibió el proyecto y dirigió la inves-
+tigación y la preparación del manuscrito como investigador independiente.
+Conﬂictos de interés. El autor declara que no tiene conﬂictos de interés.
+Financiación. Esta investigación no recibió ﬁnanciación externa.
+Disponibilidad de datos y código. El repositorio del proyecto es https://github.com
+/aleetreny/Shape-of-Science-Robustness . Este borrador se acompaña de las tablas
+utilizadas en las ﬁguras y de las fuentes editables del manuscrito. El corpus ﬁjo, los vectores
+y los registros locales completos de ejecución no se han depositado en un archivo público
+persistente. Publicar el código por sí solo no permite reproducir por completo este análisis.
+El Suplemento S8 detalla el inventario de acceso y los requisitos pendientes; aquí no se aﬁrma
+que exista un depósito de datos ni un identiﬁcador persistente.
+Referencias
+Iz Beltagy, Kyle Lo, and Arman Cohan. SciBERT: A pretrained language model for scientiﬁc text.
+In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings of the 2019
+Conference on Empirical Methods in Natural Language Processing and the 9th International
+Joint Conference on Natural Language Processing (EMNLP-IJCNLP) , pages 3615–3620, Hong
+Kong, China, nov 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1371.
+URL https://aclanthology.org/D19-1371/.
+Kevin W. Boyack and Richard Klavans. A comparison of large-scale science models based on
+textual, direct citation and hybrid relatedness. Quantitative Science Studies , 1(4):1570–1585,
+2020. ISSN 2641-3337. doi: 10.1162/qss_a_00085.
+22
+Shape of Science Robustness Borrador en español
+Laura Caspari, Kanishka Ghosh Dastidar, Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer.
+Beyond benchmarks: Evaluating embedding model similarity for retrieval augmented generation
+systems. arXiv:2407.08275, 2024. URL https://arxiv.org/abs/2407.08275. Preprint.
+Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, and Daniel Weld. SPECTER: Document-
+level representation learning using citation-informed transformers. In Dan Jurafsky, Joyce Chai,
+Natalie Schluter, and Joel Tetreault, editors, Proceedings of the 58th Annual Meeting of the
+Association for Computational Linguistics , pages 2270–2282, Online, jul 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.acl-main.207. URL https://aclanthology
+.org/2020.acl-main.207/.
+Isabel Constantino, Sadamori Kojaku, Santo Fortunato, and Yong-Yeol Ahn. Representing the
+disciplinary structure of physics: A comparative evaluation of graph and text embedding methods.
+Quantitative Science Studies , 6:263–280, 2025. ISSN 2641-3337. doi: 10.1162/qss_a_00349.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of deep
+bidirectional transformers for language understanding. In Jill Burstein, Christy Doran, and Tha-
+mar Solorio, editors, Proceedings of the 2019 Conference of the North American Chapter of the
+Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and
+Short Papers), pages 4171–4186, Minneapolis, Minnesota, jun 2019. Association for Computatio-
+nal Linguistics. doi: 10.18653/v1/N19-1423. URL https://aclanthology.org/N19-1423/.
+Tianyu Gao, Xingcheng Yao, and Danqi Chen. SimCSE: Simple contrastive learning of senten-
+ce embeddings. In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-
+tau Yih, editors, Proceedings of the 2021 Conference on Empirical Methods in Natural Lan-
+guage Processing , pages 6894–6910, Online and Punta Cana, Dominican Republic, nov 2021.
+Association for Computational Linguistics. doi: 10.18653/v1/2021.emnlp-main.552. URL
+https://aclanthology.org/2021.emnlp-main.552/.
+Jochen Gläser, Wolfgang Glänzel, and Andrea Scharnhorst. Same data—diﬀerent results? towards
+a comparative approach to the identiﬁcation of thematic structures in science. Scientometrics,
+111(2):981–998, 2017. ISSN 0138-9130. doi: 10.1007/s11192-017-2296-z.
+Rita González-Márquez, Luca Schmidt, Benjamin M. Schmidt, Philipp Berens, and Dmitry Kobak.
+The landscape of biomedical research. Patterns, 5(6):100968, 2024. ISSN 2666-3899. doi: 10.101
+6/j.patter.2024.100968.
+Yu Gu, Robert Tinn, Hao Cheng, Michael Lucas, Naoto Usuyama, Xiaodong Liu, Tristan Naumann,
+Jianfeng Gao, and Hoifung Poon. Domain-speciﬁc language model pretraining for biomedical
+natural language processing. ACM Transactions on Computing for Healthcare , 3(1):1–23, 2022.
+ISSN 2691-1957. doi: 10.1145/3458754.
+Matthias Held and Theresa Velden. How to interpret algorithmically constructed topical structures
+of scientiﬁc ﬁelds? a case study of citation-based mappings of the research specialty of invasion
+biology. Quantitative Science Studies , 3(3):651–671, 2022. ISSN 2641-3337. doi: 10.1162/qss_
+a_00194.
+Nathaniel Imel and Zachary Hafen. Density, asymmetry and citation dynamics in scientiﬁc litera-
+ture. arXiv:2506.23366, 2025. URL https://arxiv.org/abs/2506.23366. Preprint.
+Simon Kornblith, Mohammad Norouzi, Honglak Lee, and Geoﬀrey Hinton. Similarity of neural
+network representations revisited. In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors,
+Proceedings of the 36th International Conference on Machine Learning , volume 97 of Proceedings
+of Machine Learning Research , pages 3519–3529. PMLR, 09–15 Jun 2019. URL https://proc
+eedings.mlr.press/v97/kornblith19a.html.
+23
+Shape of Science Robustness Borrador en español
+Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan Ho So, and Jaewoo
+Kang. Biobert: a pre-trained biomedical language representation model for biomedical text
+mining. Bioinformatics, 36(4):1234–1240, 2020. ISSN 1367-4803. doi: 10.1093/bioinformatics/b
+tz682.
+Alex Murphy, Joel Zylberberg, and Alona Fyshe. Correcting biased centered kernel alignment
+measures in biological and artiﬁcial neural networks. arXiv:2405.01012, 2024. URL https:
+//arxiv.org/abs/2405.01012. Preprint.
+OpenAlex. Topics. OpenAlex Help Center, 2026. URL https://help.openalex.org/data/top
+ics/. Accessed 18 September 2026.
+Malte Ostendorﬀ, Nils Rethmeier, Isabelle Augenstein, Bela Gipp, and Georg Rehm. Neighborhood
+contrastive learning for scientiﬁc document representations with citation embeddings. In Yoav
+Goldberg, Zornitsa Kozareva, and Yue Zhang, editors, Proceedings of the 2022 Conference on
+Empirical Methods in Natural Language Processing, pages 11670–11688, Abu Dhabi, United Arab
+Emirates, dec 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.emnlp-m
+ain.802. URL https://aclanthology.org/2022.emnlp-main.802/.
+Jason Priem, Heather Piwowar, and Richard Orr. OpenAlex: A fully-open index of scholarly works,
+authors, venues, institutions, and concepts, 2022. URL https://arxiv.org/abs/2205.01833v2.
+Preprint, version 2.
+Nils Reimers and Iryna Gurevych. Sentence-BERT: Sentence embeddings using Siamese BERT-
+networks. In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings of the
+2019 Conference on Empirical Methods in Natural Language Processing and the 9th International
+Joint Conference on Natural Language Processing (EMNLP-IJCNLP) , pages 3982–3992, Hong
+Kong, China, nov 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1410.
+URL https://aclanthology.org/D19-1410/.
+William Rudman, Nate Gillman, Taylor Rayne, and Carsten Eickhoﬀ. IsoScore: Measuring the
+uniformity of embedding space utilization. In Smaranda Muresan, Preslav Nakov, and Aline
+Villavicencio, editors, Findings of the Association for Computational Linguistics: ACL 2022 ,
+pages 3325–3339, Dublin, Ireland, may 2022. Association for Computational Linguistics. doi:
+10.18653/v1/2022.findings-acl.262. URL https://aclanthology.org/2022.findings-acl.2
+62/.
+Amanpreet Singh, Mike D’Arcy, Arman Cohan, Doug Downey, and Sergey Feldman. SciRe-
+pEval: A multi-format benchmark for scientiﬁc document representations. In Houda Boua-
+mor, Juan Pino, and Kalika Bali, editors, Proceedings of the 2023 Conference on Empiri-
+cal Methods in Natural Language Processing , pages 5548–5566, Singapore, dec 2023. Asso-
+ciation for Computational Linguistics. doi: 10.18653/v1/2023.emnlp- main.338. URL
+https://aclanthology.org/2023.emnlp-main.338/.
+Shruti Singh and Mayank Singh. The ineﬃciency of language models in scholarly retrieval: An ex-
+perimental walk-through. In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio, editors,
+Findings of the Association for Computational Linguistics: ACL 2022 , pages 3153–3173, Dublin,
+Ireland, may 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.findings-a
+cl.249. URL https://aclanthology.org/2022.findings-acl.249/.
+24
+Shape of Science Robustness Borrador en español
+Alex H Williams. Equivalence between representational similarity analysis, centered kernel align-
+ment, and canonical correlations analysis. In Marco Fumero, Clementine Domine, Zorah Lähner,
+Donato Crisostomi, Luca Moschella, and Kimberly Stachenfeld, editors, Proceedings of UniReps:
+the Second Edition of the Workshop on Unifying Representations in Neural Models , volume
+285 of Proceedings of Machine Learning Research , pages 10–23. PMLR, 14 Dec 2024. URL
+https://proceedings.mlr.press/v285/williams24a.html.
+Alex H Williams, Erin Kunz, Simon Kornblith, and Scott Linderman. Generalized shape metrics on
+neural representations. In M. Ranzato, A. Beygelzimer, Y. Dauphin, P.S. Liang, and J. Wortman
+Vaughan, editors, Advances in Neural Information Processing Systems , volume 34, pages 4738–
+4750. Curran Associates, Inc., 2021. URL https://proceedings.neurips.cc/paper_files/p
+aper/2021/file/252a3dbaeb32e7690242ad3b556e626b-Paper.pdf.
+25

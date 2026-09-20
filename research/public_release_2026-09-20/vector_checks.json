@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "seconds": 70.00393320900184,
+  "absolute_tolerance_fixed_before_run": 1e-08,
+  "max_absolute_error": 1.2742029653622922e-12,
+  "models": 10,
+  "centroid_arrays": 40,
+  "cka_pair_values": 180,
+  "geometry_cases": 60,
+  "exact_neighbor_intersection_counts": 13500,
+  "headline_recipe_k_combinations": 5,
+  "conditions_checked": {
+    "centres": "repeat 0, 26 Fields and 217 Subfields, observed and random",
+    "geometry": "Field 11: primary, half 0, external 0; both representations",
+    "search_scope": "Subfield 1100, repeat 0, both scopes, 50 queries, all pairs and k",
+    "input": "Field 11, repeat 0, 1000 candidates, all 36 representations"
+  },
+  "limit": "bounded calculation checks for all four figures; not all conditions, inference or every supplementary analysis"
+}

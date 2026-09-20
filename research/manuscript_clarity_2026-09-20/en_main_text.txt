@@ -1,0 +1,736 @@
+Shape of Science Robustness Manuscript draft
+How much does the map of science depend on
+the embedding model?
+Alejandro Treny Ortega
+Independent researcher
+Manuscript draft • 20 September 2026
+Abstract
+Science maps use relationships between papers to describe how research is organised.
+When these relationships come from text embeddings, a model turns each paper into
+a list of numbers. Would another model give the same picture? I compare ten models
+using the same collection of 500,000 OpenAlex records, covering 26 research ﬁelds and
+2000–2024. I examine the overall arrangement, the papers placed closest to each other,
+and the spread of papers within ﬁelds. The models share a broad arrangement, but in
+searches within the same ﬁeld and period, two models retain about eight of the same
+25 closest papers on average. Using only the title instead of the title and abstract
+changes these neighbours about as much as changing models. In a later exploratory
+comparison, models also disagree about which of two ﬁelds has more widely spread
+paper representations. These opposite results can persist when diﬀerent articles are
+selected, although many diﬀerences are small and processing choices matter. Repeating
+a result with other articles therefore does not ensure that another model supports it.
+The ﬁndings identify dependence on representation; they do not establish which model
+best describes the research itself.
+Keywords: science mapping; document embeddings; robustness; neighbourhood agreement;
+geometric comparisons.
+1 Introduction
+A science map can help a reader ﬁnd related papers or compare research areas. Its usefulness
+depends on the relationships it shows. If two models place diﬀerent papers close to the same
+article, the reader may follow diﬀerent routes through the literature. If they disagree about
+how widely an area’s papers are spread, they may also support diﬀerent descriptions of
+that area. I ask how much of this changes when the papers stay the same and only their
+representation changes.
+Text embeddings provide one way to build these maps. A model reads a paper’s text and
+turns it into a list of numbers, called a vector. Those numbers give the paper a position
+in a space where distances can be calculated. Papers placed close together are treated as
+1
+Shape of Science Robustness Manuscript draft
+related. This approach has been used to map biomedical literature and the structure of
+physics ( González-Márquez et al. , 2024; Constantino et al. , 2025). But the position comes
+from the model. It is not a relationship observed independently of that model.
+This concern has a history in science mapping. Gläser et al. (2017) asked how much a
+reconstructed thematic structure reﬂects scientiﬁc knowledge and how much it reﬂects the
+method used to recover it. Boyack and Klavans (2020) found that methods could obtain
+similar overall accuracy while assigning diﬀerent papers to clusters. An overall score can
+therefore leave an important question unanswered: would another method support the par-
+ticular comparison a reader wants to make?
+I address that question using ten models and a ﬁxed collection of 500,000 publications. First,
+I compare the broad arrangement of research areas and the articles placed near each other.
+I then ask whether changing the text supplied to a model matters as much as changing
+the model itself. A later, exploratory analysis examines speciﬁc comparisons between areas:
+does each model identify the same area as having more widely spread paper representations?
+Repeating these comparisons with other articles helps distinguish dependence on the selected
+papers from dependence on the model.
+2 Background and research questions
+2.1 What earlier comparisons tell us
+Previous studies assess scientiﬁc embeddings against several useful criteria. Constantino
+et al. (2025) compare them with disciplinary classiﬁcations in physics; González-Márquez
+et al. (2024) examine related biomedical papers and their labels. Such checks ask whether
+a representation agrees with information about the literature. The present study asks a
+complementary question: which relationships remain when the representation changes?
+The model is only one choice involved. A title and a full abstract contain diﬀerent amounts of
+information. Models also read diﬀerent lengths of text and combine their outputs in diﬀerent
+ways. Singh and Singh (2022) show that scholarly search can be sensitive to the wording of
+short queries. This makes the text supplied to a model part of the comparison, rather than
+a detail to leave unspeciﬁed.
+Comparing both overall structure and nearby papers is not new. Caspari et al. (2024)
+combine geometric and neighbourhood comparisons, while Imel and Hafen (2025) examine
+properties of scientiﬁc embedding spaces alongside citation relationships. I build on these ap-
+proaches by keeping articles matched between models, changing text and processing choices
+explicitly, and checking speciﬁc comparisons between research areas with repeated article
+selections and alternative measures.
+2
+Shape of Science Robustness Manuscript draft
+2.2 What agreement can establish
+Two distinctions matter throughout. Agreement asks whether diﬀerent models give similar
+results for the same papers. Selection stability asks whether a result repeats when diﬀerent
+papers from the collection are used. A comparison can be stable within each model while
+the models give opposite answers.
+Neither property establishes that the answer is correct about the research itself. Models can
+share an error, and a repeatable pattern can be hard to interpret. In a study of invasion
+biology, Held and Velden (2022) show why topic solutions require substantive interpretation
+beyond numerical checks. Here, agreement is evidence that a result survives a change of
+model, not evidence of thematic truth.
+I compare the numerical representations before they are reduced to a drawing on a page.
+Each vector has hundreds of coordinates; a two-dimensional plot would add another trans-
+formation that could change apparent distances. In this article, the shape of a map refers
+to relationships in that original space.
+2.3 Research questions
+RQ1. When the model changes, what remains of the arrangement of research areas and of
+the papers placed close together?
+RQ2. How much does changing the input text, or the rule used to form one paper vector,
+matter compared with changing the model?
+RQ3. Do models agree about which research area has more widely spread paper repre-
+sentations, or variation across more directions? Do these comparisons repeat with other
+articles?
+The third question was added after the initial comparisons and is exploratory. All three
+concern a ﬁxed collection and a ﬁxed set of models. They do not seek a winning model or
+estimate the structure of all scientiﬁc literature.
+3
+Shape of Science Robustness Manuscript draft
+3 Data and methods
+3.1 One collection, several questions
+The starting collection contains 500,000 distinct OpenAlex work IDs, retrieved and cleaned
+by 15 September 2026 ( Priem et al. , 2022). Records were labelled as English articles, reviews
+or conference papers published in 2000–2024. Each required a title, a reconstructed abstract
+of at least 50 words and a primary research ﬁeld. Retractions, paratext and clear content
+failures were excluded. Less certain cases and possible duplicate versions were kept with
+ﬂags, rather than treated as resolved. Supplement S1 gives the rules and counts.
+OpenAlex assigns papers to broad Fields and narrower Subﬁelds, using information from
+text, citations and journals ( OpenAlex, 2026). I refer to these as areas and specialties,
+respectively. The 26 areas provide the main units of comparison. These database labels
+organise the analysis; they are not independently veriﬁed descriptions of every paper.
+The collection has two parts. Seeded random API requests supplied 400,000 eligible records.
+Another 100,000 strengthened coverage where few papers were available within an area and
+ﬁve-year period. The ﬁve periods are 2000–04, 2005–09, 2010–14, 2015–19 and 2020–24,
+giving 130 area–period groups with at least 2,165 papers each. Global searches use the
+400,000-record general collection. Area comparisons use both parts. Neither the reinforced
+collection nor an average giving every area equal weight estimates world publication propor-
+tions.
+Not every question requires processing all 500,000 papers again. To compare titles, abstracts
+and both together, I use the same 52,000 papers: 2,000 per area, with 400 from each period.
+This includes the 26,000 papers used in an earlier, smaller trial of that same comparison. The
+later analysis of spread within areas reuses these 52,000 papers. A separate set of 52,000
+serves a diﬀerent purpose: checking what happens when every model reads the same passage
+of text. Table 1 keeps these uses apart. In every model comparison, both models receive the
+same article IDs.
+4
+Shape of Science Robustness Manuscript draft
+T able 1: What each comparison asks and which articles it uses.
+Purpose Articles used What is compared
+Build the starting
+collection
+500,000: 400,000 general records
+and 100,000 to strengthen smaller
+area–period groups.
+Ten models represent each
+title and abstract.
+Compare the broad map
+and nearby papers
+Selections from that collection; 256
+papers per group centre. Searches
+use the candidates stated for each
+result.
+Area centres, papers within
+groups, and lists of closest
+papers.
+Change the input text 52,000: 2,000 per area, 400 per
+period. Includes the earlier
+26,000-paper trial.
+Title only, abstract only,
+and both, on the same
+papers.
+Give every model the
+same passage
+A diﬀerent set of 52,000, with 400
+per area and period.
+Usual input versus a shared
+passage that ﬁts all models.
+Compare spread within
+areas
+The same 52,000 as the text
+experiment; repeated selections test
+stability.
+All 325 comparisons of two
+areas, for two geometric
+properties.
+Change the scope of a
+search
+10,850 starting papers: 50 per
+specialty, across 217 specialties.
+Specialty versus broader
+area, with 256 candidates in
+each.
+All selections come from the starting collection; these rows must not be added. Each model com-
+parison uses identical article IDs. The scope comparison includes the same 50 starting papers in
+both candidate sets and repeats the choice of the other 206 ten times. Detailed sizes, ﬁlters and
+checks appear in the methods and Supplements S1–S4. The 1,300 software-test articles are not an
+additional scientiﬁc sample.
+3.2 How each model represents a paper
+The ten models in Table 2 cover scientiﬁc documents, general sentence similarity, and scien-
+tiﬁc or biomedical language. They were selected for their use in scholarly representation and
+their diﬀerent training approaches. They are a ﬁxed comparison set, not a random sample
+of models or a ranking of the newest systems. Model versions, text formats and software
+settings were ﬁxed before their representations were calculated.
+The main input is the title followed by the abstract, in each model’s usual format. Models
+read small pieces of text called tokens, which may be whole words or parts of words. Their
+input limits therefore diﬀer from word counts. MiniLM reads at most 256 tokens and MPNet
+384 in their standard settings. These limits cut oﬀ part of the input for 49.58% and 20.16% of
+5
+Shape of Science Robustness Manuscript draft
+papers, respectively. I retain those settings and test MiniLM at 512 tokens separately. The
+common-passage check described above lets every model read the same content, although
+each divides it into tokens in its own way.
+Some models produce a vector for each token, so a further rule must turn those outputs into
+one vector for the paper. This step is called pooling. For BERT, SciBERT, BioBERT and
+PubMedBERT, the main rule averages the last-layer outputs at all positions that contain
+text or special symbols, excluding padding. These four models were not trained speciﬁcally
+to compare whole documents. Two checks instead use the ﬁrst-position output, called CLS,
+or the last non-padding output, called SEP. CLS is taken before the model’s additional pooler
+transformation. The mean rule was speciﬁed before the primary comparisons and retained
+after early checks; it was not chosen to maximise agreement. The other six models use their
+documented rules. Supplement S1 provides exact settings.
+T able 2: Embedding models and primary representation settings.
+Model V ector
+size
+T oken
+limit Paper vector Reference
+SPECTER 768 512 CLS (Cohan et al. , 2020)
+SPECTER2 768 512 CLS + adapter ( Singh et al. , 2023)
+SciNCL 768 512 CLS (Ostendorﬀ et al. , 2022)
+SciBER T 768 512 Mean (Beltagy et al. , 2019)
+BER T 768 512 Mean (Devlin et al. , 2019)
+MPNet 768 384 Mean (Reimers and Gurevych ,
+2019)
+MiniLM 384 256 Mean (Reimers and Gurevych ,
+2019)
+PubMedBER T /
+BiomedBER T 768 512 Mean (Gu et al. , 2022)
+BioBER T 768 512 Mean (Lee et al. , 2020)
+SimCSE 768 512 CLS, pre-pooler ( Gao et al. , 2021)
+Vector size is the number of coordinates. MPNet and MiniLM use all-mpnet-base-v2 and all-
+MiniLM-L6-v2, respectively. Limits count tokens including special symbols. Mean: last-layer
+average over non-padding positions, including special symbols. CLS: ﬁrst-position state before the
+pooler; SPECTER2 adds its proximity adapter. For MPNet/MiniLM, the reference describes the
+Sentence-BERT framework, not the exact checkpoint training. Changing the pooling rule does not
+add a separately trained model. Full revisions, formats and truncation: Table S2.
+6
+Shape of Science Robustness Manuscript draft
+3.3 Following the map from areas to individual papers
+Before comparing representations, each article vector is scaled to length one. This makes
+comparisons depend on direction rather than vector length. To summarise an area, I average
+its article vectors to obtain a centre. The arrangement of these centres describes broad
+relationships between areas. Comparisons of the individual vectors inside each area retain
+the detail hidden by that average.
+The centre comparison uses 256 articles per centre, with 26 area centres, 217 specialty centres,
+or a restricted set of 26 specialty centres. Random groups with the same sizes and dates show
+how much agreement can accompany averaging without the observed labels. Within-group
+comparisons use 128, 256 and 512 articles. The same 183 specialties have enough papers for
+all three sizes.
+For an individual paper, its neighbours are the papers placed closest to it. I compare the
+lists of 25 nearest neighbours produced by two models, with lists of 10 and 50 as checks.
+Closeness is measured by cosine similarity, which compares vector directions. The starting
+paper cannot be its own neighbour. Search lists are calculated exactly and checked by
+independent sorting. The available papers matter: a search through an entire area and
+period diﬀers from one limited to 2,048 papers or extended to the 400,000-record general
+collection. Each result states which search was used.
+A further comparison holds the search size constant while changing its scope. For each of 217
+specialties, 50 ﬁxed starting papers are searched against 256 candidates from that specialty
+and 256 from its broader area. Both sets include those same 50 papers and have matching
+period counts. Ten selections vary the other 206 candidates. This gives 10,850 starting
+papers in total. Including them in both sets helps keep the comparison fair, but also means
+that the broader set is not an unrestricted random sample of its area.
+3.4 Measuring shared structure and spread within an area
+To compare overall structure, I ask whether relationships among the same papers are similar
+in two representations. The main measure is corrected linear centred kernel alignment,
+abbreviated CKA (Kornblith et al., 2019; Murphy et al., 2024). Higher values indicate greater
+agreement. A value of 0.9 does not mean that 90% of the science is correctly represented.
+The correction reduces a known inﬂation caused by ﬁnite samples; it does not remove all
+statistical bias. Two further checks allow a rotation and rescaling of the representations
+(Procrustes alignment), or compare the ranking of distances between papers. They have
+diﬀerent sensitivities, but are not independent tests of thematic correctness ( Williams et al. ,
+2021; Williams, 2024). Supplement S2 gives the formulas.
+I also describe two properties within each area. Angular spread measures how far apart article
+vectors point: it is the median angle between distinct vectors. Larger angles mean a wider
+7
+Shape of Science Robustness Manuscript draft
+spread of directions. Eﬀective linear dimension , measured by the participation ratio (PR),
+asks how widely variation is shared among directions. For intuition, a cloud concentrated
+along one line varies mainly in one direction; a cloud spread across a plane varies in more.
+The measure extends that idea to the full vector space. Neither property counts research
+topics or establishes how diverse an area is.
+Alternative angle summaries and measures of variation test dependence on the chosen for-
+mula. The dimension alternatives use the same underlying variation, so they do not indepen-
+dently validate a thematic interpretation. I also tested whether links between nearby papers
+could identify separate groups, but checks with artiﬁcial examples prevented treating that
+measure as general fragmentation. Deﬁnitions and controls appear in Supplement S6.
+3.5 Checking whether a comparison repeats
+With 26 areas, there are 325 ways to choose two diﬀerent areas, counting each comparison
+once. For each geometric property, I ask which area has the larger value under each model.
+I repeat the calculation using twenty half samples of 1,000 papers per area and ﬁve further
+selections of 2,000. A direction is called persistent only if it holds in all these selections and
+in the main set of 2,000.
+This separates three outcomes. All ten models may consistently identify the same area as
+larger. At least two ﬁxed models may consistently give opposite answers. Or the comparison
+may remain unresolved under these rules. Unresolved does not mean equal. I also require
+diﬀerences to exceed 1, 5 or 10% of the two values’ average, alongside the check that requires
+only a nonzero diﬀerence. These cutoﬀs show whether very small diﬀerences drive a result;
+they are not universal thresholds of scientiﬁc importance.
+Selections overlap within the same collection. Their ranges describe sensitivity to choosing ar-
+ticles, not conﬁdence intervals for a wider population. Separate checks ﬂag comparisons that
+change too much across selections; the supplement retains their rules and counts. Compar-
+isons also share models and areas, so they are described rather than treated as independent
+observations in signiﬁcance tests.
+The work developed in stages. The ﬁrst structure and neighbour comparisons preceded the
+expanded text experiment and the specialty searches. The geometric analysis was a later
+exploration; the 325-comparison summary followed its initial examples. Rules were recorded
+before the corresponding new calculations, with earlier results already known. Some controls
+were added during this process. Supplement S2 records the sequence; the study was not
+externally preregistered as a whole.
+8
+Shape of Science Robustness Manuscript draft
+4 Results
+4.1 The broad arrangement is shared more than the detail
+Models agree strongly about the arrangement of group centres. With 256 papers per centre,
+mean corrected CKA is 0.939 for the 26 areas and 0.911 for 217 specialties (Figure 1A). Using
+only 26 specialty centres gives 0.902. Random groups matched in size and dates also agree to
+some extent, around 0.63–0.64, but fall below the observed groups. A veraging contributes to
+the comparison without fully accounting for the agreement associated with the area labels.
+26 Field
+centres
+217 Subfield
+centres
+26 Subfield
+centres
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Corrected CKA
+A  Between group centres
+Observed groups Random groups
+0.0 0.2 0.4 0.6 0.8 1.0
+Corrected CKA
+128
+256
+512Articles per group
+0.632
+0.629
+0.630
+0.636
+0.636
+0.636
+B  Within groups
+26 Fields
+Same 183 Subfields
+Figure 1: Agreement about area summaries and the papers inside them. Higher corrected CKA
+means greater agreement between models. (A) Mean agreement between group centres, each
+formed from 256 papers. Random groups preserve sizes and dates; the 26-specialty condition also
+matches the number of centres. (B) Agreement within groups at three article counts, using 26
+areas and the same 183 specialties. Points and labels show means. Lines cover the 2.5th–97.5th
+percentiles of group–model-pair comparisons: 1,170 for areas and 8,235 for specialties. They show
+the spread of those results, not conﬁdence intervals. Model pairs share models and are not
+independent. Both axes span 0–1; the panels compare diﬀerent objects, not a causal eﬀect of scale.
+Inside groups, mean CKA is around 0.63 for areas and 0.64 for the same 183 specialties at
+all three sizes (Figure 1B). Increasing the number of articles from 128 to 512 changes these
+means little. Thus, narrower labels do not consistently reduce agreement. The centre and
+within-group analyses compare diﬀerent objects, however; their diﬀerence does not isolate a
+causal eﬀect of scale.
+9
+Shape of Science Robustness Manuscript draft
+The alternative measures broadly support the ordering of model agreements. Across the
+original 130 area–period groups, their mean rank correlations with corrected CKA are 0.891
+for Procrustes and 0.881 for distance ranks. Agreement is not complete, and the original se-
+lection check retains 50 alerts among 5,850 model-pair/group comparisons (Table S4). These
+particular cases remain relevant even when the overall mean changes little.
+4.2 Changing the model changes which papers appear nearby
+Within the same area and period, two models retain an average of 30.3% of the 25 nearest
+neighbours: about eight papers out of 25. This average gives equal weight to each group and
+model pair. Using 2,048 common candidates in every group raises agreement to 31.9%. A
+separate search through the 400,000-record general collection gives 17.5% for 13,000 balanced
+starting papers. That last comparison changes both the search scope and the number of
+candidates, so it cannot isolate the eﬀect of crossing disciplinary boundaries.
+Holding search size and dates constant gives a less uniform result (Figure 2). Of 217 special-
+ties, 127 have lower agreement when searching within the specialty rather than the broader
+area, while 90 have higher agreement. The mean change is −1.35 percentage points. With
+50 neighbours, the split is 109 and 108. A narrower search therefore does not consistently
+make models disagree more.
+Overall structure and neighbour agreement are related: their rank correlation across the
+45 model-pair averages is 0.920. In other words, model pairs that agree more on one tend
+to agree more on the other. Yet a pair can preserve broad structure while changing many
+individual neighbours. These shared-model observations are descriptive, not independent
+evidence of reliability.
+The case analysis in Supplement S4 follows individual specialties, papers and links across
+changes in sample size, pooling and neighbour count. It also exposes source problems: se-
+lected examples include a history book labelled as physics, a bacterial-infection text labelled
+as politics and an announcement. These match the downloaded OpenAlex records; they are
+not errors in aligning model outputs. They remain in the results and do not establish how
+common such problems are.
+10
+Shape of Science Robustness Manuscript draft
+30% 40% 50% 60% 70%
+Neighbour overlap within the parent Field
+30%
+40%
+50%
+60%
+70%Neighbour overlap within the Subfield
+Higher within Subfield (90)
+Lower within Subfield (127)
+Figure 2: Does restricting a search to a specialty change agreement? Each point represents one
+of 217 specialties. The horizontal axis shows the fraction of shared neighbours when searching its
+broader area; the vertical axis shows that fraction within the specialty. A point above the diagonal
+has greater agreement in the narrower search. Both searches contain 256 candidates, including
+the same 50 starting papers, and matched dates. Values average model pairs and ten selections of
+the remaining candidates. The broader search is therefore conditioned on those starting papers.
+The spread of points shows diﬀerences between specialties, not conﬁdence intervals.
+4.3 Leaving out the abstract can matter as much as changing the
+model
+The text experiment uses the same 52,000 papers for all three inputs: title, abstract and
+title plus abstract. The combined text is the reference. On average, changing the model
+replaces 68.8% of the 25 neighbours; keeping the model but using only the title replaces
+70.7% (Figure 3). The corresponding changes in overall structure, measured as one minus
+CKA, are 0.370 and 0.366. These similar averages do not establish equivalence, but show
+that leaving out the abstract can matter about as much as the choice of model.
+11
+Shape of Science Robustness Manuscript draft
+Change
+model
+Remove
+abstract
+Remove
+title
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.81 - corrected CKA
+A  Shape change
+Change
+model
+Remove
+abstract
+Remove
+title
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Fraction of 25 neighbours changed
+B  Neighbour change
+Figure 3: Changing the model or changing what it reads. All comparisons use the same 52,000
+papers, with 2,000 per area. The reference input is title plus abstract. Model change compares
+diﬀerent models on that input; text change keeps the model and uses only the title or only the
+abstract. Larger values mean more change: (A) one minus corrected CKA; (B) the fraction of 25
+neighbours replaced. Each point is an area average. Boxes show the median and middle half of
+area values; whiskers extend to values within 1.5 interquartile ranges of the box. These are
+descriptive distributions, not conﬁdence intervals. Models retain their usual text limits.
+Using only the abstract changes less: 0.027 for structure and 22.1% of neighbours. The
+averages also hide diﬀerences between models. Title-only input replaces 51.7% of neighbours
+for MPNet and 84.2% for SciBERT (Table S5).
+The way token outputs become one paper vector also matters. With the main mean-pooling
+rule, title-only input replaces slightly more neighbours than model change; using CLS or SEP
+for the four word-level BERT models reverses that ordering. Both the input comparison and
+its model-change reference change under these rules. This is a comparison of practical uses,
+not an isolated causal eﬀect of one processing step.
+The earlier 26,000-paper trial and its 52,000-paper extension test the same text question. In
+the check with 100 repeated selections, the number of ﬂagged model–area–input comparisons
+falls from 72 out of 520 to ﬁve out of 520. Supplement S3 also retains the earlier check with
+twenty selections. Passing this screen does not prove that a diﬀerence is nonzero or that every
+neighbour result is stable. The separate common-passage and MiniLM 512-token checks test
+input length; they do not reveal a coding error in MiniLM’s original limit.
+12
+Shape of Science Robustness Manuscript draft
+4.4 A comparison between two areas can reverse under another
+model
+The geometric analysis reuses the 52,000-paper text sample and its title-plus-abstract repre-
+sentations. It asks, for example, whether one area’s paper vectors point further apart than
+another’s. Before comparing areas, I checked whether each property’s value repeated across
+article selections. Angular spread has no alerts among the 260 model–area cases. Eﬀective
+linear dimension has four alerts in the half-sample check and none in the ﬁve equal-size
+selections. The latter result does not erase the former.
+Across the 325 comparisons between two areas, 262 have persistent opposite answers from
+at least two models for angular spread; 221 do for eﬀective linear dimension (Figure 4). For
+example, one ﬁxed model consistently places area A above B, while another consistently
+places B above A. This does not mean that all ten models disagree. All ten give the same
+persistent direction in 42 and 54 comparisons, respectively; the remaining 21 and 50 are
+unresolved.
+Many opposite answers involve small diﬀerences. Requiring a diﬀerence above 5% of the two
+area values’ average leaves 96 opposite comparisons for angular spread and 177 for dimension.
+At 10%, the counts fall to 19 and 126. The direction of disagreement and its size therefore
+need to be reported together.
+Alternative measures retain the same opposing models and their directions in 225 of the 262
+angular comparisons and 196 of the 221 dimension comparisons. The angular check covers
+all 26 selections; the dimension alternatives cover three. They describe related properties
+and do not establish which result is correct about the research. Restricting the comparison
+to the six models trained for document or sentence similarity still leaves 231 angular and
+160 dimension oppositions at the nonzero cutoﬀ (Tables S14–S15). A smaller model set also
+oﬀers fewer chances to ﬁnd opposition.
+Processing choices can change the conclusion. A check that subtracts the overall mean vector
+and then rescales vectors to length one preserves the same opposing models and directions
+in 145 of the 262 angular comparisons and 218 of the 221 dimension comparisons. These
+are checks of the saved point estimates, not another complete series of repeated selections.
+Pooling changes can also reverse directions (Table S16).
+The attempted fragmentation measure gives a useful limit. Artiﬁcial elongated clouds or
+extreme points can appear disconnected even without separate thematic groups. Results also
+depend on sample size and the rule for linking neighbours; 51 of 260 cases retain selection
+alerts. I therefore report those checks in Supplement S6 without interpreting disconnection
+as evidence that a research area is fragmented.
+13
+Shape of Science Robustness Manuscript draft
+0 100 200 325
+0%
+1%
+5%
+10%
+Minimum
+relative difference
+42
+30
+10
+262
+238
+96
+19
+21
+57
+219
+306
+A  Angular spread
+0 100 200 325
+Field pairs (325 for each property)
+0%
+1%
+5%
+10%
+Minimum
+relative difference
+54
+50
+36
+26
+221
+213
+177
+126
+50
+62
+112
+173
+B  Effective linear dimension (PR)
+All ten agree Persistent opposition Unresolved
+Figure 4: Do models give the same answer when comparing two areas? Every bar covers all 325
+ways to choose two of the 26 areas. Blue indicates that all ten models consistently identify the
+same area as having the larger value. Orange indicates that at least two ﬁxed models consistently
+give opposite answers. Grey covers the remaining comparisons and does not mean equality.
+Consistency requires the direction to hold in the main selection, twenty half samples and ﬁve
+further equal-size selections. The 0, 1, 5 and 10% cutoﬀs require diﬀerences relative to the average
+of the two area values; they are not signiﬁcance thresholds. Angular spread describes how far
+apart vectors point. Eﬀective linear dimension describes how variation is shared among directions.
+Alternative measures and processing checks have their own coverage in Tables S15–S16.
+5 Discussion
+5.1 What should be checked before using a map
+The models share a broad arrangement, yet can give diﬀerent answers about nearby papers
+or the spread of representations within two areas. This matters when a map supports a
+speciﬁc statement. A reassuring overall score does not establish that the statement survives
+a change of model. Repeating the article selection addresses a diﬀerent question and cannot
+substitute for that check.
+14
+Shape of Science Robustness Manuscript draft
+The concern follows earlier work on method-dependent science maps ( Gläser et al. , 2017;
+Boyack and Klavans, 2020) and complements assessments against external classiﬁcations and
+relationships ( González-Márquez et al. , 2024; Constantino et al. , 2025). Combining struc-
+tural and neighbour comparisons also has precedent ( Caspari et al. , 2024). The contribution
+here is the controlled comparison across levels, text choices and repeated area comparisons,
+including cases where a result persists within models but reverses between them.
+Interpretation still depends on what the measure describes. A larger angle means that
+vectors point further apart. A larger eﬀective linear dimension means that variation is less
+concentrated in a few directions. Neither, by itself, shows greater thematic diversity or
+interdisciplinarity. Related work on embedding geometry also cautions against assigning a
+broad meaning to a convenient measure ( Rudman et al. , 2022). The failed fragmentation
+check makes this concrete: a repeatable diﬀerence can still support the wrong explanation.
+5.2 What the additional checks change
+Text and processing choices belong in reports of science maps. In this collection, removing
+the abstract can matter about as much as changing models. A model name alone does not
+say what representation was used; the input, text limit and pooling rule are also needed.
+The additional discipline and time checks discourage a single explanation for all diﬀerences
+(Supplement S5). Medicine has lower structural agreement than Energy under the main rule,
+but not always the lowest neighbour agreement. Balancing specialty composition and remov-
+ing the two biomedical models do not eliminate the Medicine–Energy diﬀerence. Apparent
+model families also change with pooling. With ten models, training data, architecture and
+training objectives remain entangled; these associations do not isolate a cause.
+Across publication periods, structural agreement increases slightly on average. Neighbour
+agreement changes by −0.87 percentage points when all candidates are available but by
++0.91 points with 2,048 candidates in each group. The change of sign shows why search
+opportunities matter. Contemporary models applied to older and newer papers do not, on
+their own, demonstrate a historical convergence of science.
+5.3 What remains open
+The collection requires English-labelled records with usable abstracts. Its reinforcement of
+smaller area–period groups helps comparison but changes proportions. Source errors remain,
+and cleaning is not a certiﬁcation of every record. Repeated selections cannot repair missing
+coverage or make these results representative of all scientiﬁc work.
+The ten models also set a boundary. Four were not trained speciﬁcally for document simi-
+larity. The six-model check helps show that disagreement is not conﬁned to those four, but
+does not make the panel representative of all encoders. Deciding which direction is better
+15
+Shape of Science Robustness Manuscript draft
+supported requires evidence outside the embeddings, such as independently assessed article
+relationships.
+Finally, several extensions and controls followed earlier results. Recording their rules before
+new calculations improves traceability without turning the whole study into a conﬁrma-
+tory design. A useful next step would test a deﬁned map-based claim against independent
+judgments in a research area. Adding models alone would not settle what their shared or
+conﬂicting geometry means.
+6 Conclusion
+Changing the embedding model can preserve the broad arrangement of science while changing
+the papers found nearby and the direction of comparisons between areas. The text given to a
+model can matter just as much. Some results repeat with other articles yet remain dependent
+on the model. For a claim drawn from a science map, the relevant check is therefore whether
+that claim survives the changes that could aﬀect it, with the size of the diﬀerence made
+clear. Agreement identiﬁes what is shared by the tested representations; establishing what
+is correct about the research requires further evidence.
+Declarations
+Author contributions. Alejandro Treny Ortega conceived the project and directed the
+research and manuscript preparation as an independent researcher. Computational and
+editorial assistance is disclosed below.
+Competing interests. The author declares no competing interests.
+Funding. This research received no external funding.
+Data and code availability. The project repository is https://github.com/aleetre
+ny/Shape-of-Science-Robustness . This draft is accompanied by the tables used for
+its ﬁgures and the editable manuscript sources. The frozen corpus, vectors and complete
+local execution records have not been deposited in a persistent public archive. Public code
+alone does not provide full reproduction of the present analysis. The access inventory and
+remaining release requirements are stated in Supplement S8; no data deposit or persistent
+identiﬁer is claimed here.
+Use of AI-assisted tools. OpenAI Codex assisted with literature searches, software de-
+velopment and analysis, visualisation, and manuscript drafting and editing. The author is
+responsible for the content.
+16
+Shape of Science Robustness Manuscript draft
+References
+Iz Beltagy, Kyle Lo, and Arman Cohan. SciBERT: A pretrained language model for scientiﬁc text.
+In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings of the 2019
+Conference on Empirical Methods in Natural Language Processing and the 9th International
+Joint Conference on Natural Language Processing (EMNLP-IJCNLP) , pages 3615–3620, Hong
+Kong, China, nov 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1371.
+URL https://aclanthology.org/D19-1371/.
+Kevin W. Boyack and Richard Klavans. A comparison of large-scale science models based on
+textual, direct citation and hybrid relatedness. Quantitative Science Studies , 1(4):1570–1585,
+2020. ISSN 2641-3337. doi: 10.1162/qss_a_00085.
+Laura Caspari, Kanishka Ghosh Dastidar, Saber Zerhoudi, Jelena Mitrovic, and Michael Granitzer.
+Beyond benchmarks: Evaluating embedding model similarity for retrieval augmented generation
+systems. arXiv:2407.08275, 2024. URL https://arxiv.org/abs/2407.08275. Preprint.
+Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, and Daniel Weld. SPECTER: Document-
+level representation learning using citation-informed transformers. In Dan Jurafsky, Joyce Chai,
+Natalie Schluter, and Joel Tetreault, editors, Proceedings of the 58th Annual Meeting of the
+Association for Computational Linguistics , pages 2270–2282, Online, jul 2020. Association for
+Computational Linguistics. doi: 10.18653/v1/2020.acl-main.207. URL https://aclanthology
+.org/2020.acl-main.207/.
+Isabel Constantino, Sadamori Kojaku, Santo Fortunato, and Yong-Yeol Ahn. Representing the
+disciplinary structure of physics: A comparative evaluation of graph and text embedding methods.
+Quantitative Science Studies , 6:263–280, 2025. ISSN 2641-3337. doi: 10.1162/qss_a_00349.
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: Pre-training of
+deep bidirectional transformers for language understanding. In Jill Burstein, Christy Doran, and
+Thamar Solorio, editors, Proceedings of the 2019 Conference of the North American Chapter of
+the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long
+and Short Papers), pages 4171–4186, Minneapolis, Minnesota, jun 2019. Association for Computa-
+tional Linguistics. doi: 10.18653/v1/N19-1423. URL https://aclanthology.org/N19-1423/.
+Tianyu Gao, Xingcheng Yao, and Danqi Chen. SimCSE: Simple contrastive learning of sen-
+tence embeddings. In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-
+tau Yih, editors, Proceedings of the 2021 Conference on Empirical Methods in Natural Lan-
+guage Processing , pages 6894–6910, Online and Punta Cana, Dominican Republic, nov 2021.
+Association for Computational Linguistics. doi: 10.18653/v1/2021.emnlp-main.552. URL
+https://aclanthology.org/2021.emnlp-main.552/.
+Jochen Gläser, Wolfgang Glänzel, and Andrea Scharnhorst. Same data—diﬀerent results? towards
+a comparative approach to the identiﬁcation of thematic structures in science. Scientometrics,
+111(2):981–998, 2017. ISSN 0138-9130. doi: 10.1007/s11192-017-2296-z.
+Rita González-Márquez, Luca Schmidt, Benjamin M. Schmidt, Philipp Berens, and Dmitry Kobak.
+The landscape of biomedical research. Patterns, 5(6):100968, 2024. ISSN 2666-3899. doi: 10.101
+6/j.patter.2024.100968.
+17
+Shape of Science Robustness Manuscript draft
+Yu Gu, Robert Tinn, Hao Cheng, Michael Lucas, Naoto Usuyama, Xiaodong Liu, Tristan Naumann,
+Jianfeng Gao, and Hoifung Poon. Domain-speciﬁc language model pretraining for biomedical
+natural language processing. ACM Transactions on Computing for Healthcare , 3(1):1–23, 2022.
+ISSN 2691-1957. doi: 10.1145/3458754.
+Matthias Held and Theresa Velden. How to interpret algorithmically constructed topical structures
+of scientiﬁc ﬁelds? a case study of citation-based mappings of the research specialty of invasion
+biology. Quantitative Science Studies , 3(3):651–671, 2022. ISSN 2641-3337. doi: 10.1162/qss_
+a_00194.
+Nathaniel Imel and Zachary Hafen. Density, asymmetry and citation dynamics in scientiﬁc litera-
+ture. arXiv:2506.23366, 2025. URL https://arxiv.org/abs/2506.23366. Preprint.
+Simon Kornblith, Mohammad Norouzi, Honglak Lee, and Geoﬀrey Hinton. Similarity of neural
+network representations revisited. In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors,
+Proceedings of the 36th International Conference on Machine Learning , volume 97 of Proceedings
+of Machine Learning Research , pages 3519–3529. PMLR, 09–15 Jun 2019. URL https://proc
+eedings.mlr.press/v97/kornblith19a.html.
+Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan Ho So, and
+Jaewoo Kang. Biobert: a pre-trained biomedical language representation model for biomedical
+text mining. Bioinformatics, 36(4):1234–1240, 2020. ISSN 1367-4803. doi: 10.1093/bioinforma
+tics/btz682.
+Alex Murphy, Joel Zylberberg, and Alona Fyshe. Correcting biased centered kernel alignment
+measures in biological and artiﬁcial neural networks. arXiv:2405.01012, 2024. URL https:
+//arxiv.org/abs/2405.01012. Preprint.
+OpenAlex. Topics. OpenAlex Help Center, 2026. URL https://help.openalex.org/data/top
+ics/. Accessed 18 September 2026.
+Malte Ostendorﬀ, Nils Rethmeier, Isabelle Augenstein, Bela Gipp, and Georg Rehm. Neighborhood
+contrastive learning for scientiﬁc document representations with citation embeddings. In Yoav
+Goldberg, Zornitsa Kozareva, and Yue Zhang, editors, Proceedings of the 2022 Conference on
+Empirical Methods in Natural Language Processing, pages 11670–11688, Abu Dhabi, United Arab
+Emirates, dec 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.emnlp
+-main.802. URL https://aclanthology.org/2022.emnlp-main.802/.
+Jason Priem, Heather Piwowar, and Richard Orr. OpenAlex: A fully-open index of scholarly works,
+authors, venues, institutions, and concepts, 2022. URL https://arxiv.org/abs/2205.01833v2.
+Preprint, version 2.
+Nils Reimers and Iryna Gurevych. Sentence-BERT: Sentence embeddings using Siamese BERT-
+networks. In Kentaro Inui, Jing Jiang, Vincent Ng, and Xiaojun Wan, editors, Proceedings of the
+2019 Conference on Empirical Methods in Natural Language Processing and the 9th International
+Joint Conference on Natural Language Processing (EMNLP-IJCNLP) , pages 3982–3992, Hong
+Kong, China, nov 2019. Association for Computational Linguistics. doi: 10.18653/v1/D19-1410.
+URL https://aclanthology.org/D19-1410/.
+William Rudman, Nate Gillman, Taylor Rayne, and Carsten Eickhoﬀ. IsoScore: Measuring the
+uniformity of embedding space utilization. In Smaranda Muresan, Preslav Nakov, and Aline
+18
+Shape of Science Robustness Manuscript draft
+Villavicencio, editors, Findings of the Association for Computational Linguistics: ACL 2022 ,
+pages 3325–3339, Dublin, Ireland, may 2022. Association for Computational Linguistics. doi:
+10.18653/v1/2022.findings-acl.262. URL https://aclanthology.org/2022.findings-acl.2
+62/.
+Amanpreet Singh, Mike D’Arcy, Arman Cohan, Doug Downey, and Sergey Feldman. SciRepEval:
+A multi-format benchmark for scientiﬁc document representations. In Houda Bouamor, Juan
+Pino, and Kalika Bali, editors, Proceedings of the 2023 Conference on Empirical Methods in Nat-
+ural Language Processing, pages 5548–5566, Singapore, dec 2023. Association for Computational
+Linguistics. doi: 10.18653/v1/2023.emnlp-main.338. URL https://aclanthology.org/2023.
+emnlp-main.338/.
+Shruti Singh and Mayank Singh. The ineﬃciency of language models in scholarly retrieval: An
+experimental walk-through. In Smaranda Muresan, Preslav Nakov, and Aline Villavicencio,
+editors, Findings of the Association for Computational Linguistics: ACL 2022 , pages 3153–3173,
+Dublin, Ireland, may 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.f
+indings-acl.249. URL https://aclanthology.org/2022.findings-acl.249/.
+Alex H Williams. Equivalence between representational similarity analysis, centered kernel align-
+ment, and canonical correlations analysis. In Marco Fumero, Clementine Domine, Zorah Lähner,
+Donato Crisostomi, Luca Moschella, and Kimberly Stachenfeld, editors, Proceedings of UniReps:
+the Second Edition of the Workshop on Unifying Representations in Neural Models , volume
+285 of Proceedings of Machine Learning Research , pages 10–23. PMLR, 14 Dec 2024. URL
+https://proceedings.mlr.press/v285/williams24a.html.
+Alex H Williams, Erin Kunz, Simon Kornblith, and Scott Linderman. Generalized shape metrics on
+neural representations. In M. Ranzato, A. Beygelzimer, Y. Dauphin, P.S. Liang, and J. Wortman
+Vaughan, editors, Advances in Neural Information Processing Systems , volume 34, pages 4738–
+4750. Curran Associates, Inc., 2021. URL https://proceedings.neurips.cc/paper_files/p
+aper/2021/file/252a3dbaeb32e7690242ad3b556e626b-Paper.pdf.
+19

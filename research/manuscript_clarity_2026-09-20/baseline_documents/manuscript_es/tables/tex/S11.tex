@@ -1,0 +1,21 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Ajustes descriptivos de características de modelos e identificabilidad.}\label{tab:S11}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{1.3cm}>{\raggedright\arraybackslash}p{2.3cm}>{\raggedright\arraybackslash}p{1.8cm}>{\raggedright\arraybackslash}p{4.3cm}@{}}
+\toprule
+\textbf{Resultado} & \textbf{Rango} & \textbf{N.º de condición} & \textbf{R cuadrado} & \textbf{Coeficientes no identificables tras omisión} \\
+\midrule
+CKA / principal & 7/7 & 7,91 & 0,741 & 0 \\
+CKA / 2.048 artículos & 7/7 & 7,91 & 0,741 & 0 \\
+CKA / filtro de calidad & 7/7 & 7,91 & 0,752 & 0 \\
+CKA / CLS & 7/7 & 18,59 & 0,459 & 14 \\
+CKA / SEP & 7/7 & 8,33 & 0,258 & 7 \\
+Vecinos k25 / media & 7/7 & 7,91 & 0,759 & 0 \\
+Vecinos k25 / CLS & 7/7 & 18,59 & 0,507 & 14 \\
+Vecinos k25 / SEP & 7/7 & 8,33 & 0,442 & 7 \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Diez modelos fijos producen 45 parejas solapadas. R cuadrado describe esas parejas, no validez predictiva. La última columna cuenta filas de coeficientes no disponibles en las diez omisiones de un modelo, no modelos o pruebas independientes. En SEP, omitir SimCSE impide identificar coeficientes; esos valores siguen ausentes. Arquitectura, origen, corpus final, objetivo, dominio y regla de representación son características correlacionadas. Se adjuntan definiciones, enlaces de fuentes, coeficientes, referencias de permutación de etiquetas de parejas y omisiones. No se afirma un efecto causal del entrenamiento.\par}

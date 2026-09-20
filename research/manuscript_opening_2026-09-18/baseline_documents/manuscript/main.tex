@@ -1,0 +1,111 @@
+\documentclass[12pt]{article}
+\input{preamble}
+\begin{document}
+\begin{center}
+{\LARGE\bfseries Which conclusions about science maps survive a change of embedding model?\par}
+\vspace{12pt}
+{\large Manuscript structure and display package\par}
+\vspace{5pt}
+{18 September 2026\par}
+\end{center}
+\vspace{5pt}
+\Pending{Author names, affiliations and correspondence. The title is provisional.}
+\medskip
+\textbf{Status of this document.} This is a rendered structure with real tables and figures from the completed analyses. Italic writing plans indicate the prose still to be drafted. It is not a completed or submitted manuscript. The layout is our own, prepared for QSS's flexible first-submission format; it is not an official journal template.
+
+\begin{abstract}
+\Plan{Within the journal's 200-word limit, state the question, the fixed corpus and ten models, the matched comparisons, the principal findings and their scope. Distinguish shared broad structure from local agreement and from the persistence of Field-level geometric comparisons. End with the practical implication. Do not describe agreement as thematic accuracy. Write this abstract after the body.}
+\end{abstract}
+\textbf{Provisional keywords:} science mapping; scientific document embeddings; robustness; representation choice; neighbourhood agreement; geometric comparisons.
+
+\clearpage
+{\small\setstretch{1}\tableofcontents}
+\clearpage
+
+\section{Introduction}
+\SectionPlan{I1--I4; approximately 800 words. Begin with the practical problem: a science map is produced through choices of representation. Explain why an apparently stable map may support different local or Field-level conclusions. State the question and the contribution in relation to existing comparisons; avoid a first-ever claim. Close with the study's three questions and its limits. No figure is needed here.}
+
+\section{Background and research questions}
+\subsection{Representation choices in science mapping}
+\SectionPlan{B11--B12; approximately 250 words. Connect document representations to how scientific relations are measured. Discuss the nearest studies by their question and comparison design, not as a catalogue of models. The detailed reading matrix and paragraph-specific references remain in MANUSCRIPT\_BLUEPRINT.md.}
+
+\subsection{Agreement, stability and interpretation}
+\SectionPlan{B21--B22; approximately 280 words. Separate agreement between representations, stability under article selection and evidence of thematic validity. Explain why these are different questions. Introduce shape, neighbours and specific Field comparisons as different objects, not interchangeable scores.}
+
+\subsection{Research questions and scope}
+\SectionPlan{B31--B32; approximately 220 words. Organise the paper around: (1) which broad and local relations are shared; (2) how input and readout choices compare with encoder changes; (3) whether a geometric comparison between two Fields retains its direction and magnitude. The third question is an exploratory extension. The fixed corpus and model panel delimit the conclusions.}
+
+\clearpage
+\section{Data and comparative design}
+\subsection{Corpus and analytical panels}
+\SectionPlan{M11--M12; approximately 360 words. Describe OpenAlex, eligibility, cleaning, extraction dates and the base-plus-supplement design. Introduce each panel in Table~\ref{tab:T01}. State which panels overlap and why two different selections both contain 52,000 articles. Keep full quotas and quality counts in Supplement S1.}
+\input{tables/tex/T01}
+
+\subsection{Models and text representations}
+\SectionPlan{M21--M22; approximately 270 words. Introduce Table~\ref{tab:T02} and the frozen checkpoints. Explain native input limits, title/abstract/combined input and the common-content comparison. Define mean, CLS and SEP precisely without treating readout variants as new models. Full revisions and truncation are in Supplement S1.}
+\input{tables/tex/T02}
+
+\subsection{Objects and measures}
+\SectionPlan{M31--M32; approximately 460 words. Define corrected centred kernel alignment (CKA) as the principal shape-agreement measure, with Procrustes and distance-rank checks. Define neighbour overlap with self excluded and the candidate universe specified. Introduce angular spread and effective linear dimension (PR) as geometric descriptions. Explain the Field-pair direction rule, its 26 saved conditions and its four magnitude cutoffs. Connection failed the proposed general fragmentation interpretation and remains in Supplement S6.}
+
+\subsection{Matched comparisons and stability}
+\SectionPlan{M41--M42; approximately 340 words. Explain identical IDs, balanced dates, controlled group sizes, matched queries and candidate opportunities. The Field search includes the same query articles as the Subfield search. Describe selection ranges as within-corpus sensitivity, not population confidence intervals. Keep the different alert families and their denominators separate. Model pairs and Field pairs overlap.}
+
+\subsection{Scope of robustness checks}
+\SectionPlan{M51--M52; approximately 170 words. Give the chronology of planned and later controls. Identify the expanded input panel, atlas and morphology as subsequent phases. Point to the supplement for time, Medicine, model traits, alternatives and source errors. Do not present later controls as a preregistration of the whole study.}
+\clearpage
+
+\section{Results}
+\subsection{Shared broad structure and within-field variation}
+\SectionPlan{R11--R14; approximately 450 words. Start with between-centre agreement and the random-group comparison, then move to within-group agreement at matched sizes. Use Figure~\ref{fig:scales}. Explain what the two panels measure before comparing their pattern. They concern different objects and do not identify a causal scale effect. Retain the alternative-measure and stability checks in Supplement S2.}
+\PanelFigure{figure_01}{Agreement between group centres and within groups. (A) Mean corrected CKA across the fixed model pairs and saved centre comparisons. Each centre contains 256 articles. Random groups preserve group sizes and dates. The 26-Subfield-centre condition controls the number of centres. (B) Within-group agreement at three article counts for 26 Fields and the same 183 eligible Subfields, using the principal readouts. The panels compare different objects; their difference is not an estimated causal effect.}{scales}{1}
+
+\clearpage
+\subsection{Neighbour agreement under matched comparisons}
+\SectionPlan{R21--R24; approximately 500 words. Introduce the original local agreement and then the stricter matched Field/Subfield comparison in Figure~\ref{fig:paired}. At k = 25, 127 Subfields have lower and 90 higher agreement under the narrower scope; this is not a universal loss. Use the atlas only to illustrate relations and source caveats, with the complete cases in Supplement S4.}
+\PanelFigure{figure_02}{Neighbour agreement in matched Field and Subfield searches. Each point represents one of 217 Subfields: mean overlap of the 25 nearest neighbours across model pairs and ten candidate selections. Both scopes include the same 50 fixed queries within 256 candidates, with matched dates; self is excluded. The Field candidate set is conditioned on those queries rather than being an unrestricted Field draw. The diagonal marks equal agreement. Dispersion reflects group differences, not confidence intervals. Medicine is highlighted descriptively.}{paired}{.90}
+
+\clearpage
+\subsection{Text input and representation choices}
+\SectionPlan{R31--R34; approximately 500 words. Compare changing the encoder with removing either the abstract or title in the same 52,000 articles. Use Figure~\ref{fig:input} and retain the model-specific differences and readout reversals in Supplement S3. Close means do not establish equivalence. Report the larger-panel stability check separately from the magnitude of the input effect.}
+\PanelFigure{figure_03}{Changes associated with encoder and text input. The same 52,000 IDs supply 2,000 candidate articles per Field. Changing the model with title plus abstract is compared with changing the input within each model. (A) One minus corrected CKA. (B) Fraction of the 25 neighbours replaced. Each point is a Field mean over the fixed model panel; boxes show the median and interquartile range, with standard 1.5-IQR whiskers. All Field points are shown. Neither boxes nor whiskers are confidence intervals. Native token limits are retained.}{input}{1}
+
+\clearpage
+\subsection{Persistence and reversal of geometric field comparisons}
+\SectionPlan{R41--R46; approximately 800 words. Introduce the exploratory geometric follow-up, then use all 325 Field pairs in Figure~\ref{fig:pairs}. Explain persistent model opposition with its magnitude before discussing any example. At zero minimum, the opposing counts are 262 for angular spread and 221 for PR; at 5\%, they are 96 and 177. Keep same-witness alternatives, model omissions and centring/readout controls in Supplement S7. Geometric dimension does not count topics, and angular spread is not semantic diversity.}
+\PanelFigure{figure_04}{Persistence, opposition and magnitude of Field comparisons. Each row contains all 325 Field pairs for one property and ten fixed models. A model direction must persist across the primary selection, twenty half samples and five additional equal-size selections from the same corpus. All-ten agreement requires a common persistent direction; opposition requires at least two fixed models with persistent opposite directions; all other pairs remain unresolved. Magnitude uses the signed symmetric difference $2(B-A)/(A+B)$. The four minima are operational sensitivity cutoffs, not significance or accuracy thresholds. The 26 conditions overlap; point controls are reported separately.}{pairs}{1}
+\clearpage
+
+\section{Discussion}
+\subsection{What is shared and what depends on representation}
+\SectionPlan{D11--D12; approximately 250 words. Bring the three questions together without repeating every number. Distinguish a shared broad map from local differences and from conclusions that are stable to article selection yet reverse between representations. Keep the dependence of angular spread on centring explicit.}
+
+\subsection{Relation to prior work}
+\SectionPlan{D21--D22; approximately 280 words. Compare our exact question and controls with the closest representation, retrieval, family and classification studies already reviewed. Use the detailed citation map rather than listing all 34 QSS papers. State the contribution as an evidenced extension, not absolute novelty.}
+
+\subsection{Implications for using science maps}
+\SectionPlan{D31--D32; approximately 220 words. Recommend documenting encoder, text and readout; equalising search opportunities where needed; and testing the specific conclusion under justified alternatives. Report direction, magnitude and persistence for comparisons between Fields. Do not select a winning encoder by consensus.}
+
+\subsection{Limitations and next questions}
+\SectionPlan{D41--D43; approximately 400 words. Cover language and abstract eligibility, OpenAlex labels and retained notices, supplementation, fixed models, unknown training overlap, dependent pairs, incomplete factorial controls and exploratory timing. Connection is not validated fragmentation. Time, Medicine and model traits provide associations, not isolated causes. A future external thematic check is not a completed control.}
+
+\section{Conclusion}
+\SectionPlan{C1; approximately 200 words. Answer the central question in one paragraph: what is shared, which comparisons depend on representation and why resampling articles alone cannot settle that dependence. End with one proportionate practical implication and the thematic-validity limit. Write after the discussion; add no new results.}
+
+\section*{Author contributions}
+\Pending{Confirm contributors and their actual roles.}
+\section*{Competing interests}
+\Pending{Confirm the true declaration. No absence of interests is assumed.}
+\section*{Funding}
+\Pending{Confirm sources of support or their absence.}
+\section*{Data and code availability}
+\Pending{State the exact accessible versions and persistent identifiers after the release is authorised and verified. The existing public code does not make the local corpus, vectors or later extensions publicly available. See Supplement S8.}
+\section*{Acknowledgements and use of tools}
+\Pending{Record actual assistance, including AI-assisted research, code and manuscript preparation where applicable. Check the current journal policy before submission.}
+
+\clearpage
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plainnat}
+\bibliography{references}
+\small This working bibliography contains the references used in the model table. The background and discussion references will be added with the prose after their specific claims are checked. Author--year style is provisional; the final revision must be checked against QSS's current reference requirements.
+\end{document}

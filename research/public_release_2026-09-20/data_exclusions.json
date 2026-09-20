@@ -1,0 +1,428 @@
+[
+  {
+    "path": "data/embeddings_v1/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/embeddings_v1/queue/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/centroid_random_groups/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/bert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/biobert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "59895077b6a29ddb9304a43b1dfc343648c282567a653e54de595430756e46a0",
+    "replacement": "public_metadata/analysis_v1/controls/common_text_52k/input.parquet"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/minilm/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/mpnet/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/native_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "e8b4e02aafc401e71723313c975de12476c32829875c71ada87897affcf8389b",
+    "replacement": "public_metadata/analysis_v1/controls/common_text_52k/native_input.parquet"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/pubmedbert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/queue/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/scibert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/scincl/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/simcse/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/specter/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/common_text_52k/specter2/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/controls/minilm_512/minilm/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/macro_controls/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/neighbors/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/robustness_controls/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/analysis_v1/shape/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/existing/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/existing_v2/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/input_comparisons/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/input_recipes/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/abstract_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "843bc482a328a706232c642a46d3a85abf78f290b74ca600f961ba5568cc5daf",
+    "replacement": "public_metadata/checklist_v1/inputs/abstract_input.parquet"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/bert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/biobert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/minilm/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/mpnet/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/pubmedbert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/scibert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/scincl/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/simcse/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/specter/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/locks/specter2/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/native_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "e7c4bf04ec736a5d46ef20dcb3df2cfa84ba211816090e2312a75318a4860776",
+    "replacement": "public_metadata/checklist_v1/inputs/native_input.parquet"
+  },
+  {
+    "path": "data/checklist_v1/inputs/queue/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/checklist_v1/inputs/title_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "c69d4f0a58093119679b1dbf32623d63ab2a19e598cf634d4e95c748583497ae",
+    "replacement": "public_metadata/checklist_v1/inputs/title_input.parquet"
+  },
+  {
+    "path": "data/robustness_v2/centroid_scales/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/control_review/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/control_review_v2/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/family_traits/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/final_audit/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/input_comparisons/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/input_recipes/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/input_review/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/input_stability100/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/abstract_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "e2470811ae8af6cafc36459d4924a11db53363dc2af66c8be96990478bf627f0",
+    "replacement": "public_metadata/robustness_v2/inputs/abstract_input.parquet"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/bert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/biobert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/minilm/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/mpnet/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/pubmedbert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/scibert/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/scincl/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/simcse/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/specter/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/locks/specter2/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/native_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "6887123a3f7ae645bebfc0be6bfd6080471ac62287843f7f2f42ec4975fdc57d",
+    "replacement": "public_metadata/robustness_v2/inputs/native_input.parquet"
+  },
+  {
+    "path": "data/robustness_v2/inputs/queue/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/inputs/title_input.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "29296e89b6724ff7df609e6741bd547003483251530cba7f3eb747072432f274",
+    "replacement": "public_metadata/robustness_v2/inputs/title_input.parquet"
+  },
+  {
+    "path": "data/robustness_v2/medicine_composition/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/paired_neighbor_scales/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/provenance/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/regions_native/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/structural_review/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/structural_review_v2/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/structural_review_v3/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/subfield_controls/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/subfields_native/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_v2/temporal_review/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/prepaper_v1/case_atlas/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/prepaper_v1/case_atlas/case_texts_local.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "84f533240e6c951c426ac0974c1dc2118837f59fc4a642d58771011aab9597d3"
+  },
+  {
+    "path": "data/prepaper_v1/source_quality/generic_title_candidates.parquet",
+    "reason": "title/abstract columns excluded; non-text columns exported separately",
+    "sha256": "87d20f0afd67954bdebed35bee4dbb3fd170bb32e678e1bd31a19fedc0a6fe28",
+    "replacement": "public_metadata/prepaper_v1/source_quality/generic_title_candidates.parquet"
+  },
+  {
+    "path": "data/morphology_pilot_v1/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/morphology_pilot_v1/independent_audit.log",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/morphology_pilot_v1/literature/erba_crossref.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "fcc575575c6028b0ba5f6d6133cc1ee541254f0c53eb069815db3a3b4ea8ea8a"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parallel.log",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__bert.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "a787db4d82882fdf3051a95821cdd45fdde5f31c75c3ef85bf97694248177c3c"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__biobert.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "d462a59982db596325663e30e9bee804bdc06bdfa2930fd69036263f8f38ecc9"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__minilm.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "cf969f55605f1d9ed3ce94a3986710c23abff3a294231aa16585307a5944491c"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__mpnet.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "289c9123619b0532b57d454fd9bd807eb475cb1e386e233f5ad64056a5daa50b"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__pubmedbert.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "8b18521a358f7ce90a8693bb22b0c9a4a3a32da1e67f4e4571b5c9c343cd8424"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__scibert.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "802c981edd346f935c07705787b43a783a5f46999bb71b4e5e523c1c1b23be4f"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__scincl.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "4634cbe86dded55a7c1aae49395504640178f2aeb3001f28eab2213668217759"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__simcse.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "087a8d22e5335818e56c1f854b0f78ec99366d12a181d9b04cfe5e74dc2a2fcd"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__specter.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "2a2c971262349537e6b9fdfd4263c35dce07def4b4f962da31423606a1f41130"
+  },
+  {
+    "path": "data/morphology_pilot_v1/parts/controls__specter2.json",
+    "reason": "contains historical plaintext abstracts",
+    "sha256": "2b422dd1e6e0876729e5696e54fd4d599d0a18ad214aff32aea56efbb85f0fc6"
+  },
+  {
+    "path": "data/morphology_pilot_v1/report.log",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/morphology_pilot_v1/run.log",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_closure_v1/centres/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_closure_v1/headline/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_closure_v1/morphology/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_closure_v1/quality/.run.lock",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  },
+  {
+    "path": "data/robustness_closure_v1/technical/kernels_90146dd49fd882f8.dylib",
+    "reason": "runtime/cache/lock/binary or unsupported format"
+  }
+]

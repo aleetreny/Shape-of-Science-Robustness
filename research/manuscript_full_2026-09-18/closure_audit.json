@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-18T17:29:36.593392+00:00",
+  "status": "complete_as_author_review_draft",
+  "author_personal_approval": false,
+  "scientific_recomputation": false,
+  "commit_push_deposit_or_submission": false,
+  "body_words": 4383,
+  "abstract_words": 190,
+  "pages_main": 19,
+  "pages_supplement": 33,
+  "all_52_pages_and_14_figures_visually_reviewed": true,
+  "cited_references_verified": 26,
+  "source_attachments_verified": 98,
+  "portable_files": 184,
+  "portable_pdf_bytes_identical": true,
+  "local_links_verified": 89,
+  "evidence_sha256": {
+    "package_audit": "cc4b9af2b6fc4098762125a34218332dd3f88099bb9e0a6f8d88bf7e0d74ead9",
+    "portable_source_audit": "f2369c325d8aa6d4394216149f18d433c2a28367c00ecd2aa429e3e6467232dd",
+    "numeric_claim_audit": "775ec83654cac76c27aa7bed67ee58c8b18704fbe689e703695642c9ca6e9006",
+    "citation_validation": "b7fd430311a1c83a92b8c568c21aa4be47ebfc989ec91ee4e2e56c5a488aa1cf",
+    "word_count": "359addc318f3317d7fd9d105fe27ca54e3c308cb194ad180a193cdad8b1ce243",
+    "visual_review": "27c5e021a645355965a9d518290d8baee91f80d68fbbb0ff543b772b769c0e91"
+  },
+  "current_document_sha256": {
+    "MANUSCRIPT_REVIEW.md": "fab080cefd2efa438ef2d582b252ea6a7a66e17cab8def7efba961c702d0617d",
+    "MANUSCRIPT_LAYOUT.md": "9e3af20dd699ce156fc991fcb9234be74e11d9d80c406e97931d34e8ddb408f3",
+    "NEXT_STEPS.md": "d6d11eba5f96f88c62468b801582bcb1c15210257fe77979c1fabedaadeeba30",
+    "manuscript/README.md": "25d0885e4e78e7b28931a6289f800f5d578940d47410eae4b3fd4ec76a9b8303",
+    "docs/INDEX.md": "78d40be78539a3f634dad0aa06415026fa8b61e88676ed4d250013e52500898a",
+    "docs/QSS_CHECK.md": "7c1ebd8495aed9d65379f67299cd71a80ea6a19d668d4b551e2572e3e63ecd2f"
+  },
+  "remaining_before_submission": [
+    "Author reads and approves prose and interpretations",
+    "Correspondence details",
+    "Authorised persistent material deposit and licence",
+    "Current QSS requirements and final reference style"
+  ]
+}

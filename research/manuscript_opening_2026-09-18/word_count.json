@@ -1,0 +1,16 @@
+{
+  "introduction_words_excluding_citations": 367,
+  "background_words_excluding_headings_and_citations": 627,
+  "total": 994,
+  "opening_reference_keys": [
+    "QSSreviewQ17",
+    "ref4e1e0d5582",
+    "ref6a2f5912bc",
+    "ref6da178065c",
+    "refa0d2d707e6",
+    "refbe130e2973",
+    "refc0e2cc29e0",
+    "singh-singh-2022-inefficiency"
+  ],
+  "count_method": "Regex words; hyphenated words count once; TeX commands, citation expansions and section headings excluded."
+}

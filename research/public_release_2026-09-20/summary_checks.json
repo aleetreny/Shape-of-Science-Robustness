@@ -1,0 +1,34 @@
+{
+  "all_checks_passed": true,
+  "centres": {
+    "repeat256_field": 0.9401160460142737,
+    "repeat256_subfield217": 0.9113747384873062
+  },
+  "search_scope": [
+    {
+      "k": 10,
+      "lower": 145,
+      "higher": 72,
+      "mean_difference": -0.017298658474142338
+    },
+    {
+      "k": 25,
+      "lower": 127,
+      "higher": 90,
+      "mean_difference": -0.013491809523809527
+    },
+    {
+      "k": 50,
+      "lower": 109,
+      "higher": 108,
+      "mean_difference": -0.007853124423963131
+    }
+  ],
+  "headline_mean_k25": {
+    "model_change": 0.6493367323076923,
+    "title_only_change": 0.6649229846153847,
+    "title_minus_model": 0.015586252307692306
+  },
+  "figure4": "all eight classifications and same-model retention verified",
+  "scope": "aggregation from per-condition measurements; not regeneration of vectors or all metrics"
+}

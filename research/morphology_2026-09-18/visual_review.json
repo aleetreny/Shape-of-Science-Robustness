@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-18T09:13:02.954203+00:00",
+  "method": "Inspección visual de los cinco PNG; 01/02/04 conservan la huella de la revisión previa en esta sesión; 03/05 reinspeccionados tras ajustes de presentación.",
+  "all_five_inspected": true,
+  "files": {
+    "01_model_properties.png": {
+      "sha256": "bdbce5c9001252f7b19f486dbae125a6bc713672982b2ce1fdafbad953de3b6e",
+      "observation": "Puntos y rangos entre áreas visibles; las tres propiedades conservan unidades propias."
+    },
+    "02_field_rank_maps.png": {
+      "sha256": "9c0e6d2f97533589cc4d5a03581d253a39dc8080452e30c43a5c01d3c10aa5db",
+      "observation": "Nombres de las 26 áreas y diez modelos legibles; posiciones relativas, sin interpretación de modelo mejor."
+    },
+    "03_sample_size.png": {
+      "sha256": "f512abc968fda1586f75ae188f63d0cd9ca5cae403a893f9a75d6d82e0e598c0",
+      "observation": "Versión final inspeccionada: títulos separados, leyenda completa, cambio porcentual y escalas propias explícitos; conexión mantiene k fijo."
+    },
+    "04_fragmentation_counterexamples.png": {
+      "sha256": "4753c8835a1a62269ca4e8cd2a58263ac3ab974393a3377d59ea6409ad9b20b4",
+      "observation": "Contraejemplos y valores visibles; conexión débil no identifica grupos separados."
+    },
+    "05_control_rank_agreement.png": {
+      "sha256": "e0be9268ca6ac0345292a3180bc7dc2b79807ab69923b41a10ed2b8eb1c261c5",
+      "observation": "Versión final inspeccionada: etiquetas precisan los cuatro BERT para CLS/SEP; puntos y ejes sin recortes."
+    }
+  },
+  "scope": "PDF/SVG proceden del mismo exportador; no se declara inspección independiente de todas las páginas vectoriales."
+}

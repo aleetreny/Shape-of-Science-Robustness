@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-18T16:45:23.534381+00:00",
+  "sha256": "0df1561e7076651c93627ea25345ab642390a15663752e02e002b2c6c8371467",
+  "pages": 17,
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "opening_pages": [
+    3,
+    4,
+    5
+  ],
+  "contact_sheets_viewed": [
+    "tmp/pdfs/opening_sheet_01.png",
+    "tmp/pdfs/opening_sheet_02.png",
+    "tmp/pdfs/opening_sheet_03.png",
+    "tmp/pdfs/opening_sheet_04.png",
+    "tmp/pdfs/opening_sheet_05.png"
+  ],
+  "render_dpi": 95,
+  "clipping_or_overlap_found": false,
+  "text_outside_safe_margins": [],
+  "result": "All final pages inspected; opening prose, RQ labels, typography, figures and bibliography readable. First-line orphan corrected before final inspection."
+}

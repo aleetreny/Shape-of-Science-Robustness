@@ -1,0 +1,30 @@
+[
+  {
+    "path": "manuscript/main.tex",
+    "sha256": "4395b2ccbd2099177996056bfec69f7b6879daae6799f7242b5953ba1b2ea233"
+  },
+  {
+    "path": "manuscript_es/main.tex",
+    "sha256": "3e97c4ec259f9eec12848be5ebbab168e2ea5fe8e1ee290f4bbb9a64c7951a03"
+  },
+  {
+    "path": "manuscript/supplement.tex",
+    "sha256": "4cc3799717828bdbf051c62edf47093447a3567d22ef2c81422f1f267e40584b"
+  },
+  {
+    "path": "manuscript_es/supplement.tex",
+    "sha256": "e9fe4226d5150c31cf0534bf2efa265a6c2ace45ff708131368aca17d134529c"
+  },
+  {
+    "path": "references/references.bib",
+    "sha256": "91d443b9820d4a867a0ea6715e9249a8894c52a08b0270a57f366c21d99c0d76"
+  },
+  {
+    "path": "output/pdf/main.pdf",
+    "sha256": "1dd57238fe469cecfc66d0caa670a9e49f4304f6d0bb4973dc7ee3acf7f4af5d"
+  },
+  {
+    "path": "output/pdf/es/main.pdf",
+    "sha256": "954b6305d39b6ba107cfb4d84e86e0d63ce3ad0e5eba4b641f42015c9acecc89"
+  }
+]

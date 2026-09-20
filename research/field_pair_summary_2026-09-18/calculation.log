@@ -1,0 +1,92 @@
+{
+  "main": [
+    {
+      "metric": "angle_p50",
+      "rule": "all_saved",
+      "minimum_relative_difference": 0.0,
+      "observations_per_model_pair": 26,
+      "unanimous": 42,
+      "contradiction": 262,
+      "unresolved": 21,
+      "pairs": 325,
+      "models": 10
+    },
+    {
+      "metric": "pr",
+      "rule": "all_saved",
+      "minimum_relative_difference": 0.0,
+      "observations_per_model_pair": 26,
+      "unanimous": 54,
+      "contradiction": 221,
+      "unresolved": 50,
+      "pairs": 325,
+      "models": 10
+    }
+  ],
+  "minimum5pct": [
+    {
+      "metric": "angle_p50",
+      "rule": "all_saved",
+      "minimum_relative_difference": 0.05,
+      "observations_per_model_pair": 26,
+      "unanimous": 10,
+      "contradiction": 96,
+      "unresolved": 219,
+      "pairs": 325,
+      "models": 10
+    },
+    {
+      "metric": "pr",
+      "rule": "all_saved",
+      "minimum_relative_difference": 0.05,
+      "observations_per_model_pair": 26,
+      "unanimous": 36,
+      "contradiction": 177,
+      "unresolved": 112,
+      "pairs": 325,
+      "models": 10
+    }
+  ],
+  "alternatives_joint": {
+    "angle_p50": {
+      "unanimous": 28,
+      "contradiction": 225,
+      "unresolved": 72,
+      "pairs": 325,
+      "models": 10
+    },
+    "pr": {
+      "unanimous": 8,
+      "contradiction": 196,
+      "unresolved": 121,
+      "pairs": 325,
+      "models": 10
+    }
+  },
+  "six_similarity": [
+    {
+      "metric": "angle_p50",
+      "panel": "six_similarity",
+      "minimum_relative_difference": 0.0,
+      "unanimous": 61,
+      "contradiction": 231,
+      "unresolved": 33,
+      "pairs": 325,
+      "models": 6,
+      "contradiction_and_alternatives": 190,
+      "unanimous_and_alternatives": 39
+    },
+    {
+      "metric": "pr",
+      "panel": "six_similarity",
+      "minimum_relative_difference": 0.0,
+      "unanimous": 107,
+      "contradiction": 160,
+      "unresolved": 58,
+      "pairs": 325,
+      "models": 6,
+      "contradiction_and_alternatives": 121,
+      "unanimous_and_alternatives": 20
+    }
+  ]
+}

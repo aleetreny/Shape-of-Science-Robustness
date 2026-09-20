@@ -1,0 +1,13 @@
+alternative,cutoff,PR_oppositions,same_witness_directions_retained,same_unanimous_directions_retained,conditions,alternative_cutoff,cutoff_applies_to
+erank,0.0,221,209,29,26,0.0,PR
+d80,0.0,221,190,5,26,0.0,PR
+both,0.0,221,190,5,26,0.0,PR
+erank,0.01,213,202,29,26,0.0,PR
+d80,0.01,213,180,5,26,0.0,PR
+both,0.01,213,180,5,26,0.0,PR
+erank,0.05,177,173,24,26,0.0,PR
+d80,0.05,177,151,4,26,0.0,PR
+both,0.05,177,151,4,26,0.0,PR
+erank,0.1,126,126,20,26,0.0,PR
+d80,0.1,126,114,4,26,0.0,PR
+both,0.1,126,114,4,26,0.0,PR

@@ -1,0 +1,99 @@
+[
+  {
+    "repo_id": "allenai/specter",
+    "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+    "readme_sha256": "f96b667d304d22019e55a5928baa6eed52636eaf2d9d74e1d590b9405e28af18",
+    "license_lines": [
+      "license: apache-2.0"
+    ],
+    "url": "https://huggingface.co/allenai/specter/tree/81cbfb43d4fc2e728d5b4201ce14987db8d0854c"
+  },
+  {
+    "repo_id": "allenai/specter2_base",
+    "revision": "3447645e1def9117997203454fa4495937bfbd83",
+    "readme_sha256": "8ad7f51d9584a399c4b6c322e8dcb186c7776fb81950f5314ba797d64fab4c77",
+    "license_lines": [
+      "license: apache-2.0",
+      "- **License:** Apache 2.0"
+    ],
+    "url": "https://huggingface.co/allenai/specter2_base/tree/3447645e1def9117997203454fa4495937bfbd83"
+  },
+  {
+    "repo_id": "allenai/specter2",
+    "revision": "2081559630a80fc5851d8f798a05ba81e9468089",
+    "readme_sha256": "35e07453097b8a52632532d0b3024075c22b575e1e3c555bef74357cc5042479",
+    "license_lines": [
+      "- **License:** Apache 2.0"
+    ],
+    "url": "https://huggingface.co/allenai/specter2/tree/2081559630a80fc5851d8f798a05ba81e9468089"
+  },
+  {
+    "repo_id": "malteos/scincl",
+    "revision": "ebc5348d184ba2fc9beee69b4e394263fce57b2e",
+    "readme_sha256": "943eca505e2597e615f51c027d7a9b706e505fe51e6574e8bbb907e096c4fea4",
+    "license_lines": [
+      "license: mit",
+      "## License"
+    ],
+    "url": "https://huggingface.co/malteos/scincl/tree/ebc5348d184ba2fc9beee69b4e394263fce57b2e"
+  },
+  {
+    "repo_id": "allenai/scibert_scivocab_uncased",
+    "revision": "24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1",
+    "readme_sha256": "dbf7cf7e4365de6032a9677a4e305113c46f4597ea7f2f25b9ca4e4e6dafcfe5",
+    "license_lines": [],
+    "url": "https://huggingface.co/allenai/scibert_scivocab_uncased/tree/24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1"
+  },
+  {
+    "repo_id": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "readme_sha256": "9187b6018ea0010d884e78e098e328faa1b88b301570d0cce606bb35e4067e17",
+    "license_lines": [
+      "license: apache-2.0"
+    ],
+    "url": "https://huggingface.co/google-bert/bert-base-uncased/tree/86b5e0934494bd15c9632b12f734a8a67f723594"
+  },
+  {
+    "repo_id": "sentence-transformers/all-mpnet-base-v2",
+    "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+    "readme_sha256": "89a1a9c3290fe58e76c939b578c48a14331dc7bfcaaf5a53102adb183da6f96a",
+    "license_lines": [
+      "license: apache-2.0"
+    ],
+    "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2/tree/e8c3b32edf5434bc2275fc9bab85f82640a19130"
+  },
+  {
+    "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "readme_sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+    "license_lines": [
+      "license: apache-2.0"
+    ],
+    "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/tree/1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+  },
+  {
+    "repo_id": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+    "revision": "e1354b7a3a09615f6aba48dfad4b7a613eef7062",
+    "readme_sha256": "33ee2e0c3178e144af68c8e8c741a227373304151a6b53660c8542306fffb0d4",
+    "license_lines": [
+      "license: mit"
+    ],
+    "url": "https://huggingface.co/microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext/tree/e1354b7a3a09615f6aba48dfad4b7a613eef7062"
+  },
+  {
+    "repo_id": "dmis-lab/biobert-v1.1",
+    "revision": "551ca18efd7f052c8dfa0b01c94c2a8e68bc5488",
+    "readme_sha256": null,
+    "license_lines": [],
+    "url": "https://huggingface.co/dmis-lab/biobert-v1.1/tree/551ca18efd7f052c8dfa0b01c94c2a8e68bc5488"
+  },
+  {
+    "repo_id": "princeton-nlp/unsup-simcse-bert-base-uncased",
+    "revision": "218baf6bc48c463a53f5b4e1c568299537fab124",
+    "readme_sha256": "abb075a2dc6c640dadb4814e30339acc27beadd785fa4230c8c1bdbcb46e4aab",
+    "license_lines": [
+      "- **License:** More information needed"
+    ],
+    "url": "https://huggingface.co/princeton-nlp/unsup-simcse-bert-base-uncased/tree/218baf6bc48c463a53f5b4e1c568299537fab124"
+  }
+]

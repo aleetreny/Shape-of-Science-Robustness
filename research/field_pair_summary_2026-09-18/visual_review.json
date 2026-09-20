@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-09-18T10:35:07.996798+00:00",
+  "all_figures_inspected": true,
+  "files": {
+    "01_conclusions_and_magnitude.png": {
+      "sha256": "4d5feef312d08b4d48a75bd210c5b73e71bc53bf09f3d1a3b76ef910908fa196",
+      "note": "Versión final inspeccionada: orden desde cualquier diferencia hasta 10%, segmentos pequeños rotulados, cifras y leyenda visibles, denominador 325 explícito."
+    },
+    "02_all_field_pairs.png": {
+      "sha256": "ea2c15923b3e83edaf001b81ad3beff98c3e5a994567c0d13e3368f3d7dc6755",
+      "note": "Versión final inspeccionada: 26 áreas numeradas, triángulos sin duplicar parejas, dos propiedades y leyenda legibles, blanco explicado."
+    }
+  },
+  "scope": "Inspección de PNG; PDF/SVG generados por la misma figura, sin afirmar inspección independiente de todos los formatos."
+}

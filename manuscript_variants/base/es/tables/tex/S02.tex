@@ -1,0 +1,23 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.03}
+\captionof{table}{Versiones fijas, formatos de texto y recorte habitual.}\label{tab:S02}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{8.1cm}>{\raggedright\arraybackslash}p{4.25cm}@{}}
+\toprule
+\textbf{Modelo} & \textbf{Modelo y versión completa} & \textbf{Entrada / recorte} \\
+\midrule
+SPECTER & {\footnotesize \nolinkurl{allenai/specter}\newline Versión: {\ttfamily\seqsplit{81cbfb43d4fc2e728d5b4201ce14987db8d0854c}}} & Título [SEP] resumen\newline Límite: 512\newline Recortado: 5,66\% \\
+SPECTER2 & {\footnotesize \nolinkurl{allenai/specter2_base}\newline Versión: {\ttfamily\seqsplit{3447645e1def9117997203454fa4495937bfbd83}}\newline Adaptador: \nolinkurl{allenai/specter2}\newline{\ttfamily\seqsplit{2081559630a80fc5851d8f798a05ba81e9468089}}} & Título [SEP] resumen\newline Límite: 512\newline Recortado: 5,00\% \\
+SciNCL & {\footnotesize \nolinkurl{malteos/scincl}\newline Versión: {\ttfamily\seqsplit{ebc5348d184ba2fc9beee69b4e394263fce57b2e}}} & Título [SEP] resumen\newline Límite: 512\newline Recortado: 5,00\% \\
+SciBERT & {\footnotesize \nolinkurl{allenai/scibert_scivocab_uncased}\newline Versión: {\ttfamily\seqsplit{24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1}}} & Título, línea vacía, resumen\newline Límite: 512\newline Recortado: 4,96\% \\
+BERT & {\footnotesize \nolinkurl{google-bert/bert-base-uncased}\newline Versión: {\ttfamily\seqsplit{86b5e0934494bd15c9632b12f734a8a67f723594}}} & Título, línea vacía, resumen\newline Límite: 512\newline Recortado: 6,87\% \\
+MPNet & {\footnotesize \nolinkurl{sentence-transformers/all-mpnet-base-v2}\newline Versión: {\ttfamily\seqsplit{e8c3b32edf5434bc2275fc9bab85f82640a19130}}} & Título, línea vacía, resumen\newline Límite: 384\newline Recortado: 20,16\% \\
+MiniLM & {\footnotesize \nolinkurl{sentence-transformers/all-MiniLM-L6-v2}\newline Versión: {\ttfamily\seqsplit{1110a243fdf4706b3f48f1d95db1a4f5529b4d41}}} & Título, línea vacía, resumen\newline Límite: 256\newline Recortado: 49,58\% \\
+PubMedBERT & {\footnotesize \nolinkurl{microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext}\newline Versión: {\ttfamily\seqsplit{e1354b7a3a09615f6aba48dfad4b7a613eef7062}}} & Título, línea vacía, resumen\newline Límite: 512\newline Recortado: 4,75\% \\
+BioBERT & {\footnotesize \nolinkurl{dmis-lab/biobert-v1.1}\newline Versión: {\ttfamily\seqsplit{551ca18efd7f052c8dfa0b01c94c2a8e68bc5488}}} & Título, línea vacía, resumen\newline Límite: 512\newline Recortado: 9,00\% \\
+SimCSE & {\footnotesize \nolinkurl{princeton-nlp/unsup-simcse-bert-base-uncased}\newline Versión: {\ttfamily\seqsplit{218baf6bc48c463a53f5b4e1c568299537fab124}}} & Título, línea vacía, resumen\newline Límite: 512\newline Recortado: 6,87\% \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small El recorte se mide en los 500.000 artículos con título y resumen y no es una tasa de error. MiniLM mantiene 256 tokens como principal; la variante de 512 es un control separado. CLS/SEP solo se aplican como alternativas a BERT, SciBERT, BioBERT y PubMedBERT. SEP toma la última posición sin relleno, no el separador del título. Igualar tokens no igualaría el texto porque los tokenizadores difieren. Los CSV contienen enlaces a las fichas de los modelos y todas las versiones.\par}

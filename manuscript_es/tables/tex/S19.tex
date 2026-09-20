@@ -1,0 +1,33 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\captionof{table}{Sensibilidad a la calidad con los mismos artículos de partida.}\label{tab:S19}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+\textbf{Candidatos} & \textbf{Grupos} & \textbf{k} & \textbf{Original (\%)} & \textbf{Filtrado (\%)} & \textbf{Cambio (pp)} \\
+\midrule
+Todos & 130 & 10 & 26,41 & 27,07 & 0,66 \\[2pt]
+Todos & 130 & 25 & 30,58 & 31,43 & 0,85 \\[2pt]
+Todos & 130 & 50 & 34,24 & 35,28 & 1,04 \\[2pt]
+1024 & 130 & 10 & 30,71 & 30,91 & 0,20 \\[2pt]
+1024 & 130 & 25 & 36,01 & 36,29 & 0,28 \\[2pt]
+1024 & 130 & 50 & 40,80 & 41,11 & 0,31 \\[2pt]
+2048 & 63 & 10 & 27,68 & 27,83 & 0,16 \\[2pt]
+2048 & 63 & 25 & 32,06 & 32,25 & 0,19 \\[2pt]
+2048 & 63 & 50 & 35,90 & 36,13 & 0,24 \\[2pt]
+\bottomrule
+\end{tabular*}
+
+\par\medskip\textbf{Control de entrada emparejado: vecinos sustituidos}\par\smallskip
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+\textbf{k} & \textbf{Modelo: original} & \textbf{Modelo: filtrado} & \textbf{Título: original} & \textbf{Título: filtrado} \\
+\midrule
+10 & 69,71 & 69,56 & 72,11 & 72,04 \\[2pt]
+25 & 64,57 & 64,27 & 66,49 & 66,45 \\[2pt]
+50 & 59,83 & 59,47 & 61,23 & 61,17 \\[2pt]
+\bottomrule
+\end{tabular*}
+\par\smallskip{\small Todos los valores salvo cambios son porcentajes. El filtro conserva 448.886 artículos. El primer bloque mantiene las mismas consultas antes y después del filtro; es distinto de la media original con todas las consultas, 30,29\% con k25. Las búsquedas de tamaño fijo incluyen 100 consultas limpias en ambos conjuntos. Solo 63 grupos conservan 2.048 candidatos; los 130 permiten 1.024. El control de entrada usa 100 consultas y 1.000 candidatos equilibrados por fechas en cada área, del panel de texto guardado. No comprueba todo posible error de origen o texto casi duplicado.\par}
+\end{minipage}\par

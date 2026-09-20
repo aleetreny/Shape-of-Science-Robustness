@@ -1,0 +1,25 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\captionof{table}{Preguntas, comparaciones y conjuntos de artículos.}\label{tab:T01}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{5.75cm}@{}}
+\toprule
+\textbf{Pregunta} & \textbf{Qué se compara} & \textbf{Artículos utilizados} \\
+\midrule
+\textquestiondown{}Se conserva la organización general? & Diez modelos: relaciones entre centros de áreas o especialidades y entre artículos dentro de los grupos. & 256 artículos por centro; elecciones repetidas y controles con 128 y 512. \\
+\addlinespace[8pt]
+\textquestiondown{}Encuentran los modelos los mismos artículos cercanos? & Cuánto coinciden las listas de 25 vecinos de dos modelos. & Todos los artículos de cada área y período; otro control fija 2.048 candidatos por grupo. Búsqueda global: 13.000 artículos de partida entre 400.000 candidatos. \\
+\addlinespace[8pt]
+\textquestiondown{}Importa cambiar el texto de entrada? & El mismo modelo lee solo el título, solo el resumen o ambos. & 52.000: 2.000 por área, 400 por período. Incluye la primera prueba de 26.000. \\
+\addlinespace[8pt]
+\textquestiondown{}Importa que todos lean el mismo fragmento? & La entrada habitual de cada modelo frente a un fragmento común que cabe en todos. & Otro conjunto de 52.000, con 400 por área y período. \\
+\addlinespace[8pt]
+\textquestiondown{}Qué área tiene más dispersión o más direcciones de variación? & Dos propiedades geométricas para las 325 parejas de áreas, con diez modelos. & Los mismos 52.000 del experimento de texto; otras elecciones de artículos comprueban si las comparaciones se repiten. \\
+\addlinespace[8pt]
+\textquestiondown{}Importa limitar la búsqueda a una especialidad? & Por ejemplo, Cardiología y Medicina Cardiovascular frente a Medicina, con 256 candidatos en cada búsqueda. & 50 artículos de partida fijos por especialidad; diez elecciones de los otros 206 candidatos. En total, 10.850 artículos de partida en 217 especialidades. \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+Todos los conjuntos proceden de la misma colección de 500.000 artículos: 400.000 registros generales y 100.000 para reforzar grupos pequeños de área y período. Las filas no se suman. Los modelos usan los mismos identificadores en cada comparación. En la comparación de alcance, ambos conjuntos incluyen los mismos 50 artículos de partida. Los métodos y los Suplementos S1--S4 y S9 detallan los controles. Los 1.300 artículos de prueba del programa no son otra muestra científica.
+\end{minipage}\par

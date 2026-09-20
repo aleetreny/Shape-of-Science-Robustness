@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-09-19T08:19:37.723418+00:00",
+  "status": "passed",
+  "canonical_files_verified_unchanged": 751,
+  "versions": {
+    "v1_en": {
+      "source": "versions/v1_en/main.tex",
+      "pdf": "output/pdf/voice_variants/v1_en.pdf",
+      "sha256": "4801337a901416128810440a86c228cf08a33276e5d7c77eb3044580d2ecf1e1",
+      "pages": 19,
+      "body_words": 4250,
+      "abstract_words": 184,
+      "rewritten_paragraphs": 30,
+      "title_structure_figures_tables_and_declarations_preserved": true,
+      "numeric_occurrences_formulas_and_citation_associations_preserved": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    },
+    "v1_es": {
+      "source": "versions/v1_es/main.tex",
+      "pdf": "output/pdf/voice_variants/v1_es.pdf",
+      "sha256": "7baa939a9b6cda3b33de067146b569d069825a14e6d2f404d92b672fcb64b8ac",
+      "pages": 21,
+      "body_words": 5058,
+      "abstract_words": 219,
+      "rewritten_paragraphs": 30,
+      "title_structure_figures_tables_and_declarations_preserved": true,
+      "numeric_occurrences_formulas_and_citation_associations_preserved": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    },
+    "v2_en": {
+      "source": "versions/v2_en/main.tex",
+      "pdf": "output/pdf/voice_variants/v2_en.pdf",
+      "sha256": "076283b5e4e87d1a5112d4f1078c5e24e6190554d8b260caa2a670162749210a",
+      "pages": 19,
+      "body_words": 4339,
+      "abstract_words": 186,
+      "rewritten_paragraphs": 33,
+      "title_structure_figures_tables_and_declarations_preserved": true,
+      "numeric_occurrences_formulas_and_citation_associations_preserved": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    },
+    "v2_es": {
+      "source": "versions/v2_es/main.tex",
+      "pdf": "output/pdf/voice_variants/v2_es.pdf",
+      "sha256": "e9dd8e5c9ae36b5de8c4b67ed0647022c183e7991737a97bb0778514f60e81f8",
+      "pages": 21,
+      "body_words": 5115,
+      "abstract_words": 217,
+      "rewritten_paragraphs": 33,
+      "title_structure_figures_tables_and_declarations_preserved": true,
+      "numeric_occurrences_formulas_and_citation_associations_preserved": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    },
+    "v3_en": {
+      "source": "versions/v3_en/main.tex",
+      "pdf": "output/pdf/voice_variants/v3_en.pdf",
+      "sha256": "3bfa7012bc825d324aa44abd0b259a1c86364ac5a67f7a45691055ece3e5c6ec",
+      "pages": 19,
+      "body_words": 4462,
+      "abstract_words": 187,
+      "rewritten_paragraphs": 35,
+      "title_structure_figures_tables_and_declarations_preserved": true,
+      "numeric_occurrences_formulas_and_citation_associations_preserved": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    },
+    "v3_es": {
+      "source": "versions/v3_es/main.tex",
+      "pdf": "output/pdf/voice_variants/v3_es.pdf",
+      "sha256": "1a6ebbcf9d0860b2c1f69ebdb5b6ae9684d37132579e5f7218e10e5f47941f06",
+      "pages": 21,
+      "body_words": 5164,
+      "abstract_words": 221,
+      "rewritten_paragraphs": 35,
+      "title_structure_figures_tables_and_declarations_preserved": true,
+      "numeric_occurrences_formulas_and_citation_associations_preserved": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    }
+  },
+  "all_six_full_articles": true,
+  "supplements_common_and_unchanged": true,
+  "bilingual_numeric_formula_and_citation_equivalence": true,
+  "new_scientific_computation": false,
+  "limits": "Text checks preserve formal content; semantic and editorial review is recorded separately. No authorship detector was used."
+}

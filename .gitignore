@@ -41,3 +41,32 @@ research/model_review_2026-09-15/academic_sources/*.txt
 research/literature/
 research/analysis_2026-09-17/sources/arxiv_records.xml
 **/.audit.lock
+
+# Intermediates for the manuscript layout; final PDFs and editable sources stay visible.
+tmp/pdfs/
+output/pdf/*.log
+output/pdf/*.aux
+output/pdf/*.bbl
+output/pdf/*.blg
+output/pdf/*.out
+output/pdf/*.toc
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.toc
+
+# Public data archives are deposited separately; never send vectors through Git.
+output/zenodo/
+output/pdf/es/*.log
+output/pdf/es/*.aux
+output/pdf/es/*.bbl
+output/pdf/es/*.blg
+output/pdf/es/*.out
+output/pdf/es/*.toc
+research/public_release_2026-09-20/*.log
+research/public_release_2026-09-20/*.manifest.json
+
+# Raw literature metadata with third-party abstracts used during the latest review.
+research/submission_readiness_2026-09-20/arxiv_metadata.json

@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-18T19:06:04.952918+00:00",
+  "scope": "Full Spanish translation for author review; English remains canonical.",
+  "english_original_files_preserved": 188,
+  "documents": {
+    "main": {
+      "path": "output/pdf/es/main.pdf",
+      "pages": 21,
+      "sha256": "975db8d73d03d2e2c93e22846700d3a21019a01e08ab2bdbbff3a631ac2dc9b1",
+      "citations_references_and_inputs_same_order": true,
+      "equations_identical": true,
+      "numeric_occurrences_identical_after_localization": true,
+      "all_tables_and_figures_present": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    },
+    "supplement": {
+      "path": "output/pdf/es/supplement.pdf",
+      "pages": 35,
+      "sha256": "78d01ca3db896d65de9f07aa0df0f9f2c6031224d8b1dbea8b5cbf4ce1aaa49b",
+      "citations_references_and_inputs_same_order": true,
+      "equations_identical": true,
+      "numeric_occurrences_identical_after_localization": true,
+      "all_tables_and_figures_present": true,
+      "no_overflow_missing_glyphs_or_unresolved_references": true
+    }
+  },
+  "table_groups_checked_row_by_row": 19,
+  "table_caption_and_note_numbers_preserved": true,
+  "figures_with_identical_source_and_value_manifests": 14,
+  "unchanged_csv_attachments": 98,
+  "unchanged_bibliographies": true,
+  "new_scientific_computation": false,
+  "publication_or_submission": false,
+  "linguistic_review": "Full prose, captions and notes translated; bibliography and original example titles retained for identification.",
+  "visual_review": "Recorded separately in visual_review.json after rendering final PDFs."
+}

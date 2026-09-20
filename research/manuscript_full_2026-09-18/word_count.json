@@ -1,0 +1,13 @@
+{
+  "abstract_words": 190,
+  "body_words": 4383,
+  "sections": {
+    "Introduction": 368,
+    "Background and research questions": 627,
+    "Data and comparative design": 1172,
+    "Results": 1444,
+    "Discussion": 663,
+    "Conclusion": 109
+  },
+  "method": "Regex words, hyphenated words once; headings, citations, figures/captions, input tables, math and declarations excluded."
+}

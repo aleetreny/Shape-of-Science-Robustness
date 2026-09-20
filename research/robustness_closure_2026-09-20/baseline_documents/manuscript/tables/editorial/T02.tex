@@ -1,0 +1,34 @@
+\begin{table}[!htbp]
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Embedding models and primary representation settings.}\label{tab:T02}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}m{3.3cm}>{\centering\arraybackslash}m{1.6cm}>{\centering\arraybackslash}m{1.65cm}>{\raggedright\arraybackslash}m{3.0cm}>{\raggedright\arraybackslash}m{4.9cm}@{}}
+\toprule
+\textbf{Model} & \textbf{Vector size} & \textbf{Token limit} & \textbf{Paper vector} & \textbf{Reference} \\
+\midrule
+\textbf{SPECTER} & 768 & 512 & CLS & \citep{cohan-etal-2020-specter} \\
+\addlinespace[2pt]
+\textbf{SPECTER2} & 768 & 512 & CLS + adapter & \citep{singh-etal-2023-scirepeval} \\
+\addlinespace[2pt]
+\textbf{SciNCL} & 768 & 512 & CLS & \citep{ostendorff-etal-2022-neighborhood} \\
+\addlinespace[2pt]
+\textbf{SciBERT} & 768 & 512 & Mean & \citep{beltagy-etal-2019-scibert} \\
+\addlinespace[2pt]
+\textbf{BERT} & 768 & 512 & Mean & \citep{devlin-etal-2019-bert} \\
+\addlinespace[2pt]
+\textbf{MPNet} & 768 & 384 & Mean & \citep{reimers-gurevych-2019-sentence} \\
+\addlinespace[2pt]
+\textbf{MiniLM} & 384 & 256 & Mean & \citep{reimers-gurevych-2019-sentence} \\
+\addlinespace[2pt]
+\textbf{PubMedBERT / BiomedBERT} & 768 & 512 & Mean & \citep{reff9ebfb9307} \\
+\addlinespace[2pt]
+\textbf{BioBERT} & 768 & 512 & Mean & \citep{ref4f3e28932e} \\
+\addlinespace[2pt]
+\textbf{SimCSE} & 768 & 512 & CLS, pre-pooler & \citep{gao-etal-2021-simcse} \\
+\bottomrule
+\end{tabular}
+\par\smallskip{\small Vector size is the number of coordinates. MPNet and MiniLM use all-mpnet-base-v2 and all-MiniLM-L6-v2, respectively. Limits count tokens including special symbols. Mean: last-layer average over non-padding positions, including special symbols. CLS: first-position state before the pooler; SPECTER2 adds its proximity adapter. For MPNet/MiniLM, the reference describes the Sentence-BERT framework, not the exact checkpoint training. Changing the pooling rule does not add a separately trained model. Full revisions, formats and truncation: Table S2.\par}
+\end{minipage}\par
+\end{table}

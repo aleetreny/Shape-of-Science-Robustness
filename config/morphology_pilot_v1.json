@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "fixed_at": "2026-09-18T08:28:32.171680+00:00",
+  "authorization": "Explicit 2026-09-18 morphology pilot before manuscript; derived analysis only",
+  "seed": "sos-morphology-2026-09-18-v1",
+  "output": "data/morphology_pilot_v1",
+  "models": {
+    "specter": "cls",
+    "specter2": "cls",
+    "scincl": "cls",
+    "scibert": "mean",
+    "bert": "mean",
+    "mpnet": "mean",
+    "minilm": "mean",
+    "pubmedbert": "mean",
+    "biobert": "mean",
+    "simcse": "cls"
+  },
+  "fields": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "periods": [
+    2000,
+    2005,
+    2010,
+    2015,
+    2020
+  ],
+  "primary_selection": "data/robustness_v2/inputs/native_input.parquet",
+  "primary_n_field": 2000,
+  "primary_per_period": 400,
+  "main_metrics": [
+    "angle_p50",
+    "pr",
+    "gap_25"
+  ],
+  "constructs": {
+    "angle_p50": "Angular spread, NOT isotropy or semantic diversity",
+    "pr": "Effective linear covariance dimension, NOT true intrinsic dimension or count of topics",
+    "gap_25": "Weighted-by-degree connectivity of unweighted union-25NN normalized Laplacian, NOT semantic fragmentation"
+  },
+  "alternatives": [
+    "angle_p10",
+    "angle_p90",
+    "center_angle_p50",
+    "erank",
+    "d80",
+    "pc1_share",
+    "gap_10",
+    "gap_50",
+    "weighted_gap_25",
+    "union_giant_10",
+    "union_giant_25",
+    "union_giant_50",
+    "mutual_giant_10",
+    "mutual_giant_25",
+    "mutual_giant_50",
+    "connect_ratio90_50",
+    "connect_ratio95_50",
+    "connect_r90",
+    "mst_max_median"
+  ],
+  "diagnostics": [
+    "hub_gini25",
+    "zero_distance_pairs",
+    "knn25_median_chord"
+  ],
+  "preprocessing": "float64 per-row L2; distances in full space; center only for covariance; tie order by sorted global row_index",
+  "stability": {
+    "within_52k_repeats": 20,
+    "within_n": 1000,
+    "external_corpus_repeats": 5,
+    "external_n": 2000,
+    "size_n": [
+      500,
+      1000,
+      2000,
+      4000
+    ],
+    "width_quantiles": [
+      0.05,
+      0.95
+    ],
+    "relative_width_screen": {
+      "angle_p50": 0.05,
+      "pr": 0.1,
+      "gap_25": 0.2
+    },
+    "median_size_change_screen": {
+      "angle_p50": 0.05,
+      "pr": 0.1,
+      "gap_25": 0.2
+    },
+    "rank_screen_median": 0.9,
+    "rank_screen_lower_decile": 0.8,
+    "interpretation": "Operational screens fixed for this pilot, not literature-certified cutoffs or population confidence intervals; continuous results retained"
+  },
+  "controls": {
+    "inputs": [
+      "title",
+      "abstract"
+    ],
+    "input_n": 1000,
+    "poolings": [
+      "cls",
+      "sep"
+    ],
+    "word_bert_models": [
+      "bert",
+      "scibert",
+      "pubmedbert",
+      "biobert"
+    ],
+    "common_text_n": 2000,
+    "common_directory": "data/analysis_v1/controls/common_text_52k",
+    "minilm512_directory": "data/analysis_v1/controls/minilm_512",
+    "quality_n": 1000,
+    "quality_flags": [
+      "language_ambiguous",
+      "possible_mixed_language",
+      "abstract_50_79",
+      "abstract_over_2000",
+      "duplicate_doi",
+      "duplicate_text",
+      "possible_notice",
+      "possible_access_message",
+      "content_review_flag"
+    ],
+    "radial_trim_fraction": 0.05,
+    "trim_control": "same n removed randomly within each period; actual corpus unchanged",
+    "global_center_n": 1000,
+    "gaussian_references": 3,
+    "gaussian_n": 1000,
+    "gaussian_definition": "Same unit-cloud mean/covariance in expectation, then row L2. Retain actual spread/PR mismatch. Descriptive reference, no calibrated p-values."
+  },
+  "temporal": {
+    "period_n": 400,
+    "endpoint_repeats": 10,
+    "endpoint_n": 200,
+    "interpretation": "Equal n across dates; retrospective selected fixed corpus. No historical causal convergence or population trend."
+  },
+  "synthetic": {
+    "before_real_results": true,
+    "clouds": 9,
+    "reference_clouds": 15,
+    "result": "Numerical invariances pass; scalar connectivity proxies fail generic fragmentation interpretation; keep them as a multiscale diagnostic only."
+  },
+  "reporting": [
+    "paired differences on same IDs",
+    "rank agreement between alternatives and encoders",
+    "selection and size sensitivity",
+    "descriptive two-way model/Field decomposition without IID model-pair tests",
+    "no combined morphology score",
+    "show failed and disagreeing controls",
+    "no winning encoder by consensus",
+    "no 2D distances or clustering of plotted coordinates"
+  ],
+  "stop": "Complete bounded pilot, report limitations; no automatic new inference, corpus expansion or manuscript."
+}

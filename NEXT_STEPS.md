@@ -1,44 +1,44 @@
-# Estado actual: revisión previa al manuscrito terminada
+# Estado actual: cierre final de robustez terminado
 
-**17-09-2026.** Cierre experimental R01–R12 conservado; auditoría, atlas de casos, referencias y organización completados. No hay cálculos activos. El manuscrito no se ha empezado.
+**Última entrega, 20-09-2026:** [novedad integrada y material público preparado](PUBLIC_RELEASE.md). Licencias aprobadas y aplicadas; datos numéricos empaquetados y comprobados. Zenodo tiene un borrador con DOI reservado, pero faltan los archivos y su publicación. Seguir [los pasos de carga](ZENODO_UPLOAD.md). Las revisiones editoriales siguientes documentan el historial; los PDF vigentes incorporan los tres párrafos nuevos.
+
+**Revisión vigente para una primera lectura, 20-09-2026:** por petición expresa del autor, se ha releído y revisado el artículo completo para alguien sin contexto. Entrega: [FIRST_READER_REVIEW.md](FIRST_READER_REVIEW.md). Se conserva la voz aceptada; se explican los conceptos, el propósito y los artículos de cada prueba, y el significado de las cifras. Inglés: 6.567 palabras de cuerpo, 195 de resumen y 24 páginas. Español: 7.332, 211 y 25 páginas. Cifras científicas, figuras, bibliografía, declaraciones y suplementos conservados. Las revisiones que siguen son históricas; aprobación personal pendiente.
+
+**20-09-2026.** El autor ha aceptado el tono claro. Las pruebas que delegó están terminadas y se han integrado en los dos idiomas. [Informe sencillo](ROBUSTNESS_CLOSURE_REPORT.md) · [Cambios del texto](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md).
+
+**Revisión editorial más reciente, 20-09-2026:** los 38 comentarios del autor están aplicados en inglés y español; ver [MANUSCRIPT_EXPLANATIONS.md](MANUSCRIPT_EXPLANATIONS.md). Se explican selecciones, candidatos, alertas y casos sin resolver, con ejemplos y porcentajes comprobados. Inglés: 5.412 palabras de cuerpo, 200 de resumen y 21 páginas. Español: 6.090, 240 y 22 páginas. Suplementos intactos (39 y 41 páginas). El apartado de IA se ha retirado del borrador por petición expresa; el registro real de asistencia se conserva y las declaraciones exigidas se comprobarán antes del envío. Título y tono conservados; revisión personal pendiente. Los estados de edición que siguen son históricos.
 
 ## Punto exacto para continuar
 
-1. Leer [PREPAPER_REVIEW.md](PREPAPER_REVIEW.md): comprobaciones y errores de la fuente detectados.
-2. Revisar [ROBUSTNESS_RESULTS.md](ROBUSTNESS_RESULTS.md), [CONCLUSION_CONTROLS.md](CONCLUSION_CONTROLS.md) y [CASE_ATLAS.md](CASE_ATLAS.md): resultados generales y ejemplos concretos.
-3. Redactar solo cuando se solicite, siguiendo [PAPER_OUTLINE.md](PAPER_OUTLINE.md), los métodos de las tres fases y [references/RELATED_WORK.md](references/RELATED_WORK.md). Usar [references/references.bib](references/references.bib).
-4. Antes de enviar, completar [QSS_CHECK.md](docs/QSS_CHECK.md) y el [depósito de datos/código](docs/DATA_RELEASE.md). El usuario ha autorizado commit y push de código/documentación/tablas/figuras a GitHub. El corpus y los vectores siguen locales; no hay depósito permanente, licencia general elegida ni envío a revista.
+1. Lectura personal del autor y comentarios al texto. La voz ya está elegida y aceptada; no volver a preguntar por V1/V2/V3. Mantener `AUTHOR_VOICE.md`.
+2. Aplicar comentarios en ambos idiomas. Compilar con `./manuscript/build.sh` y `./manuscript_es/build.sh`. Los exportadores conservan las tablas editoriales y añaden los resultados de este cierre.
+3. Antes de enviar: correspondencia, aprobación final de texto/contribuciones y revisión actual de normas, referencias y declaraciones exigidas, incluida la asistencia real utilizada. Ver [lista de envío](docs/QSS_CHECK.md).
+4. Cargar los archivos de `output/zenodo/` al borrador `22863543`, publicar y comprobar su acceso. Después actualizar disponibilidad, cita de datos y Suplemento S8. Licencias ya confirmadas; no volver a preguntarlas. La [guía de reproducción](reproducibility/README.md) delimita qué comprobaciones se han repetido. El envío a revista sigue pendiente.
 
-## Límites que deben acompañar las conclusiones
+No queda otra prueba necesaria dentro del encargo. No reiniciar extracción, embeddings, análisis terminados o automatizaciones. Cualquier ampliación futura debe responder a un problema nuevo concreto.
 
-- Corpus de 500k: 400k base + 100k complemento; inglés, abstract disponible, 2000–2024 y clasificación OpenAlex. No representa toda la producción mundial.
-- Tres entradas en 52k, con el piloto de 26k incluido; el control de fragmento común de 52k es otra selección. Mean principal para cuatro BERT; CLS/SEP como controles.
-- Se conservan cinco alertas de entrada en 52k/100 selecciones, las 50 originales y las de Subfields. No son intervalos poblacionales ni tareas que se resuelvan cambiando umbrales.
-- No hay caída universal de acuerdo al pasar a especialidades. Los candidatos condicionan la comparación: ambos ámbitos incluyen las 50 consultas del Subfield en sus 256 candidatos.
-- Los casos muestran errores de OpenAlex y un aviso no detectado. Se mantuvieron con notas. La pequeña sensibilidad a 82 títulos genéricos no estima el error temático total ni limpia los candidatos.
-- Atlas: 217 especialidades, 183 comparadas bajo 27 condiciones; 10.850 consultas con diez selecciones y 531.650 relaciones siempre elegibles. Los ejemplos son exploratorios. Centros de especialidades: 23.436 parejas, receta principal; sin control de receta adicional.
-- Consenso no es calidad. CKA no es porcentaje de ciencia correcta; 45 pares no son independientes. Familias/Medicina no identifican causas; el cambio temporal no demuestra convergencia causal.
-- La biblioteca tiene 45 entradas comprobadas. Ya existen trabajos cercanos sobre forma, vecinos, entrada, categorías y familias; defender aportación concreta, sin primacía absoluta.
+## Qué queda respaldado y qué hay que matizar
+
+- La organización entre centros se conserva al cambiar artículos, tamaño y omitir cada área. La receta incluye normalizar el centro tras promediar.
+- El desacuerdo de vecinos sigue siendo grande tras el filtro conocido de calidad/duplicados. Ese filtro no detecta todo error de origen.
+- Texto y modelo producen cambios medios grandes, pero la comparación difiere por modelo y regla de combinación. No hablar de equivalencia ni de un orden universal.
+- Apertura: 262 oposiciones originales y 151 tras centrar; 128 conservan los mismos modelos y respuestas. Con mínimo 5 %, 96→11. PR cambia menos: 221→211, con 204 conservadas.
+- Las alternativas de dimensión cubren ahora las 26 condiciones; ambas retienen 190/221 oposiciones originales de PR. El 196 de tres condiciones y los controles puntuales 145/262 y 218/221 son históricos, no la comprobación completa actual.
+- Persisten 2.628/8.235 alertas locales de especialidades, las 50 originales, cinco de entrada a 52k, cuatro de PR y 51 de conexión, cada una con su diseño y denominador. Una media estable no elimina ninguna.
+- Los 500k, diez modelos, restricciones de idioma/abstract y etiquetas OpenAlex delimitan el estudio. Las selecciones solapadas no permiten precisión poblacional; consenso no es verdad temática; familias, Medicina y tiempo no identifican causas.
+- Se conservan los errores ilustrativos de OpenAlex y los límites de los conjuntos de candidatos. No borrar ejemplos o cambiar umbrales para mejorar el relato.
 
 ## Dónde está cada entrega
 
 | Material | Ubicación |
 | --- | --- |
-| Nueva revisión y atlas | `reports/prepaper_v1/`, `data/prepaper_v1/`, `research/prepaper_2026-09-17/` |
-| Resultados ampliados, 50 tablas y siete figuras | `reports/robustness_v2/final/` |
-| Auditoría de 15 componentes | `data/robustness_v2/final_audit/` |
-| Comparación inicial sobre 500k | `reports/analysis_v1/final/` |
-| Piloto histórico de 26k | `reports/checklist_v1/final/` |
-| Catálogo e índice de documentos | `DATA_CATALOG.md`, `docs/INDEX.md` |
+| Informe y cambios del cierre actual | `ROBUSTNESS_CLOSURE_REPORT.md`, `ROBUSTNESS_MANUSCRIPT_CHANGELOG.md` |
+| Protocolo, código y configuración sellados | `ROBUSTNESS_CLOSURE_PROTOCOL.md`, `sos_closure/`, `config/robustness_closure_v1.json` |
+| Selecciones, centros, búsquedas y huellas locales | `data/robustness_closure_v1/` |
+| 25 tablas y resumen del cierre | `reports/robustness_closure_v1/` |
+| Auditoría y copias anteriores | `research/robustness_closure_2026-09-20/` |
+| Artículo/suplemento; 22 grupos de tablas, 15 figuras | `manuscript/`, `manuscript_es/`, `output/` |
+| Resultados científicos anteriores | `ROBUSTNESS_RESULTS.md`, `FIELD_PAIR_RESULTS.md`, `MORPHOLOGY_RESULTS.md`, `CASE_ATLAS.md` |
+| Historial de redacción y voz | `MANUSCRIPT_CLARITY.md`, `MANUSCRIPT_VOICES.md` |
 
-Usar `control_review_v2` y `structural_review_v3`; versiones anteriores y vistas provisionales se conservan como historial. Las fuentes científicas y sus salidas tienen huellas/copia. No editarlas y reanudar como si fueran la misma versión.
-
-## Un comando para reconstruir solo la presentación del atlas
-
-```sh
-VECLIB_MAXIMUM_THREADS=4 .venv-analysis/bin/python -m sos_review.report
-```
-
-No ejecuta modelos ni vecinos. Después hay que revisar visualmente las figuras reconstruidas. Más opciones y requisitos en [REPRODUCING.md](docs/REPRODUCING.md).
-
-Los datos grandes siguen locales y fuera de Git. No relanzar `start_embeddings.sh`, descargas ni ejecutores ya terminados. Las automatizaciones anteriores permanecen pausadas. Una ampliación futura debe responder a una afirmación concreta que aún no tenga apoyo suficiente.
+Datos grandes y pesos siguen locales y fuera de Git. No modificar una fuente científica congelada y reanudar como si fuera la misma versión. [Reproducción](docs/REPRODUCING.md) · [Catálogo](DATA_CATALOG.md).

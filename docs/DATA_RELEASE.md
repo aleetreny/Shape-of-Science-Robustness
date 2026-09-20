@@ -1,26 +1,26 @@
-# Preparación del material para compartir
+# Entrega de datos y código
 
-**Estado: código y entrega legible versionados; corpus y vectores locales, sin depósito permanente ni DOI.** El 17-09-2026 el usuario autoriza commit y push de código, documentación, tablas y figuras a [GitHub](https://github.com/aleetreny/Shape-of-Science-Robustness). Esto no incluye publicar el corpus/vectores ni elegir una licencia en nombre de autores o terceros. Este documento organiza ese depósito futuro.
+**Estado, 20-09-2026:** el autor ha autorizado la entrega y confirmado MIT para código propio y CC BY 4.0 para documentos/resultados propios. OpenAlex conserva CC0. Hay 19 ZIP verificados de datos, 51,14 GB y 58.201 archivos. El registro de Zenodo `22863543` está guardado como borrador, con DOI reservado y 75 GB de capacidad, **sin archivos publicados**.
 
-## Paquete mínimo para repetir los resultados
+La entrega vigente es [PUBLIC_RELEASE.md](../PUBLIC_RELEASE.md); [ZENODO_UPLOAD.md](../ZENODO_UPLOAD.md) explica la carga manual y la publicación posterior. El código se archiva junto con los datos, en un ZIP de una versión concreta de GitHub, con ámbitos de licencia separados. Esto sustituye la propuesta preliminar de dos registros y conserva juntas las dos partes de la entrega.
 
-| Material | Contenido necesario | Estado |
-| --- | --- | --- |
-| Código y decisiones | Programas, versiones, requisitos, configuraciones, protocolos, reglas de selección y copias de fuentes de cada fase. | Incluidos en esta versión para GitHub. Falta archivo permanente del código con identificador citable y licencia elegida por sus titulares. |
-| Identidad del corpus | IDs OpenAlex, año, Field/Subfield, base/complemento, marcas, huellas del texto y procedencia/fecha de las respuestas. | 500k locales; separar de los textos completos. |
-| Selecciones | IDs de controles de 52k, tamaños, consultas/candidatos repetidos y cuotas temporales. | Guardados. El control de fragmento común y el de entradas son selecciones distintas. |
-| Vectores | Revisiones/modelos/recetas, archivos con filas alineadas, controles y manifiestos. | Locales, decenas de GB. Son necesarios para repetir comparaciones sin recalcular inferencia. |
-| Resultados y comprobaciones | Tablas, vecinos/centros donde hagan falta, catálogo de huellas y figuras con pies. | Tablas/figuras y auditorías versionadas; los grandes derivados en `data/` siguen locales. |
-| Texto de entrada | Título, abstract y fragmentos exactos. | Local. Antes de distribuirlos, verificar condiciones aplicables a los textos. No deducir permiso ilimitado de reutilización de todo abstract por obtenerlo mediante OpenAlex. |
+## Qué incluye
 
-El inventario legible principal es [DATA_CATALOG.md](../DATA_CATALOG.md). `research/prepaper_2026-09-17/release_inventory.csv` cuenta rutas/tamaños locales por componente, sin empaquetar ni subir nada.
+Identificadores y metadatos sin resúmenes; vectores de los diez modelos y sus variantes; las selecciones, consultas y candidatos exactos; las medidas por condición, controles y fuentes congeladas de cada fase. El piloto de 26.000, la ampliación de texto a 52.000 y el control separado de fragmento común de 52.000 conservan su identidad.
 
-## Qué hacer cuando se autorice el depósito
+Los pesos de los modelos y las tablas históricas de títulos/resúmenes de entrada quedan fuera. Se conservan identificadores, huellas y exportaciones separadas de columnas sin texto. El manifiesto enumera las exclusiones; los archivos omitidos no se sustituyen silenciosamente por contenido distinto.
 
-1. Elegir un archivo permanente con capacidad suficiente, versión y DOI, y comprobar qué archivos se pueden distribuir.
-2. Archivar el commit público de código que acompañe al manuscrito. Añadir la licencia de nuestro código que decidan sus titulares; conservar avisos de dependencias. Hoy el repositorio no tiene una licencia general elegida.
-3. Preparar paquetes de metadatos/selecciones y de vectores/derivados, con hashes, diccionario y comandos. Separar los textos cuya distribución no esté resuelta; explicar cualquier restricción real.
-4. Probar la reconstrucción desde el material depositado, en un directorio limpio. Un archivo local y un enlace al API actual no sustituyen esa comprobación.
-5. Escribir la declaración de disponibilidad con enlaces reales. Incluir limitaciones concretas si algo imprescindible no puede compartirse, conforme a las normas de la revista.
+## Qué se ha probado
 
-No incluir claves, `.env`, pesos descargados de terceros sin revisar condiciones, entornos locales, archivos de editor ni PDFs completos de literatura en una subida automática. Las fuentes de consulta se citan mediante enlaces; sus copias de lectura permanecen locales.
+- Integridad de todos los ZIP y de sus 58.201 archivos descomprimidos.
+- Resúmenes de las cuatro figuras principales desde medidas por condición, en una carpeta aislada y sin Internet.
+- Cálculos independientes desde los ZIP de vectores, con los diez modelos y condiciones fijadas de las cuatro figuras.
+- Reconstrucción exacta de los cuatro PDF desde los paquetes fuente.
+
+La repetición de **todos** los cálculos originales no está certificada. Los ejecutores históricos conservan dependencias de sus rutas y entradas originales. Los comandos portables, las condiciones verificadas y los límites están en [reproducibility/README.md](../reproducibility/README.md).
+
+## Antes del envío
+
+Terminar la carga, publicar el registro y comprobar sus archivos desde el enlace público. Después actualizar la declaración, la cita de datos y el Suplemento S8 con la [redacción preparada](AVAILABILITY_AFTER_PUBLICATION.md). Un DOI reservado no equivale a acceso público.
+
+El inventario preliminar y la revisión bibliográfica se conservan como historial en [NOVELTY_AND_REPRODUCIBILITY.md](../NOVELTY_AND_REPRODUCIBILITY.md). No reabren la decisión de licencia ya aceptada.

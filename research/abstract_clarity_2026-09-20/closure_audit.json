@@ -1,0 +1,94 @@
+{
+  "completed_at": "2026-09-20T14:41:56.277164+00:00",
+  "all_complete": true,
+  "scope": "Abstract wording only, in English and Spanish; editorial metadata updated separately.",
+  "opening_retained": true,
+  "nonabstract_main_sources_byte_identical": true,
+  "numeric_tokens_preserved": true,
+  "protected_files_verified": 457,
+  "previous_files_archived": 18,
+  "documents": {
+    "en": {
+      "pdf": "output/pdf/main.pdf",
+      "sha256": "1a885737f0958adc9a9dd316b7abc91172f4770a49de6d75e52521c1f2d4a717",
+      "pages": 20,
+      "abstract_words": 200
+    },
+    "es": {
+      "pdf": "output/pdf/es/main.pdf",
+      "sha256": "5b017500f28b6255fb1d24a50f023e8d3bcb6d1d81bb7b447c966cbbea651539",
+      "pages": 22,
+      "abstract_words": 235
+    }
+  },
+  "visual_review": {
+    "changed_pages_inspected_at_full_size_and_in_context": {
+      "en_main": {
+        "visually_changed_pages": [
+          1,
+          2
+        ],
+        "byte_identical_rendered_pages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "es_main": {
+        "visually_changed_pages": [
+          1
+        ],
+        "byte_identical_rendered_pages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ]
+      }
+    },
+    "no_layout_defects": true,
+    "unchanged_pages": "Byte-identical Poppler page renders to the prior visually reviewed version."
+  },
+  "portable_source_audit_sha256": "62c03067481a1f2a3251a2217e0f29cba124517399d7158e8d0ad0352173a714",
+  "scientific_evidence": {
+    "centres_summary.csv": "295ad422033ffc62c686e1958cef2aeeab29749319ae4fa79fe08150c83715a6",
+    "morphology_centering_summary.csv": "0786c2e881ab9ad49423cacbc0b906ef1ea88a9db4ba4f5cef23d36cba82c27a",
+    "prior_closure": "a24833c315ba09f0235d8088345641b7c79872923462591b81e7718b79392e90"
+  },
+  "language_limit": "English 200 words; Spanish 235 words, a review translation rather than the journal submission abstract.",
+  "new_scientific_computation": false,
+  "publication_or_submission": false,
+  "author_approval": false
+}

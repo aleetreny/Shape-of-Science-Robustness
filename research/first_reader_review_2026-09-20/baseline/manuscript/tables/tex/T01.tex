@@ -1,0 +1,25 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.10}
+\captionof{table}{Questions, comparisons and article sets.}\label{tab:T01}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{5.75cm}@{}}
+\toprule
+\textbf{Question} & \textbf{What is compared} & \textbf{Articles used} \\
+\midrule
+Does the broad arrangement stay similar? & Ten models: relations among area or specialty centres, and among individual papers inside groups. & 256 papers per centre; repeated choices and size checks at 128 and 512. \\
+\addlinespace[8pt]
+Do models find the same nearby papers? & The overlap between two models' lists of 25 neighbours. & All papers within each area and period; a separate check fixes 2,048 candidates per group. Global search: 13,000 starting papers among 400,000 candidates. \\
+\addlinespace[8pt]
+Does changing the input text matter? & The same model reads only the title, only the abstract, or both. & 52,000: 2,000 per area, 400 per period. Includes the first 26,000-paper trial. \\
+\addlinespace[8pt]
+Does reading the same passage matter? & Each model's usual input versus a common passage that fits every model. & A different set of 52,000, with 400 per area and period. \\
+\addlinespace[8pt]
+Which area has more spread or more directions of variation? & Two geometric properties for all 325 pairs of areas, under ten models. & The same 52,000 as in the input-text experiment; further article choices test whether the comparisons repeat. \\
+\addlinespace[8pt]
+Does searching a narrower specialty matter? & For example, Cardiology and Cardiovascular Medicine versus Medicine, with 256 candidates in each search. & 50 fixed starting papers per specialty; ten choices of the other 206 candidates. In total, 10,850 starting papers across 217 specialties. \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+All sets come from the same 500,000-paper collection: 400,000 general records plus 100,000 added to strengthen small area--period groups. Rows are not added together. Models use the same paper IDs within each comparison. In the scope comparison, both candidate sets include the same 50 starting papers. Methods and Supplements S1--S4 and S9 give the full controls. The 1,300 software-test papers are not another scientific sample.
+\end{minipage}\par

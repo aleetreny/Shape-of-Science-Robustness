@@ -1,0 +1,19 @@
+{
+  "percentages_checked": 24,
+  "source_sha256": {
+    "reports/robustness_closure_v1/morphology_classification.csv": "635ba946ae223d50c9b1ad4a08070a238fffb9154a7a3e9df23099dc6d86f597",
+    "reports/robustness_closure_v1/model_panel_summary_full_alternatives.csv": "8ec8da6331e3c2cc729c2723b12960de44887b70bd93fa4d57bd3499af5cfc65",
+    "reports/robustness_closure_v1/dimension_alternative_retention.csv": "bfeef038e924492fa2826d5b167113640dbec5b51034f59fd11966b8b5d6a65c",
+    "reports/robustness_closure_v1/morphology_centering_summary.csv": "0786c2e881ab9ad49423cacbc0b906ef1ea88a9db4ba4f5cef23d36cba82c27a",
+    "reports/morphology_pilot_v1/selection_stability.csv": "c6c9563f16d1f7daf4cc92c3348e7192f679bd9bd6a2d35cb807a2ebbcff5ab0",
+    "reports/robustness_closure_v1/quality_summary.csv": "10aee553a51d2ba4f8bec65db2fd435bb4b151c14391859d9820448a1aa8ec25"
+  },
+  "morphology_alerts": {
+    "angle_p50/half": 0,
+    "angle_p50/external": 0,
+    "pr/half": 4,
+    "pr/external": 0
+  },
+  "illustrative_quality_neighbours_round_to_eight": true,
+  "new_scientific_computation": false
+}

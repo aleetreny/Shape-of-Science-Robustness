@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-09-18T10:35:07.997514+00:00",
+  "command": ".venv-analysis/bin/python -m sos_pair_summary.tests",
+  "passed": 11,
+  "failed": 0,
+  "observed_exit_code": 0,
+  "seconds_reported": 0.023,
+  "source_files": {
+    "sos_pair_summary/tests.py": "97e6878ef90b45a5117d795c09efc7a5c5018a01ca04ea73ff5d43dfe1183aa3",
+    "sos_pair_summary/analyze.py": "83d39e48cf586a348c20ab2902bc21ee09443fcc158d441befb52189ab88e39a"
+  },
+  "note": "Resultado observado antes de congelar y calcular; fuentes conservadas sin cambios."
+}

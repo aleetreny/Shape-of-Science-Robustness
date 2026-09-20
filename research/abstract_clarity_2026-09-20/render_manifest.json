@@ -1,0 +1,73 @@
+{
+  "en_main": {
+    "pdf": "output/pdf/main.pdf",
+    "sha256": "1a885737f0958adc9a9dd316b7abc91172f4770a49de6d75e52521c1f2d4a717",
+    "pages": 20,
+    "renders": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-01.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-02.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-03.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-04.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-05.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-06.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-07.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-08.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-09.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-10.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-11.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-12.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-13.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-14.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-15.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-16.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-17.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-18.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-19.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/page-20.png"
+    ],
+    "sheets": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/sheet-01.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/sheet-02.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/sheet-03.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/sheet-04.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/en_main/sheet-05.jpg"
+    ]
+  },
+  "es_main": {
+    "pdf": "output/pdf/es/main.pdf",
+    "sha256": "5b017500f28b6255fb1d24a50f023e8d3bcb6d1d81bb7b447c966cbbea651539",
+    "pages": 22,
+    "renders": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-01.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-02.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-03.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-04.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-05.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-06.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-07.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-08.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-09.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-10.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-11.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-12.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-13.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-14.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-15.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-16.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-17.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-18.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-19.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-20.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-21.png",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/page-22.png"
+    ],
+    "sheets": [
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/sheet-01.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/sheet-02.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/sheet-03.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/sheet-04.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/sheet-05.jpg",
+      "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/abstract_review/es_main/sheet-06.jpg"
+    ]
+  }
+}

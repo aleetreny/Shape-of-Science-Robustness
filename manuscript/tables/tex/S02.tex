@@ -1,0 +1,23 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.03}
+\captionof{table}{Frozen checkpoints, text formats and native truncation.}\label{tab:S02}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{8.1cm}>{\raggedright\arraybackslash}p{4.25cm}@{}}
+\toprule
+\textbf{Model} & \textbf{Checkpoint and full revision} & \textbf{Input / truncation} \\
+\midrule
+SPECTER & {\footnotesize \nolinkurl{allenai/specter}\newline Revision: {\ttfamily\seqsplit{81cbfb43d4fc2e728d5b4201ce14987db8d0854c}}} & Title [SEP] abstract\newline Limit: 512\newline Truncated: 5.66\% \\
+SPECTER2 & {\footnotesize \nolinkurl{allenai/specter2_base}\newline Revision: {\ttfamily\seqsplit{3447645e1def9117997203454fa4495937bfbd83}}\newline Adapter: \nolinkurl{allenai/specter2}\newline{\ttfamily\seqsplit{2081559630a80fc5851d8f798a05ba81e9468089}}} & Title [SEP] abstract\newline Limit: 512\newline Truncated: 5.00\% \\
+SciNCL & {\footnotesize \nolinkurl{malteos/scincl}\newline Revision: {\ttfamily\seqsplit{ebc5348d184ba2fc9beee69b4e394263fce57b2e}}} & Title [SEP] abstract\newline Limit: 512\newline Truncated: 5.00\% \\
+SciBERT & {\footnotesize \nolinkurl{allenai/scibert_scivocab_uncased}\newline Revision: {\ttfamily\seqsplit{24f92d32b1bfb0bcaf9ab193ff3ad01e87732fc1}}} & Title, blank line, abstract\newline Limit: 512\newline Truncated: 4.96\% \\
+BERT & {\footnotesize \nolinkurl{google-bert/bert-base-uncased}\newline Revision: {\ttfamily\seqsplit{86b5e0934494bd15c9632b12f734a8a67f723594}}} & Title, blank line, abstract\newline Limit: 512\newline Truncated: 6.87\% \\
+MPNet & {\footnotesize \nolinkurl{sentence-transformers/all-mpnet-base-v2}\newline Revision: {\ttfamily\seqsplit{e8c3b32edf5434bc2275fc9bab85f82640a19130}}} & Title, blank line, abstract\newline Limit: 384\newline Truncated: 20.16\% \\
+MiniLM & {\footnotesize \nolinkurl{sentence-transformers/all-MiniLM-L6-v2}\newline Revision: {\ttfamily\seqsplit{1110a243fdf4706b3f48f1d95db1a4f5529b4d41}}} & Title, blank line, abstract\newline Limit: 256\newline Truncated: 49.58\% \\
+PubMedBERT & {\footnotesize \nolinkurl{microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext}\newline Revision: {\ttfamily\seqsplit{e1354b7a3a09615f6aba48dfad4b7a613eef7062}}} & Title, blank line, abstract\newline Limit: 512\newline Truncated: 4.75\% \\
+BioBERT & {\footnotesize \nolinkurl{dmis-lab/biobert-v1.1}\newline Revision: {\ttfamily\seqsplit{551ca18efd7f052c8dfa0b01c94c2a8e68bc5488}}} & Title, blank line, abstract\newline Limit: 512\newline Truncated: 9.00\% \\
+SimCSE & {\footnotesize \nolinkurl{princeton-nlp/unsup-simcse-bert-base-uncased}\newline Revision: {\ttfamily\seqsplit{218baf6bc48c463a53f5b4e1c568299537fab124}}} & Title, blank line, abstract\newline Limit: 512\newline Truncated: 6.87\% \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Truncation is measured on the full 500,000-article title-plus-abstract corpus and is not an error rate. The principal MiniLM limit remains 256 tokens; its 512-token variant is a separate sensitivity. CLS/SEP alternatives apply only to BERT, SciBERT, BioBERT and PubMedBERT. SEP takes the last non-padding position, not the title separator. Tokenizer differences mean that equal token limits would not imply equal text. Model-card URLs and all revisions are in the CSV.\par}

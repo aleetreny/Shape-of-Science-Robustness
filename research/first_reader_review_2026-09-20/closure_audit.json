@@ -1,0 +1,63 @@
+{
+  "completed_at": "2026-09-20T18:53:04.372287+00:00",
+  "all_complete": true,
+  "scope": "Full first-reader editorial revision of the main article and its tables/captions in English and Spanish.",
+  "blocks_reviewed": 69,
+  "blocks_changed": 56,
+  "bilingual_body_blocks": 80,
+  "documents": {
+    "en": {
+      "path": "output/pdf/main.pdf",
+      "pages": 24,
+      "sha256": "1dd57238fe469cecfc66d0caa670a9e49f4304f6d0bb4973dc7ee3acf7f4af5d",
+      "abstract_words": 195,
+      "body_words": 6567
+    },
+    "es": {
+      "path": "output/pdf/es/main.pdf",
+      "pages": 25,
+      "sha256": "954b6305d39b6ba107cfb4d84e86e0d63ce3ad0e5eba4b641f42015c9acecc89",
+      "abstract_words": 211,
+      "body_words": 7332
+    }
+  },
+  "pages_visually_reviewed": 49,
+  "percentage_conversions_checked": 24,
+  "protected_files": 522,
+  "previous_files_archived": 29,
+  "scientific_programs_or_results_changed": false,
+  "new_experiments": false,
+  "publication_submission_or_push": false,
+  "external_reader_comprehension_test": false,
+  "author_final_approval": false,
+  "unchanged": [
+    "scientific values and saved data",
+    "figure assets",
+    "bibliography and citation order",
+    "supplement sources and PDFs",
+    "title",
+    "declarations"
+  ],
+  "packages": {
+    "en": {
+      "path": "output/manuscript_source.zip",
+      "sha256": "35ea39efb631a3da160f99ec40ab4d6ee74fe732a60eadcc926d88e603f49461",
+      "files": 226,
+      "both_PDFs_reproduced_exactly": true
+    },
+    "es": {
+      "path": "output/manuscript_source_es.zip",
+      "sha256": "26f53a6ebd5c600f663debd7447bae6c0a295f18f0d5e3ca9602cd0ad3e5411d",
+      "files": 230,
+      "both_PDFs_reproduced_exactly": true
+    }
+  },
+  "evidence_sha256": {
+    "text_audit.json": "183a96458341e143d974645acd5a20817164b08e4759ca6f0afba767037ce300",
+    "numeric_audit.json": "58ce3e187bbc2d16862e2ef4fca945af08b58779d9e248ccff7ea2ca39d68c64",
+    "invariants_audit.json": "f3f2ea176f8067760fec60add5d49f9c5b162a8b529ba1334f9315f39c8f4ba2",
+    "visual_review.json": "1d56b513264efc8726931942e217f690ea9d2451a10463ad43c70de99a015b36",
+    "portable_source_audit.json": "4d02e272c9f5607fa01157ebcada69761f06057037a26aee4febaa44d4124aba",
+    "paragraph_review.json": "2da42e111064c09be9aef8c7a399e733d7051df6a151bd05b16e74751395df5c"
+  }
+}

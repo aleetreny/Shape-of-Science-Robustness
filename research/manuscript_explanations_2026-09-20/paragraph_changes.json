@@ -1,0 +1,550 @@
+{
+  "en": [
+    {
+      "prefix": "Science maps use relationships",
+      "new": "Science maps use relationships between papers to describe how research is organised. When these relationships come from text embeddings, a model turns each paper into a list of numbers. Would another model give the same picture? I compare ten models using 500,000 OpenAlex publications from 2000--2024 across 26 disciplines, including Medicine and Physics. Representing disciplines by their papers' average positions produces similar arrangements across models. This holds when other papers are selected to calculate those averages. Yet within a discipline and period, two models share, on average, only eight of the 25 papers closest to a given paper. Giving a model each paper's title alone, instead of its title and abstract, also changes much of that list. The effect varies between models. One model can place a discipline's papers closer together than another's, while another model reverses that order. This comparison uses angles between paper positions. Moving their reference point can change the answer even when selecting other papers does not. These checks show which relationships are shared across representations and which depend on the model, input text or reference point. Agreement about the broad arrangement can coexist with different answers about nearby papers and comparisons between disciplines.",
+      "comments": [
+        4,
+        5,
+        6
+      ],
+      "old": "Science maps use relationships between papers to describe how research is organised. When these relationships come from text embeddings, a model turns each paper into a list of numbers. Would another model give the same picture? I compare ten models using 500,000 OpenAlex publications from 2000--2024, covering 26 disciplines such as Medicine and Physics. Representing each discipline by its papers' average position produces similar arrangements across models, even when the selected papers and their number change. Yet within a discipline and period, two models share, on average, only eight of the 25 papers closest to a given paper. Using each paper's title alone, instead of its title and abstract, also changes much of that list, although the effect varies between models. One model can place a discipline's papers closer together than another discipline's, while another model reverses that order. This comparison uses angles between paper positions. Moving the point from which these angles are measured can change the answer even when selecting other papers does not. Repeating article selection therefore does not ensure that another model, or another reference point for measuring angles, supports the same comparison. These checks do not establish which model best describes the research."
+    },
+    {
+      "prefix": "Two distinctions matter throughout.",
+      "new": "Throughout the article, an \\emph{article selection} means choosing a set of papers from the fixed collection. Repeating the selection means choosing another set under the same size and date rules, without adding newly downloaded papers. \\emph{Agreement} asks whether different models give similar results for the same papers. \\emph{Selection stability} asks whether a result repeats when the selected papers change. A comparison can be stable within each model while the models give opposite answers.",
+      "comments": [
+        9
+      ],
+      "old": "Two distinctions matter throughout. \\emph{Agreement} asks whether different models give similar results for the same papers. \\emph{Selection stability} asks whether a result repeats when different papers from the collection are used. A comparison can be stable within each model while the models give opposite answers."
+    },
+    {
+      "prefix": "OpenAlex assigns papers to broad",
+      "new": "OpenAlex assigns papers to broad \\emph{Fields} and narrower \\emph{Subfields}, using information from text, citations and journals \\citep{openalex2026topics}. I call these areas and specialties. For example, Medicine is an area; Cardiology and Cardiovascular Medicine is one of its specialties. The 26 areas provide the main units of comparison. These database labels organise the analysis; they are not independently verified descriptions of every paper.",
+      "comments": [
+        1,
+        17,
+        18
+      ],
+      "old": "OpenAlex assigns papers to broad \\emph{Fields} and narrower \\emph{Subfields}, using information from text, citations and journals \\citep{openalex2026topics}. I refer to these as areas and specialties, respectively. The 26 areas provide the main units of comparison. These database labels organise the analysis; they are not independently verified descriptions of every paper."
+    },
+    {
+      "prefix": "For an individual paper, its",
+      "new": "For an individual paper, its \\emph{neighbours} are the papers placed closest to it. The \\emph{starting paper} is the one whose neighbours we seek; the \\emph{candidates} are the papers available for that search. I compare the lists of 25 nearest neighbours produced by two models, with lists of 10 and 50 as checks. Closeness is measured by cosine similarity, which compares vector directions. The starting paper cannot be its own neighbour. Lists are calculated exactly and checked by independent sorting. Each result specifies whether candidates come from the whole area and period, an equal-size selection within that group, or the 400,000-record general collection.",
+      "comments": [
+        1,
+        12,
+        13
+      ],
+      "old": "For an individual paper, its \\emph{neighbours} are the papers placed closest to it. I compare the lists of 25 nearest neighbours produced by two models, with lists of 10 and 50 as checks. Closeness is measured by cosine similarity, which compares vector directions. The starting paper cannot be its own neighbour. Search lists are calculated exactly and checked by independent sorting. The available papers matter: a search through an entire area and period differs from one limited to 2,048 papers or extended to the 400,000-record general collection. Each result states which search was used."
+    },
+    {
+      "prefix": "A further comparison holds the search size",
+      "new": "A further comparison asks whether models share more neighbours when the search stays within a specialty or extends to its parent area. Consider 50 fixed starting papers from Cardiology and Cardiovascular Medicine. For each, we compare searches among 256 cardiology papers and among 256 papers from Medicine. Both candidate sets include those same 50 starting papers, leaving 206 places for other papers; each search excludes the starting paper itself. I repeat the choice of the other 206 ten times, keeping the 50 starting papers fixed and matching publication-period counts between searches. This procedure covers 217 specialties, giving 10,850 starting papers. The broader set is therefore deliberately anchored to the specialty's 50 papers, rather than freely sampled from the whole area.",
+      "comments": [
+        1,
+        2
+      ],
+      "old": "A further comparison holds the search size constant while changing its scope. For each of 217 specialties, 50 fixed starting papers are searched against 256 candidates from that specialty and 256 from its broader area. Both sets include those same 50 papers and have matching period counts. Ten selections vary the other 206 candidates. This gives 10,850 starting papers in total. Including them in both sets helps keep the comparison fair, but also means that the broader set is not an unrestricted random sample of its area."
+    },
+    {
+      "prefix": "To compare overall structure, I ask",
+      "new": "To compare overall structure, I ask whether the same papers have similar patterns of relationships in two representations. The main measure is corrected linear centred kernel alignment, abbreviated CKA \\citep{pmlr-v97-kornblith19a,refa961d84a4e}. A value near one, such as 0.9, indicates strong similarity between these patterns on this measure: the models organise the same objects in similar ways. It is an agreement score, not a percentage of correctly represented science. The correction reduces a known inflation caused by finite samples; it does not remove all statistical bias. Two further checks allow a rotation and rescaling of the representations (Procrustes alignment), or compare the ranking of distances between papers. They respond to different aspects of the representations \\citep{NEURIPS2021_252a3dba,pmlr-v285-williams24a}. Supplement S2 gives the formulas.",
+      "comments": [
+        3
+      ],
+      "old": "To compare overall structure, I ask whether relationships among the same papers are similar in two representations. The main measure is corrected linear centred kernel alignment, abbreviated CKA \\citep{pmlr-v97-kornblith19a,refa961d84a4e}. Higher values indicate greater agreement. A value of 0.9 does not mean that 90\\% of the science is correctly represented. The correction reduces a known inflation caused by finite samples; it does not remove all statistical bias. Two further checks allow a rotation and rescaling of the representations (Procrustes alignment), or compare the ranking of distances between papers. They have different sensitivities, but are not independent tests of thematic correctness \\citep{NEURIPS2021_252a3dba,pmlr-v285-williams24a}. Supplement S2 gives the formulas."
+    },
+    {
+      "prefix": "With 26 areas, there are 325 ways",
+      "new": "With 26 areas, there are 325 ways to choose two different areas, counting each comparison once. For each geometric property, I ask which area has the larger value under each model. I repeat the calculation using twenty half samples of 1,000 papers per area and five further selections of 2,000. A direction is called persistent only if it holds in all these selections and in the main set of 2,000: 26 conditions in total. The two dimension alternatives use the same conditions. A separate check changes the point from which vector directions are measured. For each model, I calculate the mean of the balanced 52,000 unit vectors, subtract this common mean from every vector and restore each vector to length one. This operation, called global centring followed by normalisation, moves the reference point to the collection's mean position. It changes the representation before measuring spread and dimension; it is distinct from the covariance centring within PR.",
+      "comments": [
+        27,
+        30
+      ],
+      "old": "With 26 areas, there are 325 ways to choose two different areas, counting each comparison once. For each geometric property, I ask which area has the larger value under each model. I repeat the calculation using twenty half samples of 1,000 papers per area and five further selections of 2,000. A direction is called persistent only if it holds in all these selections and in the main set of 2,000. The two dimension alternatives now cover the same 26 selections. I also repeat the spread and dimension comparisons after subtracting the mean of the balanced 52,000 unit vectors and scaling each resulting vector back to length one. This tests a changed representation, not merely the covariance centring used to calculate PR."
+    },
+    {
+      "prefix": "This separates three outcomes.",
+      "new": "This gives three outcomes: all ten models consistently identify the same area as having the larger value; at least two fixed models consistently give opposite answers; or neither condition holds. I call the third outcome \\emph{unresolved}. For example, some models may change their ordering when other papers are selected, without any fixed pair maintaining opposite answers. Ties also remain unresolved. This label means that the rule does not settle the comparison, rather than that the areas are equal. Besides any nonzero difference, I examine minimum differences of 1, 5 and 10\\% of the two values' average. A difference below the required minimum also remains unresolved. These cutoffs show whether very small differences drive a result.",
+      "comments": [
+        8
+      ],
+      "old": "This separates three outcomes. All ten models may consistently identify the same area as larger. At least two fixed models may consistently give opposite answers. Or the comparison may remain unresolved under these rules. Unresolved does not mean equal. I also require differences to exceed 1, 5 or 10\\% of the two values' average, alongside the check that requires only a nonzero difference. These cutoffs show whether very small differences drive a result; they are not universal thresholds of scientific importance."
+    },
+    {
+      "prefix": "Selections overlap within the same collection.",
+      "new": "Two selections can contain many of the same papers because both come from the fixed collection. The range of their results therefore describes what changes when we choose other available papers; it is not a confidence interval for all scientific literature. A \\emph{selection alert} marks a result whose variation across article choices, or shift between tested sizes, exceeds a recorded tolerance. It identifies sensitivity to the selected articles, not a source-record error. The supplement gives each check's rules and counts. Comparisons also reuse models and areas, so their results are not treated as independent observations in significance tests.",
+      "comments": [
+        9,
+        10
+      ],
+      "old": "Selections overlap within the same collection. Their ranges describe sensitivity to choosing articles, not confidence intervals for a wider population. Separate checks flag comparisons that change too much across selections; the supplement retains their rules and counts. Comparisons also share models and areas, so they are described rather than treated as independent observations in significance tests."
+    },
+    {
+      "prefix": "\\PanelFigure{figure_01}",
+      "new": "\\PanelFigure{figure_01}{Agreement about area summaries and the papers inside them. Higher corrected CKA means greater agreement between models. (A) Centres use 256 papers each. Area and specialty results average fifty article selections. The 26-specialty condition instead chooses one specialty from each of the 26 areas, repeats that choice fifty times, and chooses ten sets of articles for each choice. Random groups use the same articles, sizes and dates. Whiskers show 2.5th--97.5th percentiles of selection means. (B) Agreement among individual papers at three article counts, within 26 areas and the same 183 specialties. Points show means; lines span the 2.5th--97.5th percentiles of group--model-pair results: 1,170 for areas and 8,235 for specialties. The panels summarise different objects and sources of variation; these ranges are not confidence intervals.}{scales}{1}",
+      "comments": [
+        11
+      ],
+      "old": "\\PanelFigure{figure_01}{Agreement about area summaries and the papers inside them. Higher corrected CKA means greater agreement between models. (A) Means across fifty article selections with 256 papers per centre; the 26-specialty condition uses fifty specialty choices with ten article selections each. Random groups use the same articles, sizes and dates. Whiskers show 2.5th--97.5th percentiles of selection means. (B) Agreement within groups at three article counts, using 26 areas and the same 183 specialties. Points show means; lines span the 2.5th--97.5th percentiles of group--model-pair results: 1,170 for areas and 8,235 for specialties. These spreads describe different sources of variation; neither is a confidence interval. The panels compare different objects, not a causal effect of scale.}{scales}{1}"
+    },
+    {
+      "prefix": "Inside groups, mean CKA remains",
+      "new": "Inside groups, mean CKA remains around 0.63 for areas and 0.64 for the same 183 specialties from 128 to 512 articles (Figure~\\ref{fig:scales}B). This stable average hides sensitive local comparisons: 31.9\\% of the 8,235 specialty--model-pair comparisons trigger the selection alert (2,628 cases). Their agreement varies more than the recorded tolerance allows when the articles or tested sample size change. Thus, a stable overall average can coexist with specialty results that depend on which papers are chosen. The difference between centres and individual papers also compares different objects, rather than isolating scale alone.",
+      "comments": [
+        10
+      ],
+      "old": "Inside groups, mean CKA remains around 0.63 for areas and 0.64 for the same 183 specialties from 128 to 512 articles (Figure~\\ref{fig:scales}B). This stable average hides sensitive local comparisons: 2,628 of 8,235 specialty--model-pair comparisons (31.9\\%) trigger the article-selection screen. A stable mean therefore does not make every specialty comparison stable. Nor does the contrast between centre and within-group results isolate a causal effect of scale."
+    },
+    {
+      "prefix": "Within the same area and period, two models",
+      "new": "Within the same area and period, two models retain an average of 30.3\\% of the 25 nearest neighbours: about eight papers out of 25. This average gives equal weight to each group and model pair. Limiting every area--period group to 2,048 candidates raises agreement to 31.9\\%. The count is the same across groups; the article IDs are shared across models within each group, not across different disciplines. A separate search takes 100 starting papers from each of the 130 groups, giving 13,000 in total, and finds their neighbours among the 400,000 general records. Here, agreement is 17.5\\%. That search both admits papers from other disciplines and periods and offers many more candidates. Either change could affect agreement, so their effects cannot be separated by this comparison.",
+      "comments": [
+        12,
+        13,
+        14
+      ],
+      "old": "Within the same area and period, two models retain an average of 30.3\\% of the 25 nearest neighbours: about eight papers out of 25. This average gives equal weight to each group and model pair. Using 2,048 common candidates in every group raises agreement to 31.9\\%. A separate search through the 400,000-record general collection gives 17.5\\% for 13,000 balanced starting papers. That last comparison changes both the search scope and the number of candidates, so it cannot isolate the effect of crossing disciplinary boundaries."
+    },
+    {
+      "prefix": "Filtering source flags and duplicate components",
+      "new": "I then remove records carrying the tested source flags and keep one representative of each detected duplicate group. For the same retained starting papers, neighbour agreement changes from 30.58\\% to 31.43\\%: a gain of 0.85 percentage points. Both averages still amount to roughly eight shared papers in a list of 25. Holding candidate counts fixed makes the change smaller: 0.28 points with 1,024 candidates and 0.19 with 2,048. The issues removed by this filter therefore explain little of the overall disagreement, although some areas change more than others (Table S19).",
+      "comments": [
+        15
+      ],
+      "old": "Filtering source flags and duplicate components changes this picture little. Among the same retained starting papers, agreement rises from 30.58\\% to 31.43\\%, a gain of 0.85 percentage points. With candidate counts held fixed, the gains are 0.28 points at 1,024 and 0.19 at 2,048 candidates. The tested source issues do not account for most neighbour disagreement, although some areas change more than others (Table S19)."
+    },
+    {
+      "prefix": "Holding search size and dates constant",
+      "new": "The paired searches let us change the disciplinary scope while keeping candidate counts and dates matched (Figure~\\ref{fig:paired}). Searching only within a specialty makes models share fewer of their 25 nearest neighbours in 127 of 217 specialties (58.5\\%), but more in the other 90 (41.5\\%). The average change relative to searching the parent area is $-1.35$ percentage points. With lists of 50 neighbours, the split is almost even: 109 specialties decrease and 108 increase. Restricting the search therefore does not have the same effect everywhere; these changes concern overlap between models' lists, rather than how useful the listed papers are.",
+      "comments": [
+        16
+      ],
+      "old": "Holding search size and dates constant gives a less uniform result (Figure~\\ref{fig:paired}). Of 217 specialties, 127 have lower agreement when searching within the specialty rather than the broader area, while 90 have higher agreement. The mean change is $-1.35$ percentage points. With 50 neighbours, the split is 109 and 108. A narrower search therefore does not consistently make models disagree more."
+    },
+    {
+      "prefix": "\\PanelFigure{figure_02}",
+      "new": "\\PanelFigure{figure_02}{Does restricting a search to a specialty change agreement? Each point represents one of 217 specialties. The horizontal axis shows the fraction of shared neighbours when searching the parent area, such as Medicine; the vertical axis shows that fraction within its narrower specialty, such as Cardiology and Cardiovascular Medicine. A point above the diagonal means that models share more neighbours in the narrower search. Both candidate sets contain 256 papers, including the same 50 starting papers, and matched dates. Values average model pairs and ten choices of the other 206 candidates. The parent-area set therefore always includes those 50 specialty papers. The spread of points shows differences between specialties, not confidence intervals.}{paired}{0.90}",
+      "comments": [
+        17,
+        18
+      ],
+      "old": "\\PanelFigure{figure_02}{Does restricting a search to a specialty change agreement? Each point represents one of 217 specialties. The horizontal axis shows the fraction of shared neighbours when searching its broader area; the vertical axis shows that fraction within the specialty. A point above the diagonal has greater agreement in the narrower search. Both searches contain 256 candidates, including the same 50 starting papers, and matched dates. Values average model pairs and ten selections of the remaining candidates. The broader search is therefore conditioned on those starting papers. The spread of points shows differences between specialties, not confidence intervals.}{paired}{0.90}"
+    },
+    {
+      "prefix": "The case analysis in Supplement S4 follows",
+      "new": "Supplement S4 moves from averages to named papers: it checks whether a paper keeps the same neighbours when sample size, the rule for forming its vector, or neighbour-list length changes. Reading these examples also revealed source problems. A history book appears under Physics, a text about bacterial infection under Politics, and another record is an announcement. I checked these against the downloaded OpenAlex records: the classifications and content were already present there, rather than introduced by matching the wrong papers across models. The examples remain in the analysis. Because they were selected as cases to inspect, their number does not estimate the frequency of such problems in the collection.",
+      "comments": [
+        19
+      ],
+      "old": "The case analysis in Supplement S4 follows individual specialties, papers and links across changes in sample size, pooling and neighbour count. It also exposes source problems: selected examples include a history book labelled as physics, a bacterial-infection text labelled as politics and an announcement. These match the downloaded OpenAlex records; they are not errors in aligning model outputs. They remain in the results and do not establish how common such problems are."
+    },
+    {
+      "prefix": "The text experiment uses the same 52,000 papers",
+      "new": "For each of the same 52,000 papers, every model receives three inputs in turn: title only, abstract only, and title plus abstract. The combined text provides the starting representation. I then compare two changes: keeping that text and using another model, or keeping the model and supplying only the title. On average, the first replaces 68.8\\% of the 25 neighbours and the second replaces 70.7\\% (Figure~\\ref{fig:input}). The corresponding changes in overall structure, measured as one minus CKA, are 0.370 and 0.366. These are averages over the model panel, not the effect for every model.",
+      "comments": [
+        20
+      ],
+      "old": "The text experiment uses the same 52,000 papers for all three inputs: title, abstract and title plus abstract. The combined text is the reference. On average, changing the model replaces 68.8\\% of the 25 neighbours; keeping the model but using only the title replaces 70.7\\% (Figure~\\ref{fig:input}). The corresponding changes in overall structure, measured as one minus CKA, are 0.370 and 0.366. These averages describe this model panel; they do not establish equivalence or apply equally to each model."
+    },
+    {
+      "prefix": "Changing the rule that combines token outputs",
+      "new": "The result also depends on how BERT, SciBERT, BioBERT and PubMedBERT produce one vector for a whole paper. The main rule averages their token outputs. The alternatives use just the first output (CLS) or the last non-padding output (SEP), each of which has processed the input context. With these alternatives, title-only input changes fewer neighbours than switching models in every repetition: 3.13 percentage points fewer for CLS and 2.00 fewer for SEP at 25 neighbours. Both comparisons are recalculated with the chosen rule; the other six models retain their usual settings. Thus, the average ordering reverses when we change this practical way of using the four models.",
+      "comments": [
+        21
+      ],
+      "old": "Changing the rule that combines token outputs also reverses the average ordering. With CLS or SEP for the four word-level BERT models, removing the abstract changes fewer neighbours than changing models in every repetition: differences of $-3.13$ and $-2.00$ percentage points at 25 neighbours. Both the text comparison and its model-change reference change under these rules. The result concerns practical uses of the models, not an isolated causal effect of one processing step."
+    },
+    {
+      "prefix": "The earlier 26,000-paper trial and its",
+      "new": "This three-input experiment began with 26,000 papers and then added another 26,000 under the same design; the first set is included in the final 52,000. The same structural selection check was applied at both sizes, choosing other papers 100 times. Alerts fall from 72 of 520 model--area--input comparisons (13.8\\%) to five of 520 (1.0\\%). Fewer results therefore exceed the recorded tolerance, although this does not establish stability for every neighbour comparison. Supplement S3 keeps the earlier twenty-selection check separate. The common-passage and MiniLM 512-token checks address a different question, input length; they do not reveal a coding error in MiniLM's original limit.",
+      "comments": [
+        22
+      ],
+      "old": "The earlier 26,000-paper trial and its 52,000-paper extension test the same text question. In the check with 100 repeated selections, the number of flagged model--area--input comparisons falls from 72 out of 520 to five out of 520. Supplement S3 also retains the earlier check with twenty selections. Passing this screen does not prove that a difference is nonzero or that every neighbour result is stable. The separate common-passage and MiniLM 512-token checks test input length; they do not reveal a coding error in MiniLM's original limit."
+    },
+    {
+      "prefix": "The geometric analysis reuses the 52,000-paper",
+      "new": "The geometric analysis reuses the 52,000-paper text sample and its title-plus-abstract representations. It asks whether, for example, one area's vectors point further apart than another's. I first checked how much each measure changes when different articles are chosen. Across ten models and 26 areas, angular spread has no alerts in the half-sample or equal-size checks. PR has four alerts among 260 cases (1.5\\%) when using twenty half samples of 1,000 papers per area. None appears in five further selections of 2,000 papers per area. These checks use different sizes and repetition counts; passing the second does not erase sensitivity found in the first.",
+      "comments": [
+        23
+      ],
+      "old": "The geometric analysis reuses the 52,000-paper text sample and its title-plus-abstract representations. It asks, for example, whether one area's paper vectors point further apart than another's. Before comparing areas, I checked whether each property's value repeated across article selections. Angular spread has no alerts among the 260 model--area cases. Effective linear dimension has four alerts in the half-sample check and none in the five equal-size selections. The latter result does not erase the former."
+    },
+    {
+      "prefix": "Across the 325 comparisons between two areas,",
+      "new": "Of the 325 area pairs, 80.6\\% have persistent opposite answers from at least two models for angular spread; the share is 68.0\\% for PR (Figure~\\ref{fig:pairs}). For example, one fixed model consistently gives area A a larger angular spread than B, while another consistently gives B the larger spread. ``Larger'' refers to the measured value, not a higher position in a drawing or better research. Other models need not disagree with one another. All ten consistently agree on the larger area in 12.9\\% of pairs for angular spread and 16.6\\% for PR. The remaining 6.5\\% and 15.4\\%, respectively, do not meet either rule and remain unresolved.",
+      "comments": [
+        24,
+        25
+      ],
+      "old": "Across the 325 comparisons between two areas, 262 have persistent opposite answers from at least two models for angular spread; 221 do for effective linear dimension (Figure~\\ref{fig:pairs}). For example, one fixed model consistently places area A above B, while another consistently places B above A. This does not mean that all ten models disagree. All ten give the same persistent direction in 42 and 54 comparisons, respectively; the remaining 21 and 50 are unresolved."
+    },
+    {
+      "prefix": "Many opposite answers involve small differences.",
+      "new": "Many opposite answers involve small differences. Requiring a difference above 5\\% of the two area values' average reduces persistent opposition to 29.5\\% of all 325 pairs for angular spread and 54.5\\% for PR. At a 10\\% minimum difference, these shares fall to 5.8\\% and 38.8\\%. A reversal involving a tiny difference should therefore be distinguished from one involving a larger difference.",
+      "comments": [
+        25
+      ],
+      "old": "Many opposite answers involve small differences. Requiring a difference above 5\\% of the two area values' average leaves 96 opposite comparisons for angular spread and 177 for dimension. At 10\\%, the counts fall to 19 and 126. The direction of disagreement and its size therefore need to be reported together."
+    },
+    {
+      "prefix": "\\PanelFigure{figure_04}",
+      "new": "\\PanelFigure{figure_04}{The answer depends on the representation as well as the model. Each bar covers all 325 area pairs. Blue: all ten models consistently give the same area the larger measured value. Orange: at least two fixed models consistently give opposite orderings. Grey: neither rule is met, including ties and changing orderings. Every classification uses 26 conditions: the main 2,000 papers per area, twenty half samples of 1,000, and five further selections of 2,000. The original and centred representations use identical papers. Centring subtracts each model's mean over the balanced 52,000 unit vectors, then rescales each resulting vector to length one. Cutoffs of 0 and 5\\% require relative differences above those values in every condition. Table S20 gives all four cutoffs and tracks whether the same opposing models retain their directions.}{pairs}{1}",
+      "comments": [
+        30
+      ],
+      "old": "\\PanelFigure{figure_04}{The answer depends on the representation as well as the model. Each bar covers all 325 area pairs. Blue means all ten models consistently identify the same area as larger; orange means at least two fixed models consistently give opposite answers; grey means unresolved. Each classification uses the main selection, twenty half samples and five further equal-size selections. The original and globally centred representations use identical articles. Centring subtracts the mean unit vector and then restores unit length. The 0 and 5\\% cutoffs require relative differences above those values in every selection; they are not significance thresholds. All four cutoffs and the survival of the same opposing models are in Table S20.}{pairs}{1}"
+    },
+    {
+      "prefix": "Alternative measures retain the same opposing models",
+      "new": "Alternative angle summaries retain the same opposing models and their directions in 85.9\\% of the original angular oppositions (225/262). For dimension, the entropy measure summarises how evenly variation is distributed across directions; D80 counts the fewest directions needed to explain 80\\% of that variation. Across the same 26 conditions, entropy retains 94.6\\% of the original PR oppositions and D80 retains 86.0\\%; the same 86.0\\% survive both alternatives (190/221). D80 can tie because it returns whole numbers, leaving those comparisons unresolved. These checks show how much the ordering depends on the formula. Restricting the panel to the six similarity-trained models still leaves opposite answers in 71.1\\% of all 325 pairs for angular spread and 49.2\\% for PR (Tables S14--S15).",
+      "comments": [
+        26
+      ],
+      "old": "Alternative measures retain the same opposing models and directions in 225 of the 262 angular comparisons. With all 26 selections now available for dimension too, the entropy measure retains 209 of the 221 PR oppositions and D80 retains 190; 190 survive both alternatives. D80 counts directions as whole numbers, so ties remain unresolved. These related measures support many oppositions, not every area comparison or its thematic interpretation. Restricting the model panel to the six similarity-trained models still leaves 231 angular and 160 PR oppositions (Tables S14--S15)."
+    },
+    {
+      "prefix": "Changing the vectors' reference point",
+      "new": "Moving the reference point to the collection's mean position changes many angular comparisons (Figure~\\ref{fig:pairs}). After subtracting this mean and restoring unit vector length, persistent opposition falls from 80.6\\% to 46.5\\% of all 325 pairs (262 to 151). Fewer than half of the original oppositions, 48.9\\% (128/262), retain the same opposing models in the same directions; Table S20 distinguishes these from new or changed oppositions. Requiring differences above 5\\% leaves only 11 opposed pairs instead of 96. PR changes less: opposed pairs fall from 221 to 211, and 92.3\\% of its original oppositions retain the same models and directions (204/221). Thus, an angular comparison that repeats with other papers can still depend strongly on where the shared reference point is placed.",
+      "comments": [
+        27,
+        28
+      ],
+      "old": "Changing the vectors' reference point has a much larger effect on angular spread (Figure~\\ref{fig:pairs}). After global centring and unit rescaling, persistent angular oppositions fall from 262 to 151. Of the original 262, 142 still have opposing models, but only 128 retain at least one of the same model pairs with the same directions; nine oppositions are new. Requiring differences above 5\\% reduces angular opposition from 96 to 11. PR is less sensitive: its count changes from 221 to 211, with 204 original oppositions retaining the same models and directions. Angular spread is therefore strongly tied to this processing choice, rather than a property whose area ordering can be assumed to survive it."
+    },
+    {
+      "prefix": "The attempted fragmentation measure gives",
+      "new": "I also asked whether the network linking nearby papers could reveal an area split into separate groups. This would matter if weak connections could be read as a division into research topics. The checks did not support that reading: artificial elongated clouds and isolated extreme points can produce weak-connection signals without any thematic groups. The signal also changes with sample size and the rule for linking neighbours, with selection alerts in 51 of 260 cases. Supplement S6 retains this unsuccessful check so that weak geometric connection is not mistaken for evidence of thematic fragmentation.",
+      "comments": [
+        29
+      ],
+      "old": "The attempted fragmentation measure gives a useful limit. Artificial elongated clouds or extreme points can appear disconnected even without separate thematic groups. Results also depend on sample size and the rule for linking neighbours; 51 of 260 cases retain selection alerts. I therefore report those checks in Supplement S6 without interpreting disconnection as evidence that a research area is fragmented."
+    },
+    {
+      "prefix": "The models share a broad arrangement, yet",
+      "new": "The models share a broad arrangement, yet can disagree about nearby papers or comparisons between areas. Suppose one model gives area A a larger angular spread than B, and this repeats with other papers. That establishes stability to article selection within that model. If another model consistently reverses the order, repeating the first model's selections cannot settle the disagreement. A map-based claim therefore needs to be checked by changing the model as well as the articles.",
+      "comments": [
+        31
+      ],
+      "old": "The models share a broad arrangement, yet can give different answers about nearby papers or the spread of representations within two areas. This matters when a map supports a specific statement. A reassuring overall score does not establish that the statement survives a change of model. Repeating the article selection addresses a different question and cannot substitute for that check."
+    },
+    {
+      "prefix": "The controls sharpen the distinction between",
+      "new": "The checks help separate findings that repeat from choices that still affect them. Recalculating area averages with other papers, with 128, 256 or 512 papers, or leaving out one area at a time preserves high agreement about the broad arrangement. Removing the flagged and duplicate records barely changes overall neighbour overlap: the two models still share about eight papers in a list of 25.\n\nFor input text, repeating article selection preserves the average comparison, but that average combines different model behaviours. Giving only titles changes fewer neighbours than switching models for some models, and more for others. Replacing the averaging rule with CLS or SEP for the four BERT models also reverses the overall ordering. The practical implication is to specify both what text a model reads and how its outputs become a paper vector; the average cannot stand for every configuration.",
+      "comments": [
+        32,
+        33
+      ],
+      "old": "The controls sharpen the distinction between an average and a particular claim. Broad centre agreement survives article reselection, changes in size and omission of each area. The source-quality filter leaves most neighbour disagreement in place. The input comparison also repeats at the level of the grand mean, but its direction differs between models and changes with pooling. Saying that text and model matter equally would go beyond those results."
+    },
+    {
+      "prefix": "Angular spread needs an additional boundary:",
+      "new": "For angular spread, the reference point is another consequential choice. The same papers can give a different answer about which area is more widely spread when angles are measured from the collection's mean position and vectors are rescaled. Repeating article selection does not remove that dependence. PR changes less under this transformation, but its alternative formulas do not retain every comparison either. A claim that one area is more spread out should therefore identify the representation and measure used, rather than leave these choices implicit.",
+      "comments": [
+        34,
+        35
+      ],
+      "old": "Angular spread needs an additional boundary: changing the common reference point changes many area comparisons, even when article-selection stability is required throughout. This does not make either representation the correct one. It means that the question being answered includes the processing choice. PR is less affected by that transformation, while alternative dimension measures still leave some comparisons unresolved."
+    },
+    {
+      "prefix": "The additional discipline and time checks",
+      "new": "The discipline checks ask why Medicine and Energy differ (Supplement S5). With the main rule, models agree less on relationships among Medicine papers than among Energy papers, although Medicine does not always have the lowest neighbour overlap. The difference remains after balancing the representation of specialties within each area and after excluding BioBERT and PubMedBERT. Neither tested explanation accounts for the whole difference. Models with related training also sometimes give similar results, but these apparent families change when the rule for forming paper vectors changes. With only ten models that differ in several ways at once, the comparisons cannot isolate training data, architecture or training objective as the cause.",
+      "comments": [
+        36
+      ],
+      "old": "The additional discipline and time checks discourage a single explanation for all differences (Supplement S5). Medicine has lower structural agreement than Energy under the main rule, but not always the lowest neighbour agreement. Balancing specialty composition and removing the two biomedical models do not eliminate the Medicine--Energy difference. Apparent model families also change with pooling. With ten models, training data, architecture and training objectives remain entangled; these associations do not isolate a cause."
+    },
+    {
+      "prefix": "Across publication periods, structural agreement",
+      "new": "The time comparison uses the same current models on papers from older and newer publication periods. Structural agreement increases slightly on average. Neighbour agreement falls by 0.87 percentage points when each group offers all its available papers, but rises by 0.91 points when every group offers 2,048 candidates. Older and newer groups contain different numbers of papers; fixing that number reverses the direction of the result. This shows why candidate counts must be controlled before interpreting a time trend. It does not establish that science itself has historically converged.",
+      "comments": [
+        36
+      ],
+      "old": "Across publication periods, structural agreement increases slightly on average. Neighbour agreement changes by $-0.87$ percentage points when all candidates are available but by $+0.91$ points with 2,048 candidates in each group. The change of sign shows why search opportunities matter. Contemporary models applied to older and newer papers do not, on their own, demonstrate a historical convergence of science."
+    },
+    {
+      "prefix": "Changing the embedding model can preserve",
+      "new": "Changing the embedding model can preserve the broad arrangement of science while changing which papers appear nearby and which area has more widely spread representations. Giving a model only titles can also produce large changes, whose size depends on the model and the rule for forming paper vectors. Repeating the analysis with other papers is useful, but does not show that another model or reference point would support the same answer. Before using a map to describe a relationship, check that relationship under those choices and report how large the changes are. These comparisons identify what the tested representations share; judging whether the relationship describes the research well still needs independent evidence.",
+      "comments": [
+        37
+      ],
+      "old": "Changing the embedding model can preserve the broad arrangement of science while changing the papers found nearby and the direction of comparisons between areas. Removing an abstract can produce a similarly large average change, but that comparison depends on the model and pooling rule. Some results repeat with other articles yet change with the representation's processing, especially angular spread. For a claim drawn from a science map, the relevant check is whether that particular claim survives the choices that could affect it, with the size of the difference made clear. Agreement identifies what the tested representations share; establishing what is correct about the research requires evidence beyond them."
+    }
+  ],
+  "es": [
+    {
+      "prefix": "Los mapas de la ciencia usan las relaciones",
+      "new": "Los mapas de la ciencia usan las relaciones entre artículos para describir cómo se organiza la investigación. Cuando esas relaciones proceden de embeddings de texto, un modelo convierte cada artículo en una lista de números. \\textquestiondown{}Otro modelo daría la misma imagen? Comparo diez modelos con 500.000 publicaciones de OpenAlex de 2000--2024, repartidas en 26 disciplinas, como Medicina o Física. Al representar cada disciplina mediante la posición media de sus artículos, los modelos muestran una organización parecida. Esto se mantiene al elegir otros artículos para calcular esas medias. Sin embargo, dentro de una disciplina y período, dos modelos comparten, en promedio, solo ocho de los 25 artículos que sitúan más cerca de un mismo artículo. Dar a un modelo solo el título de cada artículo, en vez del título y el resumen, también cambia buena parte de esa lista. El efecto varía según el modelo. Un modelo puede situar los artículos de una disciplina más juntos que los de otra, mientras otro modelo invierte ese orden. Esta comparación utiliza los ángulos entre las posiciones asignadas a los artículos. Mover el punto desde el que medimos esos ángulos puede cambiar la respuesta, incluso cuando elegir otros artículos no la cambia. Estas pruebas muestran qué relaciones comparten las representaciones y cuáles dependen del modelo, del texto de entrada o del punto de referencia. El acuerdo sobre la organización general puede convivir con respuestas distintas sobre artículos cercanos y comparaciones entre disciplinas.",
+      "comments": [
+        4,
+        5,
+        6
+      ],
+      "old": "Los mapas de la ciencia usan las relaciones entre artículos para describir cómo se organiza la investigación. Cuando esas relaciones proceden de embeddings de texto, un modelo convierte cada artículo en una lista de números. \\textquestiondown{}Otro modelo daría la misma imagen? Comparo diez modelos con 500.000 publicaciones de OpenAlex de 2000--2024, repartidas en 26 disciplinas, como Medicina o Física. Al representar cada disciplina mediante la posición media de sus artículos, los modelos muestran una organización parecida. Esto se mantiene al elegir otros artículos o cambiar cuántos usamos por disciplina. Sin embargo, dentro de una disciplina y período, dos modelos comparten, en promedio, solo ocho de los 25 artículos que sitúan más cerca de un mismo artículo. Usar solo el título de cada artículo, en vez del título y el resumen, también cambia buena parte de esa lista, aunque el efecto varía según el modelo. Un modelo puede situar los artículos de una disciplina más juntos que los de otra, mientras otro modelo invierte ese orden. Esta comparación utiliza los ángulos entre las posiciones asignadas a los artículos. Mover el punto desde el que medimos esos ángulos puede cambiar la respuesta, incluso cuando elegir otros artículos no la cambia. Por tanto, repetir la selección de artículos no asegura que otro modelo, u otro punto de referencia para medir los ángulos, respalde la misma comparación. Estas pruebas no establecen qué modelo describe mejor la investigación."
+    },
+    {
+      "prefix": "Conviene separar dos ideas.",
+      "new": "En este artículo, una \\emph{selección de artículos} es un conjunto elegido de la colección fija. Repetir la selección significa elegir otro conjunto con las mismas reglas de tamaño y fechas, sin descargar artículos nuevos. El \\emph{acuerdo} indica si distintos modelos dan resultados parecidos para los mismos artículos. La \\emph{estabilidad ante la selección} indica si el resultado se repite al cambiar los artículos elegidos. Una comparación puede ser estable dentro de cada modelo y, aun así, dar respuestas opuestas entre modelos.",
+      "comments": [
+        9
+      ],
+      "old": "Conviene separar dos ideas. El \\emph{acuerdo} indica si distintos modelos dan resultados parecidos para los mismos artículos. La \\emph{estabilidad ante la selección} indica si un resultado se repite al utilizar otros artículos de la colección. Una comparación puede ser estable dentro de cada modelo y, aun así, dar respuestas opuestas entre modelos."
+    },
+    {
+      "prefix": "OpenAlex asigna los artículos a áreas amplias",
+      "new": "OpenAlex asigna los artículos a áreas amplias, llamadas \\emph{Fields}, y a categorías más estrechas, llamadas \\emph{Subfields}, a partir de información del texto, las citas y las revistas \\citep{openalex2026topics}. Aquí las denomino áreas y especialidades. Por ejemplo, Medicina es un área; Cardiología y Medicina Cardiovascular es una de sus especialidades. Las 26 áreas son las unidades principales de comparación. Estas etiquetas de la base de datos permiten organizar el análisis; no son descripciones de cada artículo verificadas de forma independiente.",
+      "comments": [
+        1,
+        17,
+        18
+      ],
+      "old": "OpenAlex asigna los artículos a áreas amplias, llamadas \\emph{Fields}, y a categorías más estrechas, llamadas \\emph{Subfields}, a partir de información del texto, las citas y las revistas \\citep{openalex2026topics}. Aquí las denomino áreas y especialidades, respectivamente. Las 26 áreas son las unidades principales de comparación. Estas etiquetas de la base de datos permiten organizar el análisis; no son descripciones de cada artículo verificadas de forma independiente."
+    },
+    {
+      "prefix": "Los \\emph{vecinos} de un artículo",
+      "new": "Los \\emph{vecinos} de un artículo son los artículos que quedan más cerca de él. El \\emph{artículo de partida} es aquel para el que buscamos vecinos; los \\emph{candidatos} son los artículos entre los que podemos buscarlos. Comparo las listas de los 25 vecinos más próximos que producen dos modelos, con listas de 10 y 50 como comprobaciones. La cercanía se mide con la similitud coseno, que compara las direcciones de los vectores. El artículo de partida no puede ser su propio vecino. Las listas se calculan de forma exacta y se comprueban mediante una ordenación independiente. Cada resultado indica si los candidatos son todos los del área y período, una selección de tamaño fijo dentro de ese grupo o los 400.000 registros generales.",
+      "comments": [
+        1,
+        12,
+        13
+      ],
+      "old": "Los \\emph{vecinos} de un artículo son los artículos que quedan más cerca de él. Comparo las listas de los 25 vecinos más próximos que producen dos modelos, con listas de 10 y 50 como comprobaciones. La cercanía se mide con la similitud coseno, que compara las direcciones de los vectores. El artículo de partida no puede ser su propio vecino. Las listas se calculan de forma exacta y se comprueban mediante una ordenación independiente. Importa qué artículos pueden aparecer en ellas: buscar dentro de toda un área y período es distinto de limitarse a 2.048 artículos o ampliar la búsqueda a los 400.000 registros generales. Cada resultado indica qué búsqueda utiliza."
+    },
+    {
+      "prefix": "Otra comparación mantiene el tamaño de la búsqueda",
+      "new": "Otra comparación pregunta si los modelos comparten más vecinos al buscar dentro de una especialidad o al ampliar la búsqueda a su área. Pensemos en 50 artículos fijos de Cardiología y Medicina Cardiovascular. Para cada uno, comparamos una búsqueda entre 256 artículos de esa especialidad con otra entre 256 de Medicina. Ambos conjuntos incluyen los mismos 50 artículos de partida; quedan 206 plazas para otros artículos. Cada búsqueda excluye al propio artículo de partida. Repito diez veces la elección de los otros 206, manteniendo fijos los 50 y el mismo reparto de fechas entre ambas búsquedas. Este procedimiento se aplica a 217 especialidades: 10.850 artículos de partida en total. Por tanto, la selección amplia de Medicina también contiene obligatoriamente esos 50 artículos de Cardiología; no se elige libremente de toda el área.",
+      "comments": [
+        1,
+        2
+      ],
+      "old": "Otra comparación mantiene el tamaño de la búsqueda y cambia su alcance. En cada una de 217 especialidades, 50 artículos de partida fijos se comparan con 256 candidatos de esa especialidad y con 256 de su área más amplia. Ambos conjuntos incluyen esos mismos 50 artículos y tienen el mismo reparto por períodos. Diez selecciones cambian los otros 206 candidatos. En total se utilizan 10.850 artículos de partida. Incluirlos en ambos conjuntos ayuda a igualar la comparación, pero también significa que el conjunto amplio no es una muestra aleatoria libre de toda el área."
+    },
+    {
+      "prefix": "Para comparar la estructura general, examino",
+      "new": "Para comparar la estructura general, examino si los mismos artículos mantienen un patrón parecido de relaciones en dos representaciones. La medida principal es la alineación lineal de núcleos centrados con corrección, abreviada CKA \\citep{pmlr-v97-kornblith19a,refa961d84a4e}. Un valor cercano a uno, como 0,9, indica que esos patrones se parecen mucho según esta medida: los modelos organizan los mismos objetos de forma parecida. Es una puntuación de acuerdo, no un porcentaje de ciencia representada correctamente. La corrección reduce una inflación conocida debida al tamaño finito de la muestra; no elimina todo el sesgo estadístico. Otras dos comprobaciones permiten girar y cambiar de escala las representaciones para compararlas, mediante la alineación de Procrustes, o comparan el orden de las distancias entre artículos. Responden a aspectos distintos de las representaciones \\citep{NEURIPS2021_252a3dba,pmlr-v285-williams24a}. El Suplemento S2 contiene las fórmulas.",
+      "comments": [
+        3
+      ],
+      "old": "Para comparar la estructura general, examino si las relaciones entre los mismos artículos son parecidas en dos representaciones. La medida principal es la alineación lineal de núcleos centrados con corrección, abreviada CKA \\citep{pmlr-v97-kornblith19a,refa961d84a4e}. Un valor mayor indica más acuerdo. Un valor de 0,9 no significa que se haya representado correctamente el 90\\% de la ciencia. La corrección reduce una inflación conocida debida al tamaño finito de la muestra; no elimina todo el sesgo estadístico. Otras dos comprobaciones permiten girar y cambiar de escala las representaciones para compararlas, mediante la alineación de Procrustes, o comparan el orden de las distancias entre artículos. Responden de forma distinta a los cambios, pero no son pruebas independientes de corrección temática \\citep{NEURIPS2021_252a3dba,pmlr-v285-williams24a}. El Suplemento S2 contiene las fórmulas."
+    },
+    {
+      "prefix": "Con 26 áreas hay 325 formas",
+      "new": "Con 26 áreas hay 325 formas de elegir dos áreas distintas, contando cada comparación una sola vez. Para cada propiedad geométrica, examino qué área tiene el valor mayor según cada modelo. Repito el cálculo con veinte medias muestras de 1.000 artículos por área y cinco selecciones adicionales de 2.000. Una dirección se considera persistente solo si se mantiene en todas esas selecciones y en la principal de 2.000: 26 condiciones en total. Las dos alternativas de dimensión usan las mismas condiciones. Otra comprobación cambia el punto desde el que medimos las direcciones. Para cada modelo, calculo la media de los 52.000 vectores unitarios equilibrados, resto esa media común a cada vector y vuelvo a ajustar su longitud a uno. Esta operación, llamada centrado global seguido de normalización, lleva el punto de referencia a la posición media de la colección. Cambia la representación antes de medir apertura y dimensión; es distinta del centrado de la covarianza que forma parte del cálculo de PR.",
+      "comments": [
+        27,
+        30
+      ],
+      "old": "Con 26 áreas hay 325 formas de elegir dos áreas distintas, contando cada comparación una sola vez. Para cada propiedad geométrica, examino qué área tiene el valor mayor según cada modelo. Repito el cálculo con veinte medias muestras de 1.000 artículos por área y cinco selecciones adicionales de 2.000. Una dirección se considera persistente solo si se mantiene en todas esas selecciones y en la principal de 2.000. Las dos alternativas de dimensión cubren ahora las mismas 26 selecciones. También repito las comparaciones de apertura y dimensión después de restar la media de los 52.000 vectores unitarios equilibrados y ajustar cada vector resultante a longitud uno. Esto cambia la representación; no es simplemente el centrado de la covarianza que se utiliza para calcular PR."
+    },
+    {
+      "prefix": "Así se distinguen tres resultados.",
+      "new": "Así se distinguen tres resultados: los diez modelos señalan siempre la misma área como la de mayor valor; al menos dos modelos concretos dan siempre respuestas opuestas; o no se cumple ninguna de esas condiciones. Llamo \\emph{sin resolver} al tercer caso. Por ejemplo, algunos modelos pueden cambiar el orden al elegir otros artículos, sin que haya una pareja fija que mantenga respuestas opuestas. Los empates también quedan sin resolver. La etiqueta indica que la regla no permite decidir la comparación, no que las áreas sean iguales. Además de cualquier diferencia distinta de cero, examino diferencias mínimas del 1, 5 y 10\\% de la media de los dos valores. Una diferencia que no alcanza el mínimo exigido también queda sin resolver. Estos cortes permiten ver si el resultado depende de diferencias muy pequeñas.",
+      "comments": [
+        8
+      ],
+      "old": "Así se distinguen tres resultados. Los diez modelos pueden señalar de forma consistente la misma área como la mayor. Al menos dos modelos concretos pueden dar de forma consistente respuestas opuestas. O la comparación puede quedar sin resolver con estas reglas. Sin resolver no significa iguales. Además de comprobar cualquier diferencia distinta de cero, exijo que las diferencias superen el 1, el 5 o el 10\\% de la media de los dos valores. Estos cortes permiten ver si el resultado depende de diferencias muy pequeñas; no son umbrales universales de importancia científica."
+    },
+    {
+      "prefix": "Las selecciones se solapan dentro de una misma colección.",
+      "new": "Dos selecciones pueden contener muchos de los mismos artículos porque ambas proceden de la colección fija. El rango de sus resultados describe qué cambia al elegir otros artículos disponibles; no es un intervalo de confianza para toda la literatura científica. Una \\emph{alerta de selección} señala que un resultado varía entre elecciones de artículos, o cambia entre los tamaños probados, más de lo permitido por una tolerancia registrada. Indica sensibilidad a los artículos elegidos, no un error en los registros de origen. El suplemento conserva las reglas y recuentos de cada comprobación. Las comparaciones también reutilizan modelos y áreas, por lo que sus resultados no se tratan como observaciones independientes en pruebas de significación.",
+      "comments": [
+        9,
+        10
+      ],
+      "old": "Las selecciones se solapan dentro de una misma colección. Sus rangos describen la sensibilidad a elegir otros artículos, no intervalos de confianza para una población más amplia. Otras comprobaciones marcan los casos que cambian demasiado entre selecciones; el suplemento conserva sus reglas y recuentos. Las comparaciones también comparten modelos y áreas. Por eso se describen, en lugar de tratarlas como observaciones independientes en pruebas de significación."
+    },
+    {
+      "prefix": "\\PanelFigure{figure_01}",
+      "new": "\\PanelFigure{figure_01}{Acuerdo sobre los resúmenes de áreas y sobre sus artículos. Una CKA corregida mayor indica más acuerdo entre modelos. (A) Cada centro usa 256 artículos. Los resultados de áreas y especialidades promedian cincuenta selecciones de artículos. La condición de 26 especialidades elige una especialidad de cada una de las 26 áreas, repite cincuenta veces esa elección y escoge diez conjuntos de artículos por elección. Los grupos aleatorios usan los mismos artículos, tamaños y fechas. Las líneas muestran los percentiles 2,5--97,5 de las medias entre selecciones. (B) Acuerdo entre artículos individuales con tres tamaños, dentro de 26 áreas y las mismas 183 especialidades. Los puntos son medias; las líneas abarcan los percentiles 2,5--97,5 de los resultados de grupo y pareja de modelos: 1.170 para áreas y 8.235 para especialidades. Los paneles resumen objetos y fuentes de variación distintos; estos rangos no son intervalos de confianza.}{scales}{1}",
+      "comments": [
+        11
+      ],
+      "old": "\\PanelFigure{figure_01}{Acuerdo sobre los resúmenes de áreas y sobre sus artículos. Una CKA corregida mayor indica más acuerdo entre modelos. (A) Medias de cincuenta selecciones con 256 artículos por centro; la condición de 26 especialidades usa cincuenta elecciones de especialidades y diez selecciones de artículos por elección. Los grupos aleatorios usan los mismos artículos, tamaños y fechas. Las líneas muestran los percentiles 2,5--97,5 de las medias entre selecciones. (B) Acuerdo dentro de grupos con tres cantidades de artículos, 26 áreas y las mismas 183 especialidades. Los puntos son medias; las líneas abarcan los percentiles 2,5--97,5 de los resultados de grupo y pareja de modelos: 1.170 para áreas y 8.235 para especialidades. Los rangos describen fuentes de variación distintas; ninguno es un intervalo de confianza. Los paneles comparan objetos distintos, no un efecto causal de la escala.}{scales}{1}"
+    },
+    {
+      "prefix": "Dentro de los grupos, la CKA media",
+      "new": "Dentro de los grupos, la CKA media sigue rondando 0,63 para las áreas y 0,64 para las mismas 183 especialidades al pasar de 128 a 512 artículos (Figura~\\ref{fig:scales}B). Esta media estable oculta comparaciones locales sensibles: el 31,9\\% de las 8.235 comparaciones de especialidad y pareja de modelos activa la alerta de selección (2.628 casos). Su acuerdo varía más de lo permitido por la tolerancia registrada al cambiar los artículos o el tamaño probado. Así, una media general estable puede convivir con resultados de especialidades que dependen de qué artículos se elijan. La diferencia entre centros y artículos individuales también compara objetos distintos, sin aislar únicamente la escala.",
+      "comments": [
+        10
+      ],
+      "old": "Dentro de los grupos, la CKA media sigue rondando 0,63 para las áreas y 0,64 para las mismas 183 especialidades al pasar de 128 a 512 artículos (Figura~\\ref{fig:scales}B). Esta media estable oculta comparaciones locales sensibles: 2.628 de las 8.235 comparaciones de especialidad y pareja de modelos (31,9\\%) activan la alerta de selección de artículos. Una media estable no hace estable cada comparación de especialidades. Tampoco la diferencia entre centros y artículos individuales aísla un efecto causal de la escala."
+    },
+    {
+      "prefix": "Dentro de la misma área y período, dos modelos",
+      "new": "Dentro de la misma área y período, dos modelos conservan en promedio el 30,3\\% de los 25 vecinos más próximos: unos ocho artículos de 25. Esta media da el mismo peso a cada grupo y pareja de modelos. Limitar cada grupo de área y período a 2.048 candidatos eleva el acuerdo al 31,9\\%. Todos los grupos tienen la misma cantidad; los artículos son los mismos entre modelos dentro de cada grupo, no entre disciplinas distintas. Otra búsqueda toma 100 artículos de partida de cada uno de los 130 grupos, 13.000 en total, y busca sus vecinos entre los 400.000 registros generales. Aquí, el acuerdo es del 17,5\\%. Esta búsqueda admite artículos de otras disciplinas y períodos y, además, ofrece muchos más candidatos. Cualquiera de esos cambios puede afectar al acuerdo; esta comparación no permite separar sus efectos.",
+      "comments": [
+        12,
+        13,
+        14
+      ],
+      "old": "Dentro de la misma área y período, dos modelos conservan en promedio el 30,3\\% de los 25 vecinos más próximos: unos ocho artículos de 25. Esta media da el mismo peso a cada grupo y pareja de modelos. Al usar 2.048 candidatos comunes en todos los grupos, el acuerdo sube al 31,9\\%. Una búsqueda separada en los 400.000 registros generales da un 17,5\\% para 13.000 artículos de partida repartidos de forma equilibrada. Esta última comparación cambia tanto el alcance de la búsqueda como el número de candidatos, por lo que no permite aislar el efecto de cruzar fronteras disciplinares."
+    },
+    {
+      "prefix": "Filtrar las marcas de origen y los grupos",
+      "new": "Después retiro los registros con las marcas de revisión incluidas en el filtro y conservo un representante de cada grupo de duplicados detectado. Para los mismos artículos de partida conservados, el acuerdo de vecinos pasa del 30,58\\% al 31,43\\%: sube 0,85 puntos porcentuales. Ambas medias siguen siendo unos ocho artículos compartidos en una lista de 25. Al mantener fija la cantidad de candidatos, el cambio es menor: 0,28 puntos con 1.024 y 0,19 con 2.048. Los problemas que retira este filtro explican, por tanto, poco del desacuerdo general, aunque algunas áreas cambian más que otras (Tabla S19).",
+      "comments": [
+        15
+      ],
+      "old": "Filtrar las marcas de origen y los grupos de duplicados cambia poco este panorama. Entre los mismos artículos de partida conservados, el acuerdo sube del 30,58\\% al 31,43\\%: 0,85 puntos porcentuales. Al fijar la cantidad de candidatos, la subida es de 0,28 puntos con 1.024 y 0,19 con 2.048. Los problemas de origen cubiertos por este filtro no explican la mayor parte del desacuerdo entre vecinos, aunque algunas áreas cambian más que otras (Tabla S19)."
+    },
+    {
+      "prefix": "Mantener iguales el tamaño de búsqueda",
+      "new": "Las búsquedas emparejadas permiten cambiar el alcance disciplinar manteniendo iguales la cantidad de candidatos y las fechas (Figura~\\ref{fig:paired}). Al buscar solo dentro de la especialidad, los modelos comparten menos de sus 25 vecinos en 127 de las 217 especialidades (58,5\\%), pero más en las otras 90 (41,5\\%). El cambio medio frente a buscar en el área amplia es de $-1,35$ puntos porcentuales. Con listas de 50 vecinos, el reparto es casi igual: el acuerdo baja en 109 especialidades y sube en 108. Limitar la búsqueda no tiene, por tanto, el mismo efecto en todas ellas. Estos cambios describen cuánto coinciden las listas de los modelos, no lo útiles que son los artículos encontrados.",
+      "comments": [
+        16
+      ],
+      "old": "Mantener iguales el tamaño de búsqueda y las fechas da un resultado menos uniforme (Figura~\\ref{fig:paired}). De 217 especialidades, 127 tienen menos acuerdo al buscar dentro de la especialidad que en el área amplia, mientras que 90 tienen más. El cambio medio es de $-1,35$ puntos porcentuales. Con 50 vecinos, el reparto es de 109 y 108. Por tanto, una búsqueda más estrecha no hace que los modelos discrepen más de forma general."
+    },
+    {
+      "prefix": "\\PanelFigure{figure_02}",
+      "new": "\\PanelFigure{figure_02}{\\textquestiondown{}Limitar una búsqueda a una especialidad cambia el acuerdo? Cada punto representa una de 217 especialidades. El eje horizontal muestra la fracción de vecinos compartidos al buscar en el área que la contiene, como Medicina; el vertical muestra esa fracción dentro de la rama más concreta, como Cardiología y Medicina Cardiovascular. Un punto por encima de la diagonal indica que los modelos comparten más vecinos en la búsqueda estrecha. Ambos conjuntos contienen 256 candidatos, incluidos los mismos 50 artículos de partida, y fechas emparejadas. Los valores promedian las parejas de modelos y diez elecciones de los otros 206 candidatos. La selección del área amplia incluye, por tanto, siempre esos 50 artículos de la especialidad. La dispersión de puntos muestra diferencias entre especialidades, no intervalos de confianza.}{paired}{0.90}",
+      "comments": [
+        17,
+        18
+      ],
+      "old": "\\PanelFigure{figure_02}{\\textquestiondown{}Limitar una búsqueda a una especialidad cambia el acuerdo? Cada punto representa una de 217 especialidades. El eje horizontal muestra la fracción de vecinos compartidos al buscar en su área amplia; el vertical muestra esa fracción dentro de la especialidad. Un punto por encima de la diagonal tiene más acuerdo en la búsqueda estrecha. Ambas búsquedas contienen 256 candidatos, incluidos los mismos 50 artículos de partida, y fechas emparejadas. Los valores promedian las parejas de modelos y diez selecciones de los candidatos restantes. La búsqueda amplia queda, por tanto, condicionada por esos artículos de partida. La dispersión de puntos muestra diferencias entre especialidades, no intervalos de confianza.}{paired}{0.90}"
+    },
+    {
+      "prefix": "El análisis de casos del Suplemento S4 sigue",
+      "new": "El Suplemento S4 pasa de las medias a artículos concretos: comprueba si un artículo conserva sus vecinos al cambiar el tamaño de muestra, la regla que forma su vector o la longitud de la lista de vecinos. Leer esos ejemplos también permitió detectar problemas de origen. Un libro de historia aparece en Física, un texto sobre infección bacteriana en Política y otro registro es un anuncio. Los contrasté con los registros descargados de OpenAlex: esas etiquetas y contenidos ya estaban allí; no surgieron al confundir artículos entre las salidas de los modelos. Los ejemplos permanecen en el análisis. Como se eligieron casos concretos para examinarlos, su número no estima la frecuencia de esos problemas en la colección.",
+      "comments": [
+        19
+      ],
+      "old": "El análisis de casos del Suplemento S4 sigue especialidades, artículos y enlaces concretos al cambiar el tamaño de muestra, el pooling y la cantidad de vecinos. También muestra problemas de origen: entre los ejemplos seleccionados hay un libro de historia etiquetado como física, un texto sobre infección bacteriana etiquetado como política y un anuncio. Coinciden con los registros de OpenAlex descargados; no son errores al emparejar las salidas de los modelos. Se conservan en los resultados y no permiten establecer lo frecuentes que son estos problemas."
+    },
+    {
+      "prefix": "El experimento de texto utiliza los mismos 52.000 artículos",
+      "new": "Cada modelo recibe tres entradas para cada uno de los mismos 52.000 artículos: solo el título, solo el resumen y título más resumen. El texto combinado da la representación de partida. Comparo después dos cambios: mantener ese texto y usar otro modelo, o mantener el modelo y darle solo el título. En promedio, el primero sustituye el 68,8\\% de los 25 vecinos y el segundo el 70,7\\% (Figura~\\ref{fig:input}). Los cambios correspondientes en la estructura general, medidos como uno menos la CKA, son 0,370 y 0,366. Son medias del conjunto de modelos, no el efecto en cada uno de ellos.",
+      "comments": [
+        20
+      ],
+      "old": "El experimento de texto utiliza los mismos 52.000 artículos para las tres entradas: título, resumen y título más resumen. El texto combinado es la referencia. En promedio, cambiar de modelo sustituye el 68,8\\% de los 25 vecinos; mantener el modelo y usar solo el título sustituye el 70,7\\% (Figura~\\ref{fig:input}). Los cambios correspondientes en la estructura general, medidos como uno menos la CKA, son 0,370 y 0,366. Estas medias describen este conjunto de modelos; no demuestran equivalencia ni se aplican por igual a cada modelo."
+    },
+    {
+      "prefix": "Cambiar la regla que combina las salidas",
+      "new": "El resultado también depende de cómo BERT, SciBERT, BioBERT y PubMedBERT producen un vector para todo el artículo. La regla principal calcula la media de sus salidas por token. Las alternativas usan solo la primera salida (CLS) o la última sin relleno (SEP), que también han procesado el contexto de entrada. Con estas alternativas, dar solo el título cambia menos vecinos que cambiar de modelo en todas las repeticiones: 3,13 puntos porcentuales menos con CLS y 2,00 menos con SEP, para 25 vecinos. Las dos comparaciones se recalculan con la regla elegida; los otros seis modelos mantienen sus configuraciones habituales. Por tanto, el orden medio se invierte al cambiar esta forma práctica de usar los cuatro modelos.",
+      "comments": [
+        21
+      ],
+      "old": "Cambiar la regla que combina las salidas de los tokens también invierte el orden medio. Con CLS o SEP en los cuatro BERT de palabras, quitar el resumen cambia menos vecinos que cambiar de modelo en todas las repeticiones: diferencias de $-3,13$ y $-2,00$ puntos porcentuales con 25 vecinos. Con estas reglas cambian tanto la comparación de texto como su referencia de cambio de modelo. El resultado se refiere a usos prácticos de los modelos, no al efecto causal aislado de un paso de procesamiento."
+    },
+    {
+      "prefix": "La primera prueba de 26.000 artículos y su",
+      "new": "Este experimento de tres entradas comenzó con 26.000 artículos y añadió después otros 26.000 con el mismo diseño; los primeros están incluidos en los 52.000 finales. A ambos tamaños se aplicó la misma comprobación de estructura, eligiendo otros artículos cien veces. Las alertas bajan de 72 de 520 comparaciones de modelo, área y entrada (13,8\\%) a cinco de 520 (1,0\\%). Así, menos resultados superan la tolerancia registrada, aunque esto no demuestra estabilidad para cada comparación de vecinos. El Suplemento S3 conserva por separado la comprobación anterior con veinte selecciones. Las pruebas del fragmento común y de MiniLM con 512 tokens estudian otra cuestión, la longitud de entrada; no revelan un error de código en el límite original de MiniLM.",
+      "comments": [
+        22
+      ],
+      "old": "La primera prueba de 26.000 artículos y su ampliación a 52.000 estudian la misma pregunta sobre el texto. En la comprobación con 100 selecciones repetidas, las comparaciones de modelo, área y entrada que activan una alerta bajan de 72 de 520 a cinco de 520. El Suplemento S3 también conserva la comprobación anterior con veinte selecciones. Superar este control no demuestra que una diferencia sea distinta de cero ni que todos los resultados de vecinos sean estables. Las comprobaciones separadas del fragmento común y de MiniLM con 512 tokens estudian la longitud de entrada; no revelan un error de código en el límite original de MiniLM."
+    },
+    {
+      "prefix": "El análisis geométrico reutiliza la muestra de 52.000",
+      "new": "El análisis geométrico reutiliza los 52.000 artículos del experimento de texto y sus representaciones de título más resumen. Pregunta, por ejemplo, si los vectores de un área apuntan en direcciones más separadas que los de otra. Primero comprobé cuánto cambia cada medida al elegir otros artículos. Entre diez modelos y 26 áreas, la apertura angular no tiene alertas ni con medias muestras ni con selecciones de igual tamaño. PR tiene cuatro alertas entre 260 casos (1,5\\%) al usar veinte medias muestras de 1.000 artículos por área. No aparece ninguna en cinco selecciones adicionales de 2.000 por área. Son comprobaciones con tamaños y cantidades de repeticiones distintos; superar la segunda no borra la sensibilidad encontrada en la primera.",
+      "comments": [
+        23
+      ],
+      "old": "El análisis geométrico reutiliza la muestra de 52.000 artículos del experimento de texto y sus representaciones de título más resumen. Pregunta, por ejemplo, si los vectores de los artículos de un área apuntan en direcciones más separadas que los de otra. Antes de comparar áreas, comprobé si el valor de cada propiedad se repetía al elegir otros artículos. La apertura angular no tiene alertas entre los 260 casos de modelo y área. La dimensión lineal efectiva tiene cuatro alertas en la comprobación con medias muestras y ninguna en las cinco selecciones de igual tamaño. El segundo resultado no elimina el primero."
+    },
+    {
+      "prefix": "De las 325 comparaciones entre dos áreas,",
+      "new": "De las 325 parejas de áreas, el 80,6\\% tiene respuestas opuestas persistentes de al menos dos modelos para la apertura angular; la proporción es del 68,0\\% para PR (Figura~\\ref{fig:pairs}). Por ejemplo, un modelo concreto da siempre mayor apertura a A que a B, mientras otro da siempre mayor apertura a B. «Mayor» se refiere al valor medido, no a una posición más alta en un dibujo ni a mejor investigación. Los demás modelos no tienen por qué discrepar entre sí. Los diez coinciden de forma persistente sobre el área de mayor valor en el 12,9\\% de las parejas para apertura y el 16,6\\% para PR. El 6,5\\% y el 15,4\\% restantes, respectivamente, no cumplen ninguna de las dos reglas y quedan sin resolver.",
+      "comments": [
+        24,
+        25
+      ],
+      "old": "De las 325 comparaciones entre dos áreas, 262 tienen respuestas opuestas persistentes de al menos dos modelos para la apertura angular; 221 las tienen para la dimensión lineal efectiva (Figura~\\ref{fig:pairs}). Por ejemplo, un modelo concreto sitúa de forma consistente el área A por encima de B, mientras que otro sitúa B por encima de A. Esto no significa que los diez modelos discrepen. Los diez dan la misma dirección persistente en 42 y 54 comparaciones, respectivamente; las 21 y 50 restantes quedan sin resolver."
+    },
+    {
+      "prefix": "Muchas respuestas opuestas corresponden a diferencias pequeñas.",
+      "new": "Muchas respuestas opuestas corresponden a diferencias pequeñas. Exigir que la diferencia supere el 5\\% de la media de los dos valores reduce la oposición persistente al 29,5\\% de las 325 parejas para apertura y al 54,5\\% para PR. Con una diferencia mínima del 10\\%, esas proporciones bajan al 5,8\\% y al 38,8\\%. Por tanto, conviene distinguir una inversión basada en una diferencia diminuta de otra con una diferencia mayor.",
+      "comments": [
+        25
+      ],
+      "old": "Muchas respuestas opuestas corresponden a diferencias pequeñas. Si exigimos que la diferencia supere el 5\\% de la media de los dos valores de área, quedan 96 comparaciones opuestas para apertura angular y 177 para dimensión. Con el 10\\%, los recuentos bajan a 19 y 126. Por eso, la dirección del desacuerdo y su tamaño deben presentarse juntos."
+    },
+    {
+      "prefix": "\\PanelFigure{figure_04}",
+      "new": "\\PanelFigure{figure_04}{La respuesta depende de la representación además del modelo. Cada barra abarca las 325 parejas de áreas. Azul: los diez modelos dan siempre el mayor valor medido a la misma área. Naranja: al menos dos modelos concretos mantienen órdenes opuestos. Gris: no se cumple ninguna regla, incluidos empates y cambios de orden. Cada clasificación usa 26 condiciones: los 2.000 artículos principales por área, veinte medias muestras de 1.000 y cinco selecciones adicionales de 2.000. Las representaciones original y centrada usan los mismos artículos. El centrado resta la media de los 52.000 vectores unitarios equilibrados de cada modelo y reajusta cada vector resultante a longitud uno. Los cortes de 0 y 5\\% exigen diferencias relativas superiores a esos valores en todas las condiciones. La Tabla S20 recoge los cuatro cortes y comprueba si los mismos modelos opuestos conservan sus direcciones.}{pairs}{1}",
+      "comments": [
+        30
+      ],
+      "old": "\\PanelFigure{figure_04}{La respuesta depende de la representación además del modelo. Cada barra abarca las 325 parejas de áreas. Azul: los diez modelos señalan de forma consistente la misma área como mayor. Naranja: al menos dos modelos concretos dan respuestas opuestas de forma consistente. Gris: comparación sin resolver. Cada clasificación utiliza la selección principal, veinte mitades y cinco selecciones adicionales del mismo tamaño. Las representaciones original y centrada usan los mismos artículos. El centrado resta el vector unitario medio y después devuelve cada vector a longitud uno. Los cortes de 0 y 5\\% exigen diferencias relativas superiores a esos valores en todas las selecciones; no son umbrales de significación. La Tabla S20 incluye los cuatro cortes y la conservación de los mismos modelos opuestos.}{pairs}{1}"
+    },
+    {
+      "prefix": "Las medidas alternativas conservan los mismos modelos",
+      "new": "Otras formas de resumir los ángulos conservan los mismos modelos opuestos y sus direcciones en el 85,9\\% de las oposiciones angulares originales (225/262). Para dimensión, la medida de entropía resume cuánto se reparte la variación entre direcciones; D80 cuenta el mínimo de direcciones necesario para explicar el 80\\% de esa variación. En las mismas 26 condiciones, entropía conserva el 94,6\\% de las oposiciones originales de PR y D80 el 86,0\\%; ese mismo 86,0\\% se mantiene con ambas alternativas (190/221). D80 puede dar empates porque devuelve números enteros, dejando esas comparaciones sin resolver. Estas pruebas muestran cuánto depende el orden de la fórmula. Al limitar el análisis a los seis modelos entrenados para similitud, todavía hay respuestas opuestas en el 71,1\\% de las 325 parejas para apertura y el 49,2\\% para PR (Tablas S14--S15).",
+      "comments": [
+        26
+      ],
+      "old": "Las medidas alternativas conservan los mismos modelos opuestos y sus direcciones en 225 de las 262 comparaciones angulares. Al disponer ahora de las 26 selecciones también para dimensión, la medida de entropía conserva 209 de las 221 oposiciones de PR y D80 conserva 190; 190 se mantienen con ambas alternativas. D80 cuenta direcciones con números enteros, por lo que los empates quedan sin resolver. Estas medidas relacionadas respaldan muchas oposiciones, no cada comparación entre áreas ni su interpretación temática. Restringir los modelos a los seis entrenados para similitud sigue dejando 231 oposiciones angulares y 160 de PR (Tablas S14--S15)."
+    },
+    {
+      "prefix": "Cambiar el punto de referencia de los vectores",
+      "new": "Llevar el punto de referencia a la posición media de la colección cambia muchas comparaciones angulares (Figura~\\ref{fig:pairs}). Tras restar esa media y devolver cada vector a longitud uno, la oposición persistente baja del 80,6\\% al 46,5\\% de las 325 parejas (de 262 a 151). Menos de la mitad de las oposiciones originales, el 48,9\\% (128/262), conserva los mismos modelos opuestos en las mismas direcciones; la Tabla S20 distingue estos casos de las oposiciones nuevas o cambiadas. Exigir diferencias superiores al 5\\% deja solo 11 parejas opuestas en lugar de 96. PR cambia menos: las parejas opuestas pasan de 221 a 211, y el 92,3\\% de las oposiciones originales conserva los mismos modelos y direcciones (204/221). Así, una comparación angular que se repite con otros artículos puede seguir dependiendo mucho de dónde se sitúa el punto de referencia común.",
+      "comments": [
+        27,
+        28
+      ],
+      "old": "Cambiar el punto de referencia de los vectores afecta mucho más a la apertura angular (Figura~\\ref{fig:pairs}). Tras centrar globalmente y reajustar a longitud uno, las oposiciones angulares persistentes bajan de 262 a 151. De las 262 originales, 142 siguen teniendo modelos opuestos, pero solo 128 conservan al menos una de las mismas parejas de modelos con las mismas direcciones; nueve oposiciones son nuevas. Exigir diferencias superiores al 5\\% reduce la oposición angular de 96 a 11. PR es menos sensible: pasa de 221 a 211, y 204 oposiciones originales conservan los mismos modelos y direcciones. La apertura angular está, por tanto, muy ligada a esta decisión de procesamiento; no podemos suponer que el orden entre áreas se mantendrá al cambiarla."
+    },
+    {
+      "prefix": "El intento de medir la fragmentación muestra",
+      "new": "También pregunté si la red que enlaza artículos cercanos podía detectar un área dividida en grupos separados. Sería útil si una conexión débil indicara una división entre temas de investigación. Las pruebas no respaldaron esa lectura: las nubes artificiales alargadas y los puntos extremos aislados pueden dar señales de conexión débil sin que existan grupos temáticos. La señal también cambia con el tamaño de muestra y la regla para enlazar vecinos, con alertas de selección en 51 de 260 casos. El Suplemento S6 conserva esta comprobación fallida para evitar que una conexión geométrica débil se interprete como prueba de fragmentación temática.",
+      "comments": [
+        29
+      ],
+      "old": "El intento de medir la fragmentación muestra un límite útil. Las nubes artificiales alargadas o los puntos extremos pueden parecer desconectados sin que existan grupos temáticos separados. Los resultados también dependen del tamaño de muestra y de la regla para enlazar vecinos; 51 de 260 casos conservan alertas de selección. Por ello, presento estas comprobaciones en el Suplemento S6 sin interpretar la desconexión como prueba de que un área está fragmentada."
+    },
+    {
+      "prefix": "Los modelos comparten una organización general y,",
+      "new": "Los modelos comparten una organización general, pero pueden discrepar sobre artículos cercanos o comparaciones entre áreas. Supongamos que un modelo da mayor apertura angular a A que a B y que esto se repite con otros artículos. Eso muestra estabilidad ante la elección de artículos dentro de ese modelo. Si otro modelo invierte el orden de forma consistente, repetir las selecciones del primero no resuelve el desacuerdo. Por tanto, una afirmación extraída del mapa necesita comprobarse cambiando el modelo además de los artículos.",
+      "comments": [
+        31
+      ],
+      "old": "Los modelos comparten una organización general y, aun así, pueden dar respuestas distintas sobre los artículos cercanos o la dispersión de las representaciones de dos áreas. Esto importa cuando usamos un mapa para sostener una afirmación concreta. Una puntuación general tranquilizadora no establece que esa afirmación se mantenga al cambiar de modelo. Repetir la selección de artículos responde a otra pregunta y no puede sustituir esa comprobación."
+    },
+    {
+      "prefix": "Los controles precisan la diferencia entre",
+      "new": "Las comprobaciones ayudan a separar lo que se repite de las decisiones que todavía afectan al resultado. Recalcular las medias de las áreas con otros artículos, con 128, 256 o 512 artículos, u omitiendo un área cada vez mantiene el alto acuerdo sobre la organización general. Retirar los registros marcados y los duplicados apenas cambia la coincidencia general de vecinos: dos modelos siguen compartiendo unos ocho artículos de una lista de 25.\n\nPara el texto de entrada, repetir la elección de artículos mantiene la comparación media, pero esa media reúne comportamientos distintos. Dar solo los títulos cambia menos vecinos que cambiar de modelo en algunos modelos, y más en otros. Sustituir la media por CLS o SEP en los cuatro BERT también invierte el orden general. La consecuencia práctica es indicar tanto qué texto recibe el modelo como la regla que convierte sus salidas en un vector; la media no representa todas las configuraciones.",
+      "comments": [
+        32,
+        33
+      ],
+      "old": "Los controles precisan la diferencia entre una media y una afirmación concreta. El acuerdo entre centros resiste la elección de otros artículos, los cambios de tamaño y la omisión de cada área. El filtro de calidad deja intacta la mayor parte del desacuerdo entre vecinos. La comparación de entrada también se repite en la media general, pero su dirección difiere entre modelos y cambia con el pooling. Decir que texto y modelo importan por igual iría más allá de estos resultados."
+    },
+    {
+      "prefix": "La apertura angular necesita otro límite:",
+      "new": "Para la apertura angular, el punto de referencia es otra decisión que importa. Los mismos artículos pueden dar una respuesta distinta sobre qué área está más dispersa al medir los ángulos desde la posición media de la colección y reajustar los vectores. Repetir la elección de artículos no elimina esa dependencia. PR cambia menos con esa transformación, pero sus fórmulas alternativas tampoco conservan todas las comparaciones. Por tanto, afirmar que un área está más dispersa exige identificar la representación y la medida utilizadas, sin dejar implícitas esas decisiones.",
+      "comments": [
+        34,
+        35
+      ],
+      "old": "La apertura angular necesita otro límite: cambiar el punto de referencia común cambia muchas comparaciones entre áreas, incluso exigiendo estabilidad ante la selección de artículos en todo el análisis. Esto no convierte una de las representaciones en la correcta. Significa que la pregunta que respondemos incluye la decisión de procesamiento. PR cambia menos con esa transformación, aunque las medidas alternativas de dimensión siguen dejando algunas comparaciones sin resolver."
+    },
+    {
+      "prefix": "Las comprobaciones adicionales por disciplina y tiempo",
+      "new": "Las comprobaciones por disciplina preguntan por qué difieren Medicina y Energía (Suplemento S5). Con la regla principal, los modelos coinciden menos sobre las relaciones entre artículos de Medicina que entre los de Energía, aunque Medicina no siempre tiene el menor acuerdo de vecinos. La diferencia permanece al equilibrar la presencia de especialidades dentro de cada área y al excluir BioBERT y PubMedBERT. Ninguna de esas explicaciones probadas da cuenta de toda la diferencia. Los modelos con entrenamientos relacionados también dan a veces resultados parecidos, pero esas aparentes familias cambian al modificar la regla que forma el vector del artículo. Con solo diez modelos que difieren en varias cosas a la vez, no se puede aislar como causa el texto de entrenamiento, la arquitectura o el objetivo de entrenamiento.",
+      "comments": [
+        36
+      ],
+      "old": "Las comprobaciones adicionales por disciplina y tiempo desaconsejan una explicación única para todas las diferencias (Suplemento S5). Medicina tiene menos acuerdo de estructura que Energía con la regla principal, pero no siempre el menor acuerdo de vecinos. Equilibrar la composición por especialidades y quitar los dos modelos biomédicos no elimina la diferencia entre Medicina y Energía. Las aparentes familias de modelos también cambian con el pooling. Con diez modelos, los datos de entrenamiento, la arquitectura y los objetivos de entrenamiento siguen mezclados; estas asociaciones no aíslan una causa."
+    },
+    {
+      "prefix": "Entre períodos de publicación, el acuerdo",
+      "new": "La comparación temporal aplica los mismos modelos actuales a artículos de períodos antiguos y recientes. El acuerdo de estructura aumenta ligeramente en promedio. El de vecinos baja 0,87 puntos porcentuales si cada grupo ofrece todos sus artículos disponibles, pero sube 0,91 puntos si todos ofrecen 2.048 candidatos. Los grupos antiguos y recientes contienen cantidades distintas de artículos; fijar esa cantidad invierte el sentido del resultado. Esto muestra por qué hay que controlar el número de candidatos antes de interpretar una tendencia temporal. No demuestra que la ciencia haya convergido históricamente.",
+      "comments": [
+        36
+      ],
+      "old": "Entre períodos de publicación, el acuerdo de estructura aumenta ligeramente en promedio. El acuerdo de vecinos cambia $-0,87$ puntos porcentuales cuando están disponibles todos los candidatos, pero $+0,91$ puntos con 2.048 candidatos en cada grupo. El cambio de signo muestra por qué importan las posibilidades de búsqueda. Aplicar modelos actuales a artículos antiguos y recientes no demuestra por sí solo una convergencia histórica de la ciencia."
+    },
+    {
+      "prefix": "Cambiar el modelo de embeddings puede conservar",
+      "new": "Cambiar el modelo de embeddings puede conservar la organización general de la ciencia y cambiar qué artículos aparecen cerca y qué área tiene representaciones más dispersas. Dar al modelo solo los títulos también puede producir cambios grandes, cuyo tamaño depende del modelo y de la regla que forma el vector del artículo. Repetir el análisis con otros artículos es útil, pero no demuestra que otro modelo o punto de referencia dé la misma respuesta. Antes de usar un mapa para describir una relación, hay que comprobar esa relación con esas decisiones y mostrar cuánto cambia. Estas comparaciones identifican lo que comparten las representaciones probadas; juzgar si la relación describe bien la investigación sigue necesitando evidencia independiente.",
+      "comments": [
+        37
+      ],
+      "old": "Cambiar el modelo de embeddings puede conservar la organización general de la ciencia y cambiar los artículos que encontramos cerca y el sentido de las comparaciones entre áreas. Quitar el resumen puede producir un cambio medio parecido, pero esa comparación depende del modelo y de la regla de pooling. Algunos resultados se repiten con otros artículos y, aun así, cambian con el procesamiento de la representación, especialmente la apertura angular. Para una afirmación extraída de un mapa, la comprobación pertinente es si esa afirmación concreta resiste las decisiones que pueden afectarla, dejando claro el tamaño de la diferencia. El acuerdo identifica qué comparten las representaciones probadas; establecer qué es correcto sobre la investigación exige evidencia externa a ellas."
+    }
+  ]
+}

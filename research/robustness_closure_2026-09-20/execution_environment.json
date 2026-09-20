@@ -1,0 +1,19 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "clang": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "threads": {
+    "centres": 4,
+    "headline": 4,
+    "morphology": 4,
+    "quality": 3
+  },
+  "kernel_compile_flags": [
+    "-O3",
+    "-std=c11",
+    "-dynamiclib"
+  ],
+  "kernels": {
+    "kernels_90146dd49fd882f8.dylib": "7192c3ec53dafd2e2eb9100f42114e841fef687eb879b02e04dd87e30dfd3f4b"
+  }
+}

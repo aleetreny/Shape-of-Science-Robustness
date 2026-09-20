@@ -1,0 +1,73 @@
+{
+  "reviewed_at": "2026-09-20T18:53:04.183132+00:00",
+  "method": "Every final page visually inspected in rendered contact sheets, with the final Spanish reference page also viewed separately. Full prose reread in both languages.",
+  "documents": {
+    "en_main": {
+      "sha256": "1dd57238fe469cecfc66d0caa670a9e49f4304f6d0bb4973dc7ee3acf7f4af5d",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "clipping_or_overlap": false,
+      "unresolved_references": false,
+      "table_and_figure_legibility": "checked",
+      "notes": "Research questions kept together; unnecessary forced break removed; T01 can float to avoid large empty area. Complete bibliography entries retained."
+    },
+    "es_main": {
+      "sha256": "954b6305d39b6ba107cfb4d84e86e0d63ce3ad0e5eba4b641f42015c9acecc89",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "clipping_or_overlap": false,
+      "unresolved_references": false,
+      "table_and_figure_legibility": "checked",
+      "notes": "Research questions kept together; unnecessary forced break removed; T01 can float to avoid large empty area. Complete bibliography entries retained."
+    }
+  }
+}

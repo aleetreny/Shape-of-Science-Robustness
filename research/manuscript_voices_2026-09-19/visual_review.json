@@ -1,0 +1,996 @@
+{
+  "reviewed_at": "2026-09-19T08:29:08.646839+00:00",
+  "status": "passed_for_author_comparison",
+  "method": "All pages rendered at 82 dpi and visually inspected in labelled contact sheets.",
+  "versions": {
+    "v1_en": {
+      "pdf": "output/pdf/voice_variants/v1_en.pdf",
+      "sha256": "4801337a901416128810440a86c228cf08a33276e5d7c77eb3044580d2ecf1e1",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "rendered_pages": [
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-01.png",
+          "sha256": "f2aa4ed49dda9dfbdf5cf27979610a2300985ba27316c0607d479e19d9108b89"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-02.png",
+          "sha256": "d660345a95dc2953e4b200763509ae85874973dc2ff71f4ae2848710f7b5740b"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-03.png",
+          "sha256": "d8b015edc0edbe318241871c75a33caf21c2b43b4dd44bfc1160b7054a912a48"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-04.png",
+          "sha256": "71c2bc8b79115906b38802ce6ec0944747f6fe7a1013ffdf43b3658ce0fb95d5"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-05.png",
+          "sha256": "66b46b810561d8c69e0fea373f92c71b0d77ea520f832b021017c62a8fb1026f"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-06.png",
+          "sha256": "9418ebaa60c65d6024a9834959e96689ca575e84c715d4000ca3b561231ce873"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-07.png",
+          "sha256": "1f1c45703a67d90b30187d4e971782eb0812c2cfdd90c3bbbf7dddf948c438c6"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-08.png",
+          "sha256": "0b7331197e76e1b7c417597a4bfb23701c1a24a446fdcb09af5138a815495893"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-09.png",
+          "sha256": "1417fb1761c884b37ee07a2880d3b1478348f1a1cb4e5f57cf1f3173ffa279fe"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-10.png",
+          "sha256": "bdbe79fb2ad4cd67eb0b788379d0138ee3dd6d5c818ed102b5c452ab4e268d67"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-11.png",
+          "sha256": "eaa00e56576221cc2365f3ce54d13e227240242641cc0f3cee98791cc7d1b49e"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-12.png",
+          "sha256": "615641ddc4c81b77a1c7959d76eaf5530625f845e358e14395284ec06743bdd9"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-13.png",
+          "sha256": "8010c2b0e899bab163bf1a6e8771251ff75dd7df29f81229016f682cde0867e2"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-14.png",
+          "sha256": "8b6163cc7765201f95bac72c86451a2d93fa064ed9ebb6e2ffd6a805c5840347"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-15.png",
+          "sha256": "4155178569600d5d1244f28e38cb961f19032ee5698097fd6ca9f111fe2e9b28"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-16.png",
+          "sha256": "ffcdd0e48599b26726c47b16d4d24bd8ea158fd8d2ae12b80070eedeac03e6ce"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-17.png",
+          "sha256": "b11e52b1df95fb086d396ac4626910ddca4e0f26b0514f639d5d9d3d86b27443"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-18.png",
+          "sha256": "3883983eacf1eb2a6a7ffb67c7663808e975d40dd145f48c9eb588063a9076f3"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_en/page-19.png",
+          "sha256": "8e2a725d2d7442359b2b9911c56a631cfbe7408269d2931d8fcaa516b905df0b"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_en_01.jpg",
+          "sha256": "a643b8d512265c8af9c168ea5fe8bd1760766de2d8576f72d19c9577680468ac",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_en_02.jpg",
+          "sha256": "0749db129282262a1c961a75eff61f62bddb5f73073ac27590b86e1149843349",
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_en_03.jpg",
+          "sha256": "81559154eaf4e6b43118cf1dcd04651cf6b2bae7e7511ae7b0636703e4edc514",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_en_04.jpg",
+          "sha256": "418ae36dc8a0105d7387bed3f8492b0d6cf45110f5d639f210ca73ec9cc99d5a",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_en_05.jpg",
+          "sha256": "103445f4619007763b73d200ae7d756fbcac7e046becb9535944cdca7f7252a7",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "clipping_overlap_or_missing_content_observed": false
+    },
+    "v1_es": {
+      "pdf": "output/pdf/voice_variants/v1_es.pdf",
+      "sha256": "7baa939a9b6cda3b33de067146b569d069825a14e6d2f404d92b672fcb64b8ac",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "rendered_pages": [
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-01.png",
+          "sha256": "bab933da02b6a3048d69e1a07595a62a893ea5fd2241d6310021c920755bd4a4"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-02.png",
+          "sha256": "41a44a3de99d4ce11c27d91bd72631815ddc09226b97512a68843e49cb927386"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-03.png",
+          "sha256": "f6b56152ed2cdcc955c0d696a37ebf36cbd8c797b2ff6767a2c988b17dbf90c3"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-04.png",
+          "sha256": "6e10a32dbeb860d522f8d8626bfa232c4014626a99e02cff911b1e44eb6c7d09"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-05.png",
+          "sha256": "70e78968ed7af21030aa8cc3c5852c2abb794405fa7a4119ad95fd41f99953da"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-06.png",
+          "sha256": "2aa6be95860e96b2796f909d2c5cd141c591bf5f8ab25c554a8daf8d2a1695be"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-07.png",
+          "sha256": "b3c6b262c12386cfb06bbd66a4bbafae6f2d828d60c8ff2ba29e961be4e83da3"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-08.png",
+          "sha256": "3b85e514880808915bc14bd168ef86b170ec2abc8eed548e520786dd186f4e23"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-09.png",
+          "sha256": "041b26a44dd3b145b7b5369f4eeaa32e3ca8036fa51e8971eab1a09c01d22d1f"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-10.png",
+          "sha256": "9e5f9d26fa06a90dce0899e4cfd4419159f3188e58e6d74bda65d74002b6422a"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-11.png",
+          "sha256": "e14aad14e15ca6778a7a346b92adbda7a521630dee02fe487029a84f89b5a613"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-12.png",
+          "sha256": "7ccd20bfc9e4311dd8d62620ba1ae7a818cbeea8d3258d0e3cd875cbaf0f8480"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-13.png",
+          "sha256": "5fe8346d2f4686003d69bcc0794f7af012e15f5769d5ee061f865c58713506bc"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-14.png",
+          "sha256": "c3efa3a9e8b2de0a459d4d05bdd1596e4dc9d875d865771b7b7689a08cc00c6d"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-15.png",
+          "sha256": "615ba32b8d3259495a4190fa544ec35431e439897174c720cf8e572996188e74"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-16.png",
+          "sha256": "f349e85ce502309e32b557991e44c8c384458fbd79a35ffba5b094e5d35ce57d"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-17.png",
+          "sha256": "f102abde1386390906a72acdf28d6b1a7a93dbbba460ba9c9e775d6f5157b840"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-18.png",
+          "sha256": "6008b3c628e9d84b993036d2521780666139ae91207b88ec2291013894a76fb1"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-19.png",
+          "sha256": "66bee354d53427488c58f79b66cd43ff374cd4da7e47471ed4ab8370e9d17a48"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-20.png",
+          "sha256": "576976783fef5a9258bbc3056b268c16bad6b066ba71ca68fbb70532c512933c"
+        },
+        {
+          "path": "tmp/pdfs/voices/v1_es/page-21.png",
+          "sha256": "be4b80ae21ade78b2569b705e4b22e2396de5aaa65c015e17490fa7ee5e34f30"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_es_01.jpg",
+          "sha256": "3264100da1ba838e4b0d86f587a088778de2d2cca01da17d5cd5da02f892e6a0",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_es_02.jpg",
+          "sha256": "1e3d036ef69634eb0d056bede101bc99f8d28bcf13872f0dedb42faf4a87f2a3",
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_es_03.jpg",
+          "sha256": "8b257241f499f00b115dfde8d66c6e3b6e2b96be814cf629aeee3e2e38157744",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_es_04.jpg",
+          "sha256": "1ae3c6c5d4df8de3e5ca225a8f510d716c2920a76387e904617f4a05326fd26e",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_es_05.jpg",
+          "sha256": "d561dbdc82301ad3d63d66495a0b2daf86188fde66b1dc14589b6dc081b5899f",
+          "pages": [
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v1_es_06.jpg",
+          "sha256": "4b9bcefd44a5fb7f2f2500298509ba0a5f985fa811db6ea61bdfe340a865d425",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "clipping_overlap_or_missing_content_observed": false
+    },
+    "v2_en": {
+      "pdf": "output/pdf/voice_variants/v2_en.pdf",
+      "sha256": "076283b5e4e87d1a5112d4f1078c5e24e6190554d8b260caa2a670162749210a",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "rendered_pages": [
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-01.png",
+          "sha256": "53c216d10dd7bcd7e7697b1176444197e199c7f080a00de096926ef9e145ca75"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-02.png",
+          "sha256": "c040a72dedb30d0dca6d84991cb00a12cdd5a3cd5a256441eb35029b2e409e25"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-03.png",
+          "sha256": "4410986bc5640bccc955a400d342f46a0efa279d35bb84ff298da1e193b0dc89"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-04.png",
+          "sha256": "ed231d4dd44b63033c8ff45934d93d19ad2f1e55791f9a7898439ff5246f3d27"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-05.png",
+          "sha256": "a10a4681bce03eadd305b3d9a50ec176710ddea93a4972870077ec0d39c4c6a0"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-06.png",
+          "sha256": "e0d4df75b286bdc284915e8745f62bd76bc7713d7dd07692fb409cff31040386"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-07.png",
+          "sha256": "b6787458564036faa1a6ccf48b06719727bb409c9957e743ba7072d2e5b1d4ab"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-08.png",
+          "sha256": "70e84ff733ab32a58519da524f40e7afbf9b5f391bbeb5407763007282a86eb3"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-09.png",
+          "sha256": "a06a3769c39065ac751d1e1f048cad7ca0f83bce3669e2b4ba53319c6e0c4b2f"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-10.png",
+          "sha256": "7371ef06f8d2a37c4168b262bc32507718e5a5c12d134b9ea6d07885c302742d"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-11.png",
+          "sha256": "88924ddf9e82994abd0df57a0564fd291e6673212e73f365ab4da4d49a407fe1"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-12.png",
+          "sha256": "fd83fd777821b8242c94e7352a91cf0b50070178176d180ed0341c77bfbca720"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-13.png",
+          "sha256": "786eea9f8b239fa2add5cc43a13a47efa2a2e734c556902a67b48cbaee1aab4a"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-14.png",
+          "sha256": "b4955903e41e28d85b0ba1d77caf27739fa60de9bceb34746e12334b7936325a"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-15.png",
+          "sha256": "7b20226aa754c20af3716db6dff538d16a7e587005d7526783affd8c4b49b2f7"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-16.png",
+          "sha256": "343c4ec651c4100d0ab2d8c65496a32872486a49724e893b8e2e6698b225b820"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-17.png",
+          "sha256": "9148fe52cc5316b87224bb6c9f8e14423ca08c9552e0febfc974607e85fe0247"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-18.png",
+          "sha256": "d573b32d6940033d1d81013fa5a638359f66c1267fe72b8715c4f78787eafa5f"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_en/page-19.png",
+          "sha256": "2f21300f8da9d86c6fde861cf3a58212dd7332b8571db2756a30779b5ddb3ffb"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_en_01.jpg",
+          "sha256": "36cc3a84316860674ef10a668885d9cc30e0b37f7d5b7caf0833c3b1fa7d30ea",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_en_02.jpg",
+          "sha256": "947e6577d7d4f5ce1d5ba0a08ff22722b6b48a4cee22964321c8a01581ed4403",
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_en_03.jpg",
+          "sha256": "78bdc36a74aff6f2a4fb5e596bdb1e372549430dad2404c26fccdc6f9893917e",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_en_04.jpg",
+          "sha256": "000a6904df42076f3f5b60bbbf434ffec9a19658ba8e32426b56929654d6c522",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_en_05.jpg",
+          "sha256": "f116c2100a95d4017fbece1d62dcb32ac54d4d205cb51e7d184483ceadad68ed",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "clipping_overlap_or_missing_content_observed": false
+    },
+    "v2_es": {
+      "pdf": "output/pdf/voice_variants/v2_es.pdf",
+      "sha256": "e9dd8e5c9ae36b5de8c4b67ed0647022c183e7991737a97bb0778514f60e81f8",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "rendered_pages": [
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-01.png",
+          "sha256": "fc127ff8dd083feb76e039402fc1d8761a29b583b29d9a065887c5b4ba32cf7e"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-02.png",
+          "sha256": "4e1192cb1a8514ee59fa5461a8bd526d3d8157804415e49db8a0f54d6ddb48b1"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-03.png",
+          "sha256": "7d9c3b32b747dafe80688c36d5c6ff15166d99d333b9e1d06ba987c2313c7e98"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-04.png",
+          "sha256": "fab22e928b63d0eb85727e3c2a65420087fe003368cc356dab1304831b2facb4"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-05.png",
+          "sha256": "6867e4cca4a74ff6abb9221e23f01167102b07fcb841207ed6c38a48cc279524"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-06.png",
+          "sha256": "7bb3ed5786084215be87beec3ddf3f44a28d583dcaa5f25d9894559b0106d1ca"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-07.png",
+          "sha256": "bcb6fbbd25424b2cb5e0c3c3955fad5a357dd757522d92ad0059128fe4d7a40f"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-08.png",
+          "sha256": "d7e9603a54cbbf49a7ade90f54d8b2ac48e4fe8b32ba210b8f179194b1f533b4"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-09.png",
+          "sha256": "3e591738982b604b32acb469c7f917276653fd4768b6e18eaf626303b270a22a"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-10.png",
+          "sha256": "2c20a33a2d4566f1eede0f16e00aaa11ba356c65fb81d0a721eadb6998ff96d2"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-11.png",
+          "sha256": "4f0a1eacc0d915177defd8f7e95050527728ccbe86f8099b3955f76678947396"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-12.png",
+          "sha256": "3eba6a3b7eb18b1dd8112d14be6b592769794bf24570115e6ac66e8153de5298"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-13.png",
+          "sha256": "943261b1ce01a3a270c44d3d0d9e29ed78e9372c6840e76dfc0e62c054158381"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-14.png",
+          "sha256": "1c3f43c87c7397167f721303e3177b96894c384f5a6533e477583205fbba3e10"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-15.png",
+          "sha256": "e4f28c7205e173273cb0e3de3efbe30717d8bd0f7b30b3aeea1bc2213d1f6c66"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-16.png",
+          "sha256": "6b00ca028aa521fefab71d51b7aaca02f2579d28b82d13adce19e7a77776dba4"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-17.png",
+          "sha256": "1e911017772a11da371bd87803da73a86a5b91dfc1cfa0fa50856b6191a02396"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-18.png",
+          "sha256": "5e878eb69bb307cac2fc707b2cc4cc68f7e2faff20eec0fe1d5a3975a0127068"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-19.png",
+          "sha256": "de4fb0934b9086d6ad52f5a9051ca701b70a073e8a6e40e40be5d93efd2ce3f8"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-20.png",
+          "sha256": "46e1f263132cd8263a154db1c361b4a44561364daa0733fc8b211bee037520f8"
+        },
+        {
+          "path": "tmp/pdfs/voices/v2_es/page-21.png",
+          "sha256": "4c3ddf7e2305b117ea8de740a916b246607b8a3d6a9095ec839dcccc5e8d7992"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_es_01.jpg",
+          "sha256": "9c1b27f1f8f8f23b27f475d513701626caeae25724ca99bab9fc556715090738",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_es_02.jpg",
+          "sha256": "433ab2b8fb5c8e83d079d3f976cdc166eed399f7fe905ae9cc5c348ede5c2876",
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_es_03.jpg",
+          "sha256": "9c5e35a8d992cd6ce2a59b84f7b81d63b9cc549a53d0e790dae930d3005f758d",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_es_04.jpg",
+          "sha256": "16c2c470adcdaa5fbd190b944432d9fef0b5559560ef4fe8f2e3aeb54d68ea74",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_es_05.jpg",
+          "sha256": "eafee3b8d75d9b9f68368f0564aba0e621271299a56578bcac454f459bb29dde",
+          "pages": [
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v2_es_06.jpg",
+          "sha256": "a39e2f14a15343d102d4fea19925e4448d8ce6ed988d3c4d82ae70e873328ea7",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "clipping_overlap_or_missing_content_observed": false
+    },
+    "v3_en": {
+      "pdf": "output/pdf/voice_variants/v3_en.pdf",
+      "sha256": "3bfa7012bc825d324aa44abd0b259a1c86364ac5a67f7a45691055ece3e5c6ec",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "rendered_pages": [
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-01.png",
+          "sha256": "fdb39378d9330aa613f12af2ba9403e3d91c9877108b849968a19e1ec8555f1c"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-02.png",
+          "sha256": "5ec631ceadee901e2796aae4456f291e8e1a86a6e07a181af2ff0341f05b97ed"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-03.png",
+          "sha256": "e9832d9024247a05e29267ab067ec4c10ee6cad6634ed6f4a0cd23631b8a06de"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-04.png",
+          "sha256": "4a837478ee080bbfefd2320c59c5e8123233d88480f08e0d1c24fb34a03b4b65"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-05.png",
+          "sha256": "e65e418164caba9ca4b01bd4682a97ba6ff580a7448c41d6423ca12788a6295b"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-06.png",
+          "sha256": "9b12da2f8caf07dda9250eea143f7bc6592113ce865b8b2fd8c6f49e9fcf0b69"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-07.png",
+          "sha256": "e05feaaa1246e4e60c0b31bfc1549e8ab43369fda77e513d45dedb426e16be22"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-08.png",
+          "sha256": "30577bd4b198ad2912a601b99fc6d079634a8870f7eca0e373becce773dc60b2"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-09.png",
+          "sha256": "9b3ccf140df8b90ab4d5086abbbe26d1e5b86c7f8f67b90f2e48c5c9775b7dad"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-10.png",
+          "sha256": "aa6c8b1ea524b23fdc61437666c1d60a467b2e593dcb08a1e7b30a4e6b791410"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-11.png",
+          "sha256": "37ba3452c36b031d6d665b30a7f1998fac874963a43ebe39710b0e9b9fc3dac3"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-12.png",
+          "sha256": "f1fa6aa07b18373ef3f76b85deca9bf9e1caa8b0cc5fe4d1ae67d6499ceb0e7b"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-13.png",
+          "sha256": "aa120acef188d76b943947bdd6967e11eb6b597182541e8668a3f5c9cb5dd782"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-14.png",
+          "sha256": "c8acbd17bde9cfc6d3bcaab6f74a02a3451e5a03eb755a2aa639935fd60cfb74"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-15.png",
+          "sha256": "b70dc53a1bd00bac41ea20cce7970e74713f0b5651f92a6e58b33c4b13af0977"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-16.png",
+          "sha256": "f9fa159ca00183cf37a19789acd9f524cb1f4b96e787ebcd96ca8f07e814d4b5"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-17.png",
+          "sha256": "6a651a1bf715421e27b613963cfad5cdee1a95dfdc9ca61d42f00ffb04754b11"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-18.png",
+          "sha256": "c25eb0fad82540cac562f480f0b29f7f7dfa61871edfc3129103a88b0ce5d5aa"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_en/page-19.png",
+          "sha256": "841949e84d1992977a8978f95b666c9107a10b59d2327437b563dd1a0a749e7d"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_en_01.jpg",
+          "sha256": "f62474ef1fe729f4047955ecc0113723e6ae3983293275f8fed0d145878d1f2b",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_en_02.jpg",
+          "sha256": "1179a585f9a522c5f3cfc9b28ecfb44077a0e3c17f55c90ea141afa159b3bd72",
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_en_03.jpg",
+          "sha256": "9411458bdef4cd377cfab537e47cd1046f35384bcd7b37195cf59100e1c157b5",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_en_04.jpg",
+          "sha256": "9c3898e675b714afd30bd68dd51be371e9b386500fb396c062a4fb1166109c83",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_en_05.jpg",
+          "sha256": "bb80beb518db79d1cd35d0be1cb43ff995faed03fed69cab11da051b3cf5bdb3",
+          "pages": [
+            17,
+            18,
+            19
+          ]
+        }
+      ],
+      "clipping_overlap_or_missing_content_observed": false
+    },
+    "v3_es": {
+      "pdf": "output/pdf/voice_variants/v3_es.pdf",
+      "sha256": "1a6ebbcf9d0860b2c1f69ebdb5b6ae9684d37132579e5f7218e10e5f47941f06",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "rendered_pages": [
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-01.png",
+          "sha256": "cfe6466d85c70d3cc3c89a74d9d0d75a7663c34219ef18ce94b4c922dbd8f08e"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-02.png",
+          "sha256": "0fcfdf3ee84bd8ddbae6471024aaad587f5d3855f521b9829924c5f660e4ea89"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-03.png",
+          "sha256": "f830a7e8f0a5ffc481c063d2c7de83179a7d73f4bd5cae08250ad59772e4c0db"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-04.png",
+          "sha256": "d5730d4ab9c33991126ba6c35ac160bbdbe3bfb6c1c461cb01df3792ce4633be"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-05.png",
+          "sha256": "526153cff5749673f934a0b96466bb3b7b57eb3c9bfd224872e1f6ecb8bedbe9"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-06.png",
+          "sha256": "df2b1062cc130d218f94de5a797b203ae42f8c9eeccc5136a00fab32ab58a63c"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-07.png",
+          "sha256": "e639f5849582c06d3b7ee1f365158b471110af3425a42da45493b3115a278650"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-08.png",
+          "sha256": "059102f4c7dfbff90e2e8219da07f736734833c3e0380cbd63eec4b989b5705c"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-09.png",
+          "sha256": "6a6e89a89464c5a96b08a0932a30ec9fa73111e16b0ea3e501538ad8fad6e0f1"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-10.png",
+          "sha256": "3f1a2898291d97a459921167ce0d9b374ecd0c86452f74aa39928b4111114889"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-11.png",
+          "sha256": "6c0fe3ec66b5d887f95d53c2942b72e9c66d5b111670014f2660d06526d6dbc4"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-12.png",
+          "sha256": "f9220c8fc9fc6b9312435ff49436f3e3da6daf501d9b1f21b1dcd4665a70fa2b"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-13.png",
+          "sha256": "35ab9c0d1620c80a3cdf7fb1e26bc135dc9cd19482f60c68ff561e6699344428"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-14.png",
+          "sha256": "52fe553c8577ee7afbab92c017a20ba98704a9331d6bc3560f2993425b601328"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-15.png",
+          "sha256": "fad9df23f4f0a6412dd02d3c9e54d2ed4c7387163bc35825f5684c09758c3b2f"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-16.png",
+          "sha256": "415917847fa4e7f8cba162808fea72ac6a6a70add52df16c90fbf050d0901af1"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-17.png",
+          "sha256": "2be8770e427460ec868c41f24bbc3fe64f55562df0c2644e7377fe3977df4106"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-18.png",
+          "sha256": "d93e8b10b0a3631569358890e8f032e4bab2ad181f05614563d681ef1cb6dfc6"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-19.png",
+          "sha256": "6aaee0c1f0a35e5f31d81c9c3a42aff0bf2b84df697946e9b3e8ad6485346c5e"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-20.png",
+          "sha256": "11bf29bfb3560f8d1abb2ab20d4c1c57ab58330bb1fc995e44241cc175ce3465"
+        },
+        {
+          "path": "tmp/pdfs/voices/v3_es/page-21.png",
+          "sha256": "02e289fbeeabf8a18d20d4f17ef9aeab93363a1fb6c6bb6c52f858f470c5b2f7"
+        }
+      ],
+      "contact_sheets": [
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_es_01.jpg",
+          "sha256": "321b7441f6d4f0f0e41acb9cce55744967c8af4930df9335cca170ad8a743b57",
+          "pages": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_es_02.jpg",
+          "sha256": "35987c4d69ebeffee8df6f73263f660b6c14e13ee19f515a32e2a9c4302dc395",
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_es_03.jpg",
+          "sha256": "5b6a1a6e20bb0173e8d7f50d18426ee713840c0c583a70c4354461d6fdd41f90",
+          "pages": [
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_es_04.jpg",
+          "sha256": "47c4906c18969b39e63ad71a46046d303b8bdf1bd6c10c9977ad6ffb041d394e",
+          "pages": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_es_05.jpg",
+          "sha256": "5b580462b27fe793e8c825441eded4d0e6cc92e8d4b3106678e152134e061b2f",
+          "pages": [
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "path": "tmp/pdfs/voices/sheets/v3_es_06.jpg",
+          "sha256": "42219ad40cf05b2a0a64a539e9f537aec0ed7d96ea31dc9d842fb4e451812dac",
+          "pages": [
+            21
+          ]
+        }
+      ],
+      "clipping_overlap_or_missing_content_observed": false
+    }
+  },
+  "total_pages_reviewed": 120,
+  "layout_notes": [
+    "Spanish table notes can continue on the following page as text length changes; no content or table rows are missing.",
+    "Shared table row spacing, vertically centred model cells, and descriptive ranges in Figure 1B are preserved."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "spanish_table_export_exact_match": {
+    "S01.tex": true,
+    "S15.tex": true,
+    "S14.tex": true,
+    "S16.tex": true,
+    "S02.tex": true,
+    "S03.tex": true,
+    "S17.tex": true,
+    "S13.tex": true,
+    "S07.tex": true,
+    "S06.tex": true,
+    "S12.tex": true,
+    "S04.tex": true,
+    "S10.tex": true,
+    "S11.tex": true,
+    "S05.tex": true,
+    "T02.tex": true,
+    "T01.tex": true,
+    "S08.tex": true,
+    "S09.tex": true
+  },
+  "csv_files_unchanged": true,
+  "canonical_manuscript_not_overwritten_by_test": true,
+  "temporary_directory": "/Users/alejandrotreny/Documents/ChatGPT/Shape of Science Robustness/tmp/pdfs/clarity_table_export_02xustlm",
+  "english_main_tables_export_exact_match": {
+    "T01": true,
+    "T02": true
+  }
+}

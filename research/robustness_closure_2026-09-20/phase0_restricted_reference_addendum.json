@@ -1,0 +1,126 @@
+{
+  "finding": "The historical restricted 26-Subfield random reference selected 26 centres from assignments shuffled across all 217 Subfields. Its article pool was not the same as its 26 observed centres. Counts and periods were preserved; model correspondence was matched. The new nested control permutes exactly the articles in its 26 observed groups.",
+  "classification": "Provenance clarification; original implementation followed its saved code. No parent results changed. New protocol already requires the matched pool.",
+  "records": [
+    {
+      "repeat": 0,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 803
+    },
+    {
+      "repeat": 1,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 800
+    },
+    {
+      "repeat": 2,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 783
+    },
+    {
+      "repeat": 3,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 807
+    },
+    {
+      "repeat": 4,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 832
+    },
+    {
+      "repeat": 5,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 802
+    },
+    {
+      "repeat": 6,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 805
+    },
+    {
+      "repeat": 7,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 810
+    },
+    {
+      "repeat": 8,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 835
+    },
+    {
+      "repeat": 9,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 781
+    },
+    {
+      "repeat": 10,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 787
+    },
+    {
+      "repeat": 11,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 831
+    },
+    {
+      "repeat": 12,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 810
+    },
+    {
+      "repeat": 13,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 802
+    },
+    {
+      "repeat": 14,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 789
+    },
+    {
+      "repeat": 15,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 808
+    },
+    {
+      "repeat": 16,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 808
+    },
+    {
+      "repeat": 17,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 808
+    },
+    {
+      "repeat": 18,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 763
+    },
+    {
+      "repeat": 19,
+      "observed_articles": 6656,
+      "reference_articles": 6656,
+      "shared_articles": 762
+    }
+  ]
+}

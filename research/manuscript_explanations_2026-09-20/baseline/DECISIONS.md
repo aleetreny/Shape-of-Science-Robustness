@@ -1,0 +1,417 @@
+# Decisiones y preguntas pendientes
+
+**Revisión editorial posterior, 20-09-2026:** abstract aclarado en ambos idiomas por petición del autor. Se conserva su comienzo y se explican disciplinas, centros, texto de entrada y comparación angular. Inglés: 200 palabras; español para revisión: 235. Cuerpo y suplemento intactos. Registro: [ABSTRACT_CLARITY.md](ABSTRACT_CLARITY.md). El cierre científico sigue vigente; aprobación personal pendiente.
+
+Este es el registro principal para retomar el proyecto. Actualizado: 2026-09-20.
+
+**Cierre vigente, 20-09-2026:** controles finales terminados y congelados; [informe para el autor](ROBUSTNESS_CLOSURE_REPORT.md) y [cambios del manuscrito](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md). El tono claro está aceptado. La revisión personal del contenido sigue pendiente.
+
+**Estado anterior:** V2 elegida por el autor y reescritura clara terminada en ambos idiomas; entrega en `MANUSCRIPT_CLARITY.md`. La elección de voz está cerrada y la aprobación personal del contenido sigue pendiente. Las secciones anteriores conservan la cronología, no reabren decisiones cerradas.
+
+## Comparación de forma y vecinos terminada: decisiones delegadas vigentes, 17-09-2026
+
+La petición nueva del usuario aprueba forma y luego vecinos y delega las cuestiones científicas de esta fase. Sustituye los estados previos de propuesta pendiente. Protocolo fijado antes de inspeccionar acuerdos: `ANALYSIS_PROTOCOL.md` y `config/analysis_v1.json`.
+
+- Principal: CKA lineal corregida por tamaño, con Procrustes angular y RSA de rangos como comprobaciones. No prometer una medida universalmente superior. Usar todas las filas por Field/período y solo la base de 400.000 para el resultado proporcional global.
+- Vectores de longitud igual; media como regla común para los cuatro BERT, con originales/CLS/SEP como controles. Estabilidad por selección, calidad, composición y familias fijada por escrito.
+- MiniLM: no hay error en el límite habitual de 256. Se calcula una variante de 512 en una salida separada, como control de longitud; el original queda como principal. Se reutilizan vectores únicamente cuando texto y operación efectiva son idénticos.
+- Control común: 52.000 IDs elegidos sin consultar acuerdos, 400 por área/período. Interpretación principal por Field con 2.000 artículos, cinco períodos de igual peso. El presupuesto debe contrastarse con estabilidad; no se afirma suficiencia universal.
+- Vecinos: exactos dentro de cada área/período para los 500.000, principal k=25 con k=10/50 como controles; además 13.000 consultas contra la base general de 400.000. Excluir el propio artículo, controlar azar, empates y precisión.
+
+Los motivos, limitaciones, fuentes y presentación prevista están en el protocolo. Sigue fuera del alcance publicar/enviar el paper, cambiar el TFM o afirmar prioridad sin una revisión adicional. La ejecución y auditoría terminaron el 17-09-2026 a las 10:19 de Madrid. Resultados: `ANALYSIS_RESULTS.md`; entrega numérica: `reports/analysis_v1/final/`.
+
+## Historial: revisión técnica terminada, antes de la delegación del 17-09-2026
+
+Los diez modelos terminaron a las 06:29 de Madrid. Revisión completa de archivos, filas, textos, versiones y pruebas técnicas aprobada; `EMBEDDINGS_AUDIT.md` conserva los límites. Se organizaron los resultados mediante catálogo e índice separado, sin mover originales. `sos_analysis/` permite leer los mismos artículos en bloques; ocho pruebas y lectura de las 18 variantes aprobadas.
+
+Es ejecución técnica de la petición del 16-09, **no una nueva decisión científica delegada**. Se documenta la propuesta de comparar forma general + vecinos en `ANALYSIS_PROPOSAL.md`; sigue sin aceptar. El tamaño científico del control, medidas, normalización, salida principal de los cuatro BERT y reglas de estabilidad/calidad permanecen abiertos. No se iniciaron comparaciones científicas. El seguimiento temporal está pausado y comprobado; la antigua automatización OpenAlex también permanece pausada. Evidencia: `research/embedding_final_audit_2026-09-17/automation_closed.json`.
+
+## Seguimiento y revisión final solicitados, 16-09-2026
+
+El usuario pide comprobar el progreso y programar una revisión al acabar, organizar datos y dejar preparada la fase siguiente. Autoriza seguimiento temporal del hilo y organización técnica, sin cambiar el cálculo en marcha ni delegar todas las decisiones científicas abiertas. Plan de revisión: `POST_EMBEDDING_REVIEW.md`. Primera comprobación prevista dentro de cinco horas; si sigue activo, continuar con comprobaciones espaciadas hasta poder auditarlo. La hora estimada de finalización se recalcula a partir del avance, no de la suposición inicial de cinco horas.
+
+## Decidido por el usuario
+
+| Fecha | Decisión | Motivo |
+| --- | --- | --- |
+| 2026-09-14 | Estudiar cuánto cambia la forma de la ciencia al cambiar el modelo que representa los papers. | Pregunta del nuevo paper. |
+| 2026-09-14 | Usar los 26 Fields como unidad principal. | Corrección explícita del usuario respecto a los Subfields. |
+| 2026-09-14 | Explicar todo de forma muy sencilla, breve y con analogías cuando ayuden. | Las respuestas técnicas anteriores no se entendían. Regla general en `AGENTS.md`. |
+| 2026-09-14 | Mantener un registro escrito de decisiones, dudas, resultados y siguiente paso. | Poder continuar con otras personas y en otros chats. |
+| 2026-09-14 | El diseño puede necesitar ampliar OpenAlex; los datos existentes no son un techo. | El usuario permite plantear una extracción mayor si hace falta. |
+| 2026-09-14 | Conservar el proyecto anterior sin cambios. | Reutilizarlo como referencia. |
+| 2026-09-14 | El asistente decide cuestiones científicas solo cuando se le delegan explícitamente; en ese caso decide y justifica después. En los demás casos presenta opciones y pregunta antes de cerrar la decisión. | Control del usuario, con autonomía dentro del alcance delegado. Regla en `AGENTS.md`. |
+| 2026-09-14 | Priorizar solidez científica y decisiones defendibles ante revisores, con QSS como objetivo inicial. | Petición explícita del usuario; no supone garantizar aceptación editorial. |
+| 2026-09-14 | Delegar ahora tamaño y reparto del corpus de preparación, con pruebas acotadas en el M5 Pro/48 GB. | Equilibrar representatividad, número de modelos, tiempo de extracción y cómputo. No es una delegación general de decisiones futuras. |
+| 2026-09-15 | Preparar y probar el programa; el usuario inicia la descarga completa desde su terminal. | Sustituye la petición inmediatamente anterior de arrancarla desde este chat. Quiere consultar el avance cuando vuelva; no pide seguimiento automático. |
+| 2026-09-15 | Comparar más de cuatro modelos y priorizar los usados en trabajos académicos para mapear ciencia. | Peticiones «Quiero más de 4» y «mira los que se suelen usar […] para este propósito». Sustituye el criterio de variedad general como prioridad de selección; no aprueba nombres concretos ni inicia modelos. |
+
+## Elección posterior del usuario: diez modelos, 15-09-2026
+
+«Los 10. Vamos hazlo perfecto» elige los ocho de `MODEL_SELECTION.md` más BioBERT y SimCSE. Lista: SPECTER original, SPECTER2, SciNCL, SciBERT, BERT, all-mpnet-base-v2, all-MiniLM-L6-v2, PubMedBERT/BiomedBERT abstract-fulltext, BioBERT v1.1 y SimCSE no supervisado BERT-base-uncased. Sustituye la pregunta ocho/diez. TF-IDF y paraphrase-MPNet no están incluidos.
+
+Se prepara un programa reanudable y una prueba técnica sobre la tabla ya congelada. Se fijan revisiones oficiales sin entrenar ni elegir modelos según sus resultados. El usuario responde y acepta **uso habitual + control de fragmento común**. Después pide dejar un comando y una estimación: **él iniciará el cálculo completo; el asistente solo hace las pruebas acotadas necesarias**. No se cierran medidas finales, normalización ni el resumen principal de las representaciones de palabras de los cuatro BERT sin ajuste para similitud. Se conservan varias salidas de la misma pasada para no repetir horas de cálculo; no se cuentan como modelos independientes.
+
+## Decidido por el asistente dentro de la delegación sobre el corpus
+
+Protocolo vigente: **`CORPUS_PROTOCOL.md`**, 14-09-2026.
+
+| Decisión | Justificación y alcance |
+| --- | --- |
+| Preparar **500.000 trabajos válidos con IDs distintos**. | Presupuesto de preparación basado en cobertura y medidas reales de tiempo/memoria; no garantía universal de precisión para todas las métricas. |
+| **400.000** en una selección aleatoria global tras filtros; **100.000** de complemento. | Mantener una base proporcional y proteger comparaciones pequeñas sin limitar todas las áreas por la menor. |
+| Complemento automático a las celdas Field×período menos numerosas; cinco períodos de cinco años en 2000–2024. | Reparto explícito sin elegir 130 cuotas manuales. Proyección: mínimos cercanos a 2.200 por celda; cantidades finales tras la limpieza. |
+| Catálogo principal; artículos, revisiones y congresos; inglés; título no vacío y abstract reconstruible ≥50 palabras; sin retractados/paratext y con Field principal conocido. | Incluir vías importantes de publicación, conservar títulos cortos y reducir descartes desiguales por longitud. Marcar abstracts 50–79 para sensibilidad a ≥80. |
+| Excluir preprints de esta primera población. | Reducir la mezcla de versiones preliminares y publicadas; auditar posibles duplicados restantes. |
+| Conservar la separación entre base general y complemento en los análisis. | Los 500.000 juntos no tienen reparto proporcional. Conclusiones generales limitadas a la literatura que cumple los filtros. |
+| Reutilizar por ID y contenido comprobados, con versiones de modelos identificadas. | No incorporar el corpus antiguo por conveniencia ni mezclar embeddings de procedencia incierta. |
+
+Estas decisiones sustituyen las propuestas anteriores de reparto. **Extracción terminada el 15-09-2026: 400.000 base y 100.000 complemento. Limpieza y reposición autorizadas posteriormente; consultar el estado de ejecución y `CLEANING.md`.**
+
+## Propuestas que NO están aprobadas
+
+- 5.000 papers por Field y 200 por año: propuesta anterior cuestionada por el usuario y retirada como recomendación actual. Archivada en `research/FIELD_SAMPLING_initial_proposal.md`; no estaba justificada como tamaño final.
+- La segunda propuesta, sin tamaño cerrado, está archivada en `research/FIELD_SAMPLING_review_proposal.md`. Sustituida por la decisión delegada de 500.000; no confundir ambos estados.
+- El conjunto concreto de modelos, variantes de texto y tamaños de muestra del brief son un punto de partida; no tratarlos como protocolo cerrado.
+- Propuesta inicial de cuatro y ampliación provisional por diversidad a ocho: **sustituidas** por el criterio posterior del usuario de priorizar uso en mapas científicos. Historial en `research/MODEL_SELECTION_diversity_proposal.md`; nunca fueron aprobadas.
+- Propuesta tras revisión académica: ocho más BioBERT/SimCSE. **El usuario aceptó los diez después**; esa elección está registrada arriba. Evidencia y límites en `ACADEMIC_MODEL_USAGE.md` y `MODEL_SELECTION.md`.
+
+## Cierre de las decisiones delegadas, 17-09-2026
+
+Las medidas, normalización, recetas, texto común, calidad y referencias de vecinos ya se decidieron y ejecutaron. No volver a pedir esos acuerdos. La auditoría completa y la presentación están terminadas. Esta sección sustituye el estado previo «controles en curso».
+
+| Decisión dentro del alcance delegado | Evidencia y motivo | Límite |
+| --- | --- | --- |
+| Mantener el corpus actual, sin una nueva extracción general. | 5.800/5.850 comparaciones pasan la comprobación de selección; resultados principales con todas las filas y controles completos. | 50 alertas en 13 celdas permanecen visibles. No afirmar precisión poblacional ni interpretar diferencias pequeñas en ellas como firmes. |
+| Mantener MiniLM 256 como principal y 512 como control. | El límite original es el habitual del modelo, no un error. 512 reduce recortes de 49,58% a 6,87%; cambio medio de coincidencia con otros modelos +0,78 puntos. | Leer más no demuestra representar mejor; no convertirlo en un undécimo modelo. |
+| Usar tres vistas: relaciones entre áreas, organización interna y vecinos. | Correlación de rangos mediana 0,847 frente a 0,519; vecinos locales 30,3%, con 31,9% al igualar candidatos. | Distintos objetos y medidas; no son porcentajes intercambiables de acierto. |
+| Presentar la dependencia de modelo y receta; conservar media como principal. | Alternativas de receta cambian sustancialmente la forma; texto común mueve típicamente menos el acuerdo. | No seleccionar después la receta con mayor acuerdo ni llamar calidad al consenso. |
+| Añadir control de 2.048 candidatos iguales y recetas comunes. | Decidido antes de inspeccionar acuerdos de vecinos; el ajuste por azar no elimina todo el efecto del tamaño. | Es una comparación separada con menos candidatos, no reemplaza los 500.000. |
+| Comprobar centros con texto, calidad, recetas y grupos aleatorios. | Seguimiento posterior al primer resultado, con código separado; el acuerdo amplio persiste, con referencia aleatoria positiva alrededor de 0,60. | Declarar que son controles posteriores. No ocultar SPECTER–BERT, excepción a superar su referencia mediana con texto habitual. |
+| Seleccionar cuatro figuras principales y cuatro de suplemento. | `PAPER_OUTLINE.md`: niveles, parejas, áreas y recetas. Todas las tablas y controles disponibles. | Manuscrito y aportación bibliográfica por redactar; no prioridad absoluta ni aceptación garantizada. |
+
+La delegación termina con esta fase. No quedan preguntas necesarias para cerrar lo solicitado. El siguiente trabajo es convertir la evidencia en manuscrito, no ejecutar todas las ideas antiguas de `02_open_questions.md`. Una ampliación sustantiva, nuevos modelos, publicación de datos o envío a revista no se asumen autorizados por este cierre.
+
+
+## Estado de ejecución
+
+**Preparación y comparación científica terminadas y auditadas.** Los 500.000 artículos originales y los diez modelos se conservan intactos. `ANALYSIS_RESULTS.md` contiene la entrega; `ANALYSIS_PROTOCOL.md` sustituye la propuesta anterior. `task_plan.md` y `progress.md` registran el cierre. No repetir la descarga ni los diez cálculos principales. Las automatizaciones antiguas permanecen pausadas.
+
+## Detalles de ejecución dentro de la tarea autorizada, 15-09-2026
+
+- Conservar páginas completas antes de seleccionar y aplicar cada bloque de una sola vez. Mezclar reproduciblemente el bloque completo antes de conservar los primeros válidos necesarios; no depender del orden devuelto en las páginas.
+- Guardar semillas, fechas, orden dentro de página y de selección, descartes, configuración y huellas del programa. Un ID solo puede entrar una vez.
+- Comprobar todos los IDs ya guardados al reanudar un bloque incompleto; si cambian, pausar para revisión. Conservar los textos recibidos, con sus fechas. No afirmar que la API viva ofrece una instantánea global inmutable.
+- Ajustar el tamaño de los bloques del complemento a las plazas pendientes para ahorrar peticiones. Si un bloque no añade trabajos, ampliar progresivamente la petición hasta 10.000 candidatos. Solo declarar agotamiento cuando se recibe el conjunto completo, no por unos cuantos descartes. Sin esa evidencia, pausar tras 20 bloques vacíos y revisar, sin sustituir cuotas o población de forma silenciosa.
+- Mantener un índice local de IDs/huellas del TFM. Coincidencia de texto no equivale por sí sola a autorizar reutilizar un embedding sin comprobar su procedencia.
+
+Son detalles necesarios para ejecutar el protocolo ya decidido. No cambian el tamaño, el reparto, la población ni las decisiones científicas pendientes.
+
+## Supervisión solicitada después del arranque, 15-09-2026
+
+El usuario informa de 397.730 trabajos y pide permanecer supervisando hasta terminar, auditar si los datos sirven y dejar la fase siguiente preparada. Esta petición sustituye la ausencia anterior de seguimiento automático. Se configura seguimiento temporal del hilo cada cinco minutos, `auditar-descarga-openalex`, que debe desactivarse al concluir. No implica delegar modelos, medidas ni filtros nuevos, ni iniciar embeddings.
+
+## Cierre histórico de la auditoría, 15-09-2026
+
+El estado de aprobación de esta sección fue sustituido por la petición de limpieza que se registra a continuación. Las cifras describen el diagnóstico inicial, no todos los errores detectados después.
+
+- Terminada la descarga y la auditoría completa: 500.000 IDs únicos, 26 Fields, 130 celdas, mínimo 2.163 por celda. No se ha cambiado el tamaño o reparto científico.
+- Diagnóstico: 8.544 posibles abstracts fuera del inglés (5.122 con puntuación ≥0,9); 166 registros señalados por contenido de páginas/catálogos; 12 posibles avisos por título; duplicados documentados. Son alertas que pueden solaparse, no una regla de exclusión ya aprobada.
+- Propuesta sin aprobar: limpiar con reglas comunes y completar primero la base aleatoria, después recalcular el complemento. Alternativa: aceptar un tamaño menor tras limpiar y justificarlo. Las opciones están en `NEXT_STEPS.md`; preguntar antes de cerrar esa decisión.
+- No se eliminaron, tradujeron ni sustituyeron registros. No se iniciaron embeddings. Los 22.118 vectores antiguos candidatos requieren resolver procedencia y compatibilidad antes de su uso final.
+
+## Limpieza autorizada por el usuario, 15-09-2026
+
+La petición «sigue con limpieza […] aprovecha lo ya descargado o descarga más si lo necesitas» acepta realizar la limpieza y completar el objetivo 400.000+100.000. Sustituye el estado anterior de propuesta sin aprobar para esta fase y autoriza las descargas adicionales necesarias desde el asistente. Los originales se conservan. No implica elegir los modelos finales o iniciar su cálculo. El tratamiento de idiomas dudosos se ha consultado expresamente; reglas concretas y resultados se recogerán en `CLEANING.md`.
+
+### Ejecución conservadora de la limpieza autorizada
+
+Se consultó al usuario el tratamiento de idiomas dudosos. Mientras no se indique una criba más estricta, se mantiene el criterio recomendado: excluir solo alertas fuertes consistentes en el resumen completo y sus tres secciones; conservar el resto con marcas. Se comunicó este criterio antes de seleccionar. No se presenta el corte numérico como una garantía de acierto ni como exigencia de QSS. La posibilidad de una criba más estricta queda abierta para sensibilidad. Se conservan los duplicados entre IDs distintos como grupos marcados, según el protocolo original; no se cambia la unidad de selección ni se fusionan estudios.
+
+## Cierre de la preparación autorizada, 15-09-2026
+
+- Terminada la limpieza y reposición pedidas por el usuario, manteniendo 500.000 = 400.000+100.000. No se reabrió el tamaño ni se eligieron cuotas nuevas. Mínimo final: 2.165 por Field/período; 650 combinaciones Field/año presentes.
+- 5.776 registros originales apartados por calidad; otros 123 válidos no se reeligieron al recalcular el reparto. Se aprovecharon 5.889 candidatos sobrantes y diez de una única página adicional de 100 candidatos. Los 499.990 restantes proceden de las páginas originales.
+- Los casos ambiguos se conservan con marcas según el criterio conservador comunicado. La ausencia de respuesta a la pregunta no se registra como aprobación explícita de los umbrales. La petición sí autoriza implementar la limpieza; una criba más estricta sigue abierta para la fase de controles.
+- Reglas de contenido ampliadas al inspeccionar el corpus y aplicadas a todos los candidatos antes de embeddings. No son reglas registradas antes de observar los datos. Se corrige y documenta el fallo de aplicación a una página nueva; el archivo final pasó todas las comprobaciones.
+- Hay 22.118 vectores antiguos candidatos con textos idénticos, localizados y válidos numéricamente. Esto resuelve el número de coincidencias, pero no su procedencia exacta ni su aprobación para el paper.
+- Próxima decisión científica: conjunto final de modelos, versiones y formato de entrada. Se presentarán opciones al usuario salvo delegación expresa. No hay delegación general para iniciar experimentos.
+
+## Revisión del reparto y propuesta de modelos, 15-09-2026
+
+- Petición del usuario: identificar áreas/períodos débiles, valorar suficiencia y proporciones y preguntar por los modelos, considerando publicación y originalidad. Autoriza esta revisión; no delega cerrar el conjunto de modelos.
+- Comprobado directamente en el corpus final: las 130 combinaciones coinciden con los recuentos de limpieza. Mínimo 2.165 en 12 combinaciones; otras 68 tienen 2.166. Detalle en `CORPUS_BALANCE.md`. El refuerzo conserva los tamaños grandes y protege los pequeños; los porcentajes finales no son los porcentajes de la población.
+- Recomendación: mantener los 500.000 preparados y no ampliar ahora. No se cambia el tamaño previamente delegado ni se afirma suficiencia universal. La prueba anterior solo apoya comenzar; la estabilidad de nuevos modelos, áreas y medidas queda por comprobar.
+- Diagnóstico, sin aplicar exclusiones: al omitir hipotéticamente idioma dudoso o resúmenes de 50–79 palabras, Matemáticas 2000–2004 quedaría en 1.376. Señala dónde priorizar controles, no una nueva regla aceptada ni evidencia de que esos artículos sean inválidos.
+- Modelos, variantes, formatos y reglas de análisis siguen abiertos. Preguntas presentadas: mezcla ciencia/general frente a solo ciencia; cuatro propuestos frente a añadir SciNCL como quinto. Los motivos y la revisión de trabajos relacionados están en `MODEL_SELECTION.md`.
+- Originalidad propuesta: conclusiones sobre relaciones entre áreas y cambios temporales que resisten cambios de modelo, selección y entrada. La búsqueda dirigida identifica antecedentes; no demuestra prioridad. No se inició ningún modelo ni se cambiaron datos, filtros o cuotas.
+
+## Criterio académico para ampliar modelos, 15-09-2026
+
+- El usuario rechaza limitarse a cuatro y precisa que quiere cubrir los usados para mapear ciencia. Se investigan aplicaciones y comparaciones reales, separadas de popularidad comercial y de pruebas generales de recuperación.
+- Se contrastan diez trabajos: SPECTER y SciBERT aparecen en cinco cada uno; MPNet, MiniLM y BERT en tres; SciNCL en dos. Frecuencias por familia/estudio dentro de una revisión dirigida, no cuotas de uso de toda la comunidad. Hay variantes y niveles de acceso distintos, registrados en el informe.
+- Se recomienda cubrir esos seis comparadores recurrentes y añadir SPECTER2 por su antecedente reciente/continuidad del TFM y PubMedBERT por el mapa biomédico completo. Estos dos tienen un antecedente cada uno en la revisión: no se presentan como igualmente habituales.
+- Más de cuatro y el criterio de antecedentes quedan aceptados por instrucción directa. El grupo exacto de ocho/diez, el control TF-IDF y las recetas siguen como propuestas. No se considera delegación general ni autorización para calcular.
+- Corregida una atribución bibliográfica: el DOI qss_a_00168 no corresponde a Lamers. Se usa el registro ISSI comprobado. SemCSE-Multi tiene publicación ACL 2026; la revisión previa solo había localizado el preprint.
+
+## Comparación científica delegada, 17-09-2026
+
+El usuario autoriza continuar con la comparación de la forma y después de los vecinos, delegando las cuestiones pendientes de esta fase con criterio de solidez para QSS. Autoriza investigar medidas más robustas, ejecutar las comparaciones, inspeccionar resultados y preparar su presentación. Pide diagnosticar el recorte de MiniLM y corregir/recalcular si procede. Esta petición sustituye las restricciones previas de solo preparación y de esperar nuevas respuestas para esas decisiones. Se decidirán y documentarán medidas, recetas, controles y presupuesto antes de inspeccionar acuerdos. Conservar las salidas congeladas; cualquier corrección o variante nueva irá en una salida separada. No implica publicación, envío a revista ni cambios al TFM.
+
+## Ampliación delegada mediante checklist, 17-09-2026
+
+El usuario pide ejecutar el piloto título/resumen/ambos, comparar entrada frente a modelo, cerrar la receta, analizar tiempo, disciplina y familias, «encajándolo como veas correcto». Autoriza esta ampliación y las decisiones necesarias dentro de ella; sustituye el cierre previo solo para estos puntos. No autoriza automáticamente recalcular las otras dos entradas sobre 500.000 ni publicar. Protocolo previo a los resultados nuevos: `CHECKLIST_PROTOCOL.md`, `config/checklist_v1.json`. Se confirma media como principal y CLS/SEP como controles, por continuidad del criterio fijado y sin seleccionar por mayor acuerdo. Piloto de 26.000 estratificado, estabilidad explícita y resultados separados. Los grupos de entrenamiento se apoyan en fuentes, no se definen por cómo salgan sus acuerdos.
+
+## Cierre de la checklist: decisiones tomadas por delegación, 17-09-2026
+
+Los seis puntos solicitados están terminados y auditados. Este cierre sustituye el estado de piloto activo, sin alterar las decisiones ni los originales de la fase anterior. Evidencia: `CHECKLIST_RESULTS.md`, `reports/checklist_v1/final/` y `METHODS_CHECKLIST.md`.
+
+| Decisión | Motivo y evidencia | Límite que conservamos |
+| --- | --- | --- |
+| Mantener el piloto de 26.000; no repetir ahora título/resumen sobre 500.000. | Los 52 promedios de área pasan la comprobación de forma fijada; los patrones generales se examinan también con rangos, vecinos y recetas. | 31 de 520 contrastes individuales superan la amplitud permitida, en 17 áreas. La criba es de forma, no una garantía de estabilidad de vecinos ni precisión poblacional. Una diferencia pequeña esencial al manuscrito exigiría comprobación dirigida. |
+| Confirmar mean para los cuatro BERT, incluidos símbolos especiales; CLS/SEP como controles. | Continuidad de la regla fijada antes del primer análisis; cruce de las tres recetas sobre las tres entradas terminado. | La confirmación es posterior a conocer sensibilidades anteriores. No es una demostración de superioridad semántica ni una elección por el mayor consenso. |
+| Separar quitar título de quitar resumen; no proclamar que texto o modelo domina siempre. | Con mean se pierden 16,2/25 vecinos al cambiar modelo, 16,7 al quitar resumen y 5,0 al quitar título. El primer orden se invierte con CLS/SEP y varía entre modelos. | Comparación práctica de formatos y límites habituales, no descomposición causal pura. La cercanía de medias no prueba equivalencia. |
+| Priorizar candidatos iguales en las comparaciones temporales y mostrar ambos resultados. | Vecinos: −0,87 puntos entre fechas con todos los candidatos frente a +0,91 con 2.048. El contraste posterior con consultas idénticas conserva la inversión. | Promedios descriptivos de modelos actuales sobre documentos de otras fechas; no historia causal ni aumento uniforme. |
+| Presentar Medicina y familias como localización y explicación parcial de diferencias. | Los biomédicos se parecen entre sí y la diferencia Medicina–Energía persiste al omitirlos. Los grupos definidos por fuentes tienen mayor acuerdo interno promedio. | Composición y entrenamiento están asociados, no aislados causalmente. Los grupos no son tres bloques cerrados y el ajuste de familias cambia mucho con SEP. |
+| Dar prioridad en el manuscrito a niveles del mapa, pares, efecto de entrada y control temporal. | Esquema actualizado en `PAPER_OUTLINE.md`, conservando todas las tablas y figuras de ambas fases. | La novedad no es usar título/abstract ni contar diez modelos; debe contrastarse frente a los antecedentes próximos. |
+
+La ampliación de recetas se fijó antes de inspeccionar acuerdos del piloto, según `recipe_control_decision.json`. La comprobación temporal con consultas idénticas se añadió después de observar la inversión; describirla como tal. Se mantienen las 50 alertas anteriores, separadas de las 31 nuevas. No se han cambiado umbrales tras los resultados.
+
+No quedan cálculos activos ni decisiones necesarias del usuario para cerrar esta petición. Continuación preparada: redacción cuando se solicite. No se autoriza por extensión una nueva descarga, otros modelos, publicación de datos o envío a revista. Las automatizaciones previas siguen pausadas.
+
+## Nueva ampliación explícita: cierre experimental, 17-09-2026
+
+El usuario fija un objetivo nuevo íntegro en `ROBUSTNESS_SCOPE.md`. Sustituye el cierre con 26k y autoriza 52k, Subfields, estabilidad por artículo y las revisiones allí listadas antes de redactar. Se conserva el diseño estratificado: 400 artículos en cada una de las 130 celdas, misma semilla y regla por ID; los primeros 200 permanecen. Se reutilizan los 26k y el title+abstract original, sin cambiar pesos/formatos/recetas. Configuración separada `config/input52_v1.json`. Media sigue principal; no volver a elegirla por los acuerdos.
+
+La meta no se limita a los datos que ya existen. Se cerrará con verificación individual de R01–R12. Nuevas decisiones necesarias quedan dentro de este objetivo, con justificación y límites; no se asume autorización para redactar, publicar, nuevos modelos o nueva extracción masiva.
+
+## Cierre ampliado: controles de composición y rasgos, 17-09-2026
+
+Por la delegación explícita de la meta vigente, se fijan tamaños/repeticiones/elegibilidad en `ROBUSTNESS_PROTOCOL.md` y sus cuatro configuraciones nuevas antes de sus cálculos. Para Medicina se compara igual tamaño y fechas cambiando solo las cuotas de especialidades entre los artículos elegibles. Motivo: separar una mezcla distinta de temas del mero crecimiento del conjunto. Límite: retirar los grupos pequeños cambia el universo; se muestra la cobertura y dos áreas sin contraste identificable.
+
+La arquitectura se lee de los archivos realmente usados. MiniLM tiene seis capas y 384 dimensiones; MPNet es otra arquitectura; SPECTER2 usa además un adaptador. El linaje y el corpus se documentan aparte. Los diez modelos no permiten atribuir causalmente una diferencia a una sola pieza; se conservan las asociaciones y sus omisiones, sin presentar la regresión como un experimento de entrenamiento.
+
+## 17-09-2026 — Decisiones de cierre ampliado ya verificadas
+
+Por delegación explícita del objetivo R01–R12, se mantiene CKA corregida principal y vecinos exactos k25, con Procrustes/rangos/k10/k50 como comprobaciones. No añadir morfología: dispersión, dimensionalidad y conectividad exigirían otras hipótesis; no son necesarias para contestar esta comparación. Evidencia y revisión reciente en `METRICS.md`.
+
+Se conserva mean para BERT/SciBERT/BioBERT/PubMedBERT, definido exactamente en `POOLING.md`. Su comparación CLS/SEP usa salidas separadas; no se escogerá la receta según qué resultado produzca más acuerdo. Las familias se interpretan como asociaciones de diez modelos fijos, con corpus y otros rasgos parcialmente confundidos, no como causas identificadas: `MODEL_FAMILIES.md`.
+
+La comparación de niveles se presentará como resultados distintos sobre centros, organización interna y vecinos. El control con mismas consultas/candidatos/fechas muestra una bajada media pequeña y muchas excepciones, no una ley universal de menor acuerdo con mayor detalle. `SCALES_AND_DISCIPLINES.md`. Los Subfields siguen siendo nivel adicional; no sustituyen al Field principal.
+
+Se mantienen las 50 alertas originales y todas las nuevas por especialidad; amplitud cero cuando la selección usa todo el grupo no prueba certeza sobre la población. La inferencia de nuevas entradas 52k ha finalizado; siguen pendientes su auditoría/comparaciones/100 selecciones antes de cerrar esa parte y la meta completa. No extender ahora entradas a 500.000 ni iniciar otros modelos, extracciones o manuscrito.
+
+## 17-09-2026 — Cierre definitivo de R01–R12 por la delegación ampliada
+
+La ampliación de entradas a 52k, sus tres condiciones, recetas y 100 selecciones en ambos tamaños están terminadas y auditadas. La regla fijada da 72/520 alertas en 26k frente a 5/520 en 52k al usar 100 selecciones. Se conserva por separado la comparación histórica 31 → 4 con 20. Las cinco actuales incumplen amplitud, no desplazamiento mediano; Health Professions/PubMedBERT/title supera 0,04 por muy poco y no se redondea para hacerlo pasar. De las 31 claves originales, cuatro siguen alertadas en 52k/100. Las 50 originales y las de Subfields se mantienen.
+
+Decisión delegada: conservar la ampliación de 52k como comprobación de entradas de esta fase, sin pasar automáticamente a 500k. Razón: los patrones generales están calculados, las 52 medias de área pasan la regla, y los casos finos que siguen inciertos quedan localizados. Esto no prueba equivalencia modelo/texto, superioridad de una receta ni precisión sobre toda la población. Seis contrastes medios de área incluyen cero pese a superar la criba.
+
+Mean sigue principal; recetas alternativas pueden cambiar la interpretación y están completas por modelo/área/entrada. Se presentan cuatro figuras principales sobre estructura, entrada, vecinos emparejados y tiempo; Medicina, familias y estabilidad aportan comprobaciones adicionales. La revisión bibliográfica identifica solapamiento directo con comparaciones previas de forma/vecinos/familias: la aportación se delimita por los resultados y controles, no por reclamar componentes nuevos.
+
+R01–R12 verificados, sin procesos activos. La delegación de este objetivo termina aquí. Se actualizan resultados, métodos, catálogo, inventario, preguntas históricas, esquema y continuidad. No se amplía autorización a redactar, publicar, distribuir datos, otros modelos o nueva extracción. Reproducción de presentación y siguiente paso en `NEXT_STEPS.md`.
+
+## 17-09-2026 — Revisión previa al manuscrito y casos concretos autorizados
+
+El usuario pide revisar todo el análisis, referencias y repositorio antes de redactar, y profundizar en artículos/Subfields/relaciones especialmente estables o dependientes del encoder. Autoriza esta revisión, las mejoras de presentación y análisis derivados necesarios dentro de ese alcance. Se conservan medidas/recetas y datos anteriores; los nuevos criterios de selección se registrarán antes de examinar los ejemplos. No autoriza nuevas extracciones masivas, modelos adicionales, redacción ni publicación. La revisión buscará debilidades reales y un hueco defendible; no una garantía de aceptación en QSS.
+
+## 17-09-2026 — Cierre de la revisión previa: decisiones dentro del alcance delegado
+
+Estas decisiones ejecutan la revisión y el análisis de casos pedidos. No sustituyen las medidas, recetas, corpus ni reglas de las fases cerradas. Evidencia: `PREPAPER_REVIEW.md`, `CASE_ATLAS_PROTOCOL.md`, `CASE_ATLAS.md` y `research/prepaper_2026-09-17/`.
+
+| Decisión | Motivo y evidencia | Límite / siguiente actuación |
+| --- | --- | --- |
+| Extraer el atlas de las salidas existentes, sin inferencia nueva. | 217 Subfields a 256; comparación de posición en las mismas 183 especialidades bajo 27 condiciones. Doce artículos elegidos con reglas por ID, sin leer primero los títulos. | Es un seguimiento exploratorio después de los resultados generales, no un preregistro del estudio completo. |
+| Comparar relaciones entre consultas siempre presentes. | 531.650 relaciones dirigidas: diez repeticiones por modelo; ambos artículos disponibles en cada búsqueda. Así no se confunde ausencia como candidato con rechazo como vecino. | Son 49 posibles compañeras fijas por consulta dentro de cada Subfield; no todas las parejas de 500k ni todos los controles de entrada/receta. |
+| Conservar y anotar los ejemplos desfavorables, incluidos errores de OpenAlex. | Treinta registros ilustrados comprobados contra páginas originales. Dos etiquetas claramente incompatibles y un aviso proceden de la fuente, no de nuestro alineamiento. | No sustituirlos para mejorar la historia ni corregir a mano el corpus. Acuerdo no equivale a precisión temática. |
+| Añadir un diagnóstico posterior de títulos genéricos. | 82/500k; cinco entre las consultas controladas. Al excluir solo esas cinco, la media cambia de 45,344% a 45,349%. | No es una limpieza nueva, no cambia candidatos y no estima la tasa de clasificación temática errónea. Validación externa necesaria si se quisiera afirmar precisión o causas disciplinares. |
+| Precisar la comparación Field/Subfield. | Ambas búsquedas de 256 conservan las 50 consultas del mismo Subfield; esto favorece la comparabilidad de artículos y su presencia. | La búsqueda amplia está condicionada; no describirla como 256 candidatos extraídos libremente del Field. No cambia ninguna cifra. |
+| Centrar la contribución en qué conclusiones resisten decisiones de construcción del mapa. | Antecedentes directos ya comparan modelos, entradas, forma y vecinos. La revisión incluye Caspari, Singh, Bascur y SemCSE-Multi. | No vender diez modelos, CKA o vecinos como innovaciones por sí mismos; no prometer prioridad absoluta. |
+| Usar una biblioteca canónica y conservar el historial. | 45 referencias verificadas; autores, versiones, páginas y DOI erróneos corregidos; copia de la bibliografía anterior. | Una advertencia de páginas ausentes en ICLR se conserva. Metadatos verificados no significan lectura completa de todas las fuentes. |
+| Ordenar con índices y entregas separadas. | README, `docs/`, `references/`, atlas y catálogos; originales conservados. | No mover rutas congeladas, publicar, elegir licencia o activar automatizaciones. El depósito y las declaraciones se prepararán con autorización y datos reales. |
+
+La revisión técnica queda cerrada. Preparado para iniciar redacción cuando se solicite, con los límites anteriores. Antes del envío habrá que actualizar fuentes/normas QSS, revisar las afirmaciones con los autores y verificar un depósito reproducible. No se ha escrito ni enviado el manuscrito.
+
+## 17-09-2026 — Commit y push autorizados expresamente
+
+El usuario pide subir la versión revisada antes de redactar. Destino comprobado: `https://github.com/aleetreny/Shape-of-Science-Robustness`, público, inicialmente vacío y con acceso de administración. La carpeta local no tenía commits ni remoto configurado. Se autoriza la primera versión de código, decisiones, documentación, tablas, figuras y evidencia auxiliar versionable. No se suben corpus, embeddings, pesos, claves, entornos ni textos completos de terceros. No se modifica la visibilidad del repositorio ni se elige licencia. El depósito científico permanente y el manuscrito siguen pendientes.
+
+
+## 18-09-2026 — Piloto de morfología autorizado expresamente
+
+El usuario pide estudiar medidas concretas de forma, incluyendo fragmentación, ejecutar un análisis preliminar y comprobar alternativas, calidad y estabilidad. Delega las decisiones necesarias para este alcance. Esta petición sustituye **solo para este piloto nuevo** la decisión anterior de no añadir morfología; no cambia retrospectivamente CKA/vecinos ni sus resultados. Se fijarán medidas, muestras, alternativas y criterios antes de calcular los nuevos resultados reales. Se reutilizan vectores existentes en salidas separadas; no hay autorización ampliada para nuevas extracciones/modelos, manuscrito, depósito o publicación. La entrega distinguirá resultados exploratorios, controles satisfactorios, fallos y aspectos aún no demostrados.
+
+
+### Diseño fijado antes de resultados reales del piloto
+
+`config/morphology_pilot_v1.json` fija tres propiedades: apertura angular (mediana entre pares), dimensión efectiva lineal (participation ratio de la covarianza centrada), conexión de un grafo de vecinos (brecha de Laplaciano normalizado, k=25). Alternativas y escalas se conservan por separado, sin puntuación total. La tercera no se interpretará como fragmentación temática: falló esa interpretación en nubes simuladas. La entropía y D80 son otras lecturas del mismo espectro, no validaciones independientes de significado. Todas las medidas se obtienen en el espacio completo.
+
+Se reutilizan 52k, 2.000 por Field y 400 por período. Veinte selecciones internas de 1.000; cinco nuevas selecciones de 2.000 desde el corpus congelado; tamaños 500–4.000. Entradas/recetas, texto común, MiniLM512, marcas de calidad, extremos, centrado global y referencias gaussianas van separados. Hay controles temporales acotados con tamaños iguales. Las cribas relativas de amplitud (5% apertura, 10% dimensión, 20% conexión) son umbrales operativos del piloto; no justifican precisión poblacional ni se cambian para aprobar resultados. La evidencia continua y las inversiones de orden importan más que un aprobado.
+
+
+### Comprobación interpretativa de tamaño/conectividad durante la ejecución
+
+Con los k25/k50 ya calculados se añadirá una tabla que aproximadamente conserva k/(n−1) al duplicar n. Se registró antes de revisar las curvas completas; no sustituye el protocolo congelado ni es una decisión inicial. Motivo: cambiar n con k fijo cambia también la definición de la red. Se mostrarán ambas sensibilidades para todos los modelos/áreas, sin seleccionar la favorable. Detalle en `research/morphology_2026-09-18/INTERPRETATION_ADDENDUM.md`.
+
+### Cierre del piloto: decisiones tomadas dentro de la delegación
+
+Evidencia completa en `MORPHOLOGY_RESULTS.md`, `METHODS_MORPHOLOGY.md` y `research/morphology_2026-09-18/closure_audit.json`. Se conserva la fase anterior; las medidas nuevas no sustituyen CKA ni vecinos.
+
+| Decisión | Motivo comprobado | Límite que se conserva |
+| --- | --- | --- |
+| Retener apertura y PR como descripciones geométricas. | Repetición a igual tamaño: acuerdo mediano del orden de áreas 0,992/0,989; entre modelos 0,319/0,552. De 2.000 a 4.000, cambio mediano −0,03%/+1,14%. | Receta y centrado importan. No llamar diversidad temática a apertura ni temas a PR; cuatro alertas internas de PR siguen vigentes. |
+| Conservar conexión como diagnóstico, sin adoptar «fragmentación» genérica. | Nubes alargadas dan conexión débil sin separar grupos; el grafo unión queda conectado en 260/260 casos. Variar la regla de vecinos cambia la lectura del tamaño. | 51 alertas externas de conexión; las alternativas no son intercambiables. No resolverlo eligiendo la más llamativa. |
+| No ampliar cálculos del piloto a todas las combinaciones de 500k. | Los controles 500–4.000, veinte medias muestras, cinco selecciones de igual tamaño y alternativas ya permiten responder a la pregunta preliminar. | No fijan un tamaño suficiente para toda afirmación poblacional ni eliminan los casos inestables. Una nueva pregunta necesitaría alcance propio. |
+| Añadir un ejemplo de inversión y casos resistentes, marcados como ilustrativos posteriores. | SPECTER sitúa Medicina más abierta que Artes; BERT invierte la relación. Los signos persisten en 20+5 selecciones y tres descripciones angulares alternativas. Odontología/Energía ilustran resistencia con límites de receta. | Los casos se eligieron tras ver resultados; no estiman la frecuencia de inversiones ni indican qué modelo tiene razón. |
+| Recomendar una sección breve dentro del argumento actual. | Muestra qué afirmaciones del mapa dependen del encoder, en vez de acumular métricas. Se propone mantener cuatro figuras y trasladar tiempo al suplemento. | Es una recomendación de presentación en `PAPER_OUTLINE.md`, no un manuscrito aprobado ni una garantía de aceptación en QSS. |
+| No convertir los patrones temporales o gaussianos en explicaciones causales. | Se observan cambios temporales y diferencias frente a referencias simples; faltan controles de composición para estas nuevas propiedades y las referencias no igualan exactamente el espectro tras normalizar. | No afirmar estrechamiento histórico de la ciencia ni fragmentación temática demostrada. |
+
+La delegación de este piloto queda cerrada. Se entregan alternativas, fallos, límites y procedencia; no quedan tareas necesarias para su cierre. No se añade autorización para nuevas extracciones/modelos, redacción, distribución de datos o publicación. El siguiente paso es decidir la incorporación al manuscrito cuando el usuario lo pida.
+
+## 18-09-2026 — Último resumen de parejas aceptado por el usuario
+
+El usuario acepta la propuesta de resumir todas las 325 parejas de disciplinas antes de decidir cómo organizar el manuscrito. Autoriza los derivados y comprobaciones necesarios sobre los resultados existentes. Alcance: apertura/PR, acuerdo de diez, contradicción persistente y casos sin conclusión común clara; tamaños de diferencia y controles ya guardados. No autoriza nuevos embeddings, extracción, modelos, fragmentación, publicación o redacción automática.
+
+`FIELD_PAIR_PROTOCOL.md` y `config/field_pairs_v1.json` fijan las reglas antes de calcular estos recuentos. Persistencia exige igual dirección en principal + 20 medias muestras + 5 selecciones del mismo corpus. Magnitud continua y sensibilidades 0/1/5/10%, sin elegir el corte por su resultado. Todas las parejas conservan denominador; consenso no equivale a acierto. Se comprueban alternativas, recetas/procesamiento y seis modelos de similitud para conocer el alcance; menos modelos implican menos oportunidades de contradicción. Las alternativas espectrales no tienen las 25 repeticiones completas y se declara su cobertura real.
+
+Los resultados previos y el ejemplo Medicina/Artes ya eran conocidos: esta ampliación es exploratoria posterior. Se conservan documentos con sus huellas anteriores antes de actualizar la continuidad. Al terminar se entregará una propuesta de integración; la organización final del manuscrito se hablará con el usuario.
+
+### Cierre del resumen aceptado: resultados y criterio de presentación
+
+`FIELD_PAIR_RESULTS.md` y `METHODS_FIELD_PAIRS.md` cierran el alcance. Apertura: 42 acuerdos de diez, 262 contradicciones persistentes y 21 sin conclusión común; PR: 54, 221 y 50. Las contradicciones a 5% son 96 y 177; a 10%, 19 y 126. Se mostrarán magnitudes junto a direcciones, sin promover retrospectivamente un corte como correcto.
+
+Las alternativas conjuntas conservan 225/196 contradicciones; seis modelos de similitud conservan 231/160, con menos oportunidades de oposición. El centrado global conserva los mismos modelos testigo en 145/262 aperturas y 218/221 PR, límite sustantivo que acompañará el resultado. Calidad/texto común no convierten las etiquetas en verdad externa. No se ocultan los casos no resueltos ni las alertas anteriores.
+
+Decisión dentro del alcance aceptado: terminar aquí los derivados experimentales y entregar las doce tablas, dos figuras y auditoría. Recomendación para discutir con el usuario: dar prioridad a la figura de recuentos/magnitudes, acompañada del ejemplo y la evidencia de forma/vecinos/entrada ya obtenida; mapa completo y controles en suplemento. Es una propuesta de organización, no una autorización para escribir el manuscrito, publicar, añadir modelos o abrir otra pregunta.
+
+## 18-09-2026 — Revisión editorial amplia de QSS autorizada
+
+El usuario solicita estudiar muchos artículos publicados y cercanos al proyecto, entender su estructura y lenguaje, y proponer cómo organizar nuestro paper. Alcance aceptado: búsqueda documentada, lectura estructural y argumentativa y propuesta aplicada. No equivale a redactar el manuscrito, cambiar decisiones científicas o publicar. La estructura resultante seguirá identificada como propuesta para discutir. Se conserva el cierre anterior antes de actualizar documentos.
+
+### Cierre de la revisión editorial: propuesta, no aceptación de estructura
+
+Se completa una revisión dirigida de 34 artículos de QSS, con 33 lecturas estructurales, once de ellas con foco adicional y una parcial. Marco Crossref completo de 465 registros recuperados; no implica lectura de 465 papers. Se separan versiones editoriales, anticipadas y de autor, y dos cuerpos de versión tipográfica no confirmada. Un cuerpo equivocado se rechazó. La guía oficial solo pudo consultarse mediante índice de rastreo antiguo y se revisará antes del envío.
+
+**Recomendación pendiente de conversar:** un único paper sobre qué conclusiones sobreviven al cambio de representación; tres preguntas, seis secciones, cuatro figuras y dos tablas principales, unas 6.750 palabras de cuerpo como presupuesto propio. Resultados: estructura amplia, vecinos, entrada frente a modelo, comparaciones geométricas entre áreas. Tiempo, Medicina y familias como apoyo; límites sustantivos siempre en el cuerpo. Motivación y alternativas en `QSS_STRUCTURE_REVIEW.md` y `PAPER_OUTLINE.md`.
+
+**No se cierra una decisión científica nueva:** se reorganiza evidencia terminada. No nuevas métricas, resultados, inferencia, extracción ni manuscrito. La propuesta no convierte preguntas posteriores en hipótesis previas. El estudio de QSS no demuestra una estructura obligatoria ni garantiza aceptación. La publicación anterior sigue en `44c9410`; esta entrega no se sube automáticamente. Biblioteca editorial de 34 entradas separada de las 54 canónicas, con solapamientos. Próxima conversación: valorar el esquema propuesto y, solo cuando se solicite, redactar.
+
+## 18-09-2026 — Detalle del manuscrito y voz personal autorizados
+
+El usuario pide desarrollar el esquema hasta secciones, contenido y posición de tablas/figuras, e investigar cómo conservar su voz a partir de todos los artículos que escribió a mano en aleetreny.github.io. Se acepta trabajar sobre la organización propuesta sin convertirla en un manuscrito ya redactado. Se investigarán rasgos de prosa artificial con fuentes primarias, sin prometer detección de autoría ni usar detectores como criterio de escritura. Portfolio de solo lectura; resultados y límites científicos conservados.
+
+## 18-09-2026 — Estructura detallada y voz personal preparadas
+
+**Aceptado directamente:** el usuario pide desarrollar el esquema hasta secciones, nombres, texto y ubicación de tablas/figuras. Pide conservar su voz, aprendida de sus artículos del repositorio aleetreny.github.io, y estudiar qué hace que la escritura resulte artificial. No ha pedido redactar el paper completo.
+
+**Preparación realizada dentro de ese alcance:** `MANUSCRIPT_BLUEPRINT.md` desarrolla seis secciones en 48 párrafos de trabajo, con un presupuesto orientativo de 6.750 palabras, dos tablas principales preparadas, cuatro figuras existentes ubicadas, citas y 23 registros de evidencia. Suplemento organizado en ocho secciones, 17 tablas propuestas y diez figuras de apoyo. Los rótulos ingleses finales de presentación y la maquetación se harán al redactar; no se han cambiado resultados. La numeración de párrafos es flexible y no una plantilla de frases.
+
+**Preferencia de voz incorporada a AGENTS.md:** `AUTHOR_VOICE.md` parte de las 50 entradas publicadas en español del commit `5361e0354dd8419b4cf72089b7e8e51124830cfb`. La prosa se leyó completa; el inventario distingue tipos y conserva enlaces permanentes. La atribución manual procede de la indicación del usuario; no se certifica por detector. Las traducciones automáticas, código y documentación se excluyen como muestras de su voz. Adaptación recomendada: conservar problemas concretos, explicación de mecanismos, decisiones justificadas y límites; moderar informalidad y preservar ritmo variable.
+
+**Investigación de estilo:** cuatro fuentes primarias, con límites por género/modelo/época y bibliografía separada validada. No existe una señal individual o receta que garantice percepción de autoría. No se optimizará para detectores ni se borrará el registro de herramientas; la prioridad editorial es claridad, evidencia y voz reconocible.
+
+**Qué sustituye:** el paso inmediato de solo conversar sobre el esquema QSS pasa a usar este plano detallado y la guía de voz. El título y la prosa final siguen por revisar. **No cambia** protocolos, resultados ni alertas. Sin nueva decisión científica, cálculo, commit/push, depósito, licencia o envío. Se conserva el cierre QSS y sus 16 documentos de estado previos.
+
+## 18-09-2026 - Maqueta y elementos del manuscrito autorizados
+
+Petición directa: generar tablas/gráficas y documento de plantilla apropiada, y mostrar estructura renderizada. Se implementa el plano ya propuesto con LaTeX de primera entrega y suplemento separado. No se presenta como plantilla oficial: la guía indexada acepta formato flexible y no se encontró una clase oficial específica. Formato de presentación, sin decisiones científicas nuevas ni redacción completa. Datos, fuentes y alertas congelados se conservan; autoría, declaraciones, depósito y envío siguen pendientes.
+
+### Cierre de la maqueta y sus elementos
+
+Se entrega el esqueleto editable de seis secciones, dos tablas y cuatro figuras principales, con ocho secciones suplementarias, 17 grupos de tablas y diez figuras. Los PDF tienen 14 y 32 páginas; el espacio ocupado cambiará al escribir la prosa. Los fragmentos de planificación están identificados como *Writing plan*. El título es de trabajo y los campos personales siguen pendientes. La bibliografía canónica se conserva; se imprimen únicamente las nueve referencias utilizadas, sin presentar el estilo provisional como APA definitivo.
+
+La presentación usa una columna y letra de 12 puntos, con un modo opcional para revisión. Es una decisión de maquetación dentro de la petición, no una norma exclusiva de QSS. No se ha localizado una plantilla oficial específica y las normas deben verificarse de nuevo antes del envío por el límite de acceso documentado.
+
+Los resultados se leen desde tablas guardadas. Los resúmenes de tablas declaran su selección y tienen CSV completos; los gráficos tienen fuentes y valores trazables. El paquete editable de 183 archivos se recompiló desde una copia separada y produjo exactamente los mismos PDF. No se ha subido a Overleaf, publicado ni hecho commit/push. El siguiente paso es revisar la maqueta y redactar por bloques cuando se solicite, siguiendo `AUTHOR_VOICE.md`.
+
+## 18-09-2026 — Redacción inicial autorizada
+
+Petición directa: escribir la introducción y `Background and research questions`, respetando la voz acordada y evitando alargar el manuscrito. Se redactan estos bloques antes que métodos/resultados, sustituyendo el orden recomendado anteriormente. El presupuesto previo de 1.550 palabras se reduce como objetivo de escritura a unas 1.100, sin suprimir las tres preguntas, los antecedentes próximos ni los límites de interpretación. No es una restricción editorial impuesta por QSS.
+
+Se mantiene el inglés del manuscrito y el español sencillo de la conversación. Por la preferencia reiterada y la guía aceptada, se interpreta la última frase como evitar una estructura rígida que suene artificial; se ha comunicado esta interpretación. No se redactan las demás secciones por extensión ni se modifica el diseño científico. Las nuevas citas serán solo las necesarias para las afirmaciones escritas; los materiales históricos y la biblioteca canónica se conservan.
+
+### Primer borrador entregado
+
+Introducción de 367 palabras y antecedentes/preguntas de 627, sin contar títulos ni expansiones de citas. Se mantienen los tres subapartados y preguntas del plano, con párrafos de extensión variable. El ahorro frente al presupuesto inicial no se obtiene suprimiendo el carácter exploratorio de RQ3 ni la diferencia entre acuerdo y validez. El título continúa provisional y el texto espera revisión del autor.
+
+Ocho antecedentes próximos se citan por afirmaciones concretas; siete ya estaban en la biblioteca científica y Held/Velden procede de la revisión QSS. Se conserva la biblioteca canónica, añadiendo una colección de contexto al manuscrito y un ajuste de escape tipográfico en su copia base. No se añaden todos los trabajos revisados ni referencias sobre estilo al paper.
+
+PDF y paquete editable actualizados y verificados; las secciones posteriores, tablas, figuras, suplemento y 150 archivos de resultados anteriores permanecen intactos. No hubo cálculos, publicación, commit/push ni decisiones científicas nuevas. La autorización de esta entrega queda limitada a los dos bloques solicitados.
+
+## 18-09-2026 — Manuscrito completo y revisión autorizados
+
+El usuario pide escribir el resto del paper y revisar íntegramente tono, coherencia, interés, longitud, tablas y gráficas. Sustituye el límite anterior de redactar solo secciones 1 y 2. Se completará el texto científico y el suplemento, con libertad editorial para quitar repeticiones y mejorar la presentación de los resultados existentes. Se conservará el borrador anterior y no se cambiarán medidas, criterios o resultados para mejorar la historia.
+
+Se prioriza el hilo de qué conclusiones persisten o se invierten, manteniendo las tres preguntas y los límites. Las decisiones de maquetación se justificarán por legibilidad y correspondencia con la evidencia. Esta petición no autoriza nuevos experimentos, extracción, inferencia, publicación, envío ni inventar declaraciones. Autoría, afiliaciones, financiación e intereses se han preguntado mientras continúa el trabajo.
+
+### Declaraciones confirmadas directamente por el autor
+
+Respuestas del usuario: «Alejandro Treny Ortega, no hay financiacion, lo hago yo independientemente» y «No tengo conflictos de interés que declarar». El manuscrito usa autor único, afiliación `Independent researcher`, ausencia de financiación externa y ausencia de conflictos de interés. No se añaden institución, correo, ORCID o país. La asistencia de Codex se declara y la lectura/aprobación personal del texto continúa pendiente.
+
+### Cierre editorial del borrador completo
+
+Dentro de la petición de redactar y revisar, se han completado cuerpo y suplemento. La longitud final es 4.383 palabras de cuerpo y 190 de resumen; no se rellena el presupuesto previo de 6.750 palabras. Las tres preguntas permanecen, mientras que la discusión tiene tres apartados enfocados en significado, uso y límites. La motivación es mantener una lectura continua sin repetir cada resultado. La cifra es una decisión editorial propia, no un requisito certificado de QSS.
+
+Las mejoras visuales siguen la comparación que debe entender el lector: escala común de CKA en la Figura 1, colores/formas para las dos direcciones de la Figura 2, acciones explícitas sobre el texto en la Figura 3, y tablas de resumen con filas juntas. No se cambia ningún criterio o resultado científico. Los controles largos se explican en el suplemento y los límites que afectan al mensaje central se mantienen en el cuerpo.
+
+La entrega incluye dos PDF revisados en todas sus páginas y un ZIP que los reconstruye byte por byte. Se verifican 26 referencias citadas, 98 adjuntos y conservación de los informes anteriores. Detalles en `MANUSCRIPT_REVIEW.md`. Esto cierra la redacción/revisión solicitada, sin atribuir al autor una aprobación que aún no ha dado. Depósito, licencia, correspondencia, normas finales y envío siguen pendientes. Sin nuevos cálculos, commit/push o automatizaciones.
+
+## 18-09-2026 — Versión española para revisión personal
+
+Petición directa del autor: disponer del texto en su lengua materna. Se prepara la traducción completa del artículo y suplemento, con tablas, notas y rótulos de figuras, en una carpeta separada. El inglés permanece como borrador canónico. No se introducen decisiones científicas, cálculos o cambios de resultados.
+
+Se conservan numeración de secciones/tablas/figuras, fórmulas, citas y contenido numérico. Field se traduce como área y Subfield como especialidad; los términos originales se indican donde hace falta. Las referencias y títulos originales de ejemplos permanecen identificables. Las cifras de presentación usan coma decimal, mientras que los CSV son idénticos. La maquetación española ajusta anchuras y saltos por la mayor longitud del texto.
+
+Entrega: `MANUSCRIPT_SPANISH.md`, PDF de 21 y 35 páginas y ZIP editable separado. Comprobadas todas las páginas, la conservación de 188 archivos originales y la recompilación exacta del paquete. Las correcciones que el autor solicite se podrán trasladar posteriormente al inglés. La traducción no supone su aprobación personal del manuscrito ni autoriza publicación, depósito o envío.
+
+## 18-09-2026 — Cinco comentarios del PDF: ajustes editoriales
+
+Petición directa: centrar la fila PubMedBERT/BiomedBERT, separar mejor las filas del corpus, recuperar un título más cercano a la pregunta del estudio, valorar la Figura 1B y acortar la declaración de IA. Se aplican a inglés y español. El título queda «How much does the map of science depend on the embedding model?», como redacción natural de la propuesta del autor, sin prometer una proporción de ciencia correcta.
+
+La Figura 1B conserva las seis medias y la escala 0–1; añade los seis rangos percentiles ya presentes en las tablas guardadas para mostrar la variedad oculta por el promedio. Se identifica como dispersión descriptiva, no intervalos de confianza ni nueva validación de estabilidad. No se cambian conclusiones, alertas ni reglas.
+
+La declaración se reduce a dos frases fieles al trabajo realizado. La política general editorial se comprobó; el límite de acceso a la guía específica queda documentado en `MANUSCRIPT_COMMENTS.md`. Se mantiene pendiente la aprobación personal del autor. Cambios de presentación y documentación únicamente; no nuevos análisis científicos, commit/push, depósito, licencia, envío ni automatización.
+
+## 19-09-2026 — Título conservado y tres alternativas de voz autorizadas
+
+El autor cierra la búsqueda de título: se conserva «How much does the map of science depend on the embedding model?», el que ya figura en el PDF vigente. Pide tres versiones del texto, con identidad progresivamente más definida, en inglés y español. Se preparan alternativas del artículo completo, manteniendo el esquema, evidencia, tablas, figuras y suplemento técnico. La decisión entre las tres queda para su lectura; el borrador canónico no se sustituye automáticamente.
+
+Propuesta editorial: V1 directa y sobria; V2 razonamiento propio visible, con primera persona puntual; V3 voz más marcada, con una apertura concreta y mayor presencia del autor. Las tres conservan magnitudes, alertas, límites, cronología y referencias. No se inventan experiencias, no se fortalecen resultados para ganar personalidad ni se usan detectores de autoría. No implica nuevos experimentos, publicación o envío.
+
+## 19-09-2026 — Tres alternativas completas de voz entregadas
+
+La petición se ha completado como tres artículos principales alternativos, cada uno en inglés y español. El título queda confirmado por instrucción directa y los originales siguen intactos. V1 directa y sobria; V2 razonamiento propio; V3 voz marcada y reflexiva. Las tres mantienen estructura, cifras, fórmulas, asociación de citas, elementos gráficos, declaraciones y suplemento técnico.
+
+La recomendación editorial es V2: hace visible el criterio del autor mediante una primera persona puntual, conservando la sobriedad. **Es una recomendación sin aceptar; no se ha seleccionado ninguna voz.** El incremento de personalidad se limita a la exposición y a la interpretación ya respaldada. No implica nuevas afirmaciones, cambios de controles o aprobación personal.
+
+Entrega: MANUSCRIPT_VOICES.md, seis PDF de 19/21 páginas y fuentes editables en manuscript_variants/. El ZIP de 93 archivos recompila los seis PDF exactamente. Se han inspeccionado 120 páginas y comprobado la conservación de 751 archivos previos. Inglés: 4.250/4.339/4.462 palabras de cuerpo; resúmenes de 184/186/187. Evidencia en research/manuscript_voices_2026-09-19/. No hubo nuevos cálculos científicos, commit/push, depósito, envío ni automatización.
+
+Continuación: el autor elige una versión o comenta pasajes; incorporar únicamente lo que acepte, manteniendo los dos idiomas alineados.
+
+## 20-09-2026 — Voz 2 elegida y reescritura explicativa autorizada
+
+El autor elige expresamente la versión 2, pero rechaza la densidad y la dificultad del texto. Pide cambiar la manera de explicar, no solo sustituir palabras: introducir cada concepto antes de emplearlo, mostrar qué pregunta responde cada comparación y aclarar la relación entre 500.000, 52.000 y 26.000 artículos. El resumen debe entenderse sin conocer previamente los términos ni los recuentos de parejas.
+
+Esta petición sustituye la selección pendiente de voz. Autoriza actualizar el manuscrito canónico en inglés y su versión española sobre la orientación V2, conservando las copias anteriores. Se reorganizan explicaciones y detalles entre cuerpo y suplemento sin cambiar medidas, resultados, criterios o límites. La elección de voz no equivale a aprobación final del artículo ni autoriza experimentos, publicación o envío.
+
+
+## 20-09-2026 — V2 elegida y explicación clara entregada
+
+- Decisión directa del autor: V2 es la orientación elegida. Pide claridad por encima de vocabulario culto o construcciones densas; queda registrada en AGENTS.md y AUTHOR_VOICE.md para cualquier continuación. No equivale a aprobación final.
+- Reescritas las seis secciones y el resumen en inglés y español. Cada comparación se presenta por su propósito; se explica la relación entre los 500.000 de partida, los 52.000 de texto con 26.000 incluidos y los otros 52.000 del fragmento común. La geometría reutiliza el conjunto del experimento de texto.
+- Tabla 1 organizada por finalidad; conceptos explicados antes de sus nombres; pies de figura más orientativos. El resumen explica el acuerdo local como unos ocho artículos de 25 y evita recuentos de parejas sin contexto. La fórmula PR sigue explícita en S6.
+- Inglés: 3.989 palabras de cuerpo y resumen de 192; 19 páginas. Español: 4.592 y 199; 20 páginas. Suplementos: 34/36 páginas. Se han revisado las 109 páginas, la correspondencia de cifras/fórmulas/citas y los límites.
+- Dos paquetes fuente de 186/190 archivos reproducen exactamente los cuatro PDF. Las tablas principales conservan su nueva explicación al reexportar; comprobados también los 19 grupos de tablas españoles en una copia separada.
+- Conservados 393 archivos de la edición anterior y 472 archivos protegidos de resultados, referencias y alternativas. Datos de presentación, figuras y bibliografías sin cambios. No se ejecutaron experimentos, descarga, inferencia, publicación ni automatización.
+- Entrega: MANUSCRIPT_CLARITY.md; evidencia en research/manuscript_clarity_2026-09-20/. Continuar con los comentarios sobre la lectura, sin volver a pedir una elección de voz.
+
+
+## 20-09-2026 — Cierre delegado de robustez terminado
+
+- El autor acepta el tono claro y delega aplicar la lista de un agente independiente. Alcance en `ROBUSTNESS_CLOSURE_SCOPE.md`; petición original conservada. No se transforma esa delegación en permiso permanente para nuevas ampliaciones.
+- Diseño fijado antes de los nuevos resultados: cincuenta selecciones de centros, tamaños 128/256/512 y referencias emparejadas; cincuenta elecciones de especialidad con diez selecciones internas; omisión de áreas. Se explicita la normalización final de los centros que ya hacía el código. La referencia aleatoria restringida nueva usa exactamente los artículos observados; la antigua mezclaba el conjunto de 217 especialidades.
+- Vecinos de entrada: cincuenta selecciones de 1.000 candidatos por área; k10/25/50 y CLS/SEP en k25. Conservados los resultados originales de 2.000 candidatos. Centrado y dos alternativas de dimensión sobre las 26 condiciones existentes, sin cambiar cortes o modelos.
+- Calidad: misma regla estricta de siete marcas y componentes de duplicados, 448.886 conservados. Controles de 1.024 candidatos en las 130 celdas porque solo 63 conservan 2.048; consultas idénticas antes/después. La elección preserva cobertura sin fingir que las celdas pequeñas permiten el tamaño mayor.
+- El resultado de centros se refuerza. Se matizan materialmente apertura y la generalización de la media texto/modelo. La comprobación completa sustituye 196 por 190 en la conservación de oposiciones PR bajo ambas alternativas. No se cambian datos para sostener la historia.
+- Todas las ramas congeladas antes de escribir; auditoría de once afirmaciones; manuscrito y suplemento sincronizados; fuentes y resultados históricos conservados. Preparación metodológica: READY WITH MINOR CAVEATS, sin predecir aceptación y sin dar por resueltos los trámites de envío.
+- Continuación: lectura personal y decisiones de publicación pendientes. No añadir otros experimentos por rutina. Evidencia y entregables en `ROBUSTNESS_CLOSURE_REPORT.md`.

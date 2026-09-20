@@ -1,0 +1,36 @@
+{
+  "kobak2025style": {
+    "type": "doi",
+    "entry_type": "article",
+    "doi": "10.1126/sciadv.adt3813",
+    "title": "Delving into LLM-assisted writing in biomedical publications through excess vocabulary",
+    "authors": "Kobak, Dmitry and González-Márquez, Rita and Horvát, Emőke-Ágnes and Lause, Jan",
+    "editors": "",
+    "year": "2025",
+    "journal": "Science Advances",
+    "volume": "11",
+    "issue": "27",
+    "pages": "",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "isbn": "",
+    "issn": "2375-2548",
+    "url": "https://doi.org/10.1126/sciadv.adt3813"
+  },
+  "liang2023detectors": {
+    "type": "doi",
+    "entry_type": "article",
+    "doi": "10.1016/j.patter.2023.100779",
+    "title": "GPT detectors are biased against non-native English writers",
+    "authors": "Liang, Weixin and Yuksekgonul, Mert and Mao, Yining and Wu, Eric and Zou, James",
+    "editors": "",
+    "year": "2023",
+    "journal": "Patterns",
+    "volume": "4",
+    "issue": "7",
+    "pages": "100779",
+    "publisher": "Elsevier BV",
+    "isbn": "",
+    "issn": "2666-3899",
+    "url": "https://doi.org/10.1016/j.patter.2023.100779"
+  }
+}

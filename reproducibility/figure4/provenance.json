@@ -1,0 +1,26 @@
+{
+  "source_path": "data/robustness_closure_v1/morphology/metrics.parquet",
+  "source_sha256": "9ff81d6b4941b9f626961400628f6a9e8677c313fd155d37a4bc2a35e05ac7e8",
+  "csv_gz_sha256": "4965cdd95076f20ed1de6e5b00c3e662d94356dad1afc0580c787a8c5f4549d5",
+  "rows": 13520,
+  "columns": [
+    "model",
+    "field_id",
+    "kind",
+    "repeat",
+    "n",
+    "selection_sha256",
+    "representation",
+    "angle_p50",
+    "pr",
+    "erank",
+    "d80"
+  ],
+  "scope": "Saved measurements to pairwise classifications; not embeddings to measurements.",
+  "scientific_rules": "Existing protocol: all 26 conditions, cutoff plus 1e-10 tolerance.",
+  "status": "Local preparation, no license selected and no public deposit.",
+  "expected_results_sources": {
+    "morphology_classification.csv": "635ba946ae223d50c9b1ad4a08070a238fffb9154a7a3e9df23099dc6d86f597",
+    "morphology_centering_summary.csv": "0786c2e881ab9ad49423cacbc0b906ef1ea88a9db4ba4f5cef23d36cba82c27a"
+  }
+}

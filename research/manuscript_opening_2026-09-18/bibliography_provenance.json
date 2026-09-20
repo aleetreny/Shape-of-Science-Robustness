@@ -1,0 +1,15 @@
+{
+  "source": "research/qss_structure_2026-09-18/qss_review.bib",
+  "source_sha256": "83940f93f4e5247f93f0dcb2aa9e08bcee70e77005c1836788e385247068d5c6",
+  "selected_keys": [
+    "QSSreviewQ17"
+  ],
+  "output": "manuscript/context_references.bib",
+  "entry_copied_without_change": true,
+  "canonical_library_modified": false,
+  "canonical_presentation_copy_adjustment": {
+    "file": "manuscript/references.bib",
+    "key": "refa0d2d707e6",
+    "change": "Unicode em dash in title rendered through the equivalent LaTeX --- sequence; canonical file unchanged."
+  }
+}

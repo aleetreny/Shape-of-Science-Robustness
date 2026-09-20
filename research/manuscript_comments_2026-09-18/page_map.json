@@ -1,0 +1,28 @@
+{
+  "en_main": {
+    "pages": 19,
+    "locations": {
+      "Table 1:": 5,
+      "Table 2:": 6,
+      "Figure 1:": 9,
+      "Use of AI-assisted tools.": 17
+    }
+  },
+  "en_supplement": {
+    "pages": 33,
+    "locations": {}
+  },
+  "es_main": {
+    "pages": 21,
+    "locations": {
+      "Tabla 1:": 6,
+      "Tabla 2:": 7,
+      "Figura 1:": 11,
+      "Uso de herramientas de inteligencia artificial.": 19
+    }
+  },
+  "es_supplement": {
+    "pages": 35,
+    "locations": {}
+  }
+}

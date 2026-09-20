@@ -1,0 +1,23 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Construct checks on all nine saved synthetic clouds.}\label{tab:S13}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.2cm}>{\raggedright\arraybackslash}p{2.25cm}>{\raggedright\arraybackslash}p{2.55cm}>{\raggedright\arraybackslash}p{2.7cm}>{\raggedright\arraybackslash}p{2.0cm}@{}}
+\toprule
+\textbf{Cloud} & \textbf{Gap k25} & \textbf{Radius 90/50} & \textbf{Max/median edge} & \textbf{Mutual giant} \\
+\midrule
+One round cloud & 0.499 & 1.121 & 1.371 & 96.6\% \\
+One narrow cloud & 0.503 & 1.132 & 1.400 & 95.5\% \\
+One wide cloud & 0.487 & 1.084 & 1.262 & 99.8\% \\
+One elongated cloud & 0.091 & 1.115 & 1.299 & 99.1\% \\
+One low-rank cloud & 0.098 & 1.589 & 4.913 & 99.9\% \\
+Two separated groups & 0.000 & 1.766 & 2.253 & 49.5\% \\
+Four separated groups & 0.000 & 1.003 & 1.587 & 24.9\% \\
+Two groups with bridges & 0.007 & 1.005 & 1.428 & 97.8\% \\
+One cloud with outliers & 0.499 & 1.123 & 4.770 & 95.7\% \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Each saved cloud has 1,000 points. Smaller gap can arise without separate groups; radius/edge ratios can respond to outliers or elongated clouds. In all 260 primary model-Field cases the union k25 graph is connected. Connection therefore remains a graph description and is not validated as general thematic fragmentation. The five equal-size selections retain 51 connection alerts (Table S12).\par}
+\par\smallskip{\small The 780 Gaussian reference rows are included. Observed-relative reference errors span -4.69\% to 4.60\% for angular spread, and -10.47\% to 19.78\% for PR. Gaussian draws preserve fitted moments only in expectation before renormalisation; they are not calibrated null tests. Full n/k controls accompany the table; the fixed-neighbour-fraction check was added during execution.\par}

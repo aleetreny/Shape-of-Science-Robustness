@@ -1,5 +1,7 @@
 # Antecedentes y aportación defendible
 
+**Consulta dirigida adicional, 20-09-2026:** [novedad y reproducción pública](../NOVELTY_AND_REPRODUCIBILITY.md) concentra la contribución en comparaciones disciplinares persistentes y sus límites de representación. Se contrastan ocho antecedentes; Raju se revisa en v5 y se identifica la publicación de Bascur, Costas y Verberne del 15-09-2026 (DOI 10.1515/jdis-2026-0114). [Fuentes y profundidad de lectura](../research/submission_readiness_2026-09-20/SOURCES.md). No se cambia automáticamente la biblioteca del manuscrito ni se afirma prioridad absoluta.
+
 Actualización dirigida hasta el 17-09-2026. **La aportación propuesta es mostrar qué conclusiones sobre un mapa científico resisten al cambio de representación y cuáles cambian al controlar texto, receta, tamaño de búsqueda y nivel de detalle.** La amplitud de áreas y los controles emparejados son el soporte empírico. No se reclama una medida nueva ni prioridad absoluta.
 
 ## Los trabajos que delimitan nuestra pregunta
@@ -46,3 +48,13 @@ La recomendación para QSS es centrar el argumento en **fiabilidad de inferencia
 Consultas dirigidas: títulos/DOIs existentes, `science mapping embedding model comparison`, `cross-model geometry neighborhood robustness`, `representation similarity CKA 2025 2026`, `scientific retrieval textual neighbors`, estabilidad de embeddings y normas oficiales QSS. Se contrastaron versiones preprint/editorial y referencias hacia atrás de los trabajos próximos. Se priorizaron autores, editoriales y actas oficiales. No se buscaron ni descargaron más papers para el corpus experimental.
 
 El registro guarda consultas/identificadores, respuestas, fecha, fallos y profundidad de lectura. Búsqueda cerrada para esta revisión, **no exhaustiva de toda la ciencia**; deberá actualizarse antes del envío. Software de apoyo: [Kassis et al., Scientific Agent Skills](https://arxiv.org/abs/2609.00065), v2 vigente; procedencia, no evidencia a favor del resultado.
+
+
+## Seguimiento: propiedades concretas de la forma, 18-09-2026
+
+El usuario autoriza un piloto adicional antes del manuscrito. [Revisión dirigida](../research/morphology_2026-09-18/LITERATURE.md) y [protocolo](../MORPHOLOGY_PROTOCOL.md): apertura angular, reparto de varianza y conexión a varias escalas. Imel y Hafen siguen siendo antecedente cercano. Los índices nuevos describen propiedades; no validan temas ni garantizan un número verdadero de grupos. El rango efectivo, los grafos espectrales o las persistencias no son aportaciones nuevas por sí mismos. Se mantiene el hueco de contrastar la fiabilidad de afirmaciones sobre mapas al cambiar de encoder.
+## Complemento para organizar el manuscrito, 18-09-2026
+
+La [revisión dirigida de QSS](../QSS_STRUCTURE_REVIEW.md) estudia estructura y argumentación en 34 trabajos, sin sustituir esta revisión científica. Precisa la cercanía de Wang/Schneider, Waltman, Boyack/Klavans, Sīle, Held/Velden, Constantino y Cunningham; añade como contexto reciente [Varga et al.](https://doi.org/10.1162/qss.a.13), [Plazas et al.](https://doi.org/10.1162/qss.a.489), [Lahatte y de Turckheim](https://doi.org/10.1162/qss.a.485) y [Kim et al.](https://doi.org/10.1162/qss.a.506). Versiones y profundidad real de lectura en [las notas](../research/qss_structure_2026-09-18/READING_NOTES.md).
+
+La aportación propuesta es la persistencia de conclusiones bajo cambios de representación, entrada y escala, con magnitudes y límites; no la primera comparación de mapas. La estructura propuesta no elimina antecedentes de otras revistas ni acredita por sí sola novedad. Las nuevas referencias de consulta no se incorporan automáticamente a la biblioteca canónica ni al futuro manuscrito.

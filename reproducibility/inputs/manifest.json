@@ -1,0 +1,8 @@
+{
+  "centres.csv.gz": "18a1d2f2c2720b56c89ac3a028e55a2bf5313e09f6baf2eb45d8b76974965898",
+  "centres_expected.csv.gz": "b7796bbc660af52208399bd10de00dd5de7263fc41e364f3e141ab7fa0c9c065",
+  "scope.csv.gz": "f5bb24eac96f399c956251906c4013dcb8dec295f6adf593ea22e9a7965f82ff",
+  "scope_expected.csv.gz": "892e6c644826a17552171c8115064b7cc3cca5dca571281b3dc4c17751e4dfca",
+  "headline.csv.gz": "6cf43533bb4f705f1e5fe408c7d4cc6f0d5a2630d955b6c5b2c9acfbc0e45b30",
+  "headline_expected.csv.gz": "4479f45a8177e82cb61636f212885b4b1b1c6a71e2353c9eadfa99177e8df305"
+}

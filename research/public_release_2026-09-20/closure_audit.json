@@ -1,0 +1,237 @@
+{
+  "created_at": "2026-09-20T20:07:54.696577+00:00",
+  "scope": "Novelty paragraphs, licensed GitHub release, portable numerical archives and saved Zenodo draft. No new experiments or journal submission.",
+  "manuscript": {
+    "novelty_paragraphs": 3,
+    "languages": [
+      "en",
+      "es"
+    ],
+    "pages": {
+      "en": 24,
+      "es": 25
+    },
+    "visual_review": "All 49 main-article pages inspected; no clipping, overlaps or missing text observed. ES section-2 keep-space adjustment verified.",
+    "protected_files_unchanged": 522,
+    "figures_tables_supplements_unchanged": true,
+    "source_packages_byte_reproduce_all_four_pdfs": true
+  },
+  "checks": {
+    "editorial_checks.json": {
+      "en": {
+        "numerals_unchanged": true,
+        "abstract_unchanged": true,
+        "title_unchanged": true
+      },
+      "es": {
+        "numerals_unchanged": true,
+        "abstract_unchanged": true,
+        "title_unchanged": true
+      },
+      "protected_files": 522,
+      "changed_protected": []
+    },
+    "summary_checks.json": {
+      "all_checks_passed": true,
+      "centres": {
+        "repeat256_field": 0.9401160460142737,
+        "repeat256_subfield217": 0.9113747384873062
+      },
+      "search_scope": [
+        {
+          "k": 10,
+          "lower": 145,
+          "higher": 72,
+          "mean_difference": -0.017298658474142338
+        },
+        {
+          "k": 25,
+          "lower": 127,
+          "higher": 90,
+          "mean_difference": -0.013491809523809527
+        },
+        {
+          "k": 50,
+          "lower": 109,
+          "higher": 108,
+          "mean_difference": -0.007853124423963131
+        }
+      ],
+      "headline_mean_k25": {
+        "model_change": 0.6493367323076923,
+        "title_only_change": 0.6649229846153847,
+        "title_minus_model": 0.015586252307692306
+      },
+      "figure4": "all eight classifications and same-model retention verified",
+      "scope": "aggregation from per-condition measurements; not regeneration of vectors or all metrics"
+    },
+    "vector_checks.json": {
+      "all_checks_passed": true,
+      "seconds": 70.00393320900184,
+      "absolute_tolerance_fixed_before_run": 1e-08,
+      "max_absolute_error": 1.2742029653622922e-12,
+      "models": 10,
+      "centroid_arrays": 40,
+      "cka_pair_values": 180,
+      "geometry_cases": 60,
+      "exact_neighbor_intersection_counts": 13500,
+      "headline_recipe_k_combinations": 5,
+      "conditions_checked": {
+        "centres": "repeat 0, 26 Fields and 217 Subfields, observed and random",
+        "geometry": "Field 11: primary, half 0, external 0; both representations",
+        "search_scope": "Subfield 1100, repeat 0, both scopes, 50 queries, all pairs and k",
+        "input": "Field 11, repeat 0, 1000 candidates, all 36 representations"
+      },
+      "limit": "bounded calculation checks for all four figures; not all conditions, inference or every supplementary analysis"
+    },
+    "archive_integrity.json": {
+      "all_verified": true,
+      "archives": [
+        {
+          "archive": "analysis_ready_v1.zip",
+          "files": 1,
+          "bytes": 44681504,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "analysis_v1.zip",
+          "files": 11455,
+          "bytes": 4660361783,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "checklist_v1.zip",
+          "files": 3502,
+          "bytes": 4163451981,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_bert.zip",
+          "files": 2449,
+          "bytes": 4354753976,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_biobert.zip",
+          "files": 2449,
+          "bytes": 4349008141,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_minilm.zip",
+          "files": 1471,
+          "bytes": 778753906,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_mpnet.zip",
+          "files": 1471,
+          "bytes": 1493222345,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_pubmedbert.zip",
+          "files": 2449,
+          "bytes": 4355136633,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_scibert.zip",
+          "files": 2449,
+          "bytes": 4353369913,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_scincl.zip",
+          "files": 1471,
+          "bytes": 1489515013,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_simcse.zip",
+          "files": 1471,
+          "bytes": 1493862235,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_source_snapshot.zip",
+          "files": 9,
+          "bytes": 15851,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_specter.zip",
+          "files": 1471,
+          "bytes": 1491500821,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "embeddings_specter2.zip",
+          "files": 1471,
+          "bytes": 1492954779,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "field_pair_summary_v1.zip",
+          "files": 10,
+          "bytes": 3351676,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "morphology_pilot_v1.zip",
+          "files": 79,
+          "bytes": 12262219,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "prepaper_v1.zip",
+          "files": 27,
+          "bytes": 5072276,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "robustness_closure_v1.zip",
+          "files": 3773,
+          "bytes": 7021431917,
+          "sha256_verified": true,
+          "all_members_verified": true
+        },
+        {
+          "archive": "robustness_v2.zip",
+          "files": 20723,
+          "bytes": 9581274574,
+          "sha256_verified": true,
+          "all_members_verified": true
+        }
+      ],
+      "files": 58201,
+      "bytes": 51143981543
+    }
+  },
+  "isolated_summary_check_passed": true,
+  "public_data_status": "Prepared and checked locally; draft saved, zero files uploaded; DOI only reserved.",
+  "git_status": "Awaiting commit/push verification, recorded separately.",
+  "limits": [
+    "Vector checks cover fixed conditions, not every supplementary analysis.",
+    "Historical plaintext inputs and model weights excluded.",
+    "No certified complete rerun of every original analysis.",
+    "Availability text remains conditional until public deposit verified."
+  ]
+}

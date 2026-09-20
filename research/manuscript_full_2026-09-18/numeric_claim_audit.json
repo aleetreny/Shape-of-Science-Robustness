@@ -1,0 +1,292 @@
+{
+  "verified": true,
+  "checks": [
+    {
+      "id": "E01",
+      "source": "reports/analysis_v1/final/summary.json",
+      "sha256": "08121543b6e00e0ad4417afa175bebcf06744a1c7f7eb6565880bf5b47e69258",
+      "values": 0.30285281102053363,
+      "limit": "Balanced cell-pair average; full within-cell candidate universes"
+    },
+    {
+      "id": "E02",
+      "source": "reports/analysis_v1/final/summary.json",
+      "sha256": "08121543b6e00e0ad4417afa175bebcf06744a1c7f7eb6565880bf5b47e69258",
+      "values": 0.3185958667200855,
+      "limit": "2048 candidates per cell; not the 256 paired-scope experiment"
+    },
+    {
+      "id": "E03",
+      "source": "reports/robustness_v2/final/tables/structure_paired_scope_summary.csv",
+      "sha256": "9dbb4767b7bed804f30abb73fb13393de1aec77301d7f01a19c0a93edc044f8b",
+      "values": {
+        "mean_difference": "-0.013491809523809526",
+        "subfields": "217",
+        "subfields_higher_agreement": "90",
+        "subfields_lower_agreement": "127"
+      },
+      "limit": "Same 50 queries included in each 256 candidate set; ten selections"
+    },
+    {
+      "id": "E04",
+      "source": "reports/robustness_v2/final/tables/structure_paired_scope_summary.csv",
+      "sha256": "9dbb4767b7bed804f30abb73fb13393de1aec77301d7f01a19c0a93edc044f8b",
+      "values": {
+        "subfields": "217",
+        "subfields_higher_agreement": "108",
+        "subfields_lower_agreement": "109"
+      },
+      "limit": "Sensitivity to k; not an independent sample"
+    },
+    {
+      "id": "E05",
+      "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+      "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+      "values": {
+        "mean": "0.6875885128205128",
+        "n": "260"
+      },
+      "limit": "52000 shared IDs; 260 model-Field cases; mean recipe; close averages are not equivalence"
+    },
+    {
+      "id": "E06",
+      "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+      "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+      "values": {
+        "mean": "0.7067224615384615",
+        "n": "260"
+      },
+      "limit": "52000 shared IDs; 260 model-Field cases; mean recipe; close averages are not equivalence"
+    },
+    {
+      "id": "E07",
+      "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+      "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+      "values": {
+        "mean": "0.22117515384615385",
+        "n": "260"
+      },
+      "limit": "52000 shared IDs; 260 model-Field cases; mean recipe; close averages are not equivalence"
+    },
+    {
+      "id": "E08",
+      "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+      "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+      "values": {
+        "mean": "0.3700110304488336",
+        "n": "260"
+      },
+      "limit": "52000 shared IDs; 260 model-Field cases; mean recipe; close averages are not equivalence"
+    },
+    {
+      "id": "E09",
+      "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+      "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+      "values": {
+        "mean": "0.36581175517055636",
+        "n": "260"
+      },
+      "limit": "52000 shared IDs; 260 model-Field cases; mean recipe; close averages are not equivalence"
+    },
+    {
+      "id": "E10",
+      "source": "reports/robustness_v2/final/tables/input_input_effect_summary.csv",
+      "sha256": "c711e3e7e25b14caf72e09504d625782a6a5d2a733757f1692c4e357d9bdc9b1",
+      "values": {
+        "mean": "0.026905011084109847",
+        "n": "260"
+      },
+      "limit": "52000 shared IDs; 260 model-Field cases; mean recipe; close averages are not equivalence"
+    },
+    {
+      "id": "E11",
+      "source": "reports/robustness_v2/final/summary.json",
+      "sha256": "c361078c4064015221e1f5ef65d419bdb27620f761c34682d63a53a3c802e4da",
+      "values": {
+        "alerts26k": 72,
+        "alerts52k": 5,
+        "comparisons": 520,
+        "crosses_zero26k": 11,
+        "crosses_zero52k": 4,
+        "new": 0,
+        "no_alert": 448,
+        "persists": 5,
+        "repeats": 100,
+        "resolved": 67,
+        "scope": "individual_models"
+      },
+      "limit": "Shape contrast stability; not all neighbours/recipes or population confidence"
+    },
+    {
+      "id": "E12",
+      "source": "reports/field_pair_summary_v1/classification_summary.csv",
+      "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+      "values": {
+        "contradiction": "262",
+        "observations_per_model_pair": "26",
+        "pairs": "325",
+        "unanimous": "42",
+        "unresolved": "21"
+      },
+      "limit": "26 selection conditions; two persistent opposite models suffice for contradiction"
+    },
+    {
+      "id": "E13",
+      "source": "reports/field_pair_summary_v1/classification_summary.csv",
+      "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+      "values": {
+        "contradiction": "221",
+        "observations_per_model_pair": "26",
+        "pairs": "325",
+        "unanimous": "54",
+        "unresolved": "50"
+      },
+      "limit": "26 selection conditions; two persistent opposite models suffice for contradiction"
+    },
+    {
+      "id": "E14",
+      "source": "reports/field_pair_summary_v1/classification_summary.csv",
+      "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+      "values": {
+        "contradiction": "96",
+        "pairs": "325",
+        "unanimous": "10",
+        "unresolved": "219"
+      },
+      "limit": "Operational symmetric relative minimum, not significance or universal relevance"
+    },
+    {
+      "id": "E15",
+      "source": "reports/field_pair_summary_v1/classification_summary.csv",
+      "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+      "values": {
+        "contradiction": "177",
+        "pairs": "325",
+        "unanimous": "36",
+        "unresolved": "112"
+      },
+      "limit": "Operational symmetric relative minimum, not significance or universal relevance"
+    },
+    {
+      "id": "E16",
+      "source": "reports/field_pair_summary_v1/classification_summary.csv",
+      "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+      "values": {
+        "contradiction": "19",
+        "pairs": "325",
+        "unanimous": "0",
+        "unresolved": "306"
+      },
+      "limit": "Operational symmetric relative minimum, not significance or universal relevance"
+    },
+    {
+      "id": "E17",
+      "source": "reports/field_pair_summary_v1/classification_summary.csv",
+      "sha256": "da21ca3763747650e7a63609ae44b7409756c3537ede0379dac0e789567afe51",
+      "values": {
+        "contradiction": "126",
+        "pairs": "325",
+        "unanimous": "26",
+        "unresolved": "173"
+      },
+      "limit": "Operational symmetric relative minimum, not significance or universal relevance"
+    },
+    {
+      "id": "E18",
+      "source": "reports/field_pair_summary_v1/model_panel_summary.csv",
+      "sha256": "2eb20d1dbb9e03878474983a764c2acafa0763b180a835002cb660911772a539",
+      "values": {
+        "contradiction_and_alternatives": "225",
+        "models": "10",
+        "pairs": "325"
+      },
+      "limit": "Same witnesses under alternatives; angle 26 conditions, spectrum three; six-model panel has fewer opportunities for opposition"
+    },
+    {
+      "id": "E19",
+      "source": "reports/field_pair_summary_v1/model_panel_summary.csv",
+      "sha256": "2eb20d1dbb9e03878474983a764c2acafa0763b180a835002cb660911772a539",
+      "values": {
+        "contradiction_and_alternatives": "196",
+        "models": "10",
+        "pairs": "325"
+      },
+      "limit": "Same witnesses under alternatives; angle 26 conditions, spectrum three; six-model panel has fewer opportunities for opposition"
+    },
+    {
+      "id": "E20",
+      "source": "reports/field_pair_summary_v1/model_panel_summary.csv",
+      "sha256": "2eb20d1dbb9e03878474983a764c2acafa0763b180a835002cb660911772a539",
+      "values": {
+        "contradiction": "231",
+        "models": "6",
+        "pairs": "325"
+      },
+      "limit": "Same witnesses under alternatives; angle 26 conditions, spectrum three; six-model panel has fewer opportunities for opposition"
+    },
+    {
+      "id": "E21",
+      "source": "reports/field_pair_summary_v1/model_panel_summary.csv",
+      "sha256": "2eb20d1dbb9e03878474983a764c2acafa0763b180a835002cb660911772a539",
+      "values": {
+        "contradiction": "160",
+        "models": "6",
+        "pairs": "325"
+      },
+      "limit": "Same witnesses under alternatives; angle 26 conditions, spectrum three; six-model panel has fewer opportunities for opposition"
+    },
+    {
+      "id": "E22",
+      "source": "reports/field_pair_summary_v1/control_summary.csv",
+      "sha256": "eb6adf13f1c2925ee2115c28d22b39e4ddaac71167522901b7e62ea1afeb7ee2",
+      "values": {
+        "original_persistent_contradictions": "262",
+        "same_original_witness_pair_retained": "145"
+      },
+      "limit": "Point control: same original opposite witness identities and signs retained in reference and variant"
+    },
+    {
+      "id": "E23",
+      "source": "reports/field_pair_summary_v1/control_summary.csv",
+      "sha256": "eb6adf13f1c2925ee2115c28d22b39e4ddaac71167522901b7e62ea1afeb7ee2",
+      "values": {
+        "original_persistent_contradictions": "221",
+        "same_original_witness_pair_retained": "218"
+      },
+      "limit": "Point control: same original opposite witness identities and signs retained in reference and variant"
+    },
+    {
+      "id": "F1_real",
+      "values": [
+        0.9390644716053105,
+        0.9110821830679932,
+        0.9024575266717532
+      ],
+      "source": "data/robustness_v2/centroid_scales/comparisons.csv",
+      "limit": "Means over fixed pairs and saved centre comparisons; not population intervals."
+    },
+    {
+      "id": "F1_random_period_preserved",
+      "values": [
+        0.6309830080624478,
+        0.6393217753358429,
+        0.6292619835943907
+      ],
+      "source": "data/robustness_v2/centroid_scales/comparisons.csv",
+      "limit": "Means over fixed pairs and saved centre comparisons; not population intervals."
+    },
+    {
+      "id": "global_neighbors_and_association",
+      "values": {
+        "global_k25": 0.17504800000000006,
+        "shape_neighbor_pair_spearman": 0.919631093544137
+      },
+      "source": "reports/analysis_v1/final/summary.json",
+      "limit": "13,000 balanced queries against 400k; association across 45 dependent model-pair means."
+    }
+  ],
+  "figure2_points": 217,
+  "figure2_higher": 90,
+  "figure2_lower": 127,
+  "scientific_recomputation": false
+}

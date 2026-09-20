@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-09-18T19:29:31.150385+00:00",
+  "documents": {
+    "en_main": {
+      "path": "output/pdf/main.pdf",
+      "pages": 19,
+      "sha256": "f1714b199bf9c88f79964ceb8383a89da2a1572c1d19181d0e6bad450fae511c"
+    },
+    "en_supplement": {
+      "path": "output/pdf/supplement.pdf",
+      "pages": 33,
+      "sha256": "63f481b056bce5334bf417ea74464952f3039d8c94f83a5dd0e6bb3255da9583"
+    },
+    "es_main": {
+      "path": "output/pdf/es/main.pdf",
+      "pages": 21,
+      "sha256": "36d9f9b77e1d6f81930408b25bd68551c0c7b8cd56cbf94527d93ba118cf986b"
+    },
+    "es_supplement": {
+      "path": "output/pdf/es/supplement.pdf",
+      "pages": 35,
+      "sha256": "603496c6dd28a4bb378386cfb71ff862502fd3f03362bb36b9ac0923b6d80631"
+    }
+  },
+  "archived_files_verified": 389,
+  "scientific_report_files_unchanged": 211,
+  "csv_attachments_unchanged_per_language": 98,
+  "table_content_unchanged": true,
+  "formula_citation_and_unrequested_prose_preserved": true,
+  "table2_alignment": {
+    "en": {
+      "page": 6,
+      "max_offset_from_name_midpoint_pt": 4.9999999873762135e-06
+    },
+    "es": {
+      "page": 7,
+      "max_offset_from_name_midpoint_pt": 4.999999930532795e-06
+    }
+  },
+  "figure1_previous_means_unchanged": true,
+  "figure1_six_spreads_verified_against_saved_summary": [
+    {
+      "level": "field",
+      "selection": 128,
+      "n": 1170,
+      "mean": 0.6317651649921479,
+      "p025": 0.4004586805289428,
+      "p975": 0.8613063548359977
+    },
+    {
+      "level": "field",
+      "selection": 256,
+      "n": 1170,
+      "mean": 0.629413879384789,
+      "p025": 0.40829599291960433,
+      "p975": 0.8622386147430461
+    },
+    {
+      "level": "field",
+      "selection": 512,
+      "n": 1170,
+      "mean": 0.629608191959234,
+      "p025": 0.4015929429664037,
+      "p975": 0.8587646090886901
+    },
+    {
+      "level": "subfield",
+      "selection": 128,
+      "n": 8235,
+      "mean": 0.635995296202003,
+      "p025": 0.3825073843201966,
+      "p975": 0.8784781244110482
+    },
+    {
+      "level": "subfield",
+      "selection": 256,
+      "n": 8235,
+      "mean": 0.6357738520944918,
+      "p025": 0.38751353953676004,
+      "p975": 0.8768561399544397
+    },
+    {
+      "level": "subfield",
+      "selection": 512,
+      "n": 8235,
+      "mean": 0.6364481179807572,
+      "p025": 0.39135704570926894,
+      "p975": 0.8760905963181235
+    }
+  ],
+  "new_scientific_computation": false,
+  "visual_review": "See visual_review.json"
+}

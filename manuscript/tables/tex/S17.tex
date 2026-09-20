@@ -1,0 +1,22 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Versions and access status of the source objects.}\label{tab:S17}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{2.65cm}>{\raggedright\arraybackslash}p{9.45cm}>{\raggedright\arraybackslash}p{3.15cm}@{}}
+\toprule
+\textbf{Object} & \textbf{Manifest / SHA-256} & \textbf{Access} \\
+\midrule
+Clean corpus & {\footnotesize\nolinkurl{data/corpus_clean_v1/embedding_manifest.json}}\newline{\ttfamily\seqsplit{d8b48bccda4196063535ed6a8b3029481feddb7642e4a3f9eb146a772c71cde5}} & 500,000 IDs; local \\
+Embedding audit & {\footnotesize\nolinkurl{research/embedding_final_audit_2026-09-17/full_verification.json}}\newline{\ttfamily\seqsplit{6e43e878f4409b73b07a74b2ad8f4d9bdf03022c98e4aad91ba7424ea4c47770}} & Ten models; local vectors \\
+Core report & {\footnotesize\nolinkurl{reports/analysis_v1/final/catalog.json}}\newline{\ttfamily\seqsplit{1309c1458b441962b9b2f5400c074f67c54a0c108a3e04decf84bcc709687bac}} & Tables / figures; public baseline \\
+Expanded report & {\footnotesize\nolinkurl{reports/robustness_v2/final/catalog.json}}\newline{\ttfamily\seqsplit{2e4ab4b3e0a9445f8456667979162998529da16498e2a26d3778fb1f19415437}} & Tables / figures; public baseline \\
+Case atlas & {\footnotesize\nolinkurl{reports/prepaper_v1/catalog.json}}\newline{\ttfamily\seqsplit{0e75af65da14a98cc86daf9a30305a858e2034bc922d3bb208b9bcbb30ebcfe8}} & Examples; public baseline \\
+Morphology & {\footnotesize\nolinkurl{reports/morphology_pilot_v1/catalog.json}}\newline{\ttfamily\seqsplit{8584ef7d693a1d28bc2f4cab60d47f8ab7c7edd5a2f9a61a44f0e11582ac8e2d}} & Local extension; no data deposit \\
+Field pairs & {\footnotesize\nolinkurl{reports/field_pair_summary_v1/catalog.json}}\newline{\ttfamily\seqsplit{8c009fcadc76702ca84a22389f863f64e1cd068df6be8b6f719cf3715f62305d}} & Local extension; no data deposit \\
+Writing blueprint & {\footnotesize\nolinkurl{research/writing_blueprint_2026-09-18/closure_audit.json}}\newline{\ttfamily\seqsplit{6f1890922b57893cbb7dcbff23e1e5ad84dae233f6bd4d61f0fbcfa4b17acfa8}} & Local editorial plan \\
+Final robustness & {\footnotesize\nolinkurl{reports/robustness_closure_v1/catalog.json}}\newline{\ttfamily\seqsplit{781e3d904d9f94e691b8e975e89df1576d1dd412dec266222289cc1515739ab0}} & Local extension; no data deposit \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small Hashes identify the listed manifest/catalogue bytes, not the whole folder directly; each catalogue records its own assets. Local reproducibility is broader than public access. No persistent data deposit, general licence or new public release is claimed. Corpus, vectors, model weights, API keys and third-party full texts are excluded from the manuscript bundle. The two PDFs can be rebuilt from the included LaTeX and figure/table assets without the corpus. Full experimental reproduction still requires the separately authorised data-release plan.\par}

@@ -1,0 +1,88 @@
+{
+  "created_at": "2026-09-18T16:46:57.338585+00:00",
+  "all_complete": true,
+  "scope": "Draft Introduction and Background and research questions only; update rendered manuscript and portable source package",
+  "word_count": {
+    "introduction_words_excluding_citations": 367,
+    "background_words_excluding_headings_and_citations": 627,
+    "total": 994,
+    "opening_reference_keys": [
+      "QSSreviewQ17",
+      "ref4e1e0d5582",
+      "ref6a2f5912bc",
+      "ref6da178065c",
+      "refa0d2d707e6",
+      "refbe130e2973",
+      "refc0e2cc29e0",
+      "singh-singh-2022-inefficiency"
+    ],
+    "count_method": "Regex words; hyphenated words count once; TeX commands, citation expansions and section headings excluded."
+  },
+  "main_pdf": {
+    "path": "output/pdf/main.pdf",
+    "pages": 17,
+    "opening_pages": [
+      3,
+      4,
+      5
+    ],
+    "sha256": "0df1561e7076651c93627ea25345ab642390a15663752e02e002b2c6c8371467"
+  },
+  "source_package": {
+    "created_at": "2026-09-18T16:43:41.398138+00:00",
+    "package": "output/manuscript_source.zip",
+    "files": 184,
+    "bytes": 10753397,
+    "sha256": "e96be56d270d5cadb794e2c05d6e85288f259f076973f0cba2514ac20fe2bc76",
+    "zip_integrity": true,
+    "extracted_files_match": true,
+    "compiled_from_extracted_sources": true,
+    "documents": {
+      "main": {
+        "pages": 17,
+        "identical_extracted_text": true,
+        "sha256": "0df1561e7076651c93627ea25345ab642390a15663752e02e002b2c6c8371467"
+      },
+      "supplement": {
+        "pages": 32,
+        "identical_extracted_text": true,
+        "sha256": "10e64fae2124d0efcff7b4e92f03361ef51122c813b016b0517cdd59def0200b"
+      }
+    },
+    "overleaf_upload_or_remote_compile": false
+  },
+  "validated_citations": 17,
+  "unchanged_previous_research_outputs": 150,
+  "later_sections_and_supplement_preserved": true,
+  "local_links_checked": 178,
+  "current_documents_sha256": {
+    "AGENTS.md": "d9b508f8e75d48a76589baa5130653be2c3fdd372361c874f236957812ff84c6",
+    "AUTHOR_VOICE.md": "c447b7c6834f48275ab81f586b290f1e3786b2beea62a5a8016caa1caf958df0",
+    "MANUSCRIPT_BLUEPRINT.md": "478b0811faf77518132ae22a2c7b3d42cd28497817da160839ddd3981fe36965",
+    "NEXT_STEPS.md": "285a49544bf64fa0abfbb16151cf3c25ca3903bc0d4816802a41c4860f971e9b",
+    "README.md": "173470caeec8bc9bd818771dcb4b7038332fcc0ac7d49b27965db56d3f9a8109",
+    "MANUSCRIPT_LAYOUT.md": "e47c41bf9d6b2496c9e260491e2104ee09b16f853e773ca77f0cf5109fb50d1c",
+    "manuscript/README.md": "664a1c86a6636b0511bb80b94a432fff05df6d4a716be2f428ee601c373d2fb5",
+    "docs/QSS_CHECK.md": "9ae9c3c28da217d8e9a0bf8ebc529ccde814aa4be49f104fe6cdc773b0ca4f40",
+    "docs/INDEX.md": "7d6f1155662871e0444d5beab4ab621a977245f380b4c626939fc552b36ccb87",
+    "task_plan.md": "0ee2282b26aae877db8900f8d0dce842923e627255b79a36628f6c005a126eac",
+    "DECISIONS.md": "4fa18b731923f6000aa35c5ca2d1fb82c3c2efe3ee2e6166175aedb5d323b57e",
+    "progress.md": "b497117ee9fbdd410dcd5c6bae9d91d4d35967fef46300a393342e8305840a14",
+    "findings.md": "93b1b536e6da1461b049a37e1d54fe026b78dc6f9bf8a906dd145ce5da0f53cd"
+  },
+  "evidence_sha256": {
+    "integrity_audit.json": "734d15907916f60e34870f3299f4dfda440d9bb3581c196592409bc1980d5d8f",
+    "baseline_manifest.json": "25341f82b9af4c001cf94c4cc2943361b1ba303fb5705179a45b1e48444eee53",
+    "citation_validation.json": "e3eae4f33f3fd703091cb6d4a158bece638fac017c29401ba11ac59aaee9c2a8",
+    "portable_source_audit.json": "f979863511f78df210f5474441e802aedb5343c378ebc32fcbaad37be7f729fc",
+    "CLAIM_REVIEW.md": "336a959e26080a726ee33b1ae836a274015b202e0cdd4c1ff0e305cdcb3f79c6",
+    "visual_review.json": "4fc41d9af3a86d84ed8420c6f4da6f4ecc7dc10551332e9cfe50ad417151b722",
+    "word_count.json": "8b98db8114398fec36b70da04276a8c250f703663fe5649ef5ded6cb5f4cbb53",
+    "bibliography_provenance.json": "ed40e5bf39bb08d7cd98c04885f45ab0d2517ee24a581e07fc96f3ec28e3f591",
+    "verify_portable_source.py": "c3208884e4aa0307355bb5d7718028d0c8994d520deb2240e19de71bbabcd5c5"
+  },
+  "new_scientific_analysis": false,
+  "full_manuscript_written": false,
+  "publication_or_commit_push": false,
+  "next_step": "Author reviews these sections or explicitly requests the next block."
+}

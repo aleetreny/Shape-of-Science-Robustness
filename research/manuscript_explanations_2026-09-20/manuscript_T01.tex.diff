@@ -1,0 +1,37 @@
+--- before/manuscript/tables/editorial/T01.tex
++++ after/manuscript/tables/editorial/T01.tex
+@@ -2,24 +2,24 @@
+ \small
+ \setlength{\tabcolsep}{4pt}
+ \renewcommand{\arraystretch}{1.10}
+-\captionof{table}{What each comparison asks and which articles it uses.}\label{tab:T01}
+-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.25cm}>{\raggedright\arraybackslash}p{6.1cm}>{\raggedright\arraybackslash}p{4.8cm}@{}}
++\captionof{table}{Questions, comparisons and article sets.}\label{tab:T01}
++\begin{tabular}{@{}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{5.4cm}>{\raggedright\arraybackslash}p{5.75cm}@{}}
+ \toprule
+-\textbf{Purpose} & \textbf{Articles used} & \textbf{What is compared} \\
++\textbf{Question} & \textbf{What is compared} & \textbf{Articles used} \\
+ \midrule
+-Build the starting collection & 500,000: 400,000 general records and 100,000 to strengthen smaller area--period groups. & Ten models represent each title and abstract. \\
++Does the broad arrangement stay similar? & Ten models: relations among area or specialty centres, and among individual papers inside groups. & 256 papers per centre; repeated choices and size checks at 128 and 512. \\
+ \addlinespace[8pt]
+-Compare the broad map and nearby papers & Selections from that collection; 256 papers per group centre, with repeated selections and size checks. Searches use the candidates stated for each result. & Area centres, papers within groups, and lists of closest papers. \\
++Do models find the same nearby papers? & The overlap between two models' lists of 25 neighbours. & All papers within each area and period; a separate check fixes 2,048 candidates per group. Global search: 13,000 starting papers among 400,000 candidates. \\
+ \addlinespace[8pt]
+-Change the input text & 52,000: 2,000 per area, 400 per period. Includes the earlier 26,000-paper trial. & Title only, abstract only, and both, on the same papers. \\
++Does changing the input text matter? & The same model reads only the title, only the abstract, or both. & 52,000: 2,000 per area, 400 per period. Includes the first 26,000-paper trial. \\
+ \addlinespace[8pt]
+-Give every model the same passage & A different set of 52,000, with 400 per area and period. & Usual input versus a shared passage that fits all models. \\
++Does reading the same passage matter? & Each model's usual input versus a common passage that fits every model. & A different set of 52,000, with 400 per area and period. \\
+ \addlinespace[8pt]
+-Compare spread within areas & The same 52,000 as the text experiment; repeated selections test stability. & All 325 comparisons of two areas, for two geometric properties. \\
++Which area has more spread or more directions of variation? & Two geometric properties for all 325 pairs of areas, under ten models. & The same 52,000 as in the input-text experiment; further article choices test whether the comparisons repeat. \\
+ \addlinespace[8pt]
+-Change the scope of a search & 10,850 starting papers: 50 per specialty, across 217 specialties. & Specialty versus broader area, with 256 candidates in each. \\
++Does searching a narrower specialty matter? & For example, Cardiology and Cardiovascular Medicine versus Medicine, with 256 candidates in each search. & 50 fixed starting papers per specialty; ten choices of the other 206 candidates. In total, 10,850 starting papers across 217 specialties. \\
+ \bottomrule
+ \end{tabular}
+ \par\smallskip
+-All selections come from the starting collection; these rows must not be added. Each model comparison uses identical article IDs. The scope comparison includes the same 50 starting papers in both candidate sets and repeats the choice of the other 206 ten times. Detailed sizes, filters and checks appear in the methods and Supplements S1--S4 and S9. The 1,300 software-test articles are not an additional scientific sample.
++All sets come from the same 500,000-paper collection: 400,000 general records plus 100,000 added to strengthen small area--period groups. Rows are not added together. Models use the same paper IDs within each comparison. In the scope comparison, both candidate sets include the same 50 starting papers. Methods and Supplements S1--S4 and S9 give the full controls. The 1,300 software-test papers are not another scientific sample.
+ \end{minipage}\par

@@ -1,0 +1,651 @@
+metric,field_a,field_b,field_a_name,field_b_name,class,positive_models,negative_models,unresolved_models,alternative_conditions
+angle_p50,11,12,Agricultural and Biological Sciences,Arts and Humanities,contradiction,5,2,3,26
+angle_p50,11,13,Agricultural and Biological Sciences,"Biochemistry, Genetics and Molecular Biology",contradiction,4,2,4,26
+angle_p50,11,14,Agricultural and Biological Sciences,"Business, Management and Accounting",contradiction,2,4,4,26
+angle_p50,11,15,Agricultural and Biological Sciences,Chemical Engineering,unresolved,0,8,2,26
+angle_p50,11,16,Agricultural and Biological Sciences,Chemistry,contradiction,1,5,4,26
+angle_p50,11,17,Agricultural and Biological Sciences,Computer Science,contradiction,4,2,4,26
+angle_p50,11,18,Agricultural and Biological Sciences,Decision Sciences,contradiction,3,2,5,26
+angle_p50,11,19,Agricultural and Biological Sciences,Earth and Planetary Sciences,unresolved,0,2,8,26
+angle_p50,11,20,Agricultural and Biological Sciences,"Economics, Econometrics and Finance",contradiction,4,2,4,26
+angle_p50,11,21,Agricultural and Biological Sciences,Energy,unresolved,0,1,9,26
+angle_p50,11,22,Agricultural and Biological Sciences,Engineering,contradiction,4,1,5,26
+angle_p50,11,23,Agricultural and Biological Sciences,Environmental Science,contradiction,4,1,5,26
+angle_p50,11,24,Agricultural and Biological Sciences,Immunology and Microbiology,unresolved,0,7,3,26
+angle_p50,11,25,Agricultural and Biological Sciences,Materials Science,contradiction,1,6,3,26
+angle_p50,11,26,Agricultural and Biological Sciences,Mathematics,contradiction,2,1,7,26
+angle_p50,11,27,Agricultural and Biological Sciences,Medicine,contradiction,5,3,2,26
+angle_p50,11,28,Agricultural and Biological Sciences,Neuroscience,contradiction,3,3,4,26
+angle_p50,11,29,Agricultural and Biological Sciences,Nursing,contradiction,2,1,7,26
+angle_p50,11,30,Agricultural and Biological Sciences,"Pharmacology, Toxicology and Pharmaceutics",unresolved,0,4,6,26
+angle_p50,11,31,Agricultural and Biological Sciences,Physics and Astronomy,contradiction,4,4,2,26
+angle_p50,11,32,Agricultural and Biological Sciences,Psychology,contradiction,1,2,7,26
+angle_p50,11,33,Agricultural and Biological Sciences,Social Sciences,contradiction,6,2,2,26
+angle_p50,11,34,Agricultural and Biological Sciences,Veterinary,unresolved,0,8,2,26
+angle_p50,11,35,Agricultural and Biological Sciences,Dentistry,unanimous,0,10,0,26
+angle_p50,11,36,Agricultural and Biological Sciences,Health Professions,contradiction,4,1,5,26
+angle_p50,12,13,Arts and Humanities,"Biochemistry, Genetics and Molecular Biology",contradiction,4,3,3,26
+angle_p50,12,14,Arts and Humanities,"Business, Management and Accounting",contradiction,1,5,4,26
+angle_p50,12,15,Arts and Humanities,Chemical Engineering,contradiction,2,6,2,26
+angle_p50,12,16,Arts and Humanities,Chemistry,contradiction,2,6,2,26
+angle_p50,12,17,Arts and Humanities,Computer Science,contradiction,5,3,2,26
+angle_p50,12,18,Arts and Humanities,Decision Sciences,contradiction,5,3,2,26
+angle_p50,12,19,Arts and Humanities,Earth and Planetary Sciences,contradiction,2,4,4,26
+angle_p50,12,20,Arts and Humanities,"Economics, Econometrics and Finance",contradiction,1,3,6,26
+angle_p50,12,21,Arts and Humanities,Energy,contradiction,3,3,4,26
+angle_p50,12,22,Arts and Humanities,Engineering,contradiction,5,3,2,26
+angle_p50,12,23,Arts and Humanities,Environmental Science,contradiction,3,3,4,26
+angle_p50,12,24,Arts and Humanities,Immunology and Microbiology,contradiction,1,5,4,26
+angle_p50,12,25,Arts and Humanities,Materials Science,contradiction,1,3,6,26
+angle_p50,12,26,Arts and Humanities,Mathematics,contradiction,5,1,4,26
+angle_p50,12,27,Arts and Humanities,Medicine,contradiction,5,3,2,26
+angle_p50,12,28,Arts and Humanities,Neuroscience,contradiction,3,3,4,26
+angle_p50,12,29,Arts and Humanities,Nursing,contradiction,2,3,5,26
+angle_p50,12,30,Arts and Humanities,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,5,4,26
+angle_p50,12,31,Arts and Humanities,Physics and Astronomy,contradiction,4,3,3,26
+angle_p50,12,32,Arts and Humanities,Psychology,contradiction,3,3,4,26
+angle_p50,12,33,Arts and Humanities,Social Sciences,contradiction,2,1,7,26
+angle_p50,12,34,Arts and Humanities,Veterinary,contradiction,1,5,4,26
+angle_p50,12,35,Arts and Humanities,Dentistry,unanimous,0,10,0,26
+angle_p50,12,36,Arts and Humanities,Health Professions,contradiction,3,3,4,26
+angle_p50,13,14,"Biochemistry, Genetics and Molecular Biology","Business, Management and Accounting",contradiction,2,6,2,26
+angle_p50,13,15,"Biochemistry, Genetics and Molecular Biology",Chemical Engineering,unresolved,0,6,4,26
+angle_p50,13,16,"Biochemistry, Genetics and Molecular Biology",Chemistry,contradiction,1,5,4,26
+angle_p50,13,17,"Biochemistry, Genetics and Molecular Biology",Computer Science,contradiction,6,2,2,26
+angle_p50,13,18,"Biochemistry, Genetics and Molecular Biology",Decision Sciences,contradiction,5,3,2,26
+angle_p50,13,19,"Biochemistry, Genetics and Molecular Biology",Earth and Planetary Sciences,contradiction,3,5,2,26
+angle_p50,13,20,"Biochemistry, Genetics and Molecular Biology","Economics, Econometrics and Finance",contradiction,3,4,3,26
+angle_p50,13,21,"Biochemistry, Genetics and Molecular Biology",Energy,contradiction,2,1,7,26
+angle_p50,13,22,"Biochemistry, Genetics and Molecular Biology",Engineering,contradiction,6,2,2,26
+angle_p50,13,23,"Biochemistry, Genetics and Molecular Biology",Environmental Science,contradiction,3,2,5,26
+angle_p50,13,24,"Biochemistry, Genetics and Molecular Biology",Immunology and Microbiology,unanimous,0,10,0,26
+angle_p50,13,25,"Biochemistry, Genetics and Molecular Biology",Materials Science,unresolved,0,7,3,26
+angle_p50,13,26,"Biochemistry, Genetics and Molecular Biology",Mathematics,contradiction,5,1,4,26
+angle_p50,13,27,"Biochemistry, Genetics and Molecular Biology",Medicine,contradiction,4,2,4,26
+angle_p50,13,28,"Biochemistry, Genetics and Molecular Biology",Neuroscience,contradiction,1,5,4,26
+angle_p50,13,29,"Biochemistry, Genetics and Molecular Biology",Nursing,contradiction,1,2,7,26
+angle_p50,13,30,"Biochemistry, Genetics and Molecular Biology","Pharmacology, Toxicology and Pharmaceutics",contradiction,1,5,4,26
+angle_p50,13,31,"Biochemistry, Genetics and Molecular Biology",Physics and Astronomy,contradiction,1,3,6,26
+angle_p50,13,32,"Biochemistry, Genetics and Molecular Biology",Psychology,contradiction,2,3,5,26
+angle_p50,13,33,"Biochemistry, Genetics and Molecular Biology",Social Sciences,contradiction,3,2,5,26
+angle_p50,13,34,"Biochemistry, Genetics and Molecular Biology",Veterinary,unresolved,0,8,2,26
+angle_p50,13,35,"Biochemistry, Genetics and Molecular Biology",Dentistry,unanimous,0,10,0,26
+angle_p50,13,36,"Biochemistry, Genetics and Molecular Biology",Health Professions,contradiction,2,4,4,26
+angle_p50,14,15,"Business, Management and Accounting",Chemical Engineering,contradiction,1,6,3,26
+angle_p50,14,16,"Business, Management and Accounting",Chemistry,contradiction,3,4,3,26
+angle_p50,14,17,"Business, Management and Accounting",Computer Science,contradiction,5,1,4,26
+angle_p50,14,18,"Business, Management and Accounting",Decision Sciences,contradiction,4,1,5,26
+angle_p50,14,19,"Business, Management and Accounting",Earth and Planetary Sciences,contradiction,2,2,6,26
+angle_p50,14,20,"Business, Management and Accounting","Economics, Econometrics and Finance",contradiction,8,1,1,26
+angle_p50,14,21,"Business, Management and Accounting",Energy,unresolved,2,0,8,26
+angle_p50,14,22,"Business, Management and Accounting",Engineering,contradiction,5,1,4,26
+angle_p50,14,23,"Business, Management and Accounting",Environmental Science,unresolved,6,0,4,26
+angle_p50,14,24,"Business, Management and Accounting",Immunology and Microbiology,contradiction,1,5,4,26
+angle_p50,14,25,"Business, Management and Accounting",Materials Science,contradiction,3,5,2,26
+angle_p50,14,26,"Business, Management and Accounting",Mathematics,contradiction,5,2,3,26
+angle_p50,14,27,"Business, Management and Accounting",Medicine,contradiction,7,2,1,26
+angle_p50,14,28,"Business, Management and Accounting",Neuroscience,contradiction,4,3,3,26
+angle_p50,14,29,"Business, Management and Accounting",Nursing,unresolved,4,0,6,26
+angle_p50,14,30,"Business, Management and Accounting","Pharmacology, Toxicology and Pharmaceutics",contradiction,3,4,3,26
+angle_p50,14,31,"Business, Management and Accounting",Physics and Astronomy,contradiction,4,1,5,26
+angle_p50,14,32,"Business, Management and Accounting",Psychology,unresolved,5,0,5,26
+angle_p50,14,33,"Business, Management and Accounting",Social Sciences,unresolved,8,0,2,26
+angle_p50,14,34,"Business, Management and Accounting",Veterinary,contradiction,1,6,3,26
+angle_p50,14,35,"Business, Management and Accounting",Dentistry,unanimous,0,10,0,26
+angle_p50,14,36,"Business, Management and Accounting",Health Professions,unresolved,8,0,2,26
+angle_p50,15,16,Chemical Engineering,Chemistry,contradiction,3,2,5,26
+angle_p50,15,17,Chemical Engineering,Computer Science,unanimous,10,0,0,26
+angle_p50,15,18,Chemical Engineering,Decision Sciences,unresolved,8,0,2,26
+angle_p50,15,19,Chemical Engineering,Earth and Planetary Sciences,unresolved,7,0,3,26
+angle_p50,15,20,Chemical Engineering,"Economics, Econometrics and Finance",contradiction,7,1,2,26
+angle_p50,15,21,Chemical Engineering,Energy,unresolved,7,0,3,26
+angle_p50,15,22,Chemical Engineering,Engineering,unanimous,10,0,0,26
+angle_p50,15,23,Chemical Engineering,Environmental Science,unanimous,10,0,0,26
+angle_p50,15,24,Chemical Engineering,Immunology and Microbiology,contradiction,2,3,5,26
+angle_p50,15,25,Chemical Engineering,Materials Science,contradiction,3,1,6,26
+angle_p50,15,26,Chemical Engineering,Mathematics,contradiction,8,1,1,26
+angle_p50,15,27,Chemical Engineering,Medicine,unresolved,7,0,3,26
+angle_p50,15,28,Chemical Engineering,Neuroscience,unresolved,6,0,4,26
+angle_p50,15,29,Chemical Engineering,Nursing,unresolved,8,0,2,26
+angle_p50,15,30,Chemical Engineering,"Pharmacology, Toxicology and Pharmaceutics",contradiction,4,2,4,26
+angle_p50,15,31,Chemical Engineering,Physics and Astronomy,unresolved,7,0,3,26
+angle_p50,15,32,Chemical Engineering,Psychology,unresolved,7,0,3,26
+angle_p50,15,33,Chemical Engineering,Social Sciences,unresolved,8,0,2,26
+angle_p50,15,34,Chemical Engineering,Veterinary,contradiction,3,3,4,26
+angle_p50,15,35,Chemical Engineering,Dentistry,unresolved,0,9,1,26
+angle_p50,15,36,Chemical Engineering,Health Professions,unresolved,7,0,3,26
+angle_p50,16,17,Chemistry,Computer Science,contradiction,6,2,2,26
+angle_p50,16,18,Chemistry,Decision Sciences,contradiction,4,1,5,26
+angle_p50,16,19,Chemistry,Earth and Planetary Sciences,contradiction,5,2,3,26
+angle_p50,16,20,Chemistry,"Economics, Econometrics and Finance",contradiction,4,2,4,26
+angle_p50,16,21,Chemistry,Energy,contradiction,3,2,5,26
+angle_p50,16,22,Chemistry,Engineering,contradiction,6,2,2,26
+angle_p50,16,23,Chemistry,Environmental Science,contradiction,6,1,3,26
+angle_p50,16,24,Chemistry,Immunology and Microbiology,contradiction,2,4,4,26
+angle_p50,16,25,Chemistry,Materials Science,contradiction,3,3,4,26
+angle_p50,16,26,Chemistry,Mathematics,contradiction,5,1,4,26
+angle_p50,16,27,Chemistry,Medicine,contradiction,5,1,4,26
+angle_p50,16,28,Chemistry,Neuroscience,contradiction,5,2,3,26
+angle_p50,16,29,Chemistry,Nursing,contradiction,5,2,3,26
+angle_p50,16,30,Chemistry,"Pharmacology, Toxicology and Pharmaceutics",contradiction,2,2,6,26
+angle_p50,16,31,Chemistry,Physics and Astronomy,contradiction,4,2,4,26
+angle_p50,16,32,Chemistry,Psychology,contradiction,4,1,5,26
+angle_p50,16,33,Chemistry,Social Sciences,unresolved,5,0,5,26
+angle_p50,16,34,Chemistry,Veterinary,contradiction,2,5,3,26
+angle_p50,16,35,Chemistry,Dentistry,unanimous,0,10,0,26
+angle_p50,16,36,Chemistry,Health Professions,unresolved,5,0,5,26
+angle_p50,17,18,Computer Science,Decision Sciences,unresolved,0,5,5,26
+angle_p50,17,19,Computer Science,Earth and Planetary Sciences,unresolved,0,5,5,26
+angle_p50,17,20,Computer Science,"Economics, Econometrics and Finance",contradiction,4,5,1,26
+angle_p50,17,21,Computer Science,Energy,contradiction,1,5,4,26
+angle_p50,17,22,Computer Science,Engineering,contradiction,2,1,7,26
+angle_p50,17,23,Computer Science,Environmental Science,contradiction,4,5,1,26
+angle_p50,17,24,Computer Science,Immunology and Microbiology,unresolved,0,7,3,26
+angle_p50,17,25,Computer Science,Materials Science,unresolved,0,9,1,26
+angle_p50,17,26,Computer Science,Mathematics,contradiction,3,3,4,26
+angle_p50,17,27,Computer Science,Medicine,contradiction,2,6,2,26
+angle_p50,17,28,Computer Science,Neuroscience,unresolved,0,7,3,26
+angle_p50,17,29,Computer Science,Nursing,contradiction,1,4,5,26
+angle_p50,17,30,Computer Science,"Pharmacology, Toxicology and Pharmaceutics",contradiction,3,5,2,26
+angle_p50,17,31,Computer Science,Physics and Astronomy,unresolved,0,5,5,26
+angle_p50,17,32,Computer Science,Psychology,contradiction,3,5,2,26
+angle_p50,17,33,Computer Science,Social Sciences,contradiction,5,5,0,26
+angle_p50,17,34,Computer Science,Veterinary,unresolved,0,7,3,26
+angle_p50,17,35,Computer Science,Dentistry,unanimous,0,10,0,26
+angle_p50,17,36,Computer Science,Health Professions,contradiction,4,5,1,26
+angle_p50,18,19,Decision Sciences,Earth and Planetary Sciences,contradiction,1,3,6,26
+angle_p50,18,20,Decision Sciences,"Economics, Econometrics and Finance",contradiction,2,4,4,26
+angle_p50,18,21,Decision Sciences,Energy,unresolved,0,1,9,26
+angle_p50,18,22,Decision Sciences,Engineering,contradiction,4,1,5,26
+angle_p50,18,23,Decision Sciences,Environmental Science,contradiction,5,1,4,26
+angle_p50,18,24,Decision Sciences,Immunology and Microbiology,contradiction,1,7,2,26
+angle_p50,18,25,Decision Sciences,Materials Science,contradiction,1,9,0,26
+angle_p50,18,26,Decision Sciences,Mathematics,contradiction,3,2,5,26
+angle_p50,18,27,Decision Sciences,Medicine,contradiction,4,3,3,26
+angle_p50,18,28,Decision Sciences,Neuroscience,contradiction,2,4,4,26
+angle_p50,18,29,Decision Sciences,Nursing,contradiction,2,3,5,26
+angle_p50,18,30,Decision Sciences,"Pharmacology, Toxicology and Pharmaceutics",contradiction,3,5,2,26
+angle_p50,18,31,Decision Sciences,Physics and Astronomy,contradiction,1,3,6,26
+angle_p50,18,32,Decision Sciences,Psychology,contradiction,3,4,3,26
+angle_p50,18,33,Decision Sciences,Social Sciences,contradiction,5,2,3,26
+angle_p50,18,34,Decision Sciences,Veterinary,contradiction,1,8,1,26
+angle_p50,18,35,Decision Sciences,Dentistry,unanimous,0,10,0,26
+angle_p50,18,36,Decision Sciences,Health Professions,contradiction,4,3,3,26
+angle_p50,19,20,Earth and Planetary Sciences,"Economics, Econometrics and Finance",contradiction,6,1,3,26
+angle_p50,19,21,Earth and Planetary Sciences,Energy,unresolved,0,0,10,26
+angle_p50,19,22,Earth and Planetary Sciences,Engineering,unresolved,5,0,5,26
+angle_p50,19,23,Earth and Planetary Sciences,Environmental Science,unresolved,6,0,4,26
+angle_p50,19,24,Earth and Planetary Sciences,Immunology and Microbiology,contradiction,1,4,5,26
+angle_p50,19,25,Earth and Planetary Sciences,Materials Science,contradiction,1,5,4,26
+angle_p50,19,26,Earth and Planetary Sciences,Mathematics,contradiction,6,2,2,26
+angle_p50,19,27,Earth and Planetary Sciences,Medicine,contradiction,5,2,3,26
+angle_p50,19,28,Earth and Planetary Sciences,Neuroscience,contradiction,4,2,4,26
+angle_p50,19,29,Earth and Planetary Sciences,Nursing,contradiction,3,1,6,26
+angle_p50,19,30,Earth and Planetary Sciences,"Pharmacology, Toxicology and Pharmaceutics",contradiction,4,3,3,26
+angle_p50,19,31,Earth and Planetary Sciences,Physics and Astronomy,contradiction,4,2,4,26
+angle_p50,19,32,Earth and Planetary Sciences,Psychology,contradiction,2,2,6,26
+angle_p50,19,33,Earth and Planetary Sciences,Social Sciences,contradiction,8,1,1,26
+angle_p50,19,34,Earth and Planetary Sciences,Veterinary,contradiction,1,5,4,26
+angle_p50,19,35,Earth and Planetary Sciences,Dentistry,unanimous,0,10,0,26
+angle_p50,19,36,Earth and Planetary Sciences,Health Professions,contradiction,6,2,2,26
+angle_p50,20,21,"Economics, Econometrics and Finance",Energy,unresolved,0,1,9,26
+angle_p50,20,22,"Economics, Econometrics and Finance",Engineering,contradiction,5,3,2,26
+angle_p50,20,23,"Economics, Econometrics and Finance",Environmental Science,unresolved,3,0,7,26
+angle_p50,20,24,"Economics, Econometrics and Finance",Immunology and Microbiology,contradiction,1,5,4,26
+angle_p50,20,25,"Economics, Econometrics and Finance",Materials Science,contradiction,1,6,3,26
+angle_p50,20,26,"Economics, Econometrics and Finance",Mathematics,contradiction,4,2,4,26
+angle_p50,20,27,"Economics, Econometrics and Finance",Medicine,contradiction,5,3,2,26
+angle_p50,20,28,"Economics, Econometrics and Finance",Neuroscience,contradiction,3,3,4,26
+angle_p50,20,29,"Economics, Econometrics and Finance",Nursing,contradiction,3,3,4,26
+angle_p50,20,30,"Economics, Econometrics and Finance","Pharmacology, Toxicology and Pharmaceutics",contradiction,2,5,3,26
+angle_p50,20,31,"Economics, Econometrics and Finance",Physics and Astronomy,contradiction,1,3,6,26
+angle_p50,20,32,"Economics, Econometrics and Finance",Psychology,contradiction,2,2,6,26
+angle_p50,20,33,"Economics, Econometrics and Finance",Social Sciences,unresolved,7,0,3,26
+angle_p50,20,34,"Economics, Econometrics and Finance",Veterinary,contradiction,1,5,4,26
+angle_p50,20,35,"Economics, Econometrics and Finance",Dentistry,unanimous,0,10,0,26
+angle_p50,20,36,"Economics, Econometrics and Finance",Health Professions,contradiction,4,2,4,26
+angle_p50,21,22,Energy,Engineering,unresolved,5,0,5,26
+angle_p50,21,23,Energy,Environmental Science,unresolved,3,0,7,26
+angle_p50,21,24,Energy,Immunology and Microbiology,contradiction,1,3,6,26
+angle_p50,21,25,Energy,Materials Science,unresolved,0,3,7,26
+angle_p50,21,26,Energy,Mathematics,contradiction,5,1,4,26
+angle_p50,21,27,Energy,Medicine,contradiction,3,2,5,26
+angle_p50,21,28,Energy,Neuroscience,contradiction,1,2,7,26
+angle_p50,21,29,Energy,Nursing,contradiction,2,1,7,26
+angle_p50,21,30,Energy,"Pharmacology, Toxicology and Pharmaceutics",contradiction,2,3,5,26
+angle_p50,21,31,Energy,Physics and Astronomy,contradiction,2,1,7,26
+angle_p50,21,32,Energy,Psychology,unresolved,2,0,8,26
+angle_p50,21,33,Energy,Social Sciences,unresolved,3,0,7,26
+angle_p50,21,34,Energy,Veterinary,contradiction,1,5,4,26
+angle_p50,21,35,Energy,Dentistry,unanimous,0,10,0,26
+angle_p50,21,36,Energy,Health Professions,unresolved,4,0,6,26
+angle_p50,22,23,Engineering,Environmental Science,contradiction,2,5,3,26
+angle_p50,22,24,Engineering,Immunology and Microbiology,unresolved,0,8,2,26
+angle_p50,22,25,Engineering,Materials Science,unanimous,0,10,0,26
+angle_p50,22,26,Engineering,Mathematics,unresolved,0,5,5,26
+angle_p50,22,27,Engineering,Medicine,contradiction,2,5,3,26
+angle_p50,22,28,Engineering,Neuroscience,unresolved,0,8,2,26
+angle_p50,22,29,Engineering,Nursing,contradiction,1,4,5,26
+angle_p50,22,30,Engineering,"Pharmacology, Toxicology and Pharmaceutics",unresolved,0,4,6,26
+angle_p50,22,31,Engineering,Physics and Astronomy,unresolved,0,5,5,26
+angle_p50,22,32,Engineering,Psychology,contradiction,1,5,4,26
+angle_p50,22,33,Engineering,Social Sciences,contradiction,4,5,1,26
+angle_p50,22,34,Engineering,Veterinary,unresolved,0,8,2,26
+angle_p50,22,35,Engineering,Dentistry,unanimous,0,10,0,26
+angle_p50,22,36,Engineering,Health Professions,contradiction,1,5,4,26
+angle_p50,23,24,Environmental Science,Immunology and Microbiology,contradiction,1,8,1,26
+angle_p50,23,25,Environmental Science,Materials Science,unresolved,0,8,2,26
+angle_p50,23,26,Environmental Science,Mathematics,contradiction,2,2,6,26
+angle_p50,23,27,Environmental Science,Medicine,contradiction,2,2,6,26
+angle_p50,23,28,Environmental Science,Neuroscience,contradiction,1,5,4,26
+angle_p50,23,29,Environmental Science,Nursing,contradiction,1,4,5,26
+angle_p50,23,30,Environmental Science,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,5,4,26
+angle_p50,23,31,Environmental Science,Physics and Astronomy,contradiction,1,4,5,26
+angle_p50,23,32,Environmental Science,Psychology,contradiction,1,3,6,26
+angle_p50,23,33,Environmental Science,Social Sciences,contradiction,3,2,5,26
+angle_p50,23,34,Environmental Science,Veterinary,unresolved,0,9,1,26
+angle_p50,23,35,Environmental Science,Dentistry,unanimous,0,10,0,26
+angle_p50,23,36,Environmental Science,Health Professions,contradiction,2,3,5,26
+angle_p50,24,25,Immunology and Microbiology,Materials Science,contradiction,4,2,4,26
+angle_p50,24,26,Immunology and Microbiology,Mathematics,contradiction,7,1,2,26
+angle_p50,24,27,Immunology and Microbiology,Medicine,unresolved,9,0,1,26
+angle_p50,24,28,Immunology and Microbiology,Neuroscience,unresolved,8,0,2,26
+angle_p50,24,29,Immunology and Microbiology,Nursing,unresolved,7,0,3,26
+angle_p50,24,30,Immunology and Microbiology,"Pharmacology, Toxicology and Pharmaceutics",contradiction,4,1,5,26
+angle_p50,24,31,Immunology and Microbiology,Physics and Astronomy,contradiction,5,1,4,26
+angle_p50,24,32,Immunology and Microbiology,Psychology,contradiction,9,1,0,26
+angle_p50,24,33,Immunology and Microbiology,Social Sciences,contradiction,8,1,1,26
+angle_p50,24,34,Immunology and Microbiology,Veterinary,contradiction,2,3,5,26
+angle_p50,24,35,Immunology and Microbiology,Dentistry,unresolved,0,9,1,26
+angle_p50,24,36,Immunology and Microbiology,Health Professions,contradiction,8,1,1,26
+angle_p50,25,26,Materials Science,Mathematics,unresolved,8,0,2,26
+angle_p50,25,27,Materials Science,Medicine,unresolved,7,0,3,26
+angle_p50,25,28,Materials Science,Neuroscience,unresolved,6,0,4,26
+angle_p50,25,29,Materials Science,Nursing,contradiction,7,1,2,26
+angle_p50,25,30,Materials Science,"Pharmacology, Toxicology and Pharmaceutics",contradiction,4,3,3,26
+angle_p50,25,31,Materials Science,Physics and Astronomy,unresolved,9,0,1,26
+angle_p50,25,32,Materials Science,Psychology,unresolved,7,0,3,26
+angle_p50,25,33,Materials Science,Social Sciences,contradiction,7,1,2,26
+angle_p50,25,34,Materials Science,Veterinary,contradiction,2,3,5,26
+angle_p50,25,35,Materials Science,Dentistry,unresolved,0,9,1,26
+angle_p50,25,36,Materials Science,Health Professions,contradiction,7,1,2,26
+angle_p50,26,27,Mathematics,Medicine,contradiction,1,2,7,26
+angle_p50,26,28,Mathematics,Neuroscience,contradiction,2,5,3,26
+angle_p50,26,29,Mathematics,Nursing,contradiction,1,3,6,26
+angle_p50,26,30,Mathematics,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,5,4,26
+angle_p50,26,31,Mathematics,Physics and Astronomy,contradiction,2,7,1,26
+angle_p50,26,32,Mathematics,Psychology,contradiction,2,2,6,26
+angle_p50,26,33,Mathematics,Social Sciences,contradiction,2,1,7,26
+angle_p50,26,34,Mathematics,Veterinary,contradiction,1,8,1,26
+angle_p50,26,35,Mathematics,Dentistry,unanimous,0,10,0,26
+angle_p50,26,36,Mathematics,Health Professions,contradiction,2,2,6,26
+angle_p50,27,28,Medicine,Neuroscience,unresolved,0,5,5,26
+angle_p50,27,29,Medicine,Nursing,contradiction,2,5,3,26
+angle_p50,27,30,Medicine,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,5,4,26
+angle_p50,27,31,Medicine,Physics and Astronomy,contradiction,1,3,6,26
+angle_p50,27,32,Medicine,Psychology,contradiction,3,4,3,26
+angle_p50,27,33,Medicine,Social Sciences,contradiction,3,4,3,26
+angle_p50,27,34,Medicine,Veterinary,unresolved,0,8,2,26
+angle_p50,27,35,Medicine,Dentistry,unanimous,0,10,0,26
+angle_p50,27,36,Medicine,Health Professions,contradiction,3,5,2,26
+angle_p50,28,29,Neuroscience,Nursing,contradiction,3,3,4,26
+angle_p50,28,30,Neuroscience,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,4,5,26
+angle_p50,28,31,Neuroscience,Physics and Astronomy,contradiction,3,2,5,26
+angle_p50,28,32,Neuroscience,Psychology,contradiction,3,3,4,26
+angle_p50,28,33,Neuroscience,Social Sciences,contradiction,4,3,3,26
+angle_p50,28,34,Neuroscience,Veterinary,unresolved,0,5,5,26
+angle_p50,28,35,Neuroscience,Dentistry,unanimous,0,10,0,26
+angle_p50,28,36,Neuroscience,Health Professions,contradiction,3,3,4,26
+angle_p50,29,30,Nursing,"Pharmacology, Toxicology and Pharmaceutics",unresolved,0,5,5,26
+angle_p50,29,31,Nursing,Physics and Astronomy,contradiction,3,2,5,26
+angle_p50,29,32,Nursing,Psychology,contradiction,2,1,7,26
+angle_p50,29,33,Nursing,Social Sciences,contradiction,5,1,4,26
+angle_p50,29,34,Nursing,Veterinary,unanimous,0,10,0,26
+angle_p50,29,35,Nursing,Dentistry,unanimous,0,10,0,26
+angle_p50,29,36,Nursing,Health Professions,contradiction,3,1,6,26
+angle_p50,30,31,"Pharmacology, Toxicology and Pharmaceutics",Physics and Astronomy,contradiction,4,3,3,26
+angle_p50,30,32,"Pharmacology, Toxicology and Pharmaceutics",Psychology,contradiction,5,1,4,26
+angle_p50,30,33,"Pharmacology, Toxicology and Pharmaceutics",Social Sciences,contradiction,7,1,2,26
+angle_p50,30,34,"Pharmacology, Toxicology and Pharmaceutics",Veterinary,unresolved,0,4,6,26
+angle_p50,30,35,"Pharmacology, Toxicology and Pharmaceutics",Dentistry,unanimous,0,10,0,26
+angle_p50,30,36,"Pharmacology, Toxicology and Pharmaceutics",Health Professions,contradiction,6,1,3,26
+angle_p50,31,32,Physics and Astronomy,Psychology,contradiction,5,2,3,26
+angle_p50,31,33,Physics and Astronomy,Social Sciences,contradiction,5,1,4,26
+angle_p50,31,34,Physics and Astronomy,Veterinary,contradiction,1,6,3,26
+angle_p50,31,35,Physics and Astronomy,Dentistry,unanimous,0,10,0,26
+angle_p50,31,36,Physics and Astronomy,Health Professions,contradiction,7,3,0,26
+angle_p50,32,33,Psychology,Social Sciences,contradiction,5,2,3,26
+angle_p50,32,34,Psychology,Veterinary,contradiction,1,9,0,26
+angle_p50,32,35,Psychology,Dentistry,unanimous,0,10,0,26
+angle_p50,32,36,Psychology,Health Professions,contradiction,3,2,5,26
+angle_p50,33,34,Social Sciences,Veterinary,contradiction,1,9,0,26
+angle_p50,33,35,Social Sciences,Dentistry,unanimous,0,10,0,26
+angle_p50,33,36,Social Sciences,Health Professions,contradiction,2,5,3,26
+angle_p50,34,35,Veterinary,Dentistry,unanimous,0,10,0,26
+angle_p50,34,36,Veterinary,Health Professions,unresolved,9,0,1,26
+angle_p50,35,36,Dentistry,Health Professions,unanimous,10,0,0,26
+pr,11,12,Agricultural and Biological Sciences,Arts and Humanities,contradiction,5,3,2,3
+pr,11,13,Agricultural and Biological Sciences,"Biochemistry, Genetics and Molecular Biology",contradiction,8,2,0,3
+pr,11,14,Agricultural and Biological Sciences,"Business, Management and Accounting",contradiction,3,2,5,3
+pr,11,15,Agricultural and Biological Sciences,Chemical Engineering,unanimous,0,10,0,3
+pr,11,16,Agricultural and Biological Sciences,Chemistry,contradiction,1,5,4,3
+pr,11,17,Agricultural and Biological Sciences,Computer Science,contradiction,5,3,2,3
+pr,11,18,Agricultural and Biological Sciences,Decision Sciences,contradiction,4,1,5,3
+pr,11,19,Agricultural and Biological Sciences,Earth and Planetary Sciences,unresolved,0,9,1,3
+pr,11,20,Agricultural and Biological Sciences,"Economics, Econometrics and Finance",contradiction,4,2,4,3
+pr,11,21,Agricultural and Biological Sciences,Energy,unanimous,0,10,0,3
+pr,11,22,Agricultural and Biological Sciences,Engineering,contradiction,5,1,4,3
+pr,11,23,Agricultural and Biological Sciences,Environmental Science,unresolved,0,0,10,3
+pr,11,24,Agricultural and Biological Sciences,Immunology and Microbiology,unresolved,0,6,4,3
+pr,11,25,Agricultural and Biological Sciences,Materials Science,contradiction,1,2,7,3
+pr,11,26,Agricultural and Biological Sciences,Mathematics,contradiction,2,4,4,3
+pr,11,27,Agricultural and Biological Sciences,Medicine,contradiction,6,2,2,3
+pr,11,28,Agricultural and Biological Sciences,Neuroscience,contradiction,1,3,6,3
+pr,11,29,Agricultural and Biological Sciences,Nursing,unresolved,0,7,3,3
+pr,11,30,Agricultural and Biological Sciences,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,6,3,3
+pr,11,31,Agricultural and Biological Sciences,Physics and Astronomy,contradiction,1,5,4,3
+pr,11,32,Agricultural and Biological Sciences,Psychology,contradiction,2,4,4,3
+pr,11,33,Agricultural and Biological Sciences,Social Sciences,contradiction,4,3,3,3
+pr,11,34,Agricultural and Biological Sciences,Veterinary,unresolved,0,5,5,3
+pr,11,35,Agricultural and Biological Sciences,Dentistry,unresolved,0,8,2,3
+pr,11,36,Agricultural and Biological Sciences,Health Professions,contradiction,3,3,4,3
+pr,12,13,Arts and Humanities,"Biochemistry, Genetics and Molecular Biology",contradiction,5,4,1,3
+pr,12,14,Arts and Humanities,"Business, Management and Accounting",contradiction,2,5,3,3
+pr,12,15,Arts and Humanities,Chemical Engineering,contradiction,2,8,0,3
+pr,12,16,Arts and Humanities,Chemistry,contradiction,1,5,4,3
+pr,12,17,Arts and Humanities,Computer Science,contradiction,5,3,2,3
+pr,12,18,Arts and Humanities,Decision Sciences,contradiction,3,5,2,3
+pr,12,19,Arts and Humanities,Earth and Planetary Sciences,unresolved,0,8,2,3
+pr,12,20,Arts and Humanities,"Economics, Econometrics and Finance",contradiction,1,5,4,3
+pr,12,21,Arts and Humanities,Energy,unresolved,0,9,1,3
+pr,12,22,Arts and Humanities,Engineering,contradiction,5,3,2,3
+pr,12,23,Arts and Humanities,Environmental Science,contradiction,2,5,3,3
+pr,12,24,Arts and Humanities,Immunology and Microbiology,contradiction,2,6,2,3
+pr,12,25,Arts and Humanities,Materials Science,contradiction,2,4,4,3
+pr,12,26,Arts and Humanities,Mathematics,unresolved,0,5,5,3
+pr,12,27,Arts and Humanities,Medicine,contradiction,4,3,3,3
+pr,12,28,Arts and Humanities,Neuroscience,contradiction,4,5,1,3
+pr,12,29,Arts and Humanities,Nursing,contradiction,2,7,1,3
+pr,12,30,Arts and Humanities,"Pharmacology, Toxicology and Pharmaceutics",contradiction,2,6,2,3
+pr,12,31,Arts and Humanities,Physics and Astronomy,unresolved,0,5,5,3
+pr,12,32,Arts and Humanities,Psychology,contradiction,1,5,4,3
+pr,12,33,Arts and Humanities,Social Sciences,unresolved,0,3,7,3
+pr,12,34,Arts and Humanities,Veterinary,contradiction,2,6,2,3
+pr,12,35,Arts and Humanities,Dentistry,contradiction,1,7,2,3
+pr,12,36,Arts and Humanities,Health Professions,contradiction,1,5,4,3
+pr,13,14,"Biochemistry, Genetics and Molecular Biology","Business, Management and Accounting",contradiction,2,6,2,3
+pr,13,15,"Biochemistry, Genetics and Molecular Biology",Chemical Engineering,unresolved,0,9,1,3
+pr,13,16,"Biochemistry, Genetics and Molecular Biology",Chemistry,unresolved,0,8,2,3
+pr,13,17,"Biochemistry, Genetics and Molecular Biology",Computer Science,contradiction,4,5,1,3
+pr,13,18,"Biochemistry, Genetics and Molecular Biology",Decision Sciences,contradiction,2,5,3,3
+pr,13,19,"Biochemistry, Genetics and Molecular Biology",Earth and Planetary Sciences,contradiction,2,8,0,3
+pr,13,20,"Biochemistry, Genetics and Molecular Biology","Economics, Econometrics and Finance",contradiction,2,6,2,3
+pr,13,21,"Biochemistry, Genetics and Molecular Biology",Energy,unresolved,0,9,1,3
+pr,13,22,"Biochemistry, Genetics and Molecular Biology",Engineering,contradiction,3,4,3,3
+pr,13,23,"Biochemistry, Genetics and Molecular Biology",Environmental Science,contradiction,2,7,1,3
+pr,13,24,"Biochemistry, Genetics and Molecular Biology",Immunology and Microbiology,unresolved,0,9,1,3
+pr,13,25,"Biochemistry, Genetics and Molecular Biology",Materials Science,contradiction,1,8,1,3
+pr,13,26,"Biochemistry, Genetics and Molecular Biology",Mathematics,unresolved,0,6,4,3
+pr,13,27,"Biochemistry, Genetics and Molecular Biology",Medicine,contradiction,2,3,5,3
+pr,13,28,"Biochemistry, Genetics and Molecular Biology",Neuroscience,unresolved,0,7,3,3
+pr,13,29,"Biochemistry, Genetics and Molecular Biology",Nursing,unresolved,0,8,2,3
+pr,13,30,"Biochemistry, Genetics and Molecular Biology","Pharmacology, Toxicology and Pharmaceutics",unresolved,0,8,2,3
+pr,13,31,"Biochemistry, Genetics and Molecular Biology",Physics and Astronomy,contradiction,1,7,2,3
+pr,13,32,"Biochemistry, Genetics and Molecular Biology",Psychology,contradiction,2,6,2,3
+pr,13,33,"Biochemistry, Genetics and Molecular Biology",Social Sciences,contradiction,4,6,0,3
+pr,13,34,"Biochemistry, Genetics and Molecular Biology",Veterinary,contradiction,1,8,1,3
+pr,13,35,"Biochemistry, Genetics and Molecular Biology",Dentistry,contradiction,1,8,1,3
+pr,13,36,"Biochemistry, Genetics and Molecular Biology",Health Professions,contradiction,3,6,1,3
+pr,14,15,"Business, Management and Accounting",Chemical Engineering,unresolved,0,6,4,3
+pr,14,16,"Business, Management and Accounting",Chemistry,unresolved,0,7,3,3
+pr,14,17,"Business, Management and Accounting",Computer Science,contradiction,4,3,3,3
+pr,14,18,"Business, Management and Accounting",Decision Sciences,contradiction,2,2,6,3
+pr,14,19,"Business, Management and Accounting",Earth and Planetary Sciences,unresolved,0,8,2,3
+pr,14,20,"Business, Management and Accounting","Economics, Econometrics and Finance",contradiction,1,2,7,3
+pr,14,21,"Business, Management and Accounting",Energy,unresolved,0,9,1,3
+pr,14,22,"Business, Management and Accounting",Engineering,contradiction,5,2,3,3
+pr,14,23,"Business, Management and Accounting",Environmental Science,unresolved,0,2,8,3
+pr,14,24,"Business, Management and Accounting",Immunology and Microbiology,unresolved,0,5,5,3
+pr,14,25,"Business, Management and Accounting",Materials Science,contradiction,3,4,3,3
+pr,14,26,"Business, Management and Accounting",Mathematics,unresolved,0,4,6,3
+pr,14,27,"Business, Management and Accounting",Medicine,contradiction,5,2,3,3
+pr,14,28,"Business, Management and Accounting",Neuroscience,contradiction,3,5,2,3
+pr,14,29,"Business, Management and Accounting",Nursing,unresolved,0,5,5,3
+pr,14,30,"Business, Management and Accounting","Pharmacology, Toxicology and Pharmaceutics",contradiction,1,4,5,3
+pr,14,31,"Business, Management and Accounting",Physics and Astronomy,unresolved,0,5,5,3
+pr,14,32,"Business, Management and Accounting",Psychology,contradiction,1,1,8,3
+pr,14,33,"Business, Management and Accounting",Social Sciences,contradiction,5,2,3,3
+pr,14,34,"Business, Management and Accounting",Veterinary,contradiction,1,5,4,3
+pr,14,35,"Business, Management and Accounting",Dentistry,unresolved,0,6,4,3
+pr,14,36,"Business, Management and Accounting",Health Professions,contradiction,2,1,7,3
+pr,15,16,Chemical Engineering,Chemistry,contradiction,5,4,1,3
+pr,15,17,Chemical Engineering,Computer Science,unresolved,9,0,1,3
+pr,15,18,Chemical Engineering,Decision Sciences,unresolved,9,0,1,3
+pr,15,19,Chemical Engineering,Earth and Planetary Sciences,contradiction,5,1,4,3
+pr,15,20,Chemical Engineering,"Economics, Econometrics and Finance",unresolved,5,0,5,3
+pr,15,21,Chemical Engineering,Energy,unresolved,0,6,4,3
+pr,15,22,Chemical Engineering,Engineering,unanimous,10,0,0,3
+pr,15,23,Chemical Engineering,Environmental Science,unresolved,9,0,1,3
+pr,15,24,Chemical Engineering,Immunology and Microbiology,unresolved,5,0,5,3
+pr,15,25,Chemical Engineering,Materials Science,unanimous,10,0,0,3
+pr,15,26,Chemical Engineering,Mathematics,contradiction,5,3,2,3
+pr,15,27,Chemical Engineering,Medicine,unresolved,9,0,1,3
+pr,15,28,Chemical Engineering,Neuroscience,unresolved,9,0,1,3
+pr,15,29,Chemical Engineering,Nursing,unresolved,5,0,5,3
+pr,15,30,Chemical Engineering,"Pharmacology, Toxicology and Pharmaceutics",unresolved,4,0,6,3
+pr,15,31,Chemical Engineering,Physics and Astronomy,contradiction,6,1,3,3
+pr,15,32,Chemical Engineering,Psychology,unresolved,7,0,3,3
+pr,15,33,Chemical Engineering,Social Sciences,contradiction,5,1,4,3
+pr,15,34,Chemical Engineering,Veterinary,unresolved,3,0,7,3
+pr,15,35,Chemical Engineering,Dentistry,unresolved,4,0,6,3
+pr,15,36,Chemical Engineering,Health Professions,unresolved,7,0,3,3
+pr,16,17,Chemistry,Computer Science,contradiction,8,1,1,3
+pr,16,18,Chemistry,Decision Sciences,unresolved,7,0,3,3
+pr,16,19,Chemistry,Earth and Planetary Sciences,contradiction,2,4,4,3
+pr,16,20,Chemistry,"Economics, Econometrics and Finance",unresolved,7,0,3,3
+pr,16,21,Chemistry,Energy,contradiction,1,6,3,3
+pr,16,22,Chemistry,Engineering,unresolved,8,0,2,3
+pr,16,23,Chemistry,Environmental Science,contradiction,6,1,3,3
+pr,16,24,Chemistry,Immunology and Microbiology,contradiction,4,2,4,3
+pr,16,25,Chemistry,Materials Science,contradiction,4,1,5,3
+pr,16,26,Chemistry,Mathematics,contradiction,4,2,4,3
+pr,16,27,Chemistry,Medicine,unresolved,7,0,3,3
+pr,16,28,Chemistry,Neuroscience,unresolved,6,0,4,3
+pr,16,29,Chemistry,Nursing,contradiction,5,4,1,3
+pr,16,30,Chemistry,"Pharmacology, Toxicology and Pharmaceutics",contradiction,5,1,4,3
+pr,16,31,Chemistry,Physics and Astronomy,contradiction,4,1,5,3
+pr,16,32,Chemistry,Psychology,unresolved,6,0,4,3
+pr,16,33,Chemistry,Social Sciences,unresolved,5,0,5,3
+pr,16,34,Chemistry,Veterinary,contradiction,5,4,1,3
+pr,16,35,Chemistry,Dentistry,contradiction,5,3,2,3
+pr,16,36,Chemistry,Health Professions,unresolved,6,0,4,3
+pr,17,18,Computer Science,Decision Sciences,contradiction,2,3,5,3
+pr,17,19,Computer Science,Earth and Planetary Sciences,contradiction,1,7,2,3
+pr,17,20,Computer Science,"Economics, Econometrics and Finance",contradiction,3,6,1,3
+pr,17,21,Computer Science,Energy,unresolved,0,9,1,3
+pr,17,22,Computer Science,Engineering,contradiction,2,1,7,3
+pr,17,23,Computer Science,Environmental Science,contradiction,4,5,1,3
+pr,17,24,Computer Science,Immunology and Microbiology,contradiction,2,7,1,3
+pr,17,25,Computer Science,Materials Science,contradiction,1,5,4,3
+pr,17,26,Computer Science,Mathematics,unresolved,0,6,4,3
+pr,17,27,Computer Science,Medicine,contradiction,3,3,4,3
+pr,17,28,Computer Science,Neuroscience,contradiction,2,4,4,3
+pr,17,29,Computer Science,Nursing,contradiction,1,6,3,3
+pr,17,30,Computer Science,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,6,3,3
+pr,17,31,Computer Science,Physics and Astronomy,unresolved,0,9,1,3
+pr,17,32,Computer Science,Psychology,contradiction,3,6,1,3
+pr,17,33,Computer Science,Social Sciences,contradiction,3,6,1,3
+pr,17,34,Computer Science,Veterinary,contradiction,1,5,4,3
+pr,17,35,Computer Science,Dentistry,contradiction,1,7,2,3
+pr,17,36,Computer Science,Health Professions,contradiction,3,4,3,3
+pr,18,19,Decision Sciences,Earth and Planetary Sciences,unresolved,0,9,1,3
+pr,18,20,Decision Sciences,"Economics, Econometrics and Finance",contradiction,3,4,3,3
+pr,18,21,Decision Sciences,Energy,unanimous,0,10,0,3
+pr,18,22,Decision Sciences,Engineering,contradiction,5,1,4,3
+pr,18,23,Decision Sciences,Environmental Science,contradiction,1,5,4,3
+pr,18,24,Decision Sciences,Immunology and Microbiology,contradiction,1,6,3,3
+pr,18,25,Decision Sciences,Materials Science,contradiction,1,5,4,3
+pr,18,26,Decision Sciences,Mathematics,unresolved,0,5,5,3
+pr,18,27,Decision Sciences,Medicine,contradiction,4,1,5,3
+pr,18,28,Decision Sciences,Neuroscience,contradiction,1,5,4,3
+pr,18,29,Decision Sciences,Nursing,unresolved,0,7,3,3
+pr,18,30,Decision Sciences,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,6,3,3
+pr,18,31,Decision Sciences,Physics and Astronomy,unresolved,0,8,2,3
+pr,18,32,Decision Sciences,Psychology,contradiction,1,4,5,3
+pr,18,33,Decision Sciences,Social Sciences,contradiction,3,5,2,3
+pr,18,34,Decision Sciences,Veterinary,contradiction,1,7,2,3
+pr,18,35,Decision Sciences,Dentistry,unresolved,0,8,2,3
+pr,18,36,Decision Sciences,Health Professions,contradiction,1,3,6,3
+pr,19,20,Earth and Planetary Sciences,"Economics, Econometrics and Finance",unresolved,7,0,3,3
+pr,19,21,Earth and Planetary Sciences,Energy,unresolved,0,4,6,3
+pr,19,22,Earth and Planetary Sciences,Engineering,unresolved,8,0,2,3
+pr,19,23,Earth and Planetary Sciences,Environmental Science,unresolved,8,0,2,3
+pr,19,24,Earth and Planetary Sciences,Immunology and Microbiology,contradiction,5,3,2,3
+pr,19,25,Earth and Planetary Sciences,Materials Science,unresolved,6,0,4,3
+pr,19,26,Earth and Planetary Sciences,Mathematics,contradiction,4,2,4,3
+pr,19,27,Earth and Planetary Sciences,Medicine,unresolved,7,0,3,3
+pr,19,28,Earth and Planetary Sciences,Neuroscience,contradiction,7,2,1,3
+pr,19,29,Earth and Planetary Sciences,Nursing,contradiction,4,5,1,3
+pr,19,30,Earth and Planetary Sciences,"Pharmacology, Toxicology and Pharmaceutics",contradiction,3,2,5,3
+pr,19,31,Earth and Planetary Sciences,Physics and Astronomy,contradiction,5,2,3,3
+pr,19,32,Earth and Planetary Sciences,Psychology,unresolved,8,0,2,3
+pr,19,33,Earth and Planetary Sciences,Social Sciences,unresolved,7,0,3,3
+pr,19,34,Earth and Planetary Sciences,Veterinary,contradiction,4,3,3,3
+pr,19,35,Earth and Planetary Sciences,Dentistry,contradiction,3,3,4,3
+pr,19,36,Earth and Planetary Sciences,Health Professions,unresolved,8,0,2,3
+pr,20,21,"Economics, Econometrics and Finance",Energy,unresolved,0,9,1,3
+pr,20,22,"Economics, Econometrics and Finance",Engineering,contradiction,7,2,1,3
+pr,20,23,"Economics, Econometrics and Finance",Environmental Science,contradiction,1,4,5,3
+pr,20,24,"Economics, Econometrics and Finance",Immunology and Microbiology,contradiction,2,4,4,3
+pr,20,25,"Economics, Econometrics and Finance",Materials Science,contradiction,2,4,4,3
+pr,20,26,"Economics, Econometrics and Finance",Mathematics,unresolved,0,3,7,3
+pr,20,27,"Economics, Econometrics and Finance",Medicine,contradiction,4,2,4,3
+pr,20,28,"Economics, Econometrics and Finance",Neuroscience,contradiction,4,4,2,3
+pr,20,29,"Economics, Econometrics and Finance",Nursing,unresolved,0,6,4,3
+pr,20,30,"Economics, Econometrics and Finance","Pharmacology, Toxicology and Pharmaceutics",contradiction,1,4,5,3
+pr,20,31,"Economics, Econometrics and Finance",Physics and Astronomy,contradiction,1,5,4,3
+pr,20,32,"Economics, Econometrics and Finance",Psychology,contradiction,1,2,7,3
+pr,20,33,"Economics, Econometrics and Finance",Social Sciences,contradiction,3,2,5,3
+pr,20,34,"Economics, Econometrics and Finance",Veterinary,contradiction,1,6,3,3
+pr,20,35,"Economics, Econometrics and Finance",Dentistry,unresolved,0,5,5,3
+pr,20,36,"Economics, Econometrics and Finance",Health Professions,unresolved,3,0,7,3
+pr,21,22,Energy,Engineering,unresolved,9,0,1,3
+pr,21,23,Energy,Environmental Science,unanimous,10,0,0,3
+pr,21,24,Energy,Immunology and Microbiology,unresolved,6,0,4,3
+pr,21,25,Energy,Materials Science,unresolved,7,0,3,3
+pr,21,26,Energy,Mathematics,contradiction,7,2,1,3
+pr,21,27,Energy,Medicine,unanimous,10,0,0,3
+pr,21,28,Energy,Neuroscience,unresolved,8,0,2,3
+pr,21,29,Energy,Nursing,unresolved,8,0,2,3
+pr,21,30,Energy,"Pharmacology, Toxicology and Pharmaceutics",unresolved,8,0,2,3
+pr,21,31,Energy,Physics and Astronomy,unresolved,7,0,3,3
+pr,21,32,Energy,Psychology,unresolved,9,0,1,3
+pr,21,33,Energy,Social Sciences,unresolved,7,0,3,3
+pr,21,34,Energy,Veterinary,unresolved,7,0,3,3
+pr,21,35,Energy,Dentistry,unresolved,6,0,4,3
+pr,21,36,Energy,Health Professions,unresolved,9,0,1,3
+pr,22,23,Engineering,Environmental Science,contradiction,1,6,3,3
+pr,22,24,Engineering,Immunology and Microbiology,unresolved,0,6,4,3
+pr,22,25,Engineering,Materials Science,unresolved,0,6,4,3
+pr,22,26,Engineering,Mathematics,unresolved,0,8,2,3
+pr,22,27,Engineering,Medicine,contradiction,1,3,6,3
+pr,22,28,Engineering,Neuroscience,unresolved,0,5,5,3
+pr,22,29,Engineering,Nursing,unresolved,0,8,2,3
+pr,22,30,Engineering,"Pharmacology, Toxicology and Pharmaceutics",unresolved,0,8,2,3
+pr,22,31,Engineering,Physics and Astronomy,unresolved,0,8,2,3
+pr,22,32,Engineering,Psychology,contradiction,1,6,3,3
+pr,22,33,Engineering,Social Sciences,contradiction,2,7,1,3
+pr,22,34,Engineering,Veterinary,unresolved,0,8,2,3
+pr,22,35,Engineering,Dentistry,unresolved,0,8,2,3
+pr,22,36,Engineering,Health Professions,contradiction,2,6,2,3
+pr,23,24,Environmental Science,Immunology and Microbiology,contradiction,1,4,5,3
+pr,23,25,Environmental Science,Materials Science,contradiction,1,2,7,3
+pr,23,26,Environmental Science,Mathematics,contradiction,1,4,5,3
+pr,23,27,Environmental Science,Medicine,contradiction,5,1,4,3
+pr,23,28,Environmental Science,Neuroscience,contradiction,3,3,4,3
+pr,23,29,Environmental Science,Nursing,unresolved,0,7,3,3
+pr,23,30,Environmental Science,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,6,3,3
+pr,23,31,Environmental Science,Physics and Astronomy,contradiction,1,3,6,3
+pr,23,32,Environmental Science,Psychology,contradiction,2,1,7,3
+pr,23,33,Environmental Science,Social Sciences,contradiction,4,3,3,3
+pr,23,34,Environmental Science,Veterinary,contradiction,1,5,4,3
+pr,23,35,Environmental Science,Dentistry,unresolved,0,7,3,3
+pr,23,36,Environmental Science,Health Professions,contradiction,2,2,6,3
+pr,24,25,Immunology and Microbiology,Materials Science,unresolved,6,0,4,3
+pr,24,26,Immunology and Microbiology,Mathematics,contradiction,3,3,4,3
+pr,24,27,Immunology and Microbiology,Medicine,unresolved,9,0,1,3
+pr,24,28,Immunology and Microbiology,Neuroscience,contradiction,5,1,4,3
+pr,24,29,Immunology and Microbiology,Nursing,contradiction,2,4,4,3
+pr,24,30,Immunology and Microbiology,"Pharmacology, Toxicology and Pharmaceutics",contradiction,2,3,5,3
+pr,24,31,Immunology and Microbiology,Physics and Astronomy,contradiction,2,2,6,3
+pr,24,32,Immunology and Microbiology,Psychology,contradiction,4,1,5,3
+pr,24,33,Immunology and Microbiology,Social Sciences,contradiction,4,3,3,3
+pr,24,34,Immunology and Microbiology,Veterinary,contradiction,2,6,2,3
+pr,24,35,Immunology and Microbiology,Dentistry,contradiction,1,4,5,3
+pr,24,36,Immunology and Microbiology,Health Professions,contradiction,5,1,4,3
+pr,25,26,Materials Science,Mathematics,contradiction,1,3,6,3
+pr,25,27,Materials Science,Medicine,unresolved,6,0,4,3
+pr,25,28,Materials Science,Neuroscience,contradiction,2,2,6,3
+pr,25,29,Materials Science,Nursing,unresolved,0,6,4,3
+pr,25,30,Materials Science,"Pharmacology, Toxicology and Pharmaceutics",unresolved,0,2,8,3
+pr,25,31,Materials Science,Physics and Astronomy,unresolved,0,4,6,3
+pr,25,32,Materials Science,Psychology,contradiction,4,2,4,3
+pr,25,33,Materials Science,Social Sciences,contradiction,4,4,2,3
+pr,25,34,Materials Science,Veterinary,contradiction,1,4,5,3
+pr,25,35,Materials Science,Dentistry,unresolved,0,6,4,3
+pr,25,36,Materials Science,Health Professions,contradiction,5,2,3,3
+pr,26,27,Mathematics,Medicine,unresolved,6,0,4,3
+pr,26,28,Mathematics,Neuroscience,contradiction,4,2,4,3
+pr,26,29,Mathematics,Nursing,contradiction,3,3,4,3
+pr,26,30,Mathematics,"Pharmacology, Toxicology and Pharmaceutics",contradiction,3,3,4,3
+pr,26,31,Mathematics,Physics and Astronomy,contradiction,2,1,7,3
+pr,26,32,Mathematics,Psychology,unresolved,4,0,6,3
+pr,26,33,Mathematics,Social Sciences,unresolved,3,0,7,3
+pr,26,34,Mathematics,Veterinary,contradiction,3,2,5,3
+pr,26,35,Mathematics,Dentistry,contradiction,3,3,4,3
+pr,26,36,Mathematics,Health Professions,unresolved,5,0,5,3
+pr,27,28,Medicine,Neuroscience,unresolved,0,6,4,3
+pr,27,29,Medicine,Nursing,unanimous,0,10,0,3
+pr,27,30,Medicine,"Pharmacology, Toxicology and Pharmaceutics",unresolved,0,8,2,3
+pr,27,31,Medicine,Physics and Astronomy,unresolved,0,6,4,3
+pr,27,32,Medicine,Psychology,contradiction,1,6,3,3
+pr,27,33,Medicine,Social Sciences,contradiction,4,5,1,3
+pr,27,34,Medicine,Veterinary,unresolved,0,9,1,3
+pr,27,35,Medicine,Dentistry,unresolved,0,8,2,3
+pr,27,36,Medicine,Health Professions,contradiction,3,7,0,3
+pr,28,29,Neuroscience,Nursing,unresolved,0,7,3,3
+pr,28,30,Neuroscience,"Pharmacology, Toxicology and Pharmaceutics",contradiction,1,6,3,3
+pr,28,31,Neuroscience,Physics and Astronomy,unresolved,0,4,6,3
+pr,28,32,Neuroscience,Psychology,contradiction,3,4,3,3
+pr,28,33,Neuroscience,Social Sciences,contradiction,5,4,1,3
+pr,28,34,Neuroscience,Veterinary,contradiction,1,5,4,3
+pr,28,35,Neuroscience,Dentistry,contradiction,2,8,0,3
+pr,28,36,Neuroscience,Health Professions,contradiction,4,4,2,3
+pr,29,30,Nursing,"Pharmacology, Toxicology and Pharmaceutics",contradiction,4,4,2,3
+pr,29,31,Nursing,Physics and Astronomy,contradiction,4,1,5,3
+pr,29,32,Nursing,Psychology,contradiction,4,1,5,3
+pr,29,33,Nursing,Social Sciences,contradiction,6,2,2,3
+pr,29,34,Nursing,Veterinary,unresolved,2,0,8,3
+pr,29,35,Nursing,Dentistry,contradiction,2,3,5,3
+pr,29,36,Nursing,Health Professions,contradiction,6,1,3,3
+pr,30,31,"Pharmacology, Toxicology and Pharmaceutics",Physics and Astronomy,contradiction,3,2,5,3
+pr,30,32,"Pharmacology, Toxicology and Pharmaceutics",Psychology,unresolved,5,0,5,3
+pr,30,33,"Pharmacology, Toxicology and Pharmaceutics",Social Sciences,contradiction,4,1,5,3
+pr,30,34,"Pharmacology, Toxicology and Pharmaceutics",Veterinary,contradiction,5,4,1,3
+pr,30,35,"Pharmacology, Toxicology and Pharmaceutics",Dentistry,contradiction,1,4,5,3
+pr,30,36,"Pharmacology, Toxicology and Pharmaceutics",Health Professions,unresolved,4,0,6,3
+pr,31,32,Physics and Astronomy,Psychology,unresolved,5,0,5,3
+pr,31,33,Physics and Astronomy,Social Sciences,contradiction,4,1,5,3
+pr,31,34,Physics and Astronomy,Veterinary,contradiction,2,4,4,3
+pr,31,35,Physics and Astronomy,Dentistry,contradiction,2,4,4,3
+pr,31,36,Physics and Astronomy,Health Professions,unresolved,5,0,5,3
+pr,32,33,Psychology,Social Sciences,contradiction,5,2,3,3
+pr,32,34,Psychology,Veterinary,contradiction,2,5,3,3
+pr,32,35,Psychology,Dentistry,unresolved,0,7,3,3
+pr,32,36,Psychology,Health Professions,contradiction,3,1,6,3
+pr,33,34,Social Sciences,Veterinary,contradiction,2,6,2,3
+pr,33,35,Social Sciences,Dentistry,contradiction,2,5,3,3
+pr,33,36,Social Sciences,Health Professions,contradiction,3,3,4,3
+pr,34,35,Veterinary,Dentistry,contradiction,1,4,5,3
+pr,34,36,Veterinary,Health Professions,contradiction,6,2,2,3
+pr,35,36,Dentistry,Health Professions,unresolved,6,0,4,3

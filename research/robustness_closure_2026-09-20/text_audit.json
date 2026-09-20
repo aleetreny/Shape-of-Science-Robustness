@@ -1,0 +1,31 @@
+{
+  "documents": {
+    "en_main": {
+      "pages": 20,
+      "sha256": "179764c668402086f6b3a9d03436101e424a93a1b13d417d13ca98c1a555cccc",
+      "body_words": 4570,
+      "abstract_words": 192
+    },
+    "es_main": {
+      "pages": 22,
+      "sha256": "663f7cca35e7e407a17c9c0163b84e157182b29de6d664dfe83904d1d75a199e",
+      "body_words": 5249,
+      "abstract_words": 196
+    },
+    "en_supplement": {
+      "pages": 39,
+      "sha256": "a5bcc19e90156378325139f0dcca5edf7e35c6951ee40b98b21389e1651350fc"
+    },
+    "es_supplement": {
+      "pages": 41,
+      "sha256": "4d929a630183257d8c4a4013edee01ba665acd0b4b31ccdec9a7b084d5423bd1"
+    }
+  },
+  "bilingual": {
+    "main_paragraphs": 65
+  },
+  "csv_files_bilingually_identical": 129,
+  "tables": 22,
+  "figures": 15,
+  "title_declarations_citations_retained": true
+}

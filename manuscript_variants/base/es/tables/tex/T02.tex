@@ -1,0 +1,32 @@
+\par\noindent\begin{minipage}{\linewidth}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.13}
+\captionof{table}{Modelos de embeddings y reglas principales de representación.}\label{tab:T02}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}m{3.3cm}>{\centering\arraybackslash}m{1.1cm}>{\centering\arraybackslash}m{1.45cm}>{\raggedright\arraybackslash}m{3.0cm}>{\raggedright\arraybackslash}m{5.6cm}@{}}
+\toprule
+\textbf{Modelo} & \textbf{Dim.} & \textbf{Tokens} & \textbf{Representación} & \textbf{Referencia} \\
+\midrule
+\textbf{SPECTER} & 768 & 512 & CLS & \citep{cohan-etal-2020-specter} \\
+\addlinespace[2pt]
+\textbf{SPECTER2} & 768 & 512 & CLS + adaptador & \citep{singh-etal-2023-scirepeval} \\
+\addlinespace[2pt]
+\textbf{SciNCL} & 768 & 512 & CLS & \citep{ostendorff-etal-2022-neighborhood} \\
+\addlinespace[2pt]
+\textbf{SciBERT} & 768 & 512 & Media & \citep{beltagy-etal-2019-scibert} \\
+\addlinespace[2pt]
+\textbf{BERT} & 768 & 512 & Media & \citep{devlin-etal-2019-bert} \\
+\addlinespace[2pt]
+\textbf{MPNet} & 768 & 384 & Media & \citep{reimers-gurevych-2019-sentence} \\
+\addlinespace[2pt]
+\textbf{MiniLM} & 384 & 256 & Media & \citep{reimers-gurevych-2019-sentence} \\
+\addlinespace[2pt]
+\textbf{PubMedBERT / BiomedBERT} & 768 & 512 & Media & \citep{reff9ebfb9307} \\
+\addlinespace[2pt]
+\textbf{BioBERT} & 768 & 512 & Media & \citep{ref4f3e28932e} \\
+\addlinespace[2pt]
+\textbf{SimCSE} & 768 & 512 & CLS, antes del pooler & \citep{gao-etal-2021-simcse} \\
+\bottomrule
+\end{tabular}
+\end{minipage}\par
+\par\smallskip{\small MPNet y MiniLM utilizan all-mpnet-base-v2 y all-MiniLM-L6-v2, respectivamente. Los límites cuentan tokens, incluidos los símbolos especiales. Media: promedio de posiciones sin relleno de la última capa, con símbolos especiales. CLS: primera posición antes del pooler; SPECTER2 añade su adaptador de proximidad. En MPNet/MiniLM, la referencia describe el marco Sentence-BERT, no el entrenamiento exacto de esas versiones. Las reglas alternativas no son modelos adicionales. Versiones, formatos y recorte: Tabla S2.\par}

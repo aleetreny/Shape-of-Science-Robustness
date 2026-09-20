@@ -1,8 +1,26 @@
+## 20-09-2026 — Integración de novedad y entrega pública autorizadas
+
+Petición directa: añadir los párrafos propuestos, actualizar GitHub y completar la preparación/subida posible. Aceptación expresa posterior de MIT para código propio y CC BY 4.0 para resultados/documentos, manteniendo CC0 en metadatos OpenAlex. Se preparan archivos numéricos con selección explícita y controles de integridad; no se redistribuyen pesos ni los resúmenes textuales históricos. No equivale a enviar el artículo a revista.
+
+**Decisión de empaquetado dentro del encargo:** archivar el código de una versión concreta y los 19 ZIP numéricos en el mismo registro Zenodo, con licencias separadas. Sustituye la propuesta inicial de dos registros; el conjunto queda vinculado por un único manifiesto/versionado. Quedan fuera los textos históricos de entrada y pesos. La comprobación pública tiene cobertura explícita y no se presenta como reproducción completa.
+
 # Decisiones y preguntas pendientes
 
-Este es el registro principal para retomar el proyecto. Actualizado: 2026-09-17.
+**Historial: investigación previa a la autorización, sustituida por la entrada anterior, 20-09-2026:** el autor solicita examinar la novedad y cómo cumplir la reproducción pública antes de enviar a QSS. Se ha realizado la revisión dirigida y preparado propuestas concretas: [NOVELTY_AND_REPRODUCIBILITY.md](NOVELTY_AND_REPRODUCIBILITY.md). La redacción sobre comparaciones persistentes entre áreas y la vía GitHub + Zenodo son recomendaciones, no elecciones científicas nuevas ni autorización de depósito. MIT para código propio y CC BY 4.0 para resultados propios son propuestas aún no aceptadas. El ejemplo local recalcula parte de Figura 4 desde medidas guardadas; no reabre experimentos ni demuestra reproducción completa. El manuscrito y sus PDF se conservan. Publicación de datos, licencias y envío siguen pendientes.
 
-**Estado más reciente:** la checklist adicional también está terminada. Su cierre y sus decisiones están al final de este documento; entrega en `CHECKLIST_RESULTS.md`. Las secciones anteriores conservan la cronología, no reabren decisiones cerradas.
+**Alcance aceptado directamente, 20-09-2026:** la nueva petición amplía la revisión de frases marcadas a la lectura completa del artículo. Autoriza una versión editorial revisada con más contexto, ejemplos y continuidad, manteniendo la voz que gusta al autor. Se aplica al inglés canónico y a su copia española. No cambia las decisiones científicas cerradas. El aumento de explicación y los dos nuevos apartados de métodos son decisiones editoriales dentro de ese encargo; no se han elegido nuevos parámetros, datos o modelos.
+
+**Revisión vigente para una primera lectura, 20-09-2026:** por petición expresa del autor, se ha releído y revisado el artículo completo para alguien sin contexto. Entrega: [FIRST_READER_REVIEW.md](FIRST_READER_REVIEW.md). Se conserva la voz aceptada; se explican los conceptos, el propósito y los artículos de cada prueba, y el significado de las cifras. Inglés: 6.567 palabras de cuerpo, 195 de resumen y 24 páginas. Español: 7.332, 211 y 25 páginas. Cifras científicas, figuras, bibliografía, declaraciones y suplementos conservados. Las revisiones que siguen son históricas; aprobación personal pendiente.
+
+**Revisión editorial más reciente, 20-09-2026:** los 38 comentarios del autor están aplicados en inglés y español; ver [MANUSCRIPT_EXPLANATIONS.md](MANUSCRIPT_EXPLANATIONS.md). Se explican selecciones, candidatos, alertas y casos sin resolver, con ejemplos y porcentajes comprobados. Inglés: 5.412 palabras de cuerpo, 200 de resumen y 21 páginas. Español: 6.090, 240 y 22 páginas. Suplementos intactos (39 y 41 páginas). El apartado de IA se ha retirado del borrador por petición expresa; el registro real de asistencia se conserva y las declaraciones exigidas se comprobarán antes del envío. Título y tono conservados; revisión personal pendiente. Los estados de edición que siguen son históricos.
+
+**Revisión editorial posterior, 20-09-2026:** abstract aclarado en ambos idiomas por petición del autor. Se conserva su comienzo y se explican disciplinas, centros, texto de entrada y comparación angular. Inglés: 200 palabras; español para revisión: 235. Cuerpo y suplemento intactos. Registro: [ABSTRACT_CLARITY.md](ABSTRACT_CLARITY.md). El cierre científico sigue vigente; aprobación personal pendiente.
+
+Este es el registro principal para retomar el proyecto. Actualizado: 2026-09-20.
+
+**Cierre vigente, 20-09-2026:** controles finales terminados y congelados; [informe para el autor](ROBUSTNESS_CLOSURE_REPORT.md) y [cambios del manuscrito](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md). El tono claro está aceptado. La revisión personal del contenido sigue pendiente.
+
+**Estado anterior:** V2 elegida por el autor y reescritura clara terminada en ambos idiomas; entrega en `MANUSCRIPT_CLARITY.md`. La elección de voz está cerrada y la aprobación personal del contenido sigue pendiente. Las secciones anteriores conservan la cronología, no reabren decisiones cerradas.
 
 ## Comparación de forma y vecinos terminada: decisiones delegadas vigentes, 17-09-2026
 
@@ -231,3 +249,183 @@ La revisión técnica queda cerrada. Preparado para iniciar redacción cuando se
 ## 17-09-2026 — Commit y push autorizados expresamente
 
 El usuario pide subir la versión revisada antes de redactar. Destino comprobado: `https://github.com/aleetreny/Shape-of-Science-Robustness`, público, inicialmente vacío y con acceso de administración. La carpeta local no tenía commits ni remoto configurado. Se autoriza la primera versión de código, decisiones, documentación, tablas, figuras y evidencia auxiliar versionable. No se suben corpus, embeddings, pesos, claves, entornos ni textos completos de terceros. No se modifica la visibilidad del repositorio ni se elige licencia. El depósito científico permanente y el manuscrito siguen pendientes.
+
+
+## 18-09-2026 — Piloto de morfología autorizado expresamente
+
+El usuario pide estudiar medidas concretas de forma, incluyendo fragmentación, ejecutar un análisis preliminar y comprobar alternativas, calidad y estabilidad. Delega las decisiones necesarias para este alcance. Esta petición sustituye **solo para este piloto nuevo** la decisión anterior de no añadir morfología; no cambia retrospectivamente CKA/vecinos ni sus resultados. Se fijarán medidas, muestras, alternativas y criterios antes de calcular los nuevos resultados reales. Se reutilizan vectores existentes en salidas separadas; no hay autorización ampliada para nuevas extracciones/modelos, manuscrito, depósito o publicación. La entrega distinguirá resultados exploratorios, controles satisfactorios, fallos y aspectos aún no demostrados.
+
+
+### Diseño fijado antes de resultados reales del piloto
+
+`config/morphology_pilot_v1.json` fija tres propiedades: apertura angular (mediana entre pares), dimensión efectiva lineal (participation ratio de la covarianza centrada), conexión de un grafo de vecinos (brecha de Laplaciano normalizado, k=25). Alternativas y escalas se conservan por separado, sin puntuación total. La tercera no se interpretará como fragmentación temática: falló esa interpretación en nubes simuladas. La entropía y D80 son otras lecturas del mismo espectro, no validaciones independientes de significado. Todas las medidas se obtienen en el espacio completo.
+
+Se reutilizan 52k, 2.000 por Field y 400 por período. Veinte selecciones internas de 1.000; cinco nuevas selecciones de 2.000 desde el corpus congelado; tamaños 500–4.000. Entradas/recetas, texto común, MiniLM512, marcas de calidad, extremos, centrado global y referencias gaussianas van separados. Hay controles temporales acotados con tamaños iguales. Las cribas relativas de amplitud (5% apertura, 10% dimensión, 20% conexión) son umbrales operativos del piloto; no justifican precisión poblacional ni se cambian para aprobar resultados. La evidencia continua y las inversiones de orden importan más que un aprobado.
+
+
+### Comprobación interpretativa de tamaño/conectividad durante la ejecución
+
+Con los k25/k50 ya calculados se añadirá una tabla que aproximadamente conserva k/(n−1) al duplicar n. Se registró antes de revisar las curvas completas; no sustituye el protocolo congelado ni es una decisión inicial. Motivo: cambiar n con k fijo cambia también la definición de la red. Se mostrarán ambas sensibilidades para todos los modelos/áreas, sin seleccionar la favorable. Detalle en `research/morphology_2026-09-18/INTERPRETATION_ADDENDUM.md`.
+
+### Cierre del piloto: decisiones tomadas dentro de la delegación
+
+Evidencia completa en `MORPHOLOGY_RESULTS.md`, `METHODS_MORPHOLOGY.md` y `research/morphology_2026-09-18/closure_audit.json`. Se conserva la fase anterior; las medidas nuevas no sustituyen CKA ni vecinos.
+
+| Decisión | Motivo comprobado | Límite que se conserva |
+| --- | --- | --- |
+| Retener apertura y PR como descripciones geométricas. | Repetición a igual tamaño: acuerdo mediano del orden de áreas 0,992/0,989; entre modelos 0,319/0,552. De 2.000 a 4.000, cambio mediano −0,03%/+1,14%. | Receta y centrado importan. No llamar diversidad temática a apertura ni temas a PR; cuatro alertas internas de PR siguen vigentes. |
+| Conservar conexión como diagnóstico, sin adoptar «fragmentación» genérica. | Nubes alargadas dan conexión débil sin separar grupos; el grafo unión queda conectado en 260/260 casos. Variar la regla de vecinos cambia la lectura del tamaño. | 51 alertas externas de conexión; las alternativas no son intercambiables. No resolverlo eligiendo la más llamativa. |
+| No ampliar cálculos del piloto a todas las combinaciones de 500k. | Los controles 500–4.000, veinte medias muestras, cinco selecciones de igual tamaño y alternativas ya permiten responder a la pregunta preliminar. | No fijan un tamaño suficiente para toda afirmación poblacional ni eliminan los casos inestables. Una nueva pregunta necesitaría alcance propio. |
+| Añadir un ejemplo de inversión y casos resistentes, marcados como ilustrativos posteriores. | SPECTER sitúa Medicina más abierta que Artes; BERT invierte la relación. Los signos persisten en 20+5 selecciones y tres descripciones angulares alternativas. Odontología/Energía ilustran resistencia con límites de receta. | Los casos se eligieron tras ver resultados; no estiman la frecuencia de inversiones ni indican qué modelo tiene razón. |
+| Recomendar una sección breve dentro del argumento actual. | Muestra qué afirmaciones del mapa dependen del encoder, en vez de acumular métricas. Se propone mantener cuatro figuras y trasladar tiempo al suplemento. | Es una recomendación de presentación en `PAPER_OUTLINE.md`, no un manuscrito aprobado ni una garantía de aceptación en QSS. |
+| No convertir los patrones temporales o gaussianos en explicaciones causales. | Se observan cambios temporales y diferencias frente a referencias simples; faltan controles de composición para estas nuevas propiedades y las referencias no igualan exactamente el espectro tras normalizar. | No afirmar estrechamiento histórico de la ciencia ni fragmentación temática demostrada. |
+
+La delegación de este piloto queda cerrada. Se entregan alternativas, fallos, límites y procedencia; no quedan tareas necesarias para su cierre. No se añade autorización para nuevas extracciones/modelos, redacción, distribución de datos o publicación. El siguiente paso es decidir la incorporación al manuscrito cuando el usuario lo pida.
+
+## 18-09-2026 — Último resumen de parejas aceptado por el usuario
+
+El usuario acepta la propuesta de resumir todas las 325 parejas de disciplinas antes de decidir cómo organizar el manuscrito. Autoriza los derivados y comprobaciones necesarios sobre los resultados existentes. Alcance: apertura/PR, acuerdo de diez, contradicción persistente y casos sin conclusión común clara; tamaños de diferencia y controles ya guardados. No autoriza nuevos embeddings, extracción, modelos, fragmentación, publicación o redacción automática.
+
+`FIELD_PAIR_PROTOCOL.md` y `config/field_pairs_v1.json` fijan las reglas antes de calcular estos recuentos. Persistencia exige igual dirección en principal + 20 medias muestras + 5 selecciones del mismo corpus. Magnitud continua y sensibilidades 0/1/5/10%, sin elegir el corte por su resultado. Todas las parejas conservan denominador; consenso no equivale a acierto. Se comprueban alternativas, recetas/procesamiento y seis modelos de similitud para conocer el alcance; menos modelos implican menos oportunidades de contradicción. Las alternativas espectrales no tienen las 25 repeticiones completas y se declara su cobertura real.
+
+Los resultados previos y el ejemplo Medicina/Artes ya eran conocidos: esta ampliación es exploratoria posterior. Se conservan documentos con sus huellas anteriores antes de actualizar la continuidad. Al terminar se entregará una propuesta de integración; la organización final del manuscrito se hablará con el usuario.
+
+### Cierre del resumen aceptado: resultados y criterio de presentación
+
+`FIELD_PAIR_RESULTS.md` y `METHODS_FIELD_PAIRS.md` cierran el alcance. Apertura: 42 acuerdos de diez, 262 contradicciones persistentes y 21 sin conclusión común; PR: 54, 221 y 50. Las contradicciones a 5% son 96 y 177; a 10%, 19 y 126. Se mostrarán magnitudes junto a direcciones, sin promover retrospectivamente un corte como correcto.
+
+Las alternativas conjuntas conservan 225/196 contradicciones; seis modelos de similitud conservan 231/160, con menos oportunidades de oposición. El centrado global conserva los mismos modelos testigo en 145/262 aperturas y 218/221 PR, límite sustantivo que acompañará el resultado. Calidad/texto común no convierten las etiquetas en verdad externa. No se ocultan los casos no resueltos ni las alertas anteriores.
+
+Decisión dentro del alcance aceptado: terminar aquí los derivados experimentales y entregar las doce tablas, dos figuras y auditoría. Recomendación para discutir con el usuario: dar prioridad a la figura de recuentos/magnitudes, acompañada del ejemplo y la evidencia de forma/vecinos/entrada ya obtenida; mapa completo y controles en suplemento. Es una propuesta de organización, no una autorización para escribir el manuscrito, publicar, añadir modelos o abrir otra pregunta.
+
+## 18-09-2026 — Revisión editorial amplia de QSS autorizada
+
+El usuario solicita estudiar muchos artículos publicados y cercanos al proyecto, entender su estructura y lenguaje, y proponer cómo organizar nuestro paper. Alcance aceptado: búsqueda documentada, lectura estructural y argumentativa y propuesta aplicada. No equivale a redactar el manuscrito, cambiar decisiones científicas o publicar. La estructura resultante seguirá identificada como propuesta para discutir. Se conserva el cierre anterior antes de actualizar documentos.
+
+### Cierre de la revisión editorial: propuesta, no aceptación de estructura
+
+Se completa una revisión dirigida de 34 artículos de QSS, con 33 lecturas estructurales, once de ellas con foco adicional y una parcial. Marco Crossref completo de 465 registros recuperados; no implica lectura de 465 papers. Se separan versiones editoriales, anticipadas y de autor, y dos cuerpos de versión tipográfica no confirmada. Un cuerpo equivocado se rechazó. La guía oficial solo pudo consultarse mediante índice de rastreo antiguo y se revisará antes del envío.
+
+**Recomendación pendiente de conversar:** un único paper sobre qué conclusiones sobreviven al cambio de representación; tres preguntas, seis secciones, cuatro figuras y dos tablas principales, unas 6.750 palabras de cuerpo como presupuesto propio. Resultados: estructura amplia, vecinos, entrada frente a modelo, comparaciones geométricas entre áreas. Tiempo, Medicina y familias como apoyo; límites sustantivos siempre en el cuerpo. Motivación y alternativas en `QSS_STRUCTURE_REVIEW.md` y `PAPER_OUTLINE.md`.
+
+**No se cierra una decisión científica nueva:** se reorganiza evidencia terminada. No nuevas métricas, resultados, inferencia, extracción ni manuscrito. La propuesta no convierte preguntas posteriores en hipótesis previas. El estudio de QSS no demuestra una estructura obligatoria ni garantiza aceptación. La publicación anterior sigue en `44c9410`; esta entrega no se sube automáticamente. Biblioteca editorial de 34 entradas separada de las 54 canónicas, con solapamientos. Próxima conversación: valorar el esquema propuesto y, solo cuando se solicite, redactar.
+
+## 18-09-2026 — Detalle del manuscrito y voz personal autorizados
+
+El usuario pide desarrollar el esquema hasta secciones, contenido y posición de tablas/figuras, e investigar cómo conservar su voz a partir de todos los artículos que escribió a mano en aleetreny.github.io. Se acepta trabajar sobre la organización propuesta sin convertirla en un manuscrito ya redactado. Se investigarán rasgos de prosa artificial con fuentes primarias, sin prometer detección de autoría ni usar detectores como criterio de escritura. Portfolio de solo lectura; resultados y límites científicos conservados.
+
+## 18-09-2026 — Estructura detallada y voz personal preparadas
+
+**Aceptado directamente:** el usuario pide desarrollar el esquema hasta secciones, nombres, texto y ubicación de tablas/figuras. Pide conservar su voz, aprendida de sus artículos del repositorio aleetreny.github.io, y estudiar qué hace que la escritura resulte artificial. No ha pedido redactar el paper completo.
+
+**Preparación realizada dentro de ese alcance:** `MANUSCRIPT_BLUEPRINT.md` desarrolla seis secciones en 48 párrafos de trabajo, con un presupuesto orientativo de 6.750 palabras, dos tablas principales preparadas, cuatro figuras existentes ubicadas, citas y 23 registros de evidencia. Suplemento organizado en ocho secciones, 17 tablas propuestas y diez figuras de apoyo. Los rótulos ingleses finales de presentación y la maquetación se harán al redactar; no se han cambiado resultados. La numeración de párrafos es flexible y no una plantilla de frases.
+
+**Preferencia de voz incorporada a AGENTS.md:** `AUTHOR_VOICE.md` parte de las 50 entradas publicadas en español del commit `5361e0354dd8419b4cf72089b7e8e51124830cfb`. La prosa se leyó completa; el inventario distingue tipos y conserva enlaces permanentes. La atribución manual procede de la indicación del usuario; no se certifica por detector. Las traducciones automáticas, código y documentación se excluyen como muestras de su voz. Adaptación recomendada: conservar problemas concretos, explicación de mecanismos, decisiones justificadas y límites; moderar informalidad y preservar ritmo variable.
+
+**Investigación de estilo:** cuatro fuentes primarias, con límites por género/modelo/época y bibliografía separada validada. No existe una señal individual o receta que garantice percepción de autoría. No se optimizará para detectores ni se borrará el registro de herramientas; la prioridad editorial es claridad, evidencia y voz reconocible.
+
+**Qué sustituye:** el paso inmediato de solo conversar sobre el esquema QSS pasa a usar este plano detallado y la guía de voz. El título y la prosa final siguen por revisar. **No cambia** protocolos, resultados ni alertas. Sin nueva decisión científica, cálculo, commit/push, depósito, licencia o envío. Se conserva el cierre QSS y sus 16 documentos de estado previos.
+
+## 18-09-2026 - Maqueta y elementos del manuscrito autorizados
+
+Petición directa: generar tablas/gráficas y documento de plantilla apropiada, y mostrar estructura renderizada. Se implementa el plano ya propuesto con LaTeX de primera entrega y suplemento separado. No se presenta como plantilla oficial: la guía indexada acepta formato flexible y no se encontró una clase oficial específica. Formato de presentación, sin decisiones científicas nuevas ni redacción completa. Datos, fuentes y alertas congelados se conservan; autoría, declaraciones, depósito y envío siguen pendientes.
+
+### Cierre de la maqueta y sus elementos
+
+Se entrega el esqueleto editable de seis secciones, dos tablas y cuatro figuras principales, con ocho secciones suplementarias, 17 grupos de tablas y diez figuras. Los PDF tienen 14 y 32 páginas; el espacio ocupado cambiará al escribir la prosa. Los fragmentos de planificación están identificados como *Writing plan*. El título es de trabajo y los campos personales siguen pendientes. La bibliografía canónica se conserva; se imprimen únicamente las nueve referencias utilizadas, sin presentar el estilo provisional como APA definitivo.
+
+La presentación usa una columna y letra de 12 puntos, con un modo opcional para revisión. Es una decisión de maquetación dentro de la petición, no una norma exclusiva de QSS. No se ha localizado una plantilla oficial específica y las normas deben verificarse de nuevo antes del envío por el límite de acceso documentado.
+
+Los resultados se leen desde tablas guardadas. Los resúmenes de tablas declaran su selección y tienen CSV completos; los gráficos tienen fuentes y valores trazables. El paquete editable de 183 archivos se recompiló desde una copia separada y produjo exactamente los mismos PDF. No se ha subido a Overleaf, publicado ni hecho commit/push. El siguiente paso es revisar la maqueta y redactar por bloques cuando se solicite, siguiendo `AUTHOR_VOICE.md`.
+
+## 18-09-2026 — Redacción inicial autorizada
+
+Petición directa: escribir la introducción y `Background and research questions`, respetando la voz acordada y evitando alargar el manuscrito. Se redactan estos bloques antes que métodos/resultados, sustituyendo el orden recomendado anteriormente. El presupuesto previo de 1.550 palabras se reduce como objetivo de escritura a unas 1.100, sin suprimir las tres preguntas, los antecedentes próximos ni los límites de interpretación. No es una restricción editorial impuesta por QSS.
+
+Se mantiene el inglés del manuscrito y el español sencillo de la conversación. Por la preferencia reiterada y la guía aceptada, se interpreta la última frase como evitar una estructura rígida que suene artificial; se ha comunicado esta interpretación. No se redactan las demás secciones por extensión ni se modifica el diseño científico. Las nuevas citas serán solo las necesarias para las afirmaciones escritas; los materiales históricos y la biblioteca canónica se conservan.
+
+### Primer borrador entregado
+
+Introducción de 367 palabras y antecedentes/preguntas de 627, sin contar títulos ni expansiones de citas. Se mantienen los tres subapartados y preguntas del plano, con párrafos de extensión variable. El ahorro frente al presupuesto inicial no se obtiene suprimiendo el carácter exploratorio de RQ3 ni la diferencia entre acuerdo y validez. El título continúa provisional y el texto espera revisión del autor.
+
+Ocho antecedentes próximos se citan por afirmaciones concretas; siete ya estaban en la biblioteca científica y Held/Velden procede de la revisión QSS. Se conserva la biblioteca canónica, añadiendo una colección de contexto al manuscrito y un ajuste de escape tipográfico en su copia base. No se añaden todos los trabajos revisados ni referencias sobre estilo al paper.
+
+PDF y paquete editable actualizados y verificados; las secciones posteriores, tablas, figuras, suplemento y 150 archivos de resultados anteriores permanecen intactos. No hubo cálculos, publicación, commit/push ni decisiones científicas nuevas. La autorización de esta entrega queda limitada a los dos bloques solicitados.
+
+## 18-09-2026 — Manuscrito completo y revisión autorizados
+
+El usuario pide escribir el resto del paper y revisar íntegramente tono, coherencia, interés, longitud, tablas y gráficas. Sustituye el límite anterior de redactar solo secciones 1 y 2. Se completará el texto científico y el suplemento, con libertad editorial para quitar repeticiones y mejorar la presentación de los resultados existentes. Se conservará el borrador anterior y no se cambiarán medidas, criterios o resultados para mejorar la historia.
+
+Se prioriza el hilo de qué conclusiones persisten o se invierten, manteniendo las tres preguntas y los límites. Las decisiones de maquetación se justificarán por legibilidad y correspondencia con la evidencia. Esta petición no autoriza nuevos experimentos, extracción, inferencia, publicación, envío ni inventar declaraciones. Autoría, afiliaciones, financiación e intereses se han preguntado mientras continúa el trabajo.
+
+### Declaraciones confirmadas directamente por el autor
+
+Respuestas del usuario: «Alejandro Treny Ortega, no hay financiacion, lo hago yo independientemente» y «No tengo conflictos de interés que declarar». El manuscrito usa autor único, afiliación `Independent researcher`, ausencia de financiación externa y ausencia de conflictos de interés. No se añaden institución, correo, ORCID o país. La asistencia de Codex se declara y la lectura/aprobación personal del texto continúa pendiente.
+
+### Cierre editorial del borrador completo
+
+Dentro de la petición de redactar y revisar, se han completado cuerpo y suplemento. La longitud final es 4.383 palabras de cuerpo y 190 de resumen; no se rellena el presupuesto previo de 6.750 palabras. Las tres preguntas permanecen, mientras que la discusión tiene tres apartados enfocados en significado, uso y límites. La motivación es mantener una lectura continua sin repetir cada resultado. La cifra es una decisión editorial propia, no un requisito certificado de QSS.
+
+Las mejoras visuales siguen la comparación que debe entender el lector: escala común de CKA en la Figura 1, colores/formas para las dos direcciones de la Figura 2, acciones explícitas sobre el texto en la Figura 3, y tablas de resumen con filas juntas. No se cambia ningún criterio o resultado científico. Los controles largos se explican en el suplemento y los límites que afectan al mensaje central se mantienen en el cuerpo.
+
+La entrega incluye dos PDF revisados en todas sus páginas y un ZIP que los reconstruye byte por byte. Se verifican 26 referencias citadas, 98 adjuntos y conservación de los informes anteriores. Detalles en `MANUSCRIPT_REVIEW.md`. Esto cierra la redacción/revisión solicitada, sin atribuir al autor una aprobación que aún no ha dado. Depósito, licencia, correspondencia, normas finales y envío siguen pendientes. Sin nuevos cálculos, commit/push o automatizaciones.
+
+## 18-09-2026 — Versión española para revisión personal
+
+Petición directa del autor: disponer del texto en su lengua materna. Se prepara la traducción completa del artículo y suplemento, con tablas, notas y rótulos de figuras, en una carpeta separada. El inglés permanece como borrador canónico. No se introducen decisiones científicas, cálculos o cambios de resultados.
+
+Se conservan numeración de secciones/tablas/figuras, fórmulas, citas y contenido numérico. Field se traduce como área y Subfield como especialidad; los términos originales se indican donde hace falta. Las referencias y títulos originales de ejemplos permanecen identificables. Las cifras de presentación usan coma decimal, mientras que los CSV son idénticos. La maquetación española ajusta anchuras y saltos por la mayor longitud del texto.
+
+Entrega: `MANUSCRIPT_SPANISH.md`, PDF de 21 y 35 páginas y ZIP editable separado. Comprobadas todas las páginas, la conservación de 188 archivos originales y la recompilación exacta del paquete. Las correcciones que el autor solicite se podrán trasladar posteriormente al inglés. La traducción no supone su aprobación personal del manuscrito ni autoriza publicación, depósito o envío.
+
+## 18-09-2026 — Cinco comentarios del PDF: ajustes editoriales
+
+Petición directa: centrar la fila PubMedBERT/BiomedBERT, separar mejor las filas del corpus, recuperar un título más cercano a la pregunta del estudio, valorar la Figura 1B y acortar la declaración de IA. Se aplican a inglés y español. El título queda «How much does the map of science depend on the embedding model?», como redacción natural de la propuesta del autor, sin prometer una proporción de ciencia correcta.
+
+La Figura 1B conserva las seis medias y la escala 0–1; añade los seis rangos percentiles ya presentes en las tablas guardadas para mostrar la variedad oculta por el promedio. Se identifica como dispersión descriptiva, no intervalos de confianza ni nueva validación de estabilidad. No se cambian conclusiones, alertas ni reglas.
+
+La declaración se reduce a dos frases fieles al trabajo realizado. La política general editorial se comprobó; el límite de acceso a la guía específica queda documentado en `MANUSCRIPT_COMMENTS.md`. Se mantiene pendiente la aprobación personal del autor. Cambios de presentación y documentación únicamente; no nuevos análisis científicos, commit/push, depósito, licencia, envío ni automatización.
+
+## 19-09-2026 — Título conservado y tres alternativas de voz autorizadas
+
+El autor cierra la búsqueda de título: se conserva «How much does the map of science depend on the embedding model?», el que ya figura en el PDF vigente. Pide tres versiones del texto, con identidad progresivamente más definida, en inglés y español. Se preparan alternativas del artículo completo, manteniendo el esquema, evidencia, tablas, figuras y suplemento técnico. La decisión entre las tres queda para su lectura; el borrador canónico no se sustituye automáticamente.
+
+Propuesta editorial: V1 directa y sobria; V2 razonamiento propio visible, con primera persona puntual; V3 voz más marcada, con una apertura concreta y mayor presencia del autor. Las tres conservan magnitudes, alertas, límites, cronología y referencias. No se inventan experiencias, no se fortalecen resultados para ganar personalidad ni se usan detectores de autoría. No implica nuevos experimentos, publicación o envío.
+
+## 19-09-2026 — Tres alternativas completas de voz entregadas
+
+La petición se ha completado como tres artículos principales alternativos, cada uno en inglés y español. El título queda confirmado por instrucción directa y los originales siguen intactos. V1 directa y sobria; V2 razonamiento propio; V3 voz marcada y reflexiva. Las tres mantienen estructura, cifras, fórmulas, asociación de citas, elementos gráficos, declaraciones y suplemento técnico.
+
+La recomendación editorial es V2: hace visible el criterio del autor mediante una primera persona puntual, conservando la sobriedad. **Es una recomendación sin aceptar; no se ha seleccionado ninguna voz.** El incremento de personalidad se limita a la exposición y a la interpretación ya respaldada. No implica nuevas afirmaciones, cambios de controles o aprobación personal.
+
+Entrega: MANUSCRIPT_VOICES.md, seis PDF de 19/21 páginas y fuentes editables en manuscript_variants/. El ZIP de 93 archivos recompila los seis PDF exactamente. Se han inspeccionado 120 páginas y comprobado la conservación de 751 archivos previos. Inglés: 4.250/4.339/4.462 palabras de cuerpo; resúmenes de 184/186/187. Evidencia en research/manuscript_voices_2026-09-19/. No hubo nuevos cálculos científicos, commit/push, depósito, envío ni automatización.
+
+Continuación: el autor elige una versión o comenta pasajes; incorporar únicamente lo que acepte, manteniendo los dos idiomas alineados.
+
+## 20-09-2026 — Voz 2 elegida y reescritura explicativa autorizada
+
+El autor elige expresamente la versión 2, pero rechaza la densidad y la dificultad del texto. Pide cambiar la manera de explicar, no solo sustituir palabras: introducir cada concepto antes de emplearlo, mostrar qué pregunta responde cada comparación y aclarar la relación entre 500.000, 52.000 y 26.000 artículos. El resumen debe entenderse sin conocer previamente los términos ni los recuentos de parejas.
+
+Esta petición sustituye la selección pendiente de voz. Autoriza actualizar el manuscrito canónico en inglés y su versión española sobre la orientación V2, conservando las copias anteriores. Se reorganizan explicaciones y detalles entre cuerpo y suplemento sin cambiar medidas, resultados, criterios o límites. La elección de voz no equivale a aprobación final del artículo ni autoriza experimentos, publicación o envío.
+
+
+## 20-09-2026 — V2 elegida y explicación clara entregada
+
+- Decisión directa del autor: V2 es la orientación elegida. Pide claridad por encima de vocabulario culto o construcciones densas; queda registrada en AGENTS.md y AUTHOR_VOICE.md para cualquier continuación. No equivale a aprobación final.
+- Reescritas las seis secciones y el resumen en inglés y español. Cada comparación se presenta por su propósito; se explica la relación entre los 500.000 de partida, los 52.000 de texto con 26.000 incluidos y los otros 52.000 del fragmento común. La geometría reutiliza el conjunto del experimento de texto.
+- Tabla 1 organizada por finalidad; conceptos explicados antes de sus nombres; pies de figura más orientativos. El resumen explica el acuerdo local como unos ocho artículos de 25 y evita recuentos de parejas sin contexto. La fórmula PR sigue explícita en S6.
+- Inglés: 3.989 palabras de cuerpo y resumen de 192; 19 páginas. Español: 4.592 y 199; 20 páginas. Suplementos: 34/36 páginas. Se han revisado las 109 páginas, la correspondencia de cifras/fórmulas/citas y los límites.
+- Dos paquetes fuente de 186/190 archivos reproducen exactamente los cuatro PDF. Las tablas principales conservan su nueva explicación al reexportar; comprobados también los 19 grupos de tablas españoles en una copia separada.
+- Conservados 393 archivos de la edición anterior y 472 archivos protegidos de resultados, referencias y alternativas. Datos de presentación, figuras y bibliografías sin cambios. No se ejecutaron experimentos, descarga, inferencia, publicación ni automatización.
+- Entrega: MANUSCRIPT_CLARITY.md; evidencia en research/manuscript_clarity_2026-09-20/. Continuar con los comentarios sobre la lectura, sin volver a pedir una elección de voz.
+
+
+## 20-09-2026 — Cierre delegado de robustez terminado
+
+- El autor acepta el tono claro y delega aplicar la lista de un agente independiente. Alcance en `ROBUSTNESS_CLOSURE_SCOPE.md`; petición original conservada. No se transforma esa delegación en permiso permanente para nuevas ampliaciones.
+- Diseño fijado antes de los nuevos resultados: cincuenta selecciones de centros, tamaños 128/256/512 y referencias emparejadas; cincuenta elecciones de especialidad con diez selecciones internas; omisión de áreas. Se explicita la normalización final de los centros que ya hacía el código. La referencia aleatoria restringida nueva usa exactamente los artículos observados; la antigua mezclaba el conjunto de 217 especialidades.
+- Vecinos de entrada: cincuenta selecciones de 1.000 candidatos por área; k10/25/50 y CLS/SEP en k25. Conservados los resultados originales de 2.000 candidatos. Centrado y dos alternativas de dimensión sobre las 26 condiciones existentes, sin cambiar cortes o modelos.
+- Calidad: misma regla estricta de siete marcas y componentes de duplicados, 448.886 conservados. Controles de 1.024 candidatos en las 130 celdas porque solo 63 conservan 2.048; consultas idénticas antes/después. La elección preserva cobertura sin fingir que las celdas pequeñas permiten el tamaño mayor.
+- El resultado de centros se refuerza. Se matizan materialmente apertura y la generalización de la media texto/modelo. La comprobación completa sustituye 196 por 190 en la conservación de oposiciones PR bajo ambas alternativas. No se cambian datos para sostener la historia.
+- Todas las ramas congeladas antes de escribir; auditoría de once afirmaciones; manuscrito y suplemento sincronizados; fuentes y resultados históricos conservados. Preparación metodológica: READY WITH MINOR CAVEATS, sin predecir aceptación y sin dar por resueltos los trámites de envío.
+- Continuación: lectura personal y decisiones de publicación pendientes. No añadir otros experimentos por rutina. Evidencia y entregables en `ROBUSTNESS_CLOSURE_REPORT.md`.

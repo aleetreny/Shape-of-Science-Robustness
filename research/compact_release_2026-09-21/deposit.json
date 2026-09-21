@@ -1,0 +1,60 @@
+{
+  "created": "2026-09-21T13:42:57.467141+00:00",
+  "modified": "2026-09-21T13:46:56.902748+00:00",
+  "id": 22876602,
+  "conceptrecid": "22876601",
+  "metadata": {
+    "title": "How much does the map of science depend on the embedding model? Compact reproducibility data and code",
+    "publication_date": "2026-09-21",
+    "description": "<p>Compact analysis-level reproducibility release for a study of ten document embedding models and 500,000 OpenAlex records. Includes scientific code, fixed model versions and protocols, non-text corpus metadata, exact identities and selections, per-query neighbour intersection counts, per-model/per-area/repetition measurements, geometric measurements, and recorded controls.</p><p>The public verification recalculates 25 result tables (106,445 rows), checks 17,550 local neighbour scores from intersection counts, recomputes balanced local/global agreement, and verifies the four main figure aggregations. Results match the frozen reference tables.</p><p>This route starts from frozen model-derived measurements. It does not regenerate embeddings or reconstruct nearest-neighbour lists from historical texts. Embedding shards, cached centre vectors and neighbour lists, model weights, plaintext title/abstract input tables, manuscripts and supplements are excluded. Re-querying OpenAlex may not reproduce historical text. The accompanying coverage guide states the exact tested scope; a complete rerun of every historical analysis is not claimed.</p><p>Original scientific code: MIT. Original results and documentation: CC BY 4.0. OpenAlex metadata: CC0. Scientific source snapshot cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f. This compact distribution is version 1.1.0.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Treny Ortega, Alejandro",
+        "affiliation": "Independent researcher"
+      }
+    ],
+    "keywords": [
+      "science mapping",
+      "document embeddings",
+      "robustness",
+      "reproducibility",
+      "OpenAlex"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0",
+        "relation": "isIdenticalTo",
+        "resource_type": "dataset",
+        "scheme": "url"
+      }
+    ],
+    "version": "1.1.0",
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "upload_type": "dataset",
+    "prereserve_doi": {
+      "doi": "10.5281/zenodo.22876602",
+      "recid": 22876602
+    }
+  },
+  "title": "How much does the map of science depend on the embedding model? Compact reproducibility data and code",
+  "links": {
+    "self": "https://zenodo.org/api/deposit/depositions/22876602",
+    "html": "https://zenodo.org/deposit/22876602",
+    "badge": "https://zenodo.org/badge/doi/.svg",
+    "files": "https://zenodo.org/api/deposit/depositions/22876602/files",
+    "bucket": "https://zenodo.org/api/files/4b9a71ed-d749-4a72-882f-be315be25a31",
+    "latest_draft": "https://zenodo.org/api/deposit/depositions/22876602",
+    "latest_draft_html": "https://zenodo.org/deposit/22876602",
+    "publish": "https://zenodo.org/api/deposit/depositions/22876602/actions/publish",
+    "edit": "https://zenodo.org/api/deposit/depositions/22876602/actions/edit",
+    "discard": "https://zenodo.org/api/deposit/depositions/22876602/actions/discard",
+    "newversion": "https://zenodo.org/api/deposit/depositions/22876602/actions/newversion"
+  },
+  "record_id": 22876602,
+  "owner": 1891450,
+  "files": [],
+  "state": "unsubmitted",
+  "submitted": false
+}

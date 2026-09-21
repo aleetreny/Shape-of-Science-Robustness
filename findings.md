@@ -1,3 +1,29 @@
+## Versión definitiva aprobada, 21-09-2026
+
+El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.
+
+Se retiran marcas de borrador de portadas, cabeceras y metadatos; se completan CRediT, declaraciones y disponibilidad del DOI público 10.5281/zenodo.22876602. Las declaraciones de herramientas se retiran después por instrucción del autor; el requisito editorial correspondiente queda sin cubrir y se comunica en el chat. Se mantienen voz, cuerpo científico, resultados y datos congelados.
+
+Fuentes arXiv en `output/arxiv_source.zip`; PDF oficiales en `output/pdf/`, traducción en `output/pdf/es/`. Carta y copias para endorsement fuera del repositorio, en la carpeta local hermana `Shape of Science Submission/2026-09-21`. Guía vigente: `docs/SUBMISSION_READY.md`. No se han enviado solicitudes de endorsement ni realizado el envío a QSS o arXiv. No archivar el repositorio en modo de solo lectura: conservarlo disponible para las revisiones editoriales.
+
+## 21-09-2026 — Publicación compacta terminada
+
+**Entrega vigente, 21-09-2026:** distribución compacta v1.1.0 publicada y comprobada: 15 archivos, 492.154.568 bytes. [GitHub](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0) y [archivo con DOI](https://doi.org/10.5281/zenodo.22876602). Sustituye la carga de 51 GB. Se conservan medidas, recuentos, identidades, selecciones y controles; se excluyen grandes cachés de vectores/listas, textos históricos, artículo, suplementos y notas internas. Reproducción estadística comprobada desde los ZIP en macOS y en un entorno Linux nuevo: 25 tablas, 106.445 filas idénticas y 17.550 medidas de vecinos coincidentes. No se certifica regeneración desde textos históricos ni todos los análisis suplementarios. El borrador antiguo 22863543 permanece sin publicar; el cargador local está retirado. No queda una subida a cargo del autor. Detalles: [COMPACT_REPRODUCIBILITY.md](COMPACT_REPRODUCIBILITY.md).
+
+Disponibilidad, cita del conjunto de datos y S8 actualizados en ambos idiomas; artículo y suplementos siguen fuera del depósito. Se preservan los archivos científicos congelados y las ediciones previas del autor. La revisión personal y el envío a revista siguen separados de esta entrega. Las notas siguientes conservan la cronología y no reabren la carga antigua.
+
+## 21-09-2026 — Cortes de Zenodo con conexiones simultáneas
+
+La incidencia oficial https://github.com/zenodo/zenodo-rdm/issues/975 describe el mismo patrón de varias subidas: una avanza y otras fallan tras unos 60 s. Sigue abierta al consultar; no hay confirmación de la causa interna para este borrador. Con una conexión, la prueba de MiniLM duró 358 s y alcanzó 12,9 % sin fallo de red, antes de detenerse manualmente. Se verificaron de nuevo los 18 archivos completos. La velocidad media registrada fue 0,28 MB/s; la API no garantiza acelerar la conexión. No se completó un ZIP grande. Evidencia, alcance y fuentes en `research/zenodo_upload_fix_2026-09-21/verification.json` y `ZENODO_UPLOAD.md`.
+
+## 21-09-2026 — API de Zenodo y carga pendiente
+
+La API autentica la credencial autorizada y reconoce el borrador 22863543 como no publicado. Los 17 archivos subidos manualmente coinciden con las copias locales por tamaño y MD5. El cargador subió y verificó otro archivo pendiente de 3,35 MB; quedan 14 y 51,08 GB. El tamaño de la prueba no permite estimar de forma fiable la duración total. La API oficial admite envío continuo con PUT al bucket del borrador; el script conserva archivos completos al retomar, pero no implementa reanudación parcial dentro del ZIP. Fuente: https://developers.zenodo.org/#quickstart-upload. Documentación y evidencia: `ZENODO_UPLOAD.md` y `research/zenodo_upload_2026-09-21/verification.json`.
+
+## 21-09-2026 — Evidencia para cinco aclaraciones editoriales
+
+La revisión dirigida de diez trabajos respalda priorizar SPECTER/SciBERT y otros modelos usados en mapas de la ciencia, pero no un ranking de uso de toda la literatura (`ACADEMIC_MODEL_USAGE.md`). El cierre de robustez documenta inversiones de ambas respuestas al centrar en 19 parejas de modelos dentro de diez parejas de áreas; respalda la explicación del resumen sin nuevos cálculos. MiniLM recorta el texto del 49,58 % de los artículos con su límite habitual, lo que da el motivo del control de 512 tokens. Cambios y verificaciones en `MANUSCRIPT_COMMENTS_2026-09-21.md`; el paquete de Zenodo permanece separado e intacto.
+
 ## 20-09-2026 — Aportación integrada y archivos públicos preparados
 
 Evidencia en `research/public_release_2026-09-20/closure_audit.json`. Tres párrafos EN/ES integrados, 49 páginas inspeccionadas, 522 archivos protegidos intactos y cuatro PDF reconstruidos exactamente. Los 19 ZIP numéricos pasan verificación de todos sus 58.201 archivos. Resúmenes de las cuatro figuras reproducidos desde carpeta aislada; comprobador independiente desde vectores aprobado para las condiciones declaradas (13.500 intersecciones exactas). Sin repetición completa de todos los análisis ni inferencia. Borrador Zenodo guardado con DOI reservado y 75 GB; no pudo automatizarse la carga y no hay archivos publicados. Ver `PUBLIC_RELEASE.md` y `ZENODO_UPLOAD.md`.

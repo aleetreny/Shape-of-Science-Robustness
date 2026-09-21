@@ -1,0 +1,15 @@
+{
+  "record": 22876602,
+  "checks": {
+    "title": true,
+    "upload_type": true,
+    "version": true,
+    "publication_date": true,
+    "access_right": true,
+    "license": true,
+    "description": true,
+    "creators": true
+  },
+  "doi": "10.5281/zenodo.22876602",
+  "published": false
+}

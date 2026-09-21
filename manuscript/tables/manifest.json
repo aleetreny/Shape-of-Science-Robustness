@@ -21,9 +21,9 @@
     ],
     "editorial_source": {
       "path": "tables/editorial/T01.tex",
-      "sha256": "377e03384f524f7f76b6c12076ccba6eedbc03af6e78fe33bc019ba631f1ca46"
+      "sha256": "91d863e4c525270728444968e206fef8a955334a252901b330aafe0fb39591d6"
     },
-    "summary_rule": "Full first-reader revision requested by the author, 20 September 2026. Explanations and terminology clarified; article sets, model settings and scientific CSV sources unchanged."
+    "summary_rule": "Full first-reader revision requested by the author, 20 September 2026. Explanations and terminology clarified; article sets, model settings and scientific CSV sources unchanged. Author comment 5, 21 September 2026: indefinite article for the initial trial; counts unchanged."
   },
   "T02": {
     "sources": [
@@ -812,24 +812,17 @@
   "S17": {
     "sources": [
       {
-        "source": "Current source catalogues, read-only",
-        "included": "tables/data/S17/provenance.csv",
-        "sha256": "bb1c2c7b8b8926da9b99adcfbdca1a37efbfd7f93d3b4b93da1600a415b90489",
-        "rows": 9
+        "source": "Public compact release v1.1.0",
+        "included": "tables/data/S17/release-manifest.json",
+        "sha256": "8dfa19b4c3166e2c7079cbfe59ce861343282cbd9c7b15de44842091c9324191",
+        "rows": 10
       }
     ],
-    "rendered_parts": [
-      {
-        "caption": "Versions and access status of the source objects.",
-        "headers": [
-          "Object",
-          "Manifest / SHA-256",
-          "Access"
-        ],
-        "rows": 9
-      }
-    ],
-    "summary_rule": "Nine manifest SHA-256 values and truthful access states; this is an inventory, not a new data release."
+    "editorial_source": {
+      "path": "tables/editorial/S17.tex",
+      "sha256": "1598da454f489cd63f84a320e00baae69e3c5005b59c465fc280d40e4fc4f630"
+    },
+    "summary_rule": "Verified public archive sizes and hashes. No scientific results changed."
   },
   "S18": {
     "sources": [

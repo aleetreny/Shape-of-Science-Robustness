@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-09-21T11:54:20.232113+00:00",
+  "documents": {
+    "en": {
+      "path": "output/pdf/main.pdf",
+      "sha256": "22fb856a5cbcd32a0bfb59c32973b371ca2e3482dd63278873fb439b220d74bf",
+      "pages": 24,
+      "abstract_words": 196,
+      "body_words": 6819
+    },
+    "es": {
+      "path": "output/pdf/es/main.pdf",
+      "sha256": "5bf7b513993e4ad491fc0fa3a7228024ff397d6157a169ab8fb0aee6d5329486",
+      "pages": 26,
+      "abstract_words": 214,
+      "body_words": 7602
+    }
+  },
+  "changed_from_baseline": [
+    "manuscript/main.tex",
+    "manuscript/references.bib",
+    "manuscript/tables/editorial/T01.tex",
+    "manuscript/tables/manifest.json",
+    "manuscript/tables/tex/T01.tex",
+    "manuscript_es/main.tex",
+    "manuscript_es/references.bib",
+    "manuscript_es/tables/editorial/T01.tex",
+    "manuscript_es/tables/manifest.json",
+    "manuscript_es/tables/tex/T01.tex",
+    "output/manuscript_source.zip",
+    "output/manuscript_source_es.zip",
+    "output/pdf/es/main.pdf",
+    "output/pdf/main.pdf"
+  ],
+  "protected_files_unchanged": 448,
+  "bilingual_body_paragraphs_checked": 82,
+  "scientific_numeric_sequence_unchanged": true,
+  "equations_unchanged": true,
+  "supplement_pdfs_byte_identical": true,
+  "editable_packages_reproduce_all_four_pdfs_exactly": true,
+  "zenodo_files_unchanged": 32,
+  "zenodo_check_scope": "Same exact filenames, sizes, modification times and inodes for all 32 files; SHA256 also checked for all companions below 2 MB. The frozen 51 GB of archives were not rehashed during this editorial revision.",
+  "model_selection_claim_scope": "Most used within the directed set of science-mapping studies reviewed; not a census or global top-ten claim. Sources: ACADEMIC_MODEL_USAGE.md and MODEL_SELECTION.md.",
+  "angular_reversal_evidence": "ROBUSTNESS_CLOSURE_REPORT.md records reversals of both model responses in 19 model-pair witnesses across ten area pairs; saved morphology_centering_witnesses.csv was inspected without recalculating it.",
+  "word_count_method": "Same pure prose helpers as preceding revisions; headings, citations, figure captions, tables, formulae and declarations excluded from body counts."
+}

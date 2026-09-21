@@ -59,6 +59,7 @@ manuscript/*.toc
 
 # Public data archives are deposited separately; never send vectors through Git.
 output/zenodo/
+output/compact_release/
 output/pdf/es/*.log
 output/pdf/es/*.aux
 output/pdf/es/*.bbl
@@ -70,3 +71,20 @@ research/public_release_2026-09-20/*.manifest.json
 
 # Raw literature metadata with third-party abstracts used during the latest review.
 research/submission_readiness_2026-09-20/arxiv_metadata.json
+
+# Preserved local editorial snapshots and verbose delivery logs.
+research/submission_final_2026-09-21/before/
+research/submission_final_2026-09-21/*.log
+research/compact_release_2026-09-21/manuscript_before/
+research/compact_release_2026-09-21/selection.json
+research/compact_release_2026-09-21/*.log
+research/manuscript_comments_2026-09-21/before/
+
+research/manuscript_comments_2026-09-21/baseline/
+research/submission_final_2026-09-21/*
+!research/submission_final_2026-09-21/final_verification.json
+
+# Local transfer logs and preserved editorial text extracts.
+research/manuscript_comments_2026-09-21/*.log
+research/manuscript_comments_2026-09-21/*_main_text.txt
+research/zenodo_upload_fix_2026-09-21/*.log

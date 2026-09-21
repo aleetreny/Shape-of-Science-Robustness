@@ -1,0 +1,174 @@
+{
+  "CHECK_RESULTS.json": {
+    "size": 5820,
+    "mtime_ns": 1789988246053723839,
+    "inode": 25493450,
+    "sha256": "6a3934b8b950ca0e5e6f426370b7de838a6d5770129c5c8ab34052692132ed34"
+  },
+  "CODE_VERSION.json": {
+    "size": 1111,
+    "mtime_ns": 1789988157310623870,
+    "inode": 25503586,
+    "sha256": "eb28b5e0b62e32a648e6f6182440c875b55a824ad70c131ffd5e611bdc33c69a"
+  },
+  "DATA_DICTIONARY.md": {
+    "size": 4612,
+    "mtime_ns": 1789988155831174535,
+    "inode": 25493444,
+    "sha256": "3923033da3bb69dae2139cbe9af8fd6e1cbc3bb83f8754b2f7cc02659281f552"
+  },
+  "DATA_EXCLUSIONS.json": {
+    "size": 16091,
+    "mtime_ns": 1789934990032390933,
+    "inode": 25493448,
+    "sha256": "49464f5f2c1730d7741c2824f5a99e80f709da185678802d857cf80586820c8c"
+  },
+  "DATA_MANIFEST.json": {
+    "size": 20680031,
+    "mtime_ns": 1789933408344875802,
+    "inode": 25472346
+  },
+  "LICENSE": {
+    "size": 1079,
+    "mtime_ns": 1789934990032168684,
+    "inode": 25493447,
+    "sha256": "df731442f4783072f12c6b01ffc6516dc47688ab0f2361b6fbf0730924122957"
+  },
+  "LICENSING.md": {
+    "size": 1476,
+    "mtime_ns": 1789934990031986935,
+    "inode": 25493446,
+    "sha256": "c228b9c98a09b23fa0e0f79bbbd40d55a36ba38794522ed6c5cfab3b7193a48e"
+  },
+  "README.md": {
+    "size": 6270,
+    "mtime_ns": 1789988155828733445,
+    "inode": 25493449,
+    "sha256": "3a68d44f2b862f06b0a405369c259541b97d86fb87b33126fc4c0f7bb68a08e3"
+  },
+  "SCHEMAS.json": {
+    "size": 29036,
+    "mtime_ns": 1789933053868839665,
+    "inode": 25468256,
+    "sha256": "30e5e0f5bfac0c669e15b1c23faf48b3463837745b01f9e5f410a953150f5249"
+  },
+  "SHA256SUMS": {
+    "size": 2600,
+    "mtime_ns": 1789988308099983716,
+    "inode": 25472347,
+    "sha256": "52853f87584f2bfd4980adf351ec34613bce467dec5f2fc4d16f02a4d6855931"
+  },
+  "THIRD_PARTY.md": {
+    "size": 1919,
+    "mtime_ns": 1789934990031797394,
+    "inode": 25493445,
+    "sha256": "ba536306867dd49fdad280be6a9c4c3c44e2f938df2b5a84e19e9b6af1449b17"
+  },
+  "UPLOAD_FILES.txt": {
+    "size": 1681,
+    "mtime_ns": 1789988308101269359,
+    "inode": 25503590,
+    "sha256": "fa48d04489839eb2b1c49fe6a62236cc46aa6438f45a2a542d84ea510c1daace"
+  },
+  "analysis_ready_v1.zip": {
+    "size": 44681504,
+    "mtime_ns": 1789933054608257435,
+    "inode": 25468268
+  },
+  "analysis_v1.zip": {
+    "size": 4660361783,
+    "mtime_ns": 1789933272387394608,
+    "inode": 25469425
+  },
+  "checklist_v1.zip": {
+    "size": 4163451981,
+    "mtime_ns": 1789933172545889470,
+    "inode": 25468731
+  },
+  "embeddings_bert.zip": {
+    "size": 4354753976,
+    "mtime_ns": 1789933209463037228,
+    "inode": 25468987
+  },
+  "embeddings_biobert.zip": {
+    "size": 4349008141,
+    "mtime_ns": 1789933266691324774,
+    "inode": 25469382
+  },
+  "embeddings_minilm.zip": {
+    "size": 778753906,
+    "mtime_ns": 1789933069927725461,
+    "inode": 25468272
+  },
+  "embeddings_mpnet.zip": {
+    "size": 1493222345,
+    "mtime_ns": 1789933085229861344,
+    "inode": 25468274
+  },
+  "embeddings_pubmedbert.zip": {
+    "size": 4355136633,
+    "mtime_ns": 1789933177968492675,
+    "inode": 25468753
+  },
+  "embeddings_scibert.zip": {
+    "size": 4353369913,
+    "mtime_ns": 1789933194318322532,
+    "inode": 25468887
+  },
+  "embeddings_scincl.zip": {
+    "size": 1489515013,
+    "mtime_ns": 1789933085618737956,
+    "inode": 25468291
+  },
+  "embeddings_simcse.zip": {
+    "size": 1493862235,
+    "mtime_ns": 1789933116992951522,
+    "inode": 25468700
+  },
+  "embeddings_source_snapshot.zip": {
+    "size": 15851,
+    "mtime_ns": 1789933054006195334,
+    "inode": 25468260,
+    "sha256": "d5a0d7d5b49dab1278983d957f4bde4e7125514b1d6db1b2d1fbab65dd467ccf"
+  },
+  "embeddings_specter.zip": {
+    "size": 1491500821,
+    "mtime_ns": 1789933101839841152,
+    "inode": 25468416
+  },
+  "embeddings_specter2.zip": {
+    "size": 1492954779,
+    "mtime_ns": 1789933086016115700,
+    "inode": 25468337
+  },
+  "field_pair_summary_v1.zip": {
+    "size": 3351676,
+    "mtime_ns": 1789933054047301414,
+    "inode": 25468261
+  },
+  "morphology_pilot_v1.zip": {
+    "size": 12262219,
+    "mtime_ns": 1789933054186344793,
+    "inode": 25468263
+  },
+  "prepaper_v1.zip": {
+    "size": 5072276,
+    "mtime_ns": 1789933054102161674,
+    "inode": 25468262
+  },
+  "robustness_closure_v1.zip": {
+    "size": 7021431917,
+    "mtime_ns": 1789933324252128338,
+    "inode": 25469495
+  },
+  "robustness_v2.zip": {
+    "size": 9581274574,
+    "mtime_ns": 1789933404323838275,
+    "inode": 25469797
+  },
+  "shape-of-science-code-v1.0.0-data-only.zip": {
+    "size": 21639585,
+    "mtime_ns": 1789988157149069970,
+    "inode": 28806633
+  }
+}

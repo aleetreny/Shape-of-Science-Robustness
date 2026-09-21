@@ -1,0 +1,76 @@
+{
+  "code_archive": "shape-of-science-code-v1.0.0-data-only.zip",
+  "files": 519,
+  "text_or_pdf_or_svg_members_scanned": 481,
+  "unwanted_file_names": [],
+  "explicit_tool_reference_hits": [],
+  "scientific_figure_pdfs": [
+    "reports/analysis_v1/final/figures/01_model_comparison.pdf",
+    "reports/analysis_v1/final/figures/02_fields_and_periods.pdf",
+    "reports/analysis_v1/final/figures/03_shape_and_neighbors.pdf",
+    "reports/analysis_v1/final/figures/04_between_and_within_fields.pdf",
+    "reports/analysis_v1/final/figures/05_selection_stability.pdf",
+    "reports/analysis_v1/final/figures/06_text_controls.pdf",
+    "reports/analysis_v1/final/figures/07_pooling_same_model.pdf",
+    "reports/analysis_v1/final/figures/08_centroid_controls.pdf",
+    "reports/checklist_v1/final/figures/01_model_versus_input.pdf",
+    "reports/checklist_v1/final/figures/02_time_and_candidate_size.pdf",
+    "reports/checklist_v1/final/figures/03_medicine_and_biomedical_models.pdf",
+    "reports/checklist_v1/final/figures/04_training_objective_families.pdf",
+    "reports/checklist_v1/final/figures/05_model_by_field_residuals.pdf",
+    "reports/checklist_v1/final/figures/06_input_pilot_stability.pdf",
+    "reports/checklist_v1/final/figures/07_input_by_pooling_recipe.pdf",
+    "reports/field_pair_summary_v1/01_conclusions_and_magnitude.pdf",
+    "reports/field_pair_summary_v1/02_all_field_pairs.pdf",
+    "reports/morphology_pilot_v1/01_model_properties.pdf",
+    "reports/morphology_pilot_v1/02_field_rank_maps.pdf",
+    "reports/morphology_pilot_v1/03_sample_size.pdf",
+    "reports/morphology_pilot_v1/04_fragmentation_counterexamples.pdf",
+    "reports/morphology_pilot_v1/05_control_rank_agreement.pdf",
+    "reports/prepaper_v1/figures/01_subfield_persistence.pdf",
+    "reports/prepaper_v1/figures/02_relation_dependence.pdf",
+    "reports/robustness_v2/final/figures/01_input_effect.pdf",
+    "reports/robustness_v2/final/figures/02_scales.pdf",
+    "reports/robustness_v2/final/figures/03_paired_neighbors.pdf",
+    "reports/robustness_v2/final/figures/04_time_controls.pdf",
+    "reports/robustness_v2/final/figures/05_medicine_composition.pdf",
+    "reports/robustness_v2/final/figures/06_recipe_families.pdf",
+    "reports/robustness_v2/final/figures/07_input_alerts.pdf"
+  ],
+  "summary_reproduction": {
+    "all_checks_passed": true,
+    "centres": {
+      "repeat256_field": 0.9401160460142737,
+      "repeat256_subfield217": 0.9113747384873062
+    },
+    "search_scope": [
+      {
+        "k": 10,
+        "lower": 145,
+        "higher": 72,
+        "mean_difference": -0.017298658474142338
+      },
+      {
+        "k": 25,
+        "lower": 127,
+        "higher": 90,
+        "mean_difference": -0.013491809523809527
+      },
+      {
+        "k": 50,
+        "lower": 109,
+        "higher": 108,
+        "mean_difference": -0.007853124423963131
+      }
+    ],
+    "headline_mean_k25": {
+      "model_change": 0.6493367323076923,
+      "title_only_change": 0.6649229846153847,
+      "title_minus_model": 0.015586252307692306
+    },
+    "figure4": "all eight classifications and same-model retention verified",
+    "scope": "aggregation from per-condition measurements; not regeneration of vectors or all metrics"
+  },
+  "protected_manuscript_files_unchanged": 582,
+  "changed_original_manuscripts": []
+}

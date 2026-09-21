@@ -1,3 +1,5 @@
+**Ruta pública vigente, 21-09-2026:** [distribución compacta con DOI](https://doi.org/10.5281/zenodo.22876602) y [comandos y límites](../COMPACT_REPRODUCIBILITY.md). Los inventarios y comandos históricos siguientes pueden referirse a cachés locales excluidas; para la entrega pública debe seguirse el README de la versión 1.1.0.
+
 # Data dictionary and archive map
 
 All identifiers and selection arrays refer to the fixed historical corpus. Do not join by title or by the row number of a newly downloaded table.
@@ -18,7 +20,7 @@ All identifiers and selection arrays refer to the fixed historical corpus. Do no
 | `repeat`, `kind`, `representation` | Repetition within the named design, its selection type, and original/centred vector processing. Different analyses use different repetition counts. |
 | `mean_overlap` | Fraction shared by two neighbour lists, on a 0-1 scale. `model_change` is the replaced fraction, also 0-1. A percentage-point difference multiplies a fraction difference by 100. |
 | `angle_p50` | Median-chord angular spread in degrees; not thematic diversity. |
-| `pr`, `erank`, `d80` | Participation ratio, entropy effective rank, and integer number of principal directions covering 80% of variance. Definitions are in the supplement. |
+| `pr`, `erank`, `d80` | Participation ratio, entropy effective rank, and integer number of principal directions covering 80% of variance. Definitions are in `METHODS_MORPHOLOGY.md` in the code distribution. |
 
 `SCHEMAS.json` lists the Arrow columns/types for every distinct source schema. Some schemas describe omitted original input tables; `DATA_EXCLUSIONS.json` identifies which columns were removed from their public replacements.
 
@@ -37,4 +39,4 @@ All identifiers and selection arrays refer to the fixed historical corpus. Do no
 
 The two sets of 52,000 have different purposes. The text experiment includes the earlier 26,000-paper pilot; the common-passage control is another selection. The geometry analysis uses the text experiment's title-plus-abstract vectors. Exact memberships are retained, so these relationships can be checked without reconstructing them from seeds alone.
 
-Root manuscripts, protocols, configuration and `reports/` are in the code archive and GitHub. `manuscript/figures/manifest.json` and `manuscript/tables/manifest.json` map displayed figures/tables to saved sources. The scientific phase reports document supplemental analyses and their limits.
+Scientific protocols, configuration, methods and `reports/` are in the filtered code distribution. The reproduction input manifests identify their original numerical tables and checksums. The scientific phase reports document the additional analyses and their limits. Article manuscripts, supplements and earlier editorial copies are not included. `PACKAGE_MANIFEST.json` inside the code ZIP inventories the files delivered and identifies the source Git commit and documentation updates.

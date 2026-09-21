@@ -1,3 +1,50 @@
+# En curso: versión definitiva y entrega QSS/arXiv, 21-09-2026
+
+1. Verificar requisitos y metadatos: complete.
+2. Finalizar inglés oficial y traducción española, declaraciones y Zenodo: complete.
+3. Preparar carta local y fuente LaTeX arXiv: complete.
+4. Compilar, revisar PDF y verificar paquetes independientes: complete; cuatro PDF exactos y ZIP arXiv extraído y compilado.
+5. Cerrar documentación y GitHub; entregar archivos y pasos: pending.
+
+# Terminada: distribución compacta y publicación, 21-09-2026
+
+1. Comprobar la política literal de QSS y alternativas: **complete**.
+2. Seleccionar datos y verificar los cálculos: **complete**; 492 MB, 25 tablas/106.445 filas y 17.550 controles de vecinos.
+3. Publicar código y archivos en GitHub y transferir desde sus servidores: **complete**.
+4. Verificar descargas públicas y publicar el DOI compacto: **complete**; 15 archivos verificados, DOI 10.5281/zenodo.22876602.
+5. Actualizar disponibilidad y entregar enlaces: **complete**; inglés y español, con el alcance público explícito.
+
+El historial siguiente está sustituido en cuanto a las cargas pendientes.
+
+# Entrega actual: corregir los cortes del cargador Zenodo, 21-09-2026
+
+1. Revisar el fallo y el estado real del borrador: **complete**; 18 archivos conservados; patrón compatible con la incidencia 975 de Zenodo.
+2. Corregir la concurrencia, espera y diagnóstico: **complete**; una sola subida obligatoria, de menor a mayor tamaño, estado guardado por archivo.
+3. Probar fallos y continuidad real: **complete con alcance acotado**; 17 pruebas locales; 358 s y 12,9 % de MiniLM sin cortes. Detención manual; recepción completa de un ZIP grande todavía no verificada.
+4. Verificar conservación y entregar el mismo comando: **complete**; 18/32 comprobados; no queda una subida activa; `ZENODO_UPLOAD.md` actualizado.
+
+**Pendiente a cargo del autor:** ejecutar `./upload_zenodo.sh` para los 14 archivos grandes (51,08 GB); después revisar/publicar el borrador. Evitar cualquier otra subida simultánea a ese borrador. Evidencia: `research/zenodo_upload_fix_2026-09-21/verification.json`.
+
+# Entrega actual: cinco comentarios del PDF, 21-09-2026
+
+1. Localizar los pasajes y contrastar su respaldo: **complete**.
+2. Aplicar las aclaraciones en español e inglés y actualizar la Tabla 1: **complete**.
+3. Compilar, comprobar cifras/citas y revisar las 50 páginas principales: **complete**.
+4. Actualizar los paquetes editables y comprobar reconstrucción exacta de los cuatro PDF: **complete**.
+5. Registrar la revisión y comprobar que los 32 archivos de Zenodo permanecen iguales: **complete**.
+
+Entrega: `MANUSCRIPT_COMMENTS_2026-09-21.md`. Revisión local pendiente de la lectura del autor; sin envío a revista. Las entregas y el depósito siguientes mantienen su alcance separado.
+
+# Entrega actual: paquete de Zenodo sin manuscritos, 21-09-2026
+
+1. Identificar artículo, suplementos, fuentes y copias históricas: **complete**.
+2. Preparar ZIP científico sin documentos editoriales ni registros internos: **complete**; 519 archivos.
+3. Verificar exclusiones, conservación de originales y funcionamiento del ZIP: **complete**; sin archivos de artículo/suplemento; 582 originales intactos; resúmenes reproducidos.
+4. Actualizar documentación, integridad y lista de carga: **complete**; 32 archivos, 51,19 GB; datos originales intactos.
+5. Actualizar y verificar descripción del borrador: **complete**; guardada y conservada tras recargar. Guía de carga lista para el autor.
+
+La subida y publicación siguen a cargo del autor. El historial siguiente documenta entregas anteriores.
+
 # Entrega terminada: novedad, GitHub y preparación de Zenodo
 
 1. Integrar tres párrafos en ambos idiomas y verificar PDF: **complete**; 49 páginas revisadas, cifras y archivos protegidos intactos.

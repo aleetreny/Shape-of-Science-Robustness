@@ -1,0 +1,159 @@
+{
+  "checked_at": "2026-09-21T12:33:51.218363+00:00",
+  "record": 22863543,
+  "state": "unsubmitted",
+  "submitted": false,
+  "complete": [
+    "CHECK_RESULTS.json",
+    "CODE_VERSION.json",
+    "DATA_DICTIONARY.md",
+    "DATA_EXCLUSIONS.json",
+    "DATA_MANIFEST.json",
+    "LICENSE",
+    "LICENSING.md",
+    "README.md",
+    "SCHEMAS.json",
+    "SHA256SUMS",
+    "THIRD_PARTY.md",
+    "UPLOAD_FILES.txt",
+    "analysis_ready_v1.zip",
+    "embeddings_source_snapshot.zip",
+    "field_pair_summary_v1.zip",
+    "morphology_pilot_v1.zip",
+    "prepaper_v1.zip",
+    "shape-of-science-code-v1.0.0-data-only.zip"
+  ],
+  "pending": [
+    "analysis_v1.zip",
+    "checklist_v1.zip",
+    "embeddings_bert.zip",
+    "embeddings_biobert.zip",
+    "embeddings_minilm.zip",
+    "embeddings_mpnet.zip",
+    "embeddings_pubmedbert.zip",
+    "embeddings_scibert.zip",
+    "embeddings_scincl.zip",
+    "embeddings_simcse.zip",
+    "embeddings_specter.zip",
+    "embeddings_specter2.zip",
+    "robustness_closure_v1.zip",
+    "robustness_v2.zip"
+  ],
+  "remaining_bytes": 51078598017,
+  "files": [
+    {
+      "filename": "CHECK_RESULTS.json",
+      "size": 5820,
+      "md5": "236e21b88b69643ec6a0ecd19c211bd3"
+    },
+    {
+      "filename": "CODE_VERSION.json",
+      "size": 1111,
+      "md5": "1ba9145d60048a7ce5f5cf1dd8004338"
+    },
+    {
+      "filename": "DATA_DICTIONARY.md",
+      "size": 4612,
+      "md5": "165462d3897c3b19048a805028c08ffa"
+    },
+    {
+      "filename": "DATA_EXCLUSIONS.json",
+      "size": 16091,
+      "md5": "fdc12a3da86dd26d8080f74b7a8b8377"
+    },
+    {
+      "filename": "DATA_MANIFEST.json",
+      "size": 20680031,
+      "md5": "e2cfa557e88b29c2e019721cb01bd747"
+    },
+    {
+      "filename": "LICENSE",
+      "size": 1079,
+      "md5": "263333a1397091ed1c704a6fc190ffb5"
+    },
+    {
+      "filename": "LICENSING.md",
+      "size": 1476,
+      "md5": "8f6ace81337be76bfeced0717fd0434b"
+    },
+    {
+      "filename": "README.md",
+      "size": 6270,
+      "md5": "ba244641c6db82e18d1057abcd14e00f"
+    },
+    {
+      "filename": "SCHEMAS.json",
+      "size": 29036,
+      "md5": "ad04fdcdb410f96b74d2dc7634a0fe07"
+    },
+    {
+      "filename": "SHA256SUMS",
+      "size": 2600,
+      "md5": "5317c878b2cf53384ca14c38d5656021"
+    },
+    {
+      "filename": "THIRD_PARTY.md",
+      "size": 1919,
+      "md5": "8db7ba197552d827fdf2d84a5d6744d1"
+    },
+    {
+      "filename": "UPLOAD_FILES.txt",
+      "size": 1681,
+      "md5": "185a27285e000f73aa28f4a5024dfaed"
+    },
+    {
+      "filename": "analysis_ready_v1.zip",
+      "size": 44681504,
+      "md5": "6e8b90cd2f262fa5d9d976cd8476575d"
+    },
+    {
+      "filename": "embeddings_source_snapshot.zip",
+      "size": 15851,
+      "md5": "2bf818514f338ad529ac19e89f250a1c"
+    },
+    {
+      "filename": "field_pair_summary_v1.zip",
+      "size": 3351676,
+      "md5": "291af3f0fe320e1ad7a3913e1eafe8a4"
+    },
+    {
+      "filename": "morphology_pilot_v1.zip",
+      "size": 12262219,
+      "md5": "635be14e9c22e05f3cccb061d3543aa5"
+    },
+    {
+      "filename": "prepaper_v1.zip",
+      "size": 5072276,
+      "md5": "e03b7d4376254371e82b08ca8d3ec43e"
+    },
+    {
+      "filename": "shape-of-science-code-v1.0.0-data-only.zip",
+      "size": 21639585,
+      "md5": "385b4f14728d0eb0f5ebeea6a33e81bf"
+    }
+  ],
+  "live_test": {
+    "filename": "field_pair_summary_v1.zip",
+    "bytes": 3351676,
+    "md5": "291af3f0fe320e1ad7a3913e1eafe8a4",
+    "upload_verified": true,
+    "rerun_skipped_existing_file": true
+  },
+  "unit_tests": {
+    "count": 11,
+    "result": "passed"
+  },
+  "credential_storage": "macOS Keychain; account zenodo.org; service shape-of-science-zenodo-22863543",
+  "credential_in_repository": false,
+  "large_upload_started": false,
+  "published": false,
+  "sources": [
+    "https://developers.zenodo.org/#quickstart-upload",
+    "https://developers.zenodo.org/#rate-limiting"
+  ],
+  "code": {
+    "scripts/zenodo_upload.py": "6a9020adcd8ff17ba797150b1530f0cb269c240dbd65fb24ab8bdd6fc6b6af32",
+    "upload_zenodo.sh": "7a7b852668977b46cfa8024e42bdd2e9702a417c44e9ac8731b58ca73bd59b7b",
+    "tests/test_zenodo_upload.py": "012e0a912917d51bdf86b35b4d412511b1f295812aafc2744748367da9587f8a"
+  }
+}

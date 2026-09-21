@@ -1,68 +1,36 @@
-# Shape of Science Robustness
+# How much does the map of science depend on the embedding model?
 
-**Entrega 1.0.0, 20-09-2026:** [aportación aclarada y material reproducible preparado](PUBLIC_RELEASE.md). Párrafos integrados en ambos idiomas; licencias MIT/CC BY 4.0 aceptadas; comprobaciones independientes disponibles. El código archivado corresponde al [commit cc61517](https://github.com/aleetreny/Shape-of-Science-Robustness/commit/cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f). Los 19 ZIP de datos están verificados, pero **Zenodo sigue como borrador sin archivos públicos**. [Pasos para terminar la carga](ZENODO_UPLOAD.md).
+**Final author-approved manuscript, 21 September 2026.** Alejandro Treny Ortega, University College London, London, United Kingdom. English is the official version for submission and citation. A complete professional Spanish translation is also available.
 
-**¿Cuánto del mapa de la ciencia se conserva cuando cambiamos el modelo que lo dibuja?**
+The study compares ten embedding models on 500,000 OpenAlex publications across 26 research areas. It asks which relationships remain when the model, input text, selected articles or processing changes. The scientific calculations are complete and frozen. Journal submission and arXiv submission are the next steps; neither has been made by this repository release.
 
-Comparamos los mismos artículos con diez modelos. Es como fotografiar una misma escena con cámaras distintas: buscamos qué relaciones permanecen y cuáles dependen de la cámara, del texto que recibe o de los artículos con los que se compara.
+## Read or download
 
-| Corpus | Modelos | Áreas principales | Experimento de entrada |
-| --- | --- | --- | --- |
-| 500.000 registros | 10 | 26 Fields | 52.000 × título, resumen y ambos |
+| Document | PDF | Editable sources |
+| --- | --- | --- |
+| Official article | [English article](output/pdf/main.pdf) | [English source package](output/manuscript_source.zip) |
+| Supplementary material | [English supplement](output/pdf/supplement.pdf) | Same English source package |
+| Spanish translation | [Article](output/pdf/es/main.pdf) · [Supplement](output/pdf/es/supplement.pdf) | [Spanish source package](output/manuscript_source_es.zip) |
+| arXiv upload | Article and supplement in English | [arXiv LaTeX ZIP](output/arxiv_source.zip) |
 
-**Estado · 20 septiembre 2026:** [cierre científico terminado](ROBUSTNESS_CLOSURE_REPORT.md) y [revisión completa para una primera lectura](FIRST_READER_REVIEW.md), en inglés y español. Tono conservado; conceptos, pruebas y resultados explicados con más contexto. Inglés: 24 páginas; español: 25. Revisión personal y depósito de datos pendientes. [Estado exacto →](NEXT_STEPS.md)
+The arXiv package contains the necessary LaTeX sources, figures, bibliography and a compilation-order file. It excludes internal notes, cover letters, data caches and Spanish documents. [Submission instructions and checks](docs/SUBMISSION_READY.md).
 
-## Empieza aquí
+## Public data and code
 
-| Para… | Abrir |
-| --- | --- |
-| Entender qué cambia tras las últimas pruebas | [Informe del cierre](ROBUSTNESS_CLOSURE_REPORT.md) · [Cambios del texto](ROBUSTNESS_MANUSCRIPT_CHANGELOG.md) |
-| Leer los resultados generales | [Resultados](ROBUSTNESS_RESULTS.md) · [Qué resiste a los controles](CONCLUSION_CONTROLS.md) |
-| Ver cuántas conclusiones cambian de dirección | [Resumen de las 325 parejas](FIELD_PAIR_RESULTS.md) · [Métodos](METHODS_FIELD_PAIRS.md) |
-| Entender qué rasgos de la forma cambian | [Piloto de morfología](MORPHOLOGY_RESULTS.md) · [Métodos y controles](METHODS_MORPHOLOGY.md) |
-| Ver artículos y relaciones concretas | [Atlas de casos](CASE_ATLAS.md) |
-| Comparar con otros trabajos | [Antecedentes y aportación](references/RELATED_WORK.md) · [54 referencias verificadas](references/README.md) |
-| Revisar métodos y repetir comprobaciones | [Guía de reproducción](docs/REPRODUCING.md) · [Catálogo de datos](DATA_CATALOG.md) |
-| Leer el artículo y suplemento vigentes | [Última entrega, PDF y fuentes](PUBLIC_RELEASE.md) |
-| Repetir las comprobaciones públicas | [Comandos y cobertura exacta](reproducibility/README.md) · [Diccionario](reproducibility/DATA_DICTIONARY.md) |
-| Consultar las alternativas de voz anteriores | [Tres versiones; V2 elegida](MANUSCRIPT_VOICES.md) |
-| Revisar el texto en español | [Artículo y suplemento traducidos](MANUSCRIPT_SPANISH.md) |
-| Revisar la redacción | [Plano detallado del manuscrito](MANUSCRIPT_BLUEPRINT.md) · [Voz del autor](AUTHOR_VOICE.md) · [Estructuras de QSS](QSS_STRUCTURE_REVIEW.md) · [Qué falta antes de enviar](docs/QSS_CHECK.md) |
+- Permanent dataset: [Zenodo 10.5281/zenodo.22876602](https://doi.org/10.5281/zenodo.22876602).
+- Download mirror and portable reproduction: [Shape-of-Science-Reproducibility v1.1.0](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0).
+- [Exact selection and tested scope](COMPACT_REPRODUCIBILITY.md).
 
-## Qué estamos encontrando
+The public distribution is 492 MB. It retains identifiers, article selections, per-query counts, measurements and controls. Starting from those frozen measurements, the documented check reproduced 25 tables with 106,445 identical rows and checked 17,550 neighbour scores, including in a fresh Linux environment. It does not regenerate embeddings from historical text or certify a complete rerun of all supplementary analyses. Large vector caches, model weights and historical plaintext inputs are excluded; the article and Supplement S8 explain the boundary.
 
-Hay una organización amplia compartida, pero los vecinos de cada artículo dependen del modelo y del texto. Acercar la lupa no reduce siempre el acuerdo. El tamaño de búsqueda y la forma de resumir el texto pueden cambiar la interpretación.
+## Build the documents
 
-En la representación original, dos modelos dan respuestas opuestas persistentes en 262 de 325 comparaciones de apertura y 221 de dimensión. Al cambiar la referencia global, quedan 151 y 211; solo 128 y 204 conservan los mismos modelos y respuestas originales. La apertura depende mucho de esa preparación: al exigir diferencias mayores del 5 %, sus oposiciones pasan de 96 a 11. El texto recoge este límite, sin declarar una preparación como la correcta. [Resultados y significado →](ROBUSTNESS_CLOSURE_REPORT.md)
+Run `./manuscript/build.sh` for English and `./manuscript_es/build.sh` for Spanish. These commands compile the included presentation files; they do not run scientific calculations. XeLaTeX can also compile the sources with the supplied BibTeX bibliographies.
 
-El atlas localiza especialidades que conservan posiciones altas o bajas al cambiar 27 condiciones. También permite seguir una relación concreta modelo por modelo.
+## Scientific records
 
-![Especialidades que mantienen posiciones altas o bajas de acuerdo](reports/prepaper_v1/figures/01_subfield_persistence.png)
+[Final robustness report](ROBUSTNESS_CLOSURE_REPORT.md) · [Expanded comparisons](ROBUSTNESS_RESULTS.md) · [Area-pair results](FIELD_PAIR_RESULTS.md) · [Methods](METHODS_ROBUSTNESS.md) · [Data catalogue](DATA_CATALOG.md) · [Document index](docs/INDEX.md).
 
-**Acuerdo no significa verdad.** La revisión encontró avisos bibliográficos y etiquetas temáticas erróneas que proceden de OpenAlex. Se conservan y explican en [la auditoría](PREPAPER_REVIEW.md). Los resultados describen este corpus y estos modelos, no toda la ciencia ni un encoder ganador.
+The original source snapshots, configurations and results retain their provenance. Earlier notes describe the chronology and are not instructions to restart experiments or upload the superseded 51 GB package.
 
-## Cómo está organizado
-
-- `config/`: decisiones y versiones de cada cálculo.
-- `sos_download/`, `sos_prepare/`, `sos_embed/`: extracción, limpieza y modelos ya terminados.
-- `sos_analysis/`, `sos_followup/`, `sos_deep/`: análisis y controles de las fases conservadas.
-- `sos_review/`: atlas y presentación de esta revisión.
-- `sos_morphology/`: piloto separado de propiedades de la forma y sus controles.
-- `sos_pair_summary/`: resumen final de las 325 parejas, a partir de medidas ya guardadas.
-- `sos_closure/`: controles finales de centros, vecinos, procesamiento y calidad, ya terminados y congelados.
-- `reports/`: tablas, figuras y entregas científicas conservadas.
-- `manuscript/`: manuscrito LaTeX, figuras y tablas del paper; `output/`: PDF y paquete editable.
-- `references/`: biblioteca y comparación con antecedentes.
-- `reproducibility/`: comprobaciones portables desde medidas y vectores, diccionario y límites de la entrega.
-- `research/`: registros y evidencia de las revisiones; copias de consulta locales fuera de Git.
-- `data/`: corpus, vectores y grandes derivados locales, fuera de Git.
-
-[Índice completo de documentos y versiones →](docs/INDEX.md)
-
-Los 400.000 registros de base y los 100.000 de complemento permanecen separados. El control de fragmento común y el experimento de tres entradas tienen selecciones propias de 52.000. Los resultados se calculan en los espacios originales; un dibujo en dos dimensiones no decide las conclusiones.
-
-Un clon permite reproducir resúmenes de las cuatro figuras principales con `python3 -I -S reproducibility/reproduce_summaries.py`, sin descargar los vectores. La comprobación desde vectores requiere los ZIP de datos, preparados para Zenodo pero todavía sin publicar. No se ha certificado una repetición completa de todos los experimentos: [alcance comprobado](reproducibility/README.md). No relanzar descargas o modelos por abrir el proyecto.
-
-Código propio: [MIT](LICENSE). Documentos y resultados propios: [CC BY 4.0](LICENSING.md); metadatos OpenAlex: CC0. Los derechos de terceros se conservan.
-
-Para continuar entre personas o chats: [AGENTS.md](AGENTS.md), [DECISIONS.md](DECISIONS.md), [progress.md](progress.md) y [task_plan.md](task_plan.md). El TFM anterior se mantiene como referencia de solo lectura.
+Own code: [MIT](LICENSE). Own results and documents: [CC BY 4.0](LICENSING.md). OpenAlex metadata: CC0. Third-party rights remain with their owners.

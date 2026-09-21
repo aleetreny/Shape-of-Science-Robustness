@@ -1,0 +1,23 @@
+{
+  "record": 22876602,
+  "anonymous_downloads": {
+    "README.md": {
+      "bytes": 5320,
+      "sha256": "1d68aed8b073c50d7f2301b2d071f063b25d6fe74f2ffe48b3dab784180aa906",
+      "matches": true
+    },
+    "data-embeddings-v1.zip": {
+      "bytes": 39950,
+      "sha256": "cf2a01517e1e30178f4469017eadc259c36ab59d692d18e51ef92e8f5a7e6c9f",
+      "matches": true
+    },
+    "code-and-guides.zip": {
+      "bytes": 24151415,
+      "sha256": "dbc3a4b4e475866244d698abfc5f003920389b4c1ead9c6e9ed88303bbc2f104",
+      "matches": true
+    }
+  },
+  "doi_resolves": true,
+  "doi_resolved_url": "https://zenodo.org/records/22876602",
+  "all_passed": true
+}

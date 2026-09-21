@@ -1,0 +1,42 @@
+{
+  "upload_files": 32,
+  "upload_bytes": 51186372854,
+  "code_package": {
+    "version": "1.0.0",
+    "git_commit": "cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+    "repository": "https://github.com/aleetreny/Shape-of-Science-Robustness",
+    "commit_url": "https://github.com/aleetreny/Shape-of-Science-Robustness/commit/cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+    "archive": "shape-of-science-code-v1.0.0-data-only.zip",
+    "sha256": "8194912bc8c77afcd41d349f1108ff86923cecc17682be0034e5f7aa1d8362b8",
+    "bytes": 21639585,
+    "files": 519,
+    "license": "MIT for original software; see LICENSING.md for documents and third parties",
+    "data_record_doi": "10.5281/zenodo.22863543",
+    "data_record_status_at_packaging": "draft, DOI reserved; no public data access yet",
+    "export_type": "Filtered scientific distribution; not a full repository mirror",
+    "package_revision_date": "2026-09-21",
+    "excluded_scope": "Manuscripts, supplements, editorial archives and internal work records",
+    "manifest": "PACKAGE_MANIFEST.json inside the code ZIP",
+    "documentation_overrides": [
+      "README.md",
+      "DOWNLOAD.md",
+      "reproducibility/README.md",
+      "reproducibility/DATA_DICTIONARY.md"
+    ]
+  },
+  "checksums_of_new_payloads_verified": true,
+  "unchanged_numerical_archive_hashes_retained": true,
+  "companion_explicit_reference_hits": [],
+  "data_text_audit": "data_text_audit.json",
+  "filtered_code_audit": "filtered_code_audit.json",
+  "reproduction_and_original_preservation": "package_verification.json",
+  "metadata_saved_and_reloaded": true,
+  "data_public": false,
+  "limitations": [
+    "Search checks explicit text references and file names, not authorship or hidden provenance.",
+    "Scientific calculations and model inference were not rerun.",
+    "The project repository and its history remain separate from this filtered distribution."
+  ],
+  "repository_push_performed_this_revision": false,
+  "final_upload_guide": "ZENODO_UPLOAD.md"
+}

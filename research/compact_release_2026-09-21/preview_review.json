@@ -1,0 +1,23 @@
+{
+  "preview_only": true,
+  "unchanged_manuscript_assets": 449,
+  "changed": [
+    "manuscript/main.tex",
+    "manuscript/references.bib",
+    "manuscript/supplement.tex",
+    "manuscript/tables/data/S17/release-manifest.json",
+    "manuscript/tables/editorial/S17.tex",
+    "manuscript/tables/manifest.json",
+    "manuscript/tables/tex/S17.tex",
+    "manuscript_es/main.tex",
+    "manuscript_es/references.bib",
+    "manuscript_es/supplement.tex",
+    "manuscript_es/tables/data/S17/release-manifest.json",
+    "manuscript_es/tables/editorial/S17.tex",
+    "manuscript_es/tables/manifest.json",
+    "manuscript_es/tables/tex/S17.tex"
+  ],
+  "scientific_body_unchanged": true,
+  "warnings": "Only pre-existing Spanish S03 underfull boxes; no overfull or missing citations.",
+  "visual_review": "Availability pages, archive tables, S8 scope, references and adjacent pages inspected; no clipping or overlap."
+}

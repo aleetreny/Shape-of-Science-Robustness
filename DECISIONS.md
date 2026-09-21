@@ -1,3 +1,51 @@
+## Ajuste posterior de presentación, 21-09-2026
+
+El autor solicita retirar la declaración de herramientas del artículo y de la carta. Se retira sin afirmar que el trabajo se realizó sin ayuda. Se le comunica que el requisito editorial correspondiente sigue sin cubrir. Esta retirada no elimina el registro real ni convierte el envío en conforme con todas las políticas del editor.
+
+## Versión definitiva aprobada, 21-09-2026
+
+El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.
+
+Se retiran marcas de borrador de portadas, cabeceras y metadatos; se completan CRediT, declaraciones y disponibilidad del DOI público 10.5281/zenodo.22876602. La política de MIT Press exige informar de la ayuda de IA al editor y en el artículo: se incorpora una declaración fiel. Se mantienen voz, cuerpo científico, resultados y datos congelados.
+
+Fuentes arXiv en `output/arxiv_source.zip`; PDF oficiales en `output/pdf/`, traducción en `output/pdf/es/`. Carta y copias para endorsement fuera del repositorio, en la carpeta local hermana `Shape of Science Submission/2026-09-21`. Guía vigente: `docs/SUBMISSION_READY.md`. No se han enviado solicitudes de endorsement ni realizado el envío a QSS o arXiv. No archivar el repositorio en modo de solo lectura: conservarlo disponible para las revisiones editoriales.
+
+## 21-09-2026 — Publicación compacta terminada
+
+**Entrega vigente, 21-09-2026:** distribución compacta v1.1.0 publicada y comprobada: 15 archivos, 492.154.568 bytes. [GitHub](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0) y [archivo con DOI](https://doi.org/10.5281/zenodo.22876602). Sustituye la carga de 51 GB. Se conservan medidas, recuentos, identidades, selecciones y controles; se excluyen grandes cachés de vectores/listas, textos históricos, artículo, suplementos y notas internas. Reproducción estadística comprobada desde los ZIP en macOS y en un entorno Linux nuevo: 25 tablas, 106.445 filas idénticas y 17.550 medidas de vecinos coincidentes. No se certifica regeneración desde textos históricos ni todos los análisis suplementarios. El borrador antiguo 22863543 permanece sin publicar; el cargador local está retirado. No queda una subida a cargo del autor. Detalles: [COMPACT_REPRODUCIBILITY.md](COMPACT_REPRODUCIBILITY.md).
+
+Disponibilidad, cita del conjunto de datos y S8 actualizados en ambos idiomas; artículo y suplementos siguen fuera del depósito. Se preservan los archivos científicos congelados y las ediciones previas del autor. La revisión personal y el envío a revista siguen separados de esta entrega. Las notas siguientes conservan la cronología y no reabren la carga antigua.
+
+## 21-09-2026 — Selección y publicación compacta autorizadas
+
+El autor informa de nuevos fallos incluso con una conexión y pide comprobar literalmente QSS, elegir los archivos esenciales, escoger la vía de depósito y subirlos a un repositorio público. Esta petición sustituye el plan de cargar los 51 GB desde su terminal. Autoriza la nueva distribución pública y su depósito; no modifica experimentos ni implica envío a revista. Se conservan el paquete anterior y su borrador sin publicar.
+
+Selección: medidas congeladas, recuentos por consulta, identidades/selecciones, controles, protocolos y código. Se omiten shards de embeddings y metadatos repetidos, vectores de centros y listas de vecinos regenerables. Se mantiene explícito que la ruta pública reproduce cálculos estadísticos desde medidas derivadas; no certifica nueva inferencia desde textos históricos. Se prepara GitHub con transferencia desde sus servidores a un depósito compacto con DOI. Credencial guardada como secreto del nuevo repositorio según la autorización previa.
+
+## 21-09-2026 — Corrección del cargador tras los fallos reales
+
+La petición de corregir los cortes autoriza ajustar el transporte y una prueba acotada. Se sustituye la opción anterior de dos conexiones por una sola obligatoria, ya que el fallo comunicado coincide con la incidencia 975 de Zenodo. Se mantiene la reanudación por archivo completo y el paquete congelado. La prueba real de casi seis minutos se detuvo manualmente tras unos 100 MB, sin errores; no certifica la recepción completa de un archivo grande. La carga completa y la publicación siguen a cargo del autor. `ZENODO_UPLOAD.md` contiene el mismo comando actualizado.
+
+## 21-09-2026 — Subida por API autorizada para preparación y prueba
+
+El autor pide un script para lanzar él la subida de los archivos grandes restantes. Autoriza guardar la clave facilitada y realizar una prueba real. Se elige el Llavero de macOS porque la ejecución será local; no se coloca la clave en GitHub ni en archivos del repositorio. La prueba sube un archivo pendiente de 3,35 MB y verifica que repetir el comando lo omite. El resto de la carga queda a cargo del autor.
+
+Cargador `upload_zenodo.sh`, API oficial de archivos grandes, dos conexiones por defecto, comprobación de huellas, reintentos y bloqueo de instancias simultáneas. No hay publicación automática, edición de metadatos ni sobrescritura de una copia remota distinta. Reanudación por archivo completo, no desde un bloque de un ZIP interrumpido. Los 32 archivos congelados conservan su contenido; se omite el temporal `.partial` ajeno a la lista. Guía: `ZENODO_UPLOAD.md`.
+
+## 21-09-2026 — Cinco aclaraciones editoriales del autor
+
+Petición directa: aplicar los cinco comentarios del PDF español. Se trasladan al inglés canónico. Se explican el punto desde el que se miden los ángulos, la finalidad de ampliar la muestra y el motivo de probar MiniLM con más texto; se sustituye «la» por «una» en las dos menciones señaladas. La prioridad por uso académico se expresa con el alcance de la revisión dirigida existente: modelos más utilizados en los estudios consultados, junto con comparadores de esos trabajos. No se afirma un ranking universal ni se modifica la elección científica.
+
+Entrega local: `MANUSCRIPT_COMMENTS_2026-09-21.md`. Artículos EN/ES de 24/26 páginas y paquetes editables actualizados. Datos, fórmulas y suplementos conservados. La preparación de Zenodo sigue separada: sus 32 archivos no cambian. No es autorización de envío a revista.
+
+## 21-09-2026 — Depósito sin artículo, suplementos ni registros internos
+
+Petición directa del autor: retirar artículo y suplementos en español e inglés del paquete que se subirá, manteniendo la posibilidad de revisar la narrativa. También pregunta por `AGENTS.md` y referencias al uso de herramientas. Se crea una distribución científica seleccionada: programas, configuración, pruebas, métodos, tablas/figuras de resultados y guías de reproducción. Quedan fuera ambos manuscritos, suplementos, paquetes editables, alternativas, copias anteriores y notas internas. No se modifica la ciencia ni se elimina el historial del proyecto.
+
+Nuevo ZIP `shape-of-science-code-v1.0.0-data-only.zip`, 519 archivos; 1.789 archivos del espejo anterior excluidos. Los archivos científicos seleccionados son idénticos al commit de origen; cuatro páginas de documentación se adaptan al contenido distribuido. `PACKAGE_MANIFEST.json` y `CODE_VERSION.json` delimitan la selección. Los 19 ZIP numéricos permanecen sin cambios. Carpeta final: 32 archivos y 51.186.372.854 bytes. El ZIP anterior se conserva fuera de la carpeta de subida.
+
+No hay `AGENTS.md` ni coincidencias con los nombres de herramientas buscados en los 23.275 miembros de texto de los ZIP numéricos y los 481 miembros de texto/PDF/SVG revisados del nuevo ZIP. Es una comprobación de referencias explícitas, no una prueba de autoría ni una garantía forense; la asistencia real y las declaraciones aplicables no se modifican. La publicación en Zenodo continúa pendiente del autor; el registro sigue con cero archivos.
+
 ## 20-09-2026 — Entrega pública de código cumplida; carga de datos pendiente
 
 El código autorizado está en GitHub, commit `cc61517`, verificado sin autenticación en siete archivos clave. El ZIP de esa versión y los datos quedan preparados en un único conjunto de 32 archivos/51,41 GB. La carga en Zenodo requiere arrastrar los archivos: el selector automático no respondió. El borrador y su DOI están guardados, no publicados. No se presenta una prueba acotada como repetición completa. Próximo paso después de publicar: verificar archivos públicos y actualizar disponibilidad, cita de datos y S8. No es autorización de envío a revista.

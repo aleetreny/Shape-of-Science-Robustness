@@ -1,0 +1,17 @@
+{
+  "reviewed_at": "2026-09-21T11:55:54.647735+00:00",
+  "documents": {
+    "en_main": {
+      "sha256": "22fb856a5cbcd32a0bfb59c32973b371ca2e3482dd63278873fb439b220d74bf",
+      "pages": 24,
+      "contact_sheets_inspected": 6
+    },
+    "es_main": {
+      "sha256": "5bf7b513993e4ad491fc0fa3a7228024ff397d6157a169ab8fb0aee6d5329486",
+      "pages": 26,
+      "contact_sheets_inspected": 7
+    }
+  },
+  "total_pages_inspected": 50,
+  "findings": "All main-document pages inspected as rendered contact sheets. Revised abstract and methods, tables, figures, section transitions and references are legible. No clipping, overlaps or broken glyphs observed. Spanish length increases to 26 pages; the last page contains the final three complete references."
+}

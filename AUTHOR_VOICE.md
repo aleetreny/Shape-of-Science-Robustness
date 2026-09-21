@@ -1,3 +1,11 @@
+## Versión definitiva aprobada, 21-09-2026
+
+El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.
+
+Se retiran marcas de borrador de portadas, cabeceras y metadatos; se completan CRediT, declaraciones y disponibilidad del DOI público 10.5281/zenodo.22876602. Las declaraciones de herramientas se retiran después por instrucción del autor; el requisito editorial correspondiente queda sin cubrir y se comunica en el chat. Se mantienen voz, cuerpo científico, resultados y datos congelados.
+
+Fuentes arXiv en `output/arxiv_source.zip`; PDF oficiales en `output/pdf/`, traducción en `output/pdf/es/`. Carta y copias para endorsement fuera del repositorio, en la carpeta local hermana `Shape of Science Submission/2026-09-21`. Guía vigente: `docs/SUBMISSION_READY.md`. No se han enviado solicitudes de endorsement ni realizado el envío a QSS o arXiv. No archivar el repositorio en modo de solo lectura: conservarlo disponible para las revisiones editoriales.
+
 # Cómo escribir con la voz de Alejandro
 
 **Regla de primera lectura, 20-09-2026:** el autor conserva la personalidad y pide releer el artículo entero sin asumir conocimiento del estudio. Cada prueba debe presentar la pregunta, qué se mantiene igual, qué cambia y cómo interpretar el resultado. Nombrar conjuntos por su finalidad y explicar sus relaciones; distinguir estructura, dispersión, orden entre áreas y dirección de un vector. Explicar denominadores y cambios de candidatos junto a las cifras. Definir los términos donde hacen falta y usar ejemplos breves sin convertir el artículo en una sucesión de analogías. Aplicación completa en [FIRST_READER_REVIEW.md](FIRST_READER_REVIEW.md). No es aprobación personal final ni permiso para nuevos análisis.

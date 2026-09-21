@@ -1,4 +1,4 @@
-% Own working layout for a flexible QSS first submission, not an official class.
+% Article layout for the initial journal submission and preprint.
 \usepackage[letterpaper,margin=1in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage[spanish,es-tabla]{babel}
@@ -49,16 +49,13 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\small Shape of Science Robustness}
-\fancyhead[R]{\small Borrador en español}
+\fancyhead[R]{\small Alejandro Treny Ortega}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
-\newcommand{\Plan}[1]{\par\begingroup\small\itshape\textbf{Writing plan.} #1\par\endgroup}
-\newcommand{\Pending}[1]{\par\begingroup\small\itshape\textbf{To be completed by the authors.} #1\par\endgroup}
 \newcommand{\PanelFigure}[4]{%
   \begin{figure}[!htbp]\centering
   \includegraphics[width=#4\linewidth]{figures/#1.pdf}
   \caption{#2}\label{fig:#3}
   \end{figure}}
-\newcommand{\SectionPlan}[1]{\Plan{#1}}
 \hypersetup{pdftitle={¿Cuánto depende el mapa de la ciencia del modelo de embeddings?},
   pdfsubject={Manuscrito y suplemento en español},pdfauthor={Alejandro Treny Ortega}}

@@ -1,0 +1,113 @@
+{
+  "all_checks_passed": true,
+  "closure_tables": {
+    "centres_model_pairs.csv": {
+      "rows": 810,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "centres_nested_sources.csv": {
+      "rows": 2,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "centres_omission_model_pairs.csv": {
+      "rows": 1170,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "centres_omissions.csv": {
+      "rows": 1326,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "centres_random_reference.csv": {
+      "rows": 9,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "centres_size_rank_stability.csv": {
+      "rows": 6,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "centres_summary.csv": {
+      "rows": 18,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "dimension_alternative_retention.csv": {
+      "rows": 12,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "headline_field_model_stability.csv": {
+      "rows": 1300,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "headline_fields.csv": {
+      "rows": 130,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "headline_grand_repetitions.csv": {
+      "rows": 250,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "headline_models.csv": {
+      "rows": 50,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "headline_summary.csv": {
+      "rows": 15,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "model_panel_summary_full_alternatives.csv": {
+      "rows": 96,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "morphology_centering_summary.csv": {
+      "rows": 8,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "morphology_centering_transitions.csv": {
+      "rows": 72,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "morphology_centering_witnesses.csv": {
+      "rows": 14693,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "morphology_classification.csv": {
+      "rows": 24,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "morphology_directions.csv": {
+      "rows": 78000,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "morphology_pairs.csv": {
+      "rows": 7800,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "quality_fields.csv": {
+      "rows": 225,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "quality_input_effects.csv": {
+      "rows": 6,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "quality_input_summary.csv": {
+      "rows": 9,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "quality_model_pairs.csv": {
+      "rows": 405,
+      "numerically_equal_nonidentical_cells": 0
+    },
+    "quality_summary.csv": {
+      "rows": 9,
+      "numerically_equal_nonidentical_cells": 0
+    }
+  },
+  "closure_csv_rows": 106445,
+  "local_neighbor_score_checks": 17550,
+  "neighbor_agreement_k25": {
+    "local_equal_cell_weight": 0.3028528110205337,
+    "global_balanced_queries": 0.17504799999999998
+  },
+  "four_figure_quickcheck": true,
+  "boundary": "Recomputes statistical analyses from frozen model-derived measurements. Does not regenerate embeddings or reconstruct nearest-neighbor lists from texts."
+}

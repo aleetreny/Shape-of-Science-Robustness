@@ -1,0 +1,8 @@
+{
+  "started_unix": 1789995091.9597344,
+  "manual_stop_unix": 1789995449.98077,
+  "elapsed_seconds": 358.02103567123413,
+  "file": "embeddings_minilm.zip",
+  "completed": false,
+  "stop_reason": "Planned bounded stability test; not a transport error."
+}

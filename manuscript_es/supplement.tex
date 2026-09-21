@@ -18,9 +18,10 @@
 \medskip
 {\large \textquestiondown{}Cuánto depende el mapa de la ciencia del modelo de embeddings?\par}
 \medskip
-Alejandro Treny Ortega \textbullet{} Investigador independiente\par
+Alejandro Treny Ortega\par
+University College London, Londres, Reino Unido\par
 \smallskip
-20 de septiembre de 2026
+21 de septiembre de 2026
 \end{center}
 
 Este suplemento aporta definiciones, comprobaciones y archivos completos de resultados. Cada tabla tiene un resumen impreso y archivos CSV sin redondear en \nolinkurl{tables/data/Sxx/}. Los datos de las figuras están en \nolinkurl{figures/data/}. Los resúmenes no sustituyen esos archivos.
@@ -204,14 +205,15 @@ Cada uno de los once controles puntuales se compara con su referencia adecuada d
 \subsection{Reconstrucción de estos documentos}
 El comando del repositorio \nolinkurl{./manuscript_es/build.sh} compila el LaTeX incluido en el documento principal y este suplemento en español. No ejecuta modelos, búsquedas o simulaciones. El compilador puede descargar archivos habituales de TeX en su primer uso. Volver a exportar gráficos y resúmenes de tablas es una operación de presentación separada, documentada en el README del paquete.
 
-\subsection{Límites de acceso de este borrador}
-El paquete incluye el manuscrito editable, las figuras, las tablas descriptivas y sus resúmenes de origen. Excluye textos del corpus, vectores, pesos de modelos, secretos y copias de textos completos de terceros. Por tanto, permite reconstruir los dos PDF mostrados sin reproducir todo el proceso científico. Este último requiere las entradas fijas y los materiales de ejecución indicados antes. Antes de afirmar una reproducción pública completa deben resolverse una publicación versionada y los permisos o la licencia necesarios. Todavía no se ha realizado un depósito persistente.
+\subsection{Reproducción pública de las comparaciones}
+La entrega compacta de datos y código está archivada en \url{https://doi.org/10.5281/zenodo.22876602} \citep{treny2026reproduction}. Tras extraer juntos los archivos de código y datos, \texttt{python }\nolinkurl{reproducibility/reproduce_analysis.py} verifica sus huellas y recalcula 25 tablas con 106.445 filas. Comprueba 17.550 medidas locales de vecinos desde los recuentos por consulta, recalcula las medias local y global equilibradas y ejecuta las comprobaciones de agregación de las cuatro figuras principales. El contenido de las tablas recalculadas coincide exactamente con las referencias guardadas tanto en local como en un entorno Linux nuevo con las versiones fijadas. El README de la entrega indica versiones, comandos y tolerancias.
 
-El autor ha confirmado autoría única como investigador independiente, ausencia de financiación externa y ausencia de conflictos de interés. La prosa y las interpretaciones científicas actuales siguen siendo un borrador para su revisión. Los datos de correspondencia y el formato final de la revista deben completarse al enviar; no se han inventado aquí.
+Esta vía parte de medidas congeladas producidas por los modelos. No regenera los embeddings desde el texto histórico ni reconstruye las listas de vecinos excluidas; tampoco certifica una nueva ejecución de todos los análisis suplementarios. Las tablas históricas de títulos y resúmenes no se distribuyen porque no se han establecido los permisos sobre el texto de los resúmenes. Se conservan identificadores y huellas de entrada, pero recuperar de nuevo los registros de OpenAlex puede dar un contenido distinto. Artículos y suplementos están separados del depósito de datos y pueden editarse sin modificar las medidas archivadas.
+
 
 \clearpage
 \section{Últimas comprobaciones dirigidas de robustez}
-Estas pruebas se definieron después de los resultados anteriores y del borrador, antes de inspeccionar sus nuevos resultados. Reutilizan los vectores congelados, conservan las salidas anteriores y responden a las cuestiones pendientes de selección, procesamiento y calidad de origen. No añaden entrenamiento ni extracción. Los archivos CSV de las Tablas S18--S20 incluyen resúmenes sin redondear; \nolinkurl{data/robustness_closure_v1/} conserva selecciones, copias de programas y huellas por parte. \nolinkurl{ROBUSTNESS_CLOSURE_PROTOCOL.md} registra el diseño. El paquete fuente reproduce esta presentación, no el corpus que no se distribuye.
+Estas pruebas se definieron después de los resultados anteriores y de la primera redacción del artículo, antes de inspeccionar sus nuevos resultados. Reutilizan los vectores congelados, conservan las salidas anteriores y responden a las cuestiones pendientes de selección, procesamiento y calidad de origen. No añaden entrenamiento ni extracción. Los archivos CSV de las Tablas S18--S20 incluyen resúmenes sin redondear; \nolinkurl{data/robustness_closure_v1/} conserva selecciones, copias de programas y huellas por parte. \nolinkurl{ROBUSTNESS_CLOSURE_PROTOCOL.md} registra el diseño. La entrega separada de datos permite la reproducción estadística descrita en S8.
 
 \subsection{Centros repetidos y contrastes directos de vecinos}
 La prueba de centros con 256 artículos utiliza cincuenta selecciones de las mismas 26 áreas y 217 especialidades. Cada grupo conserva sus cinco recuentos originales por período. La prueba de tamaño fija 26 áreas y 183 especialidades con 128, 256 y 512 artículos, y cincuenta repeticiones. Las cuotas por período proceden del prefijo original de 512 artículos y se redondean de forma anidada por restos mayores para los tamaños menores. Por eso sus cuotas de 256 artículos difieren de las de la primera prueba. Cada selección tiene una reasignación dentro de períodos, con exactamente los mismos artículos entre grupos observados/aleatorios y modelos.

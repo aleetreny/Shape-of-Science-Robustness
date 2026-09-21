@@ -15,9 +15,10 @@
 \medskip
 {\large How much does the map of science depend on the embedding model?\par}
 \medskip
-Alejandro Treny Ortega \textbullet{} Independent researcher\par
+Alejandro Treny Ortega\par
+University College London, London, United Kingdom\par
 \smallskip
-20 September 2026
+21 September 2026
 \end{center}
 
 This supplement supplies definitions, checks and complete result files. Each table has a printed summary and unrounded CSV files in \nolinkurl{tables/data/Sxx/}. Figure data are in \nolinkurl{figures/data/}. Summaries do not replace those files.
@@ -198,14 +199,15 @@ Each of the eleven point controls is compared with its appropriate equal-size re
 \subsection{Rebuilding this display package}
 The repository command \nolinkurl{./manuscript/build.sh} compiles the included LaTeX into the main document and this supplement. It does not run models, searches or simulations. The compiler may download standard TeX support files on its first use. Re-exporting plots and table summaries is a separate presentation command, documented in the package README.
 
-\subsection{Access limits of this draft}
-The package provides the editable manuscript, figures, descriptive tables and their source summaries. It excludes corpus text, vectors, model weights, secrets and copies of third-party full texts. It can therefore reproduce the two displayed PDFs without reproducing the entire scientific pipeline. The latter requires the frozen inputs and execution materials listed above. A versioned public release and any necessary data permissions/licence must be settled before claiming full public reproducibility. No persistent deposit has yet been made.
+\subsection{Public statistical reproduction}
+The compact data and code release is archived at \url{https://doi.org/10.5281/zenodo.22876602} \citep{treny2026reproduction}. After extracting the code and data archives together, \texttt{python }\nolinkurl{reproducibility/reproduce_analysis.py} verifies the supplied hashes and recalculates 25 tables with 106,445 rows. It checks 17,550 local neighbour scores from per-query intersection counts, recalculates the balanced local and global averages, and runs the aggregation checks for all four main figures. The regenerated table contents match the saved references exactly both locally and in a fresh Linux environment with the pinned dependencies. Pinned dependencies, commands and tolerances are provided in the release README.
 
-The author has confirmed sole authorship as an independent researcher, no external funding and no competing interests. The current prose and scientific interpretations remain a draft for author review. Correspondence details and final journal formatting should be completed at submission; they have not been invented here.
+This route starts from frozen model-derived measurements. It does not regenerate embeddings from historical text, reconstruct the excluded nearest-neighbour lists or certify a new run of every supplementary analysis. Historical title/abstract input tables are withheld because redistribution rights to the plaintext abstracts have not been established. Exact identifiers and input hashes are retained, but fresh OpenAlex retrieval may differ. Manuscripts and supplements are separate from the data release and may be edited without changing the archived measurements.
+
 
 \clearpage
 \section{Final targeted robustness checks}
-These checks were specified after the previous results and the draft, before their new outcomes were inspected. They reuse the frozen vectors, preserve all earlier outputs and address the remaining selection, processing and source-quality questions. They add no model training or corpus extraction. Tables S18--S20 are accompanied by unrounded CSV summaries; the repository's \nolinkurl{data/robustness_closure_v1/} holds selections, source snapshots and per-part checksums. \nolinkurl{ROBUSTNESS_CLOSURE_PROTOCOL.md} records the design. The source package reproduces this display, not the unavailable corpus.
+These checks were specified after the previous results and the initial manuscript, before their new outcomes were inspected. They reuse the frozen vectors, preserve all earlier outputs and address the remaining selection, processing and source-quality questions. They add no model training or corpus extraction. Tables S18--S20 are accompanied by unrounded CSV summaries; the repository's \nolinkurl{data/robustness_closure_v1/} holds selections, source snapshots and per-part checksums. \nolinkurl{ROBUSTNESS_CLOSURE_PROTOCOL.md} records the design. The separate data release supports the statistical reproduction described in S8.
 
 \subsection{Repeated centres and direct neighbour contrasts}
 The 256-article centre check uses fifty selections of the same 26 Fields and 217 Subfields. Within each group, selection preserves the original five period counts. The size check fixes 26 Fields and 183 Subfields at 128, 256 and 512 articles; each has fifty repetitions. Period quotas derive from the original 512-article prefix, with nested largest-remainder rounding for smaller sizes. Thus its 256-article quotas differ from the first check. One within-period reassignment accompanies every selection, using exactly the same articles across observed/random groups and models.

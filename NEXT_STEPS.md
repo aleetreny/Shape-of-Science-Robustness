@@ -1,3 +1,17 @@
+## Versión definitiva aprobada, 21-09-2026
+
+El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.
+
+Se retiran marcas de borrador de portadas, cabeceras y metadatos; se completan CRediT, declaraciones y disponibilidad del DOI público 10.5281/zenodo.22876602. Las declaraciones de herramientas se retiran después por instrucción del autor; el requisito editorial correspondiente queda sin cubrir y se comunica en el chat. Se mantienen voz, cuerpo científico, resultados y datos congelados.
+
+Fuentes arXiv en `output/arxiv_source.zip`; PDF oficiales en `output/pdf/`, traducción en `output/pdf/es/`. Carta y copias para endorsement fuera del repositorio, en la carpeta local hermana `Shape of Science Submission/2026-09-21`. Guía vigente: `docs/SUBMISSION_READY.md`. No se han enviado solicitudes de endorsement ni realizado el envío a QSS o arXiv. No archivar el repositorio en modo de solo lectura: conservarlo disponible para las revisiones editoriales.
+
+## 21-09-2026 — Publicación compacta terminada
+
+**Entrega vigente, 21-09-2026:** distribución compacta v1.1.0 publicada y comprobada: 15 archivos, 492.154.568 bytes. [GitHub](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0) y [archivo con DOI](https://doi.org/10.5281/zenodo.22876602). Sustituye la carga de 51 GB. Se conservan medidas, recuentos, identidades, selecciones y controles; se excluyen grandes cachés de vectores/listas, textos históricos, artículo, suplementos y notas internas. Reproducción estadística comprobada desde los ZIP en macOS y en un entorno Linux nuevo: 25 tablas, 106.445 filas idénticas y 17.550 medidas de vecinos coincidentes. No se certifica regeneración desde textos históricos ni todos los análisis suplementarios. El borrador antiguo 22863543 permanece sin publicar; el cargador local está retirado. No queda una subida a cargo del autor. Detalles: [COMPACT_REPRODUCIBILITY.md](COMPACT_REPRODUCIBILITY.md).
+
+Disponibilidad, cita del conjunto de datos y S8 actualizados en ambos idiomas; artículo y suplementos siguen fuera del depósito. Se preservan los archivos científicos congelados y las ediciones previas del autor. La revisión personal y el envío a revista siguen separados de esta entrega. Las notas siguientes conservan la cronología y no reabren la carga antigua.
+
 # Estado actual: cierre final de robustez terminado
 
 **Última entrega, 20-09-2026:** [novedad integrada y material público preparado](PUBLIC_RELEASE.md). Licencias aprobadas y aplicadas; datos numéricos empaquetados y comprobados. Zenodo tiene un borrador con DOI reservado, pero faltan los archivos y su publicación. Seguir [los pasos de carga](ZENODO_UPLOAD.md). Las revisiones editoriales siguientes documentan el historial; los PDF vigentes incorporan los tres párrafos nuevos.

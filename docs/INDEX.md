@@ -1,3 +1,9 @@
+# Current final manuscript
+
+[Final submission files](SUBMISSION_READY.md) · [English article](../output/pdf/main.pdf) · [English supplement](../output/pdf/supplement.pdf) · [Spanish translation](../MANUSCRIPT_SPANISH.md) · [Public data DOI](https://doi.org/10.5281/zenodo.22876602).
+
+The chronology below is retained as research history.
+
 # Guía del repositorio
 
 **Entrega vigente, 20-09-2026:** [novedad integrada y paquete verificado](../PUBLIC_RELEASE.md); [comandos públicos](../reproducibility/README.md) y [pasos para terminar Zenodo](../ZENODO_UPLOAD.md). Licencias confirmadas. El borrador de datos aún no está publicado. La [investigación previa](../NOVELTY_AND_REPRODUCIBILITY.md) se conserva como historial.

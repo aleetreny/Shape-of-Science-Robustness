@@ -1,3 +1,53 @@
+## Verificación final de documentos, 21-09-2026
+
+Cuatro PDF finales: 24/39 páginas en inglés y 26/41 en español. Los cuatro paquetes portátiles reproducen exactamente sus PDF; el ZIP arXiv extraído también compila en los dos documentos ingleses exactos. Revisadas las 130 páginas en hojas de contacto y las páginas modificadas a tamaño legible; sin anotaciones de revisión, marcas de borrador, referencias ausentes ni desbordamientos. Se conservan 440 archivos de figuras, tablas y bibliografías, y el cuerpo/resumen científico aprobado. Carta de 231 palabras, Word/PDF, solo fuera del repositorio. Evidencia: `research/submission_final_2026-09-21/final_verification.json`.
+
+## Versión definitiva aprobada, 21-09-2026
+
+El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.
+
+Se retiran marcas de borrador de portadas, cabeceras y metadatos; se completan CRediT, declaraciones y disponibilidad del DOI público 10.5281/zenodo.22876602. Las declaraciones de herramientas se retiran después por instrucción del autor; el requisito editorial correspondiente queda sin cubrir y se comunica en el chat. Se mantienen voz, cuerpo científico, resultados y datos congelados.
+
+Fuentes arXiv en `output/arxiv_source.zip`; PDF oficiales en `output/pdf/`, traducción en `output/pdf/es/`. Carta y copias para endorsement fuera del repositorio, en la carpeta local hermana `Shape of Science Submission/2026-09-21`. Guía vigente: `docs/SUBMISSION_READY.md`. No se han enviado solicitudes de endorsement ni realizado el envío a QSS o arXiv. No archivar el repositorio en modo de solo lectura: conservarlo disponible para las revisiones editoriales.
+
+## 21-09-2026 — Publicación compacta terminada
+
+**Entrega vigente, 21-09-2026:** distribución compacta v1.1.0 publicada y comprobada: 15 archivos, 492.154.568 bytes. [GitHub](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0) y [archivo con DOI](https://doi.org/10.5281/zenodo.22876602). Sustituye la carga de 51 GB. Se conservan medidas, recuentos, identidades, selecciones y controles; se excluyen grandes cachés de vectores/listas, textos históricos, artículo, suplementos y notas internas. Reproducción estadística comprobada desde los ZIP en macOS y en un entorno Linux nuevo: 25 tablas, 106.445 filas idénticas y 17.550 medidas de vecinos coincidentes. No se certifica regeneración desde textos históricos ni todos los análisis suplementarios. El borrador antiguo 22863543 permanece sin publicar; el cargador local está retirado. No queda una subida a cargo del autor. Detalles: [COMPACT_REPRODUCIBILITY.md](COMPACT_REPRODUCIBILITY.md).
+
+Disponibilidad, cita del conjunto de datos y S8 actualizados en ambos idiomas; artículo y suplementos siguen fuera del depósito. Se preservan los archivos científicos congelados y las ediciones previas del autor. La revisión personal y el envío a revista siguen separados de esta entrega. Las notas siguientes conservan la cronología y no reabren la carga antigua.
+
+## 21-09-2026 — Corrección de los cortes en la carga de Zenodo
+
+- El autor ejecutó la carga grande: con dos envíos simultáneos uno avanzaba y otro se cortaba repetidamente. El patrón coincide con la incidencia 975 de Zenodo; causa probable, sin confirmación del servidor.
+- Cargador modificado: un archivo cada vez, de menor a mayor tamaño; espera de red de 300 s para PUT, detalle seguro del error, cancelación inmediata y estado guardado después de cada archivo completo. Se rechazan varias conexiones.
+- Diecisiete pruebas locales aprobadas. Prueba real sobre MiniLM de 779 MB durante 358 s: llegó al 12,9 % sin errores ni reintentos; detenida deliberadamente con SIGINT (salida 130). No equivale a verificar un ZIP grande completo.
+- Estado posterior comprobado: 18/32 completos e idénticos por tamaño/MD5; faltan 14 (51,08 GB). No queda ningún envío de prueba activo. Originales y archivos de Zenodo intactos.
+- Continuación: el autor ejecuta el mismo `upload_zenodo.sh`; evitar otras subidas simultáneas al borrador. Evidencia: `research/zenodo_upload_fix_2026-09-21/verification.json`; guía actualizada en `ZENODO_UPLOAD.md`. Sin publicación ni nuevos experimentos.
+
+## 21-09-2026 — Cargador de Zenodo listo para el autor
+
+- Credencial almacenada y leída con éxito desde el Llavero de macOS; no se incorpora a archivos del proyecto.
+- `scripts/zenodo_upload.py` y `upload_zenodo.sh` listos: selección de los 32 archivos congelados, omisión por tamaño/MD5, SHA256 local, dos conexiones, progreso, reintentos, bloqueo de doble ejecución y prevención del reposo.
+- Once pruebas locales aprobadas. Prueba real subiendo `field_pair_summary_v1.zip` (3.351.676 bytes); comprobación de huella y repetición sin nueva subida aprobadas. Los 17 archivos previos del autor coinciden con los locales.
+- Estado verificado: 18/32 completos; quedan 14 archivos, 51.078.598.017 bytes. No se ha iniciado la subida grande ni publicado el registro.
+- Continuar: el autor ejecuta el comando de `ZENODO_UPLOAD.md`; después verificar 32/32 y publicar desde la vista previa. Evidencia: `research/zenodo_upload_2026-09-21/verification.json`.
+
+## 21-09-2026 — Cinco comentarios editoriales resueltos en ambos idiomas
+
+- Resumen, muestra inicial, selección de modelos, MiniLM y Tabla 1 aclarados según los cinco comentarios. Se conserva la voz y se delimita la frecuencia de uso a la literatura revisada.
+- PDF inglés: 24 páginas; español: 26. Resúmenes de 196 y 214 palabras. Inspección visual de las 50 páginas principales y comprobación de cifras/fórmulas en 82 párrafos correspondientes.
+- Ambos paquetes editables reconstruyen exactamente sus dos PDF; suplementos idénticos, 448 archivos protegidos conservados. Evidencia y copias previas: `research/manuscript_comments_2026-09-21/`.
+- Los 32 archivos de Zenodo no cambian. Entrega local; no se ha hecho otro commit/push ni una carga/publicación. Informe: `MANUSCRIPT_COMMENTS_2026-09-21.md`. Continuar con comentarios del autor o con `ZENODO_UPLOAD.md` para el depósito.
+
+## 21-09-2026 — Paquete de Zenodo separado del manuscrito
+
+- Sustituido el espejo del repositorio por un ZIP científico seleccionado de 519 archivos. Excluidos artículos, suplementos, fuentes editables, versiones históricas y registros internos de trabajo. El ZIP antiguo está conservado en `data/public_release_history/2026-09-20/` y fuera de la carpeta de subida.
+- Los 19 ZIP de datos numéricos y los programas científicos seleccionados no cambian. 582 archivos originales del manuscrito conservan sus huellas. La prueba de resúmenes desde el nuevo ZIP, extraído en una carpeta temporal, vuelve a pasar.
+- Revisados nombres y miembros de texto de datos/código buscando referencias explícitas: sin coincidencias en el alcance registrado. Auditoría acotada, sin prometer ausencia de toda huella de asistencia. Originales e historial intactos.
+- Guías, diccionario, huellas y listado de subida actualizados. `output/zenodo/`: 32 archivos, 51.186.372.854 bytes. Código nuevo: `shape-of-science-code-v1.0.0-data-only.zip`.
+- No se ha hecho un nuevo commit/push en esta revisión del paquete. Los documentos de continuidad quedan actualizados localmente; el código científico exportado sigue identificado por el commit público `cc61517`.
+- Descripción del borrador Zenodo actualizada; cero archivos, 75 GB disponibles, DOI reservado. Continuación: el autor carga los 32 archivos siguiendo `ZENODO_UPLOAD.md` y publica; después verificar registro/cita/disponibilidad/S8. No reiniciar experimentos.
+
 ## 20-09-2026 — Entrega preparada y GitHub actualizado
 
 - Tres párrafos de novedad EN/ES integrados; PDF de 24/25 páginas revisados; cifras y 522 archivos protegidos conservados. Ambos paquetes fuente reconstruyen exactamente los cuatro PDF.

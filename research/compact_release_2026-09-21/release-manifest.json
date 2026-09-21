@@ -1,0 +1,89 @@
+{
+  "version": "1.1.0",
+  "doi": "10.5281/zenodo.22876602",
+  "source_code_commit": "cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+  "files": [
+    {
+      "name": "code-and-guides.zip",
+      "bytes": 24151415,
+      "sha256": "dbc3a4b4e475866244d698abfc5f003920389b4c1ead9c6e9ed88303bbc2f104",
+      "members": 526
+    },
+    {
+      "name": "data-analysis-ready-v1.zip",
+      "bytes": 44664006,
+      "sha256": "b33ea5276587db344878cd3afc5c28c8f39274894d09e9c50e26397225a3be65",
+      "members": 1
+    },
+    {
+      "name": "data-analysis-v1.zip",
+      "bytes": 75487021,
+      "sha256": "bded3d05d03f2c2556f6d68246b99e9d5e11f9e7a614d3ef2a55263fce2f471e",
+      "members": 6706
+    },
+    {
+      "name": "data-checklist-v1.zip",
+      "bytes": 14710873,
+      "sha256": "0615859291770cef75bdc38cf4f367c516a86bd0a7d193eca71f658cbb0739c1",
+      "members": 454
+    },
+    {
+      "name": "data-embeddings-v1.zip",
+      "bytes": 39950,
+      "sha256": "cf2a01517e1e30178f4469017eadc259c36ab59d692d18e51ef92e8f5a7e6c9f",
+      "members": 39
+    },
+    {
+      "name": "data-field-pair-summary-v1.zip",
+      "bytes": 3348734,
+      "sha256": "71d7ddb30bed949dd01e15c8611740c10c72dcb815c8ea8309d6fd80a24afda1",
+      "members": 10
+    },
+    {
+      "name": "data-morphology-pilot-v1.zip",
+      "bytes": 11002835,
+      "sha256": "372b07a29f77a0eb4d9ac8d34893669e7eee04efb06adc4a3cf585151d9a0836",
+      "members": 77
+    },
+    {
+      "name": "data-prepaper-v1.zip",
+      "bytes": 2541843,
+      "sha256": "e10a813171cd3992bebd9cb5f2bd92f7e8e630a9b63d1396264ff23f05038ade",
+      "members": 26
+    },
+    {
+      "name": "data-robustness-closure-v1.zip",
+      "bytes": 106992567,
+      "sha256": "9454a5f54f63c4dbbe16d0888778d70128d12257b34c2fb53b5c047e4c6f287b",
+      "members": 2383
+    },
+    {
+      "name": "data-robustness-v2.zip",
+      "bytes": 209201402,
+      "sha256": "7b34526a5d4097fa9e74bc39d7dc5ebebf40d313485d3c2a4e1e245b3717842e",
+      "members": 14552
+    },
+    {
+      "name": "README.md",
+      "bytes": 5320,
+      "sha256": "1d68aed8b073c50d7f2301b2d071f063b25d6fe74f2ffe48b3dab784180aa906"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 1079,
+      "sha256": "df731442f4783072f12c6b01ffc6516dc47688ab0f2361b6fbf0730924122957"
+    },
+    {
+      "name": "LICENSING.md",
+      "bytes": 1476,
+      "sha256": "c228b9c98a09b23fa0e0f79bbbd40d55a36ba38794522ed6c5cfab3b7193a48e"
+    },
+    {
+      "name": "REPRODUCTION_CHECK.json",
+      "bytes": 3220,
+      "sha256": "dafef0d8f02fc371f05c8e10df0d4a60f2a8c3280ff338d5063ba4eed35e37a6"
+    }
+  ],
+  "total_bytes_excluding_manifest": 492151741,
+  "scope": "Reproduction from frozen model-derived measurements, including identities and selection data. Embedding inference and nearest-neighbour construction are not re-run by this distribution."
+}

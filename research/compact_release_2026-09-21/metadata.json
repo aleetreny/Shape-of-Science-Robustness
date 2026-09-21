@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "title": "How much does the map of science depend on the embedding model? Compact reproducibility data and code",
+    "upload_type": "dataset",
+    "description": "<p>Compact analysis-level reproducibility release for a study of ten document embedding models and 500,000 OpenAlex records. Includes scientific code, fixed model versions and protocols, non-text corpus metadata, exact identities and selections, per-query neighbour intersection counts, per-model/per-area/repetition measurements, geometric measurements, and recorded controls.</p><p>The public verification recalculates 25 result tables (106,445 rows), checks 17,550 local neighbour scores from intersection counts, recomputes balanced local/global agreement, and verifies the four main figure aggregations. Results match the frozen reference tables.</p><p>This route starts from frozen model-derived measurements. It does not regenerate embeddings or reconstruct nearest-neighbour lists from historical texts. Embedding shards, cached centre vectors and neighbour lists, model weights, plaintext title/abstract input tables, manuscripts and supplements are excluded. Re-querying OpenAlex may not reproduce historical text. The accompanying coverage guide states the exact tested scope; a complete rerun of every historical analysis is not claimed.</p><p>Original scientific code: MIT. Original results and documentation: CC BY 4.0. OpenAlex metadata: CC0. Scientific source snapshot cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f. This compact distribution is version 1.1.0.</p>",
+    "creators": [
+      {
+        "name": "Treny Ortega, Alejandro",
+        "affiliation": "Independent researcher"
+      }
+    ],
+    "version": "1.1.0",
+    "publication_date": "2026-09-21",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "science mapping",
+      "document embeddings",
+      "robustness",
+      "reproducibility",
+      "OpenAlex"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0",
+        "relation": "isIdenticalTo",
+        "resource_type": "dataset"
+      }
+    ]
+  }
+}

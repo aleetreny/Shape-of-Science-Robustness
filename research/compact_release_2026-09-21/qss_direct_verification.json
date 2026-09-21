@@ -1,0 +1,10 @@
+{
+  "source": "https://direct.mit.edu/qss/pages/submission-guidelines",
+  "access": "Official page opened directly in browser; data-sharing section read from visible page",
+  "checked_at": "2026-09-21T14:47:41.209270+00:00",
+  "essential_data_required": true,
+  "code_strongly_recommended": true,
+  "public_repository_with_persistent_identifier_required": true,
+  "data_availability_statement_required": true,
+  "legal_or_ethical_exceptions_described": true
+}

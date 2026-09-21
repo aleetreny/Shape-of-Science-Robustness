@@ -1,3 +1,5 @@
+**Ruta pública vigente, 21-09-2026:** [distribución compacta con DOI](https://doi.org/10.5281/zenodo.22876602) y [comandos y límites](../COMPACT_REPRODUCIBILITY.md). Los inventarios y comandos históricos siguientes pueden referirse a cachés locales excluidas; para la entrega pública debe seguirse el README de la versión 1.1.0.
+
 # Cómo comprobar y reconstruir la entrega
 
 **Entrada pública vigente, 20-09-2026:** [reproducibility/README.md](../reproducibility/README.md). Incluye una prueba autónoma de los resúmenes de las cuatro figuras y una comprobación independiente desde los ZIP de vectores. La primera usa solo Python y ya funciona desde un clon; la segunda necesita los datos preparados para Zenodo, aún sin publicar. Allí se especifican las condiciones comprobadas y los límites. Los comandos que siguen documentan los ejecutores históricos y sus dependencias locales.

@@ -1,13 +1,13 @@
 cff-version: 1.2.0
-message: "Please cite the archived release used for your analysis. The repository contains a manuscript under author review."
+message: "Please cite the manuscript for the article and DOI 10.5281/zenodo.22876602 for the archived analysis data and code."
 type: software
 title: "Shape of Science Robustness: analysis software and reproducibility materials"
 authors:
   - family-names: "Treny Ortega"
     given-names: "Alejandro"
-    affiliation: "Independent researcher"
-version: "1.0.0"
-date-released: "2026-09-20"
+    affiliation: "University College London, London, United Kingdom"
+version: "1.1.0"
+date-released: "2026-09-21"
 repository-code: "https://github.com/aleetreny/Shape-of-Science-Robustness"
 license: MIT
 keywords:

@@ -1,4 +1,20 @@
+## Versión definitiva aprobada, 21-09-2026
+
+El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.
+
+Se retiran marcas de borrador de portadas, cabeceras y metadatos; se completan CRediT, declaraciones y disponibilidad del DOI público 10.5281/zenodo.22876602. Las declaraciones de herramientas se retiran después por instrucción del autor; el requisito editorial correspondiente queda sin cubrir y se comunica en el chat. Se mantienen voz, cuerpo científico, resultados y datos congelados.
+
+Fuentes arXiv en `output/arxiv_source.zip`; PDF oficiales en `output/pdf/`, traducción en `output/pdf/es/`. Carta y copias para endorsement fuera del repositorio, en la carpeta local hermana `Shape of Science Submission/2026-09-21`. Guía vigente: `docs/SUBMISSION_READY.md`. No se han enviado solicitudes de endorsement ni realizado el envío a QSS o arXiv. No archivar el repositorio en modo de solo lectura: conservarlo disponible para las revisiones editoriales.
+
+**Entrega vigente, 21-09-2026:** distribución compacta v1.1.0 publicada y comprobada: 15 archivos, 492.154.568 bytes. [GitHub](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0) y [archivo con DOI](https://doi.org/10.5281/zenodo.22876602). Sustituye la carga de 51 GB. Se conservan medidas, recuentos, identidades, selecciones y controles; se excluyen grandes cachés de vectores/listas, textos históricos, artículo, suplementos y notas internas. Reproducción estadística comprobada desde los ZIP en macOS y en un entorno Linux nuevo: 25 tablas, 106.445 filas idénticas y 17.550 medidas de vecinos coincidentes. No se certifica regeneración desde textos históricos ni todos los análisis suplementarios. El borrador antiguo 22863543 permanece sin publicar; el cargador local está retirado. No queda una subida a cargo del autor. Detalles: [COMPACT_REPRODUCIBILITY.md](COMPACT_REPRODUCIBILITY.md).
+
+El contenido siguiente documenta las entregas anteriores y sus cifras históricas.
+
 # Novedad y entrega reproducible, 20-09-2026
+
+**Paquete vigente, 21-09-2026:** el autor pide excluir artículo y suplementos de ambos idiomas. La carpeta de subida sigue teniendo 32 archivos y ahora ocupa 51,19 GB. El ZIP es `shape-of-science-code-v1.0.0-data-only.zip`: distribución científica filtrada del commit `cc61517`, con documentación actualizada y manifiesto de contenido. No incluye borradores, fuentes editoriales, versiones anteriores ni registros internos. Los 19 ZIP numéricos no cambian. [Guía exacta](ZENODO_UPLOAD.md). Los PDF enlazados a continuación permanecen en el proyecto y fuera del paquete de Zenodo.
+
+Los recuentos y el ZIP de la entrega del 20-09 que siguen se conservan como historial; quedan sustituidos para la carga por esta revisión.
 
 Los tres párrafos propuestos ya están integrados en el artículo, en inglés y español. [GitHub está actualizado y comprobado](https://github.com/aleetreny/Shape-of-Science-Robustness/commit/cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f). La versión de código archivada es `cc61517`; el paquete de Zenodo contiene **32 archivos y 51,41 GB**, incluido su ZIP de código. El depósito de Zenodo sigue siendo un **borrador sin archivos subidos**; el DOI reservado aún no acredita acceso público.
 

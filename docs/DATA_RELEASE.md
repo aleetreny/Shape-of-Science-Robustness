@@ -1,4 +1,10 @@
+**Entrega vigente, 21-09-2026:** distribución compacta v1.1.0 publicada y comprobada: 15 archivos, 492.154.568 bytes. [GitHub](https://github.com/aleetreny/Shape-of-Science-Reproducibility/releases/tag/v1.1.0) y [archivo con DOI](https://doi.org/10.5281/zenodo.22876602). Sustituye la carga de 51 GB. Se conservan medidas, recuentos, identidades, selecciones y controles; se excluyen grandes cachés de vectores/listas, textos históricos, artículo, suplementos y notas internas. Reproducción estadística comprobada desde los ZIP en macOS y en un entorno Linux nuevo: 25 tablas, 106.445 filas idénticas y 17.550 medidas de vecinos coincidentes. No se certifica regeneración desde textos históricos ni todos los análisis suplementarios. El borrador antiguo 22863543 permanece sin publicar; el cargador local está retirado. No queda una subida a cargo del autor. Detalles: [COMPACT_REPRODUCIBILITY.md](../COMPACT_REPRODUCIBILITY.md).
+
+El contenido siguiente documenta las entregas anteriores y sus cifras históricas.
+
 # Entrega de datos y código
+
+**Cambio de empaquetado, 21-09-2026:** el depósito excluye los artículos y suplementos, sus fuentes y copias históricas, en ambos idiomas, además de los registros internos de trabajo. El ZIP del código es una distribución científica seleccionada del commit `cc61517`, no una copia completa del repositorio. `CODE_VERSION.json` y su `PACKAGE_MANIFEST.json` identifican archivos y cambios de documentación. Los 19 ZIP de datos permanecen iguales. Total actual: 32 archivos, 51,19 GB. [Guía de carga](../ZENODO_UPLOAD.md).
 
 **Estado, 20-09-2026:** el autor ha autorizado la entrega y confirmado MIT para código propio y CC BY 4.0 para documentos/resultados propios. OpenAlex conserva CC0. Hay 19 ZIP verificados de datos, 51,14 GB y 58.201 archivos. El registro de Zenodo `22863543` está guardado como borrador, con DOI reservado y 75 GB de capacidad, **sin archivos publicados**.
 

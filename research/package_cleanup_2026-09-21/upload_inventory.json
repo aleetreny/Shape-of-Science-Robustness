@@ -1,0 +1,159 @@
+{
+  "files": 32,
+  "bytes": 51186372854,
+  "data_archives": 19,
+  "numerical_archives_repacked": false,
+  "code_version": {
+    "version": "1.0.0",
+    "git_commit": "cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+    "repository": "https://github.com/aleetreny/Shape-of-Science-Robustness",
+    "commit_url": "https://github.com/aleetreny/Shape-of-Science-Robustness/commit/cc61517dc2ea1e946c4fe391c4fcc80fa6e4819f",
+    "archive": "shape-of-science-code-v1.0.0-data-only.zip",
+    "sha256": "8194912bc8c77afcd41d349f1108ff86923cecc17682be0034e5f7aa1d8362b8",
+    "bytes": 21639585,
+    "files": 519,
+    "license": "MIT for original software; see LICENSING.md for documents and third parties",
+    "data_record_doi": "10.5281/zenodo.22863543",
+    "data_record_status_at_packaging": "draft, DOI reserved; no public data access yet",
+    "export_type": "Filtered scientific distribution; not a full repository mirror",
+    "package_revision_date": "2026-09-21",
+    "excluded_scope": "Manuscripts, supplements, editorial archives and internal work records",
+    "manifest": "PACKAGE_MANIFEST.json inside the code ZIP",
+    "documentation_overrides": [
+      "README.md",
+      "DOWNLOAD.md",
+      "reproducibility/README.md",
+      "reproducibility/DATA_DICTIONARY.md"
+    ]
+  },
+  "upload_files": [
+    {
+      "name": "CHECK_RESULTS.json",
+      "bytes": 5820
+    },
+    {
+      "name": "CODE_VERSION.json",
+      "bytes": 1111
+    },
+    {
+      "name": "DATA_DICTIONARY.md",
+      "bytes": 4612
+    },
+    {
+      "name": "DATA_EXCLUSIONS.json",
+      "bytes": 16091
+    },
+    {
+      "name": "DATA_MANIFEST.json",
+      "bytes": 20680031
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 1079
+    },
+    {
+      "name": "LICENSING.md",
+      "bytes": 1476
+    },
+    {
+      "name": "README.md",
+      "bytes": 6270
+    },
+    {
+      "name": "SCHEMAS.json",
+      "bytes": 29036
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 2600
+    },
+    {
+      "name": "THIRD_PARTY.md",
+      "bytes": 1919
+    },
+    {
+      "name": "UPLOAD_FILES.txt",
+      "bytes": 1681
+    },
+    {
+      "name": "analysis_ready_v1.zip",
+      "bytes": 44681504
+    },
+    {
+      "name": "analysis_v1.zip",
+      "bytes": 4660361783
+    },
+    {
+      "name": "checklist_v1.zip",
+      "bytes": 4163451981
+    },
+    {
+      "name": "embeddings_bert.zip",
+      "bytes": 4354753976
+    },
+    {
+      "name": "embeddings_biobert.zip",
+      "bytes": 4349008141
+    },
+    {
+      "name": "embeddings_minilm.zip",
+      "bytes": 778753906
+    },
+    {
+      "name": "embeddings_mpnet.zip",
+      "bytes": 1493222345
+    },
+    {
+      "name": "embeddings_pubmedbert.zip",
+      "bytes": 4355136633
+    },
+    {
+      "name": "embeddings_scibert.zip",
+      "bytes": 4353369913
+    },
+    {
+      "name": "embeddings_scincl.zip",
+      "bytes": 1489515013
+    },
+    {
+      "name": "embeddings_simcse.zip",
+      "bytes": 1493862235
+    },
+    {
+      "name": "embeddings_source_snapshot.zip",
+      "bytes": 15851
+    },
+    {
+      "name": "embeddings_specter.zip",
+      "bytes": 1491500821
+    },
+    {
+      "name": "embeddings_specter2.zip",
+      "bytes": 1492954779
+    },
+    {
+      "name": "field_pair_summary_v1.zip",
+      "bytes": 3351676
+    },
+    {
+      "name": "morphology_pilot_v1.zip",
+      "bytes": 12262219
+    },
+    {
+      "name": "prepaper_v1.zip",
+      "bytes": 5072276
+    },
+    {
+      "name": "robustness_closure_v1.zip",
+      "bytes": 7021431917
+    },
+    {
+      "name": "robustness_v2.zip",
+      "bytes": 9581274574
+    },
+    {
+      "name": "shape-of-science-code-v1.0.0-data-only.zip",
+      "bytes": 21639585
+    }
+  ]
+}

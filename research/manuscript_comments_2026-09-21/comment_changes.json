@@ -1,0 +1,86 @@
+[
+  {
+    "comment": 0,
+    "file": "manuscript_es/main.tex",
+    "before": "20 de septiembre de 2026",
+    "after": "21 de septiembre de 2026"
+  },
+  {
+    "comment": 1,
+    "file": "manuscript_es/main.tex",
+    "before": "Cuando medimos esa dispersión mediante ángulos desde un punto común, mover ese punto puede cambiar la comparación, incluso cuando elegir otros artículos no la cambia. Estas pruebas distinguen el acuerdo entre modelos de la estabilidad al elegir artículos.",
+    "after": "Una de las medidas de dispersión compara los ángulos entre líneas trazadas desde un mismo punto hasta la posición de cada artículo. Cambiar ese punto puede invertir qué disciplina parece más dispersa, aunque el resultado se mantenga al elegir otros artículos."
+  },
+  {
+    "comment": 2,
+    "file": "manuscript_es/main.tex",
+    "before": "Incluyen los 26.000 de la primera prueba más pequeña.",
+    "after": "Incluyen los 26.000 de una primera prueba. La ampliación permite comprobar cómo cambian las medidas de acuerdo y su sensibilidad a la elección de artículos al aumentar la muestra."
+  },
+  {
+    "comment": 3,
+    "file": "manuscript_es/main.tex",
+    "before": "Se eligieron por su uso para representar literatura académica y por sus distintas formas de entrenamiento.",
+    "after": "Para elegirlos, di prioridad a los modelos más utilizados en los estudios de mapas de la ciencia revisados, como SPECTER y SciBERT. Completé el conjunto con modelos empleados como comparación en esos trabajos, cubriendo distintas formas de entrenamiento \\citep{refbe130e2973,refc0e2cc29e0,ref07e33b3339}."
+  },
+  {
+    "comment": 4,
+    "file": "manuscript_es/main.tex",
+    "before": "Mantengo esas configuraciones y pruebo MiniLM con 512 tokens por separado.",
+    "after": "Mantengo esas configuraciones en la comparación principal. Como MiniLM recorta parte del texto de casi la mitad de los artículos, lo pruebo por separado con 512 tokens para comprobar si leer más texto cambia su acuerdo con los otros modelos."
+  },
+  {
+    "comment": 0,
+    "file": "manuscript/main.tex",
+    "before": "20 September 2026",
+    "after": "21 September 2026"
+  },
+  {
+    "comment": 1,
+    "file": "manuscript/main.tex",
+    "before": "When spread is measured through angles from a common reference point, moving that point can change the comparison even when selecting other papers does not. These checks distinguish agreement between models from stability to article selection.",
+    "after": "One measure of spread compares angles between lines drawn from a common point to each paper's position. Moving that point can reverse which discipline appears more spread out, even when selecting other papers leaves the answer unchanged."
+  },
+  {
+    "comment": 2,
+    "file": "manuscript/main.tex",
+    "before": "These include the 26,000 used in the first, smaller trial.",
+    "after": "These include the 26,000 used in an initial trial. The expansion tests how the agreement measures and their sensitivity to article selection change as more papers are included."
+  },
+  {
+    "comment": 3,
+    "file": "manuscript/main.tex",
+    "before": "Their use in scholarly representation and their different training approaches motivated the selection.",
+    "after": "I prioritised models used most often in the science-mapping studies reviewed, such as SPECTER and SciBERT. I added models used as comparators in those studies to cover different training approaches \\citep{refbe130e2973,refc0e2cc29e0,ref07e33b3339}."
+  },
+  {
+    "comment": 4,
+    "file": "manuscript/main.tex",
+    "before": "I retain those settings and test MiniLM at 512 tokens separately.",
+    "after": "I retain those settings for the main comparison. Because MiniLM cuts off text in almost half the papers, I also test it separately at 512 tokens to check whether reading more text changes its agreement with the other models."
+  },
+  {
+    "comment": 5,
+    "file": "manuscript_es/tables/editorial/T01.tex",
+    "before": "Incluye la primera prueba de 26.000.",
+    "after": "Incluye una primera prueba de 26.000."
+  },
+  {
+    "comment": 5,
+    "file": "manuscript_es/tables/tex/T01.tex",
+    "before": "Incluye la primera prueba de 26.000.",
+    "after": "Incluye una primera prueba de 26.000."
+  },
+  {
+    "comment": 5,
+    "file": "manuscript/tables/editorial/T01.tex",
+    "before": "Includes the first 26,000-paper trial.",
+    "after": "Includes an initial 26,000-paper trial."
+  },
+  {
+    "comment": 5,
+    "file": "manuscript/tables/tex/T01.tex",
+    "before": "Includes the first 26,000-paper trial.",
+    "after": "Includes an initial 26,000-paper trial."
+  }
+]

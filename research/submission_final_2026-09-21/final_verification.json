@@ -1,0 +1,91 @@
+{
+  "date": "2026-09-21",
+  "version": "final author-approved; English official; Spanish professional translation",
+  "pdfs": {
+    "en_main": {
+      "pages": 24,
+      "focus_pages": [
+        1,
+        21,
+        22,
+        24
+      ],
+      "no_draft_markers": true,
+      "sha256": "ab6554d1f5ccb3942c1c6e1b08de3a1a3874d934106d5ca4373421cf68f74495",
+      "no_review_annotations": true,
+      "portable_build_exact": true
+    },
+    "en_supplement": {
+      "pages": 39,
+      "focus_pages": [
+        1,
+        33,
+        34,
+        39
+      ],
+      "no_draft_markers": true,
+      "sha256": "6eab71c1998f9f75a63e7bd436e5c385b527fcde993f6a77300f3bef0909edf9",
+      "no_review_annotations": true,
+      "portable_build_exact": true
+    },
+    "es_main": {
+      "pages": 26,
+      "focus_pages": [
+        1,
+        23,
+        24,
+        26
+      ],
+      "no_draft_markers": true,
+      "sha256": "9d7c44774c5891cfc367dad4607d2392cf0345358e2f468c87c437203ba09875",
+      "no_review_annotations": true,
+      "portable_build_exact": true
+    },
+    "es_supplement": {
+      "pages": 41,
+      "focus_pages": [
+        1,
+        35,
+        36,
+        41
+      ],
+      "no_draft_markers": true,
+      "sha256": "03f3ec3d7d0e4995ab97727ffc317ef73f89ec7853a2e5aafbabf6884ba35edb",
+      "no_review_annotations": true,
+      "portable_build_exact": true
+    }
+  },
+  "source_archives": {
+    "arxiv_source.zip": {
+      "files": 45,
+      "bytes": 315957,
+      "sha256": "129d7ce6d504f1651ba89cad1efdb3d290c46bf714627a07bb165fa3b0b3c4a3",
+      "integrity": true
+    },
+    "manuscript_source.zip": {
+      "files": 230,
+      "bytes": 14793115,
+      "sha256": "eb7fa1d13acba50ca0f26e71bcfd1c5096b1c0c77122411dd55f14a6ca134080",
+      "integrity": true
+    },
+    "manuscript_source_es.zip": {
+      "files": 234,
+      "bytes": 14829359,
+      "sha256": "9183ca8e9ee3a897d73b167b6233db822b2ca671d798881442d53b66969444a6",
+      "integrity": true
+    }
+  },
+  "scientific_preservation": {
+    "unchanged_source_assets": 455,
+    "protected_tables_figures_bibliographies_unchanged": 440,
+    "abstract_and_scientific_body_identical_to_author_approved_baseline": true,
+    "new_scientific_calculations": false
+  },
+  "arxiv_zip_extracted_build_exact": true,
+  "compiler": "Tectonic / XeTeX; arXiv server build remains to be checked during submission",
+  "visual_review": "All 130 article/supplement pages inspected in contact sheets; title, declarations and availability pages inspected at readable resolution after final edits. Local cover letter visually checked.",
+  "private_delivery_hashes_verified": true,
+  "cover_letter_in_repository_or_sources": false,
+  "public_data_doi": "10.5281/zenodo.22876602",
+  "submission_status": "Not submitted to QSS or arXiv; no endorsement messages sent; portal declarations remain the author responsibility."
+}

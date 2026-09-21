@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-09-21T11:00:46.748592+00:00",
+  "draft_url": "https://zenodo.org/uploads/22863543",
+  "files_uploaded": 0,
+  "quota_GB": 75,
+  "doi": "10.5281/zenodo.22863543",
+  "doi_status": "reserved",
+  "description_updated": true,
+  "published": false,
+  "upload_guide": "ZENODO_UPLOAD.md",
+  "description_persistence_verified_after_reload": true
+}

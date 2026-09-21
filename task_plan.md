@@ -1,10 +1,12 @@
-# En curso: versión definitiva y entrega QSS/arXiv, 21-09-2026
+# Terminada: versión definitiva y entrega QSS/arXiv, 21-09-2026
 
 1. Verificar requisitos y metadatos: complete.
 2. Finalizar inglés oficial y traducción española, declaraciones y Zenodo: complete.
 3. Preparar carta local y fuente LaTeX arXiv: complete.
 4. Compilar, revisar PDF y verificar paquetes independientes: complete; cuatro PDF exactos y ZIP arXiv extraído y compilado.
-5. Cerrar documentación y GitHub; entregar archivos y pasos: pending.
+5. Cerrar documentación y GitHub; entregar archivos y pasos: complete; documentos públicos comprobados y carpeta local lista.
+
+PDF y fuentes publicados en `1cca723`; siete descargas públicas coinciden con los archivos locales y ambos ZIP editables coinciden con sus objetos Git. La entrega se identifica como `v1.1.0`. No se ha enviado a QSS/arXiv ni solicitado endorsement.
 
 # Terminada: distribución compacta y publicación, 21-09-2026
 

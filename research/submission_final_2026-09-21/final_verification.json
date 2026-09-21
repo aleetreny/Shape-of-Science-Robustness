@@ -87,5 +87,54 @@
   "private_delivery_hashes_verified": true,
   "cover_letter_in_repository_or_sources": false,
   "public_data_doi": "10.5281/zenodo.22876602",
-  "submission_status": "Not submitted to QSS or arXiv; no endorsement messages sent; portal declarations remain the author responsibility."
+  "submission_status": "Not submitted to QSS or arXiv; no endorsement messages sent; portal declarations remain the author responsibility.",
+  "github_public_verification": {
+    "commit": "1cca7239d4d77bcd9e83da1f08411c885c41693f",
+    "anonymous_downloads": [
+      {
+        "path": "output/pdf/main.pdf",
+        "bytes": 190312,
+        "sha256": "ab6554d1f5ccb3942c1c6e1b08de3a1a3874d934106d5ca4373421cf68f74495",
+        "anonymous_download_matches": true
+      },
+      {
+        "path": "output/pdf/supplement.pdf",
+        "bytes": 351955,
+        "sha256": "6eab71c1998f9f75a63e7bd436e5c385b527fcde993f6a77300f3bef0909edf9",
+        "anonymous_download_matches": true
+      },
+      {
+        "path": "output/pdf/es/main.pdf",
+        "bytes": 181800,
+        "sha256": "9d7c44774c5891cfc367dad4607d2392cf0345358e2f468c87c437203ba09875",
+        "anonymous_download_matches": true
+      },
+      {
+        "path": "output/pdf/es/supplement.pdf",
+        "bytes": 340697,
+        "sha256": "03f3ec3d7d0e4995ab97727ffc317ef73f89ec7853a2e5aafbabf6884ba35edb",
+        "anonymous_download_matches": true
+      },
+      {
+        "path": "output/arxiv_source.zip",
+        "bytes": 315957,
+        "sha256": "129d7ce6d504f1651ba89cad1efdb3d290c46bf714627a07bb165fa3b0b3c4a3",
+        "anonymous_download_matches": true
+      },
+      {
+        "path": "README.md",
+        "bytes": 3358,
+        "sha256": "87a1914047ba91a009cb48ace3e4c3f9d428b0192bccffc632f7caef142d9c93",
+        "anonymous_download_matches": true
+      },
+      {
+        "path": "CITATION.cff",
+        "bytes": 610,
+        "sha256": "a49e8d1a4a06000a5c4ce6037a8f10af8019ba173e91235632a7ca8df6c85552",
+        "anonymous_download_matches": true
+      }
+    ],
+    "full_editable_source_git_objects_match": true,
+    "reproduction_repository_metadata_commit": "1ef6ce4"
+  }
 }

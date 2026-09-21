@@ -1,3 +1,7 @@
+## Cierre de GitHub y entrega local, 21-09-2026
+
+Documentos finales publicados en `1cca723`; siete descargas anónimas verificadas por SHA-256 y ambos ZIP editables verificados contra los objetos Git públicos. Repositorio de reproducción actualizado en `1ef6ce4` solo para afiliación UCL y enlace al artículo; los archivos y la versión archivada de Zenodo se conservan. La versión de esta entrega es `v1.1.0`. PDF, fuentes arXiv, carta privada y paquete de endorsement disponibles en `../Shape of Science Submission/2026-09-21/`; instrucciones en `docs/SUBMISSION_READY.md` y `LEEME.md` local. Solo quedan el proceso personal de endorsement, los campos del portal y los envíos; no se han realizado por el autor.
+
 ## Verificación final de documentos, 21-09-2026
 
 Cuatro PDF finales: 24/39 páginas en inglés y 26/41 en español. Los cuatro paquetes portátiles reproducen exactamente sus PDF; el ZIP arXiv extraído también compila en los dos documentos ingleses exactos. Revisadas las 130 páginas en hojas de contacto y las páginas modificadas a tamaño legible; sin anotaciones de revisión, marcas de borrador, referencias ausentes ni desbordamientos. Se conservan 440 archivos de figuras, tablas y bibliografías, y el cuerpo/resumen científico aprobado. Carta de 231 palabras, Word/PDF, solo fuera del repositorio. Evidencia: `research/submission_final_2026-09-21/final_verification.json`.

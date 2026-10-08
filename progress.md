@@ -1,6 +1,6 @@
 ## Actualización para QSS, 08-10-2026
 
-Actualizadas las cuatro portadas y las fechas de compilación. Cuerpo científico y páginas interiores conservados: 24/39 páginas EN, 26/41 ES. Carta reescrita en inglés natural: 254 palabras de cuerpo, 273 con saludo y firma; una página revisada visualmente. Nueva carpeta local `../Shape of Science Submission/2026-10-08/`. Portal QSS: título, resumen de 194 palabras y tipo Research Article comprobados. El proceso de envío sigue en curso; no se ha pulsado Submit ni recibido confirmación.
+Actualizadas las cuatro portadas y las fechas de compilación. Cuerpo científico y páginas interiores conservados: 24/39 páginas EN, 26/41 ES. Carta reescrita en inglés natural: 254 palabras de cuerpo, 273 con saludo y firma; una página revisada visualmente. Nueva carpeta local `../Shape of Science Submission/2026-10-08/`. Portal QSS: título, resumen de 194 palabras y tipo Research Article comprobados. Publicados en `6dc0252`; cuatro PDF y ZIP arXiv descargados públicamente y comprobados por SHA-256. El selector automático de ScholarOne no abre el diálogo; se ha solicitado la carga manual de los dos PDF. Siguen pendientes respuestas del autor sobre ISSI, financiación de publicación y exclusividad. No se ha pulsado Submit ni recibido confirmación.
 
 ## Cierre de GitHub y entrega local, 21-09-2026
 

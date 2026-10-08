@@ -68,5 +68,35 @@
   },
   "visual_review": "Four title pages and one-page cover letter checked. All 126 non-title PDF page content streams unchanged.",
   "submission": "Not submitted. Portal upload and author declarations pending.",
-  "arxiv": "Prepared, not submitted or tested on arXiv server."
+  "arxiv": "Prepared, not submitted or tested on arXiv server.",
+  "public_verification": {
+    "commit": "6dc02525e37d7ea04842681502471f9152291f50",
+    "checks": [
+      {
+        "path": "output/pdf/main.pdf",
+        "bytes": 190310,
+        "exact": true
+      },
+      {
+        "path": "output/pdf/supplement.pdf",
+        "bytes": 351952,
+        "exact": true
+      },
+      {
+        "path": "output/pdf/es/main.pdf",
+        "bytes": 181799,
+        "exact": true
+      },
+      {
+        "path": "output/pdf/es/supplement.pdf",
+        "bytes": 340697,
+        "exact": true
+      },
+      {
+        "path": "output/arxiv_source.zip",
+        "bytes": 315968,
+        "exact": true
+      }
+    ]
+  }
 }

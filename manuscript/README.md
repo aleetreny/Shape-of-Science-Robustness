@@ -1,6 +1,6 @@
 # Final manuscript and supplementary material
 
-The official English manuscript, approved by the author on 21 September 2026. English is the authoritative version for journal submission, preprinting and citation. The Spanish version is a professional translation for the author.
+The official English manuscript, approved by the author on 21 September 2026; submission files updated on 8 October 2026. English is the authoritative version for journal submission, preprinting and citation. The Spanish version is a professional translation for the author.
 
 - `main.tex`: article, with author details, declarations and the public dataset citation.
 - `supplement.tex`: supplementary methods, controls and tables.

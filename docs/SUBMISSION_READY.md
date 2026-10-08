@@ -1,10 +1,10 @@
 # Final submission files
 
-Author-approved version dated 21 September 2026. The official manuscript and supplement are English. Spanish is a complete professional translation. The author requested University College London affiliation; the general institution and city are used without inventing a department, appointment, email address or ORCID.
+Author-approved version, with submission documents dated 8 October 2026. The official manuscript and supplement are English. Spanish is a complete professional translation. The author requested University College London affiliation; the general institution and city are used without inventing a department, appointment, email address or ORCID.
 
 ## QSS initial submission
 
-Upload `output/pdf/main.pdf` as the main manuscript and `output/pdf/supplement.pdf` as supplementary material. The separate cover letter is held locally outside this repository. It has 231 words and is supplied in Word and PDF. The article has an English abstract of 194 whitespace-delimited words, five keywords, numbered pages and sections, integrated figures/tables, and author-year references. The supplement is below 1 MB. The source packages are ready if requested.
+Upload `output/pdf/main.pdf` as the main manuscript and `output/pdf/supplement.pdf` as supplementary material. The separate cover letter is held locally outside this repository. It has 273 words including the salutation and signature and is supplied in Word and PDF. The article has an English abstract of 194 whitespace-delimited words, five keywords, numbered pages and sections, integrated figures/tables, and author-year references. The supplement is below 1 MB. The source packages are ready if requested.
 
 The end matter includes CRediT contributions, no competing interests, no external funding, data/code availability. The DOI is already public, not reserved. The data citation is in the reference list; Supplement S8 explains what is and is not reproduced.
 
@@ -22,7 +22,7 @@ Use the English title and abstract from `manuscript/main.tex`. In comments, desc
 
 For endorsement, the local `For_endorsement.zip` contains only the final English article and supplement. Start the arXiv submission and select the category to obtain its endorsement request link; send that link and the PDFs to the eligible researcher. An institutional email can help, but it does not guarantee automatic endorsement. No request has been sent on the author's behalf.
 
-## Requirements checked on 21 September 2026
+## Requirements checked on 21 September 2026; QSS rechecked on 8 October 2026
 
 - [QSS submission guidelines](https://direct.mit.edu/qss/pages/submission-guidelines): flexible initial PDF format, abstract/keywords, CRediT, cover letter, declarations, data, preprints.
 - [MIT Press author responsibilities](https://mitpress.mit.edu/for-authors/): the author must complete the publisher's applicable declarations before submitting.

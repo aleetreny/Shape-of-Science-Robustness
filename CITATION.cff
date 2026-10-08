@@ -6,8 +6,8 @@ authors:
   - family-names: "Treny Ortega"
     given-names: "Alejandro"
     affiliation: "University College London, London, United Kingdom"
-version: "1.1.0"
-date-released: "2026-09-21"
+version: "1.1.1"
+date-released: "2026-10-08"
 repository-code: "https://github.com/aleetreny/Shape-of-Science-Robustness"
 license: MIT
 keywords:

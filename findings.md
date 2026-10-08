@@ -1,3 +1,7 @@
+## Comprobaciones para el envío, 08-10-2026
+
+ScholarOne muestra el título correcto y 194/200 palabras en el resumen. Solo exige PDF principal y suplemento para revisión; LaTeX se pide únicamente por solicitud. El paso 5 requiere declaraciones de exclusividad, ética, conflictos, pertenencia a ISSI y acceso a financiación para APC. La política de MIT Press sobre declaración de herramientas sigue vigente; no se asume cubierto el requisito pendiente. Los cuatro PDF recompilados mantienen idénticos los flujos de contenido de todas sus páginas interiores respecto al 21 de septiembre; portadas y carta revisadas visualmente.
+
 ## Versión definitiva aprobada, 21-09-2026
 
 El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.

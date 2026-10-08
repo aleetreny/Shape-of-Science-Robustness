@@ -1,3 +1,5 @@
+Actualización de portada y fecha para envío: **8 de octubre de 2026**. El contenido científico se conserva.
+
 # Traducción española definitiva
 
 Versión profesional aprobada por el autor el 21 de septiembre de 2026. El inglés es la versión oficial para envío, preprint y cita. Se conservan en español todos los resultados, figuras, tablas, referencias y límites del original.

@@ -1,6 +1,6 @@
 # How much does the map of science depend on the embedding model?
 
-**Final author-approved manuscript, 21 September 2026.** Alejandro Treny Ortega, University College London, London, United Kingdom. English is the official version for submission and citation. A complete professional Spanish translation is also available.
+**Final author-approved manuscript; submission edition, 8 October 2026.** Alejandro Treny Ortega, University College London, London, United Kingdom. English is the official version for submission and citation. A complete professional Spanish translation is also available.
 
 The study compares ten embedding models on 500,000 OpenAlex publications across 26 research areas. It asks which relationships remain when the model, input text, selected articles or processing changes. The scientific calculations are complete and frozen. Journal submission and arXiv submission are the next steps; neither has been made by this repository release.
 

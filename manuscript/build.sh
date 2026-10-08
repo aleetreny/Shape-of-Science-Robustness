@@ -14,7 +14,7 @@ else
   printf '%s\n' 'Tectonic is required. Install it, or upload this manuscript folder to Overleaf and choose main.tex / supplement.tex.' >&2
   exit 1
 fi
-export SOURCE_DATE_EPOCH=1789732800
+export SOURCE_DATE_EPOCH=1791460800
 cd "$MANUSCRIPT_DIR"
 "$LATEX_COMPILER" --keep-logs --outdir "$OUTPUT_DIR" main.tex
 "$LATEX_COMPILER" --keep-logs --outdir "$OUTPUT_DIR" supplement.tex

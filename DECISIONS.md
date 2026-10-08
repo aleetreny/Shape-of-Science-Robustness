@@ -1,3 +1,7 @@
+## Actualización y envío a QSS autorizados, 08-10-2026
+
+El autor solicita actualizar las fechas de la entrega y enviar ahora el artículo a QSS. Autoriza reformular la carta en inglés natural, más explicativo y personal. Esta petición sustituye la restricción anterior de preparación sin envío para QSS; no autoriza enviar a arXiv. Las fechas históricas de datos, experimentos, aprobación y Zenodo se conservan. Los documentos actuales llevan 8 de octubre de 2026, con cuerpo científico intacto. La carta sigue exclusivamente en local.
+
 ## Ajuste posterior de presentación, 21-09-2026
 
 El autor solicita retirar la declaración de herramientas del artículo y de la carta. Se retira sin afirmar que el trabajo se realizó sin ayuda. Se le comunica que el requisito editorial correspondiente sigue sin cubrir. Esta retirada no elimina el registro real ni convierte el envío en conforme con todas las políticas del editor.

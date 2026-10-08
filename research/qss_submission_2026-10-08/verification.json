@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-08",
+  "scope": "Submission edition; dates only in scientific documents. New cover letter kept outside repository.",
+  "baseline_files": 467,
+  "unchanged_baseline_files": 452,
+  "changed_files": [
+    "manuscript/supplement.tex",
+    "manuscript/main.tex",
+    "manuscript/README.md",
+    "manuscript/build.sh",
+    "manuscript_es/supplement.tex",
+    "manuscript_es/main.tex",
+    "manuscript_es/README.md",
+    "manuscript_es/build.sh",
+    "output/pdf/main.pdf",
+    "output/pdf/supplement.pdf",
+    "output/pdf/es/main.pdf",
+    "output/pdf/es/supplement.pdf",
+    "output/arxiv_source.zip",
+    "output/manuscript_source.zip",
+    "output/manuscript_source_es.zip"
+  ],
+  "pdf_checks": {
+    "en_main": {
+      "pages": 24,
+      "date": "8 October 2026",
+      "all_non_title_page_streams_identical": true
+    },
+    "en_supplement": {
+      "pages": 39,
+      "date": "8 October 2026",
+      "all_non_title_page_streams_identical": true
+    },
+    "es_main": {
+      "pages": 26,
+      "date": "8 de octubre de 2026",
+      "all_non_title_page_streams_identical": true
+    },
+    "es_supplement": {
+      "pages": 41,
+      "date": "8 de octubre de 2026",
+      "all_non_title_page_streams_identical": true
+    }
+  },
+  "portable_builds": {
+    "en": {
+      "required_sources": 42,
+      "portable_pdf_builds_exact": true
+    },
+    "es": {
+      "required_sources": 42,
+      "portable_pdf_builds_exact": true
+    }
+  },
+  "archives": {
+    "output/arxiv_source.zip": {
+      "files": 45,
+      "sha256": "c396315e3e9cf88dee957278ec5af51e31513cad07cff165c99e7feb9ab42932"
+    },
+    "output/manuscript_source.zip": {
+      "files": 230,
+      "sha256": "b53c0c42fbf1eb7b505cadda73bf781311acd20c442602e7e0b95783ac78d278"
+    },
+    "output/manuscript_source_es.zip": {
+      "files": 234,
+      "sha256": "a900712e4b39805277a6eda56f69b859c75573d293ee406820f93c53f674476f"
+    }
+  },
+  "visual_review": "Four title pages and one-page cover letter checked. All 126 non-title PDF page content streams unchanged.",
+  "submission": "Not submitted. Portal upload and author declarations pending.",
+  "arxiv": "Prepared, not submitted or tested on arXiv server."
+}

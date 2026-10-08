@@ -1,3 +1,7 @@
+## Actualización para envío a QSS, 08-10-2026
+
+Fechas actuales en los cuatro PDF y fuentes; contenido científico conservado. Carta nueva, solo local, en `../Shape of Science Submission/2026-10-08/`. Comprobación en `research/qss_submission_2026-10-08/verification.json`. El envío a QSS está autorizado y en preparación; todavía no hay recibo. El selector automático de archivos no responde y se ha pedido al autor cargar los dos PDF. Pendientes las respuestas personales del formulario. No repetir análisis ni alterar el depósito de Zenodo.
+
 ## Versión definitiva aprobada y entregada, 21-09-2026
 
 El autor declara definitiva la versión actual y pide cerrar la entrega para QSS y arXiv. Inglés oficial para envío y cita; español como traducción profesional final. Afiliación solicitada: University College London, London, United Kingdom, sin inventar departamento, correo ni cargo. Esta aprobación sustituye las notas históricas de revisión personal pendiente.

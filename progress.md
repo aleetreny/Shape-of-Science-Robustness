@@ -1,3 +1,7 @@
+## Actualización para QSS, 08-10-2026
+
+Actualizadas las cuatro portadas y las fechas de compilación. Cuerpo científico y páginas interiores conservados: 24/39 páginas EN, 26/41 ES. Carta reescrita en inglés natural: 254 palabras de cuerpo, 273 con saludo y firma; una página revisada visualmente. Nueva carpeta local `../Shape of Science Submission/2026-10-08/`. Portal QSS: título, resumen de 194 palabras y tipo Research Article comprobados. El proceso de envío sigue en curso; no se ha pulsado Submit ni recibido confirmación.
+
 ## Cierre de GitHub y entrega local, 21-09-2026
 
 Documentos finales publicados en `1cca723`; siete descargas anónimas verificadas por SHA-256 y ambos ZIP editables verificados contra los objetos Git públicos. Repositorio de reproducción actualizado en `1ef6ce4` solo para afiliación UCL y enlace al artículo; los archivos y la versión archivada de Zenodo se conservan. La versión de esta entrega es `v1.1.0`. PDF, fuentes arXiv, carta privada y paquete de endorsement disponibles en `../Shape of Science Submission/2026-09-21/`; instrucciones en `docs/SUBMISSION_READY.md` y `LEEME.md` local. Solo quedan el proceso personal de endorsement, los campos del portal y los envíos; no se han realizado por el autor.

@@ -1,3 +1,12 @@
+# En curso: actualización y envío a QSS, 08-10-2026
+
+1. Actualizar fechas de los documentos actuales, conservando las fechas históricas: complete.
+2. Reescribir la carta en inglés natural y revisar los PDF: complete.
+3. Preparar y verificar los paquetes; actualizar la documentación y GitHub: in progress.
+4. Completar el envío autorizado a QSS y verificar el recibo: in progress; título y resumen comprobados; sesión abierta; selector de archivos sin respuesta, carga manual solicitada; declaraciones personales pendientes.
+
+La petición del 8 de octubre autoriza el envío a QSS. No autoriza declarar datos personales o cumplimiento editorial falsos. No se cambian resultados ni el depósito público del 21 de septiembre.
+
 # Terminada: versión definitiva y entrega QSS/arXiv, 21-09-2026
 
 1. Verificar requisitos y metadatos: complete.
